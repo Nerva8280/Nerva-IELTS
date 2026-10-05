@@ -4,7 +4,7 @@ import type { AppState } from "./store";
 import { addDays, diffDays, weekday } from "./dates";
 import { isDue } from "./srs";
 
-export type ItemKind = "grammar" | "reading" | "listening" | "writing" | "speaking" | "shadowing";
+export type ItemKind = "grammar" | "reading" | "listening" | "writing" | "speaking" | "shadowing" | "pronunciation";
 export interface CatalogItem {
   id: string;
   level: Level;
@@ -133,6 +133,7 @@ export const KIND_VI: Record<string, string> = {
   writing: "Writing",
   speaking: "Speaking",
   shadowing: "Shadowing",
+  pronunciation: "Phát âm",
   quiz: "Kiểm tra từ vựng",
   mock: "Mock test mini",
   rest: "Nghỉ",
@@ -200,9 +201,12 @@ export function generatePlan(s: AppState, catalog: Catalog, today: string): Plan
   }
 
   if (focus !== "mock") {
-    const sh = nextItem(catalog, "shadowing", s);
-    if (sh)
-      tasks.push({ key: sh.id, kind: "shadowing", itemId: sh.id, title: `Shadowing: ${sh.title}`, minutes: 6, href: itemHref("shadowing", sh.id) });
+    // Every other study day, a pronunciation drill replaces shadowing until all drills are done.
+    const pron = nextItem(catalog, "pronunciation", s);
+    const usePron = !!pron && !s.done[pron.id] && diffDays(choice.startDate, today) % 2 === 1;
+    const sh = usePron ? pron : nextItem(catalog, "shadowing", s);
+    const kind = usePron ? "pronunciation" : "shadowing";
+    if (sh) tasks.push({ key: sh.id, kind, itemId: sh.id, title: `${KIND_VI[kind]}: ${sh.title}`, minutes: 6, href: itemHref(kind, sh.id) });
   }
   return tasks;
 }

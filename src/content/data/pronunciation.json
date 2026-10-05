@@ -1,0 +1,2204 @@
+[
+  {
+    "id": "p-01",
+    "level": "A1",
+    "title": "Âm cuối /t/ và /d/",
+    "focus": "/t/ – /d/ cuối từ",
+    "explanationVi": "Tiếng Việt chỉ cho phép một số phụ âm cuối nhất định, và các âm cuối /t/, /d/ của tiếng Anh thường bị nuốt mất. Trong tiếng Anh, âm cuối mang nghĩa ngữ pháp và phân biệt từ, nên bỏ âm cuối là lỗi rất dễ bị giám khảo chú ý.\n\n- **/t/ cuối từ** là âm vô thanh: lưỡi chạm lợi trên, chặn khí rồi thả nhẹ, cổ họng không rung. Ví dụ: *bat, right, great*.\n- **/d/ cuối từ** là âm hữu thanh: vị trí lưỡi giống hệt /t/ nhưng cổ họng rung. Ví dụ: *bad, side, need*.\n- Nguyên âm đứng trước /d/ thường **kéo dài hơn** nguyên âm trước /t/: *seed* dài hơn *seat*.\n- Khi từ sau bắt đầu bằng phụ âm, người bản xứ có thể nén /t/, /d/ nhưng vẫn **giữ vị trí lưỡi** (lưỡi vẫn chạm lợi). Đừng bỏ hẳn.\n- Đừng thêm âm /ə/ hay /ɪ/ sau âm cuối: nói *bat* chứ không phải *bát-ơ*.\n\nHãy luyện nói chậm, dừng lại ở âm cuối trước khi tăng tốc.",
+    "mouthVi": "Đặt đầu lưỡi chạm vào lợi trên (phần lồi ngay sau răng cửa trên), giữ môi thả lỏng. Chặn khí trong một nhịp rồi thả. Với /t/: không rung cổ họng, có thể có chút bật hơi nhẹ. Với /d/: đặt tay lên cổ họng và cảm nhận rung. Đừng thả mạnh thành một âm nguyên âm thừa phía sau.",
+    "commonErrorVi": "Người Việt thường bỏ hẳn âm cuối: nói 'night' thành /naɪ/, 'need' thành /niː/, 'good' thành /ɡʊ/. Hậu quả là 'light' và 'lie', 'great' và 'grey' nghe y hệt nhau, và các dạng quá khứ hay danh từ bị mất nghĩa. Giám khảo IELTS sẽ chấm thấp tiêu chí Pronunciation vì phải đoán từ.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "bat",
+        "b": "bad",
+        "aIpa": "/bæt/",
+        "bIpa": "/bæd/"
+      },
+      {
+        "kind": "pair",
+        "a": "bet",
+        "b": "bed",
+        "aIpa": "/bet/",
+        "bIpa": "/bed/"
+      },
+      {
+        "kind": "pair",
+        "a": "seat",
+        "b": "seed",
+        "aIpa": "/siːt/",
+        "bIpa": "/siːd/"
+      },
+      {
+        "kind": "pair",
+        "a": "cart",
+        "b": "card",
+        "aIpa": "/kɑːt/",
+        "bIpa": "/kɑːd/"
+      },
+      {
+        "kind": "pair",
+        "a": "bit",
+        "b": "bid",
+        "aIpa": "/bɪt/",
+        "bIpa": "/bɪd/"
+      },
+      {
+        "kind": "pair",
+        "a": "white",
+        "b": "wide",
+        "aIpa": "/waɪt/",
+        "bIpa": "/waɪd/"
+      },
+      {
+        "kind": "pair",
+        "a": "coat",
+        "b": "code",
+        "aIpa": "/kəʊt/",
+        "bIpa": "/kəʊd/"
+      },
+      {
+        "kind": "pair",
+        "a": "hat",
+        "b": "had",
+        "aIpa": "/hæt/",
+        "bIpa": "/hæd/"
+      },
+      {
+        "kind": "pair",
+        "a": "light",
+        "b": "lie",
+        "aIpa": "/laɪt/",
+        "bIpa": "/laɪ/"
+      },
+      {
+        "kind": "pair",
+        "a": "note",
+        "b": "no",
+        "aIpa": "/nəʊt/",
+        "bIpa": "/nəʊ/"
+      },
+      {
+        "kind": "pair",
+        "a": "great",
+        "b": "grey",
+        "aIpa": "/ɡreɪt/",
+        "bIpa": "/ɡreɪ/"
+      },
+      {
+        "kind": "say",
+        "text": "What kind of food did you eat last night?",
+        "ipa": "/wɒt kaɪnd əv fuːd dɪd juː iːt lɑːst naɪt/",
+        "focusVi": "Giữ /t/ cuối 'eat', 'night' và /d/ cuối 'kind', 'food', 'did'."
+      },
+      {
+        "kind": "say",
+        "text": "The road was closed, so we had to wait.",
+        "ipa": "/ðə rəʊd wəz kləʊzd səʊ wiː hæd tə weɪt/",
+        "focusVi": "/d/ cuối 'road', 'closed' và /t/ cuối 'wait'. Chạm lưỡi vào lợi."
+      },
+      {
+        "kind": "say",
+        "text": "It was a great idea to get a good seat.",
+        "ipa": "/ɪt wəz ə ɡreɪt aɪˈdɪə tə ɡet ə ɡʊd siːt/",
+        "focusVi": "Ba âm /t/ và /d/ cuối: 'great', 'get', 'good', 'seat'. Không thêm nguyên âm."
+      },
+      {
+        "kind": "say",
+        "text": "He worked hard and finished the report.",
+        "ipa": "/hiː wɜːkt hɑːd ænd ˈfɪnɪʃt ðə rɪˈpɔːt/",
+        "focusVi": "Âm cuối -ed ('worked', 'finished') và 'hard', 'report'."
+      }
+    ]
+  },
+  {
+    "id": "p-02",
+    "level": "A1",
+    "title": "Âm cuối /k/ /g/ /p/ /b/",
+    "focus": "/k/ /ɡ/ /p/ /b/ cuối từ",
+    "explanationVi": "Tiếng Việt có âm cuối /k/ (c, ch), /p/ (p) nhưng không có /ɡ/ và /b/ cuối, nên người học thường biến /ɡ/ thành /k/ và /b/ thành /p/, hoặc bỏ luôn. Trong tiếng Anh, hai cặp này tạo ra các từ khác nhau.\n\n- **/k/ và /p/** là âm vô thanh: *back, pick, cap, stop*. Cổ họng không rung.\n- **/ɡ/ và /b/** là âm hữu thanh: *bag, pig, cab, job*. Cổ họng rung nhẹ trong lúc đóng âm.\n- Nguyên âm trước âm hữu thanh dài hơn: *bag* /bæɡ/ dài hơn *back* /bæk/. Đây là manh mối quan trọng nhất để người nghe phân biệt, hơn cả bản thân phụ âm cuối.\n- Âm cuối kiểu này là **âm nổ**: miệng đóng lại rồi mở ra. Khi nói nhanh bạn có thể không bật hơi mạnh, nhưng phải có động tác đóng môi hoặc đóng lưỡi.\n- Không thêm nguyên âm /ə/ sau âm cuối.\n\nLuyện cặp tối thiểu như *back/bag*, *cap/cab* để tai quen với độ dài nguyên âm.",
+    "mouthVi": "/k/ và /ɡ/: nâng cuống lưỡi chạm vòm mềm phía sau rồi thả. /p/ và /b/: khép hai môi, giữ khí rồi thả. Với /ɡ/ và /b/, hãy để cổ họng rung ngay từ khi đóng âm (đặt tay lên cổ để kiểm tra). Với /k/ và /p/, không rung. Đừng mở miệng ra thành 'bơ' hay 'gơ' sau âm cuối.",
+    "commonErrorVi": "Người Việt thường đọc 'bag' thành /bæk/, 'job' thành /dʒɒp/, 'dog' thành /dɒk/, hoặc bỏ hẳn âm cuối. Khi đó 'bag/back', 'cab/cap' nhập làm một, người nghe không biết bạn muốn nói từ nào, nhất là trong câu thiếu ngữ cảnh ở Part 1.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "back",
+        "b": "bag",
+        "aIpa": "/bæk/",
+        "bIpa": "/bæɡ/"
+      },
+      {
+        "kind": "pair",
+        "a": "pick",
+        "b": "pig",
+        "aIpa": "/pɪk/",
+        "bIpa": "/pɪɡ/"
+      },
+      {
+        "kind": "pair",
+        "a": "cap",
+        "b": "cab",
+        "aIpa": "/kæp/",
+        "bIpa": "/kæb/"
+      },
+      {
+        "kind": "pair",
+        "a": "rope",
+        "b": "robe",
+        "aIpa": "/rəʊp/",
+        "bIpa": "/rəʊb/"
+      },
+      {
+        "kind": "pair",
+        "a": "lap",
+        "b": "lab",
+        "aIpa": "/læp/",
+        "bIpa": "/læb/"
+      },
+      {
+        "kind": "pair",
+        "a": "dock",
+        "b": "dog",
+        "aIpa": "/dɒk/",
+        "bIpa": "/dɒɡ/"
+      },
+      {
+        "kind": "pair",
+        "a": "luck",
+        "b": "lug",
+        "aIpa": "/lʌk/",
+        "bIpa": "/lʌɡ/"
+      },
+      {
+        "kind": "pair",
+        "a": "tap",
+        "b": "tab",
+        "aIpa": "/tæp/",
+        "bIpa": "/tæb/"
+      },
+      {
+        "kind": "pair",
+        "a": "mop",
+        "b": "mob",
+        "aIpa": "/mɒp/",
+        "bIpa": "/mɒb/"
+      },
+      {
+        "kind": "pair",
+        "a": "bike",
+        "b": "buy",
+        "aIpa": "/baɪk/",
+        "bIpa": "/baɪ/"
+      },
+      {
+        "kind": "pair",
+        "a": "like",
+        "b": "lie",
+        "aIpa": "/laɪk/",
+        "bIpa": "/laɪ/"
+      },
+      {
+        "kind": "say",
+        "text": "I took a big bag and a black cap.",
+        "ipa": "/aɪ tʊk ə bɪɡ bæɡ ænd ə blæk kæp/",
+        "focusVi": "Phân biệt /ɡ/ trong 'big', 'bag' và /k/ trong 'black', 'cap' (lại có /p/ cuối)."
+      },
+      {
+        "kind": "say",
+        "text": "My job is to look after the dog.",
+        "ipa": "/maɪ dʒɒb ɪz tə lʊk ˈɑːftə ðə dɒɡ/",
+        "focusVi": "/b/ cuối 'job', /k/ cuối 'look', /ɡ/ cuối 'dog'."
+      },
+      {
+        "kind": "say",
+        "text": "Please stop and pick up a book.",
+        "ipa": "/pliːz stɒp ænd pɪk ʌp ə bʊk/",
+        "focusVi": "Hai /p/ cuối ('stop', 'up'), /k/ cuối ('pick', 'book'). Không rung cổ họng."
+      },
+      {
+        "kind": "say",
+        "text": "We had a nice trip to the zoo last week.",
+        "ipa": "/wiː hæd ə naɪs trɪp tə ðə zuː lɑːst wiːk/",
+        "focusVi": "/p/ cuối 'trip', /k/ cuối 'week'. Đóng môi/lưỡi dứt khoát."
+      }
+    ]
+  },
+  {
+    "id": "p-03",
+    "level": "A2",
+    "title": "Âm cuối /s/ /z/ /ʃ/ /tʃ/ /dʒ/ /v/",
+    "focus": "/s/ /z/ /ʃ/ /tʃ/ /dʒ/ /v/ cuối từ",
+    "explanationVi": "Các âm xát và âm tắc xát cuối từ là nhóm mà người Việt hay bỏ nhất, vì tiếng Việt không có âm cuối tương tự. Nhưng chính các âm này thường mang nghĩa ngữ pháp (số nhiều, ngôi thứ ba) hoặc phân biệt từ (*price/prize*, *safe/save*).\n\n- **/s/** vô thanh, **/z/** hữu thanh: *rice* /raɪs/, *rise* /raɪz/. Phải để ý độ dài nguyên âm và sự rung cổ họng.\n- **/ʃ/** (*wash*) và **/tʃ/** (*watch*): vô thanh. **/dʒ/** (*badge*) là phiên bản hữu thanh của /tʃ/.\n- **/v/** cuối từ phải có răng trên chạm môi dưới: *leave, save, have*. Không đọc thành /f/ hay bỏ.\n- Danh từ và động từ hay khác nhau ở âm cuối: *advice* /ədˈvaɪs/ (danh từ), *advise* /ədˈvaɪz/ (động từ).\n- Phải **giữ** âm cuối, kéo nhẹ cho đủ độ dài, không thêm /ə/.\n\nGợi ý: khi nói chậm, hãy kéo dài âm xát cuối một chút, sau đó rút gọn dần khi tăng tốc.",
+    "mouthVi": "/s/ và /z/: đầu lưỡi gần lợi trên, luồng khí thoát qua khe hẹp; /z/ thì rung cổ họng. /ʃ/: lưỡi lùi lại và môi hơi chu. /tʃ/ và /dʒ/: bắt đầu như /t/ /d/ rồi trượt sang /ʃ/ /ʒ/. /v/: răng cửa trên chạm nhẹ môi dưới và rung cổ họng; /f/ thì không rung. Giữ nguyên tư thế lưỡi hoặc môi thêm một nhịp ở cuối từ.",
+    "commonErrorVi": "Người Việt thường đọc 'five' thành /faɪ/, 'rice' và 'rise' như nhau, 'watch' thành /wɒt/, 'page' thành /peɪ/. Mất âm cuối làm thay đổi từ, mất dấu hiệu số nhiều/ngôi thứ ba và khiến giám khảo phải đoán nghĩa. Đây là một trong những lỗi gây mất điểm Pronunciation nhiều nhất.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "price",
+        "b": "prize",
+        "aIpa": "/praɪs/",
+        "bIpa": "/praɪz/"
+      },
+      {
+        "kind": "pair",
+        "a": "rice",
+        "b": "rise",
+        "aIpa": "/raɪs/",
+        "bIpa": "/raɪz/"
+      },
+      {
+        "kind": "pair",
+        "a": "bus",
+        "b": "buzz",
+        "aIpa": "/bʌs/",
+        "bIpa": "/bʌz/"
+      },
+      {
+        "kind": "pair",
+        "a": "peace",
+        "b": "peas",
+        "aIpa": "/piːs/",
+        "bIpa": "/piːz/"
+      },
+      {
+        "kind": "pair",
+        "a": "face",
+        "b": "phase",
+        "aIpa": "/feɪs/",
+        "bIpa": "/feɪz/"
+      },
+      {
+        "kind": "pair",
+        "a": "advice",
+        "b": "advise",
+        "aIpa": "/ədˈvaɪs/",
+        "bIpa": "/ədˈvaɪz/"
+      },
+      {
+        "kind": "pair",
+        "a": "watch",
+        "b": "wash",
+        "aIpa": "/wɒtʃ/",
+        "bIpa": "/wɒʃ/"
+      },
+      {
+        "kind": "pair",
+        "a": "batch",
+        "b": "badge",
+        "aIpa": "/bætʃ/",
+        "bIpa": "/bædʒ/"
+      },
+      {
+        "kind": "pair",
+        "a": "rich",
+        "b": "ridge",
+        "aIpa": "/rɪtʃ/",
+        "bIpa": "/rɪdʒ/"
+      },
+      {
+        "kind": "pair",
+        "a": "safe",
+        "b": "save",
+        "aIpa": "/seɪf/",
+        "bIpa": "/seɪv/"
+      },
+      {
+        "kind": "pair",
+        "a": "leaf",
+        "b": "leave",
+        "aIpa": "/liːf/",
+        "bIpa": "/liːv/"
+      },
+      {
+        "kind": "say",
+        "text": "I have to leave at five.",
+        "ipa": "/aɪ hæv tə liːv ət faɪv/",
+        "focusVi": "Giữ âm /v/ cuối 'have', 'leave', 'five': răng trên chạm môi dưới và rung."
+      },
+      {
+        "kind": "say",
+        "text": "Please give me some advice about the house.",
+        "ipa": "/pliːz ɡɪv miː səm ədˈvaɪs əˈbaʊt ðə haʊs/",
+        "focusVi": "'advice' kết thúc bằng /s/, 'house' (danh từ) /haʊs/. Đừng bỏ âm cuối."
+      },
+      {
+        "kind": "say",
+        "text": "She watches the match and wishes for peace.",
+        "ipa": "/ʃiː ˈwɒtʃɪz ðə mætʃ ænd ˈwɪʃɪz fə piːs/",
+        "focusVi": "Phân biệt /tʃ/ ('watches', 'match') và /ʃ/ ('wishes') với /s/ cuối 'peace'."
+      },
+      {
+        "kind": "say",
+        "text": "The price of rice rose last year.",
+        "ipa": "/ðə praɪs əv raɪs rəʊz lɑːst jɪə/",
+        "focusVi": "Phân biệt /s/ cuối 'price', 'rice' và /z/ cuối 'rose'. Nguyên âm trước /z/ dài hơn."
+      }
+    ]
+  },
+  {
+    "id": "p-04",
+    "level": "A2",
+    "title": "Đuôi -s/-es: /s/ /z/ /ɪz/",
+    "focus": "-s/-es → /s/ /z/ /ɪz/",
+    "explanationVi": "Đuôi -s/-es dùng cho danh từ số nhiều, động từ ngôi thứ ba số ít và sở hữu cách. Cách đọc **không phụ thuộc chữ viết mà phụ thuộc âm cuối của từ gốc**:\n\n- Sau âm **vô thanh** (/p/ /t/ /k/ /f/ /θ/) đọc **/s/**: *stops, cats, books, roofs, months*.\n- Sau âm **hữu thanh và nguyên âm** (/b/ /d/ /ɡ/ /v/ /ð/ /m/ /n/ /ŋ/ /l/ /r/ và mọi nguyên âm) đọc **/z/**: *jobs, dogs, plays, things, teachers*.\n- Sau âm **rít** (/s/ /z/ /ʃ/ /ʒ/ /tʃ/ /dʒ/) đọc **/ɪz/** và thêm một âm tiết: *boxes, watches, wishes, pages, sizes*.\n\nMẹo kiểm tra: đặt tay lên cổ họng. Nếu âm cuối của từ gốc làm cổ họng rung thì -s cũng rung (/z/).\n\nLưu ý chữ -s sau nguyên âm như *plays* vẫn đọc /z/, không phải /s/. Với giám khảo IELTS, việc đọc đúng và **không bỏ** đuôi -s thể hiện bạn kiểm soát ngữ pháp và phát âm cùng lúc.",
+    "mouthVi": "/s/ không rung cổ họng, /z/ rung cổ họng, đầu lưỡi gần lợi trên và khí đi qua khe hẹp. Với /ɪz/, đọc thành một âm tiết ngắn: *box-iz*, *watch-iz*. Khi nói nhanh, đừng rút /ɪz/ thành /s/ vì như vậy 'boxes' nghe như 'box'. Với từ có /θ/ như months, đẩy lưỡi giữa răng rồi chuyển nhanh sang /s/.",
+    "commonErrorVi": "Người Việt hay bỏ hẳn đuôi -s ('She like books') hoặc đọc mọi đuôi -s thành /s/ ('dogs' thành /dɒɡs/, 'plays' thành /pleɪs/). Cũng hay quên thêm âm tiết /ɪz/ ở 'boxes', 'watches'. Hậu quả: câu có vẻ sai ngữ pháp và người nghe khó phân biệt số ít/số nhiều.",
+    "items": [
+      {
+        "kind": "ending",
+        "word": "cats",
+        "ipa": "/kæts/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 0
+      },
+      {
+        "kind": "ending",
+        "word": "dogs",
+        "ipa": "/dɒɡz/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 1
+      },
+      {
+        "kind": "ending",
+        "word": "boxes",
+        "ipa": "/ˈbɒksɪz/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 2
+      },
+      {
+        "kind": "ending",
+        "word": "books",
+        "ipa": "/bʊks/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 0
+      },
+      {
+        "kind": "ending",
+        "word": "plays",
+        "ipa": "/pleɪz/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 1
+      },
+      {
+        "kind": "ending",
+        "word": "watches",
+        "ipa": "/ˈwɒtʃɪz/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 2
+      },
+      {
+        "kind": "ending",
+        "word": "stops",
+        "ipa": "/stɒps/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 0
+      },
+      {
+        "kind": "ending",
+        "word": "teachers",
+        "ipa": "/ˈtiːtʃəz/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 1
+      },
+      {
+        "kind": "ending",
+        "word": "wishes",
+        "ipa": "/ˈwɪʃɪz/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 2
+      },
+      {
+        "kind": "ending",
+        "word": "jobs",
+        "ipa": "/dʒɒbz/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 1
+      },
+      {
+        "kind": "ending",
+        "word": "roofs",
+        "ipa": "/ruːfs/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 0
+      },
+      {
+        "kind": "ending",
+        "word": "sizes",
+        "ipa": "/ˈsaɪzɪz/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 2
+      },
+      {
+        "kind": "ending",
+        "word": "things",
+        "ipa": "/θɪŋz/",
+        "options": [
+          "/s/",
+          "/z/",
+          "/ɪz/"
+        ],
+        "answer": 1
+      },
+      {
+        "kind": "say",
+        "text": "She watches films and reads books every weekend.",
+        "ipa": "/ʃiː ˈwɒtʃɪz fɪlmz ænd riːdz bʊks ˈevri wiːkˈend/",
+        "focusVi": "'watches' có /ɪz/, 'films' /z/ (sau /m/), 'reads' /z/, 'books' /s/."
+      },
+      {
+        "kind": "say",
+        "text": "My brother works at a bank and likes sports.",
+        "ipa": "/maɪ ˈbrʌðə wɜːks ət ə bæŋk ænd laɪks spɔːts/",
+        "focusVi": "'works' /s/, 'likes' /s/, 'sports' /s/. Không bỏ đuôi -s."
+      },
+      {
+        "kind": "say",
+        "text": "Teachers give students tips for exams.",
+        "ipa": "/ˈtiːtʃəz ɡɪv ˈstjuːdnts tɪps fər ɪɡˈzæmz/",
+        "focusVi": "'teachers' /z/, 'students' /s/, 'tips' /s/, 'exams' /z/."
+      }
+    ]
+  },
+  {
+    "id": "p-05",
+    "level": "A2",
+    "title": "Đuôi -ed: /t/ /d/ /ɪd/",
+    "focus": "-ed → /t/ /d/ /ɪd/",
+    "explanationVi": "Đuôi -ed của thì quá khứ và quá khứ phân từ có **ba cách đọc**, quyết định bởi âm cuối của động từ gốc:\n\n- Sau âm **vô thanh** (/p/ /k/ /f/ /s/ /ʃ/ /tʃ/ /θ/) đọc **/t/**: *worked, stopped, washed, watched, helped*.\n- Sau âm **hữu thanh và nguyên âm** đọc **/d/**: *played, lived, changed, listened, enjoyed*.\n- Sau **/t/ và /d/** đọc **/ɪd/** và thêm một âm tiết: *wanted, needed, decided, visited*.\n\nChú ý: quy tắc dựa vào **âm**, không dựa vào chữ. *Washed* kết thúc bằng âm /ʃ/ vô thanh nên đọc /t/. *Changed* kết thúc bằng /dʒ/ hữu thanh nên đọc /d/. Cả hai đều **không** thêm âm tiết.\n\nTrong Part 1 và Part 2 bạn kể chuyện quá khứ rất nhiều, nên đuôi -ed gần như xuất hiện trong mọi câu. Bỏ -ed khiến người nghe không biết bạn nói về quá khứ hay hiện tại.",
+    "mouthVi": "/t/ và /d/ cùng vị trí lưỡi chạm lợi trên: /t/ không rung cổ họng, /d/ rung. Với /ɪd/: nói thành âm tiết ngắn, ví dụ *want-id*, *need-id*. Với cụm như 'worked' /wɜːkt/, lưỡi chuyển từ /k/ sang /t/ mà không thêm nguyên âm. Với 'lived' /lɪvd/, cổ họng giữ rung đến hết và /d/ chỉ là một cái chạm lưỡi nhẹ.",
+    "commonErrorVi": "Người Việt thường bỏ hẳn -ed ('I work there yesterday'), hoặc đọc mọi -ed thành /ɪd/ ('work-ed', 'play-ed'), hoặc đọc -ed thành /ed/. Cả hai kiểu đều nghe không tự nhiên và gây nhầm thì. Giám khảo sẽ ghi nhận như lỗi ngữ pháp và phát âm.",
+    "items": [
+      {
+        "kind": "ending",
+        "word": "worked",
+        "ipa": "/wɜːkt/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 0
+      },
+      {
+        "kind": "ending",
+        "word": "played",
+        "ipa": "/pleɪd/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 1
+      },
+      {
+        "kind": "ending",
+        "word": "wanted",
+        "ipa": "/ˈwɒntɪd/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 2
+      },
+      {
+        "kind": "ending",
+        "word": "stopped",
+        "ipa": "/stɒpt/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 0
+      },
+      {
+        "kind": "ending",
+        "word": "lived",
+        "ipa": "/lɪvd/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 1
+      },
+      {
+        "kind": "ending",
+        "word": "decided",
+        "ipa": "/dɪˈsaɪdɪd/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 2
+      },
+      {
+        "kind": "ending",
+        "word": "washed",
+        "ipa": "/wɒʃt/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 0
+      },
+      {
+        "kind": "ending",
+        "word": "changed",
+        "ipa": "/tʃeɪndʒd/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 1
+      },
+      {
+        "kind": "ending",
+        "word": "needed",
+        "ipa": "/ˈniːdɪd/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 2
+      },
+      {
+        "kind": "ending",
+        "word": "helped",
+        "ipa": "/helpt/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 0
+      },
+      {
+        "kind": "ending",
+        "word": "listened",
+        "ipa": "/ˈlɪsnd/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 1
+      },
+      {
+        "kind": "ending",
+        "word": "visited",
+        "ipa": "/ˈvɪzɪtɪd/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 2
+      },
+      {
+        "kind": "ending",
+        "word": "watched",
+        "ipa": "/wɒtʃt/",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": 0
+      },
+      {
+        "kind": "say",
+        "text": "I visited my grandparents and helped them cook.",
+        "ipa": "/aɪ ˈvɪzɪtɪd maɪ ˈɡrænˌpeərənts ænd helpt ðem kʊk/",
+        "focusVi": "'visited' /ɪd/, 'helped' /t/. Dùng đúng ba kiểu -ed."
+      },
+      {
+        "kind": "say",
+        "text": "We stayed home, watched a film and played cards.",
+        "ipa": "/wiː steɪd həʊm wɒtʃt ə fɪlm ænd pleɪd kɑːdz/",
+        "focusVi": "'stayed' /d/, 'watched' /t/, 'played' /d/."
+      },
+      {
+        "kind": "say",
+        "text": "He wanted to change jobs, so he decided to move.",
+        "ipa": "/hiː ˈwɒntɪd tə tʃeɪndʒ dʒɒbz səʊ hiː dɪˈsaɪdɪd tə muːv/",
+        "focusVi": "'wanted' /ɪd/, 'decided' /ɪd/, hai âm tiết /ɪd/ ở 'wanted' và 'decided'; 'changed' chỉ là /d/ (không thêm âm tiết)."
+      }
+    ]
+  },
+  {
+    "id": "p-06",
+    "level": "A1",
+    "title": "/iː/ – /ɪ/ (sheep/ship)",
+    "focus": "/iː/ – /ɪ/",
+    "explanationVi": "Tiếng Anh có hai nguyên âm 'i' khác nhau về **độ dài và vị trí lưỡi**, còn tiếng Việt chỉ có một âm 'i'. Vì vậy người Việt thường dùng một âm cho cả hai.\n\n- **/iː/** là âm dài, căng: lưỡi cao và hơi đưa ra trước, môi kéo sang hai bên như đang cười. Ví dụ: *sheep, leave, seat, eat*.\n- **/ɪ/** là âm ngắn, lỏng: lưỡi thấp và lùi hơn một chút, môi thả lỏng. Ví dụ: *ship, live, sit, it*.\n- Khác biệt về độ dài càng rõ khi âm cuối là hữu thanh: *bead* /biːd/ dài hơn nhiều *bid* /bɪd/.\n- /ɪ/ không giống âm 'i' của tiếng Việt, mà nghe nằm giữa 'i' và 'ê'.\n\nTrong IELTS, nhầm *live/leave*, *sit/seat* cũng làm thay đổi nghĩa câu. Hãy luyện các cặp tối thiểu hằng ngày và thu âm lại.",
+    "mouthVi": "/iː/: kéo khóe môi sang hai bên như mỉm cười, lưỡi nâng cao sát vòm miệng, kéo dài gần gấp đôi /ɪ/. /ɪ/: thả lỏng môi và hàm, lưỡi hạ thấp hơn một chút, nói thật ngắn và nhẹ. Đặt gương trước mặt để kiểm tra: /iː/ môi căng, /ɪ/ môi chùng.",
+    "commonErrorVi": "Người Việt thường đọc 'ship' thành /ʃiːp/ hoặc ngược lại, 'live' thành /liːv/, 'it' thành /iːt/. Hậu quả: 'sheep/ship', 'leave/live', 'seat/sit', 'feet/fit' nghe giống nhau, câu nói dễ bị hiểu sai nghĩa, đặc biệt khi chủ đề là nơi ở, sức khỏe, thể thao.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "sheep",
+        "b": "ship",
+        "aIpa": "/ʃiːp/",
+        "bIpa": "/ʃɪp/"
+      },
+      {
+        "kind": "pair",
+        "a": "leave",
+        "b": "live",
+        "aIpa": "/liːv/",
+        "bIpa": "/lɪv/"
+      },
+      {
+        "kind": "pair",
+        "a": "seat",
+        "b": "sit",
+        "aIpa": "/siːt/",
+        "bIpa": "/sɪt/"
+      },
+      {
+        "kind": "pair",
+        "a": "feet",
+        "b": "fit",
+        "aIpa": "/fiːt/",
+        "bIpa": "/fɪt/"
+      },
+      {
+        "kind": "pair",
+        "a": "beat",
+        "b": "bit",
+        "aIpa": "/biːt/",
+        "bIpa": "/bɪt/"
+      },
+      {
+        "kind": "pair",
+        "a": "heat",
+        "b": "hit",
+        "aIpa": "/hiːt/",
+        "bIpa": "/hɪt/"
+      },
+      {
+        "kind": "pair",
+        "a": "green",
+        "b": "grin",
+        "aIpa": "/ɡriːn/",
+        "bIpa": "/ɡrɪn/"
+      },
+      {
+        "kind": "pair",
+        "a": "cheap",
+        "b": "chip",
+        "aIpa": "/tʃiːp/",
+        "bIpa": "/tʃɪp/"
+      },
+      {
+        "kind": "pair",
+        "a": "deep",
+        "b": "dip",
+        "aIpa": "/diːp/",
+        "bIpa": "/dɪp/"
+      },
+      {
+        "kind": "pair",
+        "a": "peak",
+        "b": "pick",
+        "aIpa": "/piːk/",
+        "bIpa": "/pɪk/"
+      },
+      {
+        "kind": "pair",
+        "a": "wheel",
+        "b": "will",
+        "aIpa": "/wiːl/",
+        "bIpa": "/wɪl/"
+      },
+      {
+        "kind": "pair",
+        "a": "eat",
+        "b": "it",
+        "aIpa": "/iːt/",
+        "bIpa": "/ɪt/"
+      },
+      {
+        "kind": "pair",
+        "a": "lead",
+        "b": "lid",
+        "aIpa": "/liːd/",
+        "bIpa": "/lɪd/"
+      },
+      {
+        "kind": "say",
+        "text": "Please sit in this seat and eat your meal.",
+        "ipa": "/pliːz sɪt ɪn ðɪs siːt ænd iːt jɔː miːl/",
+        "focusVi": "Phân biệt /ɪ/ ('sit', 'this') và /iː/ ('seat', 'eat', 'meal')."
+      },
+      {
+        "kind": "say",
+        "text": "I live near the sea, so I like to swim in it.",
+        "ipa": "/aɪ lɪv nɪə ðə siː səʊ aɪ laɪk tə swɪm ɪn ɪt/",
+        "focusVi": "'live' /ɪ/, 'near' /ɪə/, 'sea' /iː/, 'it' /ɪ/."
+      },
+      {
+        "kind": "say",
+        "text": "This cheap green sweater fits me.",
+        "ipa": "/ðɪs tʃiːp ɡriːn ˈswetə fɪts miː/",
+        "focusVi": "/iː/ trong 'cheap', 'green', 'sweater' (âm đầu) và /ɪ/ trong 'this', 'fits'."
+      }
+    ]
+  },
+  {
+    "id": "p-07",
+    "level": "A2",
+    "title": "/æ/ – /e/ (bad/bed)",
+    "focus": "/æ/ – /e/",
+    "explanationVi": "Người Việt thường không phân biệt /æ/ và /e/ vì tiếng Việt không có /æ/, nên 'bad' và 'bed' bị nghe như nhau. Đây là cặp nguyên âm ngắn nhưng rất hay xuất hiện.\n\n- **/e/** gần với âm 'e' của tiếng Việt: miệng mở vừa, lưỡi ở vị trí trung bình. Ví dụ: *bed, men, said, end*.\n- **/æ/** mở **rộng hơn**: hàm hạ thấp, lưỡi nằm thấp và hơi ra trước, âm nằm giữa 'a' và 'e'. Ví dụ: *bad, man, sad, and*.\n- /æ/ thường **dài hơn** /e/ một chút, đặc biệt trước âm hữu thanh: *bad* dài hơn *bet*.\n- Các từ thường gặp trong IELTS với /æ/: *family, travel, happy, understand, bag, plan, matter*.\n\nNếu bạn đọc /æ/ thành /e/ ('family' thành 'femily'), người nghe vẫn hiểu trong ngữ cảnh, nhưng cặp từ như *pan/pen*, *man/men*, *land/lend* sẽ gây nhầm. Hãy mở miệng rộng hơn và hạ hàm thấp khi gặp chữ 'a' trong các từ ngắn.",
+    "mouthVi": "/e/: mở miệng vừa phải, môi hơi kéo sang bên, lưỡi ở giữa. /æ/: hạ hàm xuống như khi ngáp nhẹ, lưỡi nằm thấp và phẳng, môi không chu, âm nghe hơi 'bẹt'. Thử nói 'a' rồi chuyển sang 'e' và để ý hàm di chuyển lên. Đặt ngón tay dưới cằm: với /æ/ hàm phải hạ rõ ràng.",
+    "commonErrorVi": "Người Việt thường đọc 'bad' thành /bed/ hoặc /baːd/, 'man' thành /men/, 'family' thành /ˈfemɪli/. Cặp 'bad/bed', 'sad/said', 'land/lend' nghe giống nhau, dễ gây hiểu nhầm, ví dụ 'I had a bad day' nghe như 'I had a bed day'.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "bad",
+        "b": "bed",
+        "aIpa": "/bæd/",
+        "bIpa": "/bed/"
+      },
+      {
+        "kind": "pair",
+        "a": "man",
+        "b": "men",
+        "aIpa": "/mæn/",
+        "bIpa": "/men/"
+      },
+      {
+        "kind": "pair",
+        "a": "pan",
+        "b": "pen",
+        "aIpa": "/pæn/",
+        "bIpa": "/pen/"
+      },
+      {
+        "kind": "pair",
+        "a": "bat",
+        "b": "bet",
+        "aIpa": "/bæt/",
+        "bIpa": "/bet/"
+      },
+      {
+        "kind": "pair",
+        "a": "sad",
+        "b": "said",
+        "aIpa": "/sæd/",
+        "bIpa": "/sed/"
+      },
+      {
+        "kind": "pair",
+        "a": "pat",
+        "b": "pet",
+        "aIpa": "/pæt/",
+        "bIpa": "/pet/"
+      },
+      {
+        "kind": "pair",
+        "a": "land",
+        "b": "lend",
+        "aIpa": "/lænd/",
+        "bIpa": "/lend/"
+      },
+      {
+        "kind": "pair",
+        "a": "gas",
+        "b": "guess",
+        "aIpa": "/ɡæs/",
+        "bIpa": "/ɡes/"
+      },
+      {
+        "kind": "pair",
+        "a": "and",
+        "b": "end",
+        "aIpa": "/ænd/",
+        "bIpa": "/end/"
+      },
+      {
+        "kind": "pair",
+        "a": "bag",
+        "b": "beg",
+        "aIpa": "/bæɡ/",
+        "bIpa": "/beɡ/"
+      },
+      {
+        "kind": "pair",
+        "a": "mat",
+        "b": "met",
+        "aIpa": "/mæt/",
+        "bIpa": "/met/"
+      },
+      {
+        "kind": "pair",
+        "a": "pack",
+        "b": "peck",
+        "aIpa": "/pæk/",
+        "bIpa": "/pek/"
+      },
+      {
+        "kind": "say",
+        "text": "The man had a bad accident last Thursday.",
+        "ipa": "/ðə mæn hæd ə bæd ˈæksɪdənt lɑːst ˈθɜːzdeɪ/",
+        "focusVi": "Mở rộng miệng với /æ/ trong 'man', 'had', 'bad', 'accident'."
+      },
+      {
+        "kind": "say",
+        "text": "I can't find my bag, and my friend can't help.",
+        "ipa": "/aɪ kɑːnt faɪnd maɪ bæɡ ænd maɪ frend kɑːnt help/",
+        "focusVi": "/æ/ trong 'can't' (BrE là /kɑːnt/), 'bag', 'and'. Chú ý /e/ trong 'friend', 'help'."
+      },
+      {
+        "kind": "say",
+        "text": "She said she was sad about the end of the plan.",
+        "ipa": "/ʃiː sed ʃiː wəz sæd əˈbaʊt ði end əv ðə plæn/",
+        "focusVi": "Phân biệt /e/ ('said', 'end') và /æ/ ('sad', 'plan')."
+      }
+    ]
+  },
+  {
+    "id": "p-08",
+    "level": "A2",
+    "title": "/θ/ /ð/ (so với /s/ /t/ /d/ /z/)",
+    "focus": "/θ/ /ð/",
+    "explanationVi": "Hai âm 'th' của tiếng Anh không có trong tiếng Việt nên người học thay bằng âm gần nhất: /s/, /t/, /d/, /z/. Dù vậy, đây là hai âm rất thường gặp (*the, this, that, think, three, with, month*) nên lỗi này lặp lại hàng chục lần trong một bài nói.\n\n- **/θ/** là âm **vô thanh**: *think, three, thank, month, both*. Chỉ có hơi thoát giữa lưỡi và răng.\n- **/ð/** là âm **hữu thanh**: *the, this, that, then, mother, with*. Cổ họng rung.\n- Cả hai đều có tư thế giống nhau: đầu lưỡi nằm giữa hoặc chạm nhẹ mép răng cửa trên.\n- Khi đứng cuối từ như *with*, *both*, *month*, vẫn phải giữ âm 'th'.\n- Các từ chức năng như *the, this, that, they, there, then* đa phần có /ð/. Chúng xuất hiện cực kỳ nhiều trong bài nói.\n\nPhân biệt rõ: *think* /θɪŋk/ khác *sink* /sɪŋk/; *three* /θriː/ khác *tree* /triː/; *they* /ðeɪ/ khác *day* /deɪ/.",
+    "mouthVi": "Đưa đầu lưỡi ra giữa hai hàm răng (hoặc chạm sát mép răng cửa trên), để khe hẹp. Với /θ/: thổi hơi nhẹ, cổ họng không rung. Với /ð/: giữ nguyên tư thế nhưng bật rung cổ họng, như tiếng ong vo ve. Đừng cắn chặt lưỡi và đừng rụt lưỡi vào sau răng. Tập trước gương: phải thấy đầu lưỡi một chút.",
+    "commonErrorVi": "Người Việt thường đọc 'think' thành /tɪŋk/ hoặc /sɪŋk/, 'three' thành /triː/, 'this' thành /dɪs/ hoặc /zɪs/, 'the' thành /də/. Hậu quả: 'think' nghe như 'sink' hay 'tink', 'three' như 'tree'. Giám khảo vẫn hiểu nhưng sẽ cho rằng phát âm chưa chuẩn xác ở mức độ âm.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "think",
+        "b": "sink",
+        "aIpa": "/θɪŋk/",
+        "bIpa": "/sɪŋk/"
+      },
+      {
+        "kind": "pair",
+        "a": "three",
+        "b": "tree",
+        "aIpa": "/θriː/",
+        "bIpa": "/triː/"
+      },
+      {
+        "kind": "pair",
+        "a": "thin",
+        "b": "tin",
+        "aIpa": "/θɪn/",
+        "bIpa": "/tɪn/"
+      },
+      {
+        "kind": "pair",
+        "a": "thank",
+        "b": "sank",
+        "aIpa": "/θæŋk/",
+        "bIpa": "/sæŋk/"
+      },
+      {
+        "kind": "pair",
+        "a": "mouth",
+        "b": "mouse",
+        "aIpa": "/maʊθ/",
+        "bIpa": "/maʊs/"
+      },
+      {
+        "kind": "pair",
+        "a": "thought",
+        "b": "taught",
+        "aIpa": "/θɔːt/",
+        "bIpa": "/tɔːt/"
+      },
+      {
+        "kind": "pair",
+        "a": "path",
+        "b": "pass",
+        "aIpa": "/pɑːθ/",
+        "bIpa": "/pɑːs/"
+      },
+      {
+        "kind": "pair",
+        "a": "teeth",
+        "b": "tease",
+        "aIpa": "/tiːθ/",
+        "bIpa": "/tiːz/"
+      },
+      {
+        "kind": "pair",
+        "a": "then",
+        "b": "den",
+        "aIpa": "/ðen/",
+        "bIpa": "/den/"
+      },
+      {
+        "kind": "pair",
+        "a": "they",
+        "b": "day",
+        "aIpa": "/ðeɪ/",
+        "bIpa": "/deɪ/"
+      },
+      {
+        "kind": "pair",
+        "a": "there",
+        "b": "dare",
+        "aIpa": "/ðeə/",
+        "bIpa": "/deə/"
+      },
+      {
+        "kind": "pair",
+        "a": "clothe",
+        "b": "close",
+        "aIpa": "/kləʊð/",
+        "bIpa": "/kləʊz/"
+      },
+      {
+        "kind": "say",
+        "text": "I think three of them are worth it.",
+        "ipa": "/aɪ θɪŋk θriː əv ðem ɑː wɜːθ ɪt/",
+        "focusVi": "/θ/ trong 'think', 'three', 'worth'; /ð/ trong 'them'."
+      },
+      {
+        "kind": "say",
+        "text": "My brother and mother usually go there together.",
+        "ipa": "/maɪ ˈbrʌðər ænd ˈmʌðə ˈjuːʒuəli ɡəʊ ðeə təˈɡeðə/",
+        "focusVi": "/ð/ trong 'brother', 'mother', 'there', 'together'. Rung cổ họng."
+      },
+      {
+        "kind": "say",
+        "text": "Thank you for the thoughtful gift this month.",
+        "ipa": "/θæŋk juː fə ðə ˈθɔːtfl ɡɪft ðɪs mʌnθ/",
+        "focusVi": "/θ/ trong 'Thank', 'thoughtful', 'month'; /ð/ trong 'the', 'this'."
+      }
+    ]
+  },
+  {
+    "id": "p-09",
+    "level": "A2",
+    "title": "/ʃ/ – /s/",
+    "focus": "/ʃ/ – /s/",
+    "explanationVi": "Tiếng Việt có âm 'x' và 's' đều gần với /s/ ở nhiều vùng, nên người học dễ đọc /ʃ/ (như 'sh' trong *she*) thành /s/. Đây là cặp âm xát vô thanh có vị trí lưỡi khác nhau.\n\n- **/s/** xuất hiện trong *sea, sit, sun, bus, rice*. Đầu lưỡi ở gần lợi trên, môi không chu, khí thoát qua khe hẹp và nghe 'xì' sắc.\n- **/ʃ/** xuất hiện trong *she, ship, shop, wash, nation*. Lưỡi **lùi lại** và nâng lên về phía vòm cứng, môi **chu tròn nhẹ**, âm nghe 'suỵt' dày hơn.\n- Chữ viết thường gặp /ʃ/: *sh* (*shop*), *ti* (*nation*), *ci* (*special*), *ss* (*pressure*), *ch* (*machine*).\n- Cả hai đều **vô thanh**: không rung cổ họng.\n\nNhầm lẫn này làm hai từ khác nghĩa: *ship/sip*, *sheet/seat*, *shy/sigh*, *shell/sell*. Trong IELTS, từ như *special*, *situation*, *social*, *machine* xuất hiện thường xuyên nên hãy chú ý kỹ.",
+    "mouthVi": "Với /s/: đầu lưỡi gần lợi trên, môi thả lỏng hoặc hơi kéo bên, răng gần khép. Với /ʃ/: đẩy lưỡi lùi lại một chút, nâng thân lưỡi lên vòm, chu môi như khi bảo 'suỵt'. Thử kéo dài 'sss' rồi lùi lưỡi và chu môi để chuyển sang 'shhh'. Âm /ʃ/ nghe 'trầm' hơn /s/.",
+    "commonErrorVi": "Người Việt thường đọc 'she' thành /siː/, 'ship' thành /sɪp/, 'shop' thành /sɒp/, hoặc ngược lại đọc /s/ thành /ʃ/ ở 'sit' khi hiệu chỉnh quá đà. Khi đó 'she/sea', 'sheet/seat', 'shy/sigh' nghe như nhau và nghĩa câu sai lệch, ví dụ 'I sell sea shells' thành chuỗi âm lộn xộn.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "she",
+        "b": "sea",
+        "aIpa": "/ʃiː/",
+        "bIpa": "/siː/"
+      },
+      {
+        "kind": "pair",
+        "a": "shy",
+        "b": "sigh",
+        "aIpa": "/ʃaɪ/",
+        "bIpa": "/saɪ/"
+      },
+      {
+        "kind": "pair",
+        "a": "ship",
+        "b": "sip",
+        "aIpa": "/ʃɪp/",
+        "bIpa": "/sɪp/"
+      },
+      {
+        "kind": "pair",
+        "a": "sheet",
+        "b": "seat",
+        "aIpa": "/ʃiːt/",
+        "bIpa": "/siːt/"
+      },
+      {
+        "kind": "pair",
+        "a": "shell",
+        "b": "sell",
+        "aIpa": "/ʃel/",
+        "bIpa": "/sel/"
+      },
+      {
+        "kind": "pair",
+        "a": "shoe",
+        "b": "sue",
+        "aIpa": "/ʃuː/",
+        "bIpa": "/suː/"
+      },
+      {
+        "kind": "pair",
+        "a": "shave",
+        "b": "save",
+        "aIpa": "/ʃeɪv/",
+        "bIpa": "/seɪv/"
+      },
+      {
+        "kind": "pair",
+        "a": "shock",
+        "b": "sock",
+        "aIpa": "/ʃɒk/",
+        "bIpa": "/sɒk/"
+      },
+      {
+        "kind": "pair",
+        "a": "show",
+        "b": "so",
+        "aIpa": "/ʃəʊ/",
+        "bIpa": "/səʊ/"
+      },
+      {
+        "kind": "pair",
+        "a": "mesh",
+        "b": "mess",
+        "aIpa": "/meʃ/",
+        "bIpa": "/mes/"
+      },
+      {
+        "kind": "say",
+        "text": "She sells shells by the seashore.",
+        "ipa": "/ʃiː selz ʃelz baɪ ðə ˈsiːʃɔː/",
+        "focusVi": "/ʃ/ trong 'She', 'shells', cuối 'seashore'; /s/ trong 'sells' và đầu 'seashore'."
+      },
+      {
+        "kind": "say",
+        "text": "The special situation made me shy and nervous.",
+        "ipa": "/ðə ˈspeʃl ˌsɪtʃuˈeɪʃn meɪd miː ʃaɪ ænd ˈnɜːvəs/",
+        "focusVi": "/ʃ/ trong 'special', 'situation', 'shy'; /s/ trong 'situation' (đầu), 'nervous'."
+      },
+      {
+        "kind": "say",
+        "text": "I should save some cash for the shopping.",
+        "ipa": "/aɪ ʃʊd seɪv səm kæʃ fə ðə ˈʃɒpɪŋ/",
+        "focusVi": "/ʃ/ trong 'should', 'cash', 'shopping'; /s/ trong 'save', 'some'."
+      },
+      {
+        "kind": "say",
+        "text": "The machine washed the sheets well.",
+        "ipa": "/ðə məˈʃiːn wɒʃt ðə ʃiːts wel/",
+        "focusVi": "/ʃ/ trong 'machine', 'washed', 'sheets'. Chu môi nhẹ."
+      }
+    ]
+  },
+  {
+    "id": "p-10",
+    "level": "A2",
+    "title": "/l/ – /n/ (nhầm lẫn miền Bắc)",
+    "focus": "/l/ – /n/",
+    "explanationVi": "Ở nhiều vùng miền Bắc, /l/ và /n/ được dùng lẫn lộn (nói 'nón' thành 'lón', 'lên' thành 'nên'). Khi nói tiếng Anh, thói quen này lặp lại, làm *light/night*, *low/no*, *line/nine* nghe không rõ.\n\n- **/l/** là âm bên: đầu lưỡi chạm lợi trên nhưng **khí thoát ra hai bên lưỡi**, miệng vẫn mở. Ví dụ: *light, lead, low, line*.\n- **/n/** là âm mũi: đầu lưỡi chạm lợi trên y hệt, nhưng **khí thoát ra đường mũi** và không có khí đi ra qua miệng. Ví dụ: *night, need, no, nine*.\n- Ở **cuối từ**, /l/ trong tiếng Anh là *dark l*: lưỡi chạm lợi và phần sau lưỡi hơi lùi/cong, ví dụ *mile, file, coal, bowl*. Còn /n/ cuối từ thì đóng lưỡi và hơi ra mũi: *mine, fine, cone, bone*.\n- Cặp /l/ - /n/ ở đầu từ đã khó, nhưng cuối từ cũng quan trọng không kém.\n\nMẹo kiểm tra: bịt mũi lại. Khi nói /n/ bạn sẽ thấy khí bị bít lại; khi nói /l/ vẫn thoát khí bình thường.",
+    "mouthVi": "Với cả hai âm, đặt đầu lưỡi chạm lợi trên. Với /l/: giữ miệng mở, để khí thoát sang hai bên lưỡi, cổ họng rung; có thể kéo dài 'lll' liên tục. Với /n/: hạ vòm mềm để khí đi qua mũi, mũi rung nhẹ; kéo dài 'nnn' như tiếng ngân. Thử bịt mũi: /l/ nghe không đổi nhiều, còn /n/ nghe như 'd'.",
+    "commonErrorVi": "Người học miền Bắc thường đọc 'light' thành /naɪt/, 'night' thành /laɪt/, 'no' thành /ləʊ/, 'line' thành /naɪn/, và cuối từ 'mile' thành /maɪn/. Hậu quả: nhầm 'I like/I night', 'low/no', 'nice/lice' và nhiều câu hỏi/đáp bị đổi nghĩa, thậm chí gây hiểu nhầm trong Part 1.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "light",
+        "b": "night",
+        "aIpa": "/laɪt/",
+        "bIpa": "/naɪt/"
+      },
+      {
+        "kind": "pair",
+        "a": "low",
+        "b": "no",
+        "aIpa": "/ləʊ/",
+        "bIpa": "/nəʊ/"
+      },
+      {
+        "kind": "pair",
+        "a": "line",
+        "b": "nine",
+        "aIpa": "/laɪn/",
+        "bIpa": "/naɪn/"
+      },
+      {
+        "kind": "pair",
+        "a": "lap",
+        "b": "nap",
+        "aIpa": "/læp/",
+        "bIpa": "/næp/"
+      },
+      {
+        "kind": "pair",
+        "a": "lock",
+        "b": "knock",
+        "aIpa": "/lɒk/",
+        "bIpa": "/nɒk/"
+      },
+      {
+        "kind": "pair",
+        "a": "let",
+        "b": "net",
+        "aIpa": "/let/",
+        "bIpa": "/net/"
+      },
+      {
+        "kind": "pair",
+        "a": "lice",
+        "b": "nice",
+        "aIpa": "/laɪs/",
+        "bIpa": "/naɪs/"
+      },
+      {
+        "kind": "pair",
+        "a": "lead",
+        "b": "need",
+        "aIpa": "/liːd/",
+        "bIpa": "/niːd/"
+      },
+      {
+        "kind": "pair",
+        "a": "mile",
+        "b": "mine",
+        "aIpa": "/maɪl/",
+        "bIpa": "/maɪn/"
+      },
+      {
+        "kind": "pair",
+        "a": "file",
+        "b": "fine",
+        "aIpa": "/faɪl/",
+        "bIpa": "/faɪn/"
+      },
+      {
+        "kind": "pair",
+        "a": "coal",
+        "b": "cone",
+        "aIpa": "/kəʊl/",
+        "bIpa": "/kəʊn/"
+      },
+      {
+        "kind": "pair",
+        "a": "bowl",
+        "b": "bone",
+        "aIpa": "/bəʊl/",
+        "bIpa": "/bəʊn/"
+      },
+      {
+        "kind": "say",
+        "text": "Last night, I learned a new language.",
+        "ipa": "/lɑːst naɪt aɪ lɜːnd ə njuː ˈlæŋɡwɪdʒ/",
+        "focusVi": "/l/ trong 'Last', 'learned', 'language' và /n/ trong 'night', 'new'."
+      },
+      {
+        "kind": "say",
+        "text": "No, I live in a nice little town.",
+        "ipa": "/nəʊ aɪ lɪv ɪn ə naɪs ˈlɪtl taʊn/",
+        "focusVi": "Phân biệt /n/ ('No', 'in', 'nice', 'town') với /l/ ('live', 'little')."
+      },
+      {
+        "kind": "say",
+        "text": "The line for the lift is long.",
+        "ipa": "/ðə laɪn fə ðə lɪft ɪz lɒŋ/",
+        "focusVi": "/l/ trong 'line', 'lift', 'long'. Kéo lưỡi chạm lợi và khí đi qua hai bên."
+      }
+    ]
+  },
+  {
+    "id": "p-11",
+    "level": "B1",
+    "title": "/r/ – /z/ và /r/ – /l/ (miền Nam/Trung)",
+    "focus": "/r/ – /z/, /r/ – /l/",
+    "explanationVi": "Ở nhiều vùng miền Nam và miền Trung, chữ 'r' trong tiếng Việt được đọc gần như /z/ hoặc /ʐ/, nên khi nói tiếng Anh *rice* dễ thành *zice*. Mặt khác một số người còn nhầm /r/ với /l/, ví dụ *right/light*.\n\n- **/r/ tiếng Anh** là âm tiếp cận: **lưỡi cuộn nhẹ hoặc rụt về phía sau**, đầu lưỡi **không chạm** vòm, môi hơi chu tròn. Ví dụ: *red, right, rice, very, around*.\n- **/z/** là âm xát hữu thanh với đầu lưỡi gần lợi trên và răng gần nhau: *zip, zoo, rise*.\n- **/l/** là âm bên: đầu lưỡi **chạm** lợi trên. Ví dụ: *light, lead, glass, fly*.\n- Trong cụm phụ âm (*grass, fry, crowd, dream, strong*), /r/ phải được giữ rõ: đừng nuốt thành /ɡɑːs/ hay /fl/.\n\nKhác biệt chính: **/l/ chạm lợi, /r/ không chạm**. Nếu lưỡi đã chạm thì đó không phải /r/.\n\nGợi ý: luyện câu *a real red rose* và chú ý môi tròn khi phát /r/.",
+    "mouthVi": "Với /r/: chu môi tròn nhẹ, kéo lưỡi lùi lại, nâng thân lưỡi lên nhưng đầu lưỡi cuộn nhẹ lên, không chạm vòm miệng; cổ họng rung. Với /l/: đưa đầu lưỡi chạm lợi trên, khí thoát hai bên. Với /z/: răng gần khép, lưỡi sát lợi, khí xì ra và rung. Thử nói 'ooo' rồi chuyển sang 'red' để có tư thế môi đúng.",
+    "commonErrorVi": "Người học miền Nam, Trung thường đọc 'rice' thành /zaɪs/, 'rest' thành /zest/, 'right' thành /zaɪt/; người khác đọc 'right' thành /laɪt/ hoặc 'grass' thành /ɡlɑːs/. Giám khảo có thể không hiểu 'I rike rice' khi /r/ thành /l/ hoặc /z/. Âm /r/ còn rất phổ biến (*very, really, restaurant*) nên lỗi lặp lại liên tục.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "rip",
+        "b": "zip",
+        "aIpa": "/rɪp/",
+        "bIpa": "/zɪp/"
+      },
+      {
+        "kind": "pair",
+        "a": "rest",
+        "b": "zest",
+        "aIpa": "/rest/",
+        "bIpa": "/zest/"
+      },
+      {
+        "kind": "pair",
+        "a": "rap",
+        "b": "zap",
+        "aIpa": "/ræp/",
+        "bIpa": "/zæp/"
+      },
+      {
+        "kind": "pair",
+        "a": "right",
+        "b": "light",
+        "aIpa": "/raɪt/",
+        "bIpa": "/laɪt/"
+      },
+      {
+        "kind": "pair",
+        "a": "road",
+        "b": "load",
+        "aIpa": "/rəʊd/",
+        "bIpa": "/ləʊd/"
+      },
+      {
+        "kind": "pair",
+        "a": "rock",
+        "b": "lock",
+        "aIpa": "/rɒk/",
+        "bIpa": "/lɒk/"
+      },
+      {
+        "kind": "pair",
+        "a": "read",
+        "b": "lead",
+        "aIpa": "/riːd/",
+        "bIpa": "/liːd/"
+      },
+      {
+        "kind": "pair",
+        "a": "grass",
+        "b": "glass",
+        "aIpa": "/ɡrɑːs/",
+        "bIpa": "/ɡlɑːs/"
+      },
+      {
+        "kind": "pair",
+        "a": "fry",
+        "b": "fly",
+        "aIpa": "/fraɪ/",
+        "bIpa": "/flaɪ/"
+      },
+      {
+        "kind": "pair",
+        "a": "crowd",
+        "b": "cloud",
+        "aIpa": "/kraʊd/",
+        "bIpa": "/klaʊd/"
+      },
+      {
+        "kind": "say",
+        "text": "I really enjoy reading a very good report.",
+        "ipa": "/aɪ ˈrɪəli ɪnˈdʒɔɪ ˈriːdɪŋ ə ˈveri ɡʊd rɪˈpɔːt/",
+        "focusVi": "/r/ trong 'really', 'reading', 'very', 'report'. Không chạm lưỡi vào vòm."
+      },
+      {
+        "kind": "say",
+        "text": "The red road runs around the rural area.",
+        "ipa": "/ðə red rəʊd rʌnz əˈraʊnd ðə ˈrʊərəl ˈeəriə/",
+        "focusVi": "Nhiều âm /r/ liên tiếp: 'red', 'road', 'runs', 'around', 'rural'."
+      },
+      {
+        "kind": "say",
+        "text": "She likes rice, fresh fruit and green grapes.",
+        "ipa": "/ʃiː laɪks raɪs freʃ fruːt ænd ɡriːn ɡreɪps/",
+        "focusVi": "/r/ trong 'rice', 'fresh', 'fruit', 'green', 'grapes'; /l/ trong 'likes'."
+      },
+      {
+        "kind": "say",
+        "text": "Right now, the lights are really bright.",
+        "ipa": "/raɪt naʊ ðə laɪts ɑː ˈrɪəli braɪt/",
+        "focusVi": "Phân biệt /r/ ('Right', 'really', 'bright') và /l/ ('lights')."
+      }
+    ]
+  },
+  {
+    "id": "p-12",
+    "level": "B1",
+    "title": "/v/ – /b/, /f/ – /p/, /dʒ/ – /z/",
+    "focus": "/v/ /b/ /f/ /p/ /dʒ/ /z/",
+    "explanationVi": "Ba cặp này đều là lỗi do tiếng Việt có âm gần giống nhưng không hoàn toàn trùng, hoặc không có âm tương đương.\n\n- **/v/ và /b/**: /v/ là âm xát, **răng trên chạm môi dưới**, cổ họng rung; /b/ là âm nổ, **hai môi khép rồi bật**. Ví dụ: *very* /ˈveri/ và *berry* /ˈberi/.\n- **/f/ và /p/**: /f/ cũng răng trên chạm môi dưới nhưng **vô thanh**; /p/ là hai môi khép. Ví dụ: *fan/pan*, *fine/pine*.\n- **/dʒ/ và /z/**: /dʒ/ giống 'ch' có rung (như *j* trong *jam*), còn /z/ là âm xát thuần túy. Ví dụ: *jest/zest*, *page/pays*.\n- Điểm cần nhớ: các cặp chỉ khác nhau về **cách đóng khí** (xát hay nổ) hoặc về **sự rung** (hữu thanh hay vô thanh).\n\nTừ thường gặp: *very, visit, vegetable, village, voice, forget, develop, job, major, page, manage*. Hãy thu âm khi đọc để tự kiểm tra.",
+    "mouthVi": "Với /v/ và /f/: để răng cửa trên chạm nhẹ vào môi dưới, thổi khí qua khe; /v/ rung cổ họng, /f/ không rung. Với /b/ và /p/: khép hai môi, giữ khí rồi bật ra. Với /dʒ/: lưỡi chạm lợi trên rồi trượt thành âm xát có rung. Với /z/: giữ lưỡi gần lợi, khí xì liên tục. Tập kéo dài /v/ rồi /b/ để thấy khác biệt: /v/ kéo dài được, /b/ thì không.",
+    "commonErrorVi": "Người Việt (nhất là miền Nam) hay đọc /v/ thành /b/ hoặc /j/ ('very' thành /beri/, 'visit' thành /ˈbɪzɪt/), /f/ thành /p/ ('fine' thành /paɪn/), và /dʒ/ thành /z/ ('job' thành /zɒb/). Khi đó 'very/berry', 'fine/pine' bị nhầm và người nghe phải dựa vào ngữ cảnh mới hiểu.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "very",
+        "b": "berry",
+        "aIpa": "/ˈveri/",
+        "bIpa": "/ˈberi/"
+      },
+      {
+        "kind": "pair",
+        "a": "vest",
+        "b": "best",
+        "aIpa": "/vest/",
+        "bIpa": "/best/"
+      },
+      {
+        "kind": "pair",
+        "a": "vote",
+        "b": "boat",
+        "aIpa": "/vəʊt/",
+        "bIpa": "/bəʊt/"
+      },
+      {
+        "kind": "pair",
+        "a": "van",
+        "b": "ban",
+        "aIpa": "/væn/",
+        "bIpa": "/bæn/"
+      },
+      {
+        "kind": "pair",
+        "a": "fan",
+        "b": "pan",
+        "aIpa": "/fæn/",
+        "bIpa": "/pæn/"
+      },
+      {
+        "kind": "pair",
+        "a": "fine",
+        "b": "pine",
+        "aIpa": "/faɪn/",
+        "bIpa": "/paɪn/"
+      },
+      {
+        "kind": "pair",
+        "a": "fast",
+        "b": "past",
+        "aIpa": "/fɑːst/",
+        "bIpa": "/pɑːst/"
+      },
+      {
+        "kind": "pair",
+        "a": "full",
+        "b": "pull",
+        "aIpa": "/fʊl/",
+        "bIpa": "/pʊl/"
+      },
+      {
+        "kind": "pair",
+        "a": "fair",
+        "b": "pear",
+        "aIpa": "/feə/",
+        "bIpa": "/peə/"
+      },
+      {
+        "kind": "pair",
+        "a": "jest",
+        "b": "zest",
+        "aIpa": "/dʒest/",
+        "bIpa": "/zest/"
+      },
+      {
+        "kind": "pair",
+        "a": "page",
+        "b": "pays",
+        "aIpa": "/peɪdʒ/",
+        "bIpa": "/peɪz/"
+      },
+      {
+        "kind": "pair",
+        "a": "rage",
+        "b": "raise",
+        "aIpa": "/reɪdʒ/",
+        "bIpa": "/reɪz/"
+      },
+      {
+        "kind": "say",
+        "text": "I visited a very beautiful village.",
+        "ipa": "/aɪ ˈvɪzɪtɪd ə ˈveri ˈbjuːtɪfl ˈvɪlɪdʒ/",
+        "focusVi": "/v/ trong 'visited', 'very', 'village'; /b/ trong 'beautiful'."
+      },
+      {
+        "kind": "say",
+        "text": "My favourite food is fresh fish and fruit.",
+        "ipa": "/maɪ ˈfeɪvərɪt fuːd ɪz freʃ fɪʃ ænd fruːt/",
+        "focusVi": "Giữ /f/ (răng chạm môi) và không đọc thành /p/. /v/ trong 'favourite'."
+      },
+      {
+        "kind": "say",
+        "text": "The manager changed the major project in June.",
+        "ipa": "/ðə ˈmænɪdʒə tʃeɪndʒd ðə ˈmeɪdʒə ˈprɒdʒekt ɪn dʒuːn/",
+        "focusVi": "/dʒ/ trong 'manager', 'changed', 'major', 'project', 'June'."
+      }
+    ]
+  },
+  {
+    "id": "p-13",
+    "level": "B1",
+    "title": "Cụm phụ âm (str-, spl-, -sts, -lt, -nd)",
+    "focus": "Cụm phụ âm đầu và cuối",
+    "explanationVi": "Tiếng Việt không có cụm phụ âm, mỗi âm tiết chỉ có một phụ âm đầu, nên người học thường **bỏ bớt** hoặc **chèn thêm nguyên âm** vào cụm của tiếng Anh. Điều này làm từ nghe méo và sai nghĩa.\n\n- **Cụm đầu từ**: *str-* (*street, strong, strategy*), *spr-* (*spring, spread*), *spl-* (*split*), *pl-*, *bl-*, *cr-*, *fr-*. Hãy phát âm liền mạch, không chèn nguyên âm: *street* chứ không phải *sờ-trít*.\n- **Cụm cuối từ**: *-nd* (*friend, kind*), *-lt* (*belt, felt*), *-st* (*test, best*), *-sts* (*tests, costs*), *-ld* (*world, told*), *-ct* (*fact*), *-sks*, *-ksθ* (*sixth*).\n- Khi cụm cuối khó, đừng bỏ hẳn âm: bạn có thể nén nhưng vẫn phải **chạm đủ vị trí lưỡi**.\n- Với số nhiều: *tests* /tests/, *costs* /kɒsts/ có ba phụ âm cuối liên tiếp.\n\nCách luyện: đọc chậm từng âm rồi nối dần: *s-t-r-eet*, rồi *street*.",
+    "mouthVi": "Chuẩn bị sẵn vị trí lưỡi và môi cho tất cả các âm trong cụm trước khi bắt đầu nói. Với *str-*: lưỡi vào /s/ rồi lướt sang /t/ và /r/ liên tục, môi hơi chu ở /r/. Với đuôi *-lt*: lưỡi chạm lợi cho /l/ rồi giữ nguyên chạm thành /t/. Với *-nd*: lưỡi giữ ở lợi, khí đi mũi rồi bật /d/. Không thả miệng ra giữa các âm.",
+    "commonErrorVi": "Người Việt thường bỏ âm: 'street' thành /triːt/, 'friend' thành /fren/, 'world' thành /wɜːl/, 'tests' thành /tes/, hoặc chèn nguyên âm: 'strong' thành /sətrɒŋ/, 'plan' thành /pəlæn/. Hậu quả: từ nghe lạ, nhầm cặp 'fact/fat', 'told/toll', 'mind/mine', và làm mất dấu hiệu số nhiều.",
+    "items": [
+      {
+        "kind": "pair",
+        "a": "sport",
+        "b": "sort",
+        "aIpa": "/spɔːt/",
+        "bIpa": "/sɔːt/"
+      },
+      {
+        "kind": "pair",
+        "a": "spring",
+        "b": "sing",
+        "aIpa": "/sprɪŋ/",
+        "bIpa": "/sɪŋ/"
+      },
+      {
+        "kind": "pair",
+        "a": "plan",
+        "b": "pan",
+        "aIpa": "/plæn/",
+        "bIpa": "/pæn/"
+      },
+      {
+        "kind": "pair",
+        "a": "fact",
+        "b": "fat",
+        "aIpa": "/fækt/",
+        "bIpa": "/fæt/"
+      },
+      {
+        "kind": "pair",
+        "a": "belt",
+        "b": "bell",
+        "aIpa": "/belt/",
+        "bIpa": "/bel/"
+      },
+      {
+        "kind": "pair",
+        "a": "told",
+        "b": "toll",
+        "aIpa": "/təʊld/",
+        "bIpa": "/təʊl/"
+      },
+      {
+        "kind": "pair",
+        "a": "mind",
+        "b": "mine",
+        "aIpa": "/maɪnd/",
+        "bIpa": "/maɪn/"
+      },
+      {
+        "kind": "pair",
+        "a": "costs",
+        "b": "cost",
+        "aIpa": "/kɒsts/",
+        "bIpa": "/kɒst/"
+      },
+      {
+        "kind": "pair",
+        "a": "world",
+        "b": "whirl",
+        "aIpa": "/wɜːld/",
+        "bIpa": "/wɜːl/"
+      },
+      {
+        "kind": "pair",
+        "a": "sixth",
+        "b": "six",
+        "aIpa": "/sɪksθ/",
+        "bIpa": "/sɪks/"
+      },
+      {
+        "kind": "say",
+        "text": "The strong street strategy was strictly planned.",
+        "ipa": "/ðə strɒŋ striːt ˈstrætədʒi wəz ˈstrɪktli plænd/",
+        "focusVi": "Cụm /str-/ liền mạch trong 'strong', 'street', 'strategy', 'strictly'."
+      },
+      {
+        "kind": "say",
+        "text": "My friend lent me the best texts last month.",
+        "ipa": "/maɪ frend lent miː ðə best teksts lɑːst mʌnθ/",
+        "focusVi": "Giữ cụm cuối: 'friend' /nd/, 'lent' /nt/, 'best' /st/, 'texts' /ksts/, 'month' /nθ/."
+      },
+      {
+        "kind": "say",
+        "text": "The world's biggest cities are crowded.",
+        "ipa": "/ðə wɜːldz ˈbɪɡɪst ˈsɪtiz ɑː ˈkraʊdɪd/",
+        "focusVi": "Cụm cuối /ldz/ trong 'world's', /st/ trong 'biggest', và /dɪd/ (âm tiết cuối) trong 'crowded'."
+      },
+      {
+        "kind": "say",
+        "text": "She felt that splitting the cost was fair.",
+        "ipa": "/ʃiː felt ðæt ˈsplɪtɪŋ ðə kɒst wəz feə/",
+        "focusVi": "Cụm /spl-/ ('splitting'), /lt/ ('felt'), /st/ ('cost')."
+      },
+      {
+        "kind": "say",
+        "text": "Next, I asked about the sixth task.",
+        "ipa": "/nekst aɪ ɑːskt əˈbaʊt ðə sɪksθ tɑːsk/",
+        "focusVi": "/kst/ trong 'Next', /sksθ/ trong 'sixth', /sk/ trong 'asked', 'task'."
+      }
+    ]
+  },
+  {
+    "id": "p-14",
+    "level": "B1",
+    "title": "Trọng âm từ 2 âm tiết",
+    "focus": "Trọng âm danh từ/động từ",
+    "explanationVi": "Tiếng Việt là ngôn ngữ có thanh điệu và mỗi âm tiết rõ ràng như nhau; tiếng Anh thì có **trọng âm**: một âm tiết trong từ được đọc **to hơn, dài hơn, cao hơn**, còn các âm tiết còn lại bị yếu đi (thường thành /ə/). Đặt sai trọng âm khiến từ khó nhận ra, hơn cả đọc sai một nguyên âm.\n\n- **Danh từ và tính từ 2 âm tiết**: thường nhấn âm **đầu**: *TEAcher, HAPpy, ANswer, TAble*.\n- **Động từ 2 âm tiết**: thường nhấn âm **sau**: *deCIDE, aGREE, reLAX, forGET*.\n- **Cặp danh từ/động từ cùng chính tả**: danh từ nhấn đầu, động từ nhấn sau: *REcord* (n.) / *reCORD* (v.), *PREsent* (n.) / *preSENT* (v.), *INcrease* / *inCREASE*, *OBject* / *obJECT*.\n- Âm tiết không nhấn thường được rút gọn: *record* (v.) /rɪˈkɔːd/.\n\nCó ngoại lệ (*hotEL*, *beTWEEN*, *deSIgn* v.), nên hãy kiểm tra từ điển và **học trọng âm cùng với từ mới**.",
+    "mouthVi": "Với âm tiết nhấn: mở miệng rõ hơn, nói to hơn một chút, kéo dài và hạ giọng/nâng cao độ ở đó. Với âm tiết không nhấn: nói thật nhanh, nhẹ, miệng gần như thả lỏng, nguyên âm thành /ə/ hoặc /ɪ/. Thử vỗ nhịp tay vào âm tiết nhấn khi đọc: RE-cord, re-CORD.",
+    "commonErrorVi": "Người Việt thường đọc từng âm tiết đều đều như nhau, hoặc nhấn sai: 'REcord' (v.) thay vì 'reCORD', 'deCIDE' thành 'DEcide'. Hậu quả: giám khảo khó nhận ra từ ('I want to REcord' nghe như danh từ) và nhịp điệu nghe 'cứng', mất điểm Pronunciation dù từng âm vẫn đúng.",
+    "items": [
+      {
+        "kind": "stress",
+        "word": "record",
+        "ipa": "/ˈrekɔːd/ (n.)",
+        "syllables": [
+          "re",
+          "cord"
+        ],
+        "stress": 0,
+        "say": "a record"
+      },
+      {
+        "kind": "stress",
+        "word": "record",
+        "ipa": "/rɪˈkɔːd/ (v.)",
+        "syllables": [
+          "re",
+          "cord"
+        ],
+        "stress": 1,
+        "say": "to record"
+      },
+      {
+        "kind": "stress",
+        "word": "present",
+        "ipa": "/ˈprezənt/ (n.)",
+        "syllables": [
+          "pre",
+          "sent"
+        ],
+        "stress": 0,
+        "say": "a present"
+      },
+      {
+        "kind": "stress",
+        "word": "present",
+        "ipa": "/prɪˈzent/ (v.)",
+        "syllables": [
+          "pre",
+          "sent"
+        ],
+        "stress": 1,
+        "say": "to present"
+      },
+      {
+        "kind": "stress",
+        "word": "increase",
+        "ipa": "/ˈɪnkriːs/ (n.)",
+        "syllables": [
+          "in",
+          "crease"
+        ],
+        "stress": 0,
+        "say": "an increase"
+      },
+      {
+        "kind": "stress",
+        "word": "increase",
+        "ipa": "/ɪnˈkriːs/ (v.)",
+        "syllables": [
+          "in",
+          "crease"
+        ],
+        "stress": 1,
+        "say": "to increase"
+      },
+      {
+        "kind": "stress",
+        "word": "object",
+        "ipa": "/ˈɒbdʒekt/ (n.)",
+        "syllables": [
+          "ob",
+          "ject"
+        ],
+        "stress": 0,
+        "say": "an object"
+      },
+      {
+        "kind": "stress",
+        "word": "object",
+        "ipa": "/əbˈdʒekt/ (v.)",
+        "syllables": [
+          "ob",
+          "ject"
+        ],
+        "stress": 1,
+        "say": "to object"
+      },
+      {
+        "kind": "stress",
+        "word": "decide",
+        "ipa": "/dɪˈsaɪd/",
+        "syllables": [
+          "de",
+          "cide"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "stress",
+        "word": "teacher",
+        "ipa": "/ˈtiːtʃə/",
+        "syllables": [
+          "tea",
+          "cher"
+        ],
+        "stress": 0
+      },
+      {
+        "kind": "stress",
+        "word": "agree",
+        "ipa": "/əˈɡriː/",
+        "syllables": [
+          "a",
+          "gree"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "stress",
+        "word": "answer",
+        "ipa": "/ˈɑːnsə/",
+        "syllables": [
+          "an",
+          "swer"
+        ],
+        "stress": 0
+      },
+      {
+        "kind": "stress",
+        "word": "between",
+        "ipa": "/bɪˈtwiːn/",
+        "syllables": [
+          "be",
+          "tween"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "say",
+        "text": "They will present a present to the teacher.",
+        "ipa": "/ðeɪ wɪl prɪˈzent ə ˈprezənt tə ðə ˈtiːtʃə/",
+        "focusVi": "Danh từ 'present' nhấn đầu, động từ 'present' nhấn sau."
+      },
+      {
+        "kind": "say",
+        "text": "Prices increase, and the increase worries me.",
+        "ipa": "/ˈpraɪsɪz ɪnˈkriːs ænd ði ˈɪnkriːs ˈwʌriz miː/",
+        "focusVi": "Động từ 'increase' nhấn sau, danh từ nhấn đầu."
+      },
+      {
+        "kind": "say",
+        "text": "I object to that object on the table.",
+        "ipa": "/aɪ əbˈdʒekt tə ðæt ˈɒbdʒekt ɒn ðə ˈteɪbl/",
+        "focusVi": "Động từ 'object' nhấn sau, danh từ nhấn đầu."
+      }
+    ]
+  },
+  {
+    "id": "p-15",
+    "level": "B2",
+    "title": "Trọng âm theo hậu tố (-tion, -ic, -ical, -ity, -graphy, -ee)",
+    "focus": "Quy tắc trọng âm theo hậu tố",
+    "explanationVi": "Nhiều từ dài trong IELTS (chủ đề giáo dục, môi trường, xã hội) có trọng âm có thể đoán được nhờ **hậu tố**. Biết quy tắc giúp bạn đặt trọng âm đúng mà không cần tra từ điển.\n\n- **-tion, -sion**: nhấn âm tiết **ngay trước** hậu tố: *eduCAtion, inforMAtion, polLUtion, communiCAtion*.\n- **-ic, -ical**: nhấn âm tiết **ngay trước**: *ecoNOMic, eLECtric, athLETic, poLITical, hisTORical*.\n- **-ity**: nhấn âm tiết **ngay trước**: *aBILity, personALity, poSSibility*.\n- **-graphy, -logy**: nhấn âm tiết ngay trước: *phoTOgraphy, geOgraphy, bioLOgy*.\n- **-ee, -eer**: thường nhấn **chính hậu tố**: *refuGEE, engiNEER, trainEE*. Ngoại lệ hay gặp: *emPLOYee* (nhấn 'ploy').\n\nLưu ý: khi thêm hậu tố, trọng âm có thể **dịch chuyển** so với từ gốc: *PHOtograph* nhưng *phoTOgraphy*; *ECOnomy* nhưng *ecoNOMic*; *POlitics* nhưng *poLITical*. Âm tiết không nhấn sẽ yếu đi (/ə/ hoặc /ɪ/).",
+    "mouthVi": "Nói âm tiết nhấn to, rõ và dài hơn, kèm nâng cao độ giọng. Hậu tố như -tion đọc là /ʃn/ (không nhấn), -ic là /ɪk/, -ity là /əti/ hoặc /ɪti/. Giữ các âm tiết yếu thật ngắn: eduCAtion /ˌedʒuˈkeɪʃn/ chứ không phải 'e-du-ca-sion' đều đều. Tập vỗ tay vào âm tiết nhấn khi đọc.",
+    "commonErrorVi": "Người Việt thường nhấn đều hoặc nhấn âm đầu: 'EDucation', 'PHOtography', 'POlitical', 'aBILity' đọc thành 'A-bi-li-ty' đều đều. Với từ như 'photography', đọc sai trọng âm khiến giám khảo không nhận ra từ ngay cả khi từng âm đúng. Cũng thường đọc -tion thành /tiːɒn/ thay vì /ʃn/.",
+    "items": [
+      {
+        "kind": "stress",
+        "word": "education",
+        "ipa": "/ˌedʒuˈkeɪʃn/",
+        "syllables": [
+          "ed",
+          "u",
+          "ca",
+          "tion"
+        ],
+        "stress": 2
+      },
+      {
+        "kind": "stress",
+        "word": "information",
+        "ipa": "/ˌɪnfəˈmeɪʃn/",
+        "syllables": [
+          "in",
+          "for",
+          "ma",
+          "tion"
+        ],
+        "stress": 2
+      },
+      {
+        "kind": "stress",
+        "word": "pollution",
+        "ipa": "/pəˈluːʃn/",
+        "syllables": [
+          "pol",
+          "lu",
+          "tion"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "stress",
+        "word": "communication",
+        "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+        "syllables": [
+          "com",
+          "mu",
+          "ni",
+          "ca",
+          "tion"
+        ],
+        "stress": 3
+      },
+      {
+        "kind": "stress",
+        "word": "economic",
+        "ipa": "/ˌiːkəˈnɒmɪk/",
+        "syllables": [
+          "e",
+          "co",
+          "nom",
+          "ic"
+        ],
+        "stress": 2
+      },
+      {
+        "kind": "stress",
+        "word": "electric",
+        "ipa": "/ɪˈlektrɪk/",
+        "syllables": [
+          "e",
+          "lec",
+          "tric"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "stress",
+        "word": "political",
+        "ipa": "/pəˈlɪtɪkl/",
+        "syllables": [
+          "po",
+          "lit",
+          "i",
+          "cal"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "stress",
+        "word": "historical",
+        "ipa": "/hɪˈstɒrɪkl/",
+        "syllables": [
+          "his",
+          "tor",
+          "i",
+          "cal"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "stress",
+        "word": "ability",
+        "ipa": "/əˈbɪləti/",
+        "syllables": [
+          "a",
+          "bil",
+          "i",
+          "ty"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "stress",
+        "word": "personality",
+        "ipa": "/ˌpɜːsəˈnæləti/",
+        "syllables": [
+          "per",
+          "son",
+          "al",
+          "i",
+          "ty"
+        ],
+        "stress": 2
+      },
+      {
+        "kind": "stress",
+        "word": "photography",
+        "ipa": "/fəˈtɒɡrəfi/",
+        "syllables": [
+          "pho",
+          "tog",
+          "ra",
+          "phy"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "stress",
+        "word": "employee",
+        "ipa": "/ɪmˈplɔɪiː/",
+        "syllables": [
+          "em",
+          "ploy",
+          "ee"
+        ],
+        "stress": 1
+      },
+      {
+        "kind": "stress",
+        "word": "refugee",
+        "ipa": "/ˌrefjuˈdʒiː/",
+        "syllables": [
+          "ref",
+          "u",
+          "gee"
+        ],
+        "stress": 2
+      },
+      {
+        "kind": "say",
+        "text": "The education system needs better communication.",
+        "ipa": "/ði ˌedʒuˈkeɪʃn ˈsɪstəm niːdz ˈbetə kəˌmjuːnɪˈkeɪʃn/",
+        "focusVi": "Nhấn 'eduCAtion' và 'communiCAtion'; nhấn 'SYStem' và 'BETter'."
+      },
+      {
+        "kind": "say",
+        "text": "He studies photography, geography and political science.",
+        "ipa": "/hiː ˈstʌdiz fəˈtɒɡrəfi dʒiˈɒɡrəfi ænd pəˈlɪtɪkl ˈsaɪəns/",
+        "focusVi": "Nhấn 'phoTOgraphy', 'geOgraphy', 'poLITical'."
+      },
+      {
+        "kind": "say",
+        "text": "The new employee has great ability and personality.",
+        "ipa": "/ðə njuː ɪmˈplɔɪiː hæz ɡreɪt əˈbɪləti ænd ˌpɜːsəˈnæləti/",
+        "focusVi": "Nhấn 'emPLOYee' (ngoại lệ với -ee), 'aBILity', 'personALity'."
+      }
+    ]
+  },
+  {
+    "id": "p-16",
+    "level": "B2",
+    "title": "Dạng yếu và nhấn câu (to, for, of, can, and, at; schwa)",
+    "focus": "Dạng yếu, /ə/, nhấn câu",
+    "explanationVi": "Trong câu tiếng Anh, chỉ các **từ nội dung** (danh từ, động từ chính, tính từ, trạng từ) được nhấn; còn **từ chức năng** (*to, for, of, can, and, at, a, the, was*) thường đọc ở **dạng yếu** với nguyên âm /ə/ (schwa) hoặc bị rút gọn. Đây là cơ sở của nhịp điệu tự nhiên và là điều khiến bài nói nghe như người bản xứ.\n\n- *to* /tə/, *for* /fə/, *of* /əv/ hoặc /ə/, *and* /ən/ hoặc /n/, *at* /ət/, *can* /kən/, *a* /ə/, *the* /ðə/, *was* /wəz/.\n- **Dạng mạnh** chỉ dùng khi từ đứng cuối câu hoặc được nhấn mạnh: *Yes, I can* /kæn/; *What are you looking at?* /æt/.\n- *Can* (khẳng định) yếu /kən/; *can't* luôn mạnh /kɑːnt/, nhờ đó phân biệt được.\n- Schwa /ə/ là âm phổ biến nhất của tiếng Anh: âm đầu của *about*, âm cuối của *teacher*, âm giữa của *banana*.\n\nĐọc từng từ rõ ràng như nhau sẽ làm câu nói **cứng và khó nghe**. Hãy nhấn từ nội dung và lướt nhẹ qua từ chức năng.",
+    "mouthVi": "Với dạng yếu: không mở miệng rộng, nói thật nhanh và nhẹ, lưỡi ở vị trí trung tính giữa miệng, môi thả lỏng (schwa /ə/). Với từ nội dung được nhấn: mở miệng rõ, giọng lên và dài hơn. Vỗ tay vào các từ nhấn và để các từ yếu rơi giữa các nhịp: 'I WANT to GO to the SHOP'.",
+    "commonErrorVi": "Người Việt thường đọc mọi từ đầy đủ và đều nhau ('I want TO go FOR a walk'), phát âm /tuː/ cho 'to', /fɔː/ cho 'for', /kæn/ cho 'can'. Kết quả là câu nghe nặng nhịp, khó nghe, và khó phân biệt 'can' với 'can't'. Giám khảo thường coi đây là thiếu tự nhiên về nhịp điệu và ngữ điệu.",
+    "items": [
+      {
+        "kind": "say",
+        "text": "I want to go to the shop.",
+        "ipa": "/aɪ ˈwɒnt tə ˈɡəʊ tə ðə ˈʃɒp/",
+        "focusVi": "'to' đọc /tə/ yếu; nhấn 'want', 'go', 'shop'."
+      },
+      {
+        "kind": "say",
+        "text": "Thanks for a lot of help.",
+        "ipa": "/ˈθæŋks fər ə ˈlɒt əv ˈhelp/",
+        "focusVi": "'for' /fə/, 'a' /ə/, 'of' /əv/; nhấn 'Thanks', 'lot', 'help'."
+      },
+      {
+        "kind": "say",
+        "text": "I can swim, but I can't dive.",
+        "ipa": "/aɪ kən ˈswɪm bət aɪ ˈkɑːnt ˈdaɪv/",
+        "focusVi": "'can' yếu /kən/, 'can't' mạnh /kɑːnt/. Nhấn 'swim' và 'dive'."
+      },
+      {
+        "kind": "say",
+        "text": "He's looking for a bag of apples and oranges.",
+        "ipa": "/hiːz ˈlʊkɪŋ fər ə ˈbæɡ əv ˈæplz ən ˈɒrɪndʒɪz/",
+        "focusVi": "'for' /fə/, 'of' /əv/, 'and' /ən/. Nhấn 'looking', 'bag', 'apples', 'oranges'."
+      },
+      {
+        "kind": "say",
+        "text": "She's at home, and he's at work.",
+        "ipa": "/ʃiːz ət ˈhəʊm ən hiːz ət ˈwɜːk/",
+        "focusVi": "'at' /ət/ yếu, 'and' /ən/. Nhấn 'home', 'work'."
+      },
+      {
+        "kind": "say",
+        "text": "What are you looking at?",
+        "ipa": "/ˈwɒt ə ju ˈlʊkɪŋ æt/",
+        "focusVi": "'at' ở cuối câu dùng dạng mạnh /æt/. 'are' yếu /ə/."
+      },
+      {
+        "kind": "say",
+        "text": "I'd like to ask for a table for two.",
+        "ipa": "/aɪd ˈlaɪk tu ˈɑːsk fər ə ˈteɪbl fə ˈtuː/",
+        "focusVi": "'to' /tə/, 'for' /fə/, 'a' /ə/. Nhấn 'like', 'ask', 'table', 'two'."
+      },
+      {
+        "kind": "say",
+        "text": "A cup of tea and a piece of cake, please.",
+        "ipa": "/ə ˈkʌp əv ˈtiː ən ə ˈpiːs əv ˈkeɪk pliːz/",
+        "focusVi": "'of' /əv/, 'and' /ən/, 'a' /ə/. Nhấn 'cup', 'tea', 'piece', 'cake', 'please'."
+      },
+      {
+        "kind": "say",
+        "text": "We've been waiting for ages to see the doctor.",
+        "ipa": "/wiːv bɪn ˈweɪtɪŋ fər ˈeɪdʒɪz tə ˈsiː ðə ˈdɒktə/",
+        "focusVi": "'for' /fər/ trước nguyên âm, 'to' /tə/. Nhấn 'waiting', 'ages', 'see', 'doctor'."
+      },
+      {
+        "kind": "say",
+        "text": "I was born in a small town in the north.",
+        "ipa": "/aɪ wəz ˈbɔːn ɪn ə ˈsmɔːl ˈtaʊn ɪn ðə ˈnɔːθ/",
+        "focusVi": "'was' /wəz/, 'a' /ə/, 'the' /ðə/. Nhấn 'born', 'small', 'town', 'north'."
+      },
+      {
+        "kind": "say",
+        "text": "Can you tell me where the station is?",
+        "ipa": "/kən ju ˈtel mi ˈweə ðə ˈsteɪʃn ɪz/",
+        "focusVi": "'Can' /kən/ yếu, 'me' /mi/ yếu. Nhấn 'tell', 'where', 'station'."
+      },
+      {
+        "kind": "say",
+        "text": "Yes, I can.",
+        "ipa": "/ˈjes aɪ ˈkæn/",
+        "focusVi": "Câu trả lời ngắn: 'can' ở cuối câu dùng dạng mạnh /kæn/."
+      },
+      {
+        "kind": "say",
+        "text": "It was a bit of a surprise.",
+        "ipa": "/ɪt wəz ə ˈbɪt əv ə səˈpraɪz/",
+        "focusVi": "'was' /wəz/, 'a' /ə/, 'of' /əv/. Nhấn 'bit', 'surprise'."
+      },
+      {
+        "kind": "say",
+        "text": "Some of the people at the party were from abroad.",
+        "ipa": "/səm əv ðə ˈpiːpl ət ðə ˈpɑːti wə frəm əˈbrɔːd/",
+        "focusVi": "'of' /əv/, 'at' /ət/, 'were' /wə/. Nhấn 'people', 'party', 'from', 'abroad'."
+      }
+    ]
+  },
+  {
+    "id": "p-17",
+    "level": "B2",
+    "title": "Nối âm (phụ âm → nguyên âm, /r/ nối, /j/ /w/)",
+    "focus": "Nối âm giữa các từ",
+    "explanationVi": "Người bản xứ không nói từng từ riêng rẽ mà **nối các từ liền mạch**. Nối âm giúp lời nói trôi chảy, và người Việt vì quen tách từng âm tiết nên hay bị ngắt, nghe rời rạc.\n\n- **Phụ âm + nguyên âm**: phụ âm cuối từ trước chuyển sang đầu từ sau: *pick it up* /pɪ.kɪ.tʌp/, *an apple* /ə.næ.pl/, *turn off* /tɜː.nɒf/.\n- **/r/ nối**: chữ *r* cuối từ trong giọng Anh (RP) chỉ được đọc khi từ sau bắt đầu bằng nguyên âm: *far away* /fɑːr əˈweɪ/, *here is* /hɪər ɪz/, *for example* /fər ɪɡˈzɑːmpl/. Trước phụ âm thì /r/ câm: *far side*.\n- **/j/ nối**: giữa nguyên âm kết thúc bằng /iː/, /ɪ/, /eɪ/, /aɪ/, /ɔɪ/ và nguyên âm sau: *I agree* /aɪ jəˈɡriː/, *she is* /ʃiː jɪz/.\n- **/w/ nối**: sau /uː/, /əʊ/, /aʊ/: *go on* /ɡəʊ wɒn/, *do it* /duː wɪt/, *how are* /haʊ wɑː/.\n\n",
+    "mouthVi": "Khi nối phụ âm với nguyên âm, đừng dừng giữa hai từ: để phụ âm cuối 'trượt' sang âm tiết kế tiếp. Với /j/ hoặc /w/ nối, môi và lưỡi chỉ cần di chuyển nhẹ: sau /iː/, lưỡi giữ cao và trượt thành /j/; sau /uː/ hoặc /əʊ/, môi tròn và trượt thành /w/. Tập đọc cụm 3-4 từ như một từ dài.",
+    "commonErrorVi": "Người Việt thường ngắt rõ từng từ, thêm tiếng ngắt thanh hầu ('an | apple', 'pick | it | up'), hoặc đọc /r/ ở mọi vị trí hoặc bỏ /r/ nối. Khi nói thiếu nối âm, lời nói nghe ngắt quãng, tốc độ chậm và mất điểm tiêu chí Fluency, đồng thời cũng khó cho người bản xứ theo dõi.",
+    "items": [
+      {
+        "kind": "say",
+        "text": "Pick it up and turn it off.",
+        "ipa": "/pɪk ɪt ʌp ænd tɜːn ɪt ɒf/",
+        "focusVi": "Nối phụ âm với nguyên âm: pi-kit-up, tur-nit-off."
+      },
+      {
+        "kind": "say",
+        "text": "I have an apple and an orange.",
+        "ipa": "/aɪ hæv ən æpl ænd ən ɒrɪndʒ/",
+        "focusVi": "Nối 'have an' /hæ.vən/, 'an apple' /ə.næ.pl/, 'and an' /æ.nən/, 'an orange' /ə.nɒ.rɪndʒ/."
+      },
+      {
+        "kind": "say",
+        "text": "Come in and sit on the edge.",
+        "ipa": "/kʌm ɪn ænd sɪt ɒn ði edʒ/",
+        "focusVi": "Nối 'come in' /kʌ.mɪn/, 'sit on' /sɪ.tɒn/, 'the edge' /ðɪ.edʒ/."
+      },
+      {
+        "kind": "say",
+        "text": "There is a bar over there.",
+        "ipa": "/ðeər ɪz ə bɑːr əʊvə ðeə/",
+        "focusVi": "/r/ nối: 'There is' /ðeər ɪz/, 'bar over' /bɑːr əʊvə/."
+      },
+      {
+        "kind": "say",
+        "text": "For example, I'm a teacher and a writer.",
+        "ipa": "/fər ɪɡˈzɑːmpl aɪm ə ˈtiːtʃər ən ə ˈraɪtə/",
+        "focusVi": "/r/ nối: 'for example' /fər ɪɡˈzɑːmpl/, 'teacher and' /ˈtiːtʃər ənd/."
+      },
+      {
+        "kind": "say",
+        "text": "I agree, she is the only one.",
+        "ipa": "/aɪ əˈɡriː ʃiː ɪz ði ˈəʊnli wʌn/",
+        "focusVi": "/j/ nối: 'I agree' /aɪ jəˈɡriː/, 'she is' /ʃiː jɪz/, 'the only' /ðiː jəʊnli/."
+      },
+      {
+        "kind": "say",
+        "text": "Go on, do it now, how are you?",
+        "ipa": "/ɡəʊ ɒn duː ɪt naʊ haʊ ɑː juː/",
+        "focusVi": "/w/ nối: 'go on' /ɡəʊ wɒn/, 'do it' /duː wɪt/, 'how are' /haʊ wɑː/."
+      },
+      {
+        "kind": "say",
+        "text": "I'll go away for a week or two.",
+        "ipa": "/aɪl ɡəʊ əˈweɪ fər ə wiːk ɔː tuː/",
+        "focusVi": "/w/ nối 'go away' /ɡəʊ wəˈweɪ/ và /r/ nối 'for a' /fər ə/, 'or two' /ɔːr tuː/."
+      },
+      {
+        "kind": "say",
+        "text": "Look at it in an hour.",
+        "ipa": "/lʊk æt ɪt ɪn ən aʊə/",
+        "focusVi": "Nối 'look at it' /lʊ.kæ.tɪt/, 'in an hour' /ɪ.nə.naʊə/."
+      },
+      {
+        "kind": "say",
+        "text": "She asked about it after all.",
+        "ipa": "/ʃiː ɑːskt əˈbaʊt ɪt ˈɑːftər ɔːl/",
+        "focusVi": "Nối 'asked about it' /ɑːs.tə.baʊ.tɪt/, 'after all' /ɑːf.tər.ɔːl/."
+      },
+      {
+        "kind": "say",
+        "text": "Sit up, eat it all and clean up.",
+        "ipa": "/sɪt ʌp iːt ɪt ɔːl ænd kliːn ʌp/",
+        "focusVi": "Nối 'sit up' /sɪ.tʌp/, 'eat it all' /iː.tɪ.tɔːl/, 'clean up' /kliː.nʌp/."
+      },
+      {
+        "kind": "say",
+        "text": "The weather is awful in winter.",
+        "ipa": "/ðə ˈweðər ɪz ˈɔːfl ɪn ˈwɪntə/",
+        "focusVi": "/r/ nối 'weather is' /ˈweðər ɪz/ trong giọng Anh, sau đó 'is awful' /ɪ.zɔː.fl/."
+      },
+      {
+        "kind": "say",
+        "text": "Do you often go out on a Saturday evening?",
+        "ipa": "/duː juː ˈɒfn ɡəʊ aʊt ɒn ə ˈsætədeɪ ˈiːvnɪŋ/",
+        "focusVi": "/w/ nối 'Do you' /duː juː/, 'go out' /ɡəʊ waʊt/, 'on a' /ɒ.nə/."
+      }
+    ]
+  },
+  {
+    "id": "p-18",
+    "level": "B2",
+    "title": "Ngữ điệu: Yes/No, Wh-, liệt kê, lịch sự",
+    "focus": "Ngữ điệu lên/xuống",
+    "explanationVi": "Tiếng Việt dùng **thanh điệu** để phân biệt nghĩa từ, còn tiếng Anh dùng **ngữ điệu** (intonation) để biểu đạt thái độ, loại câu và ý định. Người Việt thường dùng điệu phẳng hoặc đưa thanh điệu vào câu tiếng Anh, khiến lời nói nghe 'đều' hoặc thiếu lịch sự.\n\n- **Câu hỏi Yes/No**: thường **lên giọng** ở cuối: *Do you like music?* ↗\n- **Câu hỏi Wh-** (what, where, why...): thường **xuống giọng** ở cuối: *Where do you live?* ↘\n- **Liệt kê**: **lên** ở các mục đầu, **xuống** ở mục cuối: *I like tea ↗, coffee ↗ and juice ↘.*\n- **Câu khẳng định**: xuống giọng, cho thấy đã kết thúc ý: *I live in Hanoi.* ↘\n- **Lịch sự/ngạc nhiên/xin xác nhận**: lên giọng hoặc xuống-lên: *Could you repeat that, please?* ↗, *Really?* ↗\n\nNgữ điệu nằm trên **âm tiết nhấn cuối cùng** (nuclear stress). Hãy bắt đầu chuyển giọng ở đó, không phải ở từ cuối nếu từ cuối là từ yếu.",
+    "mouthVi": "Không cần thay đổi vị trí miệng, mà thay đổi **cao độ giọng**: thả lỏng cổ họng, thở đều. Với giọng lên: thanh âm nâng dần từ âm tiết nhấn cuối đến hết câu. Với giọng xuống: hạ thấp rõ ở âm tiết nhấn cuối, rồi kết thúc nhẹ. Hãy đặt bàn tay làm 'thước': tay đi lên khi giọng lên, đi xuống khi giọng xuống.",
+    "commonErrorVi": "Người Việt thường dùng giọng phẳng hoặc lên-xuống không đúng chỗ: kết thúc câu Wh- bằng giọng lên, hoặc đọc câu Yes/No giọng xuống nên nghe như câu khẳng định hoặc cộc lốc. Giọng đều còn khiến câu trả lời Part 2 nghe nhàm, thiếu cảm xúc và khó theo dõi, nên giám khảo đánh giá thấp về sự tự nhiên.",
+    "items": [
+      {
+        "kind": "say",
+        "text": "Do you like living in a big city?",
+        "ipa": "/duː juː laɪk ˈlɪvɪŋ ɪn ə bɪɡ ˈsɪti/",
+        "focusVi": "Câu hỏi Yes/No: giọng LÊN ở cuối (↗ 'city')."
+      },
+      {
+        "kind": "say",
+        "text": "Is it easy to find a job there?",
+        "ipa": "/ɪz ɪt ˈiːzi tə faɪnd ə dʒɒb ðeə/",
+        "focusVi": "Yes/No: lên giọng ở 'job' hoặc 'there' (↗)."
+      },
+      {
+        "kind": "say",
+        "text": "Where do you usually study?",
+        "ipa": "/weə duː juː ˈjuːʒuəli ˈstʌdi/",
+        "focusVi": "Wh-: giọng XUỐNG ở cuối (↘ 'study')."
+      },
+      {
+        "kind": "say",
+        "text": "Why did you choose that subject?",
+        "ipa": "/waɪ dɪd juː tʃuːz ðæt ˈsʌbdʒɪkt/",
+        "focusVi": "Wh-: giọng XUỐNG (↘ 'subject')."
+      },
+      {
+        "kind": "say",
+        "text": "I like tea, coffee, juice and milk.",
+        "ipa": "/aɪ laɪk tiː ˈkɒfi dʒuːs ænd mɪlk/",
+        "focusVi": "Liệt kê: lên (↗) ở 'tea', 'coffee', 'juice' và xuống (↘) ở 'milk'."
+      },
+      {
+        "kind": "say",
+        "text": "We visited Hanoi, Hue and Saigon.",
+        "ipa": "/wiː ˈvɪzɪtɪd hæˈnɔɪ hweɪ ænd saɪˈɡɒn/",
+        "focusVi": "Liệt kê: lên ở 'Hanoi', 'Hue'; xuống ở 'Saigon'."
+      },
+      {
+        "kind": "say",
+        "text": "Could you repeat that, please?",
+        "ipa": "/kʊd juː rɪˈpiːt ðæt pliːz/",
+        "focusVi": "Lịch sự: giọng lên nhẹ ở cuối (↗ 'please')."
+      },
+      {
+        "kind": "say",
+        "text": "Would you mind opening the window?",
+        "ipa": "/wʊd juː maɪnd ˈəʊpnɪŋ ðə ˈwɪndəʊ/",
+        "focusVi": "Lịch sự: lên giọng nhẹ, giữ giọng nhẹ nhàng, không cao quá."
+      },
+      {
+        "kind": "say",
+        "text": "Thanks a lot, that's very kind of you.",
+        "ipa": "/θæŋks ə lɒt ðæts ˈveri kaɪnd əv juː/",
+        "focusVi": "Lịch sự/biết ơn: giọng xuống mềm, rơi nhẹ ở 'kind'."
+      },
+      {
+        "kind": "say",
+        "text": "I live in a small town near the sea.",
+        "ipa": "/aɪ lɪv ɪn ə smɔːl taʊn nɪə ðə siː/",
+        "focusVi": "Khẳng định: giọng XUỐNG ở 'sea' (↘)."
+      },
+      {
+        "kind": "say",
+        "text": "Really? That sounds interesting!",
+        "ipa": "/ˈrɪəli ðæt saʊndz ˈɪntrəstɪŋ/",
+        "focusVi": "'Really?' lên giọng (ngạc nhiên); 'interesting' lên-xuống cao thể hiện quan tâm."
+      },
+      {
+        "kind": "say",
+        "text": "Can I ask you a question?",
+        "ipa": "/kæn aɪ ɑːsk juː ə ˈkwestʃən/",
+        "focusVi": "Yes/No: lên giọng cuối (↗ 'question') khi xin phép."
+      },
+      {
+        "kind": "say",
+        "text": "What do you do, and where do you work?",
+        "ipa": "/wɒt duː juː duː ænd weə duː juː wɜːk/",
+        "focusVi": "Hai câu Wh-: xuống ở 'do' và 'work', nối bằng ngắt nghỉ nhẹ ở dấu phẩy."
+      },
+      {
+        "kind": "say",
+        "text": "That was a great holiday, wasn't it?",
+        "ipa": "/ðæt wəz ə ɡreɪt ˈhɒlədeɪ ˈwɒznt ɪt/",
+        "focusVi": "Câu hỏi đuôi xin xác nhận: lên giọng ở 'it' (↗); xuống nếu chắc chắn (↘)."
+      }
+    ]
+  }
+]

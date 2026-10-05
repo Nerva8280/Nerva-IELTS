@@ -165,6 +165,7 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
                   {result.score >= 90 ? " 🎉 Tuyệt vời!" : result.score >= 70 ? " Khá tốt!" : " Nghe lại và thử lần nữa."}
                 </div>
                 <div className="mt-1 text-slate-500">Máy nghe được: “{heard}”</div>
+                <div className="mt-1 text-xs text-slate-400">Độ khớp chỉ cho biết máy nhận ra đúng từ, chưa phải điểm phát âm IELTS. Hãy tự chấm theo tiêu chí ở cuối bài.</div>
               </>
             ) : (
               <span className="text-slate-500">Không nghe được giọng của bạn. Kiểm tra quyền micro và thử lại.</span>

@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import type { SpeakingTopic } from "@/content/types";
 import { markDone, getState } from "@/lib/store";
 import { listen, recognitionSupported, type Listening } from "@/lib/speech";
+import PronSelfCheck from "@/components/PronSelfCheck";
 import { DoneBanner, fmtTime, LevelChip, PageHeader, SpeakButton, useRecorder, useTimer } from "@/components/ui";
 
 /** Record an answer, play it back, and optionally see what speech recognition heard. */
@@ -166,9 +167,12 @@ export default function SpeakingView({ item }: { item: SpeakingTopic }) {
           Hoàn thành bài nói
         </button>
       ) : (
-        <DoneBanner>
-          <div className="font-semibold">Tốt lắm! Nghe lại bản ghi âm để tự nhận ra lỗi phát âm và ngập ngừng.</div>
-        </DoneBanner>
+        <>
+          <PronSelfCheck source={item.id} />
+          <DoneBanner>
+            <div className="font-semibold">Tốt lắm! Nghe lại bản ghi âm để tự nhận ra lỗi phát âm và ngập ngừng.</div>
+          </DoneBanner>
+        </>
       )}
     </div>
   );

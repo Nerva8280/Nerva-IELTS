@@ -82,7 +82,7 @@ function chunks(text: string): string[] {
 /** The learner's chosen neural voice, plus the sentence voice of the same accent as a fallback. */
 export function preferredVoices(): VoiceId[] {
   const v = getState().settings.voice ?? (getState().settings.accent === "en-US" ? "us-f" : "uk-f");
-  const sentence: VoiceId = v.startsWith("us") ? "us-m" : "uk-f";
+  const sentence: VoiceId = v.startsWith("us") ? "us-f" : "uk-f";
   return v === sentence ? [v] : [v, sentence];
 }
 

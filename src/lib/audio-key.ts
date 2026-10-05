@@ -7,14 +7,15 @@ export const VOICES = {
   "us-f": { kokoro: "af_heart", label: "🇺🇸 Nữ" },
   "us-m": { kokoro: "am_michael", label: "🇺🇸 Nam" },
   // extra voices so different speakers in a listening script sound different
-  "uk-f2": { kokoro: "bf_isabella", label: "🇬🇧 Nữ 2" },
-  "uk-m2": { kokoro: "bm_lewis", label: "🇬🇧 Nam 2" },
+  "us-f2": { kokoro: "af_bella", label: "🇺🇸 Nữ 2" },
+  "uk-m2": { kokoro: "bm_fable", label: "🇬🇧 Nam 2" },
 } as const;
 
 export type VoiceId = keyof typeof VOICES;
 export const MAIN_VOICES: VoiceId[] = ["uk-f", "uk-m", "us-f", "us-m"];
-// Voices generated for ordinary sentences (examples, answers…): one per accent.
-export const SENTENCE_VOICES: VoiceId[] = ["uk-f", "us-m"];
+// Voices generated for ordinary sentences (examples, answers…): the best-rated voice of each accent
+// (Kokoro grades: af_heart A, bf_emma B-, am_michael C+, bm_george C).
+export const SENTENCE_VOICES: VoiceId[] = ["uk-f", "us-f"];
 
 export function normText(text: string): string {
   return text.trim().replace(/\s+/g, " ");
@@ -37,7 +38,7 @@ export function audioUrl(voice: VoiceId, text: string): string {
 
 /** Voice for each line of a listening script: each distinct speaker gets their own voice. */
 export function scriptVoices(script: { speaker: string; gender: "f" | "m" }[]): VoiceId[] {
-  const pools: Record<"f" | "m", VoiceId[]> = { f: ["uk-f", "uk-f2", "us-f"], m: ["uk-m", "uk-m2", "us-m"] };
+  const pools: Record<"f" | "m", VoiceId[]> = { f: ["uk-f", "us-f", "us-f2"], m: ["uk-m", "us-m", "uk-m2"] };
   const assigned = new Map<string, VoiceId>();
   const used = { f: 0, m: 0 };
   return script.map((l) => {

@@ -92,3 +92,25 @@ export interface SpeakingTopic {
   sampleAnswer: string;
   usefulPhrases: { en: string; vi: string }[];
 }
+
+// Pronunciation drills targeting typical Vietnamese-speaker problems.
+export type PronItem =
+  // minimal pair: learner hears one word and picks which, then says both
+  | { kind: "pair"; a: string; b: string; aIpa: string; bIpa: string }
+  // -s / -ed ending: which sound is the ending? options like ["/s/", "/z/", "/ɪz/"]
+  | { kind: "ending"; word: string; ipa: string; options: string[]; answer: number }
+  // word stress: which syllable is stressed?
+  | { kind: "stress"; word: string; ipa: string; syllables: string[]; stress: number; say?: string } // say: spoken form when the bare word is ambiguous ("a record" / "to record")
+  // say a word, phrase or sentence focusing on one feature
+  | { kind: "say"; text: string; ipa?: string; focusVi: string };
+
+export interface PronUnit {
+  id: string; // "p-01"
+  level: Level;
+  title: string; // Vietnamese title, e.g. "Âm cuối /t/ và /d/"
+  focus: string; // e.g. "/iː/ – /ɪ/"
+  explanationVi: string; // same limited markdown as GrammarLesson.explanationVi
+  mouthVi: string; // how to place mouth/tongue/lips to make the sound(s)
+  commonErrorVi: string; // the typical Vietnamese learner error and why examiners notice it
+  items: PronItem[];
+}

@@ -3,6 +3,7 @@ import type {
   GrammarLesson,
   ListeningItem,
   PlacementWord,
+  PronUnit,
   ReadingPassage,
   ShadowingSet,
   SpeakingTopic,
@@ -22,6 +23,7 @@ import listeningData from "./data/listening.json";
 import writingData from "./data/writing.json";
 import speakingData from "./data/speaking.json";
 import shadowingData from "./data/shadowing.json";
+import pronunciationData from "./data/pronunciation.json";
 
 export const placementWords = placement as PlacementWord[];
 export const grammar = grammarData as GrammarLesson[];
@@ -30,6 +32,7 @@ export const listening = listeningData as ListeningItem[];
 export const writing = writingData as WritingPrompt[];
 export const speaking = speakingData as SpeakingTopic[];
 export const shadowing = shadowingData as ShadowingSet[];
+export const pronunciation = pronunciationData as PronUnit[];
 
 // Lower levels win when a word appears twice.
 export const vocab: VocabWord[] = (() => {
@@ -53,5 +56,6 @@ export function getCatalog(): Catalog {
     writing: writing.map((w) => ({ id: w.id, level: w.level, title: w.title, kind: "writing", sub: w.id.startsWith("w0") ? "Nền tảng" : `Task ${w.task}` })),
     speaking: speaking.map((s) => ({ id: s.id, level: s.level, title: s.topic, kind: "speaking", sub: `Part ${s.part}` })),
     shadowing: shadowing.map((s) => ({ id: s.id, level: s.level, title: s.title, kind: "shadowing" })),
+    pronunciation: pronunciation.map((p) => ({ id: p.id, level: p.level, title: p.title, kind: "pronunciation", sub: p.focus })),
   };
 }

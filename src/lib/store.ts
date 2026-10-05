@@ -42,6 +42,7 @@ export interface AppState {
   days: Record<string, DayLog>;
   essays: Record<string, { text: string; date: string; selfBand?: number }>;
   mocks: { date: string; level: Level; score: number; total: number; band: number }[];
+  pronChecks: { date: string; band: number; source: string }[]; // pronunciation self-assessments
   settings: Settings;
 }
 
@@ -57,6 +58,7 @@ export function defaultState(): AppState {
     days: {},
     essays: {},
     mocks: [],
+    pronChecks: [],
     settings: { accent: "en-GB", rate: 0.95 },
   };
 }

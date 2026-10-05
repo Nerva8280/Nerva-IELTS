@@ -6,44 +6,11 @@ import { fork } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { VOICES, MAIN_VOICES, SENTENCE_VOICES, audioKey, normText, scriptVoices } from "../../src/lib/audio-key.ts";
+import { VOICES } from "../../src/lib/audio-key.ts";
+import { allJobs } from "./jobs.mjs";
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
-const DATA = path.join(ROOT, "src/content/data");
-const OUT = path.join(ROOT, "public/audio");
-const load = (f) => JSON.parse(fs.readFileSync(path.join(DATA, f + ".json"), "utf8"));
 
-function jobs(only) {
-  const list = [];
-  const add = (group, voices, text) => {
-    if (only && !only.includes(group)) return;
-    for (const v of voices) list.push({ voice: v, text: normText(text) });
-  };
-  for (const set of load("shadowing")) for (const s of set.sentences) add("shadowing", MAIN_VOICES, s.en);
-  const vocab = ["a1", "a2", "b1", "b2", "c1"].flatMap((l) => load("vocab-" + l));
-  for (const w of vocab) add("words", MAIN_VOICES, w.word);
-  for (const w of vocab) add("examples", SENTENCE_VOICES, w.example);
-  for (const item of load("listening")) {
-    const voices = scriptVoices(item.script);
-    item.script.forEach((l, i) => add("listening", [voices[i]], l.text));
-  }
-  for (const t of load("speaking")) {
-    t.questions.forEach((q) => add("speaking", SENTENCE_VOICES, q));
-    add("speaking", SENTENCE_VOICES, t.sampleAnswer);
-    t.usefulPhrases.forEach((p) => add("speaking", SENTENCE_VOICES, p.en));
-  }
-  for (const g of load("grammar")) g.examples.forEach((e) => add("grammar", SENTENCE_VOICES, e.en));
-  for (const r of load("reading")) add("reading", ["uk-f"], r.passage);
-  for (const w of load("writing")) add("writing", ["uk-m"], w.modelAnswer);
-  const seen = new Set();
-  return list.filter((j) => {
-    const file = path.join(OUT, j.voice, audioKey(j.text) + ".mp3");
-    if (seen.has(file) || fs.existsSync(file)) return false;
-    seen.add(file);
-    j.file = file;
-    return true;
-  });
-}
+const jobs = (only) => allJobs(only).filter((j) => !fs.existsSync(j.file));
 
 // ---- audio helpers -------------------------------------------------------------
 
@@ -92,7 +59,7 @@ async function worker(list) {
   const tts = await KokoroTTS.from_pretrained("onnx-community/Kokoro-82M-v1.0-ONNX", { dtype: "fp32", device: "cpu" });
   for (const j of list) {
     const parts = [];
-    for (const s of splitSentences(j.text)) {
+    for (const s of splitSentences(j.input ?? j.text)) {
       const out = await tts.generate(s, { voice: VOICES[j.voice].kokoro });
       parts.push(trim(out.audio));
       parts.push(new Float32Array(Math.round(0.28 * RATE))); // pause between sentences

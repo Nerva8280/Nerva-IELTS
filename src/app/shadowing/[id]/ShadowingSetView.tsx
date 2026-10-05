@@ -3,6 +3,7 @@ import { useState } from "react";
 import type { ShadowingSet } from "@/content/types";
 import { markDone } from "@/lib/store";
 import ShadowingPlayer from "@/components/ShadowingPlayer";
+import PronSelfCheck from "@/components/PronSelfCheck";
 import { DoneBanner, LevelChip, PageHeader } from "@/components/ui";
 
 export default function ShadowingSetView({ set }: { set: ShadowingSet }) {
@@ -20,6 +21,8 @@ export default function ShadowingSetView({ set }: { set: ShadowingSet }) {
           }}
         />
       ) : (
+        <>
+        <PronSelfCheck source={set.id} />
         <DoneBanner>
           <div className="text-3xl">🎧</div>
           <div className="font-semibold">Hoàn thành bài shadowing!</div>
@@ -28,6 +31,7 @@ export default function ShadowingSetView({ set }: { set: ShadowingSet }) {
             Luyện lại
           </button>
         </DoneBanner>
+        </>
       )}
     </div>
   );

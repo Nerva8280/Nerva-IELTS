@@ -7,6 +7,7 @@ import { useAppState, type AppState } from "@/lib/store";
 import { LevelChip, PageHeader } from "@/components/ui";
 
 const TABS: { kind: Exclude<ItemKind, "shadowing">; label: string; icon: string }[] = [
+  { kind: "pronunciation", label: "Phát âm", icon: "👄" },
   { kind: "grammar", label: "Ngữ pháp", icon: "📐" },
   { kind: "listening", label: "Listening", icon: "👂" },
   { kind: "reading", label: "Reading", icon: "📰" },
@@ -53,7 +54,7 @@ export function ItemList({ catalog, kind, s }: { catalog: Catalog; kind: ItemKin
 
 export default function PracticeHub({ catalog }: { catalog: Catalog }) {
   const s = useAppState();
-  const [tab, setTab] = useState<(typeof TABS)[number]["kind"]>("grammar");
+  const [tab, setTab] = useState<(typeof TABS)[number]["kind"]>("pronunciation");
   return (
     <div>
       <PageHeader title="Luyện tập" />

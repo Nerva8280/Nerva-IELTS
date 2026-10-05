@@ -19,6 +19,7 @@ const ICONS: Record<string, string> = {
   writing: "✍️",
   speaking: "🗣️",
   shadowing: "🎧",
+  pronunciation: "👄",
   quiz: "📝",
   mock: "🏁",
 };
