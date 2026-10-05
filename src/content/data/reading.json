@@ -1,0 +1,2141 @@
+[
+ {
+  "id": "r-a1-01",
+  "level": "A1",
+  "title": "Tom's Roof Garden",
+  "passage": "Tom lives in a big city. He has a small flat on the fifth floor. There is no garden, but there is a roof. On the roof, Tom grows tomatoes, beans and flowers. He has twelve boxes with soil in them. The view from the roof is beautiful, and he can see the river.\n\nEvery morning, he gives the plants water before work. In summer, the plants get a lot of sun, and the tomatoes are red and sweet. Tom's neighbour, Mrs Lee, likes his tomatoes. Tom gives her five tomatoes every week.\n\nAt the weekend, Tom's sister visits him, and they cook a salad together. Tom says, 'My roof is small, but it makes me happy.'",
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "Where does Tom grow his plants?",
+    "options": [
+     "In a big garden",
+     "On the roof",
+     "At his office",
+     "In a park"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 1: 'There is no garden, but there is a roof. On the roof, Tom grows...'"
+   },
+   {
+    "type": "tfng",
+    "q": "Tom has a big garden.",
+    "answer": "FALSE",
+    "explain": "Đoạn 1: 'There is no garden' - Tom không có vườn, chỉ có mái nhà."
+   },
+   {
+    "type": "tfng",
+    "q": "Tom waters his plants in the morning.",
+    "answer": "TRUE",
+    "explain": "Đoạn 2: 'Every morning, he gives the plants water before work.'"
+   },
+   {
+    "type": "mcq",
+    "q": "How many boxes with soil does Tom have?",
+    "options": [
+     "Five",
+     "Twelve",
+     "Fifteen",
+     "Twenty"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 1: 'He has twelve boxes with soil in them.'"
+   },
+   {
+    "type": "tfng",
+    "q": "Mrs Lee grows her own tomatoes.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài chỉ nói Mrs Lee thích cà chua của Tom, không nói bà ấy có tự trồng hay không."
+   },
+   {
+    "type": "mcq",
+    "q": "What does Tom do with his sister at the weekend?",
+    "options": [
+     "They water the plants",
+     "They go to the park",
+     "They cook a salad",
+     "They visit Mrs Lee"
+    ],
+    "answer": 2,
+    "explain": "Đoạn 3: 'Tom's sister visits him, and they cook a salad together.'"
+   }
+  ],
+  "vocab": [
+   {
+    "word": "roof",
+    "vi": "mái nhà"
+   },
+   {
+    "word": "soil",
+    "vi": "đất (trồng cây)"
+   },
+   {
+    "word": "grow",
+    "vi": "trồng, mọc"
+   },
+   {
+    "word": "neighbour",
+    "vi": "hàng xóm"
+   },
+   {
+    "word": "sweet",
+    "vi": "ngọt"
+   },
+   {
+    "word": "salad",
+    "vi": "món salad"
+   },
+   {
+    "word": "flat",
+    "vi": "căn hộ"
+   }
+  ]
+ },
+ {
+  "id": "r-a1-02",
+  "level": "A1",
+  "title": "A Cup of Tea",
+  "passage": "Tea comes from China. People there drank tea more than two thousand years ago. A story says that a leaf fell into the hot water of an emperor, and the water smelled very good.\n\nLater, traders took tea to Europe by ship. In England, many people loved tea with milk. Today, tea is the second most popular drink in the world after water.\n\nIn Vietnam, many people drink green tea every day. In India, people like hot tea with spices. Tea can be hot or cold. Some people drink it in the morning, and some drink it with friends in the afternoon. Tea is also a good drink for a cold day.",
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "Where does tea come from?",
+    "options": [
+     "India",
+     "England",
+     "China",
+     "Vietnam"
+    ],
+    "answer": 2,
+    "explain": "Câu đầu: 'Tea comes from China.'"
+   },
+   {
+    "type": "tfng",
+    "q": "In the story, a leaf fell into the emperor's hot water.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'a leaf fell into the hot water of an emperor'."
+   },
+   {
+    "type": "tfng",
+    "q": "Traders took tea to Europe by plane.",
+    "answer": "FALSE",
+    "explain": "Đoạn 2: 'by ship' (bằng tàu thủy), không phải máy bay."
+   },
+   {
+    "type": "tfng",
+    "q": "Tea is the most popular drink in the world.",
+    "answer": "FALSE",
+    "explain": "Đoạn 2: tea là 'second most popular' sau nước (water)."
+   },
+   {
+    "type": "mcq",
+    "q": "What do people in India like with their hot tea?",
+    "options": [
+     "Milk",
+     "Spices",
+     "Sugar",
+     "Lemon"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: 'In India, people like hot tea with spices.'"
+   },
+   {
+    "type": "tfng",
+    "q": "Tea is cheaper than coffee.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài không nói gì về giá của trà hay cà phê."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "emperor",
+    "vi": "hoàng đế"
+   },
+   {
+    "word": "leaf",
+    "vi": "chiếc lá"
+   },
+   {
+    "word": "trader",
+    "vi": "thương nhân"
+   },
+   {
+    "word": "popular",
+    "vi": "phổ biến"
+   },
+   {
+    "word": "spice",
+    "vi": "gia vị"
+   },
+   {
+    "word": "smell",
+    "vi": "có mùi, ngửi"
+   }
+  ]
+ },
+ {
+  "id": "r-a1-03",
+  "level": "A1",
+  "title": "Anna Needs Sleep",
+  "passage": "Anna is a student. She goes to bed at midnight and gets up at six. She is always tired. Her doctor says, 'You need eight hours of sleep.'\n\nSleep is important. When we sleep, our body rests and our brain keeps new information. Children and teenagers need even more sleep than adults.\n\nAnna has a new plan. She turns off her phone at ten o'clock. She reads a book for ten minutes. She does not drink coffee after lunch. After one week, she feels better. She wakes up easily, and she is happy at school. Now she goes to bed at half past ten.",
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What time does Anna get up?",
+    "options": [
+     "At five",
+     "At six",
+     "At seven",
+     "At midnight"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 1: 'gets up at six'."
+   },
+   {
+    "type": "tfng",
+    "q": "Anna goes to bed early at the start of the story.",
+    "answer": "FALSE",
+    "explain": "Đoạn 1: cô ấy 'goes to bed at midnight' (nửa đêm) - không phải sớm."
+   },
+   {
+    "type": "tfng",
+    "q": "The doctor says Anna needs ten hours of sleep.",
+    "answer": "FALSE",
+    "explain": "Bác sĩ nói 'eight hours', không phải ten."
+   },
+   {
+    "type": "tfng",
+    "q": "Anna turns off her phone at ten o'clock.",
+    "answer": "TRUE",
+    "explain": "Đoạn 3: 'She turns off her phone at ten o'clock.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What does Anna do after she turns off her phone?",
+    "options": [
+     "She drinks coffee",
+     "She reads a book",
+     "She watches TV",
+     "She goes for a walk"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: 'She reads a book for ten minutes.'"
+   },
+   {
+    "type": "tfng",
+    "q": "Anna's doctor is a woman.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài không cho biết giới tính của bác sĩ."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "tired",
+    "vi": "mệt"
+   },
+   {
+    "word": "midnight",
+    "vi": "nửa đêm"
+   },
+   {
+    "word": "brain",
+    "vi": "não"
+   },
+   {
+    "word": "information",
+    "vi": "thông tin"
+   },
+   {
+    "word": "plan",
+    "vi": "kế hoạch"
+   },
+   {
+    "word": "wake up",
+    "vi": "thức dậy"
+   }
+  ]
+ },
+ {
+  "id": "r-a1-04",
+  "level": "A1",
+  "title": "Busy Bees",
+  "passage": "Bees are small insects. They live in a hive with many other bees. One hive can have up to 50,000 bees.\n\nBees make honey from flowers. They visit flowers and drink a sweet liquid called nectar. Bees also carry pollen from flower to flower. This helps plants make fruit. Without bees, we would have less food, like apples and almonds.\n\nBees can fly fast, but they cannot fly in heavy rain. Today, some bees are in danger because of chemicals and fewer flowers. You can help bees. Plant flowers in your garden, and do not use strong chemicals. Bees are small, but they do a very big job.",
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What is nectar?",
+    "options": [
+     "A sweet liquid in flowers",
+     "A type of fruit",
+     "A home for bees",
+     "A kind of insect"
+    ],
+    "answer": 0,
+    "explain": "Đoạn 2: 'a sweet liquid called nectar' (chất lỏng ngọt trong hoa)."
+   },
+   {
+    "type": "tfng",
+    "q": "Bees make honey from flowers.",
+    "answer": "TRUE",
+    "explain": "Đoạn 2: 'Bees make honey from flowers.'"
+   },
+   {
+    "type": "tfng",
+    "q": "Bees can fly in heavy rain.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: 'they cannot fly in heavy rain'."
+   },
+   {
+    "type": "tfng",
+    "q": "Bees live alone.",
+    "answer": "FALSE",
+    "explain": "Đoạn 1: bees 'live in a hive with many other bees'."
+   },
+   {
+    "type": "tfng",
+    "q": "Bees sleep at night.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài không nói về giấc ngủ của ong."
+   },
+   {
+    "type": "mcq",
+    "q": "How can we help bees?",
+    "options": [
+     "Use strong chemicals",
+     "Cut the flowers",
+     "Plant flowers in the garden",
+     "Keep bees at home"
+    ],
+    "answer": 2,
+    "explain": "Đoạn 3: 'Plant flowers in your garden'."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "insect",
+    "vi": "côn trùng"
+   },
+   {
+    "word": "hive",
+    "vi": "tổ ong"
+   },
+   {
+    "word": "nectar",
+    "vi": "mật hoa"
+   },
+   {
+    "word": "pollen",
+    "vi": "phấn hoa"
+   },
+   {
+    "word": "in danger",
+    "vi": "gặp nguy hiểm"
+   },
+   {
+    "word": "chemical",
+    "vi": "hóa chất"
+   }
+  ]
+ },
+ {
+  "id": "r-a2-01",
+  "level": "A2",
+  "title": "Coral Reefs: Rainforests of the Sea",
+  "passage": "Coral reefs are often called the rainforests of the sea. They cover less than one percent of the ocean floor, but about a quarter of all sea animals live in or near them. Corals look like plants or rocks, but they are really tiny animals. Inside their bodies live small algae, which give the coral its bright colours and some of its food.\n\nReefs are important for people too. They protect coasts from big waves, and millions of people get fish and income from them. Tourists come to dive and take photos, which gives jobs to local families. Healthy reefs also have a lot of fish, so fishing boats can catch more food near them.\n\nHowever, reefs are in trouble. When the sea becomes too warm, corals push out the algae and turn white. This is called bleaching. If the water cools quickly, corals can recover, but if it stays hot for a long time, they die. Pollution from farms and boats also harms reefs.\n\nScientists and volunteers are now growing young corals in nurseries and putting them back on damaged reefs. Some hotels also ask guests not to touch the coral or use strong sun cream in the sea.",
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "Why are coral reefs called the rainforests of the sea?",
+    "options": [
+     "They are very green",
+     "A lot of sea animals live in or near them",
+     "They are in warm rain",
+     "They are bigger than forests"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 1: khoảng một phần tư động vật biển sống trong hoặc gần rạn san hô."
+   },
+   {
+    "type": "tfng",
+    "q": "Corals are really tiny animals.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'they are really tiny animals'."
+   },
+   {
+    "type": "tfng",
+    "q": "Coral reefs cover a quarter of the ocean floor.",
+    "answer": "FALSE",
+    "explain": "Đoạn 1: rạn san hô chiếm chưa đến 1% đáy đại dương; 'một phần tư' là số loài động vật biển."
+   },
+   {
+    "type": "mcq",
+    "q": "What happens during bleaching?",
+    "options": [
+     "Corals grow faster",
+     "Corals push out the algae and turn white",
+     "Corals become bright red",
+     "Corals move to cooler water"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: 'corals push out the algae and turn white. This is called bleaching.'"
+   },
+   {
+    "type": "tfng",
+    "q": "Corals that turn white always die.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: 'If the water cools quickly, corals can recover' - nếu nước mát lại nhanh, san hô có thể hồi phục."
+   },
+   {
+    "type": "tfng",
+    "q": "Bleaching happens more often in the Pacific Ocean than in the Indian Ocean.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài không so sánh các đại dương."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "reef",
+    "vi": "rạn san hô"
+   },
+   {
+    "word": "algae",
+    "vi": "tảo"
+   },
+   {
+    "word": "bleaching",
+    "vi": "sự tẩy trắng (san hô)"
+   },
+   {
+    "word": "recover",
+    "vi": "hồi phục"
+   },
+   {
+    "word": "pollution",
+    "vi": "ô nhiễm"
+   },
+   {
+    "word": "volunteer",
+    "vi": "tình nguyện viên"
+   },
+   {
+    "word": "damaged",
+    "vi": "bị hư hại"
+   }
+  ]
+ },
+ {
+  "id": "r-a2-02",
+  "level": "A2",
+  "title": "Working from Home",
+  "passage": "Before 2020, most people travelled to an office every day. Then many companies asked their workers to stay at home, and working from home became normal. Now, a lot of people work from home for part or all of the week.\n\nThere are many good things about it. You save time and money because you do not travel. You can spend more time with your family, and you can take a short break to walk the dog or cook lunch. Many people also say they can concentrate better in a quiet room. A comfortable desk and a good chair also help a lot.\n\nBut working from home is not perfect. Some workers feel lonely because they do not see their colleagues. Others find it hard to stop working at the end of the day, because the laptop is always on the kitchen table. Children or noisy neighbours can also make work difficult.\n\nMany companies now choose a mix. Workers come to the office two or three days a week to meet their team, and they work at home on the other days. Experts say this 'hybrid' way may be the best of both worlds.",
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What happened in 2020?",
+    "options": [
+     "People stopped working",
+     "Many companies asked workers to stay at home",
+     "All offices closed forever",
+     "Workers moved to new cities"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 1: 'many companies asked their workers to stay at home'."
+   },
+   {
+    "type": "tfng",
+    "q": "All people now work at home full time.",
+    "answer": "FALSE",
+    "explain": "Đoạn 1: nhiều người làm ở nhà 'part or all of the week' - một phần hoặc cả tuần; không phải tất cả mọi người."
+   },
+   {
+    "type": "tfng",
+    "q": "Workers save money because they do not travel to the office.",
+    "answer": "TRUE",
+    "explain": "Đoạn 2: 'You save time and money because you do not travel.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Why do some workers feel lonely?",
+    "options": [
+     "They have no family",
+     "They do not see their colleagues",
+     "They work too many hours",
+     "They have no laptop"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: 'they do not see their colleagues'."
+   },
+   {
+    "type": "tfng",
+    "q": "In the hybrid way, workers go to the office two or three days a week.",
+    "answer": "TRUE",
+    "explain": "Đoạn 4: 'Workers come to the office two or three days a week'."
+   },
+   {
+    "type": "tfng",
+    "q": "People who work at home earn more money than people in offices.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài không nói gì về mức lương."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "colleague",
+    "vi": "đồng nghiệp"
+   },
+   {
+    "word": "concentrate",
+    "vi": "tập trung"
+   },
+   {
+    "word": "lonely",
+    "vi": "cô đơn"
+   },
+   {
+    "word": "hybrid",
+    "vi": "kết hợp (vừa ở nhà vừa ở văn phòng)"
+   },
+   {
+    "word": "expert",
+    "vi": "chuyên gia"
+   },
+   {
+    "word": "break",
+    "vi": "giờ nghỉ ngắn"
+   }
+  ]
+ },
+ {
+  "id": "r-a2-03",
+  "level": "A2",
+  "title": "How to Learn a New Language",
+  "passage": "Learning a new language is not easy, but it is possible for everyone. Many people think children learn faster than adults. This is partly true. Children copy sounds very well, so they often speak with a better accent. But adults are good at other things. They can study grammar rules, and they know how to plan their learning.\n\nWhat is the best way to learn? Teachers say you should practise a little every day. Twenty minutes each day is better than two hours once a week. Listening is also important. Try to listen to songs, podcasts or films in the new language. At first you will not understand everything, but that is normal. It also helps to keep a small notebook for new words and to read them again at the end of the week.\n\nDo not be afraid of mistakes. Mistakes show that you are trying, and they help you learn. Speaking with other people, even for five minutes, is much better than only reading a book.\n\nApps can help too. Many apps give you short games and daily goals. However, most teachers say apps are not enough. You also need to speak with real people and to read and write in the language.",
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What are children often better at than adults?",
+    "options": [
+     "Studying grammar rules",
+     "Planning their learning",
+     "Copying sounds and having a good accent",
+     "Reading books"
+    ],
+    "answer": 2,
+    "explain": "Đoạn 1: trẻ em 'copy sounds very well, so they often speak with a better accent'."
+   },
+   {
+    "type": "tfng",
+    "q": "Adults cannot study grammar rules.",
+    "answer": "FALSE",
+    "explain": "Đoạn 1: người lớn 'can study grammar rules'."
+   },
+   {
+    "type": "tfng",
+    "q": "Studying for twenty minutes every day is better than studying for two hours once a week.",
+    "answer": "TRUE",
+    "explain": "Đoạn 2: 'Twenty minutes each day is better than two hours once a week.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What does the writer say about mistakes?",
+    "options": [
+     "They are very bad",
+     "They show you are trying and help you learn",
+     "They mean you should stop",
+     "They only happen to adults"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: 'Mistakes show that you are trying, and they help you learn.'"
+   },
+   {
+    "type": "tfng",
+    "q": "Most teachers think apps are enough to learn a language.",
+    "answer": "FALSE",
+    "explain": "Đoạn 4: 'most teachers say apps are not enough'."
+   },
+   {
+    "type": "tfng",
+    "q": "It takes most adults about two years to learn a new language.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài không nêu thời gian cần để học một ngôn ngữ."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "accent",
+    "vi": "giọng nói"
+   },
+   {
+    "word": "grammar",
+    "vi": "ngữ pháp"
+   },
+   {
+    "word": "practise",
+    "vi": "luyện tập"
+   },
+   {
+    "word": "podcast",
+    "vi": "chương trình podcast"
+   },
+   {
+    "word": "mistake",
+    "vi": "lỗi sai"
+   },
+   {
+    "word": "goal",
+    "vi": "mục tiêu"
+   }
+  ]
+ },
+ {
+  "id": "r-a2-04",
+  "level": "A2",
+  "title": "From Bottle to Bag",
+  "passage": "Every minute, about one million plastic bottles are sold around the world. Many of them are used only once and then thrown away. Plastic does not disappear quickly. A bottle can stay in the ground or the sea for hundreds of years.\n\nRecycling is one answer. First, people put empty bottles in a special bin. A truck takes them to a factory. There, workers sort the bottles by type and colour. Then machines wash the plastic and cut it into small pieces called flakes. The flakes are melted and made into new things, such as clothes, bags, carpets and even new bottles.\n\nRecycling saves energy, because making new plastic from oil takes more energy than using old plastic. It also means less rubbish in rivers and seas. In some countries, shops give you a little money when you bring back empty bottles.\n\nBut recycling is not perfect. Dirty bottles cannot be recycled, and some kinds of plastic are too difficult to recycle at all. That is why experts say we should also use fewer plastic things. Carrying a water bottle and a cloth bag is a simple way to start.",
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What happens first in the recycling process?",
+    "options": [
+     "Machines wash the plastic",
+     "Workers sort the bottles",
+     "People put empty bottles in a special bin",
+     "The plastic is melted"
+    ],
+    "answer": 2,
+    "explain": "Đoạn 2: 'First, people put empty bottles in a special bin.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What are flakes?",
+    "options": [
+     "Small pieces of plastic",
+     "New bottles",
+     "Bags made of cloth",
+     "Types of oil"
+    ],
+    "answer": 0,
+    "explain": "Đoạn 2: máy cắt nhựa thành 'small pieces called flakes'."
+   },
+   {
+    "type": "tfng",
+    "q": "A plastic bottle can stay in the sea for hundreds of years.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'A bottle can stay in the ground or the sea for hundreds of years.'"
+   },
+   {
+    "type": "tfng",
+    "q": "New bottles cannot be made from old plastic.",
+    "answer": "FALSE",
+    "explain": "Đoạn 2: nhựa tái chế được làm thành nhiều thứ, 'even new bottles'."
+   },
+   {
+    "type": "tfng",
+    "q": "Recycling uses more energy than making new plastic from oil.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: làm nhựa mới từ dầu tốn nhiều năng lượng hơn dùng nhựa cũ."
+   },
+   {
+    "type": "tfng",
+    "q": "Most people in Europe recycle their plastic bottles.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài không có thông tin về tỷ lệ tái chế ở châu Âu."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "recycle",
+    "vi": "tái chế"
+   },
+   {
+    "word": "factory",
+    "vi": "nhà máy"
+   },
+   {
+    "word": "sort",
+    "vi": "phân loại"
+   },
+   {
+    "word": "melt",
+    "vi": "làm tan chảy"
+   },
+   {
+    "word": "rubbish",
+    "vi": "rác"
+   },
+   {
+    "word": "energy",
+    "vi": "năng lượng"
+   },
+   {
+    "word": "disappear",
+    "vi": "biến mất"
+   }
+  ]
+ },
+ {
+  "id": "r-b1-01",
+  "level": "B1",
+  "title": "Farming in the Sky: The Rise of Vertical Farms",
+  "passage": "By 2050, about two thirds of the world's population is expected to live in cities. Feeding all these people is a serious challenge, because traditional farms need large areas of land and are often far from the places where food is eaten. One idea that has attracted attention in recent years is vertical farming. In many large cities, there is simply no space left for new farmland.\n\nA vertical farm grows crops in layers, stacked one above the other inside a building such as a warehouse. Instead of soil, many of these farms use hydroponics, a method in which plant roots sit in water containing nutrients. Because the plants are indoors, farmers use LED lights rather than sunlight, and computers control the temperature and humidity.\n\nSupporters point out several advantages. A vertical farm can use up to 90 percent less water than a field, since the water is collected and reused. Crops are protected from bad weather and insects, so farmers rarely need pesticides. And because the farms can be built in the middle of a city, vegetables can reach shops within hours, staying fresh and reducing the pollution caused by transport. Because conditions are controlled, harvests are predictable throughout the year, so a farm can supply supermarkets regularly in every season.\n\nThere are drawbacks, however. The lights and climate systems use a great deal of electricity, which makes the food more expensive to grow. At the moment, most vertical farms produce leafy greens and herbs, which grow quickly and sell for good prices. Staple foods such as rice and wheat need much more space and light, so they are not yet practical to grow indoors.\n\nSome companies are trying to solve the energy problem by using solar panels or cheaper, more efficient lights. Others are building smaller farms inside supermarkets and restaurants, where customers can see the plants growing. Experts do not believe that vertical farms will replace traditional farming, but they may become an important addition to the food supply of big cities.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "Experts expect most of the world's population to live in cities by 2050.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'about two thirds ... is expected to live in cities' - hai phần ba là đa số."
+   },
+   {
+    "type": "gap",
+    "q": "Many vertical farms grow plants in water containing nutrients, a method called ____.",
+    "answer": [
+     "hydroponics"
+    ],
+    "explain": "Đoạn 2: 'hydroponics, a method in which plant roots sit in water containing nutrients'."
+   },
+   {
+    "type": "gap",
+    "q": "Instead of sunlight, vertical farms use ____.",
+    "answer": [
+     "LED lights",
+     "LED light",
+     "LED lighting",
+     "LEDs"
+    ],
+    "explain": "Đoạn 2: 'farmers use LED lights rather than sunlight'."
+   },
+   {
+    "type": "mcq",
+    "q": "What is one advantage of vertical farming mentioned in the passage?",
+    "options": [
+     "It needs no electricity",
+     "It can use much less water",
+     "It grows rice and wheat easily",
+     "It needs no workers"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: 'use up to 90 percent less water than a field'."
+   },
+   {
+    "type": "tfng",
+    "q": "Farmers in vertical farms often have to use a lot of pesticides.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: 'farmers rarely need pesticides' - hiếm khi cần thuốc trừ sâu."
+   },
+   {
+    "type": "tfng",
+    "q": "Vegetables from a city vertical farm can reach shops within hours.",
+    "answer": "TRUE",
+    "explain": "Đoạn 3: 'vegetables can reach shops within hours'."
+   },
+   {
+    "type": "mcq",
+    "q": "Why do most vertical farms grow leafy greens and herbs?",
+    "options": [
+     "They need less light than rice",
+     "They grow quickly and sell for good prices",
+     "They are easy to transport by lorry",
+     "Customers do not like other plants"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 4: 'leafy greens and herbs, which grow quickly and sell for good prices'."
+   },
+   {
+    "type": "gap",
+    "q": "Vertical farms make food more expensive because they use a great deal of ____.",
+    "answer": [
+     "electricity"
+    ],
+    "explain": "Đoạn 4: 'use a great deal of electricity, which makes the food more expensive'."
+   },
+   {
+    "type": "tfng",
+    "q": "Experts believe vertical farms will replace traditional farming.",
+    "answer": "FALSE",
+    "explain": "Đoạn 5: 'Experts do not believe that vertical farms will replace traditional farming'."
+   },
+   {
+    "type": "tfng",
+    "q": "Vertical farms inside supermarkets are cheaper to run than those in warehouses.",
+    "answer": "NOT GIVEN",
+    "explain": "Đoạn 5 chỉ nói có những trang trại nhỏ trong siêu thị, không so sánh chi phí."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "hydroponics",
+    "vi": "thủy canh"
+   },
+   {
+    "word": "nutrient",
+    "vi": "chất dinh dưỡng"
+   },
+   {
+    "word": "humidity",
+    "vi": "độ ẩm"
+   },
+   {
+    "word": "pesticide",
+    "vi": "thuốc trừ sâu"
+   },
+   {
+    "word": "staple food",
+    "vi": "lương thực chính"
+   },
+   {
+    "word": "drawback",
+    "vi": "nhược điểm"
+   },
+   {
+    "word": "stacked",
+    "vi": "xếp chồng lên nhau"
+   },
+   {
+    "word": "efficient",
+    "vi": "hiệu quả (tiết kiệm năng lượng)"
+   }
+  ]
+ },
+ {
+  "id": "r-b1-02",
+  "level": "B1",
+  "title": "Holidays in Space: The Birth of Space Tourism",
+  "passage": "For decades, only professional astronauts could travel into space. Since 2001, however, a small number of private citizens have paid for the chance to see Earth from above. More recently, several companies have started selling short flights to ordinary, though very wealthy, customers, and this new industry is known as space tourism.\n\nThere are two main kinds of trip. Suborbital flights carry passengers just beyond the edge of space, around 80 to 100 kilometres above the ground. The vehicle climbs, the passengers experience a few minutes of weightlessness, and then it returns to Earth. The whole trip usually lasts under an hour. Orbital trips are much longer. Passengers travel in a capsule that circles the planet at high speed, and some have also stayed at the International Space Station for several days. Before the flight, passengers wear special suits and receive training that lasts a few days.\n\nThe prices are high. A seat on a suborbital flight has cost between 250,000 and 500,000 dollars, while orbital trips cost tens of millions. Because of this, most customers have been business owners, celebrities or investors. Companies hope that prices will fall as rockets become reusable, since throwing away a rocket after each launch is extremely costly.\n\nCritics raise several concerns. Rocket launches release gases and tiny particles into the upper atmosphere, and scientists are still studying how this might affect the climate. Others argue that the money and talent would be better used to solve problems on Earth, such as poverty and disease. There are also safety worries. Space travel is risky, and accidents have happened during test flights.\n\nSupporters reply that tourism helps develop technology, which can later be used in other industries, and that seeing the planet from space can change the way people think about protecting it. Passengers often describe a feeling of wonder when they look down at Earth, an experience sometimes called the 'overview effect'. Whether space tourism will ever become affordable for most people remains unclear.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "Private citizens have been paying to travel into space since 2001.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'Since 2001, ... private citizens have paid for the chance to see Earth from above'."
+   },
+   {
+    "type": "gap",
+    "q": "Passengers on a suborbital flight experience a few minutes of ____.",
+    "answer": [
+     "weightlessness"
+    ],
+    "explain": "Đoạn 2: 'a few minutes of weightlessness'."
+   },
+   {
+    "type": "tfng",
+    "q": "A suborbital trip normally lasts more than a day.",
+    "answer": "FALSE",
+    "explain": "Đoạn 2: 'The whole trip usually lasts under an hour.'"
+   },
+   {
+    "type": "mcq",
+    "q": "How is an orbital trip different from a suborbital one?",
+    "options": [
+     "It is much shorter",
+     "Passengers travel in a capsule that circles the planet",
+     "It does not leave the atmosphere",
+     "It is cheaper"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 2: chuyến orbital dài hơn, hành khách đi trong 'a capsule that circles the planet'."
+   },
+   {
+    "type": "gap",
+    "q": "Companies hope that prices will fall as rockets become ____.",
+    "answer": [
+     "reusable"
+    ],
+    "explain": "Đoạn 3: 'prices will fall as rockets become reusable'."
+   },
+   {
+    "type": "tfng",
+    "q": "Most space tourists so far have been wealthy people.",
+    "answer": "TRUE",
+    "explain": "Đoạn 3: khách hàng chủ yếu là 'business owners, celebrities or investors' vì giá rất cao."
+   },
+   {
+    "type": "mcq",
+    "q": "What are scientists still studying?",
+    "options": [
+     "How to make rockets safer",
+     "The effect of rocket gases on the climate",
+     "The cost of orbital trips",
+     "Weightlessness in the human body"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 4: 'scientists are still studying how this might affect the climate'."
+   },
+   {
+    "type": "tfng",
+    "q": "All test flights have been completely safe.",
+    "answer": "FALSE",
+    "explain": "Đoạn 4: 'accidents have happened during test flights'."
+   },
+   {
+    "type": "gap",
+    "q": "Passengers who feel wonder when they look down at Earth may experience the '____ effect'.",
+    "answer": [
+     "overview"
+    ],
+    "explain": "Đoạn 5: 'an experience sometimes called the overview effect'."
+   },
+   {
+    "type": "tfng",
+    "q": "Some companies plan to build hotels in orbit.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài không nhắc gì đến khách sạn trên quỹ đạo."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "astronaut",
+    "vi": "phi hành gia"
+   },
+   {
+    "word": "suborbital",
+    "vi": "dưới quỹ đạo"
+   },
+   {
+    "word": "weightlessness",
+    "vi": "trạng thái không trọng lượng"
+   },
+   {
+    "word": "capsule",
+    "vi": "khoang (tàu vũ trụ)"
+   },
+   {
+    "word": "reusable",
+    "vi": "có thể tái sử dụng"
+   },
+   {
+    "word": "atmosphere",
+    "vi": "khí quyển"
+   },
+   {
+    "word": "critic",
+    "vi": "người chỉ trích"
+   },
+   {
+    "word": "wonder",
+    "vi": "sự kinh ngạc, thán phục"
+   }
+  ]
+ },
+ {
+  "id": "r-b1-03",
+  "level": "B1",
+  "title": "The Bicycle: A Short History",
+  "passage": "The bicycle looks simple, but it took nearly a century to reach its modern form. The first ancestor was built in Germany in 1817 by Karl von Drais. His 'running machine' had two wheels and a wooden frame, but no pedals; riders pushed along the ground with their feet. It was popular for a short time, but poor roads and some accidents meant that many towns banned it.\n\nIn the 1860s, French makers added pedals to the front wheel. These machines were uncomfortable on rough streets, so people called them 'boneshakers'. Later models had a huge front wheel, because a larger wheel meant a greater distance with each turn of the pedals. These 'penny-farthings' were fast, but also dangerous: a rider who hit a stone could be thrown over the handlebars.\n\nThe big change came in the 1880s with the 'safety bicycle'. It had two wheels of equal size, a chain connecting the pedals to the back wheel, and a lower seat. Soon afterwards, inflatable rubber tyres made the ride much smoother. Bicycles became cheap enough for ordinary workers to buy, and they gave people a new kind of freedom. Women in particular found that cycling allowed them to travel alone, and some historians believe it helped change attitudes to women's clothing and independence.\n\nDuring the twentieth century, cars became the main form of transport in many countries, and cycling became less common. However, in the last twenty years, bikes have returned to city streets. Governments build cycle lanes to reduce traffic and pollution, and many cities offer bikes for rent through mobile phone apps. Electric bicycles, which have a small motor to help the rider, are especially popular because they make hills and long journeys easier. Cycling is also healthy, because regular exercise strengthens the heart and reduces stress.\n\nThe Netherlands has a particularly strong cycling culture, and there are more bicycles there than people.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "The first bicycle-like machine was made in Germany.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'built in Germany in 1817 by Karl von Drais'."
+   },
+   {
+    "type": "gap",
+    "q": "Von Drais's 'running machine' had no ____.",
+    "answer": [
+     "pedals"
+    ],
+    "explain": "Đoạn 1: 'two wheels and a wooden frame, but no pedals'."
+   },
+   {
+    "type": "mcq",
+    "q": "Why were the early pedal machines called 'boneshakers'?",
+    "options": [
+     "They were made of bone",
+     "They were uncomfortable on rough streets",
+     "They were very heavy",
+     "They were banned in towns"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 2: 'uncomfortable on rough streets, so people called them boneshakers'."
+   },
+   {
+    "type": "gap",
+    "q": "A larger front wheel meant a greater ____ with each turn of the pedals.",
+    "answer": [
+     "distance"
+    ],
+    "explain": "Đoạn 2: 'a larger wheel meant a greater distance with each turn of the pedals'."
+   },
+   {
+    "type": "tfng",
+    "q": "A penny-farthing rider could be thrown over the handlebars.",
+    "answer": "TRUE",
+    "explain": "Đoạn 2: 'a rider who hit a stone could be thrown over the handlebars'."
+   },
+   {
+    "type": "mcq",
+    "q": "What was a feature of the 'safety bicycle'?",
+    "options": [
+     "A huge front wheel",
+     "A chain connecting the pedals to the back wheel",
+     "A wooden frame",
+     "No seat"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: 'a chain connecting the pedals to the back wheel'."
+   },
+   {
+    "type": "gap",
+    "q": "The ride became much smoother after the invention of ____ tyres.",
+    "answer": [
+     "inflatable rubber",
+     "rubber",
+     "inflatable"
+    ],
+    "explain": "Đoạn 3: 'inflatable rubber tyres made the ride much smoother'."
+   },
+   {
+    "type": "tfng",
+    "q": "Cycling allowed many women to travel alone.",
+    "answer": "TRUE",
+    "explain": "Đoạn 3: 'cycling allowed them to travel alone'."
+   },
+   {
+    "type": "tfng",
+    "q": "Cycling became less common in many countries when cars became popular.",
+    "answer": "TRUE",
+    "explain": "Đoạn 4: 'cars became the main form of transport ... and cycling became less common'."
+   },
+   {
+    "type": "tfng",
+    "q": "The Netherlands has the longest network of cycle lanes in Europe.",
+    "answer": "NOT GIVEN",
+    "explain": "Đoạn 5 chỉ nói ở Hà Lan có nhiều xe đạp hơn người, không nói về độ dài đường dành cho xe đạp."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "ancestor",
+    "vi": "tiền thân, tổ tiên"
+   },
+   {
+    "word": "frame",
+    "vi": "khung xe"
+   },
+   {
+    "word": "pedal",
+    "vi": "bàn đạp"
+   },
+   {
+    "word": "handlebars",
+    "vi": "ghi đông"
+   },
+   {
+    "word": "inflatable",
+    "vi": "bơm hơi được"
+   },
+   {
+    "word": "cycle lane",
+    "vi": "làn đường dành cho xe đạp"
+   },
+   {
+    "word": "ban",
+    "vi": "cấm"
+   },
+   {
+    "word": "motor",
+    "vi": "động cơ"
+   }
+  ]
+ },
+ {
+  "id": "r-b1-04",
+  "level": "B1",
+  "title": "Learning a Language Later in Life",
+  "passage": "Many people believe that if you do not learn a foreign language as a child, you will never speak it well. Research suggests that this belief is too simple. It is true that young children often reach a native-like accent more easily. However, adults have several advantages, and many succeed in becoming fluent.\n\nOne advantage is experience. Adults already understand how language works. They can compare grammar with their first language, and they know which learning methods suit them. Another advantage is motivation. A child usually studies because school requires it, while an adult normally chooses to learn, perhaps for a new job, for travel or for a relationship. Strong motivation is one of the best predictors of success. For example, an adult who already speaks one foreign language usually finds a second one easier to learn.\n\nStudies also suggest that learning a language may be good for the brain. Some studies report that people who speak two or more languages develop signs of memory problems several years later, on average, than those who speak only one. Scientists are still debating the reasons, but they believe that regular mental exercise may protect the brain.\n\nOf course, adult learners face obstacles. They are often busy, and they may feel embarrassed about making mistakes. Fear of sounding foolish stops many learners from speaking, even though speaking is the fastest way to improve. Pronunciation can also be a challenge, because the muscles of the mouth are used to the sounds of the first language.\n\nExperts suggest several strategies. Set small, realistic goals, such as learning ten new words a day. Study for short periods regularly instead of for long periods occasionally. Use the language in real situations, for example by joining a conversation group or chatting online with a native speaker. Finally, accept that progress is not always steady. Most learners experience a 'plateau' when they seem to stop improving, but with patience they usually start to move forward again.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "Young children often find it easier to get a native-like accent.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'young children often reach a native-like accent more easily'."
+   },
+   {
+    "type": "mcq",
+    "q": "Which of these is an advantage that adults have?",
+    "options": [
+     "They copy sounds perfectly",
+     "They can compare grammar with their first language",
+     "They have more free time",
+     "They never feel embarrassed"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 2: 'They can compare grammar with their first language'."
+   },
+   {
+    "type": "gap",
+    "q": "Strong ____ is one of the best predictors of success in language learning.",
+    "answer": [
+     "motivation"
+    ],
+    "explain": "Đoạn 2: 'Strong motivation is one of the best predictors of success.'"
+   },
+   {
+    "type": "tfng",
+    "q": "Children usually choose for themselves to study a foreign language.",
+    "answer": "FALSE",
+    "explain": "Đoạn 2: trẻ em thường học vì 'school requires it' (nhà trường yêu cầu), còn người lớn mới tự chọn."
+   },
+   {
+    "type": "tfng",
+    "q": "Some studies suggest that bilingual people show memory problems later than people who speak one language.",
+    "answer": "TRUE",
+    "explain": "Đoạn 3: người nói hai ngôn ngữ trở lên bị suy giảm trí nhớ muộn hơn vài năm."
+   },
+   {
+    "type": "tfng",
+    "q": "Scientists fully understand why speaking several languages protects the brain.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: 'Scientists are still debating the reasons'."
+   },
+   {
+    "type": "gap",
+    "q": "Adult learners often feel embarrassed about making ____.",
+    "answer": [
+     "mistakes"
+    ],
+    "explain": "Đoạn 4: 'they may feel embarrassed about making mistakes'."
+   },
+   {
+    "type": "mcq",
+    "q": "Why can pronunciation be difficult for adults?",
+    "options": [
+     "Adults have weaker muscles",
+     "The mouth muscles are used to the sounds of the first language",
+     "Adults do not hear well",
+     "Teachers do not correct them"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 4: 'the muscles of the mouth are used to the sounds of the first language'."
+   },
+   {
+    "type": "gap",
+    "q": "A period when learners seem to stop improving is called a ____.",
+    "answer": [
+     "plateau"
+    ],
+    "explain": "Đoạn 5: 'a plateau when they seem to stop improving'."
+   },
+   {
+    "type": "tfng",
+    "q": "Online conversation groups are more effective than classroom courses.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài chỉ gợi ý tham gia nhóm hội thoại hoặc chat online, không so sánh với lớp học."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "fluent",
+    "vi": "lưu loát"
+   },
+   {
+    "word": "motivation",
+    "vi": "động lực"
+   },
+   {
+    "word": "predictor",
+    "vi": "yếu tố dự báo"
+   },
+   {
+    "word": "obstacle",
+    "vi": "trở ngại"
+   },
+   {
+    "word": "embarrassed",
+    "vi": "ngượng ngùng"
+   },
+   {
+    "word": "pronunciation",
+    "vi": "phát âm"
+   },
+   {
+    "word": "plateau",
+    "vi": "giai đoạn chững lại"
+   },
+   {
+    "word": "realistic",
+    "vi": "thực tế, khả thi"
+   }
+  ]
+ },
+ {
+  "id": "r-b2-01",
+  "level": "B2",
+  "title": "Why We Sleep: What Science Tells Us",
+  "passage": "Humans spend roughly a third of their lives asleep, yet for most of history sleep was regarded as little more than a passive state in which the body switched off. Modern research has overturned that view. Brain scans show that during sleep the brain is highly active, performing tasks that are essential for health, learning and emotional balance.\n\nSleep is not a uniform state. Over the course of a night we pass through several cycles, each lasting about ninety minutes. Each cycle contains lighter stages, deep sleep and rapid eye movement (REM) sleep. Deep sleep, which dominates the first half of the night, is when the body repairs tissue and the immune system is strengthened. REM sleep, which becomes longer towards morning, is associated with vivid dreaming and appears to help the brain process emotions.\n\nOne of the most important discoveries concerns memory. During the day, new experiences are stored temporarily in a region of the brain called the hippocampus. While we sleep, these memories are replayed and gradually transferred to the cortex, where they are stored for the long term. In one well-known experiment, students who slept after learning a list of words remembered considerably more of them than students who stayed awake for the same period. Sleep, it seems, does not merely preserve memories; it organises and strengthens them. Some scientists also believe that deep sleep helps the brain clear away waste products that accumulate during the day, which may explain why a single sleepless night leaves people feeling mentally foggy.\n\nThe consequences of too little sleep are serious. In the short term, tiredness reduces attention and reaction time, which is why drowsy driving causes thousands of accidents each year. Over longer periods, chronic sleep deprivation has been linked to obesity, heart disease and depression. Some researchers believe that one reason for the link with weight is that lack of sleep alters the hormones that control appetite, making people hungrier and more likely to choose sugary food. Even small losses matter: people who sleep only six hours a night for two weeks can perform as poorly on attention tests as someone who has missed a night entirely, yet they often feel only slightly tired.\n\nExperts generally recommend that adults sleep between seven and nine hours a night, although individual needs vary. Teenagers need more, because their body clocks shift later during puberty, making it natural for them to fall asleep late and wake late. This creates a conflict with early school start times, and several countries have experimented with starting lessons later; some schools reported improved grades and fewer absences.\n\nTo improve sleep, specialists suggest keeping regular bedtimes, avoiding caffeine in the afternoon, and keeping the bedroom dark, quiet and cool. Screens are a particular problem, since the blue light they emit can delay the release of melatonin, the hormone that tells the body it is night. Many experts therefore advise switching off devices an hour before bed. The popular idea that people can 'catch up' on lost sleep at weekends is only partly true: a long lie-in may reduce tiredness, but it does not fully reverse the damage caused by a week of short nights.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "Until recently, sleep was widely thought to be a passive state.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'for most of history sleep was regarded as little more than a passive state'."
+   },
+   {
+    "type": "gap",
+    "q": "Each sleep cycle lasts about ____ minutes.",
+    "answer": [
+     "ninety",
+     "90"
+    ],
+    "explain": "Đoạn 2: 'each lasting about ninety minutes'."
+   },
+   {
+    "type": "gap",
+    "q": "REM sleep appears to help the brain process ____.",
+    "answer": [
+     "emotions",
+     "emotion"
+    ],
+    "explain": "Đoạn 2: REM sleep 'appears to help the brain process emotions'."
+   },
+   {
+    "type": "gap",
+    "q": "During sleep, memories are transferred from the hippocampus to the ____.",
+    "answer": [
+     "cortex"
+    ],
+    "explain": "Đoạn 3: 'gradually transferred to the cortex, where they are stored for the long term'."
+   },
+   {
+    "type": "tfng",
+    "q": "In the experiment, students who slept after learning words remembered more than those who stayed awake.",
+    "answer": "TRUE",
+    "explain": "Đoạn 3: nhóm ngủ sau khi học 'remembered considerably more of them'."
+   },
+   {
+    "type": "tfng",
+    "q": "Drowsy driving causes more accidents than drunk driving.",
+    "answer": "NOT GIVEN",
+    "explain": "Đoạn 4 chỉ nói lái xe buồn ngủ gây hàng nghìn vụ tai nạn, không so sánh với lái xe khi say rượu."
+   },
+   {
+    "type": "mcq",
+    "q": "What is one possible reason why lack of sleep is linked to weight gain?",
+    "options": [
+     "People exercise less when tired",
+     "Hormones that control appetite change",
+     "Deep sleep burns more calories",
+     "People eat dinner later"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 4: thiếu ngủ 'alters the hormones that control appetite'."
+   },
+   {
+    "type": "tfng",
+    "q": "Teenagers need less sleep than adults.",
+    "answer": "FALSE",
+    "explain": "Đoạn 5: 'Teenagers need more' - thanh thiếu niên cần ngủ nhiều hơn."
+   },
+   {
+    "type": "gap",
+    "q": "The blue light from screens can delay the release of ____.",
+    "answer": [
+     "melatonin"
+    ],
+    "explain": "Đoạn 6: 'can delay the release of melatonin'."
+   },
+   {
+    "type": "tfng",
+    "q": "Sleeping late at the weekend fully reverses the damage of a week of short nights.",
+    "answer": "FALSE",
+    "explain": "Đoạn 6: ngủ nướng 'does not fully reverse the damage'."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "deprivation",
+    "vi": "sự thiếu hụt"
+   },
+   {
+    "word": "chronic",
+    "vi": "mãn tính"
+   },
+   {
+    "word": "immune system",
+    "vi": "hệ miễn dịch"
+   },
+   {
+    "word": "hormone",
+    "vi": "hoóc-môn"
+   },
+   {
+    "word": "appetite",
+    "vi": "cảm giác thèm ăn"
+   },
+   {
+    "word": "drowsy",
+    "vi": "buồn ngủ, ngái ngủ"
+   },
+   {
+    "word": "vivid",
+    "vi": "sống động"
+   },
+   {
+    "word": "puberty",
+    "vi": "tuổi dậy thì"
+   }
+  ]
+ },
+ {
+  "id": "r-b2-02",
+  "level": "B2",
+  "title": "Coral Reefs Under Pressure",
+  "passage": "Coral reefs occupy a tiny fraction of the ocean floor, yet they support around a quarter of all marine species, from tiny shrimp to sharks. They also protect coastlines from storms and provide food and income for hundreds of millions of people. For these reasons, scientists describe them as some of the most valuable ecosystems on the planet. Reefs also attract divers, and in some countries reef tourism generates billions of dollars a year.\n\nA reef is built by coral polyps, tiny animals that produce hard skeletons of calcium carbonate. Over thousands of years, these skeletons accumulate to form the massive structures we call reefs. The Great Barrier Reef, off the coast of Australia, stretches for more than 2,000 kilometres and is large enough to be seen from space. Most reef-building corals live in a partnership with microscopic algae. The algae live inside the coral's tissues, using sunlight to produce sugars that feed their host, and in return they receive shelter. The algae also give corals their colour.\n\nThis partnership is delicate. Corals thrive only within a narrow temperature range, and a rise of just one or two degrees above the normal summer maximum, if it continues for several weeks, can cause stress. The coral then expels the algae, leaving its transparent tissue and white skeleton visible. This is known as bleaching. A bleached coral is not dead, but it is starving, and unless conditions return to normal within a few weeks it is likely to die. Mass bleaching events were rare before the 1980s; since then, they have become much more frequent, and the Great Barrier Reef has experienced several in recent years.\n\nRising sea temperature, caused by global warming, is the main driver, but it is not the only threat. Run-off from farms carries fertilisers into coastal waters, encouraging the growth of seaweed that smothers coral. Overfishing removes the fish that graze on this seaweed. Meanwhile, the oceans absorb part of the carbon dioxide that humans release, which makes seawater slightly more acidic and makes it harder for corals to build their skeletons.\n\nResponses are under way on several fronts. Local measures, such as creating marine protected areas and controlling fishing, can improve a reef's chances of recovery. Researchers are also trying to restore damaged reefs by growing fragments of coral in underwater nurseries and attaching them to the seabed. Some laboratories are breeding heat-tolerant varieties, and others are exploring whether moving corals to cooler waters is practical. These techniques have had local successes, but most scientists agree that they work only on small scales. Without a rapid reduction in greenhouse gas emissions, they warn, even the best-protected reefs will remain at risk. Cutting local pollution is another practical step, since reefs that are not stressed by dirty water appear better able to survive a hot summer.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "Coral reefs support about a quarter of all marine species.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'support around a quarter of all marine species'."
+   },
+   {
+    "type": "gap",
+    "q": "Coral polyps produce hard skeletons made of ____.",
+    "answer": [
+     "calcium carbonate"
+    ],
+    "explain": "Đoạn 2: 'hard skeletons of calcium carbonate'."
+   },
+   {
+    "type": "mcq",
+    "q": "What does the passage say about the Great Barrier Reef?",
+    "options": [
+     "It is the only reef that has bleached",
+     "It is large enough to be seen from space",
+     "It is less than 1,000 kilometres long",
+     "It is found off the coast of Africa"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 2: 'stretches for more than 2,000 kilometres and is large enough to be seen from space'."
+   },
+   {
+    "type": "gap",
+    "q": "Inside the coral, algae use sunlight to produce ____ that feed their host.",
+    "answer": [
+     "sugars",
+     "sugar"
+    ],
+    "explain": "Đoạn 2: 'using sunlight to produce sugars that feed their host'."
+   },
+   {
+    "type": "tfng",
+    "q": "A bleached coral is already dead.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: 'A bleached coral is not dead, but it is starving'."
+   },
+   {
+    "type": "tfng",
+    "q": "Mass bleaching events have become more frequent since the 1980s.",
+    "answer": "TRUE",
+    "explain": "Đoạn 3: 'Mass bleaching events were rare before the 1980s; since then, they have become much more frequent'."
+   },
+   {
+    "type": "mcq",
+    "q": "How do fertilisers from farms harm coral reefs?",
+    "options": [
+     "They make the water too cold",
+     "They encourage seaweed that smothers the coral",
+     "They kill the fish directly",
+     "They block sunlight with oil"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 4: phân bón 'encouraging the growth of seaweed that smothers coral'."
+   },
+   {
+    "type": "gap",
+    "q": "Absorbing carbon dioxide makes seawater more ____, which makes it harder for corals to build skeletons.",
+    "answer": [
+     "acidic"
+    ],
+    "explain": "Đoạn 4: 'makes seawater slightly more acidic'."
+   },
+   {
+    "type": "tfng",
+    "q": "Heat-tolerant corals have been successfully planted on all of the world's major reefs.",
+    "answer": "FALSE",
+    "explain": "Đoạn 5: các kỹ thuật chỉ có 'local successes' và 'work only on small scales'."
+   },
+   {
+    "type": "tfng",
+    "q": "Marine protected areas are cheaper than coral nurseries.",
+    "answer": "NOT GIVEN",
+    "explain": "Đoạn 5 nhắc cả hai biện pháp nhưng không so sánh chi phí."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "ecosystem",
+    "vi": "hệ sinh thái"
+   },
+   {
+    "word": "polyp",
+    "vi": "thể polip (san hô)"
+   },
+   {
+    "word": "accumulate",
+    "vi": "tích tụ"
+   },
+   {
+    "word": "expel",
+    "vi": "đẩy ra, tống ra"
+   },
+   {
+    "word": "run-off",
+    "vi": "nước chảy tràn (mang theo hóa chất)"
+   },
+   {
+    "word": "smother",
+    "vi": "làm ngạt, phủ kín"
+   },
+   {
+    "word": "acidic",
+    "vi": "có tính axit"
+   },
+   {
+    "word": "emissions",
+    "vi": "khí thải"
+   }
+  ]
+ },
+ {
+  "id": "r-b2-03",
+  "level": "B2",
+  "title": "Libraries of the Ancient World",
+  "passage": "The idea of collecting writing in one place is almost as old as writing itself. Among the earliest known libraries is the collection of Ashurbanipal, a king of Assyria in the seventh century BCE, whose palace at Nineveh held tens of thousands of clay tablets. Scribes copied texts on medicine, astronomy, law and literature, and the king is said to have sent officials across his empire to collect important works. Today, many of these tablets are in the British Museum, and they include the best-preserved version of the Epic of Gilgamesh. Clay was a practical choice, since tablets baked in the fires that destroyed palaces often survived better than papyrus or paper would have done.\n\nThe most famous library of antiquity, however, stood in Alexandria in Egypt. It was founded early in the third century BCE under the Ptolemaic rulers, as part of a research institution known as the Mouseion. The Ptolemies were determined to gather all the world's knowledge. According to ancient sources, ships entering the harbour were searched for books, and any scrolls found were copied; the owners received the copies, while the library kept the originals. Estimates of its collection vary widely, from tens of thousands to several hundred thousand scrolls, and the true figure is unknown.\n\nThe library was more than a store. Scholars lived and worked there, supported by the state. Eratosthenes, who served as its head, calculated the circumference of the Earth with remarkable accuracy using shadows and geometry. Others edited the texts of Homer, compiled early dictionaries and developed systems of cataloguing that influenced librarians for centuries. In this sense, Alexandria functioned as a kind of ancient university. The library's reputation was so great that rulers elsewhere competed to attract the same scholars, offering them money and comfortable homes.\n\nPopular belief holds that the library was destroyed in a single dramatic fire, often attributed to Julius Caesar's army in 48 BCE. Historians now regard this story as an oversimplification. Caesar's fire damaged part of the harbour district, and some books may have been lost, but the library continued to exist afterwards. More plausibly, its decline was gradual. Funding was reduced when later rulers lost interest, scholars were expelled during political disputes, and papyrus scrolls, which are fragile, needed constant copying that became too expensive to maintain. By the later centuries of the Roman Empire, the institution had effectively disappeared.\n\nOther great libraries flourished elsewhere. In Pergamon, in present-day Turkey, rulers built a rival collection. According to a popular account, Egypt responded by banning the export of papyrus, and Pergamon's craftsmen therefore developed parchment, made from animal skin, as a replacement. Whatever the truth of the story, parchment later became the main material for books in Europe. Centuries afterwards, in ninth-century Baghdad, the House of Wisdom brought together scholars who translated Greek, Persian and Indian works into Arabic, preserving ideas that might otherwise have been lost.\n\nThe lesson of these ancient libraries is that knowledge is vulnerable. A collection can be lost to war, but just as often it is lost through neglect. That is why modern digital archives, which allow works to be copied endlessly, are seen by some as the fulfilment of the Ptolemies' dream.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "Ashurbanipal's library at Nineveh contained clay tablets.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: cung điện ở Nineveh 'held tens of thousands of clay tablets'."
+   },
+   {
+    "type": "gap",
+    "q": "Many tablets from Ashurbanipal's library are now kept in the ____.",
+    "answer": [
+     "British Museum"
+    ],
+    "explain": "Đoạn 1: 'many of these tablets are in the British Museum'."
+   },
+   {
+    "type": "mcq",
+    "q": "According to ancient sources, what happened to books found on ships in Alexandria's harbour?",
+    "options": [
+     "They were burned",
+     "They were copied, and the library kept the originals",
+     "They were returned unopened",
+     "They were sold to scholars"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 2: chủ sách nhận bản sao, 'the library kept the originals'."
+   },
+   {
+    "type": "tfng",
+    "q": "The exact number of scrolls in the Library of Alexandria is known.",
+    "answer": "FALSE",
+    "explain": "Đoạn 2: 'the true figure is unknown'."
+   },
+   {
+    "type": "gap",
+    "q": "Eratosthenes calculated the ____ of the Earth with remarkable accuracy.",
+    "answer": [
+     "circumference"
+    ],
+    "explain": "Đoạn 3: 'calculated the circumference of the Earth'."
+   },
+   {
+    "type": "tfng",
+    "q": "The scholars at Alexandria were paid by private merchants.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: học giả được 'supported by the state' (nhà nước hỗ trợ)."
+   },
+   {
+    "type": "mcq",
+    "q": "What do historians now think about the story of Caesar's fire?",
+    "options": [
+     "It destroyed every scroll",
+     "It is an oversimplification, as the library continued to exist",
+     "It never happened",
+     "It happened in the third century BCE"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 4: 'an oversimplification' và 'the library continued to exist afterwards'."
+   },
+   {
+    "type": "gap",
+    "q": "Papyrus scrolls are fragile and needed constant ____.",
+    "answer": [
+     "copying",
+     "copies"
+    ],
+    "explain": "Đoạn 4: 'papyrus scrolls, which are fragile, needed constant copying'."
+   },
+   {
+    "type": "tfng",
+    "q": "A popular story says that parchment was developed in Pergamon after Egypt banned the export of papyrus.",
+    "answer": "TRUE",
+    "explain": "Đoạn 5: 'According to a popular account, Egypt responded by banning the export of papyrus ... Pergamon's craftsmen therefore developed parchment'."
+   },
+   {
+    "type": "tfng",
+    "q": "The House of Wisdom in Baghdad was founded by a Persian king.",
+    "answer": "NOT GIVEN",
+    "explain": "Đoạn 5 chỉ nói Ngôi nhà Trí tuệ tập hợp các học giả dịch sách, không nói ai sáng lập."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "scribe",
+    "vi": "người chép thuê, thư lại"
+   },
+   {
+    "word": "scroll",
+    "vi": "cuộn giấy (papyrus)"
+   },
+   {
+    "word": "antiquity",
+    "vi": "thời cổ đại"
+   },
+   {
+    "word": "circumference",
+    "vi": "chu vi"
+   },
+   {
+    "word": "oversimplification",
+    "vi": "sự đơn giản hóa quá mức"
+   },
+   {
+    "word": "parchment",
+    "vi": "giấy da"
+   },
+   {
+    "word": "neglect",
+    "vi": "sự bỏ bê"
+   },
+   {
+    "word": "fulfilment",
+    "vi": "sự thực hiện, hoàn thành"
+   }
+  ]
+ },
+ {
+  "id": "r-b2-04",
+  "level": "B2",
+  "title": "The Future of the Office",
+  "passage": "Before 2020, remote work was an occasional privilege granted to a minority of employees. Within a few weeks of the pandemic, however, millions of people across the world were working from kitchen tables and spare bedrooms. What was meant to be a temporary emergency measure has become a permanent change for many organisations, and a debate continues over whether the traditional office has a future.\n\nSurveys consistently show that employees value the flexibility. Without a daily commute, which in large cities can take two hours or more, workers gain time for family, exercise and rest. Many also report being more productive at home, with fewer interruptions from colleagues. Employers benefit too: companies can recruit staff from anywhere rather than only from within travelling distance, and some have reduced costs by renting less office space. Some cities have even recorded a drop in traffic and air pollution during periods of widespread home working.\n\nYet remote work has disadvantages that were underestimated at first. Informal contact, such as chatting in a corridor or overhearing a conversation, is often how new ideas are born and how junior employees learn. Video calls are efficient for scheduled meetings but poor at replacing these chance encounters. Several studies have found that remote teams are good at carrying out well-defined tasks but less good at creative brainstorming. Managers also worry about newcomers, who may find it difficult to build relationships and to understand the culture of a company they have never visited.\n\nThere are personal costs as well. Working from home can blur the boundary between work and leisure, and some employees find themselves answering emails late at night. Others lack a suitable workspace or suffer from isolation. Research on well-being suggests that the effect of remote work depends heavily on the individual: people with families and long commutes tend to benefit, while those living alone in small flats often struggle. Working parents may enjoy being at home when their children return from school, but even for them the arrangement works only if the household has enough space and a reliable internet connection.\n\nCities are also affected. Central business districts, whose cafes, shops and transport services depend on crowds of office workers, have seen fewer visitors, and some cities are considering converting empty offices into homes. On the other hand, suburbs and smaller towns have gained new customers, and some governments hope that remote work might spread economic activity more evenly across a country.\n\nMost companies are now settling on a hybrid model, in which staff spend part of the week at home and part in the office. The details differ: some firms require everyone to attend on the same days so that teams can meet, while others leave the decision to individuals. Evidence so far suggests that organisations that explain the purpose of office days, rather than simply ordering people back, retain more staff. The office, it seems, is unlikely to vanish, but its role is changing from a place where people must work to a place where they choose to meet.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "Before 2020, remote work was common for most employees.",
+    "answer": "FALSE",
+    "explain": "Đoạn 1: trước 2020 làm từ xa chỉ là đặc quyền của 'a minority of employees' (thiểu số)."
+   },
+   {
+    "type": "gap",
+    "q": "In large cities, a daily commute can take ____ hours or more.",
+    "answer": [
+     "two",
+     "2"
+    ],
+    "explain": "Đoạn 2: 'which in large cities can take two hours or more'."
+   },
+   {
+    "type": "mcq",
+    "q": "How do employers benefit from remote work, according to the passage?",
+    "options": [
+     "Employees work longer hours",
+     "They can recruit staff from anywhere",
+     "They no longer need managers",
+     "Workers need less training"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 2: 'companies can recruit staff from anywhere'."
+   },
+   {
+    "type": "tfng",
+    "q": "Employees working at home report more interruptions from colleagues.",
+    "answer": "FALSE",
+    "explain": "Đoạn 2: họ báo cáo 'fewer interruptions from colleagues' (ít bị làm phiền hơn)."
+   },
+   {
+    "type": "mcq",
+    "q": "Why is informal contact in the office valuable?",
+    "options": [
+     "It makes meetings shorter",
+     "New ideas are often born there and junior staff learn from it",
+     "It reduces the cost of offices",
+     "It improves video calls"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: tiếp xúc không chính thức 'is often how new ideas are born and how junior employees learn'."
+   },
+   {
+    "type": "gap",
+    "q": "Remote teams are less good at creative ____.",
+    "answer": [
+     "brainstorming"
+    ],
+    "explain": "Đoạn 3: 'less good at creative brainstorming'."
+   },
+   {
+    "type": "tfng",
+    "q": "Remote work is equally beneficial for everyone.",
+    "answer": "FALSE",
+    "explain": "Đoạn 4: hiệu quả 'depends heavily on the individual'."
+   },
+   {
+    "type": "tfng",
+    "q": "All city governments have already converted empty offices into homes.",
+    "answer": "FALSE",
+    "explain": "Đoạn 5: một số thành phố mới 'considering' (đang cân nhắc) chuyển văn phòng thành nhà ở."
+   },
+   {
+    "type": "tfng",
+    "q": "Remote work has caused house prices in the suburbs to rise.",
+    "answer": "NOT GIVEN",
+    "explain": "Đoạn 5 chỉ nói vùng ngoại ô có thêm khách hàng, không nhắc giá nhà."
+   },
+   {
+    "type": "gap",
+    "q": "Organisations that explain the ____ of office days retain more staff.",
+    "answer": [
+     "purpose"
+    ],
+    "explain": "Đoạn 6: 'organisations that explain the purpose of office days ... retain more staff'."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "commute",
+    "vi": "việc đi làm hằng ngày"
+   },
+   {
+    "word": "productive",
+    "vi": "năng suất"
+   },
+   {
+    "word": "recruit",
+    "vi": "tuyển dụng"
+   },
+   {
+    "word": "brainstorming",
+    "vi": "động não, nghĩ ý tưởng"
+   },
+   {
+    "word": "isolation",
+    "vi": "sự cô lập"
+   },
+   {
+    "word": "hybrid",
+    "vi": "kết hợp"
+   },
+   {
+    "word": "retain",
+    "vi": "giữ chân"
+   },
+   {
+    "word": "blur",
+    "vi": "làm mờ ranh giới"
+   }
+  ]
+ },
+ {
+  "id": "r-c1-01",
+  "level": "C1",
+  "title": "Tea and Empire: How a Leaf Changed the World",
+  "passage": "Few commodities have shaped world history as profoundly as tea. According to Chinese tradition, the drink was discovered around 2737 BCE, when leaves from a wild tree blew into a pot of water being boiled for the emperor Shennong. Whether or not the legend is true, archaeological evidence indicates that tea was being drunk in China during the Han dynasty, more than two thousand years ago, initially as a medicine and later as a social beverage.\n\nFor centuries, tea remained largely unknown beyond East Asia. Buddhist monks carried it to Japan, where it became the centrepiece of an elaborate ritual, and it spread along trade routes into Central Asia, where compressed bricks of tea were sometimes used as a form of currency. European merchants began to import it in significant quantities only in the early seventeenth century, when Dutch traders brought small cargoes from Chinese ports. Its popularity in Britain was boosted when Catherine of Braganza, the Portuguese wife of Charles II, introduced the habit at court in the 1660s. Meanwhile, in China itself, new methods of processing, such as steaming leaves to produce green tea or allowing them to oxidise to produce black tea, created the wide range of varieties that is sold today.\n\nBy the eighteenth century, tea had become an obsession in Britain. It was costly and heavily taxed, which encouraged smuggling on a vast scale; by some estimates, more tea entered the country illegally than legally until the government drastically cut the duty in 1784. Britain's difficulty was that China, confident in its own self-sufficiency, wanted little that Britain produced and demanded payment in silver. The resulting drain of silver alarmed British officials, who eventually found a solution that was both profitable and morally indefensible: they exported opium grown in India to China, where its sale generated the silver needed to buy tea. The consequences included widespread addiction in China and two wars, in 1839-42 and 1856-60, that forced the Chinese government to open its ports.\n\nThe quest for supplies independent of China led to another transformation. In the late 1840s the Scottish botanist Robert Fortune travelled in disguise through Chinese provinces, collecting plants and learning about processing methods that had been closely guarded. He smuggled thousands of seedlings and several skilled workers to India. Combined with the discovery that a native variety of the plant grew wild in Assam, this enabled the British to establish large plantations in India and later in Ceylon. The plantations were run on a colonial model, employing labourers, many of them brought from other regions, in harsh conditions for low pay, and traces of that system persist in the tea industry today.\n\nTea also left its mark on culture and technology. The Boston Tea Party of 1773, in which colonists dumped a shipment of tea into the harbour to protest against taxation, became a symbol of the American Revolution. In Britain, the introduction of afternoon tea in the 1840s, usually credited to Anna, Duchess of Bedford, created a new social ritual and a new mealtime. Meanwhile, speed was at a premium: fast sailing ships known as tea clippers raced from China to London in order to deliver the first harvest of the season, and the winning captain could expect a bonus. Tea-drinking may also have had unexpected effects on public health: because water had to be boiled to make the drink, some historians argue that the spread of tea helped reduce waterborne disease in cities, although the evidence for this is debated.\n\nToday, tea is the most widely consumed manufactured drink in the world after water, and the industry faces new challenges. Climate change is altering the conditions in which the plant grows, with higher temperatures and irregular rainfall reducing both yield and quality in some regions. Consumers, meanwhile, are increasingly interested in ethical sourcing, and certification schemes have grown to meet that demand, although critics question how much of the extra price actually reaches the workers. The history of tea is thus a reminder that even the most ordinary habit can be bound up with commerce, power and conflict. Meanwhile, small producers in countries such as Kenya and Sri Lanka have gained a larger share of the market, though they remain vulnerable to price changes set by a handful of large buyers.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "Archaeological evidence suggests that tea was drunk in China during the Han dynasty.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'archaeological evidence indicates that tea was being drunk in China during the Han dynasty'."
+   },
+   {
+    "type": "gap",
+    "q": "In Central Asia, compressed bricks of tea were sometimes used as a form of ____.",
+    "answer": [
+     "currency",
+     "money"
+    ],
+    "explain": "Đoạn 2: 'compressed bricks of tea were sometimes used as a form of currency'."
+   },
+   {
+    "type": "tfng",
+    "q": "According to some estimates, before 1784 more tea entered Britain illegally than legally.",
+    "answer": "TRUE",
+    "explain": "Đoạn 3: 'by some estimates, more tea entered the country illegally than legally until ... 1784'."
+   },
+   {
+    "type": "mcq",
+    "q": "Why did British traders export opium to China?",
+    "options": [
+     "To improve relations with the Chinese emperor",
+     "To obtain the silver needed to pay for tea",
+     "To replace Chinese medicine",
+     "To reduce smuggling in Britain"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: bán thuốc phiện 'generated the silver needed to buy tea'."
+   },
+   {
+    "type": "tfng",
+    "q": "China was eager to buy many goods manufactured in Britain.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: Trung Quốc 'wanted little that Britain produced' và đòi thanh toán bằng bạc."
+   },
+   {
+    "type": "gap",
+    "q": "Robert Fortune smuggled thousands of ____ and several skilled workers to India.",
+    "answer": [
+     "seedlings"
+    ],
+    "explain": "Đoạn 4: 'He smuggled thousands of seedlings and several skilled workers to India.'"
+   },
+   {
+    "type": "tfng",
+    "q": "The workers on the Indian tea plantations were all local to the region.",
+    "answer": "FALSE",
+    "explain": "Đoạn 4: nhiều lao động 'brought from other regions' (được đưa từ vùng khác đến)."
+   },
+   {
+    "type": "mcq",
+    "q": "Why did tea clippers race from China to London?",
+    "options": [
+     "To avoid taxes",
+     "To carry passengers",
+     "To deliver the first harvest of the season",
+     "To compete with steamships"
+    ],
+    "answer": 2,
+    "explain": "Đoạn 5: 'to deliver the first harvest of the season'."
+   },
+   {
+    "type": "gap",
+    "q": "Climate change is reducing both ____ and quality of tea in some regions.",
+    "answer": [
+     "yield"
+    ],
+    "explain": "Đoạn 6: 'reducing both yield and quality in some regions'."
+   },
+   {
+    "type": "tfng",
+    "q": "Afternoon tea became popular in Scotland before it did in England.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài chỉ nói trà chiều xuất hiện ở Anh những năm 1840, không nhắc đến Scotland."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "commodity",
+    "vi": "hàng hóa"
+   },
+   {
+    "word": "smuggling",
+    "vi": "buôn lậu"
+   },
+   {
+    "word": "self-sufficiency",
+    "vi": "sự tự cung tự cấp"
+   },
+   {
+    "word": "indefensible",
+    "vi": "không thể bào chữa"
+   },
+   {
+    "word": "botanist",
+    "vi": "nhà thực vật học"
+   },
+   {
+    "word": "plantation",
+    "vi": "đồn điền"
+   },
+   {
+    "word": "at a premium",
+    "vi": "được coi trọng, quý giá"
+   },
+   {
+    "word": "certification",
+    "vi": "chứng nhận"
+   },
+   {
+    "word": "yield",
+    "vi": "sản lượng"
+   }
+  ]
+ },
+ {
+  "id": "r-c1-02",
+  "level": "C1",
+  "title": "The Plastic Recycling Paradox",
+  "passage": "Plastic is one of the defining materials of modern life: light, cheap, durable and versatile. It is also one of the most troublesome. Since mass production began in the 1950s, humanity has manufactured more than eight billion tonnes of plastic, and according to a widely cited analysis, only about nine percent of it has ever been recycled. Most of the remainder has been buried in landfill, burned, or left to accumulate in the environment, where it breaks into ever smaller fragments. Packaging accounts for a large share of plastic use, and much of it is discarded within minutes of purchase.\n\nAt first glance, recycling seems a straightforward solution, and public enthusiasm for it is high. In practice the process is far more complicated than the symbol of three chasing arrows suggests. 'Plastic' is not one material but dozens of different polymers, each with its own chemistry and melting point. When they are mixed, the quality of the recycled product suffers, much as a recipe suffers when ingredients are combined carelessly. For this reason, recyclers prefer clean, sorted, single-polymer waste, and a bottle made of PET is far more valuable than a multilayered snack wrapper that combines plastic and aluminium film. Sorting itself is difficult, because many items look identical to the eye, and although infrared scanners have improved matters, they cannot always detect black plastic, which is therefore frequently rejected.\n\nA second problem is degradation. Unlike glass or metal, which can be recycled almost indefinitely, many plastics lose strength each time they are melted, because heat shortens their molecular chains. A bottle can often be turned into a new bottle only a limited number of times, and more often it is 'downcycled' into lower-grade items such as fibre for fleece clothing or plastic lumber for park benches. Rather than a closed loop, the process often amounts to a delay before the material reaches landfill. Contamination makes matters worse: a single greasy food container can render a whole batch unusable.\n\nEconomics compound the technical difficulties. When oil is cheap, virgin plastic can cost less than recycled plastic, giving manufacturers little incentive to use recycled material. For decades, wealthy countries solved the problem by exporting waste, with China alone importing millions of tonnes annually. When China restricted imports in 2018, shipments were redirected to other nations in South-East Asia, several of which lacked the infrastructure to manage them, and some waste ended up dumped or burned in the open. The episode revealed that a portion of what householders believed to be recycled had simply been moved elsewhere.\n\nFaced with these limits, researchers and policymakers are exploring alternatives. Chemical recycling, which uses heat or solvents to break plastics back into their original building blocks, promises to handle mixed or contaminated waste and to produce material of virgin quality. However, it requires substantial energy, and critics note that many plants have yet to operate at commercial scale. Other approaches focus on design: standardising the types of plastic used in packaging, banning hard-to-recycle additives, or developing biodegradable materials. The latter are not a panacea, as many require industrial composting facilities and break down very slowly in the ocean.\n\nA growing number of experts argue that the debate has been framed incorrectly. Recycling, they say, is the last resort rather than the first; the waste hierarchy places reduction and reuse above it. Deposit-return schemes for bottles, refillable containers and bans on unnecessary single-use items address the problem at its source, and several countries report much higher collection rates where deposits are in force. Recycling will continue to have a role, but it is unlikely to solve a problem that is fundamentally one of overproduction. Industry groups point out that plastic can also have environmental benefits, such as reducing food waste or lowering the weight of vehicles, and that any replacement material must be judged by its full life-cycle impact rather than its image.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "According to a widely cited analysis, only about nine percent of all plastic ever made has been recycled.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: 'only about nine percent of it has ever been recycled'."
+   },
+   {
+    "type": "gap",
+    "q": "'Plastic' is not one material but dozens of different ____.",
+    "answer": [
+     "polymers",
+     "polymer"
+    ],
+    "explain": "Đoạn 2: 'dozens of different polymers'."
+   },
+   {
+    "type": "tfng",
+    "q": "Recyclers consider a multilayered snack wrapper more valuable than a PET bottle.",
+    "answer": "FALSE",
+    "explain": "Đoạn 2: chai PET 'far more valuable' hơn bao bì nhiều lớp."
+   },
+   {
+    "type": "gap",
+    "q": "Heat shortens the molecular ____ of plastics, so they lose strength when melted.",
+    "answer": [
+     "chains"
+    ],
+    "explain": "Đoạn 3: 'heat shortens their molecular chains'."
+   },
+   {
+    "type": "mcq",
+    "q": "What does 'downcycled' mean in the passage?",
+    "options": [
+     "Recycled many times without loss",
+     "Made into lower-grade items",
+     "Burned for energy",
+     "Sent abroad for processing"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 3: 'downcycled into lower-grade items such as fibre for fleece clothing or plastic lumber'."
+   },
+   {
+    "type": "tfng",
+    "q": "Virgin plastic is always cheaper than recycled plastic.",
+    "answer": "FALSE",
+    "explain": "Đoạn 4: chỉ 'when oil is cheap' nhựa nguyên sinh mới có thể rẻ hơn, không phải lúc nào cũng vậy."
+   },
+   {
+    "type": "tfng",
+    "q": "After 2018, some of the redirected waste was dumped or burned in the open.",
+    "answer": "TRUE",
+    "explain": "Đoạn 4: 'some waste ended up dumped or burned in the open'."
+   },
+   {
+    "type": "gap",
+    "q": "A drawback of chemical recycling is that it requires substantial ____.",
+    "answer": [
+     "energy"
+    ],
+    "explain": "Đoạn 5: 'it requires substantial energy'."
+   },
+   {
+    "type": "tfng",
+    "q": "Deposit-return schemes were first introduced in Scandinavia.",
+    "answer": "NOT GIVEN",
+    "explain": "Đoạn 6 chỉ nói các chương trình đặt cọc cho tỷ lệ thu gom cao, không nói chúng bắt đầu ở đâu."
+   },
+   {
+    "type": "mcq",
+    "q": "What is the experts' main argument in the final paragraph?",
+    "options": [
+     "Recycling should be abandoned completely",
+     "Reducing and reusing plastic should come before recycling",
+     "Biodegradable plastics solve the problem",
+     "Only wealthy countries should recycle"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 6: recycling là 'last resort', 'the waste hierarchy places reduction and reuse above it'."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "versatile",
+    "vi": "đa năng"
+   },
+   {
+    "word": "polymer",
+    "vi": "polyme"
+   },
+   {
+    "word": "degradation",
+    "vi": "sự suy giảm chất lượng"
+   },
+   {
+    "word": "virgin plastic",
+    "vi": "nhựa nguyên sinh"
+   },
+   {
+    "word": "infrastructure",
+    "vi": "cơ sở hạ tầng"
+   },
+   {
+    "word": "panacea",
+    "vi": "phương thuốc chữa bách bệnh"
+   },
+   {
+    "word": "single-use",
+    "vi": "dùng một lần"
+   },
+   {
+    "word": "hierarchy",
+    "vi": "thứ bậc"
+   },
+   {
+    "word": "incentive",
+    "vi": "động lực, sự khuyến khích"
+   }
+  ]
+ },
+ {
+  "id": "r-c1-03",
+  "level": "C1",
+  "title": "The Bilingual Brain",
+  "passage": "For much of the twentieth century, bilingualism had a poor reputation in educational circles. Parents were frequently advised that raising a child in two languages would cause confusion and delay development, and immigrant families were encouraged to speak only the majority language at home. This advice rested on studies that had compared bilingual and monolingual children without accounting for factors such as poverty or schooling. Since the 1960s, more careful research has overturned this view, and today bilingualism is regarded by many scientists as a form of cognitive training. The turning point is often associated with a 1962 study in Montreal, which found that bilingual children scored higher than monolinguals on certain tests of verbal and non-verbal reasoning.\n\nThe central finding is that a bilingual's two languages are never completely switched off. Experiments using eye-tracking and brain imaging reveal that when a bilingual hears a word in one language, similar-sounding words in the other language are also briefly activated. To communicate fluently, the brain must therefore continually suppress the unwanted language and select the appropriate one, often within a fraction of a second. This mental juggling does not mean that bilinguals are less capable; in everyday conversation they switch effortlessly, although they may be slightly slower at retrieving rare words in each language than monolinguals are in their only language.\n\nThis constant management is thought to exercise what psychologists call executive function: the set of mental skills that control attention, planning and the ability to switch between tasks. Several studies have found that bilingual children outperform their monolingual peers on tasks that require ignoring misleading information. One widely used experiment asks participants to respond to a target while ignoring distracting information on the screen, and bilinguals have often been quicker. Some researchers have also reported that bilinguals show the symptoms of dementia four to five years later, on average, than monolinguals.\n\nThese claims, however, have become increasingly controversial. Several large-scale replications have failed to find the same advantages in executive function, and critics suggest that earlier positive results may reflect publication bias, the tendency of journals to print striking findings while neglecting null ones. Differences between bilingual and monolingual groups may also be due to other factors, such as educational background or socioeconomic status, which are hard to control. Supporters reply that the effects may be real but dependent on how bilingualism is used: people who switch frequently between languages in daily life may gain more than those who use one language at home and the other at work, rarely mixing them. At present, the evidence does not support a firm conclusion in either direction.\n\nWhatever the answer on executive function, other benefits are less disputed. Bilinguals can communicate with more people, access more sources of information and often have a better understanding of other cultures. Studies of children suggest that they develop metalinguistic awareness earlier, that is, the ability to think about language itself as a system, which may help them learn additional languages and read more easily. Equally important are the emotional and social benefits for families: children who retain their heritage language can talk to their grandparents and maintain a link with their cultural identity. There may be economic advantages as well, since employers in many countries value language skills, and bilingual graduates often have access to a wider range of jobs.\n\nFor those raising children bilingually, researchers emphasise consistency and quantity of exposure. Children need to hear a language regularly and from a variety of speakers if they are to speak it confidently; passive exposure alone is rarely enough. Common strategies include one parent, one language, or designating the minority language as the home language. Occasional mixing of languages within a sentence, known as code-switching, was once seen as a sign of confusion, but linguists now regard it as a sophisticated skill that follows grammatical rules. The consensus is clear on one point at least: raising a child with two languages does not harm them, and the question of whether it makes them cleverer is considerably less important than the richness it can bring to their lives.",
+  "questions": [
+   {
+    "type": "tfng",
+    "q": "Parents in the past were often warned that bilingualism could delay a child's development.",
+    "answer": "TRUE",
+    "explain": "Đoạn 1: phụ huynh được khuyên rằng nuôi con hai ngôn ngữ sẽ gây 'confusion and delay development'."
+   },
+   {
+    "type": "mcq",
+    "q": "Why were the early studies on bilingual children misleading?",
+    "options": [
+     "They used too few children",
+     "They did not take into account factors such as poverty or schooling",
+     "They only studied adults",
+     "They were carried out in one country"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 1: các nghiên cứu so sánh mà 'without accounting for factors such as poverty or schooling'."
+   },
+   {
+    "type": "gap",
+    "q": "To communicate fluently, a bilingual's brain must continually ____ the unwanted language.",
+    "answer": [
+     "suppress"
+    ],
+    "explain": "Đoạn 2: 'continually suppress the unwanted language'."
+   },
+   {
+    "type": "gap",
+    "q": "Executive function controls attention, planning and the ability to switch between ____.",
+    "answer": [
+     "tasks"
+    ],
+    "explain": "Đoạn 3: 'the ability to switch between tasks'."
+   },
+   {
+    "type": "mcq",
+    "q": "What is publication bias?",
+    "options": [
+     "Journals refusing all foreign research",
+     "Journals printing striking results and neglecting null ones",
+     "Authors copying earlier studies",
+     "Reviewers preferring older research"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 4: 'the tendency of journals to print striking findings while neglecting null ones'."
+   },
+   {
+    "type": "tfng",
+    "q": "Large-scale replications have consistently confirmed the advantage in executive function.",
+    "answer": "FALSE",
+    "explain": "Đoạn 4: nhiều nghiên cứu tái lập 'have failed to find the same advantages'."
+   },
+   {
+    "type": "tfng",
+    "q": "Supporters of the bilingual advantage believe that using one language at home and another at work is the most beneficial pattern.",
+    "answer": "FALSE",
+    "explain": "Đoạn 4: người ủng hộ cho rằng chuyển đổi ngôn ngữ thường xuyên có thể có lợi hơn, chứ không phải tách biệt ở nhà/ở cơ quan."
+   },
+   {
+    "type": "gap",
+    "q": "Bilingual children may develop ____ awareness earlier, which means thinking about language as a system.",
+    "answer": [
+     "metalinguistic"
+    ],
+    "explain": "Đoạn 5: 'develop metalinguistic awareness earlier'."
+   },
+   {
+    "type": "tfng",
+    "q": "Passive exposure to a language is usually enough for children to speak it confidently.",
+    "answer": "FALSE",
+    "explain": "Đoạn 6: 'passive exposure alone is rarely enough'."
+   },
+   {
+    "type": "tfng",
+    "q": "Code-switching is more common among adults than among children.",
+    "answer": "NOT GIVEN",
+    "explain": "Đoạn 6 chỉ nói chuyển mã là kỹ năng tinh vi, không so sánh theo độ tuổi."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "monolingual",
+    "vi": "chỉ nói một ngôn ngữ"
+   },
+   {
+    "word": "cognitive",
+    "vi": "thuộc nhận thức"
+   },
+   {
+    "word": "suppress",
+    "vi": "kìm nén, ức chế"
+   },
+   {
+    "word": "executive function",
+    "vi": "chức năng điều hành (của não)"
+   },
+   {
+    "word": "replication",
+    "vi": "sự tái lập (thí nghiệm)"
+   },
+   {
+    "word": "null finding",
+    "vi": "kết quả không có tác động"
+   },
+   {
+    "word": "heritage language",
+    "vi": "ngôn ngữ gốc của gia đình"
+   },
+   {
+    "word": "code-switching",
+    "vi": "chuyển mã ngôn ngữ"
+   },
+   {
+    "word": "dementia",
+    "vi": "chứng sa sút trí tuệ"
+   }
+  ]
+ },
+ {
+  "id": "r-c1-04",
+  "level": "C1",
+  "title": "Who Owns Space?",
+  "passage": "In 1957, the launch of the Soviet satellite Sputnik opened a new era, and with it a legal puzzle: who, if anyone, owns the heavens? The question has become more urgent as the number of space actors has multiplied. Where once only two superpowers launched rockets, today dozens of countries and hundreds of private companies are active in orbit, and ambitions extend from commercial satellite networks to mining asteroids and establishing bases on the Moon. The market is growing rapidly, with launch costs falling sharply as rockets become reusable.\n\nThe foundation of international space law is the Outer Space Treaty of 1967, signed during the Cold War, in part to prevent the militarisation of space. It declares that space is the province of all mankind, that no country may claim sovereignty over the Moon or other celestial bodies, and that nuclear weapons may not be placed in orbit. Crucially, it also makes states responsible for the activities of their own citizens and companies in space, a provision that requires national governments to authorise and supervise private launches. The treaty has now been ratified by more than a hundred countries, which gives it unusual authority in international law, even though many of its provisions are expressed in general terms.\n\nThe treaty was written for an age of government programmes, and its silence on commercial activity has caused disagreement. Is it permissible to extract resources from an asteroid? The treaty forbids national appropriation, but does not say whether a company can own the materials it removes. In 2015 the United States passed a law granting its citizens the right to own resources they obtain from space, and Luxembourg, the United Arab Emirates and Japan have since adopted comparable legislation. Supporters argue that the right to own what you extract is no different from fishing in international waters: the sea is not owned, but the fish belong to the fishermen. Critics, including some countries and legal scholars, reply that this interpretation is self-serving and undermines the spirit of the treaty. The Moon Agreement of 1979, which would have declared lunar resources the common heritage of mankind, has been ratified by very few countries, none of them major space powers.\n\nAnother problem is congestion. Low Earth orbit has become crowded, particularly since companies began launching constellations of thousands of small satellites to provide internet access. Each satellite poses a small risk of collision, and a single collision creates fragments that can strike other spacecraft, in a cascading effect known as Kessler syndrome. Space agencies currently track tens of thousands of pieces of debris, along with millions of smaller fragments that are too small to track but are still capable of damaging a spacecraft because of their speed. There is no international authority with the power to enforce rules about debris, and guidelines on removing satellites at the end of their lives are voluntary.\n\nAstronomers have raised a different complaint. Bright satellites crossing the sky leave streaks on images, which interferes with efforts to detect asteroids and distant galaxies, and some fear that the traditional experience of a dark night sky is being lost. Companies have responded by experimenting with darker coatings, but the issue remains unresolved, and it raises the broader question of whether the night sky should be treated as a shared resource requiring protection, much like a wilderness area on Earth. Radio astronomers, who detect extremely faint signals from the universe, have similar concerns about interference from satellite transmissions.\n\nEfforts at governance are therefore gathering pace. The Artemis Accords, a set of principles led by the United States and signed by dozens of nations, aim to establish norms for lunar exploration, including safety zones around operations to avoid interference. Critics see them as an attempt to bypass the United Nations, and China and Russia, which are planning their own lunar base, have not signed. The danger is that space will be governed by competing blocs rather than by a single framework. Many experts believe that a new, binding agreement is needed, one that balances the commercial interests of companies with the principle that space belongs to everyone; the difficulty, as always in international law, is persuading powerful states to accept limits on their freedom.",
+  "questions": [
+   {
+    "type": "gap",
+    "q": "The Outer Space Treaty declares that space is the province of all ____.",
+    "answer": [
+     "mankind",
+     "humankind"
+    ],
+    "explain": "Đoạn 2: 'space is the province of all mankind'."
+   },
+   {
+    "type": "mcq",
+    "q": "What does the Outer Space Treaty require of states?",
+    "options": [
+     "To share all space technology",
+     "To take responsibility for their citizens' and companies' activities in space",
+     "To build bases on the Moon",
+     "To ban all private launches"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 2: 'makes states responsible for the activities of their own citizens and companies in space'."
+   },
+   {
+    "type": "tfng",
+    "q": "The Outer Space Treaty clearly states that companies may own the materials they extract from asteroids.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: hiệp ước 'does not say whether a company can own the materials it removes' - không nói rõ."
+   },
+   {
+    "type": "gap",
+    "q": "Supporters compare mining asteroids with ____ in international waters.",
+    "answer": [
+     "fishing"
+    ],
+    "explain": "Đoạn 3: 'no different from fishing in international waters'."
+   },
+   {
+    "type": "tfng",
+    "q": "The Moon Agreement has been ratified by all the major space powers.",
+    "answer": "FALSE",
+    "explain": "Đoạn 3: được phê chuẩn bởi rất ít nước, 'none of them major space powers'."
+   },
+   {
+    "type": "mcq",
+    "q": "What is Kessler syndrome?",
+    "options": [
+     "A disease affecting astronauts",
+     "A cascade in which collisions create fragments that cause more collisions",
+     "A legal dispute over orbits",
+     "A failure of satellite signals"
+    ],
+    "answer": 1,
+    "explain": "Đoạn 4: va chạm tạo mảnh vỡ có thể va vào tàu khác, 'a cascading effect known as Kessler syndrome'."
+   },
+   {
+    "type": "gap",
+    "q": "Guidelines on removing satellites at the end of their lives are ____.",
+    "answer": [
+     "voluntary"
+    ],
+    "explain": "Đoạn 4: 'guidelines on removing satellites ... are voluntary'."
+   },
+   {
+    "type": "tfng",
+    "q": "Bright satellites interfere with astronomers' attempts to detect asteroids.",
+    "answer": "TRUE",
+    "explain": "Đoạn 5: vệt sáng vệ tinh 'interferes with efforts to detect asteroids and distant galaxies'."
+   },
+   {
+    "type": "tfng",
+    "q": "China and Russia have signed the Artemis Accords.",
+    "answer": "FALSE",
+    "explain": "Đoạn 6: 'China and Russia ... have not signed'."
+   },
+   {
+    "type": "tfng",
+    "q": "Private companies have already extracted valuable resources from asteroids.",
+    "answer": "NOT GIVEN",
+    "explain": "Bài chỉ nói về luật và tham vọng khai thác, không nói đã có công ty nào khai thác thành công."
+   }
+  ],
+  "vocab": [
+   {
+    "word": "sovereignty",
+    "vi": "chủ quyền"
+   },
+   {
+    "word": "appropriation",
+    "vi": "sự chiếm đoạt"
+   },
+   {
+    "word": "legislation",
+    "vi": "luật pháp"
+   },
+   {
+    "word": "congestion",
+    "vi": "sự quá tải, tắc nghẽn"
+   },
+   {
+    "word": "debris",
+    "vi": "mảnh vỡ"
+   },
+   {
+    "word": "constellation",
+    "vi": "chòm (vệ tinh)"
+   },
+   {
+    "word": "ratify",
+    "vi": "phê chuẩn"
+   },
+   {
+    "word": "binding",
+    "vi": "có tính ràng buộc"
+   },
+   {
+    "word": "self-serving",
+    "vi": "vụ lợi, chỉ phục vụ lợi ích bản thân"
+   }
+  ]
+ }
+]

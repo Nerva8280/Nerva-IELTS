@@ -1,0 +1,1315 @@
+[
+ {
+  "id": "s1-01",
+  "level": "A2",
+  "part": 1,
+  "topic": "Hometown",
+  "questions": [
+   "Where is your hometown?",
+   "What do you like most about your hometown?",
+   "Has your hometown changed much in recent years?",
+   "Would you recommend your hometown to tourists?"
+  ],
+  "sampleAnswer": "I'm from Hue, a historic city in central Vietnam. It's famous for its ancient royal palaces and the peaceful Perfume River. What I like most is the slow pace of life, because people are relaxed and very polite. It's a lovely place to grow up in.",
+  "usefulPhrases": [
+   {
+    "en": "I'm originally from...",
+    "vi": "Quê gốc của tôi là..."
+   },
+   {
+    "en": "It's famous for...",
+    "vi": "Nơi đó nổi tiếng với..."
+   },
+   {
+    "en": "the pace of life",
+    "vi": "nhịp sống"
+   },
+   {
+    "en": "a lovely place to grow up in",
+    "vi": "một nơi tuyệt vời để lớn lên"
+   },
+   {
+    "en": "It has changed a lot over the past decade.",
+    "vi": "Nó đã thay đổi nhiều trong thập kỷ qua."
+   },
+   {
+    "en": "It's well worth a visit.",
+    "vi": "Rất đáng để ghé thăm."
+   }
+  ]
+ },
+ {
+  "id": "s1-02",
+  "level": "B1",
+  "part": 1,
+  "topic": "Work",
+  "questions": [
+   "What do you do for a living?",
+   "Why did you choose this job?",
+   "What do you like most about your work?",
+   "Is there anything you dislike about it?",
+   "Would you like to change your job in the future?"
+  ],
+  "sampleAnswer": "I work as a software tester at a small technology company. I chose this job because I've always enjoyed solving problems and finding mistakes. What I like most is the friendly team, although the deadlines can be stressful. Overall, I'm quite satisfied with it.",
+  "usefulPhrases": [
+   {
+    "en": "I work as a...",
+    "vi": "Tôi làm nghề..."
+   },
+   {
+    "en": "I've always been interested in...",
+    "vi": "Tôi luôn hứng thú với..."
+   },
+   {
+    "en": "the deadlines can be stressful",
+    "vi": "hạn chót có thể gây căng thẳng"
+   },
+   {
+    "en": "I'm quite satisfied with my job.",
+    "vi": "Tôi khá hài lòng với công việc."
+   },
+   {
+    "en": "a good work-life balance",
+    "vi": "cân bằng công việc – cuộc sống tốt"
+   },
+   {
+    "en": "career prospects",
+    "vi": "triển vọng nghề nghiệp"
+   }
+  ]
+ },
+ {
+  "id": "s1-03",
+  "level": "B1",
+  "part": 1,
+  "topic": "Studies",
+  "questions": [
+   "What subject did you study at university?",
+   "Why did you choose that subject?",
+   "Was it difficult to study?",
+   "Do you think your studies will be useful in the future?"
+  ],
+  "sampleAnswer": "I studied business administration at university. I picked it because I wanted a flexible degree that could lead to many different careers. It was challenging at times, especially the statistics, but I enjoyed the group projects. I think the skills I learned are still useful today.",
+  "usefulPhrases": [
+   {
+    "en": "I majored in...",
+    "vi": "Tôi học chuyên ngành..."
+   },
+   {
+    "en": "a flexible degree",
+    "vi": "tấm bằng linh hoạt"
+   },
+   {
+    "en": "challenging at times",
+    "vi": "đôi lúc khó khăn"
+   },
+   {
+    "en": "group projects",
+    "vi": "dự án nhóm"
+   },
+   {
+    "en": "practical skills",
+    "vi": "kỹ năng thực tế"
+   },
+   {
+    "en": "I'm glad I chose it.",
+    "vi": "Tôi mừng vì đã chọn nó."
+   }
+  ]
+ },
+ {
+  "id": "s1-04",
+  "level": "A2",
+  "part": 1,
+  "topic": "Home",
+  "questions": [
+   "Do you live in a house or an apartment?",
+   "What is your favourite room in your home?",
+   "How long have you lived there?",
+   "Is there anything you would like to change about your home?"
+  ],
+  "sampleAnswer": "I live in a two-bedroom apartment on the fifth floor with my parents. My favourite room is the living room, because it gets lots of natural light and we have dinner there together. We've lived there for about ten years, and it feels like a real home.",
+  "usefulPhrases": [
+   {
+    "en": "I live in an apartment on the...floor",
+    "vi": "Tôi sống trong căn hộ ở tầng..."
+   },
+   {
+    "en": "natural light",
+    "vi": "ánh sáng tự nhiên"
+   },
+   {
+    "en": "It feels like a real home.",
+    "vi": "Nơi đó thật sự như một mái ấm."
+   },
+   {
+    "en": "spacious / cosy",
+    "vi": "rộng rãi / ấm cúng"
+   },
+   {
+    "en": "I'd love to have a balcony.",
+    "vi": "Tôi rất muốn có một ban công."
+   },
+   {
+    "en": "close to the city centre",
+    "vi": "gần trung tâm thành phố"
+   }
+  ]
+ },
+ {
+  "id": "s1-05",
+  "level": "B1",
+  "part": 1,
+  "topic": "Hobbies",
+  "questions": [
+   "What do you like to do in your free time?",
+   "How long have you had this hobby?",
+   "Do you prefer doing hobbies alone or with other people?",
+   "Would you like to try any new hobbies?"
+  ],
+  "sampleAnswer": "In my free time I enjoy cooking, especially trying new recipes from different countries. I started about five years ago when I moved out of my parents' house. I usually cook alone because it helps me relax, but I love sharing the food with friends afterwards.",
+  "usefulPhrases": [
+   {
+    "en": "In my spare time, I enjoy...",
+    "vi": "Lúc rảnh, tôi thích..."
+   },
+   {
+    "en": "I took it up about...years ago.",
+    "vi": "Tôi bắt đầu sở thích này cách đây khoảng... năm."
+   },
+   {
+    "en": "It helps me unwind.",
+    "vi": "Nó giúp tôi thư giãn."
+   },
+   {
+    "en": "I'm really into...",
+    "vi": "Tôi rất mê..."
+   },
+   {
+    "en": "I'd love to give...a try.",
+    "vi": "Tôi muốn thử... xem sao."
+   },
+   {
+    "en": "a great way to de-stress",
+    "vi": "cách tuyệt vời để giải tỏa căng thẳng"
+   }
+  ]
+ },
+ {
+  "id": "s1-06",
+  "level": "A2",
+  "part": 1,
+  "topic": "Weather",
+  "questions": [
+   "What is the weather like in your country?",
+   "What is your favourite season?",
+   "Does the weather affect your mood?",
+   "What do you usually do on rainy days?"
+  ],
+  "sampleAnswer": "The weather in northern Vietnam changes a lot throughout the year. Summers are hot and humid, while winters can be quite cold. My favourite season is autumn, because it's cool and dry, and the streets look beautiful. It definitely puts me in a good mood.",
+  "usefulPhrases": [
+   {
+    "en": "hot and humid",
+    "vi": "nóng và ẩm"
+   },
+   {
+    "en": "It's pouring with rain.",
+    "vi": "Trời mưa như trút."
+   },
+   {
+    "en": "It puts me in a good mood.",
+    "vi": "Nó khiến tôi vui vẻ."
+   },
+   {
+    "en": "the weather is unpredictable",
+    "vi": "thời tiết khó đoán"
+   },
+   {
+    "en": "mild / chilly",
+    "vi": "ôn hòa / se lạnh"
+   },
+   {
+    "en": "I tend to stay indoors.",
+    "vi": "Tôi thường ở trong nhà."
+   }
+  ]
+ },
+ {
+  "id": "s1-07",
+  "level": "B1",
+  "part": 1,
+  "topic": "Food",
+  "questions": [
+   "What kind of food do you enjoy eating?",
+   "Do you prefer eating at home or in restaurants?",
+   "Can you cook?",
+   "What is a traditional dish in your country?"
+  ],
+  "sampleAnswer": "I really enjoy Vietnamese food, particularly noodle soups with fresh herbs. I usually eat at home because it's cheaper and healthier, although I go out with friends at weekends. I can cook a few simple dishes, like fried rice and spring rolls, and I'm slowly improving.",
+  "usefulPhrases": [
+   {
+    "en": "I'm a big fan of...",
+    "vi": "Tôi rất mê..."
+   },
+   {
+    "en": "eat out",
+    "vi": "ăn ngoài"
+   },
+   {
+    "en": "cheaper and healthier",
+    "vi": "rẻ hơn và tốt cho sức khỏe hơn"
+   },
+   {
+    "en": "home-cooked meals",
+    "vi": "bữa ăn nấu ở nhà"
+   },
+   {
+    "en": "a traditional dish",
+    "vi": "món truyền thống"
+   },
+   {
+    "en": "I'm not a great cook, but...",
+    "vi": "Tôi nấu không giỏi lắm, nhưng..."
+   }
+  ]
+ },
+ {
+  "id": "s1-08",
+  "level": "B1",
+  "part": 1,
+  "topic": "Reading",
+  "questions": [
+   "Do you like reading?",
+   "What kind of books do you enjoy?",
+   "Do you prefer paper books or e-books?",
+   "Did you read much when you were a child?"
+  ],
+  "sampleAnswer": "Yes, I read for about half an hour every night before bed. I mostly enjoy detective novels because the plots keep me guessing. I prefer paper books, since I spend all day looking at screens, and I like the feel of turning real pages.",
+  "usefulPhrases": [
+   {
+    "en": "a page-turner",
+    "vi": "cuốn sách hấp dẫn không rời được"
+   },
+   {
+    "en": "keep me guessing",
+    "vi": "khiến tôi luôn đoán già đoán non"
+   },
+   {
+    "en": "I'm an avid reader.",
+    "vi": "Tôi là người đọc sách say mê."
+   },
+   {
+    "en": "the feel of real pages",
+    "vi": "cảm giác lật trang sách thật"
+   },
+   {
+    "en": "strain my eyes",
+    "vi": "làm mỏi mắt"
+   },
+   {
+    "en": "before bed",
+    "vi": "trước khi đi ngủ"
+   }
+  ]
+ },
+ {
+  "id": "s1-09",
+  "level": "B1",
+  "part": 1,
+  "topic": "Sport",
+  "questions": [
+   "Do you like playing sports?",
+   "What sports are popular in your country?",
+   "Did you play sports at school?",
+   "Do you prefer watching sports or playing them?"
+  ],
+  "sampleAnswer": "I'm not very sporty, but I try to swim twice a week to stay fit. It's a good workout and it also helps me forget about work. In Vietnam, football is by far the most popular sport, and I do enjoy watching big matches with friends.",
+  "usefulPhrases": [
+   {
+    "en": "stay fit",
+    "vi": "giữ dáng, giữ sức khỏe"
+   },
+   {
+    "en": "a good workout",
+    "vi": "một buổi tập tốt"
+   },
+   {
+    "en": "by far the most popular",
+    "vi": "phổ biến nhất với khoảng cách xa"
+   },
+   {
+    "en": "I'm not very sporty.",
+    "vi": "Tôi không phải người thích thể thao."
+   },
+   {
+    "en": "team spirit",
+    "vi": "tinh thần đồng đội"
+   },
+   {
+    "en": "I'd rather watch than play.",
+    "vi": "Tôi thích xem hơn chơi."
+   }
+  ]
+ },
+ {
+  "id": "s1-10",
+  "level": "B1",
+  "part": 1,
+  "topic": "Music",
+  "questions": [
+   "What kind of music do you like?",
+   "Do you play any musical instruments?",
+   "How often do you listen to music?",
+   "Do you think music is important in our lives?"
+  ],
+  "sampleAnswer": "I like soft pop and acoustic songs, as they help me relax after work. I listen to music almost every day, usually on the bus. I used to play the piano as a child, although I've forgotten most of it now. I think music is important because it can lift our mood.",
+  "usefulPhrases": [
+   {
+    "en": "my taste in music",
+    "vi": "gu âm nhạc của tôi"
+   },
+   {
+    "en": "upbeat / soothing",
+    "vi": "sôi động / êm dịu"
+   },
+   {
+    "en": "lift your mood",
+    "vi": "nâng cao tâm trạng"
+   },
+   {
+    "en": "I used to play...",
+    "vi": "Tôi từng chơi..."
+   },
+   {
+    "en": "catchy tunes",
+    "vi": "giai điệu dễ nhớ"
+   },
+   {
+    "en": "live performance",
+    "vi": "buổi biểu diễn trực tiếp"
+   }
+  ]
+ },
+ {
+  "id": "s1-11",
+  "level": "B1",
+  "part": 1,
+  "topic": "Shopping",
+  "questions": [
+   "Do you like shopping?",
+   "Do you prefer shopping online or in shops?",
+   "What was the last thing you bought?",
+   "Do you usually shop alone or with others?"
+  ],
+  "sampleAnswer": "I don't mind shopping, but I wouldn't call it a hobby. I mostly buy things online these days because it's quicker and prices are often lower. The last thing I bought was a pair of running shoes. I usually shop alone so I can take my time.",
+  "usefulPhrases": [
+   {
+    "en": "I wouldn't call it a hobby.",
+    "vi": "Tôi không gọi đó là sở thích."
+   },
+   {
+    "en": "browse online",
+    "vi": "lướt xem trên mạng"
+   },
+   {
+    "en": "It's quicker and more convenient.",
+    "vi": "Nhanh và tiện hơn."
+   },
+   {
+    "en": "window-shopping",
+    "vi": "đi ngắm hàng"
+   },
+   {
+    "en": "a good bargain",
+    "vi": "món hời"
+   },
+   {
+    "en": "take my time",
+    "vi": "thong thả, không vội"
+   }
+  ]
+ },
+ {
+  "id": "s1-12",
+  "level": "B1",
+  "part": 1,
+  "topic": "Transport and friends",
+  "questions": [
+   "How do you usually travel to work or school?",
+   "Is public transport good in your city?",
+   "Do you have many close friends?",
+   "How often do you meet your friends?"
+  ],
+  "sampleAnswer": "I usually go to work by bus, which takes about forty minutes. Public transport is improving in my city, but buses can still be crowded during rush hour. I'm lucky to have a few close friends, and we try to meet up at least once a week for coffee.",
+  "usefulPhrases": [
+   {
+    "en": "rush hour",
+    "vi": "giờ cao điểm"
+   },
+   {
+    "en": "It takes about...minutes.",
+    "vi": "Mất khoảng... phút."
+   },
+   {
+    "en": "It's improving.",
+    "vi": "Nó đang được cải thiện."
+   },
+   {
+    "en": "a few close friends",
+    "vi": "vài người bạn thân"
+   },
+   {
+    "en": "meet up for coffee",
+    "vi": "gặp nhau uống cà phê"
+   },
+   {
+    "en": "keep in touch",
+    "vi": "giữ liên lạc"
+   }
+  ]
+ },
+ {
+  "id": "s2-01",
+  "level": "B1",
+  "part": 2,
+  "topic": "A person who influenced you",
+  "questions": [
+   "Describe a person who has influenced you"
+  ],
+  "cueCard": [
+   "who this person is",
+   "how you know them",
+   "what they did or said that influenced you",
+   "and explain why this person has been important to you"
+  ],
+  "sampleAnswer": "I'd like to talk about my high school literature teacher, Mrs Hoa, who has had a lasting influence on me. I first met her when I was fifteen, and she taught me for three years. What made her special was the way she turned every lesson into a story. Instead of just asking us to memorise facts, she encouraged us to discuss books freely and to explain what we really thought. I was quite shy back then, but she kept giving me small chances to speak in front of the class. Little by little, I gained the confidence to share my ideas. One thing she said has stayed with me ever since: that a good answer is not the correct one, but the honest one. I think that changed how I approach problems, both at work and in everyday life. I no longer worry so much about being wrong, and I'm much more willing to try. She also introduced me to reading for pleasure, which is now one of my favourite habits. Although we lost touch after I graduated, I still think of her whenever I finish a good book. To be honest, I believe she is the main reason I became a more curious and open-minded person. She showed me that a teacher can do far more than deliver information; they can change the way a young person sees themselves. If I ever get the chance, I would love to thank her in person and tell her how much she meant to me.",
+  "usefulPhrases": [
+   {
+    "en": "has had a lasting influence on me",
+    "vi": "đã có ảnh hưởng lâu dài với tôi"
+   },
+   {
+    "en": "What made her special was...",
+    "vi": "Điều khiến cô ấy đặc biệt là..."
+   },
+   {
+    "en": "Little by little, I...",
+    "vi": "Dần dần, tôi..."
+   },
+   {
+    "en": "has stayed with me ever since",
+    "vi": "vẫn ở lại trong tôi kể từ đó"
+   },
+   {
+    "en": "lose touch",
+    "vi": "mất liên lạc"
+   },
+   {
+    "en": "open-minded",
+    "vi": "cởi mở"
+   },
+   {
+    "en": "look up to someone",
+    "vi": "ngưỡng mộ ai đó"
+   },
+   {
+    "en": "I owe a lot to...",
+    "vi": "Tôi mang ơn... rất nhiều"
+   }
+  ]
+ },
+ {
+  "id": "s2-02",
+  "level": "B1",
+  "part": 2,
+  "topic": "A memorable trip",
+  "questions": [
+   "Describe a memorable trip you have taken"
+  ],
+  "cueCard": [
+   "where you went",
+   "who you went with",
+   "what you did there",
+   "and explain why this trip was memorable for you"
+  ],
+  "sampleAnswer": "I'd like to describe a trip to Ha Giang that I took with two of my cousins about two years ago. We rented motorbikes in Hanoi and spent four days riding along winding mountain roads in the far north of Vietnam. The scenery was absolutely breathtaking. In the mornings, the valleys were covered in mist, and by lunchtime the sun lit up the rice terraces and the rocky peaks. We stopped in small villages to eat noodles and drink local tea, and we took far too many photos. Admittedly, the trip was tiring, and on the second day we got lost in heavy rain. Luckily, a local family invited us into their home, gave us hot tea and even let us stay the night. That unexpected kindness turned out to be the highlight of the whole journey. We sat around the fire, chatted with the family using a mix of gestures and a few words, and ate a simple but delicious meal. I think this trip was memorable not only because of the beautiful landscape, but also because of the people we met. It taught me that the best travel experiences are often the ones you don't plan. Since then, I've been keen to travel more slowly and talk to locals. I'm hoping to go back next autumn, when the rice terraces turn golden, and maybe bring my parents along this time.",
+  "usefulPhrases": [
+   {
+    "en": "winding mountain roads",
+    "vi": "những con đường núi ngoằn ngoèo"
+   },
+   {
+    "en": "absolutely breathtaking",
+    "vi": "đẹp nghẹt thở"
+   },
+   {
+    "en": "Admittedly, ...",
+    "vi": "Phải thừa nhận rằng..."
+   },
+   {
+    "en": "turned out to be the highlight",
+    "vi": "hóa ra là điểm nhấn"
+   },
+   {
+    "en": "off the beaten track",
+    "vi": "nơi ít người biết đến"
+   },
+   {
+    "en": "not only...but also...",
+    "vi": "không chỉ... mà còn..."
+   },
+   {
+    "en": "I'm hoping to go back.",
+    "vi": "Tôi hy vọng sẽ quay lại."
+   },
+   {
+    "en": "a mix of gestures and words",
+    "vi": "kết hợp cử chỉ và vài từ"
+   }
+  ]
+ },
+ {
+  "id": "s2-03",
+  "level": "B1",
+  "part": 2,
+  "topic": "A book you enjoyed",
+  "questions": [
+   "Describe a book you have read and enjoyed"
+  ],
+  "cueCard": [
+   "what the book is",
+   "what it is about",
+   "why you decided to read it",
+   "and explain why you enjoyed it"
+  ],
+  "sampleAnswer": "I'd like to talk about a novel called The Alchemist, written by Paulo Coelho. It's a fairly short book, but it left a deep impression on me. The story follows a young Spanish shepherd named Santiago, who has a recurring dream about hidden treasure near the Egyptian pyramids. He decides to leave his familiar life behind and travel across the desert to find it. Along the way, he meets many interesting people, including an old king, a merchant and a wise alchemist, who each teach him something about life. I decided to read it after a close friend recommended it to me when I was feeling uncertain about my career. She said it had helped her to stay motivated, so I thought it was worth a try. I finished it in just three evenings because I simply couldn't put it down. What I enjoyed most was the simple, almost poetic language and the central message that we should follow our dreams, even when the path is difficult. Of course, some critics find the story a bit predictable, and I can understand that. Nevertheless, it came at the right moment in my life and gave me the courage to change jobs. I've since reread it twice, and each time I notice something new. I'd definitely recommend it to anyone who feels stuck and needs a little inspiration.",
+  "usefulPhrases": [
+   {
+    "en": "left a deep impression on me",
+    "vi": "để lại ấn tượng sâu sắc với tôi"
+   },
+   {
+    "en": "The story follows...",
+    "vi": "Câu chuyện kể về..."
+   },
+   {
+    "en": "I simply couldn't put it down.",
+    "vi": "Tôi không thể đặt nó xuống."
+   },
+   {
+    "en": "a recurring dream",
+    "vi": "giấc mơ lặp đi lặp lại"
+   },
+   {
+    "en": "It was worth a try.",
+    "vi": "Nó đáng để thử."
+   },
+   {
+    "en": "a bit predictable",
+    "vi": "hơi dễ đoán"
+   },
+   {
+    "en": "the central message",
+    "vi": "thông điệp chính"
+   },
+   {
+    "en": "It came at the right moment.",
+    "vi": "Nó đến đúng thời điểm."
+   }
+  ]
+ },
+ {
+  "id": "s2-04",
+  "level": "B2",
+  "part": 2,
+  "topic": "A piece of technology",
+  "questions": [
+   "Describe a piece of technology you use that is important to you"
+  ],
+  "cueCard": [
+   "what it is",
+   "how long you have had it",
+   "what you use it for",
+   "and explain why it is important to you"
+  ],
+  "sampleAnswer": "The piece of technology I'd like to talk about is my smartphone, which I've had for about two years. It's quite an ordinary model, but I rely on it for almost everything. In the morning, it wakes me up and tells me the weather. On my way to work I use it to listen to podcasts or read the news. At the office, I check emails and messages on it, and in the evening I use it for banking, ordering food and video calling my grandparents, who live far away. One feature I particularly appreciate is the camera, because I enjoy taking photos of everyday scenes and sharing them with friends. Apart from convenience, it's important to me because it keeps me connected to the people I care about. When I lived abroad for a year, my phone was my lifeline; without it, I would have felt much more homesick. Admittedly, there's a downside. It's easy to waste time scrolling through social media, and I sometimes catch myself checking it without any real reason. To deal with this, I now switch off notifications after nine o'clock and leave the phone in another room when I'm studying. All things considered, I think the phone is a very useful tool as long as I stay in control of it rather than letting it control me. I honestly can't imagine going back to life without one.",
+  "usefulPhrases": [
+   {
+    "en": "I rely on it for almost everything.",
+    "vi": "Tôi dựa vào nó cho hầu như mọi thứ."
+   },
+   {
+    "en": "Apart from convenience, ...",
+    "vi": "Ngoài sự tiện lợi..."
+   },
+   {
+    "en": "It was my lifeline.",
+    "vi": "Nó là cứu cánh của tôi."
+   },
+   {
+    "en": "I catch myself doing...",
+    "vi": "Tôi bắt gặp mình đang làm..."
+   },
+   {
+    "en": "switch off notifications",
+    "vi": "tắt thông báo"
+   },
+   {
+    "en": "All things considered, ...",
+    "vi": "Xét mọi mặt..."
+   },
+   {
+    "en": "stay in control of",
+    "vi": "giữ quyền kiểm soát"
+   },
+   {
+    "en": "I can't imagine life without it.",
+    "vi": "Tôi không thể tưởng tượng cuộc sống thiếu nó."
+   }
+  ]
+ },
+ {
+  "id": "s2-05",
+  "level": "B1",
+  "part": 2,
+  "topic": "A place to relax",
+  "questions": [
+   "Describe a place in your city where you go to relax"
+  ],
+  "cueCard": [
+   "where it is",
+   "how often you go there",
+   "what you do there",
+   "and explain why it helps you relax"
+  ],
+  "sampleAnswer": "I'd like to describe West Lake, a large lake in the northwest of Hanoi, where I go to relax. It's about fifteen minutes from my apartment by motorbike, and I usually go there once or twice a week, normally in the early evening. There's a long path around the lake that's perfect for walking or cycling, and there are plenty of trees that provide shade. When I get there, I normally park my bike, buy a cold drink from a street stall and walk slowly along the water. Sometimes I just sit on a bench and watch the sunset or the people passing by. In the summer, you can even see families flying kites or couples taking wedding photos. The reason it helps me relax is that it feels very different from the noisy streets in the city centre. The air is cooler, the view is open and wide, and the sound of the water is calming. After a stressful day at work, even half an hour there makes me feel much lighter. I also like the fact that it's free and open to everyone, so you see all kinds of people enjoying themselves. It's true that the lake gets crowded at weekends, so I try to go on weekday evenings when it's quieter. Overall, I think everyone needs a place like this in a busy city, and it's one of the reasons I love living here.",
+  "usefulPhrases": [
+   {
+    "en": "a perfect place to unwind",
+    "vi": "nơi hoàn hảo để thư giãn"
+   },
+   {
+    "en": "provide shade",
+    "vi": "che bóng mát"
+   },
+   {
+    "en": "The reason it helps me relax is that...",
+    "vi": "Lý do nó giúp tôi thư giãn là..."
+   },
+   {
+    "en": "It feels very different from...",
+    "vi": "Nó cho cảm giác rất khác so với..."
+   },
+   {
+    "en": "gets crowded at weekends",
+    "vi": "cuối tuần rất đông"
+   },
+   {
+    "en": "I feel much lighter.",
+    "vi": "Tôi thấy nhẹ nhõm hơn nhiều."
+   },
+   {
+    "en": "the hustle and bustle",
+    "vi": "sự ồn ào náo nhiệt"
+   },
+   {
+    "en": "escape from the noise",
+    "vi": "thoát khỏi tiếng ồn"
+   }
+  ]
+ },
+ {
+  "id": "s2-06",
+  "level": "B2",
+  "part": 2,
+  "topic": "A skill you want to learn",
+  "questions": [
+   "Describe a skill you would like to learn in the future"
+  ],
+  "cueCard": [
+   "what the skill is",
+   "how you would learn it",
+   "how long it might take you",
+   "and explain why you want to learn this skill"
+  ],
+  "sampleAnswer": "A skill I'm really keen to learn is playing the violin, something I've wanted to do since I was a child. When I was about nine, I heard a street musician playing near my house, and I was completely captivated by the sound. Unfortunately, my family couldn't afford lessons at the time, so the idea stayed in the back of my mind. Now that I have a steady income, I'm seriously thinking of signing up for a beginner's course at a local music school. I'd probably start with one lesson a week and practise for about half an hour every evening. I've read that the violin is notoriously difficult to master, so I expect it to take at least a year before I can play a simple song properly, and several more before I sound decent. I'm prepared for that, though, because I think the process itself will be rewarding. As for why I want to learn, there are a few reasons. Firstly, I'd like to have a creative outlet that is completely different from my office job. Secondly, I believe playing an instrument is good for the brain and helps reduce stress. Last but not least, learning something new at this stage of life would give me a real sense of achievement. I also have a fantasy of performing for my family at a birthday party one day. Even if that never happens, I'm sure the journey will be worthwhile, and I plan to begin as soon as I finish my current project at work.",
+  "usefulPhrases": [
+   {
+    "en": "I'm really keen to learn...",
+    "vi": "Tôi rất muốn học..."
+   },
+   {
+    "en": "captivated by the sound",
+    "vi": "bị cuốn hút bởi âm thanh"
+   },
+   {
+    "en": "stayed in the back of my mind",
+    "vi": "vẫn nằm ở góc trong tâm trí"
+   },
+   {
+    "en": "notoriously difficult to master",
+    "vi": "nổi tiếng là khó thành thạo"
+   },
+   {
+    "en": "a creative outlet",
+    "vi": "lối thoát sáng tạo"
+   },
+   {
+    "en": "a sense of achievement",
+    "vi": "cảm giác thành tựu"
+   },
+   {
+    "en": "Last but not least, ...",
+    "vi": "Cuối cùng nhưng không kém phần quan trọng..."
+   },
+   {
+    "en": "sign up for a course",
+    "vi": "đăng ký một khóa học"
+   }
+  ]
+ },
+ {
+  "id": "s2-07",
+  "level": "B1",
+  "part": 2,
+  "topic": "A special meal",
+  "questions": [
+   "Describe a meal that you enjoyed very much"
+  ],
+  "cueCard": [
+   "what the meal was",
+   "where and when you had it",
+   "who you ate it with",
+   "and explain why you enjoyed it so much"
+  ],
+  "sampleAnswer": "I'd like to talk about a family dinner we had last Lunar New Year at my grandmother's house in the countryside. It was one of the most enjoyable meals I've ever had. My grandmother had been cooking since early morning, and the table was full of traditional dishes: sticky rice cakes, boiled chicken, spring rolls and a sour soup with fish. There were about fifteen of us, including aunts, uncles and cousins I hadn't seen for months. Everyone helped in some way. I was in charge of rolling the spring rolls, though I have to admit mine looked rather messy. We ate slowly, shared stories from the past year and laughed a lot. My uncle, who is very funny, told a story about getting lost on his first trip to the city, and we couldn't stop laughing. The food itself was delicious, especially my grandmother's fish soup, which has a taste I've never found in any restaurant. But I think what made the meal truly special was the atmosphere. In daily life we're all so busy that we rarely sit down together, so that evening felt really precious. I remember looking around the table and feeling very grateful. After dinner, we played cards and the children received lucky money. It's a memory I'll treasure for a long time, and I hope we can repeat it every year.",
+  "usefulPhrases": [
+   {
+    "en": "one of the most enjoyable meals I've ever had",
+    "vi": "một trong những bữa ăn thú vị nhất tôi từng có"
+   },
+   {
+    "en": "The table was full of...",
+    "vi": "Bàn đầy ắp..."
+   },
+   {
+    "en": "I was in charge of...",
+    "vi": "Tôi phụ trách..."
+   },
+   {
+    "en": "I have to admit...",
+    "vi": "Tôi phải thừa nhận..."
+   },
+   {
+    "en": "what made it truly special was...",
+    "vi": "điều khiến nó thật sự đặc biệt là..."
+   },
+   {
+    "en": "the atmosphere",
+    "vi": "bầu không khí"
+   },
+   {
+    "en": "a memory I'll treasure",
+    "vi": "một kỷ niệm tôi sẽ trân trọng"
+   },
+   {
+    "en": "feel grateful",
+    "vi": "cảm thấy biết ơn"
+   }
+  ]
+ },
+ {
+  "id": "s2-08",
+  "level": "B2",
+  "part": 2,
+  "topic": "Helping someone",
+  "questions": [
+   "Describe a time when you helped someone"
+  ],
+  "cueCard": [
+   "who you helped",
+   "why they needed help",
+   "how you helped them",
+   "and explain how you felt about it"
+  ],
+  "sampleAnswer": "I'd like to tell you about a time I helped an elderly neighbour, Mr Binh, who lives on the floor below me. A few months ago, he fell on the stairs and hurt his leg, so he couldn't go out to buy groceries or collect his medicine. His children live in another city, and he didn't want to bother them. I only found out because I heard him calling for help one evening. I called an ambulance, stayed with him until it came, and then went with him to the hospital. Fortunately, it wasn't a serious injury, but the doctor told him to rest for a few weeks. During that time, I did his shopping, picked up his medicine and sometimes brought him a hot meal after work. I also taught him how to use a video calling app so he could talk to his grandchildren, which he really enjoyed. At first, he kept apologising and saying he was a burden, but I assured him that it was no trouble at all. In fact, I felt very happy to be useful. It made me realise how isolated some older people can feel in big cities, even when they live in a building full of neighbours. Since then, we've become good friends, and he often invites me for tea and tells me stories about his youth. Helping him taught me that small acts of kindness can make a big difference, and I'm determined to look out for my neighbours more often.",
+  "usefulPhrases": [
+   {
+    "en": "I only found out because...",
+    "vi": "Tôi chỉ biết vì..."
+   },
+   {
+    "en": "didn't want to bother them",
+    "vi": "không muốn làm phiền họ"
+   },
+   {
+    "en": "it was no trouble at all",
+    "vi": "chẳng phiền gì cả"
+   },
+   {
+    "en": "a burden",
+    "vi": "gánh nặng"
+   },
+   {
+    "en": "It made me realise...",
+    "vi": "Nó khiến tôi nhận ra..."
+   },
+   {
+    "en": "small acts of kindness",
+    "vi": "những hành động tử tế nhỏ"
+   },
+   {
+    "en": "look out for someone",
+    "vi": "chăm nom ai đó"
+   },
+   {
+    "en": "make a big difference",
+    "vi": "tạo nên khác biệt lớn"
+   }
+  ]
+ },
+ {
+  "id": "s2-09",
+  "level": "B1",
+  "part": 2,
+  "topic": "A festival or celebration",
+  "questions": [
+   "Describe a festival or celebration that is important in your country"
+  ],
+  "cueCard": [
+   "what the festival is",
+   "when it takes place",
+   "what people do during it",
+   "and explain why it is important to people in your country"
+  ],
+  "sampleAnswer": "The festival I'd like to describe is the Mid-Autumn Festival, which takes place in September or October, on the fifteenth day of the eighth lunar month. It's often called the Children's Festival, because it's a special time for kids. In the weeks before, the streets fill up with colourful lanterns, masks and stalls selling mooncakes. On the night itself, families gather to share a meal, eat mooncakes and enjoy fruit like pomelos and persimmons. Children carry paper lanterns and join lion dances in the neighbourhood, while adults sit outside and admire the full moon. I remember as a child waiting all day for the evening, because my father always helped me make a lantern in the shape of a star. What I like most about the festival is the warm, relaxed mood. It's not as hectic as the Lunar New Year, but it brings people together just the same. In my view, it's important because it reminds us to value family and to care about children. It also keeps old traditions alive, such as lantern making and lion dancing, which might otherwise be forgotten as life becomes more modern. Nowadays, many people give mooncakes to colleagues and friends as gifts, and some worry the festival is becoming too commercial. Still, whenever I look up at the bright moon with my family, I feel that the spirit of the festival is very much alive.",
+  "usefulPhrases": [
+   {
+    "en": "takes place on...",
+    "vi": "diễn ra vào..."
+   },
+   {
+    "en": "the streets fill up with...",
+    "vi": "đường phố tràn ngập..."
+   },
+   {
+    "en": "families gather to...",
+    "vi": "các gia đình tụ họp để..."
+   },
+   {
+    "en": "brings people together",
+    "vi": "gắn kết mọi người"
+   },
+   {
+    "en": "keep old traditions alive",
+    "vi": "giữ cho truyền thống xưa còn sống"
+   },
+   {
+    "en": "becoming too commercial",
+    "vi": "đang trở nên quá thương mại"
+   },
+   {
+    "en": "The spirit of the festival is alive.",
+    "vi": "Tinh thần lễ hội vẫn còn đó."
+   },
+   {
+    "en": "It's not as hectic as...",
+    "vi": "Nó không bận rộn như..."
+   }
+  ]
+ },
+ {
+  "id": "s2-10",
+  "level": "B2",
+  "part": 2,
+  "topic": "A job you would like to do",
+  "questions": [
+   "Describe a job you would like to have in the future"
+  ],
+  "cueCard": [
+   "what the job is",
+   "what you would need to do to get it",
+   "what the working conditions might be like",
+   "and explain why you would like this job"
+  ],
+  "sampleAnswer": "If I could choose any career, I'd love to become a travel writer for a magazine or website. It would combine two things I'm passionate about, which are exploring new places and putting my experiences into words. To get a job like that, I'd first need to build a strong portfolio. That means starting a blog, writing regularly and perhaps contributing articles to online platforms. I'd also have to improve my photography skills, since good images are almost as important as good text. Ideally, I'd take a course in journalism or creative writing, and learn at least one more foreign language. As for the working conditions, I imagine they'd be quite unpredictable. I'd probably travel for several weeks at a time, sometimes staying in basic accommodation, and I'd have to meet tight deadlines while moving around. The income might not be stable either, especially at the beginning, so I'd probably need to keep my current job for a while. Despite these drawbacks, I'm drawn to the idea because it would never be boring. Every assignment would be different, and I'd constantly meet new people and learn about other cultures. I also like the thought that my writing could inspire others to travel responsibly and respect local communities. I realise it's a competitive field, but I'm willing to work hard. For now, I'm taking small steps, like writing short pieces about my weekend trips, and I'm hopeful that one day it will turn into something more serious.",
+  "usefulPhrases": [
+   {
+    "en": "If I could choose any career, ...",
+    "vi": "Nếu được chọn bất kỳ nghề nào, ..."
+   },
+   {
+    "en": "build a strong portfolio",
+    "vi": "xây dựng hồ sơ năng lực tốt"
+   },
+   {
+    "en": "tight deadlines",
+    "vi": "hạn chót sát sao"
+   },
+   {
+    "en": "The income might not be stable.",
+    "vi": "Thu nhập có thể không ổn định."
+   },
+   {
+    "en": "I'm drawn to the idea.",
+    "vi": "Tôi bị thu hút bởi ý tưởng đó."
+   },
+   {
+    "en": "a competitive field",
+    "vi": "một lĩnh vực cạnh tranh"
+   },
+   {
+    "en": "take small steps",
+    "vi": "bước từng bước nhỏ"
+   },
+   {
+    "en": "turn into something more serious",
+    "vi": "phát triển thành điều nghiêm túc hơn"
+   }
+  ]
+ },
+ {
+  "id": "s3-01",
+  "level": "B2",
+  "part": 3,
+  "topic": "Role models and influence",
+  "questions": [
+   "Why do some people become role models for others?",
+   "Do you think celebrities are good role models for young people?",
+   "How has the influence of teachers changed with the growth of the internet?",
+   "Is it better to learn from people in your own life or from public figures?"
+  ],
+  "sampleAnswer": "I think people become role models when they combine achievement with strong values. It isn't enough to be famous or successful; others need to see that the person works hard, treats people fairly and stays humble. That is why a teacher or a parent can be far more influential than a celebrity. Having said that, young people today are exposed to public figures constantly through social media, so some celebrities do shape their attitudes. The problem is that what we see online is often carefully edited, which can create unrealistic expectations. Overall, I'd say the best role models are those whose behaviour we can observe closely over time.",
+  "usefulPhrases": [
+   {
+    "en": "strong values",
+    "vi": "giá trị đạo đức vững vàng"
+   },
+   {
+    "en": "It isn't enough to...",
+    "vi": "Chỉ... thôi thì chưa đủ"
+   },
+   {
+    "en": "Having said that, ...",
+    "vi": "Dù vậy, ..."
+   },
+   {
+    "en": "be exposed to",
+    "vi": "tiếp xúc với"
+   },
+   {
+    "en": "unrealistic expectations",
+    "vi": "kỳ vọng phi thực tế"
+   },
+   {
+    "en": "shape attitudes",
+    "vi": "định hình thái độ"
+   },
+   {
+    "en": "over time",
+    "vi": "theo thời gian"
+   }
+  ]
+ },
+ {
+  "id": "s3-02",
+  "level": "B2",
+  "part": 3,
+  "topic": "Tourism and travel",
+  "questions": [
+   "What are the positive and negative effects of tourism on a local area?",
+   "Do you think people travel more nowadays than in the past? Why?",
+   "Should governments limit the number of tourists visiting famous sites?",
+   "How might travel change in the future?"
+  ],
+  "sampleAnswer": "Tourism brings clear benefits, such as jobs, investment and a boost to local businesses. In many regions it's the main source of income. However, there are drawbacks as well. Popular places can become overcrowded, prices tend to rise for residents, and the environment often suffers from litter and pollution. In some cases, local culture is turned into a product for visitors, which can make it feel less authentic. I think the key is balance. If tourism is managed carefully, for example by limiting visitor numbers and encouraging small, locally owned businesses, communities can enjoy the benefits without losing what makes their home special.",
+  "usefulPhrases": [
+   {
+    "en": "a boost to local businesses",
+    "vi": "động lực cho doanh nghiệp địa phương"
+   },
+   {
+    "en": "the main source of income",
+    "vi": "nguồn thu nhập chính"
+   },
+   {
+    "en": "drawbacks",
+    "vi": "nhược điểm"
+   },
+   {
+    "en": "overcrowded",
+    "vi": "quá đông đúc"
+   },
+   {
+    "en": "authentic",
+    "vi": "chân thực"
+   },
+   {
+    "en": "The key is balance.",
+    "vi": "Mấu chốt là sự cân bằng."
+   },
+   {
+    "en": "limit visitor numbers",
+    "vi": "hạn chế lượng khách"
+   }
+  ]
+ },
+ {
+  "id": "s3-03",
+  "level": "B2",
+  "part": 3,
+  "topic": "Reading and books",
+  "questions": [
+   "Do you think people read less than they used to? Why?",
+   "What are the advantages of reading fiction?",
+   "Will printed books disappear in the future?",
+   "Should schools make children read more?"
+  ],
+  "sampleAnswer": "I do think people read fewer books than before, mainly because there are so many other forms of entertainment competing for our attention. Streaming platforms, games and social media are much easier and require less effort. Also, our attention spans seem to be getting shorter, so long texts can feel demanding. However, I wouldn't say reading is dying. Many people read articles and messages all day, and audiobooks have become very popular. The difference is that deep, focused reading is less common. This is worrying, because reading books helps develop vocabulary, concentration and empathy, which are difficult to build in other ways.",
+  "usefulPhrases": [
+   {
+    "en": "compete for our attention",
+    "vi": "cạnh tranh sự chú ý của chúng ta"
+   },
+   {
+    "en": "attention span",
+    "vi": "khoảng thời gian tập trung"
+   },
+   {
+    "en": "I wouldn't say that...",
+    "vi": "Tôi không cho rằng..."
+   },
+   {
+    "en": "deep, focused reading",
+    "vi": "đọc sâu, tập trung"
+   },
+   {
+    "en": "develop empathy",
+    "vi": "phát triển sự đồng cảm"
+   },
+   {
+    "en": "This is worrying because...",
+    "vi": "Điều này đáng lo vì..."
+   },
+   {
+    "en": "mainly because",
+    "vi": "chủ yếu vì"
+   }
+  ]
+ },
+ {
+  "id": "s3-04",
+  "level": "B2",
+  "part": 3,
+  "topic": "Technology and society",
+  "questions": [
+   "How has technology changed the way people communicate?",
+   "Do you think older people find it difficult to use new technology?",
+   "What are the dangers of depending too much on technology?",
+   "Will robots replace human workers in the future?"
+  ],
+  "sampleAnswer": "Technology has transformed communication in several ways. We can now contact anyone in the world instantly and for almost no cost, which has made it much easier to keep in touch with relatives abroad or to work with colleagues in other countries. On the other hand, much of our communication has become shorter and less personal. People send quick messages instead of calling, and sometimes they sit together in a restaurant but look at their phones. I'd argue that technology hasn't made us communicate better, only more often. To get the real benefits, we need to be conscious of when a face-to-face conversation is more appropriate.",
+  "usefulPhrases": [
+   {
+    "en": "transform communication",
+    "vi": "làm thay đổi giao tiếp"
+   },
+   {
+    "en": "keep in touch",
+    "vi": "giữ liên lạc"
+   },
+   {
+    "en": "On the other hand, ...",
+    "vi": "Mặt khác, ..."
+   },
+   {
+    "en": "less personal",
+    "vi": "kém tính cá nhân"
+   },
+   {
+    "en": "I'd argue that...",
+    "vi": "Tôi cho rằng..."
+   },
+   {
+    "en": "face-to-face conversation",
+    "vi": "trò chuyện trực tiếp"
+   },
+   {
+    "en": "be conscious of",
+    "vi": "ý thức về"
+   }
+  ]
+ },
+ {
+  "id": "s3-05",
+  "level": "B2",
+  "part": 3,
+  "topic": "Cities and public spaces",
+  "questions": [
+   "Why are green spaces important in cities?",
+   "What problems do large cities face?",
+   "Do you think people are happier living in cities or in the countryside?",
+   "How could cities be improved in the future?"
+  ],
+  "sampleAnswer": "Green spaces are essential in cities for several reasons. First, they improve air quality and help to keep temperatures down during hot summers. Second, they give residents somewhere to exercise and relax, which is good for both physical and mental health. In crowded cities, a park can be the only place where people can escape the noise and stress of daily life. Furthermore, parks bring communities together, since people of all ages and backgrounds can meet there. Unfortunately, as land becomes more expensive, many cities build over open areas. I believe planners should treat green spaces as a necessity rather than a luxury.",
+  "usefulPhrases": [
+   {
+    "en": "improve air quality",
+    "vi": "cải thiện chất lượng không khí"
+   },
+   {
+    "en": "physical and mental health",
+    "vi": "sức khỏe thể chất và tinh thần"
+   },
+   {
+    "en": "escape the noise and stress",
+    "vi": "thoát khỏi tiếng ồn và căng thẳng"
+   },
+   {
+    "en": "bring communities together",
+    "vi": "gắn kết cộng đồng"
+   },
+   {
+    "en": "a necessity rather than a luxury",
+    "vi": "điều cần thiết chứ không phải xa xỉ"
+   },
+   {
+    "en": "Furthermore, ...",
+    "vi": "Hơn nữa, ..."
+   },
+   {
+    "en": "urban planners",
+    "vi": "nhà quy hoạch đô thị"
+   }
+  ]
+ },
+ {
+  "id": "s3-06",
+  "level": "B2",
+  "part": 3,
+  "topic": "Learning new skills",
+  "questions": [
+   "What is the best way to learn a new skill?",
+   "Are practical skills more important than academic knowledge?",
+   "At what age do people learn most easily?",
+   "Should schools teach more life skills, such as cooking or managing money?"
+  ],
+  "sampleAnswer": "In my experience, the most effective way to learn a new skill is through regular practice combined with feedback. Reading or watching tutorials gives you the basic idea, but you only really improve when you try things yourself and learn from your mistakes. Having a good teacher or mentor helps a lot, because they can spot problems you don't notice. I also think motivation plays a major role. If you enjoy the process, you're more likely to keep going when it becomes difficult. So, rather than aiming for perfection straight away, it's wiser to start small and be consistent.",
+  "usefulPhrases": [
+   {
+    "en": "In my experience, ...",
+    "vi": "Theo kinh nghiệm của tôi, ..."
+   },
+   {
+    "en": "regular practice",
+    "vi": "luyện tập đều đặn"
+   },
+   {
+    "en": "learn from your mistakes",
+    "vi": "học từ sai lầm"
+   },
+   {
+    "en": "play a major role",
+    "vi": "đóng vai trò quan trọng"
+   },
+   {
+    "en": "be more likely to...",
+    "vi": "có nhiều khả năng..."
+   },
+   {
+    "en": "start small",
+    "vi": "bắt đầu từ nhỏ"
+   },
+   {
+    "en": "be consistent",
+    "vi": "kiên trì, nhất quán"
+   }
+  ]
+ },
+ {
+  "id": "s3-07",
+  "level": "C1",
+  "part": 3,
+  "topic": "Food and culture",
+  "questions": [
+   "How has people's diet changed in your country over the past few decades?",
+   "Do you think traditional food will disappear in the future?",
+   "Why do some people prefer fast food even though they know it's unhealthy?",
+   "What role does food play in bringing people together?"
+  ],
+  "sampleAnswer": "Diets have changed dramatically over the past few decades. Rising incomes and urbanisation mean people now eat far more meat, sugar and processed food than their grandparents did, whereas traditional diets relied heavily on rice, vegetables and fish. Convenience has played a major part in this shift, since long working hours leave little time for cooking. While I don't think traditional cuisine will vanish altogether, there is a genuine risk that younger generations lose the skills and patience needed to prepare it. That would be a shame, as food is not merely nutrition but also a carrier of history and identity.",
+  "usefulPhrases": [
+   {
+    "en": "change dramatically",
+    "vi": "thay đổi mạnh mẽ"
+   },
+   {
+    "en": "processed food",
+    "vi": "thực phẩm chế biến sẵn"
+   },
+   {
+    "en": "rely heavily on",
+    "vi": "phụ thuộc nhiều vào"
+   },
+   {
+    "en": "a genuine risk",
+    "vi": "một rủi ro thật sự"
+   },
+   {
+    "en": "vanish altogether",
+    "vi": "biến mất hoàn toàn"
+   },
+   {
+    "en": "That would be a shame.",
+    "vi": "Điều đó sẽ thật đáng tiếc."
+   },
+   {
+    "en": "a carrier of history and identity",
+    "vi": "nơi chứa đựng lịch sử và bản sắc"
+   }
+  ]
+ },
+ {
+  "id": "s3-08",
+  "level": "C1",
+  "part": 3,
+  "topic": "Community and helping others",
+  "questions": [
+   "Why do some people volunteer while others don't?",
+   "Is it the government's responsibility to help people in need, or individuals'?",
+   "Do you think people are less willing to help strangers than in the past?",
+   "How can communities encourage a stronger sense of belonging?"
+  ],
+  "sampleAnswer": "People volunteer for a variety of reasons, but I think a sense of purpose is often central. Those who give their time tend to feel they are contributing to something larger than themselves, which can be deeply satisfying. Others may be motivated by practical benefits, such as gaining experience for a career. Conversely, those who don't volunteer often cite lack of time rather than lack of care, particularly in societies where working hours are long. In my opinion, employers and schools could do more to remove this barrier, for instance by offering paid volunteering days. That would encourage participation and, ultimately, strengthen communities.",
+  "usefulPhrases": [
+   {
+    "en": "a sense of purpose",
+    "vi": "cảm giác có mục đích"
+   },
+   {
+    "en": "contribute to something larger than oneself",
+    "vi": "đóng góp cho điều lớn hơn bản thân"
+   },
+   {
+    "en": "Conversely, ...",
+    "vi": "Ngược lại, ..."
+   },
+   {
+    "en": "cite lack of time",
+    "vi": "viện lý do thiếu thời gian"
+   },
+   {
+    "en": "remove a barrier",
+    "vi": "gỡ bỏ rào cản"
+   },
+   {
+    "en": "paid volunteering days",
+    "vi": "ngày tình nguyện có lương"
+   },
+   {
+    "en": "strengthen communities",
+    "vi": "củng cố cộng đồng"
+   }
+  ]
+ }
+]

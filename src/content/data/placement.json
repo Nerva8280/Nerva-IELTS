@@ -1,0 +1,877 @@
+[
+ {
+  "word": "house",
+  "band": 1,
+  "vi": "ngôi nhà"
+ },
+ {
+  "word": "water",
+  "band": 1,
+  "vi": "nước"
+ },
+ {
+  "word": "friend",
+  "band": 1,
+  "vi": "bạn bè"
+ },
+ {
+  "word": "school",
+  "band": 1,
+  "vi": "trường học"
+ },
+ {
+  "word": "money",
+  "band": 1,
+  "vi": "tiền"
+ },
+ {
+  "word": "work",
+  "band": 1,
+  "vi": "làm việc"
+ },
+ {
+  "word": "child",
+  "band": 1,
+  "vi": "đứa trẻ"
+ },
+ {
+  "word": "city",
+  "band": 1,
+  "vi": "thành phố"
+ },
+ {
+  "word": "food",
+  "band": 1,
+  "vi": "thức ăn"
+ },
+ {
+  "word": "morning",
+  "band": 1,
+  "vi": "buổi sáng"
+ },
+ {
+  "word": "buy",
+  "band": 1,
+  "vi": "mua"
+ },
+ {
+  "word": "walk",
+  "band": 1,
+  "vi": "đi bộ"
+ },
+ {
+  "word": "small",
+  "band": 1,
+  "vi": "nhỏ"
+ },
+ {
+  "word": "young",
+  "band": 1,
+  "vi": "trẻ"
+ },
+ {
+  "word": "easy",
+  "band": 1,
+  "vi": "dễ"
+ },
+ {
+  "word": "kitchen",
+  "band": 1,
+  "vi": "nhà bếp"
+ },
+ {
+  "word": "window",
+  "band": 1,
+  "vi": "cửa sổ"
+ },
+ {
+  "word": "tree",
+  "band": 1,
+  "vi": "cái cây"
+ },
+ {
+  "word": "music",
+  "band": 1,
+  "vi": "âm nhạc"
+ },
+ {
+  "word": "answer",
+  "band": 1,
+  "vi": "trả lời"
+ },
+ {
+  "word": "meet",
+  "band": 1,
+  "vi": "gặp gỡ"
+ },
+ {
+  "word": "country",
+  "band": 1,
+  "vi": "đất nước"
+ },
+ {
+  "word": "night",
+  "band": 1,
+  "vi": "ban đêm"
+ },
+ {
+  "word": "weather",
+  "band": 1,
+  "vi": "thời tiết"
+ },
+ {
+  "word": "happy",
+  "band": 1,
+  "vi": "vui vẻ"
+ },
+ {
+  "word": "borrow",
+  "band": 2,
+  "vi": "mượn"
+ },
+ {
+  "word": "guest",
+  "band": 2,
+  "vi": "khách"
+ },
+ {
+  "word": "airport",
+  "band": 2,
+  "vi": "sân bay"
+ },
+ {
+  "word": "lazy",
+  "band": 2,
+  "vi": "lười biếng"
+ },
+ {
+  "word": "neighbour",
+  "band": 2,
+  "vi": "hàng xóm"
+ },
+ {
+  "word": "ticket",
+  "band": 2,
+  "vi": "vé"
+ },
+ {
+  "word": "spend",
+  "band": 2,
+  "vi": "tiêu, dành"
+ },
+ {
+  "word": "delicious",
+  "band": 2,
+  "vi": "ngon"
+ },
+ {
+  "word": "noisy",
+  "band": 2,
+  "vi": "ồn ào"
+ },
+ {
+  "word": "repair",
+  "band": 2,
+  "vi": "sửa chữa"
+ },
+ {
+  "word": "wedding",
+  "band": 2,
+  "vi": "đám cưới"
+ },
+ {
+  "word": "dangerous",
+  "band": 2,
+  "vi": "nguy hiểm"
+ },
+ {
+  "word": "curtain",
+  "band": 2,
+  "vi": "rèm cửa"
+ },
+ {
+  "word": "plenty",
+  "band": 2,
+  "vi": "nhiều, dồi dào"
+ },
+ {
+  "word": "receive",
+  "band": 2,
+  "vi": "nhận"
+ },
+ {
+  "word": "huge",
+  "band": 2,
+  "vi": "khổng lồ"
+ },
+ {
+  "word": "lecture",
+  "band": 2,
+  "vi": "bài giảng"
+ },
+ {
+  "word": "promise",
+  "band": 2,
+  "vi": "lời hứa"
+ },
+ {
+  "word": "empty",
+  "band": 2,
+  "vi": "trống rỗng"
+ },
+ {
+  "word": "passenger",
+  "band": 2,
+  "vi": "hành khách"
+ },
+ {
+  "word": "cheap",
+  "band": 2,
+  "vi": "rẻ"
+ },
+ {
+  "word": "climb",
+  "band": 2,
+  "vi": "leo"
+ },
+ {
+  "word": "shout",
+  "band": 2,
+  "vi": "la hét"
+ },
+ {
+  "word": "knee",
+  "band": 2,
+  "vi": "đầu gối"
+ },
+ {
+  "word": "pocket",
+  "band": 2,
+  "vi": "túi (quần áo)"
+ },
+ {
+  "word": "ambition",
+  "band": 3,
+  "vi": "tham vọng"
+ },
+ {
+  "word": "anxious",
+  "band": 3,
+  "vi": "lo lắng"
+ },
+ {
+  "word": "bargain",
+  "band": 3,
+  "vi": "món hời"
+ },
+ {
+  "word": "cruel",
+  "band": 3,
+  "vi": "độc ác"
+ },
+ {
+  "word": "debate",
+  "band": 3,
+  "vi": "cuộc tranh luận"
+ },
+ {
+  "word": "essay",
+  "band": 3,
+  "vi": "bài luận"
+ },
+ {
+  "word": "fabric",
+  "band": 3,
+  "vi": "vải"
+ },
+ {
+  "word": "generous",
+  "band": 3,
+  "vi": "hào phóng"
+ },
+ {
+  "word": "harvest",
+  "band": 3,
+  "vi": "vụ thu hoạch"
+ },
+ {
+  "word": "inherit",
+  "band": 3,
+  "vi": "thừa kế"
+ },
+ {
+  "word": "jealous",
+  "band": 3,
+  "vi": "ghen tị"
+ },
+ {
+  "word": "luxury",
+  "band": 3,
+  "vi": "sự xa xỉ"
+ },
+ {
+  "word": "mature",
+  "band": 3,
+  "vi": "trưởng thành"
+ },
+ {
+  "word": "negotiate",
+  "band": 3,
+  "vi": "thương lượng"
+ },
+ {
+  "word": "obstacle",
+  "band": 3,
+  "vi": "chướng ngại"
+ },
+ {
+  "word": "pregnant",
+  "band": 3,
+  "vi": "mang thai"
+ },
+ {
+  "word": "quarrel",
+  "band": 3,
+  "vi": "cãi nhau"
+ },
+ {
+  "word": "rumour",
+  "band": 3,
+  "vi": "tin đồn"
+ },
+ {
+  "word": "shrink",
+  "band": 3,
+  "vi": "co lại"
+ },
+ {
+  "word": "tolerate",
+  "band": 3,
+  "vi": "chịu đựng"
+ },
+ {
+  "word": "urgent",
+  "band": 3,
+  "vi": "khẩn cấp"
+ },
+ {
+  "word": "vacancy",
+  "band": 3,
+  "vi": "vị trí tuyển dụng"
+ },
+ {
+  "word": "wander",
+  "band": 3,
+  "vi": "đi lang thang"
+ },
+ {
+  "word": "witness",
+  "band": 3,
+  "vi": "nhân chứng"
+ },
+ {
+  "word": "fierce",
+  "band": 3,
+  "vi": "dữ dội"
+ },
+ {
+  "word": "abolish",
+  "band": 4,
+  "vi": "bãi bỏ"
+ },
+ {
+  "word": "bruise",
+  "band": 4,
+  "vi": "vết bầm"
+ },
+ {
+  "word": "clumsy",
+  "band": 4,
+  "vi": "vụng về"
+ },
+ {
+  "word": "dilemma",
+  "band": 4,
+  "vi": "tình thế tiến thoái lưỡng nan"
+ },
+ {
+  "word": "endorse",
+  "band": 4,
+  "vi": "tán thành"
+ },
+ {
+  "word": "flicker",
+  "band": 4,
+  "vi": "chập chờn"
+ },
+ {
+  "word": "glimpse",
+  "band": 4,
+  "vi": "cái nhìn thoáng qua"
+ },
+ {
+  "word": "hostile",
+  "band": 4,
+  "vi": "thù địch"
+ },
+ {
+  "word": "indulge",
+  "band": 4,
+  "vi": "nuông chiều"
+ },
+ {
+  "word": "jargon",
+  "band": 4,
+  "vi": "biệt ngữ"
+ },
+ {
+  "word": "kindle",
+  "band": 4,
+  "vi": "nhóm lửa"
+ },
+ {
+  "word": "lurk",
+  "band": 4,
+  "vi": "rình rập"
+ },
+ {
+  "word": "mortgage",
+  "band": 4,
+  "vi": "khoản vay thế chấp"
+ },
+ {
+  "word": "nostalgia",
+  "band": 4,
+  "vi": "nỗi nhớ quá khứ"
+ },
+ {
+  "word": "outrage",
+  "band": 4,
+  "vi": "sự phẫn nộ"
+ },
+ {
+  "word": "plunge",
+  "band": 4,
+  "vi": "lao xuống"
+ },
+ {
+  "word": "quota",
+  "band": 4,
+  "vi": "hạn ngạch"
+ },
+ {
+  "word": "reluctant",
+  "band": 4,
+  "vi": "miễn cưỡng"
+ },
+ {
+  "word": "scarce",
+  "band": 4,
+  "vi": "khan hiếm"
+ },
+ {
+  "word": "thrive",
+  "band": 4,
+  "vi": "phát triển mạnh"
+ },
+ {
+  "word": "undermine",
+  "band": 4,
+  "vi": "làm suy yếu"
+ },
+ {
+  "word": "vulnerable",
+  "band": 4,
+  "vi": "dễ bị tổn thương"
+ },
+ {
+  "word": "withdraw",
+  "band": 4,
+  "vi": "rút lui"
+ },
+ {
+  "word": "spouse",
+  "band": 4,
+  "vi": "vợ hoặc chồng"
+ },
+ {
+  "word": "tedious",
+  "band": 4,
+  "vi": "tẻ nhạt"
+ },
+ {
+  "word": "ambiguous",
+  "band": 5,
+  "vi": "mơ hồ"
+ },
+ {
+  "word": "bureaucracy",
+  "band": 5,
+  "vi": "bộ máy quan liêu"
+ },
+ {
+  "word": "coerce",
+  "band": 5,
+  "vi": "ép buộc"
+ },
+ {
+  "word": "dwindle",
+  "band": 5,
+  "vi": "giảm dần"
+ },
+ {
+  "word": "eloquent",
+  "band": 5,
+  "vi": "hùng biện"
+ },
+ {
+  "word": "frugal",
+  "band": 5,
+  "vi": "tiết kiệm"
+ },
+ {
+  "word": "gregarious",
+  "band": 5,
+  "vi": "thích giao du"
+ },
+ {
+  "word": "hamper",
+  "band": 5,
+  "vi": "cản trở"
+ },
+ {
+  "word": "impeccable",
+  "band": 5,
+  "vi": "hoàn hảo"
+ },
+ {
+  "word": "juxtapose",
+  "band": 5,
+  "vi": "đặt cạnh nhau"
+ },
+ {
+  "word": "laudable",
+  "band": 5,
+  "vi": "đáng khen"
+ },
+ {
+  "word": "meticulous",
+  "band": 5,
+  "vi": "tỉ mỉ"
+ },
+ {
+  "word": "nuance",
+  "band": 5,
+  "vi": "sắc thái"
+ },
+ {
+  "word": "ostensible",
+  "band": 5,
+  "vi": "bề ngoài"
+ },
+ {
+  "word": "paradigm",
+  "band": 5,
+  "vi": "mô hình"
+ },
+ {
+  "word": "quaint",
+  "band": 5,
+  "vi": "cổ kính"
+ },
+ {
+  "word": "resilient",
+  "band": 5,
+  "vi": "kiên cường"
+ },
+ {
+  "word": "scrutinise",
+  "band": 5,
+  "vi": "xem xét kỹ"
+ },
+ {
+  "word": "tenacious",
+  "band": 5,
+  "vi": "kiên trì"
+ },
+ {
+  "word": "unprecedented",
+  "band": 5,
+  "vi": "chưa từng có"
+ },
+ {
+  "word": "volatile",
+  "band": 5,
+  "vi": "dễ biến động"
+ },
+ {
+  "word": "wane",
+  "band": 5,
+  "vi": "suy yếu"
+ },
+ {
+  "word": "exacerbate",
+  "band": 5,
+  "vi": "làm trầm trọng thêm"
+ },
+ {
+  "word": "mitigate",
+  "band": 5,
+  "vi": "giảm nhẹ"
+ },
+ {
+  "word": "pragmatic",
+  "band": 5,
+  "vi": "thực dụng"
+ },
+ {
+  "word": "ephemeral",
+  "band": 6,
+  "vi": "phù du"
+ },
+ {
+  "word": "ubiquitous",
+  "band": 6,
+  "vi": "có mặt khắp nơi"
+ },
+ {
+  "word": "obfuscate",
+  "band": 6,
+  "vi": "làm rối nghĩa"
+ },
+ {
+  "word": "sycophant",
+  "band": 6,
+  "vi": "kẻ nịnh bợ"
+ },
+ {
+  "word": "pernicious",
+  "band": 6,
+  "vi": "độc hại"
+ },
+ {
+  "word": "equivocal",
+  "band": 6,
+  "vi": "mập mờ"
+ },
+ {
+  "word": "magnanimous",
+  "band": 6,
+  "vi": "cao thượng"
+ },
+ {
+  "word": "recalcitrant",
+  "band": 6,
+  "vi": "ngoan cố"
+ },
+ {
+  "word": "ineffable",
+  "band": 6,
+  "vi": "không thể diễn tả"
+ },
+ {
+  "word": "perfunctory",
+  "band": 6,
+  "vi": "qua loa"
+ },
+ {
+  "word": "loquacious",
+  "band": 6,
+  "vi": "nói nhiều"
+ },
+ {
+  "word": "truculent",
+  "band": 6,
+  "vi": "hung hăng"
+ },
+ {
+  "word": "obsequious",
+  "band": 6,
+  "vi": "khúm núm"
+ },
+ {
+  "word": "parsimonious",
+  "band": 6,
+  "vi": "keo kiệt"
+ },
+ {
+  "word": "vicissitude",
+  "band": 6,
+  "vi": "sự thăng trầm"
+ },
+ {
+  "word": "quixotic",
+  "band": 6,
+  "vi": "viển vông"
+ },
+ {
+  "word": "perspicacious",
+  "band": 6,
+  "vi": "sắc sảo"
+ },
+ {
+  "word": "ostracise",
+  "band": 6,
+  "vi": "tẩy chay"
+ },
+ {
+  "word": "intransigent",
+  "band": 6,
+  "vi": "không khoan nhượng"
+ },
+ {
+  "word": "pusillanimous",
+  "band": 6,
+  "vi": "hèn nhát"
+ },
+ {
+  "word": "sanguine",
+  "band": 6,
+  "vi": "lạc quan"
+ },
+ {
+  "word": "tendentious",
+  "band": 6,
+  "vi": "thiên vị"
+ },
+ {
+  "word": "verisimilitude",
+  "band": 6,
+  "vi": "vẻ giống thật"
+ },
+ {
+  "word": "anachronism",
+  "band": 6,
+  "vi": "điều lỗi thời"
+ },
+ {
+  "word": "obstreperous",
+  "band": 6,
+  "vi": "ồn ào khó bảo"
+ },
+ {
+  "word": "plonter",
+  "band": 1,
+  "pseudo": true
+ },
+ {
+  "word": "crandle",
+  "band": 2,
+  "pseudo": true
+ },
+ {
+  "word": "blenth",
+  "band": 1,
+  "pseudo": true
+ },
+ {
+  "word": "snoffer",
+  "band": 2,
+  "pseudo": true
+ },
+ {
+  "word": "gartle",
+  "band": 1,
+  "pseudo": true
+ },
+ {
+  "word": "krelm",
+  "band": 1,
+  "pseudo": true
+ },
+ {
+  "word": "sproke",
+  "band": 2,
+  "pseudo": true
+ },
+ {
+  "word": "zomber",
+  "band": 2,
+  "pseudo": true
+ },
+ {
+  "word": "tarpid",
+  "band": 3,
+  "pseudo": true
+ },
+ {
+  "word": "brelting",
+  "band": 3,
+  "pseudo": true
+ },
+ {
+  "word": "stravid",
+  "band": 3,
+  "pseudo": true
+ },
+ {
+  "word": "mirbent",
+  "band": 3,
+  "pseudo": true
+ },
+ {
+  "word": "strobish",
+  "band": 3,
+  "pseudo": true
+ },
+ {
+  "word": "felmant",
+  "band": 4,
+  "pseudo": true
+ },
+ {
+  "word": "trundale",
+  "band": 3,
+  "pseudo": true
+ },
+ {
+  "word": "lopture",
+  "band": 4,
+  "pseudo": true
+ },
+ {
+  "word": "cundle",
+  "band": 2,
+  "pseudo": true
+ },
+ {
+  "word": "fumorant",
+  "band": 5,
+  "pseudo": true
+ },
+ {
+  "word": "glistrap",
+  "band": 4,
+  "pseudo": true
+ },
+ {
+  "word": "mendolve",
+  "band": 5,
+  "pseudo": true
+ },
+ {
+  "word": "trapsion",
+  "band": 5,
+  "pseudo": true
+ },
+ {
+  "word": "vorlish",
+  "band": 4,
+  "pseudo": true
+ },
+ {
+  "word": "orbifal",
+  "band": 5,
+  "pseudo": true
+ },
+ {
+  "word": "quentrate",
+  "band": 6,
+  "pseudo": true
+ },
+ {
+  "word": "prandice",
+  "band": 6,
+  "pseudo": true
+ }
+]

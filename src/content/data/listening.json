@@ -1,0 +1,2935 @@
+[
+ {
+  "id": "l-a1-01",
+  "level": "A1",
+  "title": "Buying a Coffee",
+  "part": 1,
+  "contextVi": "Một khách hàng gọi cà phê và bánh sandwich ở quán cà phê.",
+  "script": [
+   {
+    "speaker": "Waiter",
+    "gender": "m",
+    "text": "Good morning. What would you like?"
+   },
+   {
+    "speaker": "Mia",
+    "gender": "f",
+    "text": "Good morning. A coffee, please."
+   },
+   {
+    "speaker": "Waiter",
+    "gender": "m",
+    "text": "Large or small?"
+   },
+   {
+    "speaker": "Mia",
+    "gender": "f",
+    "text": "Small, please. With milk, but no sugar."
+   },
+   {
+    "speaker": "Waiter",
+    "gender": "m",
+    "text": "Would you like anything to eat? We have cake and sandwiches."
+   },
+   {
+    "speaker": "Mia",
+    "gender": "f",
+    "text": "A sandwich, please. Cheese, not chicken."
+   },
+   {
+    "speaker": "Waiter",
+    "gender": "m",
+    "text": "Sure. That's three pounds fifty for the coffee and two pounds for the sandwich. So, five pounds fifty."
+   },
+   {
+    "speaker": "Mia",
+    "gender": "f",
+    "text": "Here you are. Ten pounds."
+   },
+   {
+    "speaker": "Waiter",
+    "gender": "m",
+    "text": "Thank you. Your change is four pounds fifty. Please sit down, and I will bring everything to your table."
+   },
+   {
+    "speaker": "Mia",
+    "gender": "f",
+    "text": "Thank you. Excuse me, where is the toilet?"
+   },
+   {
+    "speaker": "Waiter",
+    "gender": "m",
+    "text": "It's next to the door, on the left."
+   },
+   {
+    "speaker": "Mia",
+    "gender": "f",
+    "text": "Thank you very much."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What size coffee does Mia order?",
+    "options": [
+     "Small",
+     "Large",
+     "Medium",
+     "She does not say"
+    ],
+    "answer": 0,
+    "explain": "Mia nói: 'Small, please.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Which sandwich does Mia want?",
+    "options": [
+     "Chicken",
+     "Cheese",
+     "Egg",
+     "Ham"
+    ],
+    "answer": 1,
+    "explain": "'Cheese, not chicken.' - phô mai, không phải gà."
+   },
+   {
+    "type": "gap",
+    "q": "The total price is ____ pounds.",
+    "answer": [
+     "5.50",
+     "5.5",
+     "five fifty",
+     "five pounds fifty"
+    ],
+    "explain": "Ly cà phê 3.50 cộng sandwich 2.00 = 5.50 bảng."
+   },
+   {
+    "type": "gap",
+    "q": "Mia's change is ____ pounds.",
+    "answer": [
+     "4.50",
+     "4.5",
+     "four fifty",
+     "four pounds fifty"
+    ],
+    "explain": "'Your change is four pounds fifty.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Does Mia want sugar in her coffee?",
+    "options": [
+     "Yes, one spoon",
+     "Yes, two spoons",
+     "No",
+     "She asks for honey"
+    ],
+    "answer": 2,
+    "explain": "'With milk, but no sugar.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Where is the toilet?",
+    "options": [
+     "Next to the door, on the left",
+     "Behind the counter",
+     "Upstairs",
+     "Outside the café"
+    ],
+    "answer": 0,
+    "explain": "'It's next to the door, on the left.'"
+   }
+  ]
+ },
+ {
+  "id": "l-a1-02",
+  "level": "A1",
+  "title": "Meeting a New Neighbour",
+  "part": 1,
+  "contextVi": "Hai người hàng xóm làm quen và nói về công việc, gia đình.",
+  "script": [
+   {
+    "speaker": "Ben",
+    "gender": "m",
+    "text": "Hello! I'm Ben. I live in flat number twelve."
+   },
+   {
+    "speaker": "Sara",
+    "gender": "f",
+    "text": "Hi, Ben. I'm Sara. I'm your new neighbour. I live in flat number fourteen."
+   },
+   {
+    "speaker": "Ben",
+    "gender": "m",
+    "text": "Nice to meet you. Where are you from?"
+   },
+   {
+    "speaker": "Sara",
+    "gender": "f",
+    "text": "I'm from Spain, but I work here in London. I'm a nurse."
+   },
+   {
+    "speaker": "Ben",
+    "gender": "m",
+    "text": "That's interesting. I'm a teacher. I teach music at a school near here."
+   },
+   {
+    "speaker": "Sara",
+    "gender": "f",
+    "text": "Oh, I love music! I play the guitar."
+   },
+   {
+    "speaker": "Ben",
+    "gender": "m",
+    "text": "Really? I play the piano. Do you have any brothers or sisters?"
+   },
+   {
+    "speaker": "Sara",
+    "gender": "f",
+    "text": "Yes, I have one sister. She's twenty-two years old. She lives in Madrid."
+   },
+   {
+    "speaker": "Ben",
+    "gender": "m",
+    "text": "Is Madrid a nice city?"
+   },
+   {
+    "speaker": "Sara",
+    "gender": "f",
+    "text": "Yes, it's big and very sunny. Is there a supermarket near here?"
+   },
+   {
+    "speaker": "Ben",
+    "gender": "m",
+    "text": "Yes, there is one at the end of the street. It opens at eight o'clock."
+   },
+   {
+    "speaker": "Sara",
+    "gender": "f",
+    "text": "Great. Thanks, Ben. See you soon!"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What is Ben's flat number?",
+    "options": [
+     "Ten",
+     "Twelve",
+     "Fourteen",
+     "Forty"
+    ],
+    "answer": 1,
+    "explain": "Ben: 'flat number twelve'; Sara ở số fourteen."
+   },
+   {
+    "type": "mcq",
+    "q": "What is Sara's job?",
+    "options": [
+     "Teacher",
+     "Doctor",
+     "Nurse",
+     "Musician"
+    ],
+    "answer": 2,
+    "explain": "Sara: 'I'm a nurse.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What does Ben teach?",
+    "options": [
+     "English",
+     "Music",
+     "Science",
+     "Spanish"
+    ],
+    "answer": 1,
+    "explain": "Ben: 'I teach music at a school near here.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Which instrument does Sara play?",
+    "options": [
+     "The piano",
+     "The guitar",
+     "The violin",
+     "The drums"
+    ],
+    "answer": 1,
+    "explain": "Sara: 'I play the guitar.' (Ben chơi piano)."
+   },
+   {
+    "type": "gap",
+    "q": "Sara's sister is ____ years old.",
+    "answer": [
+     "22",
+     "twenty-two",
+     "twenty two"
+    ],
+    "explain": "'She's twenty-two years old.'"
+   },
+   {
+    "type": "gap",
+    "q": "The supermarket opens at ____ o'clock.",
+    "answer": [
+     "8",
+     "eight"
+    ],
+    "explain": "'It opens at eight o'clock.'"
+   }
+  ]
+ },
+ {
+  "id": "l-a1-03",
+  "level": "A1",
+  "title": "At the Train Station",
+  "part": 1,
+  "contextVi": "Một hành khách mua vé tàu đi Oxford ở quầy bán vé.",
+  "script": [
+   {
+    "speaker": "Clerk",
+    "gender": "m",
+    "text": "Good afternoon. Can I help you?"
+   },
+   {
+    "speaker": "Customer",
+    "gender": "f",
+    "text": "Yes, please. I'd like a ticket to Oxford."
+   },
+   {
+    "speaker": "Clerk",
+    "gender": "m",
+    "text": "Single or return?"
+   },
+   {
+    "speaker": "Customer",
+    "gender": "f",
+    "text": "Return, please. I come back tomorrow."
+   },
+   {
+    "speaker": "Clerk",
+    "gender": "m",
+    "text": "That's eighteen pounds."
+   },
+   {
+    "speaker": "Customer",
+    "gender": "f",
+    "text": "Can I pay by card?"
+   },
+   {
+    "speaker": "Clerk",
+    "gender": "m",
+    "text": "Yes, of course. The next train leaves at two forty, from platform three."
+   },
+   {
+    "speaker": "Customer",
+    "gender": "f",
+    "text": "Two forty, platform three. Is that right?"
+   },
+   {
+    "speaker": "Clerk",
+    "gender": "m",
+    "text": "Yes, that's right. The journey takes one hour."
+   },
+   {
+    "speaker": "Customer",
+    "gender": "f",
+    "text": "Thank you. And is there a café at the station?"
+   },
+   {
+    "speaker": "Clerk",
+    "gender": "m",
+    "text": "Yes, it's opposite the ticket office."
+   },
+   {
+    "speaker": "Customer",
+    "gender": "f",
+    "text": "Great. Thanks. Goodbye."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What kind of ticket does the woman buy?",
+    "options": [
+     "Single",
+     "Return",
+     "Weekly",
+     "Student"
+    ],
+    "answer": 1,
+    "explain": "'Return, please. I come back tomorrow.'"
+   },
+   {
+    "type": "gap",
+    "q": "The ticket costs ____ pounds.",
+    "answer": [
+     "18",
+     "eighteen"
+    ],
+    "explain": "'That's eighteen pounds.'"
+   },
+   {
+    "type": "mcq",
+    "q": "How does she pay?",
+    "options": [
+     "By cash",
+     "By card",
+     "By phone",
+     "She does not pay"
+    ],
+    "answer": 1,
+    "explain": "'Can I pay by card?' - 'Yes, of course.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What time does the train leave?",
+    "options": [
+     "2.04",
+     "2.14",
+     "2.40",
+     "3.40"
+    ],
+    "answer": 2,
+    "explain": "'The next train leaves at two forty.'"
+   },
+   {
+    "type": "gap",
+    "q": "The train leaves from platform ____.",
+    "answer": [
+     "3",
+     "three"
+    ],
+    "explain": "'from platform three'."
+   },
+   {
+    "type": "mcq",
+    "q": "Where is the café?",
+    "options": [
+     "On platform three",
+     "Opposite the ticket office",
+     "Next to the toilets",
+     "Outside the station"
+    ],
+    "answer": 1,
+    "explain": "'it's opposite the ticket office.'"
+   }
+  ]
+ },
+ {
+  "id": "l-a1-04",
+  "level": "A1",
+  "title": "Plans for Saturday",
+  "part": 1,
+  "contextVi": "Hai người bạn lên kế hoạch đi biển vào cuối tuần.",
+  "script": [
+   {
+    "speaker": "Lucy",
+    "gender": "f",
+    "text": "Hi, Tom. What are you doing on Saturday?"
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "Nothing special. Why?"
+   },
+   {
+    "speaker": "Lucy",
+    "gender": "f",
+    "text": "Let's go to the beach. The weather is going to be hot."
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "Good idea. But I don't have a car."
+   },
+   {
+    "speaker": "Lucy",
+    "gender": "f",
+    "text": "No problem. My brother has a car. He can take us."
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "Great. What time shall we meet?"
+   },
+   {
+    "speaker": "Lucy",
+    "gender": "f",
+    "text": "At nine o'clock, at my house."
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "Nine is a bit early. Can we meet at ten?"
+   },
+   {
+    "speaker": "Lucy",
+    "gender": "f",
+    "text": "OK, ten o'clock is fine. Please bring some water and a hat."
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "Sure. Shall I bring some food too?"
+   },
+   {
+    "speaker": "Lucy",
+    "gender": "f",
+    "text": "No, I will make sandwiches. And in the evening, we can have dinner in a restaurant."
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "Perfect. See you on Saturday!"
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "Where are Lucy and Tom going on Saturday?",
+    "options": [
+     "To the mountains",
+     "To the beach",
+     "To a restaurant only",
+     "To the cinema"
+    ],
+    "answer": 1,
+    "explain": "Lucy: 'Let's go to the beach.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What will the weather be like?",
+    "options": [
+     "Cold",
+     "Rainy",
+     "Hot",
+     "Windy"
+    ],
+    "answer": 2,
+    "explain": "'The weather is going to be hot.'"
+   },
+   {
+    "type": "mcq",
+    "q": "How will they travel?",
+    "options": [
+     "By bus",
+     "By train",
+     "In Lucy's brother's car",
+     "In Tom's car"
+    ],
+    "answer": 2,
+    "explain": "Tom không có xe; 'My brother has a car. He can take us.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What time will they meet?",
+    "options": [
+     "Nine o'clock",
+     "Ten o'clock",
+     "Eleven o'clock",
+     "Twelve o'clock"
+    ],
+    "answer": 1,
+    "explain": "Lucy đề nghị chín giờ, nhưng Tom xin muộn hơn và Lucy đồng ý: 'ten o'clock is fine'."
+   },
+   {
+    "type": "gap",
+    "q": "Tom must bring some water and a ____.",
+    "answer": [
+     "hat"
+    ],
+    "explain": "'Please bring some water and a hat.'"
+   },
+   {
+    "type": "gap",
+    "q": "Lucy will make ____.",
+    "answer": [
+     "sandwiches",
+     "sandwich"
+    ],
+    "explain": "'No, I will make sandwiches.'"
+   }
+  ]
+ },
+ {
+  "id": "l-a2-01",
+  "level": "A2",
+  "title": "Booking a Doctor's Appointment",
+  "part": 1,
+  "contextVi": "Một bệnh nhân gọi điện đặt lịch khám với bác sĩ.",
+  "script": [
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Good morning, Greenfield Medical Centre. How can I help you?"
+   },
+   {
+    "speaker": "Patient",
+    "gender": "m",
+    "text": "Hello. I'd like to make an appointment with Doctor Evans, please. I've had a bad cough for a week."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Let me see. Doctor Evans is free on Tuesday at ten thirty, or on Wednesday at four o'clock."
+   },
+   {
+    "speaker": "Patient",
+    "gender": "m",
+    "text": "I work until five on Wednesday. Can I come on Tuesday?"
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Yes, Tuesday at ten thirty is fine. Can I have your name, please?"
+   },
+   {
+    "speaker": "Patient",
+    "gender": "m",
+    "text": "It's Daniel Carter. That's C-A-R-T-E-R."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Thank you. And your date of birth?"
+   },
+   {
+    "speaker": "Patient",
+    "gender": "m",
+    "text": "The fourteenth of March, nineteen ninety-two."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Thank you. Please arrive fifteen minutes early to fill in a form, and bring your health card."
+   },
+   {
+    "speaker": "Patient",
+    "gender": "m",
+    "text": "Sorry, did you say fifteen minutes?"
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Oh, no, sorry. Ten minutes is enough."
+   },
+   {
+    "speaker": "Patient",
+    "gender": "m",
+    "text": "Ten minutes, and my health card. Thank you. Goodbye."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What is the patient's problem?",
+    "options": [
+     "A headache",
+     "A bad cough",
+     "A sore leg",
+     "A cold and fever"
+    ],
+    "answer": 1,
+    "explain": "'I've had a bad cough for a week.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Which day is the appointment?",
+    "options": [
+     "Monday",
+     "Tuesday",
+     "Wednesday",
+     "Thursday"
+    ],
+    "answer": 1,
+    "explain": "Bệnh nhân làm việc đến năm giờ thứ Tư nên chọn Tuesday."
+   },
+   {
+    "type": "gap",
+    "q": "The appointment is at ____ (time).",
+    "answer": [
+     "10.30",
+     "10:30",
+     "ten thirty",
+     "10 30"
+    ],
+    "explain": "'Tuesday at ten thirty is fine.'"
+   },
+   {
+    "type": "gap",
+    "q": "The patient's surname is C-A-R-T-E-R, so it is ____.",
+    "answer": [
+     "Carter"
+    ],
+    "explain": "Ghép các chữ cái C-A-R-T-E-R thành 'Carter'."
+   },
+   {
+    "type": "gap",
+    "q": "The patient must arrive ____ minutes early.",
+    "answer": [
+     "10",
+     "ten"
+    ],
+    "explain": "Lễ tân nói 'fifteen' rồi sửa lại: 'Ten minutes is enough.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What must the patient bring?",
+    "options": [
+     "A passport",
+     "A health card",
+     "A letter from work",
+     "A photo"
+    ],
+    "answer": 1,
+    "explain": "'bring your health card'."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-02",
+  "level": "A2",
+  "title": "Buying a Jacket",
+  "part": 1,
+  "contextVi": "Một người cha mua áo khoác cho con trai trong cửa hàng quần áo.",
+  "script": [
+   {
+    "speaker": "Assistant",
+    "gender": "f",
+    "text": "Hello, can I help you?"
+   },
+   {
+    "speaker": "Customer",
+    "gender": "m",
+    "text": "Yes, I'm looking for a jacket for my son. He's fourteen."
+   },
+   {
+    "speaker": "Assistant",
+    "gender": "f",
+    "text": "What size is he?"
+   },
+   {
+    "speaker": "Customer",
+    "gender": "m",
+    "text": "I think he's medium, but he's very tall, so maybe large."
+   },
+   {
+    "speaker": "Assistant",
+    "gender": "f",
+    "text": "Let's try a large. We have this blue one and a black one."
+   },
+   {
+    "speaker": "Customer",
+    "gender": "m",
+    "text": "How much is the blue one?"
+   },
+   {
+    "speaker": "Assistant",
+    "gender": "f",
+    "text": "It was sixty-five pounds, but it's on sale. It's forty-five pounds now."
+   },
+   {
+    "speaker": "Customer",
+    "gender": "m",
+    "text": "Forty-five. That's good. Does it have a hood?"
+   },
+   {
+    "speaker": "Assistant",
+    "gender": "f",
+    "text": "Yes, it does, and it's waterproof."
+   },
+   {
+    "speaker": "Customer",
+    "gender": "m",
+    "text": "Perfect. I'll take the blue one. Can I bring it back if it doesn't fit?"
+   },
+   {
+    "speaker": "Assistant",
+    "gender": "f",
+    "text": "Yes, within twenty-eight days, with the receipt."
+   },
+   {
+    "speaker": "Customer",
+    "gender": "m",
+    "text": "Great. Here's my card."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "Who is the jacket for?",
+    "options": [
+     "The customer",
+     "His son",
+     "His daughter",
+     "His brother"
+    ],
+    "answer": 1,
+    "explain": "'a jacket for my son'."
+   },
+   {
+    "type": "mcq",
+    "q": "Which size will the customer try?",
+    "options": [
+     "Small",
+     "Medium",
+     "Large",
+     "Extra large"
+    ],
+    "answer": 2,
+    "explain": "Con trai cỡ medium nhưng rất cao nên thử 'a large'."
+   },
+   {
+    "type": "mcq",
+    "q": "Which colour does he buy?",
+    "options": [
+     "Black",
+     "Blue",
+     "Green",
+     "Grey"
+    ],
+    "answer": 1,
+    "explain": "'I'll take the blue one.'"
+   },
+   {
+    "type": "gap",
+    "q": "The jacket now costs ____ pounds.",
+    "answer": [
+     "45",
+     "forty-five",
+     "forty five"
+    ],
+    "explain": "Giá cũ 65, giảm giá còn 'forty-five pounds now'."
+   },
+   {
+    "type": "mcq",
+    "q": "What special features does the jacket have?",
+    "options": [
+     "A hood and it is waterproof",
+     "Big pockets and a belt",
+     "A zip and it is warm",
+     "A hood and a belt"
+    ],
+    "answer": 0,
+    "explain": "'Yes, it does, and it's waterproof.'"
+   },
+   {
+    "type": "gap",
+    "q": "He can return the jacket within ____ days.",
+    "answer": [
+     "28",
+     "twenty-eight",
+     "twenty eight"
+    ],
+    "explain": "'within twenty-eight days, with the receipt'."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-03",
+  "level": "A2",
+  "title": "Asking for Directions",
+  "part": 1,
+  "contextVi": "Một du khách hỏi người địa phương đường đến bảo tàng khoa học.",
+  "script": [
+   {
+    "speaker": "Tourist",
+    "gender": "f",
+    "text": "Excuse me. Could you tell me how to get to the Science Museum?"
+   },
+   {
+    "speaker": "Local",
+    "gender": "m",
+    "text": "Of course. It's not far. Go straight on along this road until you reach the traffic lights."
+   },
+   {
+    "speaker": "Tourist",
+    "gender": "f",
+    "text": "Straight on to the lights. And then?"
+   },
+   {
+    "speaker": "Local",
+    "gender": "m",
+    "text": "Turn left and walk past the post office and the bank. The museum is on your right, opposite the park."
+   },
+   {
+    "speaker": "Tourist",
+    "gender": "f",
+    "text": "How long does it take on foot?"
+   },
+   {
+    "speaker": "Local",
+    "gender": "m",
+    "text": "About fifteen minutes. Or you can take the number twenty-two bus from the bus stop over there."
+   },
+   {
+    "speaker": "Tourist",
+    "gender": "f",
+    "text": "Does the bus go all the way to the museum?"
+   },
+   {
+    "speaker": "Local",
+    "gender": "m",
+    "text": "Almost. You need to get off at the library, and then it's a two-minute walk."
+   },
+   {
+    "speaker": "Tourist",
+    "gender": "f",
+    "text": "Is the museum open today?"
+   },
+   {
+    "speaker": "Local",
+    "gender": "m",
+    "text": "Yes, it's open until six. It closes at four on Sundays, but today is Saturday, so you have plenty of time."
+   },
+   {
+    "speaker": "Tourist",
+    "gender": "f",
+    "text": "Wonderful. Thank you very much!"
+   },
+   {
+    "speaker": "Local",
+    "gender": "m",
+    "text": "You're welcome. Enjoy your visit."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What should the tourist do at the traffic lights?",
+    "options": [
+     "Turn left",
+     "Turn right",
+     "Go straight on",
+     "Cross the park"
+    ],
+    "answer": 0,
+    "explain": "'Turn left' tại đèn giao thông."
+   },
+   {
+    "type": "mcq",
+    "q": "Where is the museum?",
+    "options": [
+     "Next to the bank",
+     "Opposite the park",
+     "Behind the library",
+     "Beside the post office"
+    ],
+    "answer": 1,
+    "explain": "'on your right, opposite the park'."
+   },
+   {
+    "type": "gap",
+    "q": "The walk takes about ____ minutes.",
+    "answer": [
+     "15",
+     "fifteen"
+    ],
+    "explain": "'About fifteen minutes.'"
+   },
+   {
+    "type": "gap",
+    "q": "The tourist can take bus number ____.",
+    "answer": [
+     "22",
+     "twenty-two",
+     "twenty two"
+    ],
+    "explain": "'the number twenty-two bus'."
+   },
+   {
+    "type": "mcq",
+    "q": "Where should she get off the bus?",
+    "options": [
+     "At the museum",
+     "At the bank",
+     "At the library",
+     "At the park"
+    ],
+    "answer": 2,
+    "explain": "'You need to get off at the library'."
+   },
+   {
+    "type": "gap",
+    "q": "On Sundays, the museum closes at ____ o'clock.",
+    "answer": [
+     "4",
+     "four"
+    ],
+    "explain": "Hôm nay mở đến sáu giờ, nhưng 'It closes at four on Sundays'."
+   }
+  ]
+ },
+ {
+  "id": "l-a2-04",
+  "level": "A2",
+  "title": "Planning a Birthday Party",
+  "part": 1,
+  "contextVi": "Hai anh em lên kế hoạch tổ chức tiệc sinh nhật cho mẹ.",
+  "script": [
+   {
+    "speaker": "Emma",
+    "gender": "f",
+    "text": "Jack, we need to plan Mum's birthday party. It's on the twentieth of June."
+   },
+   {
+    "speaker": "Jack",
+    "gender": "m",
+    "text": "That's a Saturday, isn't it? Where shall we have it?"
+   },
+   {
+    "speaker": "Emma",
+    "gender": "f",
+    "text": "I thought about a restaurant, but it's very expensive. What about at home?"
+   },
+   {
+    "speaker": "Jack",
+    "gender": "m",
+    "text": "Good idea. How many people are coming?"
+   },
+   {
+    "speaker": "Emma",
+    "gender": "f",
+    "text": "About twelve. Her sister, her friends from work and the neighbours. Oh, and Grandpa. So thirteen people."
+   },
+   {
+    "speaker": "Jack",
+    "gender": "m",
+    "text": "OK, thirteen. Shall we order a cake?"
+   },
+   {
+    "speaker": "Emma",
+    "gender": "f",
+    "text": "I'd rather make one myself. She likes chocolate cake best."
+   },
+   {
+    "speaker": "Jack",
+    "gender": "m",
+    "text": "Wonderful. I'll do the music and the decorations. What about presents?"
+   },
+   {
+    "speaker": "Emma",
+    "gender": "f",
+    "text": "I've already bought her a scarf. Why don't we buy something together? Maybe a book about gardening?"
+   },
+   {
+    "speaker": "Jack",
+    "gender": "m",
+    "text": "Yes, she loves her garden. I'll order it online today."
+   },
+   {
+    "speaker": "Emma",
+    "gender": "f",
+    "text": "Thanks. The party starts at seven, but please tell everyone to come at half past six, so they are there before Mum arrives."
+   },
+   {
+    "speaker": "Jack",
+    "gender": "m",
+    "text": "Good plan. I'll send messages to everyone tonight."
+   }
+  ],
+  "questions": [
+   {
+    "type": "gap",
+    "q": "The party is on the ____ of June.",
+    "answer": [
+     "20th",
+     "20",
+     "twentieth"
+    ],
+    "explain": "'It's on the twentieth of June.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Where will the party be?",
+    "options": [
+     "In a restaurant",
+     "At home",
+     "In a park",
+     "At Grandpa's house"
+    ],
+    "answer": 1,
+    "explain": "Nhà hàng quá đắt nên chọn 'at home'."
+   },
+   {
+    "type": "gap",
+    "q": "The number of guests is ____.",
+    "answer": [
+     "13",
+     "thirteen"
+    ],
+    "explain": "Emma nói khoảng 12 rồi cộng thêm Grandpa: 'So thirteen people.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What kind of cake will Emma make?",
+    "options": [
+     "Vanilla",
+     "Chocolate",
+     "Lemon",
+     "Strawberry"
+    ],
+    "answer": 1,
+    "explain": "'She likes chocolate cake best.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What will Jack do for the party?",
+    "options": [
+     "Make the cake",
+     "Cook dinner",
+     "Do the music and decorations",
+     "Buy the scarf"
+    ],
+    "answer": 2,
+    "explain": "Jack: 'I'll do the music and the decorations.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What present will they buy together?",
+    "options": [
+     "A scarf",
+     "A book about gardening",
+     "Flowers",
+     "A cooking book"
+    ],
+    "answer": 1,
+    "explain": "Chiếc khăn là Emma đã mua riêng; quà chung là 'a book about gardening'."
+   },
+   {
+    "type": "gap",
+    "q": "Guests should arrive at ____ (time).",
+    "answer": [
+     "6.30",
+     "6:30",
+     "six thirty",
+     "half past six",
+     "6 30"
+    ],
+    "explain": "Tiệc bắt đầu lúc bảy giờ nhưng khách đến 'half past six'."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-01",
+  "level": "B1",
+  "title": "Joining a Sports Centre",
+  "part": 1,
+  "contextVi": "Một người đàn ông gọi điện đăng ký làm thành viên phòng tập thể thao và hồ bơi.",
+  "script": [
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Good morning, Riverside Sports Centre. How can I help you?"
+   },
+   {
+    "speaker": "Marcus",
+    "gender": "m",
+    "text": "Hi. I'd like to join the centre, please. A friend told me you have a swimming pool and a climbing wall."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "That's right. I can take your details now, if you like. What's your full name?"
+   },
+   {
+    "speaker": "Marcus",
+    "gender": "m",
+    "text": "It's Marcus Lindqvist."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Could you spell the surname for me?"
+   },
+   {
+    "speaker": "Marcus",
+    "gender": "m",
+    "text": "Sure. That's L-I-N-D-Q-V-I-S-T."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Thank you. And your address?"
+   },
+   {
+    "speaker": "Marcus",
+    "gender": "m",
+    "text": "Forty-two Harbour Road. And the postcode is B D nine, four R T. Oh, sorry, that's wrong. It's B D nine, four R F."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "B D nine, four R F. Got it. And a contact number?"
+   },
+   {
+    "speaker": "Marcus",
+    "gender": "m",
+    "text": "My mobile is oh seven seven double-oh, nine double-oh, four six three."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Thank you. Now, we have two types of membership. Standard is thirty-five pounds a month and includes the gym and the pool. Premium is forty-five pounds, and it also includes classes, such as yoga and spinning."
+   },
+   {
+    "speaker": "Marcus",
+    "gender": "m",
+    "text": "I'll go for the standard one. I don't think I'll have time for classes."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Fine. When would you like to start?"
+   },
+   {
+    "speaker": "Marcus",
+    "gender": "m",
+    "text": "Could I start next Monday? That's the sixteenth of June."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "No problem. Do you have any health conditions we should know about?"
+   },
+   {
+    "speaker": "Marcus",
+    "gender": "m",
+    "text": "Just a bad knee. So no running machines for me."
+   },
+   {
+    "speaker": "Receptionist",
+    "gender": "f",
+    "text": "Noted. Please come at ten o'clock for a short introduction with one of our instructors. It takes about forty-five minutes. Bring a towel and a padlock for the locker."
+   },
+   {
+    "speaker": "Marcus",
+    "gender": "m",
+    "text": "Great, thanks very much."
+   }
+  ],
+  "questions": [
+   {
+    "type": "gap",
+    "q": "Surname: ____ (write it out)",
+    "answer": [
+     "Lindqvist"
+    ],
+    "explain": "Người gọi đánh vần L-I-N-D-Q-V-I-S-T."
+   },
+   {
+    "type": "gap",
+    "q": "Postcode: BD9 ____",
+    "answer": [
+     "4RF",
+     "4 RF"
+    ],
+    "explain": "Marcus nói 4RT rồi tự sửa thành '4RF'."
+   },
+   {
+    "type": "gap",
+    "q": "Mobile number: ____",
+    "answer": [
+     "07700900463",
+     "07700 900463",
+     "07700 900 463"
+    ],
+    "explain": "'oh seven seven double-oh, nine double-oh, four six three' = 07700 900463."
+   },
+   {
+    "type": "mcq",
+    "q": "Which membership does Marcus choose?",
+    "options": [
+     "Standard",
+     "Premium",
+     "Student",
+     "Family"
+    ],
+    "answer": 0,
+    "explain": "'I'll go for the standard one.'"
+   },
+   {
+    "type": "mcq",
+    "q": "How much will he pay per month?",
+    "options": [
+     "£25",
+     "£35",
+     "£45",
+     "£54"
+    ],
+    "answer": 1,
+    "explain": "Standard là 35 bảng/tháng; Premium (45) mới có lớp học."
+   },
+   {
+    "type": "gap",
+    "q": "Start date: ____ June",
+    "answer": [
+     "16",
+     "16th",
+     "sixteenth"
+    ],
+    "explain": "'next Monday. That's the sixteenth of June.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What health problem does Marcus mention?",
+    "options": [
+     "A bad back",
+     "A bad knee",
+     "Asthma",
+     "A sore shoulder"
+    ],
+    "answer": 1,
+    "explain": "'Just a bad knee.'"
+   },
+   {
+    "type": "gap",
+    "q": "He should bring a ____ and a padlock for the locker.",
+    "answer": [
+     "towel"
+    ],
+    "explain": "'Bring a towel and a padlock for the locker.'"
+   }
+  ]
+ },
+ {
+  "id": "l-b1-02",
+  "level": "B1",
+  "title": "Enquiring About a Spanish Course",
+  "part": 1,
+  "contextVi": "Một người gọi điện hỏi thông tin về khóa học tiếng Tây Ban Nha buổi tối.",
+  "script": [
+   {
+    "speaker": "Adviser",
+    "gender": "f",
+    "text": "Good afternoon, Linguaworld Language School. How can I help?"
+   },
+   {
+    "speaker": "Alexei",
+    "gender": "m",
+    "text": "Hello. I'm interested in an evening Spanish course for beginners."
+   },
+   {
+    "speaker": "Adviser",
+    "gender": "f",
+    "text": "Of course. We have a beginners' course starting on the third of October. It runs for ten weeks, on Tuesday and Thursday evenings."
+   },
+   {
+    "speaker": "Alexei",
+    "gender": "m",
+    "text": "What time are the classes?"
+   },
+   {
+    "speaker": "Adviser",
+    "gender": "f",
+    "text": "Six thirty until eight thirty. Oh, sorry, I'm looking at last term's timetable. It's seven until nine now."
+   },
+   {
+    "speaker": "Alexei",
+    "gender": "m",
+    "text": "Seven until nine, OK. And how much is the course?"
+   },
+   {
+    "speaker": "Adviser",
+    "gender": "f",
+    "text": "The fee is two hundred and eighty pounds, and that includes the textbook. If you register before the nineteenth of September, you get a ten percent discount."
+   },
+   {
+    "speaker": "Alexei",
+    "gender": "m",
+    "text": "That sounds good. Where is the school?"
+   },
+   {
+    "speaker": "Adviser",
+    "gender": "f",
+    "text": "On Mill Street, next to the library. The nearest station is Central, about five minutes' walk away."
+   },
+   {
+    "speaker": "Alexei",
+    "gender": "m",
+    "text": "Is there a placement test?"
+   },
+   {
+    "speaker": "Adviser",
+    "gender": "f",
+    "text": "Not for beginners. You just fill in a registration form and pay a deposit of fifty pounds."
+   },
+   {
+    "speaker": "Alexei",
+    "gender": "m",
+    "text": "Can I pay online?"
+   },
+   {
+    "speaker": "Adviser",
+    "gender": "f",
+    "text": "Yes, you can pay online or in person. Can I take your name so I can send you the form?"
+   },
+   {
+    "speaker": "Alexei",
+    "gender": "m",
+    "text": "It's Alexei Petrov. That's P-E-T-R-O-V."
+   },
+   {
+    "speaker": "Adviser",
+    "gender": "f",
+    "text": "Thank you, Mr Petrov. I'll send it today."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "When does the beginners' course start?",
+    "options": [
+     "3 September",
+     "3 October",
+     "19 September",
+     "19 October"
+    ],
+    "answer": 1,
+    "explain": "'starting on the third of October'; 19 September là hạn đăng ký sớm."
+   },
+   {
+    "type": "mcq",
+    "q": "What time are the classes now?",
+    "options": [
+     "6.30 to 8.30",
+     "7.00 to 9.00",
+     "7.30 to 9.30",
+     "6.00 to 8.00"
+    ],
+    "answer": 1,
+    "explain": "Nhân viên đọc nhầm lịch kỳ trước (6.30-8.30), rồi sửa: 'seven until nine now'."
+   },
+   {
+    "type": "gap",
+    "q": "The course fee is £____.",
+    "answer": [
+     "280"
+    ],
+    "explain": "'two hundred and eighty pounds'."
+   },
+   {
+    "type": "gap",
+    "q": "Students who register early get a ____ percent discount.",
+    "answer": [
+     "10",
+     "ten"
+    ],
+    "explain": "'a ten percent discount'."
+   },
+   {
+    "type": "gap",
+    "q": "The school is on ____ Street.",
+    "answer": [
+     "Mill"
+    ],
+    "explain": "'On Mill Street, next to the library.'"
+   },
+   {
+    "type": "gap",
+    "q": "The deposit is £____.",
+    "answer": [
+     "50",
+     "fifty"
+    ],
+    "explain": "'a deposit of fifty pounds'."
+   },
+   {
+    "type": "gap",
+    "q": "Surname: ____",
+    "answer": [
+     "Petrov"
+    ],
+    "explain": "P-E-T-R-O-V."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-03",
+  "level": "B1",
+  "title": "A Tour of the Hartley Arts Centre",
+  "part": 2,
+  "contextVi": "Hướng dẫn viên giới thiệu các khu vực và quy định của một trung tâm nghệ thuật cộng đồng.",
+  "script": [
+   {
+    "speaker": "Guide",
+    "gender": "f",
+    "text": "Good morning, everyone, and welcome to the Hartley Community Arts Centre. My name's Joanna, and I'll be showing you around for the next forty minutes. Before we begin, a few practical points. The centre is open from nine in the morning until nine at night every day, except Sundays, when it closes at five. Please keep your phones on silent in the galleries."
+   },
+   {
+    "speaker": "Guide",
+    "gender": "f",
+    "text": "We're standing in the main entrance hall. On your left is the café, which serves breakfast until eleven. Many people think the café is only for visitors, but it's open to everyone, and it's very popular with local artists. The cloakroom is also here, and it's free. You can leave your coats and bags, but please take any valuables with you."
+   },
+   {
+    "speaker": "Guide",
+    "gender": "f",
+    "text": "Now, if you go up the main staircase, you'll find the exhibition galleries on the first floor. At the moment we have a photography exhibition about the local river, which runs until the end of November. In December, there will be a display of children's paintings from three nearby primary schools."
+   },
+   {
+    "speaker": "Guide",
+    "gender": "f",
+    "text": "On the ground floor, behind the café, are the workshop studios. We run classes in pottery, painting and printing. The pottery studio is the most popular. It was refurbished last year and now has six new kilns. You can book a taster session for ten pounds, and if you decide to join a course, that fee is taken off the price."
+   },
+   {
+    "speaker": "Guide",
+    "gender": "f",
+    "text": "The small theatre is in the basement. It seats a hundred and twenty people. It was originally designed for a hundred and fifty, but the number was reduced when we added spaces for wheelchairs. There are performances most weekends, and tickets are cheaper if you buy them in advance online."
+   },
+   {
+    "speaker": "Guide",
+    "gender": "f",
+    "text": "Finally, a word about volunteering. We always need helpers, especially at weekends. If you're interested, please speak to Mr Ford in the office, which is on the second floor, next to the library. Right, shall we start with the galleries? Please follow me."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What time does the centre close on Sundays?",
+    "options": [
+     "Nine o'clock",
+     "Five o'clock",
+     "Eleven o'clock",
+     "Six o'clock"
+    ],
+    "answer": 1,
+    "explain": "'every day, except Sundays, when it closes at five'."
+   },
+   {
+    "type": "gap",
+    "q": "The café serves breakfast until ____ o'clock.",
+    "answer": [
+     "11",
+     "eleven"
+    ],
+    "explain": "'serves breakfast until eleven'."
+   },
+   {
+    "type": "mcq",
+    "q": "What is the current photography exhibition about?",
+    "options": [
+     "Local schools",
+     "The local river",
+     "Children's paintings",
+     "Famous artists"
+    ],
+    "answer": 1,
+    "explain": "'a photography exhibition about the local river'; tranh thiếu nhi là triển lãm tháng 12."
+   },
+   {
+    "type": "gap",
+    "q": "The pottery studio has six new ____.",
+    "answer": [
+     "kilns",
+     "kiln"
+    ],
+    "explain": "'now has six new kilns'."
+   },
+   {
+    "type": "gap",
+    "q": "A taster session costs £____.",
+    "answer": [
+     "10",
+     "ten"
+    ],
+    "explain": "'book a taster session for ten pounds'."
+   },
+   {
+    "type": "mcq",
+    "q": "How many people does the theatre seat now?",
+    "options": [
+     "100",
+     "120",
+     "150",
+     "200"
+    ],
+    "answer": 1,
+    "explain": "Ban đầu thiết kế 150 chỗ, nhưng hiện 'seats a hundred and twenty' vì thêm chỗ cho xe lăn."
+   },
+   {
+    "type": "gap",
+    "q": "People who want to volunteer should speak to Mr ____.",
+    "answer": [
+     "Ford"
+    ],
+    "explain": "'please speak to Mr Ford in the office'."
+   }
+  ]
+ },
+ {
+  "id": "l-b1-04",
+  "level": "B1",
+  "title": "How to Use GreenWheels Bike Hire",
+  "part": 2,
+  "contextVi": "Bản ghi âm hướng dẫn cách sử dụng dịch vụ thuê xe đạp công cộng trong thành phố.",
+  "script": [
+   {
+    "speaker": "Announcer",
+    "gender": "m",
+    "text": "Welcome to GreenWheels, the city's bike-hire scheme. In this recording, we explain how to use our service. There are two hundred bikes available at forty stations across the city. To use the bikes, you first need to download the GreenWheels app. Registration takes about two minutes, and you'll need a credit or debit card. We ask for a deposit of twenty pounds, which is returned when you close your account."
+   },
+   {
+    "speaker": "Announcer",
+    "gender": "m",
+    "text": "Now, the prices. The first thirty minutes of every journey are free. After that, the charge is one pound for each additional thirty minutes. For longer trips, the day pass costs five pounds. Sorry, that's the old price. The day pass now costs six pounds, and it allows unlimited journeys of up to ninety minutes each. The weekly pass costs fifteen pounds."
+   },
+   {
+    "speaker": "Announcer",
+    "gender": "m",
+    "text": "To unlock a bike, scan the QR code on the handlebars with your phone. The bikes have built-in lights and a basket at the front. Helmets are not provided, but you can buy one for eight pounds at the information point in Central Station."
+   },
+   {
+    "speaker": "Announcer",
+    "gender": "m",
+    "text": "You can return a bike to any station. If the station is full, press the help button on the dock, and you will receive an extra fifteen minutes free. The most popular stations are at the railway station and the university, so they are often empty in the morning and full in the evening. To solve this, our vans move bikes between stations during the day, and you can check which stations have free bikes on the app map."
+   },
+   {
+    "speaker": "Announcer",
+    "gender": "m",
+    "text": "A few safety tips. Please use cycle lanes where possible, and remember that it is illegal to cycle on pavements. If a bike is damaged, press report in the app, lock the bike, and choose another one. For further help, call our customer service line, which is open from seven in the morning until ten at night."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "How many stations does the scheme have?",
+    "options": [
+     "Twenty",
+     "Forty",
+     "Two hundred",
+     "Four hundred"
+    ],
+    "answer": 1,
+    "explain": "'two hundred bikes available at forty stations'."
+   },
+   {
+    "type": "gap",
+    "q": "Users pay a deposit of £____.",
+    "answer": [
+     "20",
+     "twenty"
+    ],
+    "explain": "'a deposit of twenty pounds'."
+   },
+   {
+    "type": "gap",
+    "q": "The first ____ minutes of each journey are free.",
+    "answer": [
+     "30",
+     "thirty"
+    ],
+    "explain": "'The first thirty minutes of every journey are free.'"
+   },
+   {
+    "type": "gap",
+    "q": "The day pass costs £____ now.",
+    "answer": [
+     "6",
+     "six"
+    ],
+    "explain": "Người nói sửa: giá cũ là 5 bảng, 'now costs six pounds'."
+   },
+   {
+    "type": "mcq",
+    "q": "How do users unlock a bike?",
+    "options": [
+     "With a key card",
+     "By entering a code",
+     "By scanning a QR code",
+     "By calling customer service"
+    ],
+    "answer": 2,
+    "explain": "'scan the QR code on the handlebars'."
+   },
+   {
+    "type": "mcq",
+    "q": "Where can users buy a helmet?",
+    "options": [
+     "From any station",
+     "At Central Station",
+     "At the university",
+     "Online only"
+    ],
+    "answer": 1,
+    "explain": "'buy one for eight pounds at the information point in Central Station'."
+   },
+   {
+    "type": "gap",
+    "q": "If a station is full, press the ____ button.",
+    "answer": [
+     "help"
+    ],
+    "explain": "'press the help button on the dock'."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-01",
+  "level": "B2",
+  "title": "Planning a Survey on Student Sleep",
+  "part": 3,
+  "contextVi": "Hai sinh viên tâm lý học thảo luận với giảng viên về kế hoạch khảo sát thói quen ngủ của sinh viên năm nhất.",
+  "script": [
+   {
+    "speaker": "Dr Hughes",
+    "gender": "f",
+    "text": "Come in, both of you. So, you wanted to talk about your psychology project on student sleep."
+   },
+   {
+    "speaker": "Chloe",
+    "gender": "f",
+    "text": "Yes. We've decided to carry out a survey of first-year students, asking how many hours they sleep and how it affects their concentration."
+   },
+   {
+    "speaker": "Ravi",
+    "gender": "m",
+    "text": "We originally planned to interview about fifty people face to face, but we realised it would take far too long, so we're going to use an online questionnaire instead."
+   },
+   {
+    "speaker": "Dr Hughes",
+    "gender": "f",
+    "text": "That seems sensible. How many responses are you hoping to get?"
+   },
+   {
+    "speaker": "Chloe",
+    "gender": "f",
+    "text": "At least a hundred and twenty. Anything less wouldn't give us reliable results."
+   },
+   {
+    "speaker": "Dr Hughes",
+    "gender": "f",
+    "text": "Good. But be careful with the length. If the questionnaire is too long, people will give up halfway."
+   },
+   {
+    "speaker": "Ravi",
+    "gender": "m",
+    "text": "We've limited it to fifteen questions. We thought about adding questions on diet and exercise too, but Chloe thinks that would make the project too broad."
+   },
+   {
+    "speaker": "Chloe",
+    "gender": "f",
+    "text": "Right. We'll concentrate on sleep duration, bedtime and phone use."
+   },
+   {
+    "speaker": "Dr Hughes",
+    "gender": "f",
+    "text": "Sensible again. Now, how will you measure concentration? Self-reporting can be unreliable."
+   },
+   {
+    "speaker": "Ravi",
+    "gender": "m",
+    "text": "We thought of a short memory test at the end. Participants see twenty words for one minute, then write down as many as they can remember."
+   },
+   {
+    "speaker": "Dr Hughes",
+    "gender": "f",
+    "text": "That's a nice idea, but think about timing. If people do it late in the evening, when they're already tired, the results will be affected whatever their sleep was like."
+   },
+   {
+    "speaker": "Chloe",
+    "gender": "f",
+    "text": "Good point. We'll ask them to complete it in the morning, then."
+   },
+   {
+    "speaker": "Dr Hughes",
+    "gender": "f",
+    "text": "Also, think about ethics. You must include a consent statement at the start, and the responses have to be anonymous."
+   },
+   {
+    "speaker": "Ravi",
+    "gender": "m",
+    "text": "Yes, we'll make sure that no names are collected. For the analysis, Doctor Patel recommended a statistics program that's free to download, so we'll try that rather than a spreadsheet."
+   },
+   {
+    "speaker": "Dr Hughes",
+    "gender": "f",
+    "text": "Good. Now, the final report is due on the twelfth of December, but I'd like to see a draft of your method section by the end of October."
+   },
+   {
+    "speaker": "Chloe",
+    "gender": "f",
+    "text": "That's fine. And the presentation?"
+   },
+   {
+    "speaker": "Dr Hughes",
+    "gender": "f",
+    "text": "Ten minutes, with five minutes for questions. I suggest you include a graph showing hours of sleep against test score. It will make your argument much clearer."
+   },
+   {
+    "speaker": "Ravi",
+    "gender": "m",
+    "text": "We'll do that. Thank you very much."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "How did the students change their original plan?",
+    "options": [
+     "They decided to use an online questionnaire instead of interviews",
+     "They chose a different group of participants",
+     "They reduced the number of questions to ten",
+     "They moved the project to the second term"
+    ],
+    "answer": 0,
+    "explain": "Ban đầu định phỏng vấn trực tiếp khoảng 50 người, nhưng do tốn thời gian nên chuyển sang 'online questionnaire'."
+   },
+   {
+    "type": "gap",
+    "q": "The students hope to get at least ____ responses.",
+    "answer": [
+     "120",
+     "a hundred and twenty",
+     "one hundred and twenty",
+     "one hundred twenty"
+    ],
+    "explain": "'At least a hundred and twenty.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Why will they not include questions about diet and exercise?",
+    "options": [
+     "Participants will refuse to answer",
+     "It would make the project too broad",
+     "The tutor does not approve",
+     "They are not relevant to sleep"
+    ],
+    "answer": 1,
+    "explain": "Chloe cho rằng thêm câu hỏi về ăn uống sẽ khiến đề tài 'too broad'."
+   },
+   {
+    "type": "mcq",
+    "q": "How will they measure concentration?",
+    "options": [
+     "By asking participants to rate themselves",
+     "By watching participants in a classroom",
+     "By a short memory test",
+     "By checking exam results"
+    ],
+    "answer": 2,
+    "explain": "Ravi: 'a short memory test at the end'; Dr Hughes nói tự đánh giá thì không đáng tin."
+   },
+   {
+    "type": "mcq",
+    "q": "What does Dr Hughes advise about the timing of the test?",
+    "options": [
+     "It should be done late in the evening",
+     "It should be done in the morning",
+     "It should take place in a lecture",
+     "It should be repeated twice"
+    ],
+    "answer": 1,
+    "explain": "Làm vào buổi tối lúc mệt sẽ ảnh hưởng kết quả; Chloe: 'We'll ask them to complete it in the morning'."
+   },
+   {
+    "type": "gap",
+    "q": "The questionnaire must include a ____ statement at the start.",
+    "answer": [
+     "consent"
+    ],
+    "explain": "'You must include a consent statement at the start'."
+   },
+   {
+    "type": "gap",
+    "q": "A draft of the ____ section is due at the end of October.",
+    "answer": [
+     "method",
+     "methods"
+    ],
+    "explain": "'a draft of your method section by the end of October'."
+   },
+   {
+    "type": "mcq",
+    "q": "How long should the presentation be?",
+    "options": [
+     "Five minutes",
+     "Ten minutes",
+     "Fifteen minutes",
+     "Twenty minutes"
+    ],
+    "answer": 1,
+    "explain": "'Ten minutes, with five minutes for questions'."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-02",
+  "level": "B2",
+  "title": "A Marketing Plan for a Bookshop Café",
+  "part": 3,
+  "contextVi": "Hai sinh viên marketing trình bày với giảng viên kế hoạch thu hút khách cho một quán cà phê sách.",
+  "script": [
+   {
+    "speaker": "Mr Davies",
+    "gender": "m",
+    "text": "Right, let's go through your marketing project. You chose the bookshop café on Elm Street, didn't you?"
+   },
+   {
+    "speaker": "Hannah",
+    "gender": "f",
+    "text": "Yes. The owner told us that the main problem is that business is slow on weekday afternoons, so our target group is students."
+   },
+   {
+    "speaker": "Omar",
+    "gender": "m",
+    "text": "We visited three times last week and counted the customers. Between two and five o'clock, there were never more than eight people in the café, compared with over thirty at weekends."
+   },
+   {
+    "speaker": "Mr Davies",
+    "gender": "m",
+    "text": "That's useful evidence. What solutions are you proposing?"
+   },
+   {
+    "speaker": "Hannah",
+    "gender": "f",
+    "text": "Our first idea was a loyalty card, where you buy nine coffees and get the tenth free. But the owner said that a rival café nearby already does that, so we dropped it."
+   },
+   {
+    "speaker": "Omar",
+    "gender": "m",
+    "text": "Instead, we're proposing a study hour. Students who buy a drink can stay and use a quiet area with free Wi-Fi."
+   },
+   {
+    "speaker": "Mr Davies",
+    "gender": "m",
+    "text": "Hmm, there's a risk there. Students might occupy tables for hours after buying just one coffee."
+   },
+   {
+    "speaker": "Hannah",
+    "gender": "f",
+    "text": "We thought of that. We suggest a limit of three hours per drink, and the quiet area would be upstairs, which is hardly ever used."
+   },
+   {
+    "speaker": "Mr Davies",
+    "gender": "m",
+    "text": "Good. And how will you promote it?"
+   },
+   {
+    "speaker": "Omar",
+    "gender": "m",
+    "text": "We were going to print leaflets, but our survey of forty students showed that most of them would never read them. They said they follow local businesses on Instagram."
+   },
+   {
+    "speaker": "Hannah",
+    "gender": "f",
+    "text": "So we'll make a short video of the quiet area and post it online."
+   },
+   {
+    "speaker": "Mr Davies",
+    "gender": "m",
+    "text": "What about the budget?"
+   },
+   {
+    "speaker": "Omar",
+    "gender": "m",
+    "text": "The owner can spare two hundred pounds. The leaflets would have cost seventy, but now we'll use the money for coffee vouchers for the first week, and to pay a student to make the video."
+   },
+   {
+    "speaker": "Mr Davies",
+    "gender": "m",
+    "text": "Fine. How will you evaluate whether it works?"
+   },
+   {
+    "speaker": "Hannah",
+    "gender": "f",
+    "text": "We'll count the customers on weekday afternoons for four weeks and compare them with our first figures."
+   },
+   {
+    "speaker": "Mr Davies",
+    "gender": "m",
+    "text": "Be careful, though. Student numbers are strongly affected by exams. If your four weeks fall during the exam period, the results could be misleading."
+   },
+   {
+    "speaker": "Omar",
+    "gender": "m",
+    "text": "Then we'll start the trial in the third week of term, not at the end."
+   },
+   {
+    "speaker": "Mr Davies",
+    "gender": "m",
+    "text": "Excellent. One last thing. The written report should be two and a half thousand words, plus appendices."
+   },
+   {
+    "speaker": "Hannah",
+    "gender": "f",
+    "text": "Two and a half thousand. Thanks very much."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "On weekday afternoons, what was the maximum number of customers the students counted?",
+    "options": [
+     "Three",
+     "Eight",
+     "Thirty",
+     "Forty"
+    ],
+    "answer": 1,
+    "explain": "'never more than eight people' vào các buổi chiều trong tuần; hơn ba mươi là cuối tuần."
+   },
+   {
+    "type": "mcq",
+    "q": "Why did the students drop the loyalty card idea?",
+    "options": [
+     "It was too expensive",
+     "A rival café already uses it",
+     "Students did not like it",
+     "The owner refused to give free coffee"
+    ],
+    "answer": 1,
+    "explain": "'a rival café nearby already does that, so we dropped it'."
+   },
+   {
+    "type": "mcq",
+    "q": "What limit do they suggest for the study hour?",
+    "options": [
+     "One hour per drink",
+     "Two hours per drink",
+     "Three hours per drink",
+     "No limit"
+    ],
+    "answer": 2,
+    "explain": "'a limit of three hours per drink'."
+   },
+   {
+    "type": "gap",
+    "q": "The quiet area would be ____.",
+    "answer": [
+     "upstairs",
+     "on the first floor"
+    ],
+    "explain": "'the quiet area would be upstairs, which is hardly ever used'."
+   },
+   {
+    "type": "mcq",
+    "q": "How will they promote the study hour?",
+    "options": [
+     "With printed leaflets",
+     "With posters on campus",
+     "With a video posted online",
+     "With a radio advertisement"
+    ],
+    "answer": 2,
+    "explain": "Định in tờ rơi nhưng khảo sát cho thấy sinh viên không đọc; họ chọn làm video đăng online."
+   },
+   {
+    "type": "mcq",
+    "q": "How much money can the owner spare?",
+    "options": [
+     "£70",
+     "£100",
+     "£200",
+     "£250"
+    ],
+    "answer": 2,
+    "explain": "'The owner can spare two hundred pounds.' (70 là chi phí tờ rơi dự tính)."
+   },
+   {
+    "type": "mcq",
+    "q": "What problem does Mr Davies identify with the trial?",
+    "options": [
+     "Exams may affect the number of students",
+     "The café may be too small",
+     "The quiet area is too noisy",
+     "Instagram is not popular with students"
+    ],
+    "answer": 0,
+    "explain": "'Student numbers are strongly affected by exams ... the results could be misleading.'"
+   },
+   {
+    "type": "gap",
+    "q": "The written report should be ____ words.",
+    "answer": [
+     "2,500",
+     "2500",
+     "two and a half thousand",
+     "two thousand five hundred"
+    ],
+    "explain": "'two and a half thousand words, plus appendices'."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-03",
+  "level": "B2",
+  "title": "A Waste Audit of the Campus Canteen",
+  "part": 3,
+  "contextVi": "Hai sinh viên khoa học môi trường báo cáo kết quả kiểm kê rác ở căng-tin và bàn kế hoạch tiếp theo với giảng viên.",
+  "script": [
+   {
+    "speaker": "Dr Okafor",
+    "gender": "f",
+    "text": "So, James, Priya, your waste audit. Tell me where you are."
+   },
+   {
+    "speaker": "Priya",
+    "gender": "f",
+    "text": "We've finished the first stage. We weighed all the waste from the main canteen for five days, starting on the second of March."
+   },
+   {
+    "speaker": "James",
+    "gender": "m",
+    "text": "The total was about four hundred kilograms. Roughly a third of that was food waste, around forty percent was paper and cardboard, fifteen percent was plastic, and the rest was mixed waste."
+   },
+   {
+    "speaker": "Dr Okafor",
+    "gender": "f",
+    "text": "A third is lower than I'd expect. Canteen waste is usually closer to half food."
+   },
+   {
+    "speaker": "James",
+    "gender": "m",
+    "text": "We wondered about that. That week there was a field trip, so many students weren't on campus."
+   },
+   {
+    "speaker": "Dr Okafor",
+    "gender": "f",
+    "text": "Then your figures may not be typical. I'd repeat the measurement in a normal week, at least for food waste."
+   },
+   {
+    "speaker": "Priya",
+    "gender": "f",
+    "text": "Okay, we can do that. The real problem we noticed is the mixed waste. A lot of recyclable material goes into general bins, and when different types are mixed, the recycling company rejects the whole load."
+   },
+   {
+    "speaker": "Dr Okafor",
+    "gender": "f",
+    "text": "That's called contamination, and it's a common problem. Why do you think it happens?"
+   },
+   {
+    "speaker": "Priya",
+    "gender": "f",
+    "text": "We interviewed thirty students, and most of them weren't sure which bin to use. The labels are small and just use words."
+   },
+   {
+    "speaker": "James",
+    "gender": "m",
+    "text": "So we propose clearer signs with pictures, and colour coding for each bin. We also thought about a reusable cup scheme with a deposit of one pound."
+   },
+   {
+    "speaker": "Priya",
+    "gender": "f",
+    "text": "It's fifty pence in our proposal, remember? A pound would put students off."
+   },
+   {
+    "speaker": "James",
+    "gender": "m",
+    "text": "Right, fifty pence."
+   },
+   {
+    "speaker": "Dr Okafor",
+    "gender": "f",
+    "text": "The cup scheme is a good idea, but you only have a few weeks, so I'd concentrate on the signs. Could you test them on two floors of the building and count the contamination before and after?"
+   },
+   {
+    "speaker": "Priya",
+    "gender": "f",
+    "text": "We'd love to, but the facilities manager has to approve it first."
+   },
+   {
+    "speaker": "Dr Okafor",
+    "gender": "f",
+    "text": "Send her an email this week and copy me in. How do you plan to present the results?"
+   },
+   {
+    "speaker": "James",
+    "gender": "m",
+    "text": "A pie chart for the composition of the waste, and a bar chart comparing the before and after figures."
+   },
+   {
+    "speaker": "Dr Okafor",
+    "gender": "f",
+    "text": "Good. Remember the assessment is a poster presentation on the fourth of May, not a written report. Keep the text short."
+   },
+   {
+    "speaker": "Priya",
+    "gender": "f",
+    "text": "Understood. Thank you, Dr Okafor."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What fraction of the canteen waste was food?",
+    "options": [
+     "A quarter",
+     "A third",
+     "Half",
+     "Two thirds"
+    ],
+    "answer": 1,
+    "explain": "James: 'Roughly a third of that was food waste'. Tutor nhận xét là thấp hơn bình thường (khoảng một nửa)."
+   },
+   {
+    "type": "mcq",
+    "q": "Why does Dr Okafor suggest repeating the measurement?",
+    "options": [
+     "The scales were not accurate",
+     "The week may not have been typical because of a field trip",
+     "The students forgot to weigh the paper",
+     "The canteen was closed for two days"
+    ],
+    "answer": 1,
+    "explain": "Tuần đó có chuyến đi thực địa nên nhiều sinh viên vắng mặt, số liệu 'may not be typical'."
+   },
+   {
+    "type": "gap",
+    "q": "Paper and cardboard made up about ____ percent of the waste.",
+    "answer": [
+     "40",
+     "forty"
+    ],
+    "explain": "'around forty percent was paper and cardboard'."
+   },
+   {
+    "type": "mcq",
+    "q": "Why does the recycling company reject some loads?",
+    "options": [
+     "They are too heavy",
+     "Different types of waste are mixed together",
+     "They contain food only",
+     "They are delivered late"
+    ],
+    "answer": 1,
+    "explain": "'when different types are mixed, the recycling company rejects the whole load' - gọi là contamination."
+   },
+   {
+    "type": "gap",
+    "q": "Most students interviewed were not sure which ____ to use.",
+    "answer": [
+     "bin",
+     "bins"
+    ],
+    "explain": "'most of them weren't sure which bin to use'."
+   },
+   {
+    "type": "mcq",
+    "q": "What do the students propose to improve recycling?",
+    "options": [
+     "Fines for students",
+     "Clearer signs with pictures",
+     "Fewer bins",
+     "Longer opening hours"
+    ],
+    "answer": 1,
+    "explain": "'clearer signs with pictures, and colour coding for each bin'."
+   },
+   {
+    "type": "gap",
+    "q": "The reusable cup deposit in their proposal is ____ pence.",
+    "answer": [
+     "50",
+     "fifty"
+    ],
+    "explain": "James nói một bảng, Priya sửa: 'It's fifty pence in our proposal'."
+   },
+   {
+    "type": "gap",
+    "q": "The final assessment is a ____ presentation.",
+    "answer": [
+     "poster"
+    ],
+    "explain": "'the assessment is a poster presentation on the fourth of May'."
+   }
+  ]
+ },
+ {
+  "id": "l-b2-04",
+  "level": "B2",
+  "title": "Preparing a Seminar on the Silk Road",
+  "part": 3,
+  "contextVi": "Hai sinh viên lịch sử trao đổi với giảng viên về bài thuyết trình hội thảo về Con đường Tơ lụa.",
+  "script": [
+   {
+    "speaker": "Dr Mason",
+    "gender": "m",
+    "text": "Let's discuss your seminar presentation on the Silk Road. Have you decided on a focus?"
+   },
+   {
+    "speaker": "Leila",
+    "gender": "f",
+    "text": "We started with the idea of covering the whole route, from China to the Mediterranean, but that was far too broad. We've narrowed it down to the exchange of goods and ideas in Central Asia, especially in the city of Samarkand."
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "Samarkand was a real crossroads. We want to show that the Silk Road was about ideas as much as silk. Religion, technology, even paper-making."
+   },
+   {
+    "speaker": "Dr Mason",
+    "gender": "m",
+    "text": "Good. Paper is a lovely example. Chinese paper-making reached Samarkand in the eighth century, and from there it spread west to the Islamic world and eventually to Europe."
+   },
+   {
+    "speaker": "Leila",
+    "gender": "f",
+    "text": "We'd like to include that. We've also found a primary source, a translation of the diary of a Chinese monk who travelled through the region."
+   },
+   {
+    "speaker": "Dr Mason",
+    "gender": "m",
+    "text": "Excellent. But remember that travellers' accounts can be biased, so you should say who he was writing for."
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "Should we organise the talk chronologically, starting from the earliest trade?"
+   },
+   {
+    "speaker": "Dr Mason",
+    "gender": "m",
+    "text": "I'd suggest a thematic structure instead: trade goods, religion and technology. A chronological talk often turns into a list of dates."
+   },
+   {
+    "speaker": "Leila",
+    "gender": "f",
+    "text": "That makes sense. Three sections, then."
+   },
+   {
+    "speaker": "Dr Mason",
+    "gender": "m",
+    "text": "And make sure that your sources include at least two academic books, and not only websites."
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "We've got three books from the library, but one of them is a reference copy that we can't take out."
+   },
+   {
+    "speaker": "Dr Mason",
+    "gender": "m",
+    "text": "Then request an inter-library loan. It usually takes about a week, so do it today."
+   },
+   {
+    "speaker": "Leila",
+    "gender": "f",
+    "text": "We will. What about visual aids?"
+   },
+   {
+    "speaker": "Dr Mason",
+    "gender": "m",
+    "text": "Use a map to show the routes, but avoid long text on your slides. No more than six lines per slide."
+   },
+   {
+    "speaker": "Tom",
+    "gender": "m",
+    "text": "How long should the presentation be? And it's on the nineteenth of November, isn't it?"
+   },
+   {
+    "speaker": "Dr Mason",
+    "gender": "m",
+    "text": "Twenty minutes, followed by a short discussion. And actually, the seminar has been moved a week earlier, to the twelfth of November."
+   },
+   {
+    "speaker": "Leila",
+    "gender": "f",
+    "text": "The twelfth. Good thing we asked. Thank you."
+   }
+  ],
+  "questions": [
+   {
+    "type": "mcq",
+    "q": "What have the students decided to focus on?",
+    "options": [
+     "The whole Silk Road from China to the Mediterranean",
+     "The exchange of goods and ideas in Central Asia",
+     "The history of silk production",
+     "Chinese emperors"
+    ],
+    "answer": 1,
+    "explain": "Phạm vi toàn tuyến quá rộng nên họ thu hẹp về 'goods and ideas in Central Asia'."
+   },
+   {
+    "type": "gap",
+    "q": "Paper-making reached Samarkand in the ____ century.",
+    "answer": [
+     "eighth",
+     "8th"
+    ],
+    "explain": "Dr Mason: 'in the eighth century'."
+   },
+   {
+    "type": "mcq",
+    "q": "What primary source have they found?",
+    "options": [
+     "A merchant's letters",
+     "A map of the routes",
+     "A monk's diary",
+     "A government report"
+    ],
+    "answer": 2,
+    "explain": "'a translation of the diary of a Chinese monk'."
+   },
+   {
+    "type": "mcq",
+    "q": "What structure does Dr Mason recommend?",
+    "options": [
+     "Chronological",
+     "Thematic",
+     "Geographical",
+     "Alphabetical"
+    ],
+    "answer": 1,
+    "explain": "'I'd suggest a thematic structure instead: trade goods, religion and technology.'"
+   },
+   {
+    "type": "gap",
+    "q": "The sources must include at least two academic ____.",
+    "answer": [
+     "books"
+    ],
+    "explain": "'at least two academic books, and not only websites'."
+   },
+   {
+    "type": "mcq",
+    "q": "How long does an inter-library loan usually take?",
+    "options": [
+     "A day",
+     "About a week",
+     "About a month",
+     "Two months"
+    ],
+    "answer": 1,
+    "explain": "'It usually takes about a week'."
+   },
+   {
+    "type": "gap",
+    "q": "Slides should have no more than ____ lines.",
+    "answer": [
+     "6",
+     "six"
+    ],
+    "explain": "'No more than six lines per slide.'"
+   },
+   {
+    "type": "mcq",
+    "q": "When is the seminar?",
+    "options": [
+     "5 November",
+     "12 November",
+     "19 November",
+     "26 November"
+    ],
+    "answer": 1,
+    "explain": "Tom nhớ ngày 19, nhưng giảng viên cho biết đã dời sớm một tuần sang 'the twelfth of November'."
+   }
+  ]
+ },
+ {
+  "id": "l-c1-01",
+  "level": "C1",
+  "title": "Lecture: Urban Heat Islands",
+  "part": 4,
+  "contextVi": "Bài giảng đại học về hiện tượng đảo nhiệt đô thị, nguyên nhân, hậu quả và các giải pháp.",
+  "script": [
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "Good morning. Today I want to look at a phenomenon that affects most large cities: the urban heat island. This is the observation that the centre of a city is often several degrees warmer than the surrounding countryside, particularly at night. In a city of a million people, the difference in average annual temperature can be between one and three degrees Celsius, but on a calm, clear evening the gap can reach as much as twelve degrees."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "Why does this happen? There are three main causes. The first is the materials used in construction. Dark surfaces such as asphalt and roof tiles absorb a great deal of solar radiation during the day, and release it slowly after sunset, so cities cool down far less quickly than rural areas. The second cause is the loss of vegetation. Plants cool the air through a process called evapotranspiration, in which water evaporates from their leaves, and when plants are replaced by concrete, this natural air conditioning disappears. The third cause is waste heat. Vehicles, air conditioners and industry all release heat directly into the air. And we should add the geometry of cities. Tall buildings trap heat between them, and they block the winds that would otherwise carry it away."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "The consequences are more serious than simple discomfort. Heat waves are already the deadliest weather events in many countries, and the heat island effect makes them worse, especially at night, when the body would normally recover. Elderly people, and those living alone on the upper floors of poorly ventilated buildings, are most at risk. In addition, hotter cities use more electricity for cooling, and this creates a vicious circle. The extra energy often comes from fossil fuels, which add to global warming, and the air conditioners themselves expel more heat into the street."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "So, what can be done? Three strategies have been widely studied. The first is increasing reflectivity. Painting roofs white, or using light-coloured paving, can reduce surface temperatures significantly. The drawback is that in winter, reflective surfaces prevent buildings from absorbing useful warmth. In cities with long, hot summers, though, the balance is clearly positive."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "The second strategy is greening: planting trees, creating parks and installing green roofs. Trees offer both shade and evapotranspiration, and studies suggest that neighbourhoods with thirty percent tree cover can be up to four degrees cooler than those without. Green roofs, which are planted with grasses or other shallow-rooted plants, also absorb rainwater, which helps to reduce flooding. However, they are expensive to install and need maintenance, so they are more common on public buildings than on private homes."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "The third approach involves urban design. Planners can leave open corridors so that breezes can reach the city centre, and avoid dense blocks that trap heat. Some cities, such as Stuttgart in Germany, have mapped the routes of cold air flowing down from the surrounding hills, and they prohibit building along them. Whichever approach is chosen, research shows that the benefits are greatest when several methods are combined, and when they are targeted at the neighbourhoods that are hottest and poorest, since wealthier areas typically already have more trees."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "In next week's session, we'll look at how these strategies were evaluated in three case studies. Before that, please read the two articles on the course website."
+   }
+  ],
+  "questions": [
+   {
+    "type": "gap",
+    "q": "On a calm, clear evening, the temperature gap between city and countryside can reach as much as ____ degrees.",
+    "answer": [
+     "12",
+     "twelve"
+    ],
+    "explain": "'the gap can reach as much as twelve degrees' (chênh lệch trung bình năm chỉ 1-3 độ)."
+   },
+   {
+    "type": "gap",
+    "q": "Dark surfaces absorb solar radiation and release it ____ after sunset.",
+    "answer": [
+     "slowly"
+    ],
+    "explain": "'release it slowly after sunset'."
+   },
+   {
+    "type": "gap",
+    "q": "Plants cool the air by a process called ____.",
+    "answer": [
+     "evapotranspiration"
+    ],
+    "explain": "'a process called evapotranspiration'."
+   },
+   {
+    "type": "mcq",
+    "q": "Who is most at risk during heat waves?",
+    "options": [
+     "Young children in schools",
+     "Elderly people and people living alone on upper floors",
+     "Outdoor workers only",
+     "People living near parks"
+    ],
+    "answer": 1,
+    "explain": "'Elderly people, and those living alone on the upper floors of poorly ventilated buildings, are most at risk.'"
+   },
+   {
+    "type": "mcq",
+    "q": "What is the 'vicious circle' the lecturer describes?",
+    "options": [
+     "Hotter cities need more cooling, which produces more heat and emissions",
+     "Trees die because of heat, so cities get hotter",
+     "Heat waves cause more rain and floods",
+     "People move to cities because they are warmer"
+    ],
+    "answer": 0,
+    "explain": "Thành phố nóng hơn dùng nhiều điện làm mát, năng lượng hóa thạch thải thêm khí nhà kính và máy lạnh thải thêm nhiệt."
+   },
+   {
+    "type": "mcq",
+    "q": "What is a disadvantage of reflective roofs in winter?",
+    "options": [
+     "They are expensive to clean",
+     "They stop buildings absorbing useful warmth",
+     "They cause flooding",
+     "They attract insects"
+    ],
+    "answer": 1,
+    "explain": "'in winter, reflective surfaces prevent buildings from absorbing useful warmth'."
+   },
+   {
+    "type": "gap",
+    "q": "Green roofs also absorb rainwater, which helps to reduce ____.",
+    "answer": [
+     "flooding",
+     "floods"
+    ],
+    "explain": "'absorb rainwater, which helps to reduce flooding'."
+   },
+   {
+    "type": "mcq",
+    "q": "What does the lecturer say about Stuttgart?",
+    "options": [
+     "It has the most green roofs in Europe",
+     "It bans building along routes of cold air",
+     "It painted all its roofs white",
+     "It has no heat island effect"
+    ],
+    "answer": 1,
+    "explain": "Stuttgart 'prohibit building along them' - các tuyến gió lạnh từ đồi."
+   }
+  ]
+ },
+ {
+  "id": "l-c1-02",
+  "level": "C1",
+  "title": "Lecture: The Psychology of Habit",
+  "part": 4,
+  "contextVi": "Bài giảng về cách thói quen hình thành trong não bộ và những chiến lược xây dựng hoặc bỏ thói quen.",
+  "script": [
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "Welcome to today's lecture on the psychology of habit. Let me begin with a statistic. Researchers at Duke University estimated that around forty percent of our daily actions are performed not because we have consciously decided to do them, but out of habit. We brush our teeth, drive to work and reach for our phones, often without any conscious thought at all."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "So what is a habit? It's a behaviour that is triggered automatically by a context. Neuroscientists have located habit in a group of structures deep in the brain called the basal ganglia. When a behaviour is new, the prefrontal cortex is heavily involved, and the task demands effort and attention. As the behaviour is repeated, control passes to the basal ganglia, which frees the prefrontal cortex for other tasks. This explains why an experienced driver can hold a conversation while changing gear."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "The most influential model describes a habit loop with three components: a cue, a routine and a reward. The cue might be a time of day, a place, an emotion, or the presence of particular people. The routine is the behaviour itself. The reward is the benefit that reinforces the loop, so that next time the cue appears, the craving for the reward starts before the behaviour does. Take the example of afternoon snacking. The cue might be a drop in energy at three o'clock, and the routine is walking to the vending machine. But the reward might not be the food at all. It might be a short break and a chat with colleagues. This matters, because if you want to change a habit, you must identify the real reward."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "How long does it take to form a habit? You'll often hear that it takes twenty-one days. That number has no scientific basis. It comes from an observation made by a plastic surgeon in the nineteen sixties, about how long his patients took to get used to their new appearance. A study at University College London asked participants to adopt a simple new behaviour, such as drinking a glass of water after breakfast. The average time before the behaviour became automatic was sixty-six days, but the range was enormous, from eighteen days to two hundred and fifty-four. More complicated behaviours, such as doing fifty sit-ups, took longer than simple ones. Interestingly, missing a single day did not seriously damage the process."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "Based on this research, three strategies are particularly effective. First, make the new behaviour small. Rather than aiming to run five kilometres, start by simply putting on your running shoes. Second, attach the new behaviour to an existing cue, for example: after I pour my morning coffee, I will write one sentence in my journal. Third, change the environment. If you want to eat fewer biscuits, don't rely on willpower alone; put them in a cupboard that's hard to reach. Studies in cafeterias show that simply moving healthy food to eye level significantly increases the number of people who choose it."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "Breaking bad habits is harder, because the link between cue and routine remains in the brain even after we stop. That's why relapses are common during periods of stress, when the prefrontal cortex is less effective. The most successful approach is usually replacement rather than suppression. Keep the cue and the reward, but swap the routine. A smoker who always had a cigarette during a work break might go for a short walk instead."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "For next week's seminar, please bring one habit you would like to change, and try to analyse its cue and its reward. That's all for today."
+   }
+  ],
+  "questions": [
+   {
+    "type": "gap",
+    "q": "Around ____ percent of daily actions are performed out of habit.",
+    "answer": [
+     "40",
+     "forty"
+    ],
+    "explain": "'around forty percent of our daily actions are performed ... out of habit'."
+   },
+   {
+    "type": "gap",
+    "q": "As a behaviour is repeated, control passes from the prefrontal cortex to the ____.",
+    "answer": [
+     "basal ganglia"
+    ],
+    "explain": "'control passes to the basal ganglia'."
+   },
+   {
+    "type": "mcq",
+    "q": "In the snacking example, what might the real reward be?",
+    "options": [
+     "The taste of the food",
+     "A short break and a chat with colleagues",
+     "Saving money",
+     "Feeling less hungry"
+    ],
+    "answer": 1,
+    "explain": "'the reward might not be the food at all. It might be a short break and a chat with colleagues.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Where does the idea that habits take twenty-one days come from?",
+    "options": [
+     "A study at University College London",
+     "A neuroscience experiment",
+     "An observation by a plastic surgeon",
+     "A university textbook"
+    ],
+    "answer": 2,
+    "explain": "Con số 21 ngày 'has no scientific basis' - bắt nguồn từ quan sát của một bác sĩ phẫu thuật thẩm mỹ."
+   },
+   {
+    "type": "gap",
+    "q": "In the University College London study, it took an average of ____ days for the behaviour to become automatic.",
+    "answer": [
+     "66",
+     "sixty-six",
+     "sixty six"
+    ],
+    "explain": "'The average time ... was sixty-six days' (khoảng 18-254 ngày)."
+   },
+   {
+    "type": "mcq",
+    "q": "What did the study find about missing a single day?",
+    "options": [
+     "It restarted the process",
+     "It did not seriously damage the process",
+     "It made the habit stronger",
+     "It was not tested"
+    ],
+    "answer": 1,
+    "explain": "'missing a single day did not seriously damage the process'."
+   },
+   {
+    "type": "gap",
+    "q": "Moving healthy food to ____ level increases the number of people who choose it.",
+    "answer": [
+     "eye"
+    ],
+    "explain": "'moving healthy food to eye level'."
+   },
+   {
+    "type": "mcq",
+    "q": "What does the lecturer recommend for breaking a bad habit?",
+    "options": [
+     "Removing the cue completely",
+     "Relying on willpower",
+     "Replacing the routine while keeping the cue and reward",
+     "Waiting until stress ends"
+    ],
+    "answer": 2,
+    "explain": "'replacement rather than suppression. Keep the cue and the reward, but swap the routine.'"
+   }
+  ]
+ },
+ {
+  "id": "l-c1-03",
+  "level": "C1",
+  "title": "Lecture: The Decline of Pollinators",
+  "part": 4,
+  "contextVi": "Bài giảng về vai trò của côn trùng thụ phấn, nguyên nhân suy giảm và các giải pháp.",
+  "script": [
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "Today's lecture is about pollinators, and why their decline has attracted so much attention from scientists, farmers and governments. Roughly three quarters of the world's major food crops depend, at least in part, on animal pollination, and the annual value of this service has been estimated in the hundreds of billions of dollars. Pollinators include bees, but also hoverflies, butterflies, moths and beetles, and in some regions even bats and birds."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "Bees themselves are far more diverse than most people realise. Of around twenty thousand species worldwide, only a handful, including the western honey bee, live in large colonies and are managed by beekeepers. The vast majority are solitary bees, in which each female builds her own nest, often in bare soil or in hollow stems. Many wild bees are more efficient pollinators than honey bees. For instance, bumblebees can perform what's called buzz pollination. By vibrating their flight muscles, they shake pollen out of flowers such as tomatoes and blueberries, something honey bees cannot do."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "Evidence for decline is strongest in Europe and North America. A study in Germany found that the total mass of flying insects in protected areas fell by more than seventy percent over twenty-seven years. In the United Kingdom, several species of bumblebee have disappeared from large parts of their former range. Honey bees are a more complicated case. The global number of managed hives has actually risen, but beekeepers in some countries report high winter losses."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "What is causing the decline? Researchers talk about a combination of pressures. The first, and probably the most important, is habitat loss. Intensive farming has removed hedgerows and meadows, leaving bees with fewer flowers and fewer nesting sites. The second is pesticides. Neonicotinoids, a class of insecticide, do not usually kill bees directly at normal doses, but studies indicate that they impair navigation and reduce reproduction. The European Union restricted the outdoor use of three of these chemicals in two thousand and thirteen, and later extended the ban. The third pressure is disease and parasites, notably the varroa mite, which feeds on honey bees and spreads viruses. And finally, climate change is disrupting timing. Flowers may bloom earlier than the bees emerge, a problem known as phenological mismatch."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "Crucially, these pressures interact. A colony weakened by poor nutrition is less able to resist parasites, and a bee exposed to a small dose of pesticide is more likely to get lost on a flight. That's why studying one factor in isolation can be misleading."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "What about solutions? At the farm level, sowing strips of wildflowers along field edges has proved effective in several experiments. In cities, rooftop gardens, parks and even road verges can provide food, if gardeners choose a variety of flowers that bloom throughout the season, rather than showy hybrids that produce little nectar. And policy matters too: reducing pesticide use, and paying farmers for conservation."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "f",
+    "text": "One word of caution about a popular response, which is to keep honey bees in the city. Setting up hives may be good for honey production, but if too many hives compete for the same flowers, they can reduce the food available to wild bees. So, in many cases, planting flowers is more useful than keeping hives."
+   }
+  ],
+  "questions": [
+   {
+    "type": "gap",
+    "q": "Roughly ____ of the world's major food crops depend at least partly on animal pollination.",
+    "answer": [
+     "three quarters",
+     "three-quarters",
+     "75%",
+     "75 percent",
+     "seventy-five percent"
+    ],
+    "explain": "'Roughly three quarters of the world's major food crops depend ... on animal pollination'."
+   },
+   {
+    "type": "gap",
+    "q": "Most bees are solitary, and the female builds a nest, often in bare ____.",
+    "answer": [
+     "soil",
+     "ground"
+    ],
+    "explain": "'often in bare soil or in hollow stems'."
+   },
+   {
+    "type": "mcq",
+    "q": "What is buzz pollination?",
+    "options": [
+     "Bees communicating by sound",
+     "Bees shaking pollen out of flowers by vibrating their muscles",
+     "Bees pollinating at night",
+     "Bees carrying pollen on their legs"
+    ],
+    "answer": 1,
+    "explain": "'By vibrating their flight muscles, they shake pollen out of flowers'; ong mật không làm được."
+   },
+   {
+    "type": "mcq",
+    "q": "What did the German study find?",
+    "options": [
+     "Honey bee numbers doubled",
+     "Flying insect mass fell by more than seventy percent",
+     "Bumblebees disappeared completely",
+     "Insects moved to cities"
+    ],
+    "answer": 1,
+    "explain": "'the total mass of flying insects in protected areas fell by more than seventy percent over twenty-seven years'."
+   },
+   {
+    "type": "gap",
+    "q": "Neonicotinoids impair bees' ____ and reduce reproduction.",
+    "answer": [
+     "navigation"
+    ],
+    "explain": "'they impair navigation and reduce reproduction'."
+   },
+   {
+    "type": "gap",
+    "q": "The varroa ____ feeds on honey bees and spreads viruses.",
+    "answer": [
+     "mite"
+    ],
+    "explain": "'the varroa mite, which feeds on honey bees and spreads viruses'."
+   },
+   {
+    "type": "mcq",
+    "q": "What is a 'phenological mismatch'?",
+    "options": [
+     "Bees and flowers living in different regions",
+     "Flowers blooming before the bees emerge",
+     "Bees preferring hybrid flowers",
+     "Pesticides arriving too late"
+    ],
+    "answer": 1,
+    "explain": "'Flowers may bloom earlier than the bees emerge, a problem known as phenological mismatch.'"
+   },
+   {
+    "type": "mcq",
+    "q": "Why does the lecturer warn against keeping many honey bee hives in cities?",
+    "options": [
+     "Honey bees spread diseases to humans",
+     "They may compete with wild bees for flowers",
+     "The honey is of poor quality",
+     "Hives are too expensive"
+    ],
+    "answer": 1,
+    "explain": "'if too many hives compete for the same flowers, they can reduce the food available to wild bees'."
+   }
+  ]
+ },
+ {
+  "id": "l-c1-04",
+  "level": "C1",
+  "title": "Lecture: The Printing Press Revolution",
+  "part": 4,
+  "contextVi": "Bài giảng lịch sử về sự ra đời của máy in và các tranh luận về tác động của nó tới châu Âu.",
+  "script": [
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "In today's lecture, I'd like to examine the invention of the printing press in the fifteenth century, and to ask a question that historians continue to debate: was it a revolution, or a gradual evolution? Let's begin with what existed before. In medieval Europe, books were copied by hand, mostly by monks in monasteries, and a single Bible might take a scribe more than a year to complete. Books were therefore very expensive. A university might own only a few hundred, and many were chained to desks."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "Printing with movable type was not new in itself. It had been used in China and Korea centuries earlier, and the earliest surviving book printed with metal type is a Korean Buddhist text from thirteen seventy-seven. What Johannes Gutenberg, working in Mainz around fourteen fifty, contributed was a combination of technologies: a metal alloy that could be cast into durable, identical letters, an oil-based ink that adhered to metal, and a press adapted from those used for making wine. Why did it succeed in Europe? Partly because the alphabet has few characters, so it's practical to cast a full set of letters, whereas Chinese writing needs thousands of different characters."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "The speed at which printing spread was remarkable. By fifteen hundred, presses had been set up in more than two hundred cities, and some historians estimate that between ten and twenty million books had been printed. The price of books fell dramatically, by about two thirds in the first fifty years."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "What were the consequences? The most obvious is the spread of ideas. Martin Luther's ninety-five theses of fifteen seventeen spread across Germany in a matter of weeks, and his pamphlets sold in hundreds of thousands, helping to transform a theological dispute into the Reformation. In science, printing allowed researchers to share and compare data accurately. Copernicus's work, and later Vesalius's anatomical illustrations, could be reproduced consistently, something impossible when each copyist introduced new errors. The historian Elizabeth Eisenstein argued, in nineteen seventy-nine, that this fixity of text was the foundation of modern science."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "But there are other views. Some scholars argue that Eisenstein exaggerates. Early printed books also contained errors, and censorship appeared quickly. The Church published a list of prohibited books in the sixteenth century. Moreover, literacy rates increased only slowly. In fifteen hundred, probably no more than ten percent of adults in Europe could read. Printing, these critics say, strengthened trends that were already under way, rather than creating them. And there's an economic dimension. Printers were businessmen who published what would sell, which meant popular works such as almanacs, romances and religious tracts, as well as scholarly texts in Latin."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "Gutenberg himself, incidentally, did not prosper. He borrowed heavily to finance his Bible project, lost a lawsuit to his financial partner, and had to hand over his equipment. Nobody knows exactly how many copies of his Bible were printed. The usual estimate is about one hundred and eighty, of which forty-nine survive in whole or in part."
+   },
+   {
+    "speaker": "Lecturer",
+    "gender": "m",
+    "text": "Next week, we'll look at some interesting parallels between the printing press and the arrival of the internet. Please read the chapter on information technology before then."
+   }
+  ],
+  "questions": [
+   {
+    "type": "gap",
+    "q": "Copying a single Bible by hand might take a scribe more than a ____.",
+    "answer": [
+     "year"
+    ],
+    "explain": "'a single Bible might take a scribe more than a year to complete'."
+   },
+   {
+    "type": "gap",
+    "q": "The earliest surviving book printed with metal type is a Korean text from ____.",
+    "answer": [
+     "1377"
+    ],
+    "explain": "'a Korean Buddhist text from thirteen seventy-seven'."
+   },
+   {
+    "type": "mcq",
+    "q": "What did Gutenberg contribute?",
+    "options": [
+     "The invention of movable type",
+     "A combination of technologies",
+     "The first alphabet",
+     "The first library"
+    ],
+    "answer": 1,
+    "explain": "In movable type đã có ở Trung Quốc và Hàn Quốc; Gutenberg đóng góp 'a combination of technologies'."
+   },
+   {
+    "type": "mcq",
+    "q": "Why was printing practical in Europe?",
+    "options": [
+     "Paper was cheaper there",
+     "The alphabet has few characters",
+     "Monks supported it",
+     "Wine presses were common everywhere"
+    ],
+    "answer": 1,
+    "explain": "'the alphabet has few characters, so it's practical to cast a full set of letters'."
+   },
+   {
+    "type": "gap",
+    "q": "By 1500, printing presses had been set up in more than ____ cities.",
+    "answer": [
+     "200",
+     "two hundred"
+    ],
+    "explain": "'in more than two hundred cities'."
+   },
+   {
+    "type": "mcq",
+    "q": "What was Eisenstein's argument?",
+    "options": [
+     "Printing had little effect on society",
+     "The fixity of printed text was the foundation of modern science",
+     "Printing caused the Reformation alone",
+     "Early books were free of errors"
+    ],
+    "answer": 1,
+    "explain": "'this fixity of text was the foundation of modern science'."
+   },
+   {
+    "type": "mcq",
+    "q": "What do critics of Eisenstein say?",
+    "options": [
+     "Printing created entirely new trends",
+     "Printing strengthened trends that were already under way",
+     "Literacy rose very quickly",
+     "The Church encouraged all printing"
+    ],
+    "answer": 1,
+    "explain": "'Printing ... strengthened trends that were already under way, rather than creating them.'"
+   },
+   {
+    "type": "gap",
+    "q": "In 1500, probably no more than ____ percent of adults in Europe could read.",
+    "answer": [
+     "10",
+     "ten"
+    ],
+    "explain": "'no more than ten percent of adults in Europe could read'."
+   }
+  ]
+ }
+]

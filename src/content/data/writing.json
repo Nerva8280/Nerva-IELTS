@@ -1,0 +1,1658 @@
+[
+  {
+    "id": "w0-01",
+    "level": "A2",
+    "task": 2,
+    "title": "School uniforms",
+    "prompt": "Some people think students should wear a uniform at school. Do you agree or disagree?\n\nWrite about 120 words. Give reasons and examples.",
+    "tipsVi": [
+      "Bài nền tảng: chỉ cần 3 đoạn ngắn - mở bài (nêu ý kiến), thân bài (2 lý do), kết bài.",
+      "Dùng câu đơn giản và đúng ngữ pháp. Đừng cố viết câu dài nếu chưa chắc chắn.",
+      "Mỗi lý do cần một ví dụ ngắn: 'For example, ...'.",
+      "Nêu ý kiến rõ ràng ngay câu đầu: 'I agree' hoặc 'I disagree'.",
+      "Viết xong hãy kiểm tra: chia động từ, s/es ở danh từ số nhiều, dấu chấm cuối câu."
+    ],
+    "outline": [
+      "Introduction: Say clearly that you agree with school uniforms.",
+      "Reason 1: Uniforms make all students equal, so no one feels poor or different.",
+      "Reason 2: Uniforms save time and money for parents and students every morning.",
+      "Conclusion: Repeat your opinion in a different way."
+    ],
+    "modelAnswer": "I agree that students should wear a uniform at school. I have two main reasons.\n\nFirst, a uniform makes all students look the same. Some families are rich and some are poor, but in a uniform nobody feels different. For example, a student cannot laugh at another student because of expensive shoes or clothes. This helps children feel equal and happy at school.\n\nSecond, uniforms save time and money. Every morning, students do not need to think about what to wear. Parents also do not need to buy many fashionable clothes. One or two uniforms are enough for the whole school year, and they are usually cheap.\n\nIn conclusion, I think school uniforms are a good idea because they make students equal and help families save time and money.",
+    "band": 5.5,
+    "usefulPhrases": [
+      {
+        "en": "I agree that...",
+        "vi": "Tôi đồng ý rằng..."
+      },
+      {
+        "en": "I have two main reasons.",
+        "vi": "Tôi có hai lý do chính."
+      },
+      {
+        "en": "First, ... Second, ...",
+        "vi": "Thứ nhất, ... Thứ hai, ..."
+      },
+      {
+        "en": "For example, ...",
+        "vi": "Ví dụ, ..."
+      },
+      {
+        "en": "This helps students feel...",
+        "vi": "Điều này giúp học sinh cảm thấy..."
+      },
+      {
+        "en": "save time and money",
+        "vi": "tiết kiệm thời gian và tiền bạc"
+      },
+      {
+        "en": "In conclusion, I think...",
+        "vi": "Tóm lại, tôi nghĩ rằng..."
+      }
+    ]
+  },
+  {
+    "id": "w0-02",
+    "level": "A2",
+    "task": 2,
+    "title": "Big city or small town",
+    "prompt": "Some people like living in a big city. Other people like living in a small town. Which do you prefer? Why?\n\nWrite about 120 words. Give reasons and examples.",
+    "tipsVi": [
+      "Chọn một bên rõ ràng (thành phố lớn HOẶC thị trấn nhỏ). Đừng viết 'cả hai đều tốt' ở bài nền tảng.",
+      "Dùng từ nối đơn giản: First, Second, Also, However, In conclusion.",
+      "Dùng tính từ cụ thể: noisy, crowded, quiet, safe, expensive, convenient.",
+      "Mỗi đoạn thân bài chỉ cần 1 ý chính + 1 ví dụ từ cuộc sống của bạn.",
+      "Giữ thì hiện tại đơn khi nói về sự thật chung (A city has...)."
+    ],
+    "outline": [
+      "Introduction: Say you prefer a small town.",
+      "Reason 1: Small towns are quiet and safe, with less traffic and noise.",
+      "Reason 2: Life is cheaper and people know each other.",
+      "Conclusion: Mention that a big city has jobs, but you still prefer a small town."
+    ],
+    "modelAnswer": "Some people enjoy big cities, but I prefer living in a small town.\n\nThe first reason is that a small town is quiet and safe. In a big city, there are many cars and a lot of noise. In my town, the streets are calm, and children can play outside. I feel relaxed there.\n\nThe second reason is that life in a small town is cheaper. Houses and food cost less, so people can save more money. Also, neighbours know each other well. They often help each other when there is a problem. In a big city, many people do not even know their neighbours.\n\nA big city has more jobs and shops, and that is a good point. However, for me, a peaceful and friendly life is more important.\n\nIn conclusion, I prefer a small town because it is quiet, cheap and friendly.",
+    "band": 5.5,
+    "usefulPhrases": [
+      {
+        "en": "I prefer living in...",
+        "vi": "Tôi thích sống ở... hơn"
+      },
+      {
+        "en": "The first reason is that...",
+        "vi": "Lý do thứ nhất là..."
+      },
+      {
+        "en": "a lot of noise",
+        "vi": "rất nhiều tiếng ồn"
+      },
+      {
+        "en": "cost less",
+        "vi": "tốn ít tiền hơn"
+      },
+      {
+        "en": "However, ...",
+        "vi": "Tuy nhiên, ..."
+      },
+      {
+        "en": "peaceful and friendly",
+        "vi": "yên bình và thân thiện"
+      },
+      {
+        "en": "that is a good point",
+        "vi": "đó là một điểm tốt"
+      }
+    ]
+  },
+  {
+    "id": "w0-03",
+    "level": "B1",
+    "task": 2,
+    "title": "Mobile phones every day",
+    "prompt": "Many people use mobile phones every day. Do you think this is a good thing or a bad thing?\n\nWrite about 120 words. Give reasons and examples.",
+    "tipsVi": [
+      "Với câu hỏi 'good or bad', bạn có thể nghiêng về một phía và thừa nhận một ý nhỏ của phía kia.",
+      "Dùng cấu trúc 'Although ..., ...' để thể hiện ý đối lập một cách đơn giản.",
+      "Đưa ví dụ cụ thể: video call với gia đình, tìm đường bằng bản đồ, ngủ muộn vì lướt điện thoại.",
+      "Tránh từ quá chung chung như 'thing' hay 'good/bad' lặp lại nhiều lần; hãy dùng useful, convenient, harmful, addicted.",
+      "Nhớ kết luận lại ý kiến chính, không thêm ý mới."
+    ],
+    "outline": [
+      "Introduction: Mobile phones are common; you think they are mostly good.",
+      "Good points: easy communication and useful apps (maps, learning, banking).",
+      "Bad points: too much screen time, problems with sleep and face-to-face talking.",
+      "Conclusion: Phones are good if people use them in a balanced way."
+    ],
+    "modelAnswer": "Nowadays, almost everyone uses a mobile phone every day. In my opinion, this is mostly a good thing, although there are some problems.\n\nPhones make our lives easier. We can call or video chat with family who live far away. We can also use apps to find directions, pay bills and learn English. For example, I study vocabulary on my phone while I travel to work by bus.\n\nHowever, some people spend too much time on their phones. They look at the screen late at night, so they sleep badly and feel tired the next day. Others do not talk to the people around them, even during meals.\n\nIn conclusion, mobile phones are a useful tool. They are good for us if we use them in a balanced way and put them away at important times.",
+    "band": 5.5,
+    "usefulPhrases": [
+      {
+        "en": "Nowadays, almost everyone...",
+        "vi": "Ngày nay, hầu như ai cũng..."
+      },
+      {
+        "en": "In my opinion, ...",
+        "vi": "Theo ý kiến của tôi, ..."
+      },
+      {
+        "en": "Although there are some problems",
+        "vi": "Mặc dù có một vài vấn đề"
+      },
+      {
+        "en": "make our lives easier",
+        "vi": "làm cuộc sống dễ dàng hơn"
+      },
+      {
+        "en": "spend too much time on...",
+        "vi": "dành quá nhiều thời gian cho..."
+      },
+      {
+        "en": "in a balanced way",
+        "vi": "một cách cân bằng"
+      },
+      {
+        "en": "a useful tool",
+        "vi": "một công cụ hữu ích"
+      }
+    ]
+  },
+  {
+    "id": "w0-04",
+    "level": "B1",
+    "task": 2,
+    "title": "Children and housework",
+    "prompt": "Some people say that children should help with housework at home. Do you agree or disagree?\n\nWrite about 120 words. Give reasons and examples.",
+    "tipsVi": [
+      "Dùng 'should' để nói về điều nên làm: Children should help...",
+      "Gợi ý ý tưởng: dạy trách nhiệm, học kỹ năng sống, giúp cha mẹ đỡ mệt.",
+      "Thêm một điều kiện nhỏ (ví dụ: việc nhà không được quá nhiều để không ảnh hưởng việc học) sẽ làm bài tự nhiên hơn.",
+      "Dùng 'because', 'so', 'which means' để nối ý nguyên nhân - kết quả.",
+      "Giữ mỗi đoạn 2-4 câu, không viết một đoạn quá dài."
+    ],
+    "outline": [
+      "Introduction: Agree that children should do housework.",
+      "Reason 1: It teaches responsibility and life skills (cooking, cleaning).",
+      "Reason 2: It helps busy parents and brings the family closer.",
+      "Conclusion: Housework should be light, so children still have time to study and play."
+    ],
+    "modelAnswer": "I strongly agree that children should help with housework at home.\n\nFirstly, housework teaches children to be responsible. When a child washes the dishes or cleans his room, he learns that everyone in the family has a duty. These tasks also give children useful life skills, such as cooking and washing clothes. This is important because one day they will live on their own.\n\nSecondly, helping at home is good for parents. Many parents work all day and feel tired in the evening. If children share the work, parents have more time to rest. Doing housework together can also bring the family closer, because they talk and laugh while they work.\n\nOf course, children also need time to study and play, so the tasks should be small and easy.\n\nTo sum up, I believe light housework is good for children and for the whole family.",
+    "band": 5.5,
+    "usefulPhrases": [
+      {
+        "en": "I strongly agree that...",
+        "vi": "Tôi hoàn toàn đồng ý rằng..."
+      },
+      {
+        "en": "learn useful life skills",
+        "vi": "học các kỹ năng sống hữu ích"
+      },
+      {
+        "en": "be responsible",
+        "vi": "có trách nhiệm"
+      },
+      {
+        "en": "share the work",
+        "vi": "chia sẻ công việc"
+      },
+      {
+        "en": "bring the family closer",
+        "vi": "gắn kết gia đình hơn"
+      },
+      {
+        "en": "Of course, ...",
+        "vi": "Tất nhiên, ..."
+      },
+      {
+        "en": "To sum up, ...",
+        "vi": "Tóm lại, ..."
+      }
+    ]
+  },
+  {
+    "id": "w1-01",
+    "level": "B1",
+    "task": 1,
+    "title": "Smartphone ownership in three countries (line graph)",
+    "prompt": "The line graph shows the percentage of adults who owned a smartphone in three countries between 2010 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Percentage of adults owning a smartphone, 2010-2020",
+      "headers": [
+        "Year",
+        "Country A",
+        "Country B",
+        "Country C"
+      ],
+      "rows": [
+        [
+          2010,
+          10,
+          5,
+          20
+        ],
+        [
+          2012,
+          25,
+          12,
+          30
+        ],
+        [
+          2014,
+          45,
+          25,
+          38
+        ],
+        [
+          2016,
+          62,
+          40,
+          45
+        ],
+        [
+          2018,
+          76,
+          58,
+          50
+        ],
+        [
+          2020,
+          85,
+          72,
+          53
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Mở bài: paraphrase đề (shows -> illustrates/compares; percentage of adults who owned -> proportion of adults with).",
+      "Đoạn Overview (2 câu) bắt buộc: nêu xu hướng chung (tất cả đều tăng) và điểm nổi bật nhất (A cao nhất, C tăng chậm nhất).",
+      "Với line graph, dùng động từ xu hướng: rise, climb, increase steadily, level off, grow slightly.",
+      "Đưa số liệu đầu kỳ và cuối kỳ cho mỗi đường; không cần kể mọi điểm.",
+      "Không đưa ý kiến cá nhân hay lý do (vì sao tăng) - chỉ mô tả dữ liệu."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase the question.",
+      "Paragraph 2 (Overview): All three countries rose; A ended highest, C grew slowest.",
+      "Paragraph 3: Country A and Country B - starting and ending figures, speed of growth, B overtaking C.",
+      "Paragraph 4: Country C - highest in 2010, then slow growth and levelling off at about 53%."
+    ],
+    "modelAnswer": "The line graph compares the proportion of adults who owned a smartphone in three countries from 2010 to 2020.\n\nOverall, smartphone ownership rose in all three countries over the decade. Country A had the highest figure by the end of the period, while Country C showed the slowest growth.\n\nIn 2010, only 10% of adults in Country A and 5% in Country B had a smartphone. Both countries then experienced rapid growth. Ownership in Country A climbed steadily to 62% in 2016 and reached 85% in 2020. Country B grew a little more slowly at first, but it rose sharply after 2014, reaching 72% by the end of the period. As a result, Country B overtook Country C in about 2017.\n\nCountry C started from a much higher point, at 20% in 2010, and it was the leader among the three countries until 2012. However, its growth was much weaker. The figure rose to 45% in 2016 and then levelled off, ending at only 53% in 2020, which was far below the figures for the other two countries.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "The line graph compares...",
+        "vi": "Biểu đồ đường so sánh..."
+      },
+      {
+        "en": "Overall, ... rose in all three countries",
+        "vi": "Nhìn chung, ... tăng ở cả ba quốc gia"
+      },
+      {
+        "en": "climb steadily to",
+        "vi": "tăng đều đặn lên"
+      },
+      {
+        "en": "rise sharply",
+        "vi": "tăng mạnh"
+      },
+      {
+        "en": "level off at",
+        "vi": "đi ngang/chững lại ở mức"
+      },
+      {
+        "en": "overtake",
+        "vi": "vượt qua"
+      },
+      {
+        "en": "far below the figures for...",
+        "vi": "thấp hơn nhiều so với số liệu của..."
+      },
+      {
+        "en": "a much higher starting point",
+        "vi": "điểm xuất phát cao hơn nhiều"
+      }
+    ]
+  },
+  {
+    "id": "w1-02",
+    "level": "B1",
+    "task": 1,
+    "title": "University students by subject (bar chart)",
+    "prompt": "The bar chart shows the number of students (in thousands) studying five subjects at a university in 2005 and in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Number of students by subject (thousands)",
+      "headers": [
+        "Subject",
+        "2005",
+        "2020"
+      ],
+      "rows": [
+        [
+          "Business",
+          42,
+          58
+        ],
+        [
+          "Engineering",
+          35,
+          47
+        ],
+        [
+          "Medicine",
+          18,
+          31
+        ],
+        [
+          "Arts",
+          40,
+          22
+        ],
+        [
+          "Education",
+          30,
+          24
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Bar chart có 2 mốc thời gian: hãy so sánh sự thay đổi (tăng/giảm) và thứ hạng giữa các nhóm.",
+      "Overview: nhóm nào tăng, nhóm nào giảm, nhóm nào lớn nhất ở mỗi năm.",
+      "Nhóm các hạng mục giống nhau: ba môn tăng (Business, Engineering, Medicine) và hai môn giảm (Arts, Education).",
+      "Dùng cấu trúc so sánh: higher than, almost double, the second largest, whereas, while.",
+      "Ghi rõ đơn vị: thousands. Có thể viết '42,000 students' hoặc '42 thousand'."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase - number of students in five subjects in 2005 and 2020.",
+      "Paragraph 2 (Overview): Three subjects grew, two fell; Business the most popular in both years.",
+      "Paragraph 3: Subjects that increased - Business, Engineering, Medicine (figures).",
+      "Paragraph 4: Subjects that decreased - Arts (biggest fall, from second to last) and Education."
+    ],
+    "modelAnswer": "The bar chart illustrates how many students studied five different subjects at a university in 2005 and 2020.\n\nOverall, the numbers of students in business, engineering and medicine increased, whereas arts and education became less popular. Business was the most popular subject in both years.\n\nLooking at the subjects that grew, business rose from 42,000 students in 2005 to 58,000 in 2020, which was the highest figure in the chart. Engineering also increased, from 35,000 to 47,000. The most dramatic change was in medicine, which grew from 18,000 to 31,000 and was close to double its original level, although it was still the smallest of the three subjects.\n\nIn contrast, arts experienced the sharpest decline. It was the second most popular subject in 2005 with 40,000 students, but the number almost halved to 22,000 by 2020, making it the least popular subject. Education also decreased, but less steeply, falling from 30,000 to 24,000.\n\nIn total, these figures show a clear move away from the arts and education towards business and technical subjects.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "The bar chart illustrates how many...",
+        "vi": "Biểu đồ cột minh họa số lượng..."
+      },
+      {
+        "en": "whereas / while",
+        "vi": "trong khi"
+      },
+      {
+        "en": "the most dramatic change",
+        "vi": "sự thay đổi mạnh nhất"
+      },
+      {
+        "en": "almost halved",
+        "vi": "gần như giảm một nửa"
+      },
+      {
+        "en": "the sharpest decline",
+        "vi": "mức giảm mạnh nhất"
+      },
+      {
+        "en": "In contrast, ...",
+        "vi": "Ngược lại, ..."
+      },
+      {
+        "en": "less steeply",
+        "vi": "ít dốc hơn / giảm nhẹ hơn"
+      },
+      {
+        "en": "the least popular",
+        "vi": "ít phổ biến nhất"
+      }
+    ]
+  },
+  {
+    "id": "w1-03",
+    "level": "B2",
+    "task": 1,
+    "title": "Household energy use 1990 vs 2020 (pie chart)",
+    "prompt": "The two pie charts show how a typical household in one country used energy in 1990 and in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Household energy use by purpose (% of total)",
+      "headers": [
+        "Purpose",
+        "1990",
+        "2020"
+      ],
+      "rows": [
+        [
+          "Heating",
+          52,
+          38
+        ],
+        [
+          "Lighting",
+          14,
+          9
+        ],
+        [
+          "Electrical appliances",
+          18,
+          31
+        ],
+        [
+          "Water heating",
+          12,
+          14
+        ],
+        [
+          "Other",
+          4,
+          8
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Pie chart so sánh 2 năm: tập trung vào thay đổi của từng phần và phần lớn nhất.",
+      "Dùng 'proportion', 'percentage', 'account for', 'make up' thay vì lặp 'percent'.",
+      "Overview: heating vẫn lớn nhất nhưng giảm; appliances tăng mạnh nhất.",
+      "Nhóm các phần giảm (heating, lighting) và các phần tăng (appliances, water heating, other).",
+      "Kiểm tra tổng phần trăm ~100% để chắc là bạn không bỏ sót hạng mục nào."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase - how a household used energy in 1990 and 2020.",
+      "Paragraph 2 (Overview): Heating biggest in both years but fell; appliances rose most.",
+      "Paragraph 3: Heating and lighting declined (52 to 38, 14 to 9).",
+      "Paragraph 4: Appliances, water heating and other increased; appliances nearly overtook heating."
+    ],
+    "modelAnswer": "The pie charts compare the ways in which a typical household used energy in 1990 and in 2020.\n\nOverall, heating accounted for the largest share of energy in both years, although its importance fell over the period. The most significant change was the growth in energy consumed by electrical appliances.\n\nIn 1990, more than half of household energy (52%) went on heating, but this figure fell to 38% in 2020. Lighting also became less important, dropping from 14% to 9%. These two categories were the only ones that declined.\n\nBy contrast, the other three categories grew. Electrical appliances made up 18% of energy use in 1990, but by 2020 they accounted for 31%, which meant that they were nearly as large as heating. This was the biggest rise of any category. Water heating increased slightly from 12% to 14%, while the proportion of energy used for other purposes doubled from 4% to 8%.\n\nIn summary, households in 2020 relied less on energy for heating and lighting and much more on modern appliances.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "account for / make up",
+        "vi": "chiếm (tỷ lệ)"
+      },
+      {
+        "en": "the largest share of",
+        "vi": "tỷ trọng lớn nhất của"
+      },
+      {
+        "en": "went on heating",
+        "vi": "được dùng cho việc sưởi"
+      },
+      {
+        "en": "the only categories that declined",
+        "vi": "những hạng mục duy nhất giảm"
+      },
+      {
+        "en": "By contrast, ...",
+        "vi": "Trái lại, ..."
+      },
+      {
+        "en": "doubled from ... to ...",
+        "vi": "tăng gấp đôi từ ... lên ..."
+      },
+      {
+        "en": "the biggest rise of any category",
+        "vi": "mức tăng lớn nhất trong các hạng mục"
+      },
+      {
+        "en": "rely less on",
+        "vi": "ít phụ thuộc vào hơn"
+      }
+    ]
+  },
+  {
+    "id": "w1-04",
+    "level": "B2",
+    "task": 1,
+    "title": "Commuting in five cities (table)",
+    "prompt": "The table gives information about the average commuting time and the main ways of travelling to work in five cities.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Commuting in five cities",
+      "headers": [
+        "City",
+        "Average commute (minutes)",
+        "Public transport (%)",
+        "Car (%)",
+        "Cycling/walking (%)"
+      ],
+      "rows": [
+        [
+          "Northport",
+          48,
+          55,
+          35,
+          10
+        ],
+        [
+          "Eastbridge",
+          32,
+          20,
+          68,
+          12
+        ],
+        [
+          "Lakeside",
+          25,
+          15,
+          50,
+          35
+        ],
+        [
+          "Hillcrest",
+          54,
+          62,
+          30,
+          8
+        ],
+        [
+          "Rivermouth",
+          38,
+          40,
+          45,
+          15
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Với bảng số liệu, chọn các điểm cao nhất/thấp nhất và các mối liên hệ nổi bật; đừng liệt kê từng ô.",
+      "Overview: thành phố nào đi lại lâu nhất/ngắn nhất, phương tiện nào phổ biến ở đâu.",
+      "Phát hiện mối quan hệ: thành phố dùng phương tiện công cộng nhiều thì thời gian đi làm dài hơn.",
+      "Nhóm thành phố theo đặc điểm (public-transport cities vs car cities) để bài mạch lạc.",
+      "Dùng 'the majority of', 'a minority', 'roughly half', 'just over a third' để đa dạng cách nói về %."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase - commuting time and transport choices in five cities.",
+      "Paragraph 2 (Overview): Cities where public transport dominates have the longest commutes; Lakeside shortest with most cyclists/walkers.",
+      "Paragraph 3: Northport and Hillcrest - public transport, 48 and 54 minutes.",
+      "Paragraph 4: Eastbridge, Lakeside, Rivermouth - car use and active travel."
+    ],
+    "modelAnswer": "The table compares the average time people spend commuting and the means of transport they use in five cities.\n\nOverall, the cities where most people use public transport tend to have the longest journeys to work, while Lakeside has the shortest commute and the highest proportion of people who cycle or walk.\n\nPublic transport is the main choice in Northport and Hillcrest, at 55% and 62% respectively. Commuters in these cities also travel for the longest time, with averages of 48 minutes in Northport and 54 minutes in Hillcrest. Only a small minority cycle or walk there (10% and 8%).\n\nIn contrast, cars dominate in Eastbridge, where 68% of commuters drive, and the average journey takes 32 minutes. Lakeside, with half of workers using cars, has the shortest commute at just 25 minutes. It is also the only city where more than a third of people (35%) travel by bicycle or on foot.\n\nRivermouth lies between these two groups. Its figures for public transport (40%), car use (45%) and commuting time (38 minutes) are all close to the middle of the range.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "The table compares... and the means of transport",
+        "vi": "Bảng so sánh... và phương tiện đi lại"
+      },
+      {
+        "en": "tend to have",
+        "vi": "có xu hướng có"
+      },
+      {
+        "en": "respectively",
+        "vi": "lần lượt"
+      },
+      {
+        "en": "a small minority",
+        "vi": "một thiểu số nhỏ"
+      },
+      {
+        "en": "cars dominate",
+        "vi": "ô tô chiếm ưu thế"
+      },
+      {
+        "en": "the shortest commute",
+        "vi": "quãng đường đi làm ngắn nhất"
+      },
+      {
+        "en": "lie between these two groups",
+        "vi": "nằm giữa hai nhóm này"
+      },
+      {
+        "en": "close to the middle of the range",
+        "vi": "gần giữa khoảng giá trị"
+      }
+    ]
+  },
+  {
+    "id": "w1-05",
+    "level": "B2",
+    "task": 1,
+    "title": "How waste paper is recycled (process)",
+    "prompt": "The diagram below shows the process of recycling waste paper.\n\nSummarise the information by selecting and reporting the main features.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Stages in recycling waste paper",
+      "headers": [
+        "Step",
+        "Description"
+      ],
+      "rows": [
+        [
+          1,
+          "Collection: used paper is collected from homes and offices and taken to a recycling plant by lorry."
+        ],
+        [
+          2,
+          "Sorting: workers sort the paper by quality and remove plastic, staples and other items."
+        ],
+        [
+          3,
+          "Pulping: the paper is mixed with water and chemicals in a large tank and broken down into a thick liquid called pulp."
+        ],
+        [
+          4,
+          "Screening: the pulp passes through screens that remove glue and small pieces of dirt."
+        ],
+        [
+          5,
+          "De-inking and bleaching: air bubbles lift the ink to the surface, and the pulp is bleached to make it whiter."
+        ],
+        [
+          6,
+          "Pressing and drying: the pulp is spread on a moving mesh, water is pressed out, and heated rollers dry it into a sheet."
+        ],
+        [
+          7,
+          "Cutting and packing: giant rolls of new paper are cut into sheets, packed and sent to customers."
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Process: dùng thể bị động (is collected, is sorted) và từ nối trình tự (First, Next, After that, Finally).",
+      "Overview: nêu tổng số bước (seven stages) và bước đầu - bước cuối.",
+      "Không cần số liệu; hãy mô tả đủ tất cả các bước theo thứ tự, có thể gộp các bước ngắn.",
+      "Dùng mệnh đề quan hệ để nối bước: ... which is then..., where it is ...",
+      "Không đưa ý kiến (vd: quy trình này tốt cho môi trường) - chỉ mô tả."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase - the diagram shows how waste paper is recycled.",
+      "Paragraph 2 (Overview): The process has seven stages, from collection to packing of new paper.",
+      "Paragraph 3: Stages 1-4 - collection, sorting, pulping, screening.",
+      "Paragraph 4: Stages 5-7 - de-inking and bleaching, pressing and drying, cutting and packing."
+    ],
+    "modelAnswer": "The diagram illustrates the process by which waste paper is turned into new paper.\n\nOverall, the process has seven stages, beginning with the collection of used paper and ending with the delivery of finished sheets to customers.\n\nFirst, used paper is collected from homes and offices and transported to a recycling plant by lorry. At the plant, workers sort the paper according to its quality, and they remove plastic, staples and other unwanted items. Next, the paper is put into a large tank, where it is mixed with water and chemicals. This breaks it down into a thick liquid known as pulp. The pulp then passes through screens, which take out glue and small pieces of dirt.\n\nAfter that, air bubbles are used to lift the ink to the surface so that it can be removed, and the pulp is bleached to make it whiter. In the following stage, the clean pulp is spread on a moving mesh, and water is pressed out of it. Heated rollers then dry the material to form a continuous sheet of paper. Finally, the giant rolls of paper are cut into sheets, packed and sent to customers.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "The diagram illustrates the process by which...",
+        "vi": "Sơ đồ minh họa quá trình mà qua đó..."
+      },
+      {
+        "en": "The process has seven stages.",
+        "vi": "Quy trình có bảy giai đoạn."
+      },
+      {
+        "en": "First, ... Next, ... After that, ... Finally, ...",
+        "vi": "Đầu tiên, ... Tiếp theo, ... Sau đó, ... Cuối cùng, ..."
+      },
+      {
+        "en": "is transported to",
+        "vi": "được vận chuyển đến"
+      },
+      {
+        "en": "according to its quality",
+        "vi": "theo chất lượng"
+      },
+      {
+        "en": "is broken down into",
+        "vi": "được nghiền/phân hủy thành"
+      },
+      {
+        "en": "known as",
+        "vi": "được gọi là"
+      },
+      {
+        "en": "in the following stage",
+        "vi": "ở giai đoạn tiếp theo"
+      }
+    ]
+  },
+  {
+    "id": "w1-06",
+    "level": "B2",
+    "task": 1,
+    "title": "Changes in the village of Hartley (map)",
+    "prompt": "The maps show the village of Hartley in 2000 and in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Hartley village: main changes between 2000 and 2020",
+      "headers": [
+        "Feature",
+        "Before (2000)",
+        "After (2020)"
+      ],
+      "rows": [
+        [
+          "Farmland (north)",
+          "Large area of open farmland",
+          "Replaced by a housing estate of about 120 homes"
+        ],
+        [
+          "Main road",
+          "Single road running through the village centre",
+          "New bypass built on the east side; centre road closed to cars"
+        ],
+        [
+          "Primary school",
+          "Small school next to the church",
+          "Enlarged, with a new playground and sports hall"
+        ],
+        [
+          "Railway station",
+          "Small station on the west edge",
+          "Closed and turned into a car park"
+        ],
+        [
+          "Lake (south)",
+          "Lake surrounded by fields",
+          "Park with footpaths and a cafe beside the lake"
+        ],
+        [
+          "Woodland (east)",
+          "Woodland east of the village",
+          "Partly cleared for the bypass and a new supermarket"
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Map: dùng thì quá khứ cho bản đồ cũ và thì hiện tại hoàn thành/quá khứ cho thay đổi: was replaced by, has been built, was converted into.",
+      "Overview: nêu thay đổi chung (làng phát triển/hiện đại hơn, đất nông nghiệp giảm) trước khi đi vào chi tiết.",
+      "Dùng giới từ chỉ vị trí: in the north, to the east of, next to, beside, on the west edge.",
+      "Từ vựng thay đổi: be replaced by, be converted into, be demolished, be expanded, be cleared, be constructed.",
+      "Nhóm các thay đổi liên quan (nhà ở và đường; công trình công cộng) thay vì kể lần lượt từng mục."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase - maps show Hartley in 2000 and 2020.",
+      "Paragraph 2 (Overview): Village became more developed - housing and roads replaced farmland and woodland, while leisure and education facilities improved.",
+      "Paragraph 3: Housing estate on farmland, bypass, closed centre road, cleared woodland and supermarket.",
+      "Paragraph 4: School expansion, station turned into car park, lake turned into park with cafe."
+    ],
+    "modelAnswer": "The maps illustrate how the village of Hartley changed between 2000 and 2020.\n\nOverall, the village became much more developed over the period. Farmland and woodland were replaced by housing and roads, and facilities for education and leisure were improved.\n\nThe biggest change took place in the north, where the large area of open farmland was replaced by a housing estate of about 120 homes. Transport also changed. In 2000, a single road ran through the centre of the village, but a bypass was built on the east side by 2020, and the old road was closed to cars. In order to make space for this new road and a supermarket beside it, part of the woodland to the east of the village was cleared.\n\nOther facilities were also improved. The primary school, which stood next to the church in 2000, was enlarged and given a new playground and a sports hall. The small railway station on the west edge of the village was closed and converted into a car park. Finally, in the south, the lake that used to be surrounded by fields became part of a park with footpaths and a cafe.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "The maps illustrate how ... changed",
+        "vi": "Các bản đồ minh họa sự thay đổi của..."
+      },
+      {
+        "en": "be replaced by",
+        "vi": "được thay thế bởi"
+      },
+      {
+        "en": "be converted into",
+        "vi": "được chuyển đổi thành"
+      },
+      {
+        "en": "be cleared to make way for",
+        "vi": "bị phá để nhường chỗ cho"
+      },
+      {
+        "en": "on the east side of",
+        "vi": "ở phía đông của"
+      },
+      {
+        "en": "next to / beside",
+        "vi": "bên cạnh"
+      },
+      {
+        "en": "be enlarged",
+        "vi": "được mở rộng"
+      },
+      {
+        "en": "the biggest change took place in...",
+        "vi": "thay đổi lớn nhất diễn ra ở..."
+      }
+    ]
+  },
+  {
+    "id": "w1-07",
+    "level": "C1",
+    "task": 1,
+    "title": "Electricity generation by source (line graph)",
+    "prompt": "The graph shows the amount of electricity (in terawatt-hours, TWh) produced from four sources in one country between 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Electricity generation by source (TWh)",
+      "headers": [
+        "Year",
+        "Coal",
+        "Gas",
+        "Wind",
+        "Solar"
+      ],
+      "rows": [
+        [
+          2000,
+          180,
+          90,
+          5,
+          0
+        ],
+        [
+          2005,
+          175,
+          110,
+          15,
+          2
+        ],
+        [
+          2010,
+          150,
+          130,
+          40,
+          10
+        ],
+        [
+          2015,
+          100,
+          140,
+          80,
+          35
+        ],
+        [
+          2020,
+          55,
+          135,
+          125,
+          70
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Khi có 4 đường, hãy nhóm: một đường giảm (coal), một đường tăng nhẹ rồi ổn định (gas), hai đường tăng mạnh (wind, solar).",
+      "Overview cần nêu sự đảo chiều quan trọng: coal từ nguồn lớn nhất trở thành nhỏ hơn wind và gas.",
+      "Nêu các điểm cắt nhau (intersection): wind vượt coal vào khoảng 2020, v.v. chỉ khi bạn chắc từ số liệu.",
+      "Dùng đa dạng cấu trúc: a fivefold increase, fell by more than two-thirds, peaked at, remained relatively stable.",
+      "Cẩn thận với số 0: solar bắt đầu từ gần 0 nên đừng tính phần trăm tăng vô nghĩa."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase - electricity from four sources 2000-2020.",
+      "Paragraph 2 (Overview): Coal fell steadily, renewables (wind and solar) rose dramatically; gas rose then stabilised.",
+      "Paragraph 3: Coal - from 180 TWh to 55 TWh; gas - rise to 140 then slight fall.",
+      "Paragraph 4: Wind - from 5 to 125 TWh, overtaking coal; solar - from zero to 70 TWh."
+    ],
+    "modelAnswer": "The line graph compares how much electricity a country generated from coal, gas, wind and solar power over a twenty-year period, from 2000 to 2020.\n\nOverall, coal declined substantially, whereas the two renewable sources, wind and solar, grew dramatically. Gas production rose at first and then remained relatively stable.\n\nCoal was by far the dominant source in 2000, at 180 TWh, twice the output of gas. It then fell steadily to 100 TWh in 2015 and dropped further to just 55 TWh in 2020, which was less than a third of its original level. Gas, by contrast, increased from 90 TWh to a peak of 140 TWh in 2015 before dipping slightly to 135 TWh at the end of the period.\n\nThe most striking change concerned wind power. Starting at a mere 5 TWh, it expanded rapidly, passing the coal figure in the final period and reaching 125 TWh in 2020. This was a twenty-five-fold increase. Solar power did not exist in 2000, but it climbed to 10 TWh in 2010 and then to 70 TWh in 2020, ending above coal as well.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "by far the dominant source",
+        "vi": "áp đảo, là nguồn chủ đạo"
+      },
+      {
+        "en": "decline substantially",
+        "vi": "giảm đáng kể"
+      },
+      {
+        "en": "remain relatively stable",
+        "vi": "giữ tương đối ổn định"
+      },
+      {
+        "en": "peak at",
+        "vi": "đạt đỉnh ở mức"
+      },
+      {
+        "en": "dip slightly",
+        "vi": "giảm nhẹ"
+      },
+      {
+        "en": "a mere 5 TWh",
+        "vi": "chỉ vỏn vẹn 5 TWh"
+      },
+      {
+        "en": "a twenty-five-fold increase",
+        "vi": "mức tăng gấp 25 lần"
+      },
+      {
+        "en": "the most striking change",
+        "vi": "thay đổi nổi bật nhất"
+      }
+    ]
+  },
+  {
+    "id": "w1-08",
+    "level": "C1",
+    "task": 1,
+    "title": "Working from home by industry (bar chart)",
+    "prompt": "The bar chart shows the percentage of employees who worked from home at least three days a week in six industries in 2019 and in 2023.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Employees working from home at least three days a week (%)",
+      "headers": [
+        "Industry",
+        "2019",
+        "2023"
+      ],
+      "rows": [
+        [
+          "Information technology",
+          18,
+          62
+        ],
+        [
+          "Finance",
+          12,
+          45
+        ],
+        [
+          "Education",
+          8,
+          25
+        ],
+        [
+          "Healthcare",
+          4,
+          9
+        ],
+        [
+          "Manufacturing",
+          3,
+          6
+        ],
+        [
+          "Retail",
+          2,
+          5
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Với 6 hạng mục, hãy chia thành nhóm: nhóm tăng mạnh (IT, Finance), nhóm tăng vừa (Education), nhóm gần như không đổi (Healthcare, Manufacturing, Retail).",
+      "Overview cần nêu: tất cả tăng; mức tăng rất khác nhau giữa các ngành; ngành nào cao nhất/thấp nhất.",
+      "Dùng so sánh bội số: more than tripled, almost quadrupled, roughly doubled.",
+      "Dùng ngôn ngữ chỉ khoảng cách: a gap of, far higher than, remained marginal.",
+      "Đừng giải thích nguyên nhân (như dịch bệnh) vì biểu đồ không cung cấp."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase - percentage of employees working from home at least three days a week in six industries, 2019 and 2023.",
+      "Paragraph 2 (Overview): Rise in every industry, but very unequal; IT highest, retail lowest.",
+      "Paragraph 3: IT and finance - the biggest rises (18 to 62, 12 to 45); education moderate (8 to 25).",
+      "Paragraph 4: Healthcare, manufacturing and retail - small figures that stayed below 10%."
+    ],
+    "modelAnswer": "The bar chart compares the proportion of employees who worked from home for at least three days a week across six industries in 2019 and 2023.\n\nOverall, home working became more common in every industry, but the extent of the increase varied greatly. Information technology had the highest figures in both years, while retail remained the lowest.\n\nThe most significant growth occurred in information technology and finance. In IT, the figure more than tripled, from 18% to 62%, so that almost two-thirds of employees worked remotely by 2023. Finance showed a similar pattern, rising from 12% to 45%, which was almost four times the original level. Education also experienced a notable increase, from 8% to 25%, although it stayed well below the first two sectors.\n\nBy contrast, the other three industries saw only marginal changes. The proportion of healthcare staff working from home grew from 4% to 9%, and manufacturing rose from 3% to 6%. Retail had the smallest figures, at 2% in 2019 and 5% in 2023. In all three cases the figure remained below 10%, which suggests that these jobs depend much more on physical presence.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "vary greatly",
+        "vi": "khác nhau rất nhiều"
+      },
+      {
+        "en": "more than tripled",
+        "vi": "tăng hơn gấp ba"
+      },
+      {
+        "en": "almost four times the original level",
+        "vi": "gần gấp bốn lần mức ban đầu"
+      },
+      {
+        "en": "a notable increase",
+        "vi": "mức tăng đáng chú ý"
+      },
+      {
+        "en": "well below",
+        "vi": "thấp hơn hẳn"
+      },
+      {
+        "en": "marginal changes",
+        "vi": "những thay đổi không đáng kể"
+      },
+      {
+        "en": "the extent of the increase",
+        "vi": "mức độ tăng"
+      },
+      {
+        "en": "remain below 10%",
+        "vi": "vẫn dưới 10%"
+      }
+    ]
+  },
+  {
+    "id": "w2-01",
+    "level": "B1",
+    "task": 2,
+    "title": "Education: should universities teach job skills? (opinion)",
+    "prompt": "Some people believe that universities should teach students practical skills for their future jobs rather than academic knowledge.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Dạng 'To what extent do you agree': phải nêu rõ quan điểm ở mở bài và giữ nhất quán đến hết bài.",
+      "Bạn có thể đồng ý một phần (partly agree) - nhưng hãy nói rõ phần nào đồng ý, phần nào không.",
+      "Mỗi đoạn thân bài: 1 ý chính + giải thích + ví dụ cụ thể (không chỉ nói chung chung).",
+      "Đừng chép lại đề; paraphrase: practical skills -> job-related training; academic knowledge -> theoretical study.",
+      "Kết bài: nhắc lại quan điểm bằng từ khác, không đưa thêm ý mới."
+    ],
+    "outline": [
+      "Introduction: Paraphrase the topic and give your opinion - partly agree; practical skills matter but theory is still needed.",
+      "Body 1: Why practical skills are important - graduates need jobs, employers want experience (example: internships, software or engineering courses).",
+      "Body 2: Why academic knowledge still matters - gives deep understanding, critical thinking, and flexibility when jobs change (example: science or economics).",
+      "Conclusion: Restate that universities should balance both, with more focus on practical skills."
+    ],
+    "modelAnswer": "It is often argued that universities should concentrate on teaching practical job skills instead of academic theory. I partly agree with this view, because practical training is very valuable, but I believe that theoretical knowledge should not be ignored.\n\nOn the one hand, practical skills help graduates to find work. Many employers complain that new graduates know a lot of theory but cannot use it in real situations. If universities offer more internships, workshops and projects with companies, students will be better prepared for their careers. For example, a student of computer science who has built real applications during the course will be much more attractive to employers than a student who has only read textbooks.\n\nOn the other hand, academic knowledge gives students a deeper understanding of their subject and teaches them how to think critically. Specific job skills can become out of date quickly, especially in a fast-changing world. A graduate who understands the basic principles of economics or engineering can adapt to new technology and new roles much more easily than someone who has learned only one set of procedures. Academic study also develops research and writing skills, which are useful in almost every profession. Graduates with this kind of background are also more likely to continue learning independently after they leave university.\n\nIn conclusion, universities should offer a balance of both. In my opinion, practical training should receive more attention than it does now, but it should be built on a strong theoretical foundation so that graduates can succeed throughout their working lives.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "It is often argued that...",
+        "vi": "Người ta thường cho rằng..."
+      },
+      {
+        "en": "I partly agree with this view",
+        "vi": "Tôi đồng ý một phần với quan điểm này"
+      },
+      {
+        "en": "be better prepared for their careers",
+        "vi": "được chuẩn bị tốt hơn cho sự nghiệp"
+      },
+      {
+        "en": "On the one hand, ... On the other hand, ...",
+        "vi": "Một mặt, ... Mặt khác, ..."
+      },
+      {
+        "en": "become out of date",
+        "vi": "trở nên lạc hậu"
+      },
+      {
+        "en": "adapt to new technology",
+        "vi": "thích nghi với công nghệ mới"
+      },
+      {
+        "en": "a strong theoretical foundation",
+        "vi": "nền tảng lý thuyết vững chắc"
+      },
+      {
+        "en": "a balance of both",
+        "vi": "sự cân bằng giữa cả hai"
+      }
+    ]
+  },
+  {
+    "id": "w2-02",
+    "level": "B2",
+    "task": 2,
+    "title": "Technology: does it connect or isolate people? (discussion)",
+    "prompt": "Some people say that modern technology has made people more isolated from each other. Others believe that it has brought people closer together.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Dạng Discussion: bắt buộc trình bày CẢ HAI quan điểm, mỗi quan điểm một đoạn, rồi nêu ý kiến riêng.",
+      "Ý kiến cá nhân nên xuất hiện ở mở bài và kết bài (và có thể nhắc nhẹ ở cuối đoạn 3).",
+      "Dùng ngôn ngữ trung lập khi trình bày quan điểm của người khác: Some people argue that..., Supporters of this view claim...",
+      "Mỗi quan điểm cần ví dụ: mạng xã hội, video call, ăn cơm mà mỗi người nhìn điện thoại.",
+      "Tránh liệt kê quá nhiều ý; 2 ý được phát triển kỹ tốt hơn 4 ý sơ sài."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; say you will discuss both views and that your opinion is that technology can do both, depending on how it is used.",
+      "Body 1: Technology isolates - screens replace face-to-face talk, people ignore those next to them, online relationships are shallow.",
+      "Body 2: Technology connects - video calls, messaging, online communities, help for migrants and distant families.",
+      "Conclusion: Restate your opinion - technology is a tool; benefits are bigger if used sensibly."
+    ],
+    "modelAnswer": "Technology has changed the way people communicate. While some people think it has made us lonelier, others argue that it has brought us closer. In my opinion, both views contain some truth, but the overall effect depends on how people use technology.\n\nThose who believe that technology isolates people point to the amount of time we spend looking at screens. It is now common to see a family sitting together at a restaurant while each person scrolls through a phone. Face-to-face conversations are replaced by short messages, and online friendships can feel shallow because they lack real contact. Some researchers have also linked heavy social media use with feelings of loneliness, particularly among teenagers who compare themselves with others online.\n\nOn the other hand, there are strong arguments that technology connects people. Video calls and messaging apps allow relatives who live in different countries to talk every day at almost no cost. This is a great comfort for migrant workers and international students. Moreover, the internet lets people with unusual interests or rare health conditions find communities of others who share them, which would be impossible in a small town without technology. During the recent pandemic, many people kept friendships and even worked and studied together only because of online tools.\n\nIn conclusion, technology is neither a cause of isolation nor a solution to it. It is a tool, and it can bring people closer if we use it to support real relationships rather than replace them. Parents and schools can help by teaching children to put their devices away during meals and to use them mainly for real communication.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "Those who believe that... point to...",
+        "vi": "Những người tin rằng... chỉ ra..."
+      },
+      {
+        "en": "It is now common to see...",
+        "vi": "Ngày nay thường thấy..."
+      },
+      {
+        "en": "lack real contact",
+        "vi": "thiếu sự tiếp xúc thật"
+      },
+      {
+        "en": "at almost no cost",
+        "vi": "gần như không tốn chi phí"
+      },
+      {
+        "en": "On the other hand, ...",
+        "vi": "Mặt khác, ..."
+      },
+      {
+        "en": "a great comfort for...",
+        "vi": "nguồn an ủi lớn cho..."
+      },
+      {
+        "en": "depend on how people use...",
+        "vi": "phụ thuộc vào cách mọi người sử dụng..."
+      },
+      {
+        "en": "a tool, not a solution",
+        "vi": "là một công cụ, không phải giải pháp"
+      }
+    ]
+  },
+  {
+    "id": "w2-03",
+    "level": "B2",
+    "task": 2,
+    "title": "Environment: plastic waste (problem and solution)",
+    "prompt": "Plastic waste is damaging oceans, rivers and wildlife in many parts of the world.\n\nWhat are the main causes of this problem, and what can be done to solve it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Dạng Problem/Solution: trả lời đủ cả hai phần - nguyên nhân (causes) và giải pháp (solutions). Thường mỗi phần một đoạn.",
+      "Mỗi giải pháp nên gắn với một nguyên nhân cụ thể và nói rõ ai thực hiện (governments, companies, individuals).",
+      "Dùng các động từ giải pháp: introduce, ban, impose, encourage, invest in, raise awareness.",
+      "Dùng 'would/could/should' để đưa đề xuất một cách khách quan.",
+      "Giải thích kết quả: ... which would reduce..., thus encouraging..."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; plastic pollution is serious; outline two causes and two solutions.",
+      "Body 1: Causes - cheap single-use plastic, packaging by companies, poor waste collection/recycling, consumer habits.",
+      "Body 2: Solutions - government bans/taxes on plastic bags, companies using alternative packaging, better recycling systems.",
+      "Conclusion: Summarise; need joint action by governments, businesses and individuals."
+    ],
+    "modelAnswer": "Plastic pollution has become one of the most visible environmental problems of our time, with images of dead sea animals and polluted beaches appearing regularly in the news. This essay will explain the main causes of the problem and suggest some practical solutions.\n\nThere are several reasons why so much plastic ends up in the environment. First, plastic is extremely cheap, so manufacturers use it for nearly all kinds of packaging, from bottles to shopping bags. Most of these items are used only once and then thrown away. Second, many countries lack effective systems for collecting and recycling waste. As a result, plastic is dumped in open areas or washed into rivers and carried to the sea, where it can remain for hundreds of years. Finally, consumers often choose convenience over the environment and do not think about where their rubbish goes.\n\nTo tackle these problems, action is needed at several levels. Governments could ban or tax single-use items such as plastic bags and straws. When Ireland introduced a small charge on plastic bags, for example, their use fell dramatically within a few months. Companies should also be encouraged, through regulations or financial support, to switch to packaging made from paper or other materials that break down naturally. In addition, investment in modern recycling facilities would make it easier to collect and reuse plastic that is already in circulation. Education campaigns in schools can help the next generation develop better habits.\n\nIn conclusion, plastic waste is caused by cheap packaging, weak waste systems and careless consumer behaviour. Only joint efforts by governments, businesses and individuals can reduce it.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "one of the most visible problems of our time",
+        "vi": "một trong những vấn đề dễ thấy nhất của thời đại"
+      },
+      {
+        "en": "end up in the environment",
+        "vi": "cuối cùng rơi vào môi trường"
+      },
+      {
+        "en": "lack effective systems for",
+        "vi": "thiếu hệ thống hiệu quả để"
+      },
+      {
+        "en": "tackle the problem",
+        "vi": "giải quyết vấn đề"
+      },
+      {
+        "en": "ban or tax",
+        "vi": "cấm hoặc đánh thuế"
+      },
+      {
+        "en": "break down naturally",
+        "vi": "phân hủy tự nhiên"
+      },
+      {
+        "en": "fall dramatically",
+        "vi": "giảm mạnh"
+      },
+      {
+        "en": "joint efforts by...",
+        "vi": "nỗ lực chung của..."
+      }
+    ]
+  },
+  {
+    "id": "w2-04",
+    "level": "B1",
+    "task": 2,
+    "title": "Work: working from home (advantages and disadvantages)",
+    "prompt": "More and more people are working from home instead of going to an office.\n\nWhat are the advantages and disadvantages of this trend?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Dạng Advantages/Disadvantages: mỗi đoạn thân bài cho một phía (ưu rồi nhược), thường 2 ý mỗi phía.",
+      "Nếu đề hỏi 'Do the advantages outweigh the disadvantages?' thì phải đưa kết luận; còn ở đây chỉ cần cân nhắc nhẹ.",
+      "Dùng 'One major advantage is...' / 'A further drawback is...' để mở từng ý.",
+      "Ví dụ nên cụ thể: tiết kiệm 2 giờ đi lại, cuộc họp online, thiếu tương tác với đồng nghiệp.",
+      "Câu mở đầu đoạn thân bài (topic sentence) phải cho biết đoạn nói về ưu hay nhược điểm."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; working from home is growing; this essay looks at benefits and drawbacks.",
+      "Body 1: Advantages - saves commuting time and money, flexible schedule, better work-life balance.",
+      "Body 2: Disadvantages - isolation, harder to separate work and home, distractions, less teamwork.",
+      "Conclusion: Summarise; hybrid working may be best."
+    ],
+    "modelAnswer": "In recent years, many employees have started to work from home instead of travelling to an office every day. This trend has both benefits and drawbacks, which this essay will discuss.\n\nThe main advantage of working from home is that it saves time and money. Employees do not need to spend hours in traffic or pay for petrol and public transport. In big cities, a person may save two hours a day, and this time can be used for family, hobbies or sleep. Working at home also gives workers more freedom to organise their day. For example, a parent can start early in the morning and finish earlier to collect children from school. This flexibility often leads to a better balance between work and private life, and many people say they are more productive as a result.\n\nHowever, there are also some disadvantages. Firstly, home workers can feel lonely because they do not meet colleagues in person. Chatting at the coffee machine may seem unimportant, but it helps people build friendships and share ideas. Online meetings are not always a good replacement. Secondly, it can be hard to separate work from home life. Some people work too late in the evening because their laptop is always nearby, while others are distracted by housework, noise or the television, and their work suffers.\n\nIn conclusion, working from home offers clear benefits in terms of time, money and flexibility, but it may cause loneliness and distraction. For many people, a mixture of office days and home days may be the best solution.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "This trend has both benefits and drawbacks.",
+        "vi": "Xu hướng này có cả lợi ích lẫn hạn chế."
+      },
+      {
+        "en": "The main advantage of ... is that...",
+        "vi": "Ưu điểm chính của ... là..."
+      },
+      {
+        "en": "save time and money",
+        "vi": "tiết kiệm thời gian và tiền bạc"
+      },
+      {
+        "en": "a better balance between work and private life",
+        "vi": "cân bằng tốt hơn giữa công việc và đời tư"
+      },
+      {
+        "en": "be more productive",
+        "vi": "làm việc năng suất hơn"
+      },
+      {
+        "en": "separate work from home life",
+        "vi": "tách biệt công việc và cuộc sống gia đình"
+      },
+      {
+        "en": "be distracted by...",
+        "vi": "bị phân tâm bởi..."
+      },
+      {
+        "en": "a mixture of ... may be the best solution",
+        "vi": "sự kết hợp ... có thể là giải pháp tốt nhất"
+      }
+    ]
+  },
+  {
+    "id": "w2-05",
+    "level": "B2",
+    "task": 2,
+    "title": "Health: unhealthy lifestyles (two-part question)",
+    "prompt": "In many countries, more people are suffering from health problems because of unhealthy lifestyles, such as eating fast food and doing little exercise.\n\nWhy is this happening? What can governments do to encourage healthier lifestyles?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Dạng Two-part question: có 2 câu hỏi riêng; mỗi câu trả lời một đoạn thân bài, theo đúng thứ tự đề hỏi.",
+      "Mở bài chỉ cần paraphrase và nói bài sẽ trả lời hai câu hỏi (không cần nêu opinion dài dòng).",
+      "Câu 'Why' -> 2 nguyên nhân có giải thích; câu 'What can governments do' -> 2 biện pháp cụ thể có ví dụ.",
+      "Dùng chủ ngữ rõ ràng là chính phủ: Governments could/should... để bám sát câu hỏi.",
+      "Từ vựng chủ đề sức khỏe: sedentary lifestyle, obesity, processed food, public health campaign, sugar tax."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; unhealthy lifestyles are increasing; answer why and what governments can do.",
+      "Body 1 (Why): Busy lives and cheap, convenient fast food; sedentary jobs and screen entertainment reduce exercise.",
+      "Body 2 (Governments): Tax on sugary food, stricter advertising rules, build sports facilities, promote exercise in schools and workplaces.",
+      "Conclusion: Summarise causes and recommended actions."
+    ],
+    "modelAnswer": "A growing number of people around the world are developing health problems that are linked to their daily habits, particularly poor diets and lack of physical activity. This essay will explore the reasons for this trend and consider what governments can do about it.\n\nThere are two main reasons why unhealthy lifestyles have become so common. First, modern life is busy, and many people have little time to prepare fresh meals. Fast food and ready-made meals are cheap, widely available and heavily advertised, so they have become the easy choice for many families. These foods are usually high in sugar, salt and fat, and regular consumption can lead to obesity and heart disease. Second, many jobs today involve sitting at a desk all day, and people often spend their free time watching television or using their phones. Because of this sedentary lifestyle, they rarely get enough exercise.\n\nGovernments can take several steps to improve this situation. One effective measure is to make unhealthy products less attractive, for example by introducing taxes on sugary drinks, as the United Kingdom has done, and by restricting advertisements for junk food that are aimed at children. At the same time, governments should make healthy living easier. Building safe parks, cycling lanes and low-cost sports centres would give people more opportunities to be active. Schools could also provide healthy lunches and compulsory physical education, so that good habits are formed early in life.\n\nIn conclusion, unhealthy lifestyles result from time pressure, cheap fast food and inactive routines. Through taxes, regulation and investment in public facilities, governments can encourage their citizens to live more healthily.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "be linked to daily habits",
+        "vi": "có liên quan đến thói quen hằng ngày"
+      },
+      {
+        "en": "a lack of physical activity",
+        "vi": "thiếu hoạt động thể chất"
+      },
+      {
+        "en": "the easy choice",
+        "vi": "lựa chọn dễ dàng"
+      },
+      {
+        "en": "high in sugar, salt and fat",
+        "vi": "nhiều đường, muối và chất béo"
+      },
+      {
+        "en": "a sedentary lifestyle",
+        "vi": "lối sống ít vận động"
+      },
+      {
+        "en": "introduce taxes on...",
+        "vi": "áp dụng thuế đối với..."
+      },
+      {
+        "en": "restrict advertisements",
+        "vi": "hạn chế quảng cáo"
+      },
+      {
+        "en": "form good habits early in life",
+        "vi": "hình thành thói quen tốt từ sớm"
+      }
+    ]
+  },
+  {
+    "id": "w2-06",
+    "level": "C1",
+    "task": 2,
+    "title": "Crime: prevention or punishment? (opinion)",
+    "prompt": "Some people think that the best way to reduce crime is to give longer prison sentences. Others believe that it is better to tackle the causes of crime, such as poverty and lack of education.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Discussion + opinion: nêu công bằng cả hai phía, nhưng ý kiến cá nhân phải rõ (bạn nghiêng về phía nào và vì sao).",
+      "Dùng ngôn ngữ học thuật để mô tả: deterrent, rehabilitation, reoffend, root causes, re-enter society.",
+      "Dùng cấu trúc nhượng bộ: Although harsh sentences may deter some criminals, ... để thể hiện tư duy cân bằng.",
+      "Đưa ví dụ khái quát (không cần số liệu chính xác): các nước Bắc Âu tập trung vào cải tạo, tỷ lệ tái phạm thấp hơn.",
+      "Tránh câu quá tuyệt đối như 'all criminals' hoặc 'always'; dùng 'many', 'in most cases', 'tend to'."
+    ],
+    "outline": [
+      "Introduction: Paraphrase the two views; state opinion - addressing causes is more effective.",
+      "Body 1: Longer sentences - deterrent, protect public, justice for victims; but limited effect.",
+      "Body 2: Tackling causes - education, jobs, rehabilitation reduce reoffending; example: prison education programmes.",
+      "Conclusion: Restate that prevention is more effective, with punishment still needed for serious crimes."
+    ],
+    "modelAnswer": "The question of how to reduce crime has long divided public opinion. Some people favour tougher punishments, while others argue that governments should concentrate on the underlying causes. Although long prison sentences have a place for the most serious offences, I believe that addressing the roots of crime is the more effective long-term strategy.\n\nSupporters of longer sentences argue that they act as a deterrent. If potential offenders know that they will spend many years in prison, they may think twice before breaking the law. Moreover, keeping dangerous criminals behind bars protects the public and gives victims a sense that justice has been done. These arguments are especially convincing in cases of violent crime. However, the evidence that harsh sentences reduce crime overall is weak. Many offenders do not expect to be caught and therefore do not consider the punishment at all. Prison is also very expensive, and it often fails to change behaviour. In many countries, a large proportion of released prisoners reoffend within a few years, because they leave prison with no qualifications, no job and strong links with other criminals.\n\nBy contrast, tackling the causes of crime offers lasting results. Young people who grow up in poverty and receive poor education are more likely to turn to crime, so investment in schools, youth programmes and job opportunities can prevent offences before they happen. Rehabilitation inside prisons is equally important. Programmes that teach prisoners new skills help them re-enter society, and countries such as Norway, which emphasise rehabilitation, have comparatively low reoffending rates.\n\nIn conclusion, while severe punishment is necessary for dangerous criminals, society will reduce crime more successfully by dealing with poverty, education and rehabilitation.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "divide public opinion",
+        "vi": "chia rẽ dư luận"
+      },
+      {
+        "en": "the underlying causes / the roots of crime",
+        "vi": "nguyên nhân gốc rễ / căn nguyên của tội phạm"
+      },
+      {
+        "en": "act as a deterrent",
+        "vi": "đóng vai trò răn đe"
+      },
+      {
+        "en": "think twice before...",
+        "vi": "suy nghĩ kỹ trước khi..."
+      },
+      {
+        "en": "behind bars",
+        "vi": "ngồi sau song sắt/trong tù"
+      },
+      {
+        "en": "reoffend",
+        "vi": "tái phạm"
+      },
+      {
+        "en": "re-enter society",
+        "vi": "tái hòa nhập xã hội"
+      },
+      {
+        "en": "lasting results",
+        "vi": "kết quả lâu dài"
+      }
+    ]
+  },
+  {
+    "id": "w2-07",
+    "level": "C1",
+    "task": 2,
+    "title": "Government spending: space exploration vs problems on Earth (discussion)",
+    "prompt": "Some people think that governments should spend money on space exploration. Others believe that this money should be used to solve problems on Earth, such as poverty and disease.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Cả hai quan điểm đều cần được trình bày thuyết phục; đừng bóc phẳng một phía là 'sai'.",
+      "Dùng từ vựng ngân sách: allocate funds, public spending, priority, return on investment, urgent needs.",
+      "Ví dụ phù hợp: vệ tinh dự báo thời tiết, công nghệ phát sinh từ chương trình không gian (spin-off technologies), nạn đói và bệnh dịch ở nước nghèo.",
+      "Nêu ý kiến cá nhân có điều kiện: ưu tiên vấn đề cấp bách, vẫn duy trì ngân sách nhỏ cho nghiên cứu không gian.",
+      "Dùng từ nối học thuật: Nevertheless, In addition, Admittedly, Ultimately."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; two views on spending priorities; opinion - Earth's urgent problems should come first, but space funding should not be cut entirely.",
+      "Body 1: Case for space spending - scientific discovery, useful technology (satellites, medical devices), long-term survival, inspiration.",
+      "Body 2: Case for spending on Earth - millions suffer poverty, hunger and disease now; limited budgets; immediate human benefits.",
+      "Conclusion: Restate balanced opinion, with priority for urgent needs."
+    ],
+    "modelAnswer": "Governments around the world must decide how to divide limited public funds between many competing needs. While some people consider space exploration a worthwhile investment, others believe that money should be spent on tackling poverty and disease on Earth. In my view, urgent human needs should take priority, although a modest space budget can be justified.\n\nSupporters of space exploration point to the practical benefits that have already been achieved. Satellites, which were developed through space programmes, now provide weather forecasts, navigation systems and global communications. Technologies created for astronauts have also led to improvements in medical equipment and materials. In addition, scientists argue that exploring other planets may one day be essential for humanity's long-term survival, and that space missions inspire young people to study science.\n\nOn the other hand, critics note that millions of people on Earth still lack clean water, adequate food and basic healthcare. Admittedly, a single space mission can cost billions of dollars, and the same amount could provide vaccines for millions of children or build hundreds of schools in poor regions. Since these problems cause suffering now, it seems difficult to justify spending so heavily on projects whose benefits may appear only decades later.\n\nNevertheless, I do not think that space research should be abandoned completely. Much of the funding is a small percentage of national budgets, and the knowledge gained often helps to solve problems on Earth, such as climate monitoring. Ultimately, however, governments should treat hunger, disease and poverty as their first priority and fund space exploration only when these basic needs are being met.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "limited public funds",
+        "vi": "ngân sách công hạn hẹp"
+      },
+      {
+        "en": "a worthwhile investment",
+        "vi": "một khoản đầu tư xứng đáng"
+      },
+      {
+        "en": "take priority",
+        "vi": "được ưu tiên"
+      },
+      {
+        "en": "point to the practical benefits",
+        "vi": "chỉ ra những lợi ích thực tế"
+      },
+      {
+        "en": "lack clean water",
+        "vi": "thiếu nước sạch"
+      },
+      {
+        "en": "Admittedly, ...",
+        "vi": "Phải thừa nhận rằng, ..."
+      },
+      {
+        "en": "be justified",
+        "vi": "có thể biện minh/hợp lý"
+      },
+      {
+        "en": "Ultimately, ...",
+        "vi": "Cuối cùng/Suy cho cùng, ..."
+      }
+    ]
+  },
+  {
+    "id": "w2-08",
+    "level": "C1",
+    "task": 2,
+    "title": "Globalisation: culture and trade (advantages and disadvantages)",
+    "prompt": "Globalisation means that goods, ideas and cultures are shared more easily between countries than ever before.\n\nDo the advantages of this trend outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Dạng 'outweigh': phải đưa ra kết luận rõ ràng - ưu điểm lớn hơn nhược điểm (hoặc ngược lại) - ngay mở bài.",
+      "Đoạn đầu trình bày phía bạn ủng hộ (mạnh hơn), đoạn sau trình bày phía còn lại ngắn gọn hơn rồi giải thích vì sao nó yếu hơn.",
+      "Từ vựng: cultural homogenisation, multinational corporations, free trade, cultural exchange, local industries, interdependence.",
+      "Hãy dùng ví dụ cụ thể: chuỗi thức ăn nhanh toàn cầu, hàng giá rẻ nhập khẩu, du học sinh.",
+      "Dùng cấu trúc so sánh trọng số: ... outweigh ..., the benefits far exceed ..., ... is a price worth paying."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; opinion - advantages outweigh disadvantages.",
+      "Body 1: Advantages - cheaper goods and wider choice, economic growth and jobs, cultural exchange, cooperation on global problems.",
+      "Body 2: Disadvantages - local businesses and traditions threatened, cultural homogenisation, inequality - but these can be managed.",
+      "Conclusion: Restate; advantages greater if governments protect local industries and culture."
+    ],
+    "modelAnswer": "Globalisation has changed the world economy and everyday life so quickly that its effects are still debated. Although it creates certain problems, I believe that its benefits clearly outweigh its drawbacks.\n\nThe most obvious advantage is economic. Free trade allows countries to specialise in what they produce best, which makes goods cheaper and gives consumers a wider choice. Developing countries in particular have benefited from foreign investment, which creates jobs and helps to lift people out of poverty. Vietnam's growth in manufacturing exports is a typical example. Globalisation also encourages cultural exchange. People can study abroad, enjoy music and cuisine from distant countries, and understand other societies better, which may reduce prejudice. Furthermore, cooperation between countries is essential for dealing with problems such as pandemics and climate change.\n\nNevertheless, globalisation has genuine disadvantages. Small local businesses often cannot compete with multinational corporations, so traditional shops and industries may disappear. There is also a risk of cultural homogenisation, as the same fast-food chains, films and fashion brands appear in cities everywhere, while local languages and customs lose their importance. In addition, the profits of global trade are not always shared fairly, and some workers face low wages or insecure jobs. Even so, these problems can largely be managed. Governments can support local producers, protect cultural heritage through education and regulation, and enforce fair labour standards. A world that shares knowledge, goods and technology is also far better able to solve shared challenges.\n\nIn conclusion, the advantages of globalisation are greater than the disadvantages, provided that countries take sensible steps to protect their own industries and traditions.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "outweigh its drawbacks",
+        "vi": "lớn hơn/vượt trội so với các mặt hạn chế"
+      },
+      {
+        "en": "specialise in",
+        "vi": "chuyên môn hóa vào"
+      },
+      {
+        "en": "foreign investment",
+        "vi": "đầu tư nước ngoài"
+      },
+      {
+        "en": "lift people out of poverty",
+        "vi": "giúp người dân thoát nghèo"
+      },
+      {
+        "en": "cultural homogenisation",
+        "vi": "sự đồng nhất hóa văn hóa"
+      },
+      {
+        "en": "compete with multinational corporations",
+        "vi": "cạnh tranh với các tập đoàn đa quốc gia"
+      },
+      {
+        "en": "be shared fairly",
+        "vi": "được chia sẻ công bằng"
+      },
+      {
+        "en": "provided that...",
+        "vi": "với điều kiện là..."
+      }
+    ]
+  },
+  {
+    "id": "w2-09",
+    "level": "B2",
+    "task": 2,
+    "title": "Family: young adults living with parents (two-part question)",
+    "prompt": "In many countries, a growing number of young adults continue to live with their parents until they are around 30.\n\nWhy is this happening? Is it a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Two-part: câu 1 hỏi nguyên nhân (Why), câu 2 hỏi đánh giá (positive or negative) - cần có kết luận rõ.",
+      "Mở bài nên nêu luôn quan điểm cho câu 2 (ví dụ: 'mixed but mostly positive' hoặc 'more negative').",
+      "Nguyên nhân tiêu biểu: giá nhà cao, học lâu hơn, việc làm không ổn định, văn hóa gia đình.",
+      "Đánh giá có thể cân bằng: lợi ích (tiết kiệm, gắn kết) và bất lợi (thiếu độc lập), rồi chọn bên mạnh hơn.",
+      "Dùng từ vựng: housing costs, financial independence, extended family, take responsibility, rent."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; two reasons and a view that the trend is mixed but mostly acceptable.",
+      "Body 1 (Why): High house prices and rent; longer education and unstable jobs; cultural traditions.",
+      "Body 2 (Positive or negative): Positives - save money, family support; negatives - delayed independence and maturity; overall view.",
+      "Conclusion: Summarise; it is acceptable if young adults still take responsibility."
+    ],
+    "modelAnswer": "It is increasingly common for people in their twenties and even thirties to stay in their parents' home. This essay will explain the main reasons for this change and argue that, although it has some disadvantages, the development is generally more positive than negative.\n\nThere are two main reasons for this trend. The first and most important is financial. In many cities, house prices and rents have risen much faster than salaries, so young people cannot afford to live alone. This is especially true for graduates, who often start with low-paid or short-term contracts. Second, young people now spend longer in education, and many continue to study for master's degrees, which delays the time at which they start earning. In some cultures, including Vietnam, it is also traditional for children to live with their parents until marriage, which makes this arrangement feel natural.\n\nIn my opinion, this development has more benefits than drawbacks. Living at home allows young adults to save money for a deposit on a home or for further study. It can also strengthen family relationships, as parents and children share meals and support one another. Parents may receive help with household tasks and companionship in later life. Nevertheless, there are some risks. Young people who never leave home may become dependent and may not learn to cook, manage a budget or solve problems on their own. They may also have less privacy and fewer chances to build independent lives. These problems can be avoided if young adults contribute to household bills and chores.\n\nTo sum up, high living costs and longer education explain why many young adults remain at home. If they take responsibility, the arrangement can benefit both generations.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "It is increasingly common for... to...",
+        "vi": "Ngày càng phổ biến việc... "
+      },
+      {
+        "en": "cannot afford to live alone",
+        "vi": "không đủ khả năng sống một mình"
+      },
+      {
+        "en": "rise faster than salaries",
+        "vi": "tăng nhanh hơn lương"
+      },
+      {
+        "en": "delay the time at which...",
+        "vi": "làm chậm thời điểm mà..."
+      },
+      {
+        "en": "save money for a deposit",
+        "vi": "dành dụm tiền đặt cọc nhà"
+      },
+      {
+        "en": "become dependent on...",
+        "vi": "trở nên phụ thuộc vào..."
+      },
+      {
+        "en": "contribute to household bills",
+        "vi": "đóng góp vào chi phí sinh hoạt gia đình"
+      },
+      {
+        "en": "benefit both generations",
+        "vi": "có lợi cho cả hai thế hệ"
+      }
+    ]
+  },
+  {
+    "id": "w2-10",
+    "level": "C1",
+    "task": 2,
+    "title": "Urbanisation: overcrowded cities (problem and solution)",
+    "prompt": "Many people are moving from rural areas to large cities, and as a result, cities are becoming overcrowded.\n\nWhat problems does this cause, and what measures can be taken to solve them?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Dạng Problems/Solutions: nêu 2 vấn đề lớn (nhà ở, giao thông, ô nhiễm...) rồi 2 giải pháp tương ứng, nói rõ cơ chế giải quyết.",
+      "Có thể tổ chức: Body 1 = problems; Body 2 = solutions, mỗi giải pháp nhắm vào một vấn đề ở Body 1.",
+      "Dùng ngôn ngữ học thuật: put pressure on, infrastructure, urban sprawl, decentralise, public transport network, affordable housing.",
+      "Ví dụ thực tế: kẹt xe, giá nhà tăng, khu ổ chuột; giải pháp: phát triển nông thôn, thành phố vệ tinh, metro.",
+      "Dùng câu điều kiện loại 1/2 hoặc 'would' để nói về hiệu quả của giải pháp."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; rural-urban migration is causing overcrowding; two problems and two solutions.",
+      "Body 1: Problems - housing shortage and high prices/slums; traffic congestion, pollution, pressure on services.",
+      "Body 2: Solutions - create jobs and services in rural areas to reduce migration; invest in public transport, affordable housing and satellite towns.",
+      "Conclusion: Summarise; combine rural development with better urban planning."
+    ],
+    "modelAnswer": "In many parts of the world, millions of people leave the countryside every year in search of better opportunities in large cities. This rapid urbanisation is putting enormous pressure on city life, but there are practical ways of dealing with it.\n\nThe most serious problems are related to housing and infrastructure. When too many people arrive in a short time, the supply of homes cannot keep up with demand, so prices and rents rise sharply. As a result, many newcomers end up in overcrowded slums with poor sanitation. Moreover, roads and public transport systems were not designed for such large populations. Traffic congestion wastes hours of people's time every day, and exhaust fumes cause air pollution that harms public health. Schools and hospitals are also stretched, and queues and waiting lists grow longer.\n\nTo address these issues, governments need to act both in the countryside and in the city. First, reducing the attraction of cities would slow migration. If rural areas had reliable electricity, good schools, hospitals and local industries, fewer people would feel that they had to leave. Governments could, for example, offer tax benefits to companies that build factories in smaller towns. Second, cities themselves need better planning. Investment in metro lines and bus networks would reduce traffic, while subsidised, affordable housing could stop families from being pushed into slums. Developing satellite towns around the main city, with their own jobs and services, would also spread the population more evenly.\n\nIn conclusion, the rise of overcrowded cities leads to housing shortages, congestion and pollution, but a combination of rural development and sensible urban planning can reduce these problems significantly.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "in search of better opportunities",
+        "vi": "để tìm kiếm cơ hội tốt hơn"
+      },
+      {
+        "en": "put enormous pressure on...",
+        "vi": "gây áp lực rất lớn lên..."
+      },
+      {
+        "en": "keep up with demand",
+        "vi": "đáp ứng kịp nhu cầu"
+      },
+      {
+        "en": "traffic congestion",
+        "vi": "tắc nghẽn giao thông"
+      },
+      {
+        "en": "be stretched",
+        "vi": "bị quá tải"
+      },
+      {
+        "en": "slow migration",
+        "vi": "làm chậm di cư"
+      },
+      {
+        "en": "affordable housing",
+        "vi": "nhà ở giá phải chăng"
+      },
+      {
+        "en": "satellite towns",
+        "vi": "các thị trấn vệ tinh"
+      }
+    ]
+  },
+  {
+    "id": "w2-11",
+    "level": "B1",
+    "task": 2,
+    "title": "Tourism: international tourism (advantages and disadvantages)",
+    "prompt": "International tourism has become a major industry in many countries.\n\nWhat are the advantages and disadvantages of tourism for the countries that receive visitors?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Mỗi đoạn thân bài nên có câu chủ đề rõ ràng: 'Tourism brings several economic benefits.' / 'However, it also has negative effects.'",
+      "Chia ưu điểm thành các loại: kinh tế, văn hóa; nhược điểm: môi trường, văn hóa địa phương, giá cả.",
+      "Ví dụ nên cụ thể: bãi biển bị rác, giá nhà tăng ở khu du lịch, việc làm cho người dân địa phương.",
+      "Dùng 'receive visitors' hoặc 'host countries' thay vì lặp 'countries with tourism'.",
+      "Không cần kết luận bên nào thắng, nhưng nên kết bài bằng nhận xét tổng quát."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; tourism is a big industry; it brings both advantages and disadvantages.",
+      "Body 1: Advantages - jobs, income, development of roads/airports, protection of heritage sites, cultural exchange.",
+      "Body 2: Disadvantages - damage to environment, overcrowding, higher prices for locals, loss of traditions.",
+      "Conclusion: Tourism is useful if it is well managed."
+    ],
+    "modelAnswer": "Tourism is one of the fastest-growing industries in the world, and many countries depend on visitors from abroad for a large part of their income. This essay will look at the advantages and disadvantages of tourism for the countries that welcome these visitors.\n\nThe greatest benefit of tourism is economic. Hotels, restaurants, tour companies and souvenir shops provide millions of jobs, often for people with little formal education. The money spent by visitors also pays for new roads, airports and other facilities that local people can use too. In addition, income from tourism can be used to protect historic buildings and national parks. For example, entrance fees in Ha Long Bay help to pay for cleaning and conservation. Tourism also lets local people meet visitors from different countries, which can increase understanding between cultures.\n\nHowever, tourism can also cause serious problems. Large numbers of visitors may damage the environment, especially in popular beaches and mountain areas, where rubbish, noise and pollution increase. Some places become so crowded in the high season that local residents find it hard to enjoy their own town. Moreover, prices of food, transport and housing often rise in tourist areas, so local people have to pay more even though their wages stay the same. Finally, traditions may be changed to please visitors, and the original culture can lose its meaning.\n\nIn conclusion, tourism brings jobs, income and cultural contact, but it may harm the environment and change local life. If governments plan carefully and limit the number of visitors, the advantages can be much greater than the disadvantages.",
+    "band": 7,
+    "usefulPhrases": [
+      {
+        "en": "depend on visitors from abroad",
+        "vi": "phụ thuộc vào du khách nước ngoài"
+      },
+      {
+        "en": "The greatest benefit of... is economic.",
+        "vi": "Lợi ích lớn nhất của... là về kinh tế."
+      },
+      {
+        "en": "provide millions of jobs",
+        "vi": "tạo ra hàng triệu việc làm"
+      },
+      {
+        "en": "historic buildings and national parks",
+        "vi": "các công trình lịch sử và vườn quốc gia"
+      },
+      {
+        "en": "increase understanding between cultures",
+        "vi": "tăng sự hiểu biết giữa các nền văn hóa"
+      },
+      {
+        "en": "in the high season",
+        "vi": "vào mùa cao điểm"
+      },
+      {
+        "en": "prices rise",
+        "vi": "giá cả tăng"
+      },
+      {
+        "en": "if ... is well managed",
+        "vi": "nếu được quản lý tốt"
+      }
+    ]
+  },
+  {
+    "id": "w2-12",
+    "level": "C1",
+    "task": 2,
+    "title": "Media: will newspapers disappear? (opinion)",
+    "prompt": "Some people believe that printed newspapers will disappear in the future because people will read the news online.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "tipsVi": [
+      "Dạng dự đoán tương lai: dùng 'will/may/are likely to' thận trọng; tránh khẳng định tuyệt đối.",
+      "Bạn có thể đồng ý phần lớn nhưng nói báo giấy 'sẽ không biến mất hoàn toàn' - hãy lập luận rõ.",
+      "Từ vựng: print media, digital platforms, circulation, subscription, credibility, fake news, advertising revenue.",
+      "Thêm đối trọng: quan điểm ngược lại (ai đó vẫn thích báo giấy) rồi giải thích vì sao ý kiến đó chỉ ảnh hưởng ít.",
+      "Giữ giọng văn khách quan, tránh 'I think' lặp lại; dùng 'It seems likely that...'."
+    ],
+    "outline": [
+      "Introduction: Paraphrase; opinion - largely agree, print will decline sharply but not vanish completely.",
+      "Body 1: Why print is declining - online news is free, instant, mobile; falling circulation and advertising; cheaper for publishers.",
+      "Body 2: Why print may survive in niche - some readers value reading on paper, magazines/weekend editions, older readers, trusted quality journalism.",
+      "Conclusion: Restate; print will become rarer and more specialised."
+    ],
+    "modelAnswer": "The internet has transformed the way people get information, and many predict that traditional newspapers will soon vanish. I largely agree that print newspapers will continue to decline, but I do not believe they will disappear completely.\n\nThere are strong reasons to expect a steep fall in printed newspapers. Online news is faster, usually free, and available on a phone at any time. A reader can see a story minutes after it happens, whereas a printed paper reports yesterday's events. Younger people in particular rarely buy newspapers, and sales have fallen year after year in many countries. This has also damaged the business model of publishers, because advertisers have moved to websites and social media platforms. Printing and delivering paper copies is expensive, so many newspapers have already closed their paper editions or reduced the number of days on which they appear.\n\nNevertheless, it seems unlikely that the printed newspaper will vanish entirely. Some people, especially older readers, prefer holding a newspaper and find it more relaxing than reading from a screen. Print can also feel more trustworthy and permanent in an age of online misinformation, and weekend editions and magazines with in-depth articles and good photography still have a loyal audience. As newspapers become rarer, they may even become a premium product for readers who are willing to pay more for quality journalism.\n\nIn conclusion, the number of printed newspapers will almost certainly continue to fall as digital news dominates, but a small, specialised market for paper editions will probably remain.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "transform the way people get information",
+        "vi": "thay đổi cách mọi người tiếp nhận thông tin"
+      },
+      {
+        "en": "largely agree",
+        "vi": "phần lớn đồng ý"
+      },
+      {
+        "en": "a steep fall in...",
+        "vi": "sự sụt giảm mạnh về..."
+      },
+      {
+        "en": "year after year",
+        "vi": "năm này qua năm khác"
+      },
+      {
+        "en": "the business model of publishers",
+        "vi": "mô hình kinh doanh của các nhà xuất bản"
+      },
+      {
+        "en": "online misinformation",
+        "vi": "thông tin sai lệch trên mạng"
+      },
+      {
+        "en": "a loyal audience",
+        "vi": "lượng độc giả trung thành"
+      },
+      {
+        "en": "a small, specialised market",
+        "vi": "một thị trường nhỏ, chuyên biệt"
+      }
+    ]
+  }
+]
