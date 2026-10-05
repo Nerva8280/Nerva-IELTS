@@ -7,6 +7,7 @@ import { englishVoices, loadVoices, speak, voiceGender } from "@/lib/tts";
 import { getRoadmap } from "@/lib/plan";
 import { LEVEL_INFO } from "@/lib/placement";
 import { todayStr, WEEKDAY_VI } from "@/lib/dates";
+import { MAIN_VOICES, VOICES } from "@/lib/audio-key";
 import { useAuth } from "@/components/AppShell";
 import { LevelChip, PageHeader } from "@/components/ui";
 
@@ -283,13 +284,34 @@ export default function SettingsPage() {
       </Section>
 
       <Section title="Giọng đọc">
-        <div className="mb-3 flex gap-2">
-          {(["en-GB", "en-US"] as const).map((a) => (
-            <button key={a} onClick={() => update((st) => void (st.settings.accent = a))} className={s.settings.accent === a ? "btn-primary flex-1" : "btn-ghost flex-1"}>
-              {a === "en-GB" ? "🇬🇧 Anh – Anh" : "🇺🇸 Anh – Mỹ"}
-            </button>
-          ))}
+        <div className="mb-1 text-sm font-semibold">Giọng mặc định (giọng AI tự nhiên)</div>
+        <div className="mb-3 grid grid-cols-2 gap-2">
+          {MAIN_VOICES.map((v) => {
+            const active = (s.settings.voice ?? (s.settings.accent === "en-US" ? "us-f" : "uk-f")) === v;
+            return (
+              <div key={v} className={`flex items-center gap-1 rounded-xl p-1 ${active ? "bg-indigo-600" : "bg-white ring-1 ring-slate-200"}`}>
+                <button
+                  className={`flex-1 py-1.5 text-sm font-semibold ${active ? "text-white" : "text-slate-700"}`}
+                  onClick={() =>
+                    update((st) => {
+                      st.settings.voice = v;
+                      st.settings.accent = v.startsWith("us") ? "en-US" : "en-GB";
+                    })
+                  }
+                >
+                  {VOICES[v].label}
+                </button>
+                <button className="rounded-lg bg-white/90 px-2 py-1" onClick={() => speak("Hello! How are you getting on with your English today?", { voice: v })} aria-label="Nghe thử">
+                  🔊
+                </button>
+              </div>
+            );
+          })}
         </div>
+        <p className="muted mb-3">Từ vựng và shadowing có đủ 4 giọng. Câu ví dụ, bài nói mẫu dùng giọng 🇬🇧 Nữ hoặc 🇺🇸 Nam theo giọng Anh/Mỹ bạn chọn.</p>
+        <details className="text-sm">
+          <summary className="cursor-pointer text-slate-500">Giọng dự phòng của trình duyệt (khi chưa có file giọng AI)</summary>
+          <div className="mt-2">
         {(["voiceF", "voiceM"] as const).map((k) => (
           <div key={k} className="mb-2 flex items-center gap-2 text-sm">
             <span className="w-16 shrink-0">{k === "voiceF" ? "Giọng nữ" : "Giọng nam"}</span>
@@ -307,11 +329,13 @@ export default function SettingsPage() {
                   </option>
                 ))}
             </select>
-            <button className="btn-soft px-3 py-1.5" onClick={() => speak("Hello! How are you getting on with your English today?", { gender: k === "voiceF" ? "f" : "m" })}>
+            <button className="btn-soft px-3 py-1.5" onClick={() => speak("Hello! How are you getting on with your English today?", { gender: k === "voiceF" ? "f" : "m", browserOnly: true })}>
               🔊
             </button>
           </div>
         ))}
+          </div>
+        </details>
         <div className="mt-3 flex items-center gap-3 text-sm">
           <span className="w-16 shrink-0">Tốc độ</span>
           <input
@@ -325,7 +349,6 @@ export default function SettingsPage() {
           />
           <span className="w-10 text-right">{s.settings.rate.toFixed(2)}×</span>
         </div>
-        <p className="muted mt-2">Mẹo: trên máy tính, trình duyệt Edge có giọng “Natural” rất tự nhiên. Trên điện thoại, cài thêm giọng tiếng Anh trong Cài đặt → Chuyển văn bản thành giọng nói.</p>
       </Section>
 
       <Section title="Dữ liệu">

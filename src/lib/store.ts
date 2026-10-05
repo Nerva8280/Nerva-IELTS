@@ -5,6 +5,7 @@ import type { Level } from "@/content/types";
 import type { SrsCard } from "./srs";
 import type { PlanTask, RoadmapChoice } from "./plan";
 import { todayStr } from "./dates";
+import type { VoiceId } from "./audio-key";
 
 export interface DayLog {
   plan?: PlanTask[];
@@ -14,7 +15,8 @@ export interface DayLog {
 }
 
 export interface Settings {
-  accent: "en-GB" | "en-US";
+  voice?: VoiceId; // preferred neural voice
+  accent: "en-GB" | "en-US"; // follows the voice; used for speech recognition and browser fallback
   voiceF?: string;
   voiceM?: string;
   rate: number;

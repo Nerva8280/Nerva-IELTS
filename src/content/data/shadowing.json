@@ -1,1442 +1,1682 @@
 [
- {
-  "id": "sh-a1-01",
-  "level": "A1",
-  "title": "Nice to meet you",
-  "topic": "Introductions",
-  "sentences": [
-   {
-    "en": "Hello, my name is Linh.",
-    "vi": "Xin chào, tên tôi là Linh.",
-    "tip": "Nhấn vào 'name' và tên 'Linh'. Nối âm 'name_is' → /neɪmɪz/."
-   },
-   {
-    "en": "Nice to meet you.",
-    "vi": "Rất vui được gặp bạn.",
-    "tip": "Nhấn 'Nice' và 'meet'. 'to' đọc yếu /tə/. Xuống giọng ở cuối câu."
-   },
-   {
-    "en": "I am from Vietnam.",
-    "vi": "Tôi đến từ Việt Nam.",
-    "tip": "Nhấn vào 'from' và 'Vietnam'. 'from' đọc yếu /frəm/."
-   },
-   {
-    "en": "I live in Hanoi with my family.",
-    "vi": "Tôi sống ở Hà Nội cùng gia đình.",
-    "tip": "Nhấn 'live', 'Hanoi', 'family'. Nối âm 'live_in' → /lɪvɪn/."
-   },
-   {
-    "en": "I am twenty-eight years old.",
-    "vi": "Tôi hai mươi tám tuổi.",
-    "tip": "Nhấn 'twenty' và 'years'. Nối 'am_twenty' và 'years_old' /jɪəzəʊld/."
-   },
-   {
-    "en": "What do you do?",
-    "vi": "Bạn làm nghề gì?",
-    "tip": "Nhấn 'What' và 'do' thứ hai. 'do you' nối thành /dəjə/. Xuống giọng ở câu hỏi Wh-."
-   },
-   {
-    "en": "I am an accountant.",
-    "vi": "Tôi là kế toán.",
-    "tip": "Nối âm 'am_an_accountant' liền mạch. Nhấn vào 'count' trong 'accountant'."
-   },
-   {
-    "en": "Are you a student?",
-    "vi": "Bạn có phải là sinh viên không?",
-    "tip": "Lên giọng cuối câu hỏi Yes/No. Nhấn 'student'."
-   }
-  ]
- },
- {
-  "id": "sh-a1-02",
-  "level": "A1",
-  "title": "My daily routine",
-  "topic": "Daily routine",
-  "sentences": [
-   {
-    "en": "I wake up at six o'clock.",
-    "vi": "Tôi thức dậy lúc sáu giờ.",
-    "tip": "Nối âm 'wake_up_at' → /weɪkʌpət/. Nhấn 'wake' và 'six'."
-   },
-   {
-    "en": "I brush my teeth and wash my face.",
-    "vi": "Tôi đánh răng và rửa mặt.",
-    "tip": "Nhấn 'brush', 'teeth', 'wash', 'face'. 'and' đọc yếu /ən/."
-   },
-   {
-    "en": "I have breakfast at seven.",
-    "vi": "Tôi ăn sáng lúc bảy giờ.",
-    "tip": "Nhấn 'breakfast' và 'seven'. 'have' ở đây là /hæv/ nhưng đọc nhẹ."
-   },
-   {
-    "en": "I go to work by bus.",
-    "vi": "Tôi đi làm bằng xe buýt.",
-    "tip": "'to' đọc yếu /tə/. Nhấn 'go', 'work', 'bus'."
-   },
-   {
-    "en": "I start work at eight thirty.",
-    "vi": "Tôi bắt đầu làm việc lúc tám giờ ba mươi.",
-    "tip": "Nối 'start_work' và 'at_eight'. Nhấn 'start', 'eight', 'thirty'."
-   },
-   {
-    "en": "I eat lunch with my colleagues.",
-    "vi": "Tôi ăn trưa với đồng nghiệp.",
-    "tip": "Nhấn 'lunch' và 'colleagues' /ˈkɒliːɡz/. 'with my' đọc nhanh, yếu."
-   },
-   {
-    "en": "I get home at six in the evening.",
-    "vi": "Tôi về nhà lúc sáu giờ tối.",
-    "tip": "Nối 'get_home' và 'at_six'. Nhấn 'home', 'six', 'evening'."
-   },
-   {
-    "en": "I go to bed at eleven.",
-    "vi": "Tôi đi ngủ lúc mười một giờ.",
-    "tip": "Nhấn 'bed' và 'eleven'. 'to' đọc yếu /tə/. Xuống giọng ở cuối."
-   }
-  ]
- },
- {
-  "id": "sh-a1-03",
-  "level": "A1",
-  "title": "At the restaurant",
-  "topic": "Ordering food",
-  "sentences": [
-   {
-    "en": "A table for two, please.",
-    "vi": "Cho tôi một bàn hai người.",
-    "tip": "Nhấn 'table' và 'two'. Lên nhẹ rồi xuống ở 'please'."
-   },
-   {
-    "en": "Can I see the menu, please?",
-    "vi": "Cho tôi xem thực đơn được không?",
-    "tip": "'Can I' nối thành /kənaɪ/. Lên giọng cuối câu hỏi Yes/No."
-   },
-   {
-    "en": "I would like a bowl of noodle soup.",
-    "vi": "Tôi muốn một tô mì nước.",
-    "tip": "'would like' rút gọn /wʊdlaɪk/. Nhấn 'bowl' và 'noodle'. 'of' đọc yếu /əv/."
-   },
-   {
-    "en": "And a glass of orange juice.",
-    "vi": "Và một ly nước cam.",
-    "tip": "Nhấn 'glass' và 'orange'. Nối 'glass_of' → /ɡlɑːsəv/."
-   },
-   {
-    "en": "Is it spicy?",
-    "vi": "Món này có cay không?",
-    "tip": "Lên giọng cuối câu hỏi Yes/No. Nhấn vào 'spicy'."
-   },
-   {
-    "en": "No, thank you. That is all.",
-    "vi": "Không, cảm ơn. Vậy là đủ rồi.",
-    "tip": "Nhấn 'No' và 'all'. Xuống giọng ở cuối câu."
-   },
-   {
-    "en": "Excuse me, can I have the bill?",
-    "vi": "Xin lỗi, cho tôi tính tiền.",
-    "tip": "Nhấn 'Excuse' và 'bill'. Lên giọng cuối câu hỏi."
-   },
-   {
-    "en": "The food was delicious.",
-    "vi": "Đồ ăn rất ngon.",
-    "tip": "Nhấn 'food' và 'delicious' /dɪˈlɪʃəs/. 'was' đọc yếu /wəz/."
-   }
-  ]
- },
- {
-  "id": "sh-a1-04",
-  "level": "A1",
-  "title": "Asking for directions",
-  "topic": "Directions",
-  "sentences": [
-   {
-    "en": "Excuse me, where is the station?",
-    "vi": "Xin lỗi, nhà ga ở đâu ạ?",
-    "tip": "Nhấn 'where' và 'station'. Xuống giọng ở câu hỏi Wh-."
-   },
-   {
-    "en": "Go straight for two hundred metres.",
-    "vi": "Đi thẳng hai trăm mét.",
-    "tip": "Nhấn 'straight', 'two hundred', 'metres'. 'for' đọc yếu /fə/."
-   },
-   {
-    "en": "Turn left at the traffic lights.",
-    "vi": "Rẽ trái ở chỗ đèn giao thông.",
-    "tip": "Nhấn 'left' và 'traffic'. 'at the' đọc yếu /ətðə/."
-   },
-   {
-    "en": "Then turn right at the bank.",
-    "vi": "Sau đó rẽ phải ở ngân hàng.",
-    "tip": "Nhấn 'right' và 'bank'. Nối 'turn_right'."
-   },
-   {
-    "en": "It is next to the post office.",
-    "vi": "Nó nằm cạnh bưu điện.",
-    "tip": "Nhấn 'next' và 'post'. Nối 'is_next_to' nhanh, 'to' yếu."
-   },
-   {
-    "en": "Is it far from here?",
-    "vi": "Chỗ đó có xa đây không?",
-    "tip": "Lên giọng cuối. Nhấn 'far'. 'from' đọc yếu /frəm/."
-   },
-   {
-    "en": "No, it is only five minutes on foot.",
-    "vi": "Không, chỉ năm phút đi bộ thôi.",
-    "tip": "Nhấn 'No', 'five', 'foot'. Nối 'is_only' → /ɪzˈəʊnli/."
-   },
-   {
-    "en": "Thank you very much for your help.",
-    "vi": "Cảm ơn bạn rất nhiều vì đã giúp.",
-    "tip": "Nhấn 'very' và 'help'. 'for your' → /fəjə/."
-   }
-  ]
- },
- {
-  "id": "sh-a1-05",
-  "level": "A1",
-  "title": "Going shopping",
-  "topic": "Shopping",
-  "sentences": [
-   {
-    "en": "How much is this shirt?",
-    "vi": "Cái áo sơ mi này giá bao nhiêu?",
-    "tip": "Nhấn 'much' và 'shirt'. Xuống giọng ở câu hỏi Wh-."
-   },
-   {
-    "en": "It is twenty dollars.",
-    "vi": "Nó giá hai mươi đô la.",
-    "tip": "Nhấn 'twenty' và 'dollars'. Nối 'is_twenty'."
-   },
-   {
-    "en": "Do you have a bigger size?",
-    "vi": "Bạn có cỡ lớn hơn không?",
-    "tip": "Lên giọng cuối câu. 'Do you' → /dʒə/. Nhấn 'bigger'."
-   },
-   {
-    "en": "Can I try it on?",
-    "vi": "Tôi mặc thử được không?",
-    "tip": "Nối 'try_it_on' → /traɪɪtɒn/. Lên giọng cuối câu."
-   },
-   {
-    "en": "The changing room is over there.",
-    "vi": "Phòng thử đồ ở đằng kia.",
-    "tip": "Nhấn 'changing' và 'there'. Nối 'is_over' → /ɪzˈəʊvə/."
-   },
-   {
-    "en": "It is too small for me.",
-    "vi": "Nó quá nhỏ với tôi.",
-    "tip": "Nhấn mạnh 'too' và 'small'. 'for me' đọc yếu."
-   },
-   {
-    "en": "I like this blue one.",
-    "vi": "Tôi thích cái màu xanh này.",
-    "tip": "Nhấn 'like', 'blue', 'one'. Xuống giọng ở cuối."
-   },
-   {
-    "en": "I will take it. Can I pay by card?",
-    "vi": "Tôi lấy cái này. Tôi trả bằng thẻ được không?",
-    "tip": "'I will' rút gọn /aɪl/. Lên giọng ở câu hỏi cuối."
-   }
-  ]
- },
- {
-  "id": "sh-a1-06",
-  "level": "A1",
-  "title": "What is the weather like?",
-  "topic": "Weather",
-  "sentences": [
-   {
-    "en": "It is sunny today.",
-    "vi": "Hôm nay trời nắng.",
-    "tip": "Nhấn 'sunny' và 'today'. Nối 'It_is' → /ɪtɪz/."
-   },
-   {
-    "en": "It is very hot in summer.",
-    "vi": "Mùa hè rất nóng.",
-    "tip": "Nhấn 'very', 'hot', 'summer'. Nối 'hot_in'."
-   },
-   {
-    "en": "It is cold in winter.",
-    "vi": "Mùa đông trời lạnh.",
-    "tip": "Nhấn 'cold' và 'winter'. Giọng xuống ở cuối."
-   },
-   {
-    "en": "It rains a lot in July.",
-    "vi": "Tháng Bảy mưa nhiều.",
-    "tip": "Nhấn 'rains', 'lot', 'July'. Nối 'a_lot_in' → /əlɒtɪn/."
-   },
-   {
-    "en": "Take an umbrella with you.",
-    "vi": "Hãy mang theo ô nhé.",
-    "tip": "Nối 'take_an_umbrella'. Nhấn 'take' và 'umbrella' /ʌmˈbrelə/."
-   },
-   {
-    "en": "Is it windy outside?",
-    "vi": "Bên ngoài có gió không?",
-    "tip": "Lên giọng cuối câu hỏi Yes/No. Nhấn 'windy'."
-   },
-   {
-    "en": "Yes, and it is a little cloudy.",
-    "vi": "Có, và trời hơi nhiều mây.",
-    "tip": "Nhấn 'Yes', 'little', 'cloudy'. Nối 'and_it_is'."
-   },
-   {
-    "en": "I love spring because it is warm.",
-    "vi": "Tôi thích mùa xuân vì trời ấm.",
-    "tip": "Nhấn 'love', 'spring', 'warm'. 'because' đọc /bɪˈkɒz/."
-   }
-  ]
- },
- {
-  "id": "sh-a2-01",
-  "level": "A2",
-  "title": "Hobbies and free time",
-  "topic": "Hobbies",
-  "sentences": [
-   {
-    "en": "What do you usually do in your free time?",
-    "vi": "Bạn thường làm gì vào thời gian rảnh?",
-    "tip": "Nhấn 'What', 'usually', 'free'. 'do you' → /dʒə/. Xuống giọng ở câu hỏi Wh-."
-   },
-   {
-    "en": "I like playing badminton with my friends on Saturdays.",
-    "vi": "Tôi thích chơi cầu lông với bạn bè vào các ngày thứ Bảy.",
-    "tip": "Nhấn 'playing', 'badminton', 'Saturdays'. 'with my' đọc nhanh, yếu."
-   },
-   {
-    "en": "Really? I prefer staying at home and reading novels.",
-    "vi": "Thật à? Tôi thích ở nhà đọc tiểu thuyết hơn.",
-    "tip": "Lên giọng ở 'Really?'. Nhấn 'prefer', 'home', 'novels'."
-   },
-   {
-    "en": "Do you enjoy cooking, or do you only eat?",
-    "vi": "Bạn có thích nấu ăn không, hay bạn chỉ ăn thôi?",
-    "tip": "Lên giọng ở 'cooking', xuống giọng ở 'eat' (câu hỏi lựa chọn)."
-   },
-   {
-    "en": "I'm learning to play the guitar, but it's quite difficult.",
-    "vi": "Tôi đang học chơi guitar, nhưng khá khó.",
-    "tip": "Nhấn 'learning', 'guitar', 'difficult'. 'to play' → /təpleɪ/."
-   },
-   {
-    "en": "My brother and I often watch football on television.",
-    "vi": "Anh trai tôi và tôi thường xem bóng đá trên tivi.",
-    "tip": "Nhấn 'brother', 'often', 'football'. 'and' đọc yếu /ən/."
-   },
-   {
-    "en": "Would you like to join us this weekend?",
-    "vi": "Cuối tuần này bạn có muốn tham gia cùng chúng tôi không?",
-    "tip": "'Would you' → /wʊdʒu/. Lên giọng cuối câu hỏi Yes/No."
-   },
-   {
-    "en": "That sounds great, but I have to finish some work first.",
-    "vi": "Nghe tuyệt đấy, nhưng tôi phải làm xong việc đã.",
-    "tip": "'have to' → /hæftə/. Nhấn 'great', 'finish', 'work'."
-   }
-  ]
- },
- {
-  "id": "sh-a2-02",
-  "level": "A2",
-  "title": "Planning a trip",
-  "topic": "Travel plans",
-  "sentences": [
-   {
-    "en": "We are going to visit Da Nang next month.",
-    "vi": "Chúng tôi sẽ đi thăm Đà Nẵng vào tháng sau.",
-    "tip": "'going to' → /ˈɡəʊɪŋtə/. Nhấn 'visit', 'Da Nang', 'next month'."
-   },
-   {
-    "en": "I have already booked the flight and the hotel.",
-    "vi": "Tôi đã đặt vé máy bay và khách sạn rồi.",
-    "tip": "Nhấn 'already', 'booked', 'flight', 'hotel'. 'and the' đọc yếu."
-   },
-   {
-    "en": "The hotel is near the beach, so we can walk there.",
-    "vi": "Khách sạn gần bãi biển nên chúng tôi có thể đi bộ đến đó.",
-    "tip": "Nhấn 'near', 'beach', 'walk'. 'can' đọc yếu /kən/."
-   },
-   {
-    "en": "What time does the plane leave?",
-    "vi": "Mấy giờ máy bay cất cánh?",
-    "tip": "Nhấn 'time' và 'leave'. Xuống giọng ở câu hỏi Wh-."
-   },
-   {
-    "en": "It leaves at a quarter past eight in the morning.",
-    "vi": "Nó cất cánh lúc tám giờ mười lăm sáng.",
-    "tip": "Nối 'leaves_at_a' và 'quarter_past'. Nhấn 'quarter' và 'morning'."
-   },
-   {
-    "en": "We should arrive at the airport two hours early.",
-    "vi": "Chúng ta nên đến sân bay sớm hai tiếng.",
-    "tip": "Nhấn 'should', 'arrive', 'two hours', 'early'. 'at the' đọc yếu."
-   },
-   {
-    "en": "Don't forget to bring your passport and some sunscreen.",
-    "vi": "Đừng quên mang hộ chiếu và kem chống nắng.",
-    "tip": "Nhấn 'forget', 'passport', 'sunscreen'. 'to' yếu. Nối 'passport_and'."
-   },
-   {
-    "en": "I can't wait. I haven't been to the sea for a long time.",
-    "vi": "Tôi nóng lòng quá. Lâu rồi tôi chưa được đi biển.",
-    "tip": "Nhấn mạnh 'can't wait'. Nhấn 'haven't', 'sea', 'long time'."
-   }
-  ]
- },
- {
-  "id": "sh-a2-03",
-  "level": "A2",
-  "title": "Talking about my family",
-  "topic": "Family",
-  "sentences": [
-   {
-    "en": "There are five people in my family.",
-    "vi": "Gia đình tôi có năm người.",
-    "tip": "Nhấn 'five' và 'family'. 'There are' → /ðeərə/."
-   },
-   {
-    "en": "My father is a teacher, and my mother works in a bank.",
-    "vi": "Bố tôi là giáo viên, còn mẹ tôi làm ở ngân hàng.",
-    "tip": "Nhấn 'father', 'teacher', 'mother', 'bank'. Hơi lên giọng ở 'teacher' (chưa hết ý)."
-   },
-   {
-    "en": "I have one older sister and one younger brother.",
-    "vi": "Tôi có một chị gái và một em trai.",
-    "tip": "Nhấn 'older', 'sister', 'younger', 'brother'. Nối 'one_older'."
-   },
-   {
-    "en": "My sister is tall and funny, and she loves music.",
-    "vi": "Chị tôi cao và hài hước, và chị ấy yêu âm nhạc.",
-    "tip": "Nhấn 'tall', 'funny', 'loves', 'music'. 'and' đọc yếu."
-   },
-   {
-    "en": "My brother is only ten, but he is very clever.",
-    "vi": "Em trai tôi mới mười tuổi nhưng rất thông minh.",
-    "tip": "Nhấn 'only ten', 'very', 'clever'. 'but he' → /bʌtɪ/."
-   },
-   {
-    "en": "We have dinner together every evening.",
-    "vi": "Chúng tôi ăn tối cùng nhau mỗi buổi tối.",
-    "tip": "Nhấn 'dinner', 'together', 'every evening'. Nối 'have_dinner'."
-   },
-   {
-    "en": "On Sundays, we usually visit my grandparents.",
-    "vi": "Vào các Chủ nhật, chúng tôi thường thăm ông bà.",
-    "tip": "Nhấn 'Sundays', 'usually', 'grandparents'. Lên nhẹ sau dấu phẩy."
-   },
-   {
-    "en": "I am very close to my family.",
-    "vi": "Tôi rất gắn bó với gia đình mình.",
-    "tip": "Nhấn 'very', 'close', 'family'. 'to my' → /təmaɪ/."
-   }
-  ]
- },
- {
-  "id": "sh-a2-04",
-  "level": "A2",
-  "title": "What did you do last weekend?",
-  "topic": "Past weekend",
-  "sentences": [
-   {
-    "en": "What did you do last weekend?",
-    "vi": "Cuối tuần trước bạn đã làm gì?",
-    "tip": "'did you' → /dɪdʒə/. Nhấn 'What', 'do', 'weekend'. Xuống giọng cuối."
-   },
-   {
-    "en": "I went to the cinema with my cousin on Saturday.",
-    "vi": "Thứ Bảy tôi đã đi xem phim với anh họ.",
-    "tip": "Nhấn 'went', 'cinema', 'cousin', 'Saturday'. 'to the' đọc yếu."
-   },
-   {
-    "en": "We watched a comedy, and I laughed a lot.",
-    "vi": "Chúng tôi xem một bộ phim hài và tôi cười rất nhiều.",
-    "tip": "'watched' đọc /wɒtʃt/, 'laughed' /lɑːft/. Nhấn 'comedy', 'laughed', 'lot'."
-   },
-   {
-    "en": "After the film, we had pizza at a small restaurant.",
-    "vi": "Sau phim, chúng tôi ăn pizza ở một nhà hàng nhỏ.",
-    "tip": "Nhấn 'film', 'pizza', 'small restaurant'. Nối 'had_pizza' và 'at_a'."
-   },
-   {
-    "en": "On Sunday I stayed at home because it rained all day.",
-    "vi": "Chủ nhật tôi ở nhà vì trời mưa cả ngày.",
-    "tip": "Nhấn 'stayed', 'rained', 'all day'. 'because' → /bɪˈkɒz/."
-   },
-   {
-    "en": "I cleaned my room and cooked dinner for my parents.",
-    "vi": "Tôi dọn phòng và nấu bữa tối cho bố mẹ.",
-    "tip": "'cleaned' /kliːnd/, 'cooked' /kʊkt/. Nhấn 'cleaned', 'cooked', 'parents'."
-   },
-   {
-    "en": "Did you have a good weekend?",
-    "vi": "Bạn có một cuối tuần vui vẻ chứ?",
-    "tip": "Lên giọng cuối câu hỏi Yes/No. 'Did you' → /dɪdʒə/."
-   },
-   {
-    "en": "Yes, it was relaxing, but it ended too quickly.",
-    "vi": "Có, rất thư giãn nhưng kết thúc quá nhanh.",
-    "tip": "Nhấn 'relaxing', 'ended', 'quickly'. 'was' đọc yếu /wəz/."
-   }
-  ]
- },
- {
-  "id": "sh-a2-05",
-  "level": "A2",
-  "title": "At the doctor's",
-  "topic": "Health",
-  "sentences": [
-   {
-    "en": "Good morning. What seems to be the problem?",
-    "vi": "Chào buổi sáng. Bạn gặp vấn đề gì vậy?",
-    "tip": "Nhấn 'seems' và 'problem'. Xuống giọng ở câu hỏi Wh-."
-   },
-   {
-    "en": "I have had a headache and a sore throat since Monday.",
-    "vi": "Tôi bị đau đầu và đau họng từ hôm thứ Hai.",
-    "tip": "Nhấn 'headache', 'sore throat', 'Monday'. 'have had' → /əvhæd/."
-   },
-   {
-    "en": "Do you have a fever or a cough?",
-    "vi": "Bạn có bị sốt hay ho không?",
-    "tip": "Lên giọng ở 'fever', xuống giọng ở 'cough' (câu hỏi lựa chọn)."
-   },
-   {
-    "en": "I feel tired, and I can't sleep well at night.",
-    "vi": "Tôi thấy mệt và ban đêm không ngủ ngon.",
-    "tip": "Nhấn 'tired', 'can't', 'sleep'. 'can't' có nguyên âm dài /kɑːnt/."
-   },
-   {
-    "en": "You should drink plenty of water and get some rest.",
-    "vi": "Bạn nên uống nhiều nước và nghỉ ngơi.",
-    "tip": "Nhấn 'should', 'plenty', 'water', 'rest'. Nối 'plenty_of' → /plentiəv/."
-   },
-   {
-    "en": "Take this medicine twice a day after meals.",
-    "vi": "Hãy uống thuốc này hai lần một ngày sau bữa ăn.",
-    "tip": "Nhấn 'medicine', 'twice', 'meals'. Nối 'twice_a_day'."
-   },
-   {
-    "en": "Is it serious, doctor?",
-    "vi": "Có nghiêm trọng không, bác sĩ?",
-    "tip": "Lên giọng ở 'serious', hạ nhẹ ở 'doctor'."
-   },
-   {
-    "en": "No, it's just a cold. You'll feel better in a few days.",
-    "vi": "Không, chỉ là cảm lạnh thôi. Vài ngày nữa bạn sẽ khỏe hơn.",
-    "tip": "Nhấn 'No', 'cold', 'better', 'few days'. 'You'll' → /juːl/."
-   }
-  ]
- },
- {
-  "id": "sh-a2-06",
-  "level": "A2",
-  "title": "My job",
-  "topic": "Work",
-  "sentences": [
-   {
-    "en": "I work for a small software company in the city centre.",
-    "vi": "Tôi làm cho một công ty phần mềm nhỏ ở trung tâm thành phố.",
-    "tip": "Nhấn 'work', 'software', 'city centre'. 'for a' → /fərə/."
-   },
-   {
-    "en": "I have worked there for about three years.",
-    "vi": "Tôi đã làm ở đó khoảng ba năm.",
-    "tip": "Nhấn 'worked', 'three', 'years'. 'for about' nối nhanh."
-   },
-   {
-    "en": "My job is to test new apps before they are released.",
-    "vi": "Công việc của tôi là kiểm thử ứng dụng mới trước khi phát hành.",
-    "tip": "Nhấn 'test', 'new apps', 'released'. 'is to' → /ɪztə/."
-   },
-   {
-    "en": "I usually start at nine and finish at half past five.",
-    "vi": "Tôi thường bắt đầu lúc chín giờ và kết thúc lúc năm rưỡi.",
-    "tip": "Nhấn 'start', 'nine', 'finish', 'half past five'. 'and' đọc yếu."
-   },
-   {
-    "en": "Sometimes I have to work late when there is a deadline.",
-    "vi": "Đôi khi tôi phải làm muộn khi có hạn chót.",
-    "tip": "'have to' → /hæftə/. Nhấn 'late' và 'deadline'."
-   },
-   {
-    "en": "I enjoy my job because my colleagues are friendly.",
-    "vi": "Tôi thích công việc vì các đồng nghiệp thân thiện.",
-    "tip": "Nhấn 'enjoy', 'colleagues', 'friendly'. 'because' → /bɪˈkɒz/."
-   },
-   {
-    "en": "However, the salary is not very high.",
-    "vi": "Tuy nhiên, lương không cao lắm.",
-    "tip": "Nhấn 'However' và lên nhẹ rồi xuống. Nhấn 'salary' và 'high'."
-   },
-   {
-    "en": "In the future, I would like to become a project manager.",
-    "vi": "Trong tương lai, tôi muốn trở thành quản lý dự án.",
-    "tip": "'would like to' → /wʊdlaɪktə/. Nhấn 'future', 'project manager'."
-   }
-  ]
- },
- {
-  "id": "sh-b1-01",
-  "level": "B1",
-  "title": "Where I come from",
-  "topic": "Hometown",
-  "sentences": [
-   {
-    "en": "I come from a medium-sized city in the central part of Vietnam, which is famous for its beaches.",
-    "vi": "Tôi đến từ một thành phố cỡ vừa ở miền Trung Việt Nam, nổi tiếng với các bãi biển.",
-    "tip": "Nhấn 'medium-sized', 'central', 'famous', 'beaches'. Ngắt hơi nhẹ trước 'which'."
-   },
-   {
-    "en": "It used to be a quiet fishing town, but it has grown quickly over the last ten years.",
-    "vi": "Trước đây đó là một thị trấn chài yên tĩnh, nhưng nó đã phát triển nhanh trong mười năm qua.",
-    "tip": "'used to' → /juːstə/. Nhấn 'quiet', 'grown', 'quickly'."
-   },
-   {
-    "en": "What I like most about my hometown is the friendly atmosphere and the fresh seafood.",
-    "vi": "Điều tôi thích nhất ở quê là bầu không khí thân thiện và hải sản tươi.",
-    "tip": "Nhấn 'like most', 'friendly', 'fresh seafood'. 'and the' đọc yếu."
-   },
-   {
-    "en": "The only downside is that it gets extremely crowded during the summer holidays.",
-    "vi": "Nhược điểm duy nhất là nơi đây cực kỳ đông đúc vào dịp nghỉ hè.",
-    "tip": "Nhấn 'only downside', 'extremely crowded', 'summer'. Nối 'gets_extremely'."
-   },
-   {
-    "en": "I moved to Hanoi five years ago because there are more job opportunities here.",
-    "vi": "Tôi chuyển ra Hà Nội năm năm trước vì ở đây có nhiều cơ hội việc làm hơn.",
-    "tip": "Nhấn 'moved', 'five years', 'job opportunities'. 'there are' → /ðeərə/."
-   },
-   {
-    "en": "Even so, I still go back to see my parents at least once a month.",
-    "vi": "Dù vậy, tôi vẫn về thăm bố mẹ ít nhất mỗi tháng một lần.",
-    "tip": "Nhấn 'still', 'parents', 'once a month'. Nối 'at_least_once_a'."
-   },
-   {
-    "en": "If you ever visit, I would definitely recommend trying the local noodle soup.",
-    "vi": "Nếu bạn có dịp ghé thăm, tôi chắc chắn khuyên bạn thử món mì địa phương.",
-    "tip": "Nhấn 'definitely', 'recommend', 'noodle soup'. 'would' → /wʊd/ yếu."
-   },
-   {
-    "en": "Honestly, I think it is one of the best places to relax in the whole country.",
-    "vi": "Thật lòng tôi nghĩ đó là một trong những nơi tuyệt nhất để thư giãn cả nước.",
-    "tip": "Nhấn 'Honestly', 'best', 'relax', 'whole country'. Nối 'one_of_the' → /wʌnəvðə/."
-   }
-  ]
- },
- {
-  "id": "sh-b1-02",
-  "level": "B1",
-  "title": "Work and studies",
-  "topic": "Studies and work",
-  "sentences": [
-   {
-    "en": "I graduated from university three years ago, and I now work as a marketing assistant.",
-    "vi": "Tôi tốt nghiệp đại học ba năm trước và hiện làm trợ lý marketing.",
-    "tip": "Nhấn 'graduated', 'three years', 'marketing assistant'. 'and I' nối nhanh."
-   },
-   {
-    "en": "At university, I studied business administration, which gave me a solid foundation.",
-    "vi": "Ở đại học tôi học quản trị kinh doanh, nó cho tôi nền tảng vững chắc.",
-    "tip": "Nhấn 'business administration', 'solid foundation'. Ngắt nhẹ trước 'which'."
-   },
-   {
-    "en": "My daily tasks include writing social media posts and analysing customer feedback.",
-    "vi": "Việc hằng ngày của tôi gồm viết bài mạng xã hội và phân tích phản hồi khách hàng.",
-    "tip": "Nhấn 'writing', 'social media', 'analysing', 'feedback'. Nối 'posts_and'."
-   },
-   {
-    "en": "What I enjoy most is being creative and working in a team with supportive people.",
-    "vi": "Điều tôi thích nhất là được sáng tạo và làm việc nhóm với những người biết hỗ trợ.",
-    "tip": "Nhấn 'enjoy most', 'creative', 'team', 'supportive'."
-   },
-   {
-    "en": "The hours can be quite long, especially when we are preparing a big campaign.",
-    "vi": "Giờ làm có thể khá dài, nhất là khi chúng tôi chuẩn bị một chiến dịch lớn.",
-    "tip": "Nhấn 'long', 'especially', 'big campaign'. 'can' đọc yếu /kən/."
-   },
-   {
-    "en": "I'm thinking of taking an evening course to improve my English and my design skills.",
-    "vi": "Tôi đang nghĩ đến việc học một khóa buổi tối để nâng cao tiếng Anh và kỹ năng thiết kế.",
-    "tip": "Nhấn 'thinking', 'evening course', 'English', 'design'. Nối 'thinking_of'."
-   },
-   {
-    "en": "In the long run, I hope to be promoted to a managerial position.",
-    "vi": "Về lâu dài, tôi hy vọng được thăng chức lên vị trí quản lý.",
-    "tip": "Nhấn 'long run', 'promoted', 'managerial'. 'to be' → /təbi/."
-   },
-   {
-    "en": "For now, though, I'm just concentrating on gaining as much experience as possible.",
-    "vi": "Tuy nhiên hiện giờ tôi chỉ tập trung tích lũy thật nhiều kinh nghiệm.",
-    "tip": "Nhấn 'For now', 'concentrating', 'experience'. 'as much as' đọc yếu."
-   }
-  ]
- },
- {
-  "id": "sh-b1-03",
-  "level": "B1",
-  "title": "How I relax",
-  "topic": "Free time",
-  "sentences": [
-   {
-    "en": "In my spare time, I like to unwind by going for a long walk by the lake.",
-    "vi": "Lúc rảnh, tôi thích thư giãn bằng cách đi dạo dài bên hồ.",
-    "tip": "Nhấn 'spare time', 'unwind', 'long walk', 'lake'. 'like to' → /laɪktə/."
-   },
-   {
-    "en": "It helps me clear my head after a stressful day at the office.",
-    "vi": "Nó giúp tôi đầu óc thông thoáng sau một ngày căng thẳng ở văn phòng.",
-    "tip": "Nhấn 'helps', 'clear', 'stressful', 'office'. Nối 'at_the_office'."
-   },
-   {
-    "en": "I also enjoy photography, so I usually take my camera with me.",
-    "vi": "Tôi cũng thích nhiếp ảnh nên thường mang theo máy ảnh.",
-    "tip": "Nhấn 'photography' /fəˈtɒɡrəfi/, 'camera'. Ngắt nhẹ sau dấu phẩy."
-   },
-   {
-    "en": "On weekends, I sometimes meet up with friends for coffee and a chat.",
-    "vi": "Cuối tuần, đôi khi tôi gặp bạn bè uống cà phê và trò chuyện.",
-    "tip": "Nhấn 'weekends', 'meet up', 'coffee', 'chat'. Nối 'meet_up_with'."
-   },
-   {
-    "en": "I wouldn't say I'm very sporty, but I try to swim once or twice a week.",
-    "vi": "Tôi không hẳn là người thích thể thao, nhưng cố gắng bơi một hai lần mỗi tuần.",
-    "tip": "Nhấn 'wouldn't', 'sporty', 'swim', 'twice'. Lên giọng ở 'once', xuống ở 'twice'."
-   },
-   {
-    "en": "When it rains, I prefer staying in and binge-watching documentaries.",
-    "vi": "Khi trời mưa, tôi thích ở nhà xem liền một mạch các phim tài liệu.",
-    "tip": "Nhấn 'rains', 'prefer', 'staying in', 'documentaries'."
-   },
-   {
-    "en": "I would love to have more free time, but my schedule is quite packed these days.",
-    "vi": "Tôi muốn có nhiều thời gian rảnh hơn nhưng dạo này lịch khá kín.",
-    "tip": "Nhấn 'love', 'more free time', 'packed'. 'would love to' → /wʊdlʌvtə/."
-   },
-   {
-    "en": "Still, I always make time for the things that make me happy.",
-    "vi": "Dù vậy, tôi luôn dành thời gian cho những điều khiến mình hạnh phúc.",
-    "tip": "Nhấn 'Still', 'make time', 'happy'. Nối 'make_time_for'."
-   }
-  ]
- },
- {
-  "id": "sh-b1-04",
-  "level": "B1",
-  "title": "Technology in my life",
-  "topic": "Technology",
-  "sentences": [
-   {
-    "en": "I use my smartphone for almost everything, from banking to booking taxis.",
-    "vi": "Tôi dùng điện thoại cho hầu như mọi thứ, từ ngân hàng đến đặt taxi.",
-    "tip": "Nhấn 'smartphone', 'almost everything', 'banking', 'taxis'. 'from' yếu /frəm/."
-   },
-   {
-    "en": "I can't imagine going a single day without checking my messages.",
-    "vi": "Tôi không thể tưởng tượng nổi một ngày mà không kiểm tra tin nhắn.",
-    "tip": "Nhấn 'can't imagine', 'single', 'messages'. 'can't' /kɑːnt/ dài."
-   },
-   {
-    "en": "On the one hand, technology makes life much more convenient and efficient.",
-    "vi": "Một mặt, công nghệ làm cuộc sống tiện lợi và hiệu quả hơn nhiều.",
-    "tip": "Nhấn 'one hand', 'convenient', 'efficient'. Lên nhẹ sau dấu phẩy."
-   },
-   {
-    "en": "On the other hand, it's easy to waste hours scrolling through social media.",
-    "vi": "Mặt khác, rất dễ phí hàng giờ lướt mạng xã hội.",
-    "tip": "Nhấn 'other hand', 'easy', 'waste hours', 'scrolling'. 'it's easy to' nối nhanh."
-   },
-   {
-    "en": "That's why I turn off my notifications after nine o'clock at night.",
-    "vi": "Đó là lý do tôi tắt thông báo sau chín giờ tối.",
-    "tip": "Nhấn 'why', 'turn off', 'notifications', 'nine'. Nối 'turn_off_my'."
-   },
-   {
-    "en": "My parents find new devices confusing, so I often help them set things up.",
-    "vi": "Bố mẹ tôi thấy thiết bị mới khó hiểu nên tôi thường giúp họ cài đặt.",
-    "tip": "Nhấn 'confusing', 'often help', 'set up'. Nối 'set_things_up'."
-   },
-   {
-    "en": "I think artificial intelligence will change the way we work in the next decade.",
-    "vi": "Tôi nghĩ trí tuệ nhân tạo sẽ thay đổi cách chúng ta làm việc trong thập kỷ tới.",
-    "tip": "Nhấn 'artificial intelligence', 'change', 'work', 'decade'. 'will' đọc yếu."
-   },
-   {
-    "en": "As long as we use it wisely, I believe it will do more good than harm.",
-    "vi": "Miễn là dùng nó một cách khôn ngoan, tôi tin nó có lợi nhiều hơn hại.",
-    "tip": "Nhấn 'wisely', 'good', 'harm'. 'as long as' nối nhanh /əzlɒŋəz/."
-   }
-  ]
- },
- {
-  "id": "sh-b1-05",
-  "level": "B1",
-  "title": "Food I love",
-  "topic": "Food",
-  "sentences": [
-   {
-    "en": "I'm a big fan of Vietnamese food, particularly dishes with fresh herbs and light broth.",
-    "vi": "Tôi rất mê món Việt, đặc biệt là các món có rau thơm tươi và nước dùng thanh.",
-    "tip": "Nhấn 'big fan', 'particularly', 'fresh herbs', 'light broth'."
-   },
-   {
-    "en": "My favourite dish is bun cha, which is grilled pork served with rice noodles.",
-    "vi": "Món tôi thích nhất là bún chả, thịt heo nướng ăn với bún.",
-    "tip": "Nhấn 'favourite', 'bun cha', 'grilled pork', 'rice noodles'. Ngắt nhẹ trước 'which'."
-   },
-   {
-    "en": "I usually eat out at least twice a week, mostly at small family-run restaurants.",
-    "vi": "Tôi thường ăn ngoài ít nhất hai lần một tuần, chủ yếu ở các quán nhỏ gia đình.",
-    "tip": "Nhấn 'eat out', 'twice', 'family-run'. Nối 'eat_out_at_least'."
-   },
-   {
-    "en": "When I have time, I enjoy cooking traditional meals for my friends.",
-    "vi": "Khi có thời gian, tôi thích nấu món truyền thống cho bạn bè.",
-    "tip": "Nhấn 'time', 'cooking', 'traditional', 'friends'."
-   },
-   {
-    "en": "I'm not really keen on very spicy food because it upsets my stomach.",
-    "vi": "Tôi không thích đồ quá cay vì nó làm đau bụng.",
-    "tip": "Nhấn 'not really keen', 'spicy', 'upsets'. 'because it' nối /bɪˈkɒzɪt/."
-   },
-   {
-    "en": "Over the past few years, I've been trying to eat more vegetables and less sugar.",
-    "vi": "Vài năm nay tôi cố ăn nhiều rau hơn và bớt đường.",
-    "tip": "Nhấn 'past few years', 'vegetables', 'less sugar'. 'I've been' → /aɪvbɪn/."
-   },
-   {
-    "en": "Fast food is convenient, but I don't think it's a healthy choice for every day.",
-    "vi": "Đồ ăn nhanh tiện nhưng tôi không nghĩ nó là lựa chọn lành mạnh mỗi ngày.",
-    "tip": "Nhấn 'convenient', 'healthy choice', 'every day'. Lên nhẹ sau dấu phẩy."
-   },
-   {
-    "en": "If I could try any cuisine in the world, I would go for authentic Italian pasta.",
-    "vi": "Nếu được thử bất kỳ nền ẩm thực nào, tôi sẽ chọn mì Ý chính gốc.",
-    "tip": "Nhấn 'any cuisine', 'authentic', 'Italian pasta'. 'would go for' → /wʊdɡəʊfə/."
-   }
-  ]
- },
- {
-  "id": "sh-b1-06",
-  "level": "B1",
-  "title": "The music I listen to",
-  "topic": "Music",
-  "sentences": [
-   {
-    "en": "I listen to music almost every day, especially on my way to work.",
-    "vi": "Tôi nghe nhạc hầu như mỗi ngày, nhất là trên đường đi làm.",
-    "tip": "Nhấn 'music', 'every day', 'especially', 'work'. Nối 'on_my_way'."
-   },
-   {
-    "en": "My taste is quite varied, but I tend to prefer soft pop and acoustic songs.",
-    "vi": "Gu của tôi khá đa dạng nhưng tôi thường thích pop nhẹ và nhạc mộc.",
-    "tip": "Nhấn 'varied', 'prefer', 'soft pop', 'acoustic'. 'tend to' → /tendtə/."
-   },
-   {
-    "en": "Listening to calm music helps me concentrate when I'm studying or working.",
-    "vi": "Nghe nhạc êm giúp tôi tập trung khi học hoặc làm việc.",
-    "tip": "Nhấn 'calm', 'concentrate', 'studying', 'working'. Lên ở 'studying', xuống ở 'working'."
-   },
-   {
-    "en": "When I need some energy, I switch to upbeat songs from the nineties.",
-    "vi": "Khi cần năng lượng, tôi chuyển sang các bài sôi động thập niên chín mươi.",
-    "tip": "Nhấn 'energy', 'switch', 'upbeat', 'nineties'. Nối 'switch_to'."
-   },
-   {
-    "en": "I used to play the piano as a child, although I haven't practised for years.",
-    "vi": "Hồi nhỏ tôi từng chơi piano, dù đã nhiều năm không luyện tập.",
-    "tip": "'used to' → /juːstə/. Nhấn 'piano', 'child', 'haven't', 'years'."
-   },
-   {
-    "en": "I'd really love to see my favourite singer perform live one day.",
-    "vi": "Tôi rất muốn một ngày được xem ca sĩ yêu thích biểu diễn trực tiếp.",
-    "tip": "Nhấn mạnh 'really love', 'favourite', 'live'. 'I'd' → /aɪd/."
-   },
-   {
-    "en": "Concerts can be expensive, but the atmosphere is absolutely unforgettable.",
-    "vi": "Buổi hòa nhạc có thể đắt nhưng không khí thì không thể nào quên.",
-    "tip": "Nhấn 'expensive', 'atmosphere', 'unforgettable'. 'can' yếu /kən/."
-   },
-   {
-    "en": "In my opinion, music brings people together regardless of their age or language.",
-    "vi": "Theo tôi, âm nhạc gắn kết mọi người bất kể tuổi tác hay ngôn ngữ.",
-    "tip": "Nhấn 'opinion', 'brings', 'together', 'regardless', 'language'."
-   }
-  ]
- },
- {
-  "id": "sh-b2-01",
-  "level": "B2",
-  "title": "Describing a person who inspired me",
-  "topic": "Part 2: a person",
-  "sentences": [
-   {
-    "en": "The person I'd like to talk about is my high school literature teacher, Mrs Hoa.",
-    "vi": "Người tôi muốn nói đến là cô giáo văn cấp ba của tôi, cô Hoa.",
-    "tip": "Nhấn 'person', 'literature teacher', 'Hoa'. 'I'd like to' → /aɪdlaɪktə/."
-   },
-   {
-    "en": "What struck me most about her was the way she made every lesson feel like a story.",
-    "vi": "Điều gây ấn tượng nhất với tôi là cách cô biến mỗi bài học thành một câu chuyện.",
-    "tip": "Nhấn 'struck', 'most', 'way', 'story'. Nối 'made_every'."
-   },
-   {
-    "en": "Not only did she teach us to analyse texts, but she also encouraged us to think independently.",
-    "vi": "Cô không chỉ dạy chúng tôi phân tích văn bản mà còn khuyến khích suy nghĩ độc lập.",
-    "tip": "Nhấn 'Not only', 'analyse', 'also', 'independently'. Đảo ngữ: nhấn mạnh 'Not only did she'."
-   },
-   {
-    "en": "Thanks to her, I gained the confidence to speak up in class, which I had never done before.",
-    "vi": "Nhờ cô, tôi có đủ tự tin phát biểu trong lớp, điều mà trước đó tôi chưa từng làm.",
-    "tip": "Nhấn 'Thanks', 'confidence', 'speak up', 'never'. 'had' yếu /həd/."
-   },
-   {
-    "en": "Looking back, I realise she taught me far more than just grammar and literature.",
-    "vi": "Nhìn lại, tôi nhận ra cô dạy tôi nhiều hơn là chỉ ngữ pháp và văn học.",
-    "tip": "Nhấn 'Looking back', 'realise', 'far more'. Lên nhẹ sau dấu phẩy."
-   },
-   {
-    "en": "Although we lost touch after graduation, I still think of her whenever I read a good book.",
-    "vi": "Dù mất liên lạc sau tốt nghiệp, tôi vẫn nghĩ về cô mỗi khi đọc một cuốn sách hay.",
-    "tip": "Nhấn 'lost touch', 'still', 'good book'. Nối 'lost_touch_after'."
-   },
-   {
-    "en": "I suppose that's the true mark of a great teacher: their influence lasts long after the class ends.",
-    "vi": "Tôi nghĩ đó là dấu ấn thật sự của người thầy giỏi: ảnh hưởng còn kéo dài rất lâu sau khi lớp kết thúc.",
-    "tip": "Nhấn 'true mark', 'great teacher', 'lasts', 'ends'. Ngắt hơi ở dấu hai chấm."
-   },
-   {
-    "en": "If I ever get the chance, I would love to thank her in person.",
-    "vi": "Nếu có dịp, tôi rất muốn trực tiếp cảm ơn cô.",
-    "tip": "Nhấn 'chance', 'love', 'thank', 'person'. 'would love to' → /wʊdlʌvtə/."
-   }
-  ]
- },
- {
-  "id": "sh-b2-02",
-  "level": "B2",
-  "title": "A memorable journey",
-  "topic": "Part 2: a trip",
-  "sentences": [
-   {
-    "en": "I'd like to describe a trip to Ha Giang that I took with my cousins two years ago.",
-    "vi": "Tôi muốn kể về chuyến đi Hà Giang cùng các anh em họ hai năm trước.",
-    "tip": "Nhấn 'describe', 'trip', 'Ha Giang', 'two years ago'. 'that I' nối nhanh."
-   },
-   {
-    "en": "We rented motorbikes and spent four days riding along winding mountain roads.",
-    "vi": "Chúng tôi thuê xe máy và dành bốn ngày chạy dọc những con đường núi ngoằn ngoèo.",
-    "tip": "Nhấn 'rented', 'four days', 'winding', 'mountain'. Nối 'spent_four'."
-   },
-   {
-    "en": "The scenery was absolutely breathtaking, especially at sunrise when the valleys were covered in mist.",
-    "vi": "Phong cảnh đẹp đến nghẹt thở, nhất là lúc bình minh khi thung lũng phủ sương.",
-    "tip": "Nhấn mạnh 'absolutely breathtaking', 'sunrise', 'mist'. 'was' yếu."
-   },
-   {
-    "en": "Admittedly, the journey was exhausting, and at one point we got lost in heavy rain.",
-    "vi": "Phải thừa nhận chuyến đi rất mệt, và có lúc chúng tôi bị lạc trong mưa lớn.",
-    "tip": "Nhấn 'Admittedly', 'exhausting', 'lost', 'heavy rain'."
-   },
-   {
-    "en": "Fortunately, a local family invited us in for tea and let us stay the night.",
-    "vi": "May mắn là một gia đình địa phương mời chúng tôi vào uống trà và cho ngủ lại.",
-    "tip": "Nhấn 'Fortunately', 'invited', 'tea', 'stay'. Nối 'invited_us_in'."
-   },
-   {
-    "en": "That unexpected act of kindness turned out to be the highlight of the whole trip.",
-    "vi": "Hành động tử tế bất ngờ đó hóa ra là điểm nhấn của cả chuyến đi.",
-    "tip": "Nhấn 'unexpected', 'kindness', 'highlight'. 'turned out to' nối nhanh."
-   },
-   {
-    "en": "As a result, I've come to believe that the best travel experiences are often the unplanned ones.",
-    "vi": "Kết quả là tôi tin rằng những trải nghiệm du lịch tuyệt nhất thường là những điều không lên kế hoạch.",
-    "tip": "Nhấn 'As a result', 'best', 'unplanned'. 'I've come to' → /aɪvkʌmtə/."
-   },
-   {
-    "en": "I'm hoping to go back there next year, preferably in autumn when the rice terraces turn golden.",
-    "vi": "Tôi hy vọng quay lại vào năm tới, tốt nhất là mùa thu khi ruộng bậc thang vàng óng.",
-    "tip": "Nhấn 'hoping', 'preferably', 'autumn', 'golden'."
-   }
-  ]
- },
- {
-  "id": "sh-b2-03",
-  "level": "B2",
-  "title": "Does technology make us happier?",
-  "topic": "Part 3: technology",
-  "sentences": [
-   {
-    "en": "I'd say it depends on how we use it, rather than on the technology itself.",
-    "vi": "Tôi cho rằng điều đó phụ thuộc vào cách chúng ta dùng, hơn là bản thân công nghệ.",
-    "tip": "Nhấn 'depends', 'how', 'use', 'itself'. 'I'd say' → /aɪdseɪ/."
-   },
-   {
-    "en": "On the whole, I think it has made our lives easier, but not necessarily happier.",
-    "vi": "Nhìn chung tôi nghĩ nó làm cuộc sống dễ hơn nhưng chưa chắc hạnh phúc hơn.",
-    "tip": "Nhấn 'whole', 'easier', 'not necessarily', 'happier'. Lên nhẹ ở 'easier'."
-   },
-   {
-    "en": "For instance, social media lets us stay in touch with relatives abroad, yet it can also make us feel lonely.",
-    "vi": "Ví dụ, mạng xã hội giúp liên lạc với người thân ở nước ngoài, nhưng cũng có thể khiến ta thấy cô đơn.",
-    "tip": "Nhấn 'For instance', 'stay in touch', 'yet', 'lonely'."
-   },
-   {
-    "en": "One reason for this is that people tend to compare themselves with the polished lives they see online.",
-    "vi": "Một lý do là con người hay so sánh mình với cuộc sống được trau chuốt họ thấy trên mạng.",
-    "tip": "Nhấn 'One reason', 'compare', 'polished', 'online'. 'tend to' → /tendtə/."
-   },
-   {
-    "en": "That being said, I don't think we should blame the tools; it's a matter of setting healthy boundaries.",
-    "vi": "Tuy vậy, tôi không nghĩ nên đổ lỗi cho công cụ; vấn đề là đặt ra ranh giới lành mạnh.",
-    "tip": "Nhấn 'That being said', 'blame', 'boundaries'. Ngắt ở dấu chấm phẩy."
-   },
-   {
-    "en": "If schools taught digital habits more seriously, young people would be far better prepared.",
-    "vi": "Nếu trường học dạy thói quen số nghiêm túc hơn, giới trẻ sẽ được chuẩn bị tốt hơn nhiều.",
-    "tip": "Nhấn 'schools', 'seriously', 'far better prepared'. Lên nhẹ sau dấu phẩy."
-   },
-   {
-    "en": "In the long term, I'm fairly optimistic, provided that regulation keeps pace with innovation.",
-    "vi": "Về dài hạn tôi khá lạc quan, miễn là quy định theo kịp đổi mới.",
-    "tip": "Nhấn 'long term', 'optimistic', 'provided', 'regulation', 'innovation'."
-   },
-   {
-    "en": "All in all, technology is a double-edged sword, and the outcome is largely up to us.",
-    "vi": "Tóm lại, công nghệ là con dao hai lưỡi, và kết quả phần lớn do chúng ta quyết định.",
-    "tip": "Nhấn 'All in all', 'double-edged sword', 'largely up to us'. Xuống giọng dứt khoát cuối câu."
-   }
-  ]
- },
- {
-  "id": "sh-b2-04",
-  "level": "B2",
-  "title": "A place I would like to visit",
-  "topic": "Part 2: a place",
-  "sentences": [
-   {
-    "en": "One place I've always dreamed of visiting is Kyoto in Japan.",
-    "vi": "Một nơi tôi luôn mơ được đến thăm là Kyoto ở Nhật Bản.",
-    "tip": "Nhấn 'always dreamed', 'visiting', 'Kyoto'. Nối 'dreamed_of'."
-   },
-   {
-    "en": "I first became interested in it after watching a documentary about its ancient temples and gardens.",
-    "vi": "Tôi bắt đầu quan tâm sau khi xem phim tài liệu về những ngôi đền và khu vườn cổ.",
-    "tip": "Nhấn 'first', 'interested', 'ancient temples', 'gardens'. Nối 'became_interested'."
-   },
-   {
-    "en": "What fascinates me is how the city has managed to preserve its traditions despite rapid modernisation.",
-    "vi": "Điều cuốn hút tôi là thành phố giữ được truyền thống bất chấp hiện đại hóa nhanh chóng.",
-    "tip": "Nhấn 'fascinates', 'preserve', 'traditions', 'modernisation'."
-   },
-   {
-    "en": "If I went there, I'd spend most of my time wandering through quiet streets and tasting local dishes.",
-    "vi": "Nếu đến đó, tôi sẽ dành phần lớn thời gian dạo những con phố yên tĩnh và thử món địa phương.",
-    "tip": "Nhấn 'wandering', 'quiet streets', 'tasting', 'local dishes'. 'I'd' → /aɪd/."
-   },
-   {
-    "en": "Ideally, I'd go in spring, since the cherry blossoms are said to be spectacular.",
-    "vi": "Lý tưởng nhất tôi sẽ đi vào mùa xuân, vì hoa anh đào được cho là rất ngoạn mục.",
-    "tip": "Nhấn 'Ideally', 'spring', 'cherry blossoms', 'spectacular'."
-   },
-   {
-    "en": "The main obstacle is cost, as flights and accommodation can be rather pricey.",
-    "vi": "Trở ngại chính là chi phí, vì vé máy bay và chỗ ở khá đắt.",
-    "tip": "Nhấn 'main obstacle', 'cost', 'pricey'. 'can be' → /kənbi/."
-   },
-   {
-    "en": "Nevertheless, I'm saving a little every month, so hopefully it will become a reality soon.",
-    "vi": "Tuy vậy, tháng nào tôi cũng tiết kiệm một ít nên hy vọng sớm thành hiện thực.",
-    "tip": "Nhấn 'Nevertheless', 'saving', 'hopefully', 'reality'."
-   },
-   {
-    "en": "I believe that visiting somewhere so different would broaden my horizons in a way books never could.",
-    "vi": "Tôi tin việc đến một nơi khác biệt như vậy sẽ mở rộng tầm nhìn theo cách sách vở không làm được.",
-    "tip": "Nhấn 'different', 'broaden', 'horizons', 'never'. 'could' nhấn ở cuối vì ngầm 'could (do)'."
-   }
-  ]
- },
- {
-  "id": "sh-b2-05",
-  "level": "B2",
-  "title": "Education: school versus real life",
-  "topic": "Part 3: education",
-  "sentences": [
-   {
-    "en": "In my view, schools place too much emphasis on exams rather than practical skills.",
-    "vi": "Theo tôi, trường học quá chú trọng thi cử thay vì kỹ năng thực tế.",
-    "tip": "Nhấn 'my view', 'too much emphasis', 'exams', 'practical skills'."
-   },
-   {
-    "en": "Students memorise large amounts of information, but many struggle to apply it in real situations.",
-    "vi": "Học sinh học thuộc rất nhiều thông tin nhưng nhiều em khó áp dụng vào tình huống thực tế.",
-    "tip": "Nhấn 'memorise', 'struggle', 'apply', 'real situations'. 'but many' lên nhẹ rồi xuống."
-   },
-   {
-    "en": "To be fair, exams do provide a fair way of comparing large numbers of people.",
-    "vi": "Công bằng mà nói, thi cử là cách tương đối công bằng để so sánh số đông.",
-    "tip": "Nhấn 'To be fair', 'do provide' (nhấn mạnh 'do'), 'comparing'."
-   },
-   {
-    "en": "Having said that, employers nowadays value teamwork, creativity and communication far more than test scores.",
-    "vi": "Tuy vậy, ngày nay nhà tuyển dụng coi trọng làm việc nhóm, sáng tạo và giao tiếp hơn điểm số.",
-    "tip": "Nhấn 'Having said that', 'teamwork', 'creativity', 'communication'. Giọng lên ở liệt kê, xuống ở mục cuối."
-   },
-   {
-    "en": "One solution would be to include more project-based learning in the curriculum.",
-    "vi": "Một giải pháp là đưa nhiều hơn việc học theo dự án vào chương trình.",
-    "tip": "Nhấn 'solution', 'project-based', 'curriculum'. 'would be to' nối nhanh."
-   },
-   {
-    "en": "That way, students could learn by doing, which tends to be far more memorable.",
-    "vi": "Như vậy học sinh có thể học qua thực hành, điều thường dễ nhớ hơn nhiều.",
-    "tip": "Nhấn 'learn by doing', 'memorable'. 'could' yếu /kəd/."
-   },
-   {
-    "en": "Admittedly, this would require better-trained teachers and more funding.",
-    "vi": "Phải thừa nhận điều này đòi hỏi giáo viên được đào tạo tốt hơn và nhiều kinh phí hơn.",
-    "tip": "Nhấn 'Admittedly', 'better-trained', 'funding'."
-   },
-   {
-    "en": "Still, I'm convinced that the long-term benefits would outweigh the initial costs.",
-    "vi": "Dù vậy tôi tin lợi ích lâu dài sẽ lớn hơn chi phí ban đầu.",
-    "tip": "Nhấn 'convinced', 'long-term', 'outweigh', 'initial costs'."
-   }
-  ]
- },
- {
-  "id": "sh-b2-06",
-  "level": "B2",
-  "title": "A skill I would like to learn",
-  "topic": "Part 2: a skill",
-  "sentences": [
-   {
-    "en": "A skill I'm keen to learn is playing the violin, which I've wanted to do since childhood.",
-    "vi": "Kỹ năng tôi muốn học là chơi violin, điều tôi mong từ thuở nhỏ.",
-    "tip": "Nhấn 'keen', 'violin' /ˌvaɪəˈlɪn/, 'since childhood'. 'wanted to' → /wɒntɪdtə/."
-   },
-   {
-    "en": "I was captivated by the sound of it when I heard a street musician playing near my house.",
-    "vi": "Tôi bị cuốn hút bởi âm thanh của nó khi nghe một nghệ sĩ đường phố chơi gần nhà.",
-    "tip": "Nhấn 'captivated', 'sound', 'street musician'. 'was' yếu /wəz/."
-   },
-   {
-    "en": "Unfortunately, I never had the opportunity, as my family couldn't afford lessons back then.",
-    "vi": "Đáng tiếc tôi chưa có cơ hội, vì khi đó gia đình không đủ tiền học.",
-    "tip": "Nhấn 'Unfortunately', 'never', 'afford', 'back then'. 'couldn't' /ˈkʊdnt/."
-   },
-   {
-    "en": "Now that I have a steady income, I'm seriously considering signing up for a beginner's course.",
-    "vi": "Giờ có thu nhập ổn định, tôi nghiêm túc cân nhắc đăng ký khóa cho người mới.",
-    "tip": "Nhấn 'steady income', 'seriously', 'signing up', 'beginner's course'."
-   },
-   {
-    "en": "I realise it won't be easy, particularly since the violin is notoriously hard to master.",
-    "vi": "Tôi biết sẽ không dễ, nhất là vì violin nổi tiếng là khó thành thạo.",
-    "tip": "Nhấn 'won't', 'easy', 'notoriously', 'master'."
-   },
-   {
-    "en": "However, I'm prepared to practise for at least half an hour every evening.",
-    "vi": "Tuy nhiên tôi sẵn sàng luyện ít nhất nửa tiếng mỗi tối.",
-    "tip": "Nhấn 'However', 'prepared', 'practise', 'every evening'. Nối 'half_an_hour'."
-   },
-   {
-    "en": "Learning something new at this stage of life would give me a real sense of achievement.",
-    "vi": "Học điều mới ở giai đoạn này của cuộc đời sẽ cho tôi cảm giác thành tựu thật sự.",
-    "tip": "Nhấn 'something new', 'real sense', 'achievement'. 'would give' → /wʊdɡɪv/."
-   },
-   {
-    "en": "Who knows, maybe one day I'll even perform for my family at a birthday party.",
-    "vi": "Biết đâu một ngày tôi còn biểu diễn cho gia đình trong tiệc sinh nhật.",
-    "tip": "Nhấn 'Who knows', 'even', 'perform', 'birthday party'. 'I'll' → /aɪl/."
-   }
-  ]
- },
- {
-  "id": "sh-c1-01",
-  "level": "C1",
-  "title": "Globalisation and cultural identity",
-  "topic": "Part 3: culture",
-  "sentences": [
-   {
-    "en": "It could be argued that globalisation has, to some extent, diluted local cultures, since people everywhere now consume remarkably similar media and products.",
-    "vi": "Có thể cho rằng toàn cầu hóa ở mức độ nào đó đã làm loãng văn hóa bản địa, vì mọi nơi giờ tiêu thụ truyền thông và sản phẩm khá giống nhau.",
-    "tip": "Nhấn 'argued', 'to some extent', 'diluted', 'similar'. Ngắt nhẹ ở các dấu phẩy, hạ giọng ở cuối."
-   },
-   {
-    "en": "Nevertheless, I would hesitate to claim that traditions are disappearing altogether; many communities are, in fact, actively reviving their heritage.",
-    "vi": "Tuy vậy, tôi do dự khi nói truyền thống biến mất hoàn toàn; thực tế nhiều cộng đồng đang chủ động hồi sinh di sản.",
-    "tip": "Nhấn 'hesitate', 'altogether', 'actively reviving', 'heritage'. Ngắt ở dấu chấm phẩy."
-   },
-   {
-    "en": "What we are witnessing may well be a process of hybridisation rather than a simple loss of identity.",
-    "vi": "Điều chúng ta đang chứng kiến có thể là quá trình lai ghép hơn là sự mất bản sắc đơn thuần.",
-    "tip": "Nhấn 'witnessing', 'may well', 'hybridisation' /ˌhaɪbrɪdaɪˈzeɪʃn/, 'loss'."
-   },
-   {
-    "en": "Younger generations, in particular, tend to blend global trends with local customs, creating something genuinely new.",
-    "vi": "Đặc biệt, thế hệ trẻ thường pha trộn xu hướng toàn cầu với phong tục địa phương, tạo ra điều thực sự mới.",
-    "tip": "Nhấn 'in particular', 'blend', 'global', 'local', 'genuinely new'."
-   },
-   {
-    "en": "That said, there is a legitimate concern that minority languages, which carry irreplaceable knowledge, may not survive the pressure of dominant ones.",
-    "vi": "Tuy nhiên, có mối lo chính đáng rằng ngôn ngữ thiểu số, mang tri thức không thể thay thế, có thể không trụ nổi áp lực của ngôn ngữ mạnh.",
-    "tip": "Nhấn 'legitimate concern', 'minority languages', 'irreplaceable', 'survive'."
-   },
-   {
-    "en": "Governments therefore have a responsibility to support cultural education without turning heritage into a mere tourist attraction.",
-    "vi": "Do đó chính phủ có trách nhiệm hỗ trợ giáo dục văn hóa mà không biến di sản thành điểm thu hút du lịch đơn thuần.",
-    "tip": "Nhấn 'responsibility', 'cultural education', 'mere tourist attraction'. 'have a' nối nhanh."
-   },
-   {
-    "en": "Ultimately, identity is not a fixed object to be preserved in a museum but a living practice that evolves with each generation.",
-    "vi": "Cuối cùng, bản sắc không phải vật cố định để lưu giữ trong bảo tàng mà là thực hành sống động tiến hóa qua mỗi thế hệ.",
-    "tip": "Nhấn 'not', 'museum', 'living practice', 'evolves'. Ngữ điệu tương phản 'not... but'."
-   },
-   {
-    "en": "In my estimation, the real challenge lies in striking a balance between openness to the world and pride in one's roots.",
-    "vi": "Theo đánh giá của tôi, thách thức thật sự là cân bằng giữa cởi mở với thế giới và tự hào về cội nguồn.",
-    "tip": "Nhấn 'estimation', 'challenge', 'balance', 'openness', 'pride', 'roots'."
-   }
-  ]
- },
- {
-  "id": "sh-c1-02",
-  "level": "C1",
-  "title": "Work-life balance in modern society",
-  "topic": "Part 3: work",
-  "sentences": [
-   {
-    "en": "There is a growing perception that work has gradually encroached on personal life, largely because technology allows us to be reachable around the clock.",
-    "vi": "Ngày càng có nhận thức rằng công việc dần lấn sang đời sống riêng, phần lớn vì công nghệ khiến ta có thể bị liên lạc suốt ngày đêm.",
-    "tip": "Nhấn 'growing perception', 'encroached', 'reachable', 'around the clock'. Ngắt trước 'largely'."
-   },
-   {
-    "en": "Whereas previous generations could leave their jobs at the office, many professionals now find it virtually impossible to switch off.",
-    "vi": "Trong khi các thế hệ trước có thể bỏ công việc lại văn phòng, nhiều người nay thấy gần như không thể ngắt kết nối.",
-    "tip": "Nhấn 'Whereas', 'leave', 'virtually impossible', 'switch off'. Lên nhẹ sau dấu phẩy."
-   },
-   {
-    "en": "This constant pressure is widely believed to contribute to burnout, which in turn undermines both productivity and wellbeing.",
-    "vi": "Áp lực liên tục này được cho là góp phần gây kiệt sức, từ đó làm suy giảm cả năng suất lẫn sức khỏe tinh thần.",
-    "tip": "Nhấn 'constant pressure', 'burnout', 'in turn', 'undermines', 'wellbeing'."
-   },
-   {
-    "en": "Some companies have begun to experiment with four-day working weeks, and the preliminary results appear remarkably promising.",
-    "vi": "Một số công ty bắt đầu thử tuần làm việc bốn ngày, và kết quả sơ bộ có vẻ rất đáng khích lệ.",
-    "tip": "Nhấn 'experiment', 'four-day', 'preliminary', 'remarkably promising'."
-   },
-   {
-    "en": "Admittedly, such arrangements are not feasible in every sector; a nurse or a firefighter cannot simply work from home.",
-    "vi": "Phải thừa nhận cách này không khả thi ở mọi ngành; y tá hay lính cứu hỏa không thể đơn giản làm việc tại nhà.",
-    "tip": "Nhấn 'Admittedly', 'not feasible', 'nurse', 'firefighter', 'cannot'. Ngắt ở dấu chấm phẩy."
-   },
-   {
-    "en": "It seems to me that the onus should be on employers to set clear boundaries instead of expecting staff to protect their own time.",
-    "vi": "Với tôi, trách nhiệm nên thuộc về nhà tuyển dụng trong việc đặt ranh giới rõ ràng thay vì mong nhân viên tự bảo vệ thời gian.",
-    "tip": "Nhấn 'onus', 'employers', 'clear boundaries', 'protect'. 'It seems to me' đọc nhẹ."
-   },
-   {
-    "en": "On the flip side, individuals must also take some accountability by learning to say no and prioritising what genuinely matters.",
-    "vi": "Ngược lại, mỗi cá nhân cũng phải chịu một phần trách nhiệm bằng cách học nói không và ưu tiên điều thực sự quan trọng.",
-    "tip": "Nhấn 'flip side', 'accountability', 'say no', 'genuinely matters'."
-   },
-   {
-    "en": "Striking the right balance is, I would argue, less about the number of hours worked than about having genuine autonomy over one's schedule.",
-    "vi": "Tôi cho rằng cân bằng đúng đắn ít liên quan đến số giờ làm mà đến quyền tự chủ thực sự với lịch của mình.",
-    "tip": "Nhấn 'less', 'hours', 'genuine autonomy', 'schedule'. Ngữ điệu tương phản 'less... than'."
-   }
-  ]
- },
- {
-  "id": "sh-c1-03",
-  "level": "C1",
-  "title": "The environment and individual responsibility",
-  "topic": "Part 3: environment",
-  "sentences": [
-   {
-    "en": "While it is tempting to blame large corporations for environmental damage, individuals cannot entirely absolve themselves of responsibility.",
-    "vi": "Dù dễ đổ lỗi cho các tập đoàn lớn về hủy hoại môi trường, cá nhân cũng không thể hoàn toàn chối bỏ trách nhiệm.",
-    "tip": "Nhấn 'tempting', 'blame', 'corporations', 'cannot', 'absolve'. Lên nhẹ sau dấu phẩy."
-   },
-   {
-    "en": "Collectively, our consumption habits shape what industries produce, so choosing sustainable products sends a powerful signal to the market.",
-    "vi": "Xét chung, thói quen tiêu dùng định hình thứ ngành công nghiệp sản xuất, nên chọn sản phẩm bền vững là tín hiệu mạnh gửi đến thị trường.",
-    "tip": "Nhấn 'Collectively', 'consumption', 'sustainable', 'powerful signal'."
-   },
-   {
-    "en": "That said, expecting people to make sacrifices without providing viable alternatives is both unrealistic and somewhat unfair.",
-    "vi": "Tuy nhiên, mong mọi người hy sinh mà không cung cấp phương án khả thi vừa phi thực tế vừa phần nào bất công.",
-    "tip": "Nhấn 'sacrifices', 'viable alternatives', 'unrealistic', 'unfair'."
-   },
-   {
-    "en": "A case in point is public transport: in many cities, it is so unreliable that commuters have little choice but to drive.",
-    "vi": "Giao thông công cộng là ví dụ điển hình: ở nhiều thành phố nó kém tin cậy đến mức người đi làm gần như buộc phải lái xe.",
-    "tip": "Nhấn 'case in point', 'unreliable', 'little choice', 'drive'. 'have little choice but to' đọc nhanh."
-   },
-   {
-    "en": "Hence, meaningful progress will most likely require a combination of stricter regulation, financial incentives and a shift in public attitudes.",
-    "vi": "Do đó, tiến bộ có ý nghĩa nhiều khả năng đòi hỏi kết hợp quy định chặt hơn, ưu đãi tài chính và thay đổi thái độ xã hội.",
-    "tip": "Nhấn 'Hence', 'regulation', 'incentives', 'attitudes'. Giọng lên ở liệt kê, xuống ở mục cuối."
-   },
-   {
-    "en": "I'm somewhat sceptical about whether voluntary pledges alone can deliver the scale of change that scientists say is necessary.",
-    "vi": "Tôi khá hoài nghi liệu các cam kết tự nguyện đơn thuần có đem lại quy mô thay đổi mà các nhà khoa học cho là cần thiết.",
-    "tip": "Nhấn 'sceptical', 'voluntary pledges alone', 'scale', 'necessary'. 'whether' /ˈweðə/."
-   },
-   {
-    "en": "On the other hand, history shows that social norms can shift surprisingly quickly once a tipping point is reached.",
-    "vi": "Mặt khác, lịch sử cho thấy chuẩn mực xã hội có thể thay đổi nhanh đáng ngạc nhiên khi đạt điểm bùng phát.",
-    "tip": "Nhấn 'history shows', 'shift', 'surprisingly quickly', 'tipping point'."
-   },
-   {
-    "en": "Bearing that in mind, I remain cautiously optimistic that attitudes towards sustainability will continue to evolve for the better.",
-    "vi": "Ghi nhớ điều đó, tôi vẫn lạc quan thận trọng rằng thái độ đối với bền vững sẽ tiếp tục thay đổi theo hướng tốt.",
-    "tip": "Nhấn 'Bearing that in mind', 'cautiously optimistic', 'evolve', 'better'."
-   }
-  ]
- },
- {
-  "id": "sh-c1-04",
-  "level": "C1",
-  "title": "The role of technology in education",
-  "topic": "Part 3: education",
-  "sentences": [
-   {
-    "en": "Digital tools have undeniably widened access to knowledge, yet access alone does not guarantee meaningful learning.",
-    "vi": "Công cụ số rõ ràng đã mở rộng khả năng tiếp cận tri thức, nhưng tiếp cận thôi chưa bảo đảm học có ý nghĩa.",
-    "tip": "Nhấn 'undeniably widened', 'yet', 'alone', 'meaningful'. Ngắt ở dấu phẩy."
-   },
-   {
-    "en": "A student can watch hundreds of online lectures without ever developing the critical thinking needed to evaluate what they have heard.",
-    "vi": "Một học sinh có thể xem hàng trăm bài giảng trực tuyến mà không bao giờ phát triển tư duy phản biện để đánh giá điều đã nghe.",
-    "tip": "Nhấn 'hundreds', 'without ever', 'critical thinking', 'evaluate'."
-   },
-   {
-    "en": "This is where teachers remain indispensable, as they guide learners through complexity and encourage them to question assumptions.",
-    "vi": "Đây là chỗ giáo viên vẫn không thể thiếu, vì họ dẫn dắt người học qua sự phức tạp và khuyến khích đặt câu hỏi cho các giả định.",
-    "tip": "Nhấn 'indispensable', 'guide', 'complexity', 'question assumptions'."
-   },
-   {
-    "en": "It is often claimed that artificial intelligence will eventually replace human instructors, but I find that prediction rather far-fetched.",
-    "vi": "Người ta thường cho rằng AI cuối cùng sẽ thay thế giáo viên, nhưng tôi thấy dự đoán đó khá viển vông.",
-    "tip": "Nhấn 'claimed', 'eventually replace', 'far-fetched'. 'but I' lên nhẹ ở 'but'."
-   },
-   {
-    "en": "Machines can personalise exercises very efficiently, but empathy, motivation and mentoring are qualities that are hard to automate.",
-    "vi": "Máy móc cá nhân hóa bài tập rất hiệu quả, nhưng sự đồng cảm, tạo động lực và kèm cặp khó tự động hóa.",
-    "tip": "Nhấn 'personalise', 'efficiently', 'empathy', 'motivation', 'mentoring', 'automate'."
-   },
-   {
-    "en": "Moreover, there is a risk that heavy reliance on screens could exacerbate inequality between well-resourced and disadvantaged schools.",
-    "vi": "Hơn nữa có nguy cơ việc phụ thuộc nặng vào màn hình làm trầm trọng thêm bất bình đẳng giữa trường đủ nguồn lực và trường khó khăn.",
-    "tip": "Nhấn 'Moreover', 'reliance', 'exacerbate', 'inequality', 'disadvantaged'."
-   },
-   {
-    "en": "For technology to be truly beneficial, it must be integrated thoughtfully into the curriculum rather than bolted on as an afterthought.",
-    "vi": "Để công nghệ thực sự có ích, nó phải được tích hợp có suy nghĩ vào chương trình, không phải gắn thêm như chuyện nghĩ sau.",
-    "tip": "Nhấn 'truly beneficial', 'integrated thoughtfully', 'bolted on', 'afterthought'. 'for' yếu."
-   },
-   {
-    "en": "In essence, technology should serve pedagogy, not the other way round.",
-    "vi": "Về bản chất, công nghệ nên phục vụ phương pháp sư phạm, chứ không phải ngược lại.",
-    "tip": "Nhấn 'essence', 'serve', 'pedagogy', 'other way round'. Hạ giọng dứt khoát."
-   }
-  ]
- },
- {
-  "id": "sh-c1-05",
-  "level": "C1",
-  "title": "Urbanisation and quality of life",
-  "topic": "Part 3: cities",
-  "sentences": [
-   {
-    "en": "The relentless migration towards cities has brought undeniable economic benefits, but it has also placed enormous strain on infrastructure and housing.",
-    "vi": "Làn sóng di cư không ngừng đến các thành phố mang lại lợi ích kinh tế rõ ràng, nhưng cũng đặt áp lực khổng lồ lên hạ tầng và nhà ở.",
-    "tip": "Nhấn 'relentless migration', 'economic benefits', 'enormous strain', 'infrastructure'."
-   },
-   {
-    "en": "Property prices in major cities have soared to the point where ordinary workers can scarcely afford to live near their jobs.",
-    "vi": "Giá bất động sản ở các thành phố lớn tăng vọt đến mức người lao động bình thường khó mà sống gần nơi làm việc.",
-    "tip": "Nhấn 'soared', 'ordinary workers', 'scarcely afford'. Nối 'to_the_point_where'."
-   },
-   {
-    "en": "As a consequence, many are forced to endure exhausting commutes, which inevitably takes a toll on their health and family relationships.",
-    "vi": "Hệ quả là nhiều người phải chịu những chuyến đi làm kiệt sức, chắc chắn ảnh hưởng đến sức khỏe và quan hệ gia đình.",
-    "tip": "Nhấn 'consequence', 'endure', 'exhausting commutes', 'takes a toll'."
-   },
-   {
-    "en": "One could argue that decentralising economic activity would relieve some of this pressure by creating opportunities in smaller towns.",
-    "vi": "Có thể lập luận rằng phân tán hoạt động kinh tế sẽ giảm bớt áp lực này nhờ tạo cơ hội ở các thị trấn nhỏ.",
-    "tip": "Nhấn 'could argue', 'decentralising', 'relieve', 'smaller towns'. 'would' yếu."
-   },
-   {
-    "en": "However, this is easier said than done, since businesses naturally gravitate towards places with skilled labour and established networks.",
-    "vi": "Tuy nhiên nói thì dễ làm thì khó, vì doanh nghiệp tự nhiên có xu hướng đổ về nơi có lao động kỹ năng và mạng lưới sẵn có.",
-    "tip": "Nhấn 'easier said than done' (nhấn 'said' và 'done'), 'gravitate', 'skilled labour', 'networks'."
-   },
-   {
-    "en": "Well-designed green spaces and pedestrian-friendly streets can substantially enhance residents' wellbeing, even in densely populated areas.",
-    "vi": "Không gian xanh được thiết kế tốt và đường phố thân thiện người đi bộ có thể nâng cao đáng kể sức khỏe tinh thần cư dân, kể cả ở khu đông dân.",
-    "tip": "Nhấn 'green spaces', 'pedestrian-friendly', 'substantially enhance', 'densely populated'."
-   },
-   {
-    "en": "Ultimately, sustainable urban planning demands a long-term vision that prioritises people over short-term profit.",
-    "vi": "Cuối cùng quy hoạch đô thị bền vững đòi hỏi tầm nhìn dài hạn ưu tiên con người hơn lợi nhuận ngắn hạn.",
-    "tip": "Nhấn 'Ultimately', 'sustainable', 'long-term vision', 'people', 'short-term profit'."
-   },
-   {
-    "en": "Whether policymakers possess the political will to implement such a vision remains, to my mind, an open question.",
-    "vi": "Theo tôi, liệu các nhà hoạch định chính sách có đủ ý chí chính trị để thực hiện tầm nhìn đó vẫn là câu hỏi bỏ ngỏ.",
-    "tip": "Nhấn 'Whether', 'political will', 'implement', 'open question'. 'to my mind' đọc nhẹ."
-   }
-  ]
- },
- {
-  "id": "sh-c1-06",
-  "level": "C1",
-  "title": "Media, news and public opinion",
-  "topic": "Part 3: media",
-  "sentences": [
-   {
-    "en": "It is widely acknowledged that the media plays a pivotal role in shaping public opinion, for better or for worse.",
-    "vi": "Ai cũng thừa nhận truyền thông đóng vai trò then chốt trong định hình dư luận, dù tốt hay xấu.",
-    "tip": "Nhấn 'widely acknowledged', 'pivotal role', 'shaping', 'better', 'worse'."
-   },
-   {
-    "en": "In the era of social media, however, anyone can broadcast information, regardless of whether it has been verified.",
-    "vi": "Tuy nhiên trong kỷ nguyên mạng xã hội, ai cũng có thể phát tán thông tin dù đã được kiểm chứng hay chưa.",
-    "tip": "Nhấn 'era', 'however', 'anyone', 'broadcast', 'verified'. 'whether it' → /weðərɪt/."
-   },
-   {
-    "en": "Consequently, misinformation spreads at an alarming pace, often outstripping the efforts of fact-checkers to correct it.",
-    "vi": "Do đó thông tin sai lệch lan nhanh đáng báo động, thường vượt xa nỗ lực của người kiểm chứng để đính chính.",
-    "tip": "Nhấn 'Consequently', 'misinformation', 'alarming pace', 'outstripping', 'fact-checkers'."
-   },
-   {
-    "en": "What worries me most is that people tend to seek out sources that merely confirm what they already believe.",
-    "vi": "Điều tôi lo nhất là con người hay tìm nguồn chỉ để khẳng định điều họ đã tin.",
-    "tip": "Nhấn 'worries', 'most', 'seek out', 'merely confirm', 'already believe'."
-   },
-   {
-    "en": "This phenomenon, commonly referred to as an echo chamber, can deepen social divisions and erode trust in institutions.",
-    "vi": "Hiện tượng này, thường gọi là buồng vang, có thể làm sâu sắc chia rẽ xã hội và xói mòn lòng tin vào thể chế.",
-    "tip": "Nhấn 'echo chamber', 'deepen', 'divisions', 'erode trust'. Ngắt ở hai dấu phẩy, giọng phẳng ở phần chen."
-   },
-   {
-    "en": "To counter this, media literacy ought to be taught from an early age so that young people learn to interrogate what they read.",
-    "vi": "Để đối phó, giáo dục kiến thức truyền thông nên được dạy từ sớm để người trẻ biết chất vấn điều họ đọc.",
-    "tip": "Nhấn 'counter', 'media literacy', 'early age', 'interrogate'. 'ought to' → /ɔːtə/."
-   },
-   {
-    "en": "Admittedly, regulating online content is a double-edged proposition, as heavy-handed measures risk infringing on freedom of expression.",
-    "vi": "Phải thừa nhận việc kiểm soát nội dung trực tuyến là vấn đề hai mặt, vì biện pháp quá tay có nguy cơ xâm phạm tự do ngôn luận.",
-    "tip": "Nhấn 'Admittedly', 'double-edged', 'heavy-handed', 'infringing', 'freedom of expression'."
-   },
-   {
-    "en": "On balance, I would contend that an informed and critical public is the most effective safeguard against manipulation.",
-    "vi": "Xét cân bằng, tôi cho rằng công chúng hiểu biết và biết phản biện là hàng rào bảo vệ hiệu quả nhất trước sự thao túng.",
-    "tip": "Nhấn 'On balance', 'contend', 'informed', 'critical', 'safeguard', 'manipulation'."
-   }
-  ]
- }
+  {
+    "id": "sh-a1-01",
+    "level": "A1",
+    "title": "Nice to meet you",
+    "topic": "Introductions",
+    "sentences": [
+      {
+        "en": "Hello, my name is Linh.",
+        "marked": "*HEL*lo, ↘ | my NAME‿is *LINH*. ↘",
+        "vi": "Xin chào, tên tôi là Linh.",
+        "tip": "Nhấn vào 'name' và tên 'Linh'. Nối âm 'name_is' → /neɪmɪz/."
+      },
+      {
+        "en": "Nice to meet you.",
+        "marked": "NICE to *MEET* you. ↘",
+        "vi": "Rất vui được gặp bạn.",
+        "tip": "Nhấn 'Nice' và 'meet'. 'to' đọc yếu /tə/. Xuống giọng ở cuối câu."
+      },
+      {
+        "en": "I am from Vietnam.",
+        "marked": "I am from Viet*NAM*. ↘",
+        "vi": "Tôi đến từ Việt Nam.",
+        "tip": "Nhấn vào 'from' và 'Vietnam'. 'from' đọc yếu /frəm/."
+      },
+      {
+        "en": "I live in Hanoi with my family.",
+        "marked": "I LIVE‿in Ha*NOI* ↗ | with my *FA*mily. ↘",
+        "vi": "Tôi sống ở Hà Nội cùng gia đình.",
+        "tip": "Nhấn 'live', 'Hanoi', 'family'. Nối âm 'live_in' → /lɪvɪn/."
+      },
+      {
+        "en": "I am twenty-eight years old.",
+        "marked": "I am TWENty-*EIGHT* years‿old. ↘",
+        "vi": "Tôi hai mươi tám tuổi.",
+        "tip": "Nhấn 'twenty' và 'years'. Nối 'am_twenty' và 'years_old' /jɪəzəʊld/."
+      },
+      {
+        "en": "What do you do?",
+        "marked": "WHAT do you *DO*? ↘",
+        "vi": "Bạn làm nghề gì?",
+        "tip": "Nhấn 'What' và 'do' thứ hai. 'do you' nối thành /dəjə/. Xuống giọng ở câu hỏi Wh-."
+      },
+      {
+        "en": "I am an accountant.",
+        "marked": "I am‿an ac*COUN*tant. ↘",
+        "vi": "Tôi là kế toán.",
+        "tip": "Nối âm 'am_an_accountant' liền mạch. Nhấn vào 'count' trong 'accountant'."
+      },
+      {
+        "en": "Are you a student?",
+        "marked": "Are you a *STU*dent? ↗",
+        "vi": "Bạn có phải là sinh viên không?",
+        "tip": "Lên giọng cuối câu hỏi Yes/No. Nhấn 'student'."
+      }
+    ]
+  },
+  {
+    "id": "sh-a1-02",
+    "level": "A1",
+    "title": "My daily routine",
+    "topic": "Daily routine",
+    "sentences": [
+      {
+        "en": "I wake up at six o'clock.",
+        "marked": "I WAKE‿up‿at *SIX* o'clock. ↘",
+        "vi": "Tôi thức dậy lúc sáu giờ.",
+        "tip": "Nối âm 'wake_up_at' → /weɪkʌpət/. Nhấn 'wake' và 'six'."
+      },
+      {
+        "en": "I brush my teeth and wash my face.",
+        "marked": "I BRUSH my *TEETH* ↗ | and WASH my *FACE*. ↘",
+        "vi": "Tôi đánh răng và rửa mặt.",
+        "tip": "Nhấn 'brush', 'teeth', 'wash', 'face'. 'and' đọc yếu /ən/."
+      },
+      {
+        "en": "I have breakfast at seven.",
+        "marked": "I have BREAKfast‿at *SEV*en. ↘",
+        "vi": "Tôi ăn sáng lúc bảy giờ.",
+        "tip": "Nhấn 'breakfast' và 'seven'. 'have' ở đây là /hæv/ nhưng đọc nhẹ."
+      },
+      {
+        "en": "I go to work by bus.",
+        "marked": "I GO to WORK by *BUS*. ↘",
+        "vi": "Tôi đi làm bằng xe buýt.",
+        "tip": "'to' đọc yếu /tə/. Nhấn 'go', 'work', 'bus'."
+      },
+      {
+        "en": "I start work at eight thirty.",
+        "marked": "I START work‿at EIGHT *THIR*ty. ↘",
+        "vi": "Tôi bắt đầu làm việc lúc tám giờ ba mươi.",
+        "tip": "Nối 'start_work' và 'at_eight'. Nhấn 'start', 'eight', 'thirty'."
+      },
+      {
+        "en": "I eat lunch with my colleagues.",
+        "marked": "I EAT lunch with my *COL*leagues. ↘",
+        "vi": "Tôi ăn trưa với đồng nghiệp.",
+        "tip": "Nhấn 'lunch' và 'colleagues' /ˈkɒliːɡz/. 'with my' đọc nhanh, yếu."
+      },
+      {
+        "en": "I get home at six in the evening.",
+        "marked": "I get HOME‿at SIX‿in the *EVE*ning. ↘",
+        "vi": "Tôi về nhà lúc sáu giờ tối.",
+        "tip": "Nối 'get_home' và 'at_six'. Nhấn 'home', 'six', 'evening'."
+      },
+      {
+        "en": "I go to bed at eleven.",
+        "marked": "I GO to BED‿at e*LEV*en. ↘",
+        "vi": "Tôi đi ngủ lúc mười một giờ.",
+        "tip": "Nhấn 'bed' và 'eleven'. 'to' đọc yếu /tə/. Xuống giọng ở cuối."
+      }
+    ]
+  },
+  {
+    "id": "sh-a1-03",
+    "level": "A1",
+    "title": "At the restaurant",
+    "topic": "Ordering food",
+    "sentences": [
+      {
+        "en": "A table for two, please.",
+        "marked": "A TAble for *TWO*, please. ↘",
+        "vi": "Cho tôi một bàn hai người.",
+        "tip": "Nhấn 'table' và 'two'. Lên nhẹ rồi xuống ở 'please'."
+      },
+      {
+        "en": "Can I see the menu, please?",
+        "marked": "Can I SEE the *ME*nu, please? ↗",
+        "vi": "Cho tôi xem thực đơn được không?",
+        "tip": "'Can I' nối thành /kənaɪ/. Lên giọng cuối câu hỏi Yes/No."
+      },
+      {
+        "en": "I would like a bowl of noodle soup.",
+        "marked": "I would LIKE‿a BOWL‿of NOOdle *SOUP*. ↘",
+        "vi": "Tôi muốn một tô mì nước.",
+        "tip": "'would like' rút gọn /wʊdlaɪk/. Nhấn 'bowl' và 'noodle'. 'of' đọc yếu /əv/."
+      },
+      {
+        "en": "And a glass of orange juice.",
+        "marked": "And‿a GLASS‿of ORange *JUICE*. ↘",
+        "vi": "Và một ly nước cam.",
+        "tip": "Nhấn 'glass' và 'orange'. Nối 'glass_of' → /ɡlɑːsəv/."
+      },
+      {
+        "en": "Is it spicy?",
+        "marked": "Is‿it *SPI*cy? ↗",
+        "vi": "Món này có cay không?",
+        "tip": "Lên giọng cuối câu hỏi Yes/No. Nhấn vào 'spicy'."
+      },
+      {
+        "en": "No, thank you. That is all.",
+        "marked": "*NO*, ↘ | *THANK* you. ↘ | That‿is *ALL*. ↘",
+        "vi": "Không, cảm ơn. Vậy là đủ rồi.",
+        "tip": "Nhấn 'No' và 'all'. Xuống giọng ở cuối câu."
+      },
+      {
+        "en": "Excuse me, can I have the bill?",
+        "marked": "ex*CUSE* me, ↗ | can I have the *BILL*? ↗",
+        "vi": "Xin lỗi, cho tôi tính tiền.",
+        "tip": "Nhấn 'Excuse' và 'bill'. Lên giọng cuối câu hỏi."
+      },
+      {
+        "en": "The food was delicious.",
+        "marked": "The FOOD was de*LI*cious. ↘",
+        "vi": "Đồ ăn rất ngon.",
+        "tip": "Nhấn 'food' và 'delicious' /dɪˈlɪʃəs/. 'was' đọc yếu /wəz/."
+      }
+    ]
+  },
+  {
+    "id": "sh-a1-04",
+    "level": "A1",
+    "title": "Asking for directions",
+    "topic": "Directions",
+    "sentences": [
+      {
+        "en": "Excuse me, where is the station?",
+        "marked": "ex*CUSE* me, ↗ | WHERE‿is the *STA*tion? ↘",
+        "vi": "Xin lỗi, nhà ga ở đâu ạ?",
+        "tip": "Nhấn 'where' và 'station'. Xuống giọng ở câu hỏi Wh-."
+      },
+      {
+        "en": "Go straight for two hundred metres.",
+        "marked": "GO straight for TWO HUNdred *ME*tres. ↘",
+        "vi": "Đi thẳng hai trăm mét.",
+        "tip": "Nhấn 'straight', 'two hundred', 'metres'. 'for' đọc yếu /fə/."
+      },
+      {
+        "en": "Turn left at the traffic lights.",
+        "marked": "TURN left‿at the TRAFfic *LIGHTS*. ↘",
+        "vi": "Rẽ trái ở chỗ đèn giao thông.",
+        "tip": "Nhấn 'left' và 'traffic'. 'at the' đọc yếu /ətðə/."
+      },
+      {
+        "en": "Then turn right at the bank.",
+        "marked": "Then TURN RIGHT‿at the *BANK*. ↘",
+        "vi": "Sau đó rẽ phải ở ngân hàng.",
+        "tip": "Nhấn 'right' và 'bank'. Nối 'turn_right'."
+      },
+      {
+        "en": "It is next to the post office.",
+        "marked": "It‿is NEXT to the post *OF*fice. ↘",
+        "vi": "Nó nằm cạnh bưu điện.",
+        "tip": "Nhấn 'next' và 'post'. Nối 'is_next_to' nhanh, 'to' yếu."
+      },
+      {
+        "en": "Is it far from here?",
+        "marked": "Is‿it *FAR* from here? ↗",
+        "vi": "Chỗ đó có xa đây không?",
+        "tip": "Lên giọng cuối. Nhấn 'far'. 'from' đọc yếu /frəm/."
+      },
+      {
+        "en": "No, it is only five minutes on foot.",
+        "marked": "*NO*, ↘ | it‿is ONly FIVE MINutes‿on *FOOT*. ↘",
+        "vi": "Không, chỉ năm phút đi bộ thôi.",
+        "tip": "Nhấn 'No', 'five', 'foot'. Nối 'is_only' → /ɪzˈəʊnli/."
+      },
+      {
+        "en": "Thank you very much for your help.",
+        "marked": "THANK you very *MUCH* ↘ | for your *HELP*. ↘",
+        "vi": "Cảm ơn bạn rất nhiều vì đã giúp.",
+        "tip": "Nhấn 'very' và 'help'. 'for your' → /fəjə/."
+      }
+    ]
+  },
+  {
+    "id": "sh-a1-05",
+    "level": "A1",
+    "title": "Going shopping",
+    "topic": "Shopping",
+    "sentences": [
+      {
+        "en": "How much is this shirt?",
+        "marked": "How MUCH‿is this *SHIRT*? ↘",
+        "vi": "Cái áo sơ mi này giá bao nhiêu?",
+        "tip": "Nhấn 'much' và 'shirt'. Xuống giọng ở câu hỏi Wh-."
+      },
+      {
+        "en": "It is twenty dollars.",
+        "marked": "It‿is TWENty *DOL*lars. ↘",
+        "vi": "Nó giá hai mươi đô la.",
+        "tip": "Nhấn 'twenty' và 'dollars'. Nối 'is_twenty'."
+      },
+      {
+        "en": "Do you have a bigger size?",
+        "marked": "Do you have‿a BIGger *SIZE*? ↗",
+        "vi": "Bạn có cỡ lớn hơn không?",
+        "tip": "Lên giọng cuối câu. 'Do you' → /dʒə/. Nhấn 'bigger'."
+      },
+      {
+        "en": "Can I try it on?",
+        "marked": "Can I TRY it‿*ON*? ↗",
+        "vi": "Tôi mặc thử được không?",
+        "tip": "Nối 'try_it_on' → /traɪɪtɒn/. Lên giọng cuối câu."
+      },
+      {
+        "en": "The changing room is over there.",
+        "marked": "The CHANGing room‿is OVer *THERE*. ↘",
+        "vi": "Phòng thử đồ ở đằng kia.",
+        "tip": "Nhấn 'changing' và 'there'. Nối 'is_over' → /ɪzˈəʊvə/."
+      },
+      {
+        "en": "It is too small for me.",
+        "marked": "It‿is TOO *SMALL* for me. ↘",
+        "vi": "Nó quá nhỏ với tôi.",
+        "tip": "Nhấn mạnh 'too' và 'small'. 'for me' đọc yếu."
+      },
+      {
+        "en": "I like this blue one.",
+        "marked": "I LIKE this *BLUE* one. ↘",
+        "vi": "Tôi thích cái màu xanh này.",
+        "tip": "Nhấn 'like', 'blue', 'one'. Xuống giọng ở cuối."
+      },
+      {
+        "en": "I will take it. Can I pay by card?",
+        "marked": "I will *TAKE*‿it. ↘ | Can I PAY by *CARD*? ↗",
+        "vi": "Tôi lấy cái này. Tôi trả bằng thẻ được không?",
+        "tip": "'I will' rút gọn /aɪl/. Lên giọng ở câu hỏi cuối."
+      }
+    ]
+  },
+  {
+    "id": "sh-a1-06",
+    "level": "A1",
+    "title": "What is the weather like?",
+    "topic": "Weather",
+    "sentences": [
+      {
+        "en": "It is sunny today.",
+        "marked": "It‿is *SUN*ny today. ↘",
+        "vi": "Hôm nay trời nắng.",
+        "tip": "Nhấn 'sunny' và 'today'. Nối 'It_is' → /ɪtɪz/."
+      },
+      {
+        "en": "It is very hot in summer.",
+        "marked": "It‿is VEry hot‿in *SUM*mer. ↘",
+        "vi": "Mùa hè rất nóng.",
+        "tip": "Nhấn 'very', 'hot', 'summer'. Nối 'hot_in'."
+      },
+      {
+        "en": "It is cold in winter.",
+        "marked": "It‿is COLD‿in *WIN*ter. ↘",
+        "vi": "Mùa đông trời lạnh.",
+        "tip": "Nhấn 'cold' và 'winter'. Giọng xuống ở cuối."
+      },
+      {
+        "en": "It rains a lot in July.",
+        "marked": "It RAINS‿a LOT‿in Ju*LY*. ↘",
+        "vi": "Tháng Bảy mưa nhiều.",
+        "tip": "Nhấn 'rains', 'lot', 'July'. Nối 'a_lot_in' → /əlɒtɪn/."
+      },
+      {
+        "en": "Take an umbrella with you.",
+        "marked": "Take‿an um*BREL*la with you. ↘",
+        "vi": "Hãy mang theo ô nhé.",
+        "tip": "Nối 'take_an_umbrella'. Nhấn 'take' và 'umbrella' /ʌmˈbrelə/."
+      },
+      {
+        "en": "Is it windy outside?",
+        "marked": "Is‿it WINdy out*SIDE*? ↗",
+        "vi": "Bên ngoài có gió không?",
+        "tip": "Lên giọng cuối câu hỏi Yes/No. Nhấn 'windy'."
+      },
+      {
+        "en": "Yes, and it is a little cloudy.",
+        "marked": "*YES*, ↘ | and‿it‿is‿a LITtle *CLOU*dy. ↘",
+        "vi": "Có, và trời hơi nhiều mây.",
+        "tip": "Nhấn 'Yes', 'little', 'cloudy'. Nối 'and_it_is'."
+      },
+      {
+        "en": "I love spring because it is warm.",
+        "marked": "I LOVE *SPRING* ↗ | beCAUSE‿it‿is *WARM*. ↘",
+        "vi": "Tôi thích mùa xuân vì trời ấm.",
+        "tip": "Nhấn 'love', 'spring', 'warm'. 'because' đọc /bɪˈkɒz/."
+      }
+    ]
+  },
+  {
+    "id": "sh-a2-01",
+    "level": "A2",
+    "title": "Hobbies and free time",
+    "topic": "Hobbies",
+    "sentences": [
+      {
+        "en": "What do you usually do in your free time?",
+        "marked": "WHAT do you USually do in your *FREE* time? ↘",
+        "vi": "Bạn thường làm gì vào thời gian rảnh?",
+        "tip": "Nhấn 'What', 'usually', 'free'. 'do you' → /dʒə/. Xuống giọng ở câu hỏi Wh-."
+      },
+      {
+        "en": "I like playing badminton with my friends on Saturdays.",
+        "marked": "I LIKE PLAYing *BAD*minton ↗ | with my friends‿on *SA*turdays. ↘",
+        "vi": "Tôi thích chơi cầu lông với bạn bè vào các ngày thứ Bảy.",
+        "tip": "Nhấn 'playing', 'badminton', 'Saturdays'. 'with my' đọc nhanh, yếu."
+      },
+      {
+        "en": "Really? I prefer staying at home and reading novels.",
+        "marked": "*REA*lly? ↗ | I preFER STAYing‿at home‿and READing *NO*vels. ↘",
+        "vi": "Thật à? Tôi thích ở nhà đọc tiểu thuyết hơn.",
+        "tip": "Lên giọng ở 'Really?'. Nhấn 'prefer', 'home', 'novels'."
+      },
+      {
+        "en": "Do you enjoy cooking, or do you only eat?",
+        "marked": "Do you enJOY *COO*king, ↗ | or do you ONly *EAT*? ↘",
+        "vi": "Bạn có thích nấu ăn không, hay bạn chỉ ăn thôi?",
+        "tip": "Lên giọng ở 'cooking', xuống giọng ở 'eat' (câu hỏi lựa chọn)."
+      },
+      {
+        "en": "I'm learning to play the guitar, but it's quite difficult.",
+        "marked": "I'm LEARNing to play the gui*TAR*, ↗ | but it's QUITE *DIF*ficult. ↘",
+        "vi": "Tôi đang học chơi guitar, nhưng khá khó.",
+        "tip": "Nhấn 'learning', 'guitar', 'difficult'. 'to play' → /təpleɪ/."
+      },
+      {
+        "en": "My brother and I often watch football on television.",
+        "marked": "My BROTHer‿and I OFten WATCH FOOTball‿on *TE*levision. ↘",
+        "vi": "Anh trai tôi và tôi thường xem bóng đá trên tivi.",
+        "tip": "Nhấn 'brother', 'often', 'football'. 'and' đọc yếu /ən/."
+      },
+      {
+        "en": "Would you like to join us this weekend?",
+        "marked": "Would you LIKE to JOIN‿us this *WEEK*end? ↗",
+        "vi": "Cuối tuần này bạn có muốn tham gia cùng chúng tôi không?",
+        "tip": "'Would you' → /wʊdʒu/. Lên giọng cuối câu hỏi Yes/No."
+      },
+      {
+        "en": "That sounds great, but I have to finish some work first.",
+        "marked": "That SOUNDS *GREAT*, ↘↗ | but I have to FINish some WORK *FIRST*. ↘",
+        "vi": "Nghe tuyệt đấy, nhưng tôi phải làm xong việc đã.",
+        "tip": "'have to' → /hæftə/. Nhấn 'great', 'finish', 'work'."
+      }
+    ]
+  },
+  {
+    "id": "sh-a2-02",
+    "level": "A2",
+    "title": "Planning a trip",
+    "topic": "Travel plans",
+    "sentences": [
+      {
+        "en": "We are going to visit Da Nang next month.",
+        "marked": "We are GOing to VIsit Da NANG next *MONTH*. ↘",
+        "vi": "Chúng tôi sẽ đi thăm Đà Nẵng vào tháng sau.",
+        "tip": "'going to' → /ˈɡəʊɪŋtə/. Nhấn 'visit', 'Da Nang', 'next month'."
+      },
+      {
+        "en": "I have already booked the flight and the hotel.",
+        "marked": "I have alREADy BOOKED the FLIGHT‿and the ho*TEL*. ↘",
+        "vi": "Tôi đã đặt vé máy bay và khách sạn rồi.",
+        "tip": "Nhấn 'already', 'booked', 'flight', 'hotel'. 'and the' đọc yếu."
+      },
+      {
+        "en": "The hotel is near the beach, so we can walk there.",
+        "marked": "The hoTEL‿is NEAR the *BEACH*, ↗ | so we can WALK *THERE*. ↘",
+        "vi": "Khách sạn gần bãi biển nên chúng tôi có thể đi bộ đến đó.",
+        "tip": "Nhấn 'near', 'beach', 'walk'. 'can' đọc yếu /kən/."
+      },
+      {
+        "en": "What time does the plane leave?",
+        "marked": "WHAT time does the PLANE *LEAVE*? ↘",
+        "vi": "Mấy giờ máy bay cất cánh?",
+        "tip": "Nhấn 'time' và 'leave'. Xuống giọng ở câu hỏi Wh-."
+      },
+      {
+        "en": "It leaves at a quarter past eight in the morning.",
+        "marked": "It LEAVES‿at‿a QUARter PAST *EIGHT* ↗ | in the *MORN*ing. ↘",
+        "vi": "Nó cất cánh lúc tám giờ mười lăm sáng.",
+        "tip": "Nối 'leaves_at_a' và 'quarter_past'. Nhấn 'quarter' và 'morning'."
+      },
+      {
+        "en": "We should arrive at the airport two hours early.",
+        "marked": "We should arRIVE‿at the *AIR*port ↗ | two HOURS‿*EAR*ly. ↘",
+        "vi": "Chúng ta nên đến sân bay sớm hai tiếng.",
+        "tip": "Nhấn 'should', 'arrive', 'two hours', 'early'. 'at the' đọc yếu."
+      },
+      {
+        "en": "Don't forget to bring your passport and some sunscreen.",
+        "marked": "DON'T forGET to BRING your *PASS*port ↗ | and some *SUN*screen. ↘",
+        "vi": "Đừng quên mang hộ chiếu và kem chống nắng.",
+        "tip": "Nhấn 'forget', 'passport', 'sunscreen'. 'to' yếu. Nối 'passport_and'."
+      },
+      {
+        "en": "I can't wait. I haven't been to the sea for a long time.",
+        "marked": "I CAN'T *WAIT*. ↘ | I haven't BEEN to the SEA for‿a long *TIME*. ↘",
+        "vi": "Tôi nóng lòng quá. Lâu rồi tôi chưa được đi biển.",
+        "tip": "Nhấn mạnh 'can't wait'. Nhấn 'haven't', 'sea', 'long time'."
+      }
+    ]
+  },
+  {
+    "id": "sh-a2-03",
+    "level": "A2",
+    "title": "Talking about my family",
+    "topic": "Family",
+    "sentences": [
+      {
+        "en": "There are five people in my family.",
+        "marked": "There‿are FIVE PEOple‿in my *FA*mily. ↘",
+        "vi": "Gia đình tôi có năm người.",
+        "tip": "Nhấn 'five' và 'family'. 'There are' → /ðeərə/."
+      },
+      {
+        "en": "My father is a teacher, and my mother works in a bank.",
+        "marked": "My FAther‿is a *TEA*cher, ↗ | and my MOTHer WORKS‿in a *BANK*. ↘",
+        "vi": "Bố tôi là giáo viên, còn mẹ tôi làm ở ngân hàng.",
+        "tip": "Nhấn 'father', 'teacher', 'mother', 'bank'. Hơi lên giọng ở 'teacher' (chưa hết ý)."
+      },
+      {
+        "en": "I have one older sister and one younger brother.",
+        "marked": "I have one‿OLDer *SIS*ter ↗ | and‿one YOUNGer *BRO*ther. ↘",
+        "vi": "Tôi có một chị gái và một em trai.",
+        "tip": "Nhấn 'older', 'sister', 'younger', 'brother'. Nối 'one_older'."
+      },
+      {
+        "en": "My sister is tall and funny, and she loves music.",
+        "marked": "My SISter‿is TALL‿and *FUN*ny, ↗ | and she LOVES *MU*sic. ↘",
+        "vi": "Chị tôi cao và hài hước, và chị ấy yêu âm nhạc.",
+        "tip": "Nhấn 'tall', 'funny', 'loves', 'music'. 'and' đọc yếu."
+      },
+      {
+        "en": "My brother is only ten, but he is very clever.",
+        "marked": "My BROTHer‿is ONly *TEN*, ↗ | but he is VEry *CLE*ver. ↘",
+        "vi": "Em trai tôi mới mười tuổi nhưng rất thông minh.",
+        "tip": "Nhấn 'only ten', 'very', 'clever'. 'but he' → /bʌtɪ/."
+      },
+      {
+        "en": "We have dinner together every evening.",
+        "marked": "We have DINner toGETHer EVery *EVE*ning. ↘",
+        "vi": "Chúng tôi ăn tối cùng nhau mỗi buổi tối.",
+        "tip": "Nhấn 'dinner', 'together', 'every evening'. Nối 'have_dinner'."
+      },
+      {
+        "en": "On Sundays, we usually visit my grandparents.",
+        "marked": "On *SUN*days, ↗ | we USually VIsit my *GRAND*parents. ↘",
+        "vi": "Vào các Chủ nhật, chúng tôi thường thăm ông bà.",
+        "tip": "Nhấn 'Sundays', 'usually', 'grandparents'. Lên nhẹ sau dấu phẩy."
+      },
+      {
+        "en": "I am very close to my family.",
+        "marked": "I am VEry CLOSE to my *FA*mily. ↘",
+        "vi": "Tôi rất gắn bó với gia đình mình.",
+        "tip": "Nhấn 'very', 'close', 'family'. 'to my' → /təmaɪ/."
+      }
+    ]
+  },
+  {
+    "id": "sh-a2-04",
+    "level": "A2",
+    "title": "What did you do last weekend?",
+    "topic": "Past weekend",
+    "sentences": [
+      {
+        "en": "What did you do last weekend?",
+        "marked": "WHAT did you DO last *WEEK*end? ↘",
+        "vi": "Cuối tuần trước bạn đã làm gì?",
+        "tip": "'did you' → /dɪdʒə/. Nhấn 'What', 'do', 'weekend'. Xuống giọng cuối."
+      },
+      {
+        "en": "I went to the cinema with my cousin on Saturday.",
+        "marked": "I WENT to the *CI*nema ↗ | with my COUsin‿on *SA*turday. ↘",
+        "vi": "Thứ Bảy tôi đã đi xem phim với anh họ.",
+        "tip": "Nhấn 'went', 'cinema', 'cousin', 'Saturday'. 'to the' đọc yếu."
+      },
+      {
+        "en": "We watched a comedy, and I laughed a lot.",
+        "marked": "We WATCHED‿a *COM*edy, ↗ | and I LAUGHED‿a *LOT*. ↘",
+        "vi": "Chúng tôi xem một bộ phim hài và tôi cười rất nhiều.",
+        "tip": "'watched' đọc /wɒtʃt/, 'laughed' /lɑːft/. Nhấn 'comedy', 'laughed', 'lot'."
+      },
+      {
+        "en": "After the film, we had pizza at a small restaurant.",
+        "marked": "AFter the *FILM*, ↗ | we had PIZza at‿a small *RES*taurant. ↘",
+        "vi": "Sau phim, chúng tôi ăn pizza ở một nhà hàng nhỏ.",
+        "tip": "Nhấn 'film', 'pizza', 'small restaurant'. Nối 'had_pizza' và 'at_a'."
+      },
+      {
+        "en": "On Sunday I stayed at home because it rained all day.",
+        "marked": "On *SUN*day ↗ | I STAYED‿at *HOME* ↗ | beCAUSE‿it RAINED‿all *DAY*. ↘",
+        "vi": "Chủ nhật tôi ở nhà vì trời mưa cả ngày.",
+        "tip": "Nhấn 'stayed', 'rained', 'all day'. 'because' → /bɪˈkɒz/."
+      },
+      {
+        "en": "I cleaned my room and cooked dinner for my parents.",
+        "marked": "I CLEANED my *ROOM* ↗ | and COOKED DINner for my *PA*rents. ↘",
+        "vi": "Tôi dọn phòng và nấu bữa tối cho bố mẹ.",
+        "tip": "'cleaned' /kliːnd/, 'cooked' /kʊkt/. Nhấn 'cleaned', 'cooked', 'parents'."
+      },
+      {
+        "en": "Did you have a good weekend?",
+        "marked": "Did you have‿a GOOD *WEEK*end? ↗",
+        "vi": "Bạn có một cuối tuần vui vẻ chứ?",
+        "tip": "Lên giọng cuối câu hỏi Yes/No. 'Did you' → /dɪdʒə/."
+      },
+      {
+        "en": "Yes, it was relaxing, but it ended too quickly.",
+        "marked": "*YES*, ↘ | it was re*LAX*ing, ↗ | but‿it ENded too *QUICK*ly. ↘",
+        "vi": "Có, rất thư giãn nhưng kết thúc quá nhanh.",
+        "tip": "Nhấn 'relaxing', 'ended', 'quickly'. 'was' đọc yếu /wəz/."
+      }
+    ]
+  },
+  {
+    "id": "sh-a2-05",
+    "level": "A2",
+    "title": "At the doctor's",
+    "topic": "Health",
+    "sentences": [
+      {
+        "en": "Good morning. What seems to be the problem?",
+        "marked": "Good *MORN*ing. ↘ | WHAT seems to be the *PROB*lem? ↘",
+        "vi": "Chào buổi sáng. Bạn gặp vấn đề gì vậy?",
+        "tip": "Nhấn 'seems' và 'problem'. Xuống giọng ở câu hỏi Wh-."
+      },
+      {
+        "en": "I have had a headache and a sore throat since Monday.",
+        "marked": "I have had‿a *HEAD*ache ↗ | and‿a sore *THROAT* ↗ | since *MON*day. ↘",
+        "vi": "Tôi bị đau đầu và đau họng từ hôm thứ Hai.",
+        "tip": "Nhấn 'headache', 'sore throat', 'Monday'. 'have had' → /əvhæd/."
+      },
+      {
+        "en": "Do you have a fever or a cough?",
+        "marked": "Do you have‿a *FE*ver ↗ | or‿a *COUGH*? ↘",
+        "vi": "Bạn có bị sốt hay ho không?",
+        "tip": "Lên giọng ở 'fever', xuống giọng ở 'cough' (câu hỏi lựa chọn)."
+      },
+      {
+        "en": "I feel tired, and I can't sleep well at night.",
+        "marked": "I feel *TIRED*, ↗ | and I can't SLEEP well‿at *NIGHT*. ↘",
+        "vi": "Tôi thấy mệt và ban đêm không ngủ ngon.",
+        "tip": "Nhấn 'tired', 'can't', 'sleep'. 'can't' có nguyên âm dài /kɑːnt/."
+      },
+      {
+        "en": "You should drink plenty of water and get some rest.",
+        "marked": "You should DRINK PLENty of *WA*ter ↗ | and get some *REST*. ↘",
+        "vi": "Bạn nên uống nhiều nước và nghỉ ngơi.",
+        "tip": "Nhấn 'should', 'plenty', 'water', 'rest'. Nối 'plenty_of' → /plentiəv/."
+      },
+      {
+        "en": "Take this medicine twice a day after meals.",
+        "marked": "Take this *MED*icine ↗ | TWICE‿a *DAY* ↗ | after *MEALS*. ↘",
+        "vi": "Hãy uống thuốc này hai lần một ngày sau bữa ăn.",
+        "tip": "Nhấn 'medicine', 'twice', 'meals'. Nối 'twice_a_day'."
+      },
+      {
+        "en": "Is it serious, doctor?",
+        "marked": "Is‿it *SE*rious, ↗ | *DOC*tor? ↘",
+        "vi": "Có nghiêm trọng không, bác sĩ?",
+        "tip": "Lên giọng ở 'serious', hạ nhẹ ở 'doctor'."
+      },
+      {
+        "en": "No, it's just a cold. You'll feel better in a few days.",
+        "marked": "*NO*, ↘ | it's just‿a *COLD*. ↘ | You'll feel BETter‿in‿a few *DAYS*. ↘",
+        "vi": "Không, chỉ là cảm lạnh thôi. Vài ngày nữa bạn sẽ khỏe hơn.",
+        "tip": "Nhấn 'No', 'cold', 'better', 'few days'. 'You'll' → /juːl/."
+      }
+    ]
+  },
+  {
+    "id": "sh-a2-06",
+    "level": "A2",
+    "title": "My job",
+    "topic": "Work",
+    "sentences": [
+      {
+        "en": "I work for a small software company in the city centre.",
+        "marked": "I WORK for‿a small SOFTware *COM*pany ↗ | in the city *CEN*tre. ↘",
+        "vi": "Tôi làm cho một công ty phần mềm nhỏ ở trung tâm thành phố.",
+        "tip": "Nhấn 'work', 'software', 'city centre'. 'for a' → /fərə/."
+      },
+      {
+        "en": "I have worked there for about three years.",
+        "marked": "I have WORKED there for‿aBOUT three *YEARS*. ↘",
+        "vi": "Tôi đã làm ở đó khoảng ba năm.",
+        "tip": "Nhấn 'worked', 'three', 'years'. 'for about' nối nhanh."
+      },
+      {
+        "en": "My job is to test new apps before they are released.",
+        "marked": "My JOB‿is to TEST new *APPS* ↗ | beFORE they are re*LEASED*. ↘",
+        "vi": "Công việc của tôi là kiểm thử ứng dụng mới trước khi phát hành.",
+        "tip": "Nhấn 'test', 'new apps', 'released'. 'is to' → /ɪztə/."
+      },
+      {
+        "en": "I usually start at nine and finish at half past five.",
+        "marked": "I USually start‿at *NINE* ↗ | and FINish‿at half past *FIVE*. ↘",
+        "vi": "Tôi thường bắt đầu lúc chín giờ và kết thúc lúc năm rưỡi.",
+        "tip": "Nhấn 'start', 'nine', 'finish', 'half past five'. 'and' đọc yếu."
+      },
+      {
+        "en": "Sometimes I have to work late when there is a deadline.",
+        "marked": "SOMEtimes I have to WORK *LATE* ↗ | when there‿is‿a *DEAD*line. ↘",
+        "vi": "Đôi khi tôi phải làm muộn khi có hạn chót.",
+        "tip": "'have to' → /hæftə/. Nhấn 'late' và 'deadline'."
+      },
+      {
+        "en": "I enjoy my job because my colleagues are friendly.",
+        "marked": "I enJOY my *JOB* ↗ | beCAUSE my COLleagues‿are *FRIEND*ly. ↘",
+        "vi": "Tôi thích công việc vì các đồng nghiệp thân thiện.",
+        "tip": "Nhấn 'enjoy', 'colleagues', 'friendly'. 'because' → /bɪˈkɒz/."
+      },
+      {
+        "en": "However, the salary is not very high.",
+        "marked": "How*EV*er, ↘↗ | the SAlary is not VEry *HIGH*. ↘",
+        "vi": "Tuy nhiên, lương không cao lắm.",
+        "tip": "Nhấn 'However' và lên nhẹ rồi xuống. Nhấn 'salary' và 'high'."
+      },
+      {
+        "en": "In the future, I would like to become a project manager.",
+        "marked": "In the *FU*ture, ↗ | I would LIKE to beCOME‿a PROject *MA*nager. ↘",
+        "vi": "Trong tương lai, tôi muốn trở thành quản lý dự án.",
+        "tip": "'would like to' → /wʊdlaɪktə/. Nhấn 'future', 'project manager'."
+      }
+    ]
+  },
+  {
+    "id": "sh-b1-01",
+    "level": "B1",
+    "title": "Where I come from",
+    "topic": "Hometown",
+    "sentences": [
+      {
+        "en": "I come from a medium-sized city in the central part of Vietnam, which is famous for its beaches.",
+        "marked": "I come from a MEdium-sized *CI*ty ↗ | in the CENtral part‿of Viet*NAM*, ↘ | which‿is FAmous for‿its *BEACH*es. ↘",
+        "vi": "Tôi đến từ một thành phố cỡ vừa ở miền Trung Việt Nam, nổi tiếng với các bãi biển.",
+        "tip": "Nhấn 'medium-sized', 'central', 'famous', 'beaches'. Ngắt hơi nhẹ trước 'which'."
+      },
+      {
+        "en": "It used to be a quiet fishing town, but it has grown quickly over the last ten years.",
+        "marked": "It used to be a QUIet FISHing *TOWN*, ↗ | but it has GROWN *QUICK*ly ↗ | over the last ten *YEARS*. ↘",
+        "vi": "Trước đây đó là một thị trấn chài yên tĩnh, nhưng nó đã phát triển nhanh trong mười năm qua.",
+        "tip": "'used to' → /juːstə/. Nhấn 'quiet', 'grown', 'quickly'."
+      },
+      {
+        "en": "What I like most about my hometown is the friendly atmosphere and the fresh seafood.",
+        "marked": "WHAT‿I like most‿aBOUT my *HOME*town ↗ | is the FRIENdly *AT*mosphere ↗ | and the fresh *SEA*food. ↘",
+        "vi": "Điều tôi thích nhất ở quê là bầu không khí thân thiện và hải sản tươi.",
+        "tip": "Nhấn 'like most', 'friendly', 'fresh seafood'. 'and the' đọc yếu."
+      },
+      {
+        "en": "The only downside is that it gets extremely crowded during the summer holidays.",
+        "marked": "The ONly DOWNside‿is that‿it gets‿exTREMEly *CROW*ded ↗ | during the SUMmer *HOL*idays. ↘",
+        "vi": "Nhược điểm duy nhất là nơi đây cực kỳ đông đúc vào dịp nghỉ hè.",
+        "tip": "Nhấn 'only downside', 'extremely crowded', 'summer'. Nối 'gets_extremely'."
+      },
+      {
+        "en": "I moved to Hanoi five years ago because there are more job opportunities here.",
+        "marked": "I MOVED to Ha*NOI* ↗ | five YEARS‿a*GO* ↗ | beCAUSE there‿are more JOB oppor*TU*nities here. ↘",
+        "vi": "Tôi chuyển ra Hà Nội năm năm trước vì ở đây có nhiều cơ hội việc làm hơn.",
+        "tip": "Nhấn 'moved', 'five years', 'job opportunities'. 'there are' → /ðeərə/."
+      },
+      {
+        "en": "Even so, I still go back to see my parents at least once a month.",
+        "marked": "EVen *SO*, ↘↗ | I still go BACK to see my *PA*rents ↗ | at least‿ONCE‿a *MONTH*. ↘",
+        "vi": "Dù vậy, tôi vẫn về thăm bố mẹ ít nhất mỗi tháng một lần.",
+        "tip": "Nhấn 'still', 'parents', 'once a month'. Nối 'at_least_once_a'."
+      },
+      {
+        "en": "If you ever visit, I would definitely recommend trying the local noodle soup.",
+        "marked": "If you EVer *VI*sit, ↗ | I would DEFinitely recomMEND trying the LOcal noodle *SOUP*. ↘",
+        "vi": "Nếu bạn có dịp ghé thăm, tôi chắc chắn khuyên bạn thử món mì địa phương.",
+        "tip": "Nhấn 'definitely', 'recommend', 'noodle soup'. 'would' → /wʊd/ yếu."
+      },
+      {
+        "en": "Honestly, I think it is one of the best places to relax in the whole country.",
+        "marked": "*HON*estly, ↗ | I THINK‿it‿is ONE‿of the BEST PLAces to re*LAX* ↗ | in the whole *COUN*try. ↘",
+        "vi": "Thật lòng tôi nghĩ đó là một trong những nơi tuyệt nhất để thư giãn cả nước.",
+        "tip": "Nhấn 'Honestly', 'best', 'relax', 'whole country'. Nối 'one_of_the' → /wʌnəvðə/."
+      }
+    ]
+  },
+  {
+    "id": "sh-b1-02",
+    "level": "B1",
+    "title": "Work and studies",
+    "topic": "Studies and work",
+    "sentences": [
+      {
+        "en": "I graduated from university three years ago, and I now work as a marketing assistant.",
+        "marked": "I GRADuated from uni*VER*sity ↗ | three YEARS‿a*GO*, ↘↗ | and I now WORK‿as‿a MARketing‿as*SIS*tant. ↘",
+        "vi": "Tôi tốt nghiệp đại học ba năm trước và hiện làm trợ lý marketing.",
+        "tip": "Nhấn 'graduated', 'three years', 'marketing assistant'. 'and I' nối nhanh."
+      },
+      {
+        "en": "At university, I studied business administration, which gave me a solid foundation.",
+        "marked": "At uni*VER*sity, ↗ | I STUDied BUSiness adminis*TRA*tion, ↗ | which GAVE me a SOlid foun*DA*tion. ↘",
+        "vi": "Ở đại học tôi học quản trị kinh doanh, nó cho tôi nền tảng vững chắc.",
+        "tip": "Nhấn 'business administration', 'solid foundation'. Ngắt nhẹ trước 'which'."
+      },
+      {
+        "en": "My daily tasks include writing social media posts and analysing customer feedback.",
+        "marked": "My DAIly tasks‿inCLUDE WRITing SOcial MEdia *POSTS* ↗ | and‿ANalysing CUStomer *FEED*back. ↘",
+        "vi": "Việc hằng ngày của tôi gồm viết bài mạng xã hội và phân tích phản hồi khách hàng.",
+        "tip": "Nhấn 'writing', 'social media', 'analysing', 'feedback'. Nối 'posts_and'."
+      },
+      {
+        "en": "What I enjoy most is being creative and working in a team with supportive people.",
+        "marked": "WHAT‿I enJOY *MOST* ↗ | is BEing cre*A*tive ↗ | and WORKing‿in‿a *TEAM* ↗ | with supPORtive *PEO*ple. ↘",
+        "vi": "Điều tôi thích nhất là được sáng tạo và làm việc nhóm với những người biết hỗ trợ.",
+        "tip": "Nhấn 'enjoy most', 'creative', 'team', 'supportive'."
+      },
+      {
+        "en": "The hours can be quite long, especially when we are preparing a big campaign.",
+        "marked": "The HOURS can be quite *LONG*, ↗ | esPEcially when we are preParing‿a big cam*PAIGN*. ↘",
+        "vi": "Giờ làm có thể khá dài, nhất là khi chúng tôi chuẩn bị một chiến dịch lớn.",
+        "tip": "Nhấn 'long', 'especially', 'big campaign'. 'can' đọc yếu /kən/."
+      },
+      {
+        "en": "I'm thinking of taking an evening course to improve my English and my design skills.",
+        "marked": "I'm THINKing‿of TAKing‿an EVening *COURSE* ↗ | to imPROVE my ENglish‿and my deSIGN *SKILLS*. ↘",
+        "vi": "Tôi đang nghĩ đến việc học một khóa buổi tối để nâng cao tiếng Anh và kỹ năng thiết kế.",
+        "tip": "Nhấn 'thinking', 'evening course', 'English', 'design'. Nối 'thinking_of'."
+      },
+      {
+        "en": "In the long run, I hope to be promoted to a managerial position.",
+        "marked": "In the long *RUN*, ↗ | I HOPE to be proMOted to a manaGErial po*SI*tion. ↘",
+        "vi": "Về lâu dài, tôi hy vọng được thăng chức lên vị trí quản lý.",
+        "tip": "Nhấn 'long run', 'promoted', 'managerial'. 'to be' → /təbi/."
+      },
+      {
+        "en": "For now, though, I'm just concentrating on gaining as much experience as possible.",
+        "marked": "For *NOW*, though, ↘↗ | I'm just CONcentrating‿on GAINing‿as much‿exPErience‿as *POS*sible. ↘",
+        "vi": "Tuy nhiên hiện giờ tôi chỉ tập trung tích lũy thật nhiều kinh nghiệm.",
+        "tip": "Nhấn 'For now', 'concentrating', 'experience'. 'as much as' đọc yếu."
+      }
+    ]
+  },
+  {
+    "id": "sh-b1-03",
+    "level": "B1",
+    "title": "How I relax",
+    "topic": "Free time",
+    "sentences": [
+      {
+        "en": "In my spare time, I like to unwind by going for a long walk by the lake.",
+        "marked": "In my spare *TIME*, ↗ | I like to un*WIND* ↗ | by going for‿a long WALK by the *LAKE*. ↘",
+        "vi": "Lúc rảnh, tôi thích thư giãn bằng cách đi dạo dài bên hồ.",
+        "tip": "Nhấn 'spare time', 'unwind', 'long walk', 'lake'. 'like to' → /laɪktə/."
+      },
+      {
+        "en": "It helps me clear my head after a stressful day at the office.",
+        "marked": "It HELPS me CLEAR my *HEAD* ↗ | after‿a STRESSful DAY‿at the *OF*fice. ↘",
+        "vi": "Nó giúp tôi đầu óc thông thoáng sau một ngày căng thẳng ở văn phòng.",
+        "tip": "Nhấn 'helps', 'clear', 'stressful', 'office'. Nối 'at_the_office'."
+      },
+      {
+        "en": "I also enjoy photography, so I usually take my camera with me.",
+        "marked": "I also enJOY pho*TOG*raphy, ↗ | so I USually take my *CA*mera with me. ↘",
+        "vi": "Tôi cũng thích nhiếp ảnh nên thường mang theo máy ảnh.",
+        "tip": "Nhấn 'photography' /fəˈtɒɡrəfi/, 'camera'. Ngắt nhẹ sau dấu phẩy."
+      },
+      {
+        "en": "On weekends, I sometimes meet up with friends for coffee and a chat.",
+        "marked": "On *WEEK*ends, ↗ | I SOMEtimes MEET‿up with *FRIENDS* ↗ | for COFfee and‿a *CHAT*. ↘",
+        "vi": "Cuối tuần, đôi khi tôi gặp bạn bè uống cà phê và trò chuyện.",
+        "tip": "Nhấn 'weekends', 'meet up', 'coffee', 'chat'. Nối 'meet_up_with'."
+      },
+      {
+        "en": "I wouldn't say I'm very sporty, but I try to swim once or twice a week.",
+        "marked": "I WOULDn't SAY I'm very *SPOR*ty, ↗ | but I TRY to SWIM ONCE‿or TWICE‿a *WEEK*. ↘",
+        "vi": "Tôi không hẳn là người thích thể thao, nhưng cố gắng bơi một hai lần mỗi tuần.",
+        "tip": "Nhấn 'wouldn't', 'sporty', 'swim', 'twice'. Lên giọng ở 'once', xuống ở 'twice'."
+      },
+      {
+        "en": "When it rains, I prefer staying in and binge-watching documentaries.",
+        "marked": "When‿it *RAINS*, ↗ | I preFER STAYing‿in‿and BINGE-watching docu*MEN*taries. ↘",
+        "vi": "Khi trời mưa, tôi thích ở nhà xem liền một mạch các phim tài liệu.",
+        "tip": "Nhấn 'rains', 'prefer', 'staying in', 'documentaries'."
+      },
+      {
+        "en": "I would love to have more free time, but my schedule is quite packed these days.",
+        "marked": "I would LOVE to have more *FREE* time, ↗ | but my SCHEdule‿is quite PACKED these *DAYS*. ↘",
+        "vi": "Tôi muốn có nhiều thời gian rảnh hơn nhưng dạo này lịch khá kín.",
+        "tip": "Nhấn 'love', 'more free time', 'packed'. 'would love to' → /wʊdlʌvtə/."
+      },
+      {
+        "en": "Still, I always make time for the things that make me happy.",
+        "marked": "*STILL*, ↘↗ | I ALways make TIME for the things that make me *HAP*py. ↘",
+        "vi": "Dù vậy, tôi luôn dành thời gian cho những điều khiến mình hạnh phúc.",
+        "tip": "Nhấn 'Still', 'make time', 'happy'. Nối 'make_time_for'."
+      }
+    ]
+  },
+  {
+    "id": "sh-b1-04",
+    "level": "B1",
+    "title": "Technology in my life",
+    "topic": "Technology",
+    "sentences": [
+      {
+        "en": "I use my smartphone for almost everything, from banking to booking taxis.",
+        "marked": "I USE my SMARTphone for ALmost *EV*erything, ↗ | from BANKing to BOOKing *TAX*is. ↘",
+        "vi": "Tôi dùng điện thoại cho hầu như mọi thứ, từ ngân hàng đến đặt taxi.",
+        "tip": "Nhấn 'smartphone', 'almost everything', 'banking', 'taxis'. 'from' yếu /frəm/."
+      },
+      {
+        "en": "I can't imagine going a single day without checking my messages.",
+        "marked": "I can't iMAGine going‿a SINgle *DAY* ↗ | withOUT CHECKing my *MES*sages. ↘",
+        "vi": "Tôi không thể tưởng tượng nổi một ngày mà không kiểm tra tin nhắn.",
+        "tip": "Nhấn 'can't imagine', 'single', 'messages'. 'can't' /kɑːnt/ dài."
+      },
+      {
+        "en": "On the one hand, technology makes life much more convenient and efficient.",
+        "marked": "On the one *HAND*, ↗ | techNOLogy makes LIFE MUCH more conVEnient‿and ef*FI*cient. ↘",
+        "vi": "Một mặt, công nghệ làm cuộc sống tiện lợi và hiệu quả hơn nhiều.",
+        "tip": "Nhấn 'one hand', 'convenient', 'efficient'. Lên nhẹ sau dấu phẩy."
+      },
+      {
+        "en": "On the other hand, it's easy to waste hours scrolling through social media.",
+        "marked": "On the OTHer *HAND*, ↗ | it's EAsy to WASTE hours SCROLLing through SOcial *ME*dia. ↘",
+        "vi": "Mặt khác, rất dễ phí hàng giờ lướt mạng xã hội.",
+        "tip": "Nhấn 'other hand', 'easy', 'waste hours', 'scrolling'. 'it's easy to' nối nhanh."
+      },
+      {
+        "en": "That's why I turn off my notifications after nine o'clock at night.",
+        "marked": "That's *WHY* ↗ | I TURN‿off my notifiCAtions AFter NINE o'clock‿at *NIGHT*. ↘",
+        "vi": "Đó là lý do tôi tắt thông báo sau chín giờ tối.",
+        "tip": "Nhấn 'why', 'turn off', 'notifications', 'nine'. Nối 'turn_off_my'."
+      },
+      {
+        "en": "My parents find new devices confusing, so I often help them set things up.",
+        "marked": "My PArents find new deVIces con*FU*sing, ↗ | so I OFten HELP them set things *UP*. ↘",
+        "vi": "Bố mẹ tôi thấy thiết bị mới khó hiểu nên tôi thường giúp họ cài đặt.",
+        "tip": "Nhấn 'confusing', 'often help', 'set up'. Nối 'set_things_up'."
+      },
+      {
+        "en": "I think artificial intelligence will change the way we work in the next decade.",
+        "marked": "I THINK‿artiFIcial inTELligence will *CHANGE* the way we WORK ↗ | in the next *DEC*ade. ↘",
+        "vi": "Tôi nghĩ trí tuệ nhân tạo sẽ thay đổi cách chúng ta làm việc trong thập kỷ tới.",
+        "tip": "Nhấn 'artificial intelligence', 'change', 'work', 'decade'. 'will' đọc yếu."
+      },
+      {
+        "en": "As long as we use it wisely, I believe it will do more good than harm.",
+        "marked": "As LONG‿as we USE‿it *WISE*ly, ↗ | I beLIEVE‿it will do more good than *HARM*. ↘",
+        "vi": "Miễn là dùng nó một cách khôn ngoan, tôi tin nó có lợi nhiều hơn hại.",
+        "tip": "Nhấn 'wisely', 'good', 'harm'. 'as long as' nối nhanh /əzlɒŋəz/."
+      }
+    ]
+  },
+  {
+    "id": "sh-b1-05",
+    "level": "B1",
+    "title": "Food I love",
+    "topic": "Food",
+    "sentences": [
+      {
+        "en": "I'm a big fan of Vietnamese food, particularly dishes with fresh herbs and light broth.",
+        "marked": "I'm‿a big FAN‿of VietnaMESE *FOOD*, ↗ | parTIcularly DIshes with fresh HERBS‿and light *BROTH*. ↘",
+        "vi": "Tôi rất mê món Việt, đặc biệt là các món có rau thơm tươi và nước dùng thanh.",
+        "tip": "Nhấn 'big fan', 'particularly', 'fresh herbs', 'light broth'."
+      },
+      {
+        "en": "My favourite dish is bun cha, which is grilled pork served with rice noodles.",
+        "marked": "My FAvourite dish‿is bun *CHA*, ↗ | which‿is GRILLED pork served with rice *NOO*dles. ↘",
+        "vi": "Món tôi thích nhất là bún chả, thịt heo nướng ăn với bún.",
+        "tip": "Nhấn 'favourite', 'bun cha', 'grilled pork', 'rice noodles'. Ngắt nhẹ trước 'which'."
+      },
+      {
+        "en": "I usually eat out at least twice a week, mostly at small family-run restaurants.",
+        "marked": "I USually eat‿OUT‿at least TWICE‿a *WEEK*, ↗ | MOSTly at small FAmily-run *RES*taurants. ↘",
+        "vi": "Tôi thường ăn ngoài ít nhất hai lần một tuần, chủ yếu ở các quán nhỏ gia đình.",
+        "tip": "Nhấn 'eat out', 'twice', 'family-run'. Nối 'eat_out_at_least'."
+      },
+      {
+        "en": "When I have time, I enjoy cooking traditional meals for my friends.",
+        "marked": "When I have *TIME*, ↗ | I enJOY COOKing traDItional meals for my *FRIENDS*. ↘",
+        "vi": "Khi có thời gian, tôi thích nấu món truyền thống cho bạn bè.",
+        "tip": "Nhấn 'time', 'cooking', 'traditional', 'friends'."
+      },
+      {
+        "en": "I'm not really keen on very spicy food because it upsets my stomach.",
+        "marked": "I'm not REally KEEN‿on very SPIcy *FOOD* ↗ | beCAUSE‿it UPsets my *STOM*ach. ↘",
+        "vi": "Tôi không thích đồ quá cay vì nó làm đau bụng.",
+        "tip": "Nhấn 'not really keen', 'spicy', 'upsets'. 'because it' nối /bɪˈkɒzɪt/."
+      },
+      {
+        "en": "Over the past few years, I've been trying to eat more vegetables and less sugar.",
+        "marked": "OVer the PAST few *YEARS*, ↗ | I've been TRYing to eat more VEGetables‿and less *SU*gar. ↘",
+        "vi": "Vài năm nay tôi cố ăn nhiều rau hơn và bớt đường.",
+        "tip": "Nhấn 'past few years', 'vegetables', 'less sugar'. 'I've been' → /aɪvbɪn/."
+      },
+      {
+        "en": "Fast food is convenient, but I don't think it's a healthy choice for every day.",
+        "marked": "FAST food‿is con*VE*nient, ↗ | but I don't think‿it's‿a HEALthy choice for every *DAY*. ↘",
+        "vi": "Đồ ăn nhanh tiện nhưng tôi không nghĩ nó là lựa chọn lành mạnh mỗi ngày.",
+        "tip": "Nhấn 'convenient', 'healthy choice', 'every day'. Lên nhẹ sau dấu phẩy."
+      },
+      {
+        "en": "If I could try any cuisine in the world, I would go for authentic Italian pasta.",
+        "marked": "If I could TRY any cuiSINE‿in the *WORLD*, ↗ | I would GO for auTHENtic iTAlian *PAS*ta. ↘",
+        "vi": "Nếu được thử bất kỳ nền ẩm thực nào, tôi sẽ chọn mì Ý chính gốc.",
+        "tip": "Nhấn 'any cuisine', 'authentic', 'Italian pasta'. 'would go for' → /wʊdɡəʊfə/."
+      }
+    ]
+  },
+  {
+    "id": "sh-b1-06",
+    "level": "B1",
+    "title": "The music I listen to",
+    "topic": "Music",
+    "sentences": [
+      {
+        "en": "I listen to music almost every day, especially on my way to work.",
+        "marked": "I LISten to MUsic ALmost every *DAY*, ↗ | esPEcially on my WAY to *WORK*. ↘",
+        "vi": "Tôi nghe nhạc hầu như mỗi ngày, nhất là trên đường đi làm.",
+        "tip": "Nhấn 'music', 'every day', 'especially', 'work'. Nối 'on_my_way'."
+      },
+      {
+        "en": "My taste is quite varied, but I tend to prefer soft pop and acoustic songs.",
+        "marked": "My TASTE‿is quite *VA*ried, ↗ | but I tend to preFER soft POP‿and‿acOUStic *SONGS*. ↘",
+        "vi": "Gu của tôi khá đa dạng nhưng tôi thường thích pop nhẹ và nhạc mộc.",
+        "tip": "Nhấn 'varied', 'prefer', 'soft pop', 'acoustic'. 'tend to' → /tendtə/."
+      },
+      {
+        "en": "Listening to calm music helps me concentrate when I'm studying or working.",
+        "marked": "LISTening to calm *MU*sic ↗ | HELPS me *CON*centrate ↗ | when I'm STUdying or *WORK*ing. ↘",
+        "vi": "Nghe nhạc êm giúp tôi tập trung khi học hoặc làm việc.",
+        "tip": "Nhấn 'calm', 'concentrate', 'studying', 'working'. Lên ở 'studying', xuống ở 'working'."
+      },
+      {
+        "en": "When I need some energy, I switch to upbeat songs from the nineties.",
+        "marked": "When I need some *EN*ergy, ↗ | I SWITCH to UPbeat songs from the *NINE*ties. ↘",
+        "vi": "Khi cần năng lượng, tôi chuyển sang các bài sôi động thập niên chín mươi.",
+        "tip": "Nhấn 'energy', 'switch', 'upbeat', 'nineties'. Nối 'switch_to'."
+      },
+      {
+        "en": "I used to play the piano as a child, although I haven't practised for years.",
+        "marked": "I used to PLAY the piANo as‿a *CHILD*, ↗ | alTHOUGH I haven't PRACtised for *YEARS*. ↘",
+        "vi": "Hồi nhỏ tôi từng chơi piano, dù đã nhiều năm không luyện tập.",
+        "tip": "'used to' → /juːstə/. Nhấn 'piano', 'child', 'haven't', 'years'."
+      },
+      {
+        "en": "I'd really love to see my favourite singer perform live one day.",
+        "marked": "I'd REally love to SEE my FAvourite *SIN*ger ↗ | perFORM LIVE‿one *DAY*. ↘",
+        "vi": "Tôi rất muốn một ngày được xem ca sĩ yêu thích biểu diễn trực tiếp.",
+        "tip": "Nhấn mạnh 'really love', 'favourite', 'live'. 'I'd' → /aɪd/."
+      },
+      {
+        "en": "Concerts can be expensive, but the atmosphere is absolutely unforgettable.",
+        "marked": "CONcerts can be ex*PEN*sive, ↗ | but the ATmosphere is‿ABsolutely unfor*GET*table. ↘",
+        "vi": "Buổi hòa nhạc có thể đắt nhưng không khí thì không thể nào quên.",
+        "tip": "Nhấn 'expensive', 'atmosphere', 'unforgettable'. 'can' yếu /kən/."
+      },
+      {
+        "en": "In my opinion, music brings people together regardless of their age or language.",
+        "marked": "In my o*PIN*ion, ↗ | MUsic brings PEOple to*GETH*er ↗ | reGARDless‿of their AGE‿or *LAN*guage. ↘",
+        "vi": "Theo tôi, âm nhạc gắn kết mọi người bất kể tuổi tác hay ngôn ngữ.",
+        "tip": "Nhấn 'opinion', 'brings', 'together', 'regardless', 'language'."
+      }
+    ]
+  },
+  {
+    "id": "sh-b2-01",
+    "level": "B2",
+    "title": "Describing a person who inspired me",
+    "topic": "Part 2: a person",
+    "sentences": [
+      {
+        "en": "The person I'd like to talk about is my high school literature teacher, Mrs Hoa.",
+        "marked": "The PERson I'd like to *TALK*‿aBOUT ↗ | is my HIGH school LIterature *TEA*cher, ↗ | Mrs *HOA*. ↘",
+        "vi": "Người tôi muốn nói đến là cô giáo văn cấp ba của tôi, cô Hoa.",
+        "tip": "Nhấn 'person', 'literature teacher', 'Hoa'. 'I'd like to' → /aɪdlaɪktə/."
+      },
+      {
+        "en": "What struck me most about her was the way she made every lesson feel like a story.",
+        "marked": "What STRUCK me *MOST* aBOUT her ↗ | was the WAY she made EVery LESson feel like‿a *STO*ry. ↘",
+        "vi": "Điều gây ấn tượng nhất với tôi là cách cô biến mỗi bài học thành một câu chuyện.",
+        "tip": "Nhấn 'struck', 'most', 'way', 'story'. Nối 'made_every'."
+      },
+      {
+        "en": "Not only did she teach us to analyse texts, but she also encouraged us to think independently.",
+        "marked": "Not ONly did she TEACH us to ANalyse *TEXTS*, ↗ | but she ALso enCOURaged‿us to think inde*PEN*dently. ↘",
+        "vi": "Cô không chỉ dạy chúng tôi phân tích văn bản mà còn khuyến khích suy nghĩ độc lập.",
+        "tip": "Nhấn 'Not only', 'analyse', 'also', 'independently'. Đảo ngữ: nhấn mạnh 'Not only did she'."
+      },
+      {
+        "en": "Thanks to her, I gained the confidence to speak up in class, which I had never done before.",
+        "marked": "THANKS to *HER*, ↗ | I GAINED the CONfidence to speak‿UP‿in *CLASS*, ↗ | which I had NEVer done be*FORE*. ↘",
+        "vi": "Nhờ cô, tôi có đủ tự tin phát biểu trong lớp, điều mà trước đó tôi chưa từng làm.",
+        "tip": "Nhấn 'Thanks', 'confidence', 'speak up', 'never'. 'had' yếu /həd/."
+      },
+      {
+        "en": "Looking back, I realise she taught me far more than just grammar and literature.",
+        "marked": "Looking *BACK*, ↗ | I REalise she taught me far *MORE* ↗ | than just GRAMmar‿and *LI*terature. ↘",
+        "vi": "Nhìn lại, tôi nhận ra cô dạy tôi nhiều hơn là chỉ ngữ pháp và văn học.",
+        "tip": "Nhấn 'Looking back', 'realise', 'far more'. Lên nhẹ sau dấu phẩy."
+      },
+      {
+        "en": "Although we lost touch after graduation, I still think of her whenever I read a good book.",
+        "marked": "alTHOUGH we lost touch after gradu*A*tion, ↗ | I still THINK‿of her whenEVer I READ‿a good *BOOK*. ↘",
+        "vi": "Dù mất liên lạc sau tốt nghiệp, tôi vẫn nghĩ về cô mỗi khi đọc một cuốn sách hay.",
+        "tip": "Nhấn 'lost touch', 'still', 'good book'. Nối 'lost_touch_after'."
+      },
+      {
+        "en": "I suppose that's the true mark of a great teacher: their influence lasts long after the class ends.",
+        "marked": "I supPOSE that's the TRUE MARK‿of‿a GREAT *TEA*cher: ↗ | their INfluence lasts LONG‿after the class *ENDS*. ↘",
+        "vi": "Tôi nghĩ đó là dấu ấn thật sự của người thầy giỏi: ảnh hưởng còn kéo dài rất lâu sau khi lớp kết thúc.",
+        "tip": "Nhấn 'true mark', 'great teacher', 'lasts', 'ends'. Ngắt hơi ở dấu hai chấm."
+      },
+      {
+        "en": "If I ever get the chance, I would love to thank her in person.",
+        "marked": "If I EVer get the *CHANCE*, ↗ | I would LOVE to THANK her‿in *PER*son. ↘",
+        "vi": "Nếu có dịp, tôi rất muốn trực tiếp cảm ơn cô.",
+        "tip": "Nhấn 'chance', 'love', 'thank', 'person'. 'would love to' → /wʊdlʌvtə/."
+      }
+    ]
+  },
+  {
+    "id": "sh-b2-02",
+    "level": "B2",
+    "title": "A memorable journey",
+    "topic": "Part 2: a trip",
+    "sentences": [
+      {
+        "en": "I'd like to describe a trip to Ha Giang that I took with my cousins two years ago.",
+        "marked": "I'd LIKE to deSCRIBE‿a TRIP to Ha *GIANG* ↗ | that I took with my *COU*sins ↗ | two YEARS‿a*GO*. ↘",
+        "vi": "Tôi muốn kể về chuyến đi Hà Giang cùng các anh em họ hai năm trước.",
+        "tip": "Nhấn 'describe', 'trip', 'Ha Giang', 'two years ago'. 'that I' nối nhanh."
+      },
+      {
+        "en": "We rented motorbikes and spent four days riding along winding mountain roads.",
+        "marked": "We RENTed MOtor*BIKES* ↗ | and spent FOUR days riding‿aLONG WINding MOUNtain *ROADS*. ↘",
+        "vi": "Chúng tôi thuê xe máy và dành bốn ngày chạy dọc những con đường núi ngoằn ngoèo.",
+        "tip": "Nhấn 'rented', 'four days', 'winding', 'mountain'. Nối 'spent_four'."
+      },
+      {
+        "en": "The scenery was absolutely breathtaking, especially at sunrise when the valleys were covered in mist.",
+        "marked": "The SCEnery was ABsolutely *BREATH*taking, ↗ | esPEcially at *SUN*rise ↗ | when the VAlleys were COVered‿in *MIST*. ↘",
+        "vi": "Phong cảnh đẹp đến nghẹt thở, nhất là lúc bình minh khi thung lũng phủ sương.",
+        "tip": "Nhấn mạnh 'absolutely breathtaking', 'sunrise', 'mist'. 'was' yếu."
+      },
+      {
+        "en": "Admittedly, the journey was exhausting, and at one point we got lost in heavy rain.",
+        "marked": "ad*MIT*tedly, ↘↗ | the JOURney was ex*HAUST*ing, ↗ | and‿at one POINT we got lost‿in HEAvy *RAIN*. ↘",
+        "vi": "Phải thừa nhận chuyến đi rất mệt, và có lúc chúng tôi bị lạc trong mưa lớn.",
+        "tip": "Nhấn 'Admittedly', 'exhausting', 'lost', 'heavy rain'."
+      },
+      {
+        "en": "Fortunately, a local family invited us in for tea and let us stay the night.",
+        "marked": "*FOR*tunately, ↗ | a LOcal FAmily inVITED‿us‿in for *TEA* ↗ | and let us stay the *NIGHT*. ↘",
+        "vi": "May mắn là một gia đình địa phương mời chúng tôi vào uống trà và cho ngủ lại.",
+        "tip": "Nhấn 'Fortunately', 'invited', 'tea', 'stay'. Nối 'invited_us_in'."
+      },
+      {
+        "en": "That unexpected act of kindness turned out to be the highlight of the whole trip.",
+        "marked": "That unexPECted act‿of *KIND*ness ↗ | turned‿OUT to be the HIGHlight‿of the whole *TRIP*. ↘",
+        "vi": "Hành động tử tế bất ngờ đó hóa ra là điểm nhấn của cả chuyến đi.",
+        "tip": "Nhấn 'unexpected', 'kindness', 'highlight'. 'turned out to' nối nhanh."
+      },
+      {
+        "en": "As a result, I've come to believe that the best travel experiences are often the unplanned ones.",
+        "marked": "As‿a re*SULT*, ↘↗ | I've come to be*LIEVE* ↗ | that the BEST TRAvel exPEriences‿are OFten the UNplanned *ONES*. ↘",
+        "vi": "Kết quả là tôi tin rằng những trải nghiệm du lịch tuyệt nhất thường là những điều không lên kế hoạch.",
+        "tip": "Nhấn 'As a result', 'best', 'unplanned'. 'I've come to' → /aɪvkʌmtə/."
+      },
+      {
+        "en": "I'm hoping to go back there next year, preferably in autumn when the rice terraces turn golden.",
+        "marked": "I'm HOPing to go BACK there next *YEAR*, ↗ | PREferably in *AU*tumn ↗ | when the RICE TERraces turn *GOLD*en. ↘",
+        "vi": "Tôi hy vọng quay lại vào năm tới, tốt nhất là mùa thu khi ruộng bậc thang vàng óng.",
+        "tip": "Nhấn 'hoping', 'preferably', 'autumn', 'golden'."
+      }
+    ]
+  },
+  {
+    "id": "sh-b2-03",
+    "level": "B2",
+    "title": "Does technology make us happier?",
+    "topic": "Part 3: technology",
+    "sentences": [
+      {
+        "en": "I'd say it depends on how we use it, rather than on the technology itself.",
+        "marked": "I'd say it dePENDS‿on *HOW* we USE‿it, ↗ | RAther than‿on the techNOlogy it*SELF*. ↘",
+        "vi": "Tôi cho rằng điều đó phụ thuộc vào cách chúng ta dùng, hơn là bản thân công nghệ.",
+        "tip": "Nhấn 'depends', 'how', 'use', 'itself'. 'I'd say' → /aɪdseɪ/."
+      },
+      {
+        "en": "On the whole, I think it has made our lives easier, but not necessarily happier.",
+        "marked": "On the *WHOLE*, ↗ | I THINK‿it has made our LIVES‿*EA*sier, ↗ | but NOT NEcessarily *HAP*pier. ↘",
+        "vi": "Nhìn chung tôi nghĩ nó làm cuộc sống dễ hơn nhưng chưa chắc hạnh phúc hơn.",
+        "tip": "Nhấn 'whole', 'easier', 'not necessarily', 'happier'. Lên nhẹ ở 'easier'."
+      },
+      {
+        "en": "For instance, social media lets us stay in touch with relatives abroad, yet it can also make us feel lonely.",
+        "marked": "For *IN*stance, ↗ | SOcial MEdia lets us STAY‿in TOUCH with RElatives a*BROAD*, ↗ | yet‿it can ALso make us FEEL *LONE*ly. ↘",
+        "vi": "Ví dụ, mạng xã hội giúp liên lạc với người thân ở nước ngoài, nhưng cũng có thể khiến ta thấy cô đơn.",
+        "tip": "Nhấn 'For instance', 'stay in touch', 'yet', 'lonely'."
+      },
+      {
+        "en": "One reason for this is that people tend to compare themselves with the polished lives they see online.",
+        "marked": "One REAson for THIS‿is that PEOple tend to com*PARE* themselves ↗ | with the POLished LIVES they see on*LINE*. ↘",
+        "vi": "Một lý do là con người hay so sánh mình với cuộc sống được trau chuốt họ thấy trên mạng.",
+        "tip": "Nhấn 'One reason', 'compare', 'polished', 'online'. 'tend to' → /tendtə/."
+      },
+      {
+        "en": "That being said, I don't think we should blame the tools; it's a matter of setting healthy boundaries.",
+        "marked": "That being *SAID*, ↘↗ | I don't think we should BLAME the *TOOLS*; ↗ | it's‿a MATter‿of SETting HEALthy *BOUN*daries. ↘",
+        "vi": "Tuy vậy, tôi không nghĩ nên đổ lỗi cho công cụ; vấn đề là đặt ra ranh giới lành mạnh.",
+        "tip": "Nhấn 'That being said', 'blame', 'boundaries'. Ngắt ở dấu chấm phẩy."
+      },
+      {
+        "en": "If schools taught digital habits more seriously, young people would be far better prepared.",
+        "marked": "If SCHOOLS taught DIgital HAbits more *SE*riously, ↗ | YOUNG PEOple would be FAR better pre*PARED*. ↘",
+        "vi": "Nếu trường học dạy thói quen số nghiêm túc hơn, giới trẻ sẽ được chuẩn bị tốt hơn nhiều.",
+        "tip": "Nhấn 'schools', 'seriously', 'far better prepared'. Lên nhẹ sau dấu phẩy."
+      },
+      {
+        "en": "In the long term, I'm fairly optimistic, provided that regulation keeps pace with innovation.",
+        "marked": "In the long *TERM*, ↗ | I'm FAIRly op*TIM*istic, ↗ | proVIDed that reguLAtion keeps PACE with inno*VA*tion. ↘",
+        "vi": "Về dài hạn tôi khá lạc quan, miễn là quy định theo kịp đổi mới.",
+        "tip": "Nhấn 'long term', 'optimistic', 'provided', 'regulation', 'innovation'."
+      },
+      {
+        "en": "All in all, technology is a double-edged sword, and the outcome is largely up to us.",
+        "marked": "ALL‿in *ALL*, ↘↗ | techNOlogy‿is‿a DOUble-edged *SWORD*, ↗ | and the OUTcome‿is LARGEly up to *US*. ↘",
+        "vi": "Tóm lại, công nghệ là con dao hai lưỡi, và kết quả phần lớn do chúng ta quyết định.",
+        "tip": "Nhấn 'All in all', 'double-edged sword', 'largely up to us'. Xuống giọng dứt khoát cuối câu."
+      }
+    ]
+  },
+  {
+    "id": "sh-b2-04",
+    "level": "B2",
+    "title": "A place I would like to visit",
+    "topic": "Part 2: a place",
+    "sentences": [
+      {
+        "en": "One place I've always dreamed of visiting is Kyoto in Japan.",
+        "marked": "One *PLACE* I've ALways dreamed‿of VISiting ↗ | is kyOto in Ja*PAN*. ↘",
+        "vi": "Một nơi tôi luôn mơ được đến thăm là Kyoto ở Nhật Bản.",
+        "tip": "Nhấn 'always dreamed', 'visiting', 'Kyoto'. Nối 'dreamed_of'."
+      },
+      {
+        "en": "I first became interested in it after watching a documentary about its ancient temples and gardens.",
+        "marked": "I first beCAME *IN*terested‿in‿it ↗ | after WATCHing‿a docuMENtary aBOUT‿its ANcient TEMples‿and *GAR*dens. ↘",
+        "vi": "Tôi bắt đầu quan tâm sau khi xem phim tài liệu về những ngôi đền và khu vườn cổ.",
+        "tip": "Nhấn 'first', 'interested', 'ancient temples', 'gardens'. Nối 'became_interested'."
+      },
+      {
+        "en": "What fascinates me is how the city has managed to preserve its traditions despite rapid modernisation.",
+        "marked": "What FASCinates me is HOW the CIty has MAnaged to preSERVE‿its tra*DI*tions ↗ | de*SPITE* RApid modernisAtion. ↘",
+        "vi": "Điều cuốn hút tôi là thành phố giữ được truyền thống bất chấp hiện đại hóa nhanh chóng.",
+        "tip": "Nhấn 'fascinates', 'preserve', 'traditions', 'modernisation'."
+      },
+      {
+        "en": "If I went there, I'd spend most of my time wandering through quiet streets and tasting local dishes.",
+        "marked": "If I went *THERE*, ↗ | I'd spend MOST‿of my time WANdering through QUIet *STREETS* ↗ | and TASTing LOcal *DI*shes. ↘",
+        "vi": "Nếu đến đó, tôi sẽ dành phần lớn thời gian dạo những con phố yên tĩnh và thử món địa phương.",
+        "tip": "Nhấn 'wandering', 'quiet streets', 'tasting', 'local dishes'. 'I'd' → /aɪd/."
+      },
+      {
+        "en": "Ideally, I'd go in spring, since the cherry blossoms are said to be spectacular.",
+        "marked": "i*DE*ally, ↗ | I'd go in *SPRING*, ↗ | since the CHERry BLOSsoms‿are said to be spec*TAC*ular. ↘",
+        "vi": "Lý tưởng nhất tôi sẽ đi vào mùa xuân, vì hoa anh đào được cho là rất ngoạn mục.",
+        "tip": "Nhấn 'Ideally', 'spring', 'cherry blossoms', 'spectacular'."
+      },
+      {
+        "en": "The main obstacle is cost, as flights and accommodation can be rather pricey.",
+        "marked": "The main OBstacle‿is *COST*, ↗ | as flights‿and accommoDAtion can be RAther *PRI*cey. ↘",
+        "vi": "Trở ngại chính là chi phí, vì vé máy bay và chỗ ở khá đắt.",
+        "tip": "Nhấn 'main obstacle', 'cost', 'pricey'. 'can be' → /kənbi/."
+      },
+      {
+        "en": "Nevertheless, I'm saving a little every month, so hopefully it will become a reality soon.",
+        "marked": "Never*THE*less, ↘↗ | I'm SAVing‿a LITtle EVery *MONTH*, ↗ | so HOPEfully it will beCOME‿a reALity *SOON*. ↘",
+        "vi": "Tuy vậy, tháng nào tôi cũng tiết kiệm một ít nên hy vọng sớm thành hiện thực.",
+        "tip": "Nhấn 'Nevertheless', 'saving', 'hopefully', 'reality'."
+      },
+      {
+        "en": "I believe that visiting somewhere so different would broaden my horizons in a way books never could.",
+        "marked": "I beLIEVE that VIsiting SOMEwhere so *DIF*ferent ↗ | would BROAden my hoRIzons‿in‿a *WAY* ↗ | books NEver *COULD*. ↘",
+        "vi": "Tôi tin việc đến một nơi khác biệt như vậy sẽ mở rộng tầm nhìn theo cách sách vở không làm được.",
+        "tip": "Nhấn 'different', 'broaden', 'horizons', 'never'. 'could' nhấn ở cuối vì ngầm 'could (do)'."
+      }
+    ]
+  },
+  {
+    "id": "sh-b2-05",
+    "level": "B2",
+    "title": "Education: school versus real life",
+    "topic": "Part 3: education",
+    "sentences": [
+      {
+        "en": "In my view, schools place too much emphasis on exams rather than practical skills.",
+        "marked": "In my *VIEW*, ↗ | schools place too much EMphasis‿on ex*AMS* ↗ | rather than PRACtical *SKILLS*. ↘",
+        "vi": "Theo tôi, trường học quá chú trọng thi cử thay vì kỹ năng thực tế.",
+        "tip": "Nhấn 'my view', 'too much emphasis', 'exams', 'practical skills'."
+      },
+      {
+        "en": "Students memorise large amounts of information, but many struggle to apply it in real situations.",
+        "marked": "STUdents MEMorise large aMOUNTS‿of infor*MA*tion, ↗ | but MAny STRUGgle to apPLY it‿in real situ*A*tions. ↘",
+        "vi": "Học sinh học thuộc rất nhiều thông tin nhưng nhiều em khó áp dụng vào tình huống thực tế.",
+        "tip": "Nhấn 'memorise', 'struggle', 'apply', 'real situations'. 'but many' lên nhẹ rồi xuống."
+      },
+      {
+        "en": "To be fair, exams do provide a fair way of comparing large numbers of people.",
+        "marked": "To be *FAIR*, ↗ | EXams do proVIDE‿a fair WAY‿of comPAring LARGE NUMbers‿of *PEO*ple. ↘",
+        "vi": "Công bằng mà nói, thi cử là cách tương đối công bằng để so sánh số đông.",
+        "tip": "Nhấn 'To be fair', 'do provide' (nhấn mạnh 'do'), 'comparing'."
+      },
+      {
+        "en": "Having said that, employers nowadays value teamwork, creativity and communication far more than test scores.",
+        "marked": "Having *SAID* that, ↘↗ | emPLOYers NOWadays value *TEAM*work, ↗ | crea*TIV*ity ↗ | and communiCAtion far more than test *SCORES*. ↘",
+        "vi": "Tuy vậy, ngày nay nhà tuyển dụng coi trọng làm việc nhóm, sáng tạo và giao tiếp hơn điểm số.",
+        "tip": "Nhấn 'Having said that', 'teamwork', 'creativity', 'communication'. Giọng lên ở liệt kê, xuống ở mục cuối."
+      },
+      {
+        "en": "One solution would be to include more project-based learning in the curriculum.",
+        "marked": "One soLUtion would be to inCLUDE more PROject-based LEARNing‿in the cur*RIC*ulum. ↘",
+        "vi": "Một giải pháp là đưa nhiều hơn việc học theo dự án vào chương trình.",
+        "tip": "Nhấn 'solution', 'project-based', 'curriculum'. 'would be to' nối nhanh."
+      },
+      {
+        "en": "That way, students could learn by doing, which tends to be far more memorable.",
+        "marked": "That *WAY*, ↗ | students could LEARN by *DO*ing, ↗ | which tends to be far more *MEM*orable. ↘",
+        "vi": "Như vậy học sinh có thể học qua thực hành, điều thường dễ nhớ hơn nhiều.",
+        "tip": "Nhấn 'learn by doing', 'memorable'. 'could' yếu /kəd/."
+      },
+      {
+        "en": "Admittedly, this would require better-trained teachers and more funding.",
+        "marked": "ad*MIT*tedly, ↘↗ | this would reQUIRE BETter-trained *TEA*chers ↗ | and more *FUND*ing. ↘",
+        "vi": "Phải thừa nhận điều này đòi hỏi giáo viên được đào tạo tốt hơn và nhiều kinh phí hơn.",
+        "tip": "Nhấn 'Admittedly', 'better-trained', 'funding'."
+      },
+      {
+        "en": "Still, I'm convinced that the long-term benefits would outweigh the initial costs.",
+        "marked": "*STILL*, ↘↗ | I'm conVINCED that the long-term BENefits would outWEIGH the iNItial *COSTS*. ↘",
+        "vi": "Dù vậy tôi tin lợi ích lâu dài sẽ lớn hơn chi phí ban đầu.",
+        "tip": "Nhấn 'convinced', 'long-term', 'outweigh', 'initial costs'."
+      }
+    ]
+  },
+  {
+    "id": "sh-b2-06",
+    "level": "B2",
+    "title": "A skill I would like to learn",
+    "topic": "Part 2: a skill",
+    "sentences": [
+      {
+        "en": "A skill I'm keen to learn is playing the violin, which I've wanted to do since childhood.",
+        "marked": "A *SKILL* I'm keen to LEARN ↗ | is PLAYing the vio*LIN*, ↗ | which I've WANTed to DO since *CHILD*hood. ↘",
+        "vi": "Kỹ năng tôi muốn học là chơi violin, điều tôi mong từ thuở nhỏ.",
+        "tip": "Nhấn 'keen', 'violin' /ˌvaɪəˈlɪn/, 'since childhood'. 'wanted to' → /wɒntɪdtə/."
+      },
+      {
+        "en": "I was captivated by the sound of it when I heard a street musician playing near my house.",
+        "marked": "I was CAPtivated by the *SOUND*‿of‿it ↗ | when I HEARD‿a STREET muSIcian PLAYing near my *HOUSE*. ↘",
+        "vi": "Tôi bị cuốn hút bởi âm thanh của nó khi nghe một nghệ sĩ đường phố chơi gần nhà.",
+        "tip": "Nhấn 'captivated', 'sound', 'street musician'. 'was' yếu /wəz/."
+      },
+      {
+        "en": "Unfortunately, I never had the opportunity, as my family couldn't afford lessons back then.",
+        "marked": "Un*FOR*tunately, ↘↗ | I NEVer had the oppor*TU*nity, ↗ | as my FAmily couldn't afFORD LESsons back *THEN*. ↘",
+        "vi": "Đáng tiếc tôi chưa có cơ hội, vì khi đó gia đình không đủ tiền học.",
+        "tip": "Nhấn 'Unfortunately', 'never', 'afford', 'back then'. 'couldn't' /ˈkʊdnt/."
+      },
+      {
+        "en": "Now that I have a steady income, I'm seriously considering signing up for a beginner's course.",
+        "marked": "Now that I have‿a STEAdy *IN*come, ↗ | I'm SEriously conSIDering signing‿up for‿a beGINner's *COURSE*. ↘",
+        "vi": "Giờ có thu nhập ổn định, tôi nghiêm túc cân nhắc đăng ký khóa cho người mới.",
+        "tip": "Nhấn 'steady income', 'seriously', 'signing up', 'beginner's course'."
+      },
+      {
+        "en": "I realise it won't be easy, particularly since the violin is notoriously hard to master.",
+        "marked": "I REalise‿it won't be *EA*sy, ↗ | parTIcularly since the vioLIN‿is NOtoriously hard to *MAS*ter. ↘",
+        "vi": "Tôi biết sẽ không dễ, nhất là vì violin nổi tiếng là khó thành thạo.",
+        "tip": "Nhấn 'won't', 'easy', 'notoriously', 'master'."
+      },
+      {
+        "en": "However, I'm prepared to practise for at least half an hour every evening.",
+        "marked": "How*EV*er, ↘↗ | I'm prePARED to PRACtise for‿at LEAST half‿an HOUR EVery *EVE*ning. ↘",
+        "vi": "Tuy nhiên tôi sẵn sàng luyện ít nhất nửa tiếng mỗi tối.",
+        "tip": "Nhấn 'However', 'prepared', 'practise', 'every evening'. Nối 'half_an_hour'."
+      },
+      {
+        "en": "Learning something new at this stage of life would give me a real sense of achievement.",
+        "marked": "LEARNing SOMEthing new at this STAGE‿of *LIFE* ↗ | would GIVE me‿a REAL sense‿of a*CHIEVE*ment. ↘",
+        "vi": "Học điều mới ở giai đoạn này của cuộc đời sẽ cho tôi cảm giác thành tựu thật sự.",
+        "tip": "Nhấn 'something new', 'real sense', 'achievement'. 'would give' → /wʊdɡɪv/."
+      },
+      {
+        "en": "Who knows, maybe one day I'll even perform for my family at a birthday party.",
+        "marked": "Who *KNOWS*, ↘↗ | MAYbe one day I'll EVen perFORM for my FAmily at‿a BIRTHday *PAR*ty. ↘",
+        "vi": "Biết đâu một ngày tôi còn biểu diễn cho gia đình trong tiệc sinh nhật.",
+        "tip": "Nhấn 'Who knows', 'even', 'perform', 'birthday party'. 'I'll' → /aɪl/."
+      }
+    ]
+  },
+  {
+    "id": "sh-c1-01",
+    "level": "C1",
+    "title": "Globalisation and cultural identity",
+    "topic": "Part 3: culture",
+    "sentences": [
+      {
+        "en": "It could be argued that globalisation has, to some extent, diluted local cultures, since people everywhere now consume remarkably similar media and products.",
+        "marked": "It could be *AR*gued ↗ | that globali*SA*tion has, ↗ | to some ex*TENT*, ↗ | diLUted LOcal *CUL*tures, ↗ | since PEOple EVerywhere now conSUME reMARKably SIMilar MEdia and *PROD*ucts. ↘",
+        "vi": "Có thể cho rằng toàn cầu hóa ở mức độ nào đó đã làm loãng văn hóa bản địa, vì mọi nơi giờ tiêu thụ truyền thông và sản phẩm khá giống nhau.",
+        "tip": "Nhấn 'argued', 'to some extent', 'diluted', 'similar'. Ngắt nhẹ ở các dấu phẩy, hạ giọng ở cuối."
+      },
+      {
+        "en": "Nevertheless, I would hesitate to claim that traditions are disappearing altogether; many communities are, in fact, actively reviving their heritage.",
+        "marked": "Never*THE*less, ↘↗ | I would HEsitate to *CLAIM* ↗ | that traDItions‿are disapPEARing al*TO*gether; ↗ | MAny comMUnities are, in *FACT*, ↗ | ACtively reVIVing their *HE*ritage. ↘",
+        "vi": "Tuy vậy, tôi do dự khi nói truyền thống biến mất hoàn toàn; thực tế nhiều cộng đồng đang chủ động hồi sinh di sản.",
+        "tip": "Nhấn 'hesitate', 'altogether', 'actively reviving', 'heritage'. Ngắt ở dấu chấm phẩy."
+      },
+      {
+        "en": "What we are witnessing may well be a process of hybridisation rather than a simple loss of identity.",
+        "marked": "What we are *WIT*nessing ↗ | may WELL be a PROcess‿of hybridi*SA*tion ↗ | RAther than‿a SIMple loss‿of i*DEN*tity. ↘",
+        "vi": "Điều chúng ta đang chứng kiến có thể là quá trình lai ghép hơn là sự mất bản sắc đơn thuần.",
+        "tip": "Nhấn 'witnessing', 'may well', 'hybridisation' /ˌhaɪbrɪdaɪˈzeɪʃn/, 'loss'."
+      },
+      {
+        "en": "Younger generations, in particular, tend to blend global trends with local customs, creating something genuinely new.",
+        "marked": "YOUNGer gene*RA*tions, ↗ | in par*TI*cular, ↗ | tend to BLEND GLObal TRENDS with LOcal *CUS*toms, ↗ | creATing SOMEthing GENuinely *NEW*. ↘",
+        "vi": "Đặc biệt, thế hệ trẻ thường pha trộn xu hướng toàn cầu với phong tục địa phương, tạo ra điều thực sự mới.",
+        "tip": "Nhấn 'in particular', 'blend', 'global', 'local', 'genuinely new'."
+      },
+      {
+        "en": "That said, there is a legitimate concern that minority languages, which carry irreplaceable knowledge, may not survive the pressure of dominant ones.",
+        "marked": "That *SAID*, ↘↗ | there‿is‿a LEgitimate con*CERN* ↗ | that MInority *LAN*guages, ↗ | which CARry irrePLACEable *KNOW*ledge, ↗ | may NOT surVIVE the PRESsure of DOMinant *ONES*. ↘",
+        "vi": "Tuy nhiên, có mối lo chính đáng rằng ngôn ngữ thiểu số, mang tri thức không thể thay thế, có thể không trụ nổi áp lực của ngôn ngữ mạnh.",
+        "tip": "Nhấn 'legitimate concern', 'minority languages', 'irreplaceable', 'survive'."
+      },
+      {
+        "en": "Governments therefore have a responsibility to support cultural education without turning heritage into a mere tourist attraction.",
+        "marked": "GOVernments THEREfore have‿a responsi*BI*lity ↗ | to supPORT CULtural edu*CA*tion ↗ | withOUT TURNing HEritage‿into a MERE TOUrist at*TRAC*tion. ↘",
+        "vi": "Do đó chính phủ có trách nhiệm hỗ trợ giáo dục văn hóa mà không biến di sản thành điểm thu hút du lịch đơn thuần.",
+        "tip": "Nhấn 'responsibility', 'cultural education', 'mere tourist attraction'. 'have a' nối nhanh."
+      },
+      {
+        "en": "Ultimately, identity is not a fixed object to be preserved in a museum but a living practice that evolves with each generation.",
+        "marked": "*UL*timately, ↗ | iDENtity‿is not‿a FIXED‿OBject to be preSERVED‿in‿a mu*SE*um ↗ | but‿a LIVing *PRAC*tice ↗ | that eVOLVES with EACH gene*RA*tion. ↘",
+        "vi": "Cuối cùng, bản sắc không phải vật cố định để lưu giữ trong bảo tàng mà là thực hành sống động tiến hóa qua mỗi thế hệ.",
+        "tip": "Nhấn 'not', 'museum', 'living practice', 'evolves'. Ngữ điệu tương phản 'not... but'."
+      },
+      {
+        "en": "In my estimation, the real challenge lies in striking a balance between openness to the world and pride in one's roots.",
+        "marked": "In my esti*MA*tion, ↗ | the REal CHALlenge lies‿in STRIKing‿a *BAL*ance ↗ | between OPenness to the *WORLD* ↗ | and PRIDE‿in one's *ROOTS*. ↘",
+        "vi": "Theo đánh giá của tôi, thách thức thật sự là cân bằng giữa cởi mở với thế giới và tự hào về cội nguồn.",
+        "tip": "Nhấn 'estimation', 'challenge', 'balance', 'openness', 'pride', 'roots'."
+      }
+    ]
+  },
+  {
+    "id": "sh-c1-02",
+    "level": "C1",
+    "title": "Work-life balance in modern society",
+    "topic": "Part 3: work",
+    "sentences": [
+      {
+        "en": "There is a growing perception that work has gradually encroached on personal life, largely because technology allows us to be reachable around the clock.",
+        "marked": "There‿is‿a GROWing per*CEP*tion ↗ | that WORK has GRAdually enCROACHED‿on PERsonal *LIFE*, ↗ | LARGEly beCAUSE techNOlogy alLOWS‿us to be REachable aROUND the *CLOCK*. ↘",
+        "vi": "Ngày càng có nhận thức rằng công việc dần lấn sang đời sống riêng, phần lớn vì công nghệ khiến ta có thể bị liên lạc suốt ngày đêm.",
+        "tip": "Nhấn 'growing perception', 'encroached', 'reachable', 'around the clock'. Ngắt trước 'largely'."
+      },
+      {
+        "en": "Whereas previous generations could leave their jobs at the office, many professionals now find it virtually impossible to switch off.",
+        "marked": "WHEREas PREvious generAtions could leave their JOBS‿at the *OF*fice, ↗ | MAny proFEssionals now FIND‿it VIRtually imPOSsible to switch *OFF*. ↘",
+        "vi": "Trong khi các thế hệ trước có thể bỏ công việc lại văn phòng, nhiều người nay thấy gần như không thể ngắt kết nối.",
+        "tip": "Nhấn 'Whereas', 'leave', 'virtually impossible', 'switch off'. Lên nhẹ sau dấu phẩy."
+      },
+      {
+        "en": "This constant pressure is widely believed to contribute to burnout, which in turn undermines both productivity and wellbeing.",
+        "marked": "This CONstant PRESsure is WIDEly beLIEVED to conTRIBute to *BURN*out, ↗ | which‿in *TURN* ↗ | UNdermines BOTH producTIvity‿and *WELL*being. ↘",
+        "vi": "Áp lực liên tục này được cho là góp phần gây kiệt sức, từ đó làm suy giảm cả năng suất lẫn sức khỏe tinh thần.",
+        "tip": "Nhấn 'constant pressure', 'burnout', 'in turn', 'undermines', 'wellbeing'."
+      },
+      {
+        "en": "Some companies have begun to experiment with four-day working weeks, and the preliminary results appear remarkably promising.",
+        "marked": "Some COMpanies have beGUN to exPEriment with FOUR-day working *WEEKS*, ↗ | and the preLIMinary reSULTS apPEAR reMARKably *PROM*ising. ↘",
+        "vi": "Một số công ty bắt đầu thử tuần làm việc bốn ngày, và kết quả sơ bộ có vẻ rất đáng khích lệ.",
+        "tip": "Nhấn 'experiment', 'four-day', 'preliminary', 'remarkably promising'."
+      },
+      {
+        "en": "Admittedly, such arrangements are not feasible in every sector; a nurse or a firefighter cannot simply work from home.",
+        "marked": "Ad*MIT*tedly, ↘↗ | such arRANGEments‿are not FEAsible‿in EVery *SEC*tor; ↗ | a NURSE‿or‿a FIREfighter CANnot SIMply work from *HOME*. ↘",
+        "vi": "Phải thừa nhận cách này không khả thi ở mọi ngành; y tá hay lính cứu hỏa không thể đơn giản làm việc tại nhà.",
+        "tip": "Nhấn 'Admittedly', 'not feasible', 'nurse', 'firefighter', 'cannot'. Ngắt ở dấu chấm phẩy."
+      },
+      {
+        "en": "It seems to me that the onus should be on employers to set clear boundaries instead of expecting staff to protect their own time.",
+        "marked": "It SEEMS to *ME* ↗ | that the ONus should be on emPLOYers to set CLEAR *BOUN*daries ↗ | inSTEAD‿of exPECTing STAFF to proTECT their own *TIME*. ↘",
+        "vi": "Với tôi, trách nhiệm nên thuộc về nhà tuyển dụng trong việc đặt ranh giới rõ ràng thay vì mong nhân viên tự bảo vệ thời gian.",
+        "tip": "Nhấn 'onus', 'employers', 'clear boundaries', 'protect'. 'It seems to me' đọc nhẹ."
+      },
+      {
+        "en": "On the flip side, individuals must also take some accountability by learning to say no and prioritising what genuinely matters.",
+        "marked": "On the flip *SIDE*, ↘↗ | indiVIduals must ALso take some accounta*BI*lity ↗ | by LEARNing to say *NO* ↗ | and PRIoritising what GENuinely *MAT*ters. ↘",
+        "vi": "Ngược lại, mỗi cá nhân cũng phải chịu một phần trách nhiệm bằng cách học nói không và ưu tiên điều thực sự quan trọng.",
+        "tip": "Nhấn 'flip side', 'accountability', 'say no', 'genuinely matters'."
+      },
+      {
+        "en": "Striking the right balance is, I would argue, less about the number of hours worked than about having genuine autonomy over one's schedule.",
+        "marked": "STRIKing the right *BAL*ance‿is, ↘↗ | I would *AR*gue, ↘↗ | LESS aBOUT the NUMber‿of HOURS *WORKED* ↗ | than‿aBOUT HAving GENuine auTONomy over one's *SCHE*dule. ↘",
+        "vi": "Tôi cho rằng cân bằng đúng đắn ít liên quan đến số giờ làm mà đến quyền tự chủ thực sự với lịch của mình.",
+        "tip": "Nhấn 'less', 'hours', 'genuine autonomy', 'schedule'. Ngữ điệu tương phản 'less... than'."
+      }
+    ]
+  },
+  {
+    "id": "sh-c1-03",
+    "level": "C1",
+    "title": "The environment and individual responsibility",
+    "topic": "Part 3: environment",
+    "sentences": [
+      {
+        "en": "While it is tempting to blame large corporations for environmental damage, individuals cannot entirely absolve themselves of responsibility.",
+        "marked": "While‿it‿is TEMPting to BLAME LARGE corpoRAtions for enVIronmental *DA*mage, ↗ | INdividuals CANnot enTIREly abSOLVE themselves‿of responsi*BI*lity. ↘",
+        "vi": "Dù dễ đổ lỗi cho các tập đoàn lớn về hủy hoại môi trường, cá nhân cũng không thể hoàn toàn chối bỏ trách nhiệm.",
+        "tip": "Nhấn 'tempting', 'blame', 'corporations', 'cannot', 'absolve'. Lên nhẹ sau dấu phẩy."
+      },
+      {
+        "en": "Collectively, our consumption habits shape what industries produce, so choosing sustainable products sends a powerful signal to the market.",
+        "marked": "Col*LEC*tively, ↗ | our conSUMPtion HAbits shape what INdustries pro*DUCE*, ↗ | so CHOOSing susTAINable PRODucts sends‿a POWerful *SIG*nal to the MARket. ↘",
+        "vi": "Xét chung, thói quen tiêu dùng định hình thứ ngành công nghiệp sản xuất, nên chọn sản phẩm bền vững là tín hiệu mạnh gửi đến thị trường.",
+        "tip": "Nhấn 'Collectively', 'consumption', 'sustainable', 'powerful signal'."
+      },
+      {
+        "en": "That said, expecting people to make sacrifices without providing viable alternatives is both unrealistic and somewhat unfair.",
+        "marked": "That *SAID*, ↘↗ | exPECTing PEOple to make *SAC*rifices ↗ | withOUT proVIDing VIable alTERnatives‿is BOTH unrealISTic‿and SOMEwhat *UN*fair. ↘",
+        "vi": "Tuy nhiên, mong mọi người hy sinh mà không cung cấp phương án khả thi vừa phi thực tế vừa phần nào bất công.",
+        "tip": "Nhấn 'sacrifices', 'viable alternatives', 'unrealistic', 'unfair'."
+      },
+      {
+        "en": "A case in point is public transport: in many cities, it is so unreliable that commuters have little choice but to drive.",
+        "marked": "A CASE‿in POINT‿is PUBlic *TRANS*port: ↗ | in MAny *CI*ties, ↗ | it‿is SO unre*LI*able ↗ | that comMUters have LITtle CHOICE but to *DRIVE*. ↘",
+        "vi": "Giao thông công cộng là ví dụ điển hình: ở nhiều thành phố nó kém tin cậy đến mức người đi làm gần như buộc phải lái xe.",
+        "tip": "Nhấn 'case in point', 'unreliable', 'little choice', 'drive'. 'have little choice but to' đọc nhanh."
+      },
+      {
+        "en": "Hence, meaningful progress will most likely require a combination of stricter regulation, financial incentives and a shift in public attitudes.",
+        "marked": "*HENCE*, ↘↗ | MEaningful PROgress will MOST likely reQUIRE‿a combiNAtion‿of STRICTer regu*LA*tion, ↗ | fiNANcial in*CEN*tives ↗ | and‿a SHIFT‿in PUBlic *AT*titudes. ↘",
+        "vi": "Do đó, tiến bộ có ý nghĩa nhiều khả năng đòi hỏi kết hợp quy định chặt hơn, ưu đãi tài chính và thay đổi thái độ xã hội.",
+        "tip": "Nhấn 'Hence', 'regulation', 'incentives', 'attitudes'. Giọng lên ở liệt kê, xuống ở mục cuối."
+      },
+      {
+        "en": "I'm somewhat sceptical about whether voluntary pledges alone can deliver the scale of change that scientists say is necessary.",
+        "marked": "I'm SOMEwhat *SCEP*tical ↗ | aBOUT whether VOLuntary PLEDges aLONE can deLIVer the SCALE‿of *CHANGE* ↗ | that SCIentists say is *NE*cessary. ↘",
+        "vi": "Tôi khá hoài nghi liệu các cam kết tự nguyện đơn thuần có đem lại quy mô thay đổi mà các nhà khoa học cho là cần thiết.",
+        "tip": "Nhấn 'sceptical', 'voluntary pledges alone', 'scale', 'necessary'. 'whether' /ˈweðə/."
+      },
+      {
+        "en": "On the other hand, history shows that social norms can shift surprisingly quickly once a tipping point is reached.",
+        "marked": "On the other *HAND*, ↘↗ | history *SHOWS* ↗ | that SOcial NORMS can SHIFT surPRISingly *QUICK*ly ↗ | once‿a TIPping point‿is *REACHED*. ↘",
+        "vi": "Mặt khác, lịch sử cho thấy chuẩn mực xã hội có thể thay đổi nhanh đáng ngạc nhiên khi đạt điểm bùng phát.",
+        "tip": "Nhấn 'history shows', 'shift', 'surprisingly quickly', 'tipping point'."
+      },
+      {
+        "en": "Bearing that in mind, I remain cautiously optimistic that attitudes towards sustainability will continue to evolve for the better.",
+        "marked": "Bearing that in *MIND*, ↘↗ | I reMAIN CAUtiously op*TIM*istic ↗ | that ATtitudes toWARDS sustaina*BI*lity ↗ | will conTINue to eVOLVE for the *BET*ter. ↘",
+        "vi": "Ghi nhớ điều đó, tôi vẫn lạc quan thận trọng rằng thái độ đối với bền vững sẽ tiếp tục thay đổi theo hướng tốt.",
+        "tip": "Nhấn 'Bearing that in mind', 'cautiously optimistic', 'evolve', 'better'."
+      }
+    ]
+  },
+  {
+    "id": "sh-c1-04",
+    "level": "C1",
+    "title": "The role of technology in education",
+    "topic": "Part 3: education",
+    "sentences": [
+      {
+        "en": "Digital tools have undeniably widened access to knowledge, yet access alone does not guarantee meaningful learning.",
+        "marked": "DIgital TOOLS have undeNIably WIDened ACcess to *KNOW*ledge, ↗ | yet ACcess aLONE does not guaranTEE MEaningful *LEARN*ing. ↘",
+        "vi": "Công cụ số rõ ràng đã mở rộng khả năng tiếp cận tri thức, nhưng tiếp cận thôi chưa bảo đảm học có ý nghĩa.",
+        "tip": "Nhấn 'undeniably widened', 'yet', 'alone', 'meaningful'. Ngắt ở dấu phẩy."
+      },
+      {
+        "en": "A student can watch hundreds of online lectures without ever developing the critical thinking needed to evaluate what they have heard.",
+        "marked": "A STUdent can WATCH HUNdreds‿of ONline *LEC*tures ↗ | without‿EVer deVELoping the CRItical *THINK*ing NEEDed ↗ | to eVALuate what they have *HEARD*. ↘",
+        "vi": "Một học sinh có thể xem hàng trăm bài giảng trực tuyến mà không bao giờ phát triển tư duy phản biện để đánh giá điều đã nghe.",
+        "tip": "Nhấn 'hundreds', 'without ever', 'critical thinking', 'evaluate'."
+      },
+      {
+        "en": "This is where teachers remain indispensable, as they guide learners through complexity and encourage them to question assumptions.",
+        "marked": "This‿is WHERE TEAchers reMAIN indis*PEN*sable, ↗ | as they GUIDE LEARners through com*PLEX*ity ↗ | and enCOURage them to QUEStion as*SUMP*tions. ↘",
+        "vi": "Đây là chỗ giáo viên vẫn không thể thiếu, vì họ dẫn dắt người học qua sự phức tạp và khuyến khích đặt câu hỏi cho các giả định.",
+        "tip": "Nhấn 'indispensable', 'guide', 'complexity', 'question assumptions'."
+      },
+      {
+        "en": "It is often claimed that artificial intelligence will eventually replace human instructors, but I find that prediction rather far-fetched.",
+        "marked": "It‿is OFten *CLAIMED* ↗ | that artiFIcial inTELligence will eVENtually rePLACE HUman in*STRUC*tors, ↗ | but I FIND that preDICtion RAther *FAR*-fetched. ↘",
+        "vi": "Người ta thường cho rằng AI cuối cùng sẽ thay thế giáo viên, nhưng tôi thấy dự đoán đó khá viển vông.",
+        "tip": "Nhấn 'claimed', 'eventually replace', 'far-fetched'. 'but I' lên nhẹ ở 'but'."
+      },
+      {
+        "en": "Machines can personalise exercises very efficiently, but empathy, motivation and mentoring are qualities that are hard to automate.",
+        "marked": "MaCHINES can PERsonalise‿EXercises very ef*FI*ciently, ↗ | but *EM*pathy, ↗ | moti*VA*tion ↗ | and MENtoring‿are *QUA*lities ↗ | that‿are HARD to *AU*tomate. ↘",
+        "vi": "Máy móc cá nhân hóa bài tập rất hiệu quả, nhưng sự đồng cảm, tạo động lực và kèm cặp khó tự động hóa.",
+        "tip": "Nhấn 'personalise', 'efficiently', 'empathy', 'motivation', 'mentoring', 'automate'."
+      },
+      {
+        "en": "Moreover, there is a risk that heavy reliance on screens could exacerbate inequality between well-resourced and disadvantaged schools.",
+        "marked": "More*O*ver, ↘↗ | there‿is‿a *RISK* ↗ | that HEAvy reLIance‿on SCREENS could exACerbate ine*QUAL*ity ↗ | between well-reSOURCED‿and disadVANtaged *SCHOOLS*. ↘",
+        "vi": "Hơn nữa có nguy cơ việc phụ thuộc nặng vào màn hình làm trầm trọng thêm bất bình đẳng giữa trường đủ nguồn lực và trường khó khăn.",
+        "tip": "Nhấn 'Moreover', 'reliance', 'exacerbate', 'inequality', 'disadvantaged'."
+      },
+      {
+        "en": "For technology to be truly beneficial, it must be integrated thoughtfully into the curriculum rather than bolted on as an afterthought.",
+        "marked": "For techNOlogy to be TRUly bene*FI*cial, ↗ | it MUST be INtegrated THOUGHTfully into the cur*RIC*ulum ↗ | rather than BOLTed‿on‿as‿an *AF*terthought. ↘",
+        "vi": "Để công nghệ thực sự có ích, nó phải được tích hợp có suy nghĩ vào chương trình, không phải gắn thêm như chuyện nghĩ sau.",
+        "tip": "Nhấn 'truly beneficial', 'integrated thoughtfully', 'bolted on', 'afterthought'. 'for' yếu."
+      },
+      {
+        "en": "In essence, technology should serve pedagogy, not the other way round.",
+        "marked": "In *ES*sence, ↘↗ | techNOlogy should *SERVE* PEdagogy, ↗ | not the OTHer way *ROUND*. ↘",
+        "vi": "Về bản chất, công nghệ nên phục vụ phương pháp sư phạm, chứ không phải ngược lại.",
+        "tip": "Nhấn 'essence', 'serve', 'pedagogy', 'other way round'. Hạ giọng dứt khoát."
+      }
+    ]
+  },
+  {
+    "id": "sh-c1-05",
+    "level": "C1",
+    "title": "Urbanisation and quality of life",
+    "topic": "Part 3: cities",
+    "sentences": [
+      {
+        "en": "The relentless migration towards cities has brought undeniable economic benefits, but it has also placed enormous strain on infrastructure and housing.",
+        "marked": "The reLENTless miGRAtion toWARDS CIties has BROUGHT undeNIable ecoNOmic *BEN*efits, ↗ | but it has ALso PLACED eNORmous STRAIN‿on INfrastructure and *HOU*sing. ↘",
+        "vi": "Làn sóng di cư không ngừng đến các thành phố mang lại lợi ích kinh tế rõ ràng, nhưng cũng đặt áp lực khổng lồ lên hạ tầng và nhà ở.",
+        "tip": "Nhấn 'relentless migration', 'economic benefits', 'enormous strain', 'infrastructure'."
+      },
+      {
+        "en": "Property prices in major cities have soared to the point where ordinary workers can scarcely afford to live near their jobs.",
+        "marked": "PROperty PRICES‿in MAjor CIties have SOARED to the *POINT* ↗ | where ORdinary WORKers can SCARcely afFORD to LIVE near their *JOBS*. ↘",
+        "vi": "Giá bất động sản ở các thành phố lớn tăng vọt đến mức người lao động bình thường khó mà sống gần nơi làm việc.",
+        "tip": "Nhấn 'soared', 'ordinary workers', 'scarcely afford'. Nối 'to_the_point_where'."
+      },
+      {
+        "en": "As a consequence, many are forced to endure exhausting commutes, which inevitably takes a toll on their health and family relationships.",
+        "marked": "As‿a *CON*sequence, ↘↗ | MAny are FORCED to enDURE exHAUSTing com*MUTES*, ↗ | which iNEvitably takes‿a TOLL‿on their *HEALTH* ↗ | and FAmily re*LA*tionships. ↘",
+        "vi": "Hệ quả là nhiều người phải chịu những chuyến đi làm kiệt sức, chắc chắn ảnh hưởng đến sức khỏe và quan hệ gia đình.",
+        "tip": "Nhấn 'consequence', 'endure', 'exhausting commutes', 'takes a toll'."
+      },
+      {
+        "en": "One could argue that decentralising economic activity would relieve some of this pressure by creating opportunities in smaller towns.",
+        "marked": "One could *AR*gue ↗ | that deCENtralising ecoNOmic acTIvity would reLIEVE some‿of this *PRES*sure ↗ | by creATing opporTUnities‿in SMALLer *TOWNS*. ↘",
+        "vi": "Có thể lập luận rằng phân tán hoạt động kinh tế sẽ giảm bớt áp lực này nhờ tạo cơ hội ở các thị trấn nhỏ.",
+        "tip": "Nhấn 'could argue', 'decentralising', 'relieve', 'smaller towns'. 'would' yếu."
+      },
+      {
+        "en": "However, this is easier said than done, since businesses naturally gravitate towards places with skilled labour and established networks.",
+        "marked": "How*EV*er, ↘↗ | this‿is EAsier SAID than *DONE*, ↗ | since BUsinesses NAturally GRAvitate toWARDS PLAces with SKILLED LAbour‿and esTABlished *NET*works. ↘",
+        "vi": "Tuy nhiên nói thì dễ làm thì khó, vì doanh nghiệp tự nhiên có xu hướng đổ về nơi có lao động kỹ năng và mạng lưới sẵn có.",
+        "tip": "Nhấn 'easier said than done' (nhấn 'said' và 'done'), 'gravitate', 'skilled labour', 'networks'."
+      },
+      {
+        "en": "Well-designed green spaces and pedestrian-friendly streets can substantially enhance residents' wellbeing, even in densely populated areas.",
+        "marked": "Well-deSIGNED green SPAces‿and peDEStrian-FRIENDly *STREETS* ↗ | can subSTANtially enHANCE REsidents' *WELL*being, ↗ | even‿in DENsely POPulated *A*reas. ↘",
+        "vi": "Không gian xanh được thiết kế tốt và đường phố thân thiện người đi bộ có thể nâng cao đáng kể sức khỏe tinh thần cư dân, kể cả ở khu đông dân.",
+        "tip": "Nhấn 'green spaces', 'pedestrian-friendly', 'substantially enhance', 'densely populated'."
+      },
+      {
+        "en": "Ultimately, sustainable urban planning demands a long-term vision that prioritises people over short-term profit.",
+        "marked": "*UL*timately, ↗ | susTAINable URban PLANning deMANDS‿a LONG-term *VI*sion ↗ | that priORitises PEOple over SHORT-term *PRO*fit. ↘",
+        "vi": "Cuối cùng quy hoạch đô thị bền vững đòi hỏi tầm nhìn dài hạn ưu tiên con người hơn lợi nhuận ngắn hạn.",
+        "tip": "Nhấn 'Ultimately', 'sustainable', 'long-term vision', 'people', 'short-term profit'."
+      },
+      {
+        "en": "Whether policymakers possess the political will to implement such a vision remains, to my mind, an open question.",
+        "marked": "Whether POlicymakers posSESS the poLItical *WILL* ↗ | to IMplement such‿a *VI*sion ↗ | re*MAINS*, ↘↗ | to my *MIND*, ↘↗ | an OPen *QUES*tion. ↘",
+        "vi": "Theo tôi, liệu các nhà hoạch định chính sách có đủ ý chí chính trị để thực hiện tầm nhìn đó vẫn là câu hỏi bỏ ngỏ.",
+        "tip": "Nhấn 'Whether', 'political will', 'implement', 'open question'. 'to my mind' đọc nhẹ."
+      }
+    ]
+  },
+  {
+    "id": "sh-c1-06",
+    "level": "C1",
+    "title": "Media, news and public opinion",
+    "topic": "Part 3: media",
+    "sentences": [
+      {
+        "en": "It is widely acknowledged that the media plays a pivotal role in shaping public opinion, for better or for worse.",
+        "marked": "It‿is WIDEly ac*KNOW*ledged ↗ | that the MEdia plays‿a PIVotal ROLE‿in SHAPing PUBlic o*PIN*ion, ↗ | for BETter‿or for *WORSE*. ↘",
+        "vi": "Ai cũng thừa nhận truyền thông đóng vai trò then chốt trong định hình dư luận, dù tốt hay xấu.",
+        "tip": "Nhấn 'widely acknowledged', 'pivotal role', 'shaping', 'better', 'worse'."
+      },
+      {
+        "en": "In the era of social media, however, anyone can broadcast information, regardless of whether it has been verified.",
+        "marked": "In the ERa of SOcial *ME*dia, ↗ | how*EV*er, ↘↗ | ANyone can BROADcast infor*MA*tion, ↗ | reGARDless‿of whether‿it has been *VE*rified. ↘",
+        "vi": "Tuy nhiên trong kỷ nguyên mạng xã hội, ai cũng có thể phát tán thông tin dù đã được kiểm chứng hay chưa.",
+        "tip": "Nhấn 'era', 'however', 'anyone', 'broadcast', 'verified'. 'whether it' → /weðərɪt/."
+      },
+      {
+        "en": "Consequently, misinformation spreads at an alarming pace, often outstripping the efforts of fact-checkers to correct it.",
+        "marked": "Con*SE*quently, ↘↗ | misinforMAtion spreads‿at‿an ALarming *PACE*, ↗ | OFten outSTRIPping the EFforts‿of FACT-checkers to cor*RECT*‿it. ↘",
+        "vi": "Do đó thông tin sai lệch lan nhanh đáng báo động, thường vượt xa nỗ lực của người kiểm chứng để đính chính.",
+        "tip": "Nhấn 'Consequently', 'misinformation', 'alarming pace', 'outstripping', 'fact-checkers'."
+      },
+      {
+        "en": "What worries me most is that people tend to seek out sources that merely confirm what they already believe.",
+        "marked": "What WORries me *MOST* ↗ | is that PEOple tend to seek‿out *SOUR*ces ↗ | that MERely conFIRM what they alREAdy be*LIEVE*. ↘",
+        "vi": "Điều tôi lo nhất là con người hay tìm nguồn chỉ để khẳng định điều họ đã tin.",
+        "tip": "Nhấn 'worries', 'most', 'seek out', 'merely confirm', 'already believe'."
+      },
+      {
+        "en": "This phenomenon, commonly referred to as an echo chamber, can deepen social divisions and erode trust in institutions.",
+        "marked": "This phe*NOM*enon, ↗ | COMmonly reFERRED to as‿an ECHo *CHAM*ber, ↗ | can DEEPen SOcial diVIsions‿and eRODE trust‿in insti*TU*tions. ↘",
+        "vi": "Hiện tượng này, thường gọi là buồng vang, có thể làm sâu sắc chia rẽ xã hội và xói mòn lòng tin vào thể chế.",
+        "tip": "Nhấn 'echo chamber', 'deepen', 'divisions', 'erode trust'. Ngắt ở hai dấu phẩy, giọng phẳng ở phần chen."
+      },
+      {
+        "en": "To counter this, media literacy ought to be taught from an early age so that young people learn to interrogate what they read.",
+        "marked": "To *COUN*ter this, ↗ | MEdia LIteracy ought to be taught from‿an EARly *AGE* ↗ | so that YOUNG PEOple LEARN to inTERrogate what they *READ*. ↘",
+        "vi": "Để đối phó, giáo dục kiến thức truyền thông nên được dạy từ sớm để người trẻ biết chất vấn điều họ đọc.",
+        "tip": "Nhấn 'counter', 'media literacy', 'early age', 'interrogate'. 'ought to' → /ɔːtə/."
+      },
+      {
+        "en": "Admittedly, regulating online content is a double-edged proposition, as heavy-handed measures risk infringing on freedom of expression.",
+        "marked": "Ad*MIT*tedly, ↘↗ | reGUlating‿ONline CONtent‿is‿a DOUble-edged propo*SI*tion, ↗ | as HEAvy-handed MEAsures risk inFRINGing‿on FREEdom‿of ex*PRES*sion. ↘",
+        "vi": "Phải thừa nhận việc kiểm soát nội dung trực tuyến là vấn đề hai mặt, vì biện pháp quá tay có nguy cơ xâm phạm tự do ngôn luận.",
+        "tip": "Nhấn 'Admittedly', 'double-edged', 'heavy-handed', 'infringing', 'freedom of expression'."
+      },
+      {
+        "en": "On balance, I would contend that an informed and critical public is the most effective safeguard against manipulation.",
+        "marked": "On *BAL*ance, ↘↗ | I would con*TEND* ↗ | that‿an inFORMED‿and CRItical PUBlic‿is the MOST efFECtive SAFEguard aGAINST manipu*LA*tion. ↘",
+        "vi": "Xét cân bằng, tôi cho rằng công chúng hiểu biết và biết phản biện là hàng rào bảo vệ hiệu quả nhất trước sự thao túng.",
+        "tip": "Nhấn 'On balance', 'contend', 'informed', 'critical', 'safeguard', 'manipulation'."
+      }
+    ]
+  }
 ]

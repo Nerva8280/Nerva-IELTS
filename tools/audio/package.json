@@ -1,0 +1,13 @@
+{
+  "name": "ielts-coach-audio",
+  "private": true,
+  "type": "module",
+  "description": "Generates neural voice MP3s for the app content (Kokoro-82M, runs locally on CPU).",
+  "scripts": {
+    "gen": "node gen.mjs"
+  },
+  "dependencies": {
+    "@breezystack/lamejs": "^1.2.7",
+    "kokoro-js": "^1.2.1"
+  }
+}

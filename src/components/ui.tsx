@@ -2,7 +2,8 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Level } from "@/content/types";
-import { speak, stopSpeaking } from "@/lib/tts";
+import { humanAudio, playUrl, speak, stopSpeaking } from "@/lib/tts";
+import { MAIN_VOICES, VOICES, type VoiceId } from "@/lib/audio-key";
 
 export function PageHeader({ title, back, right }: { title: string; back?: string; right?: React.ReactNode }) {
   return (
@@ -30,7 +31,21 @@ export function LevelChip({ level }: { level: Level }) {
   return <span className={`chip ${LEVEL_COLORS[level]}`}>{level}</span>;
 }
 
-export function SpeakButton({ text, gender, rate, className = "", label }: { text: string; gender?: "f" | "m"; rate?: number; className?: string; label?: string }) {
+export function SpeakButton({
+  text,
+  gender,
+  rate,
+  voice,
+  className = "",
+  label,
+}: {
+  text: string;
+  gender?: "f" | "m";
+  rate?: number;
+  voice?: VoiceId;
+  className?: string;
+  label?: string;
+}) {
   const [on, setOn] = useState(false);
   useEffect(() => () => stopSpeaking(), []);
   return (
@@ -45,7 +60,7 @@ export function SpeakButton({ text, gender, rate, className = "", label }: { tex
           return;
         }
         setOn(true);
-        await speak(text, { gender, rate });
+        await speak(text, { gender, rate, voice });
         setOn(false);
       }}
       aria-label="Nghe"
@@ -53,6 +68,133 @@ export function SpeakButton({ text, gender, rate, className = "", label }: { tex
       {on ? "⏹" : "🔊"}
       {label && <span>{label}</span>}
     </button>
+  );
+}
+
+/** Hear a word in four neural voices, a real human recording (when one exists) and slowly. */
+export function WordVoices({ word }: { word: string }) {
+  const [human, setHuman] = useState<string | null | undefined>(undefined);
+  const [playing, setPlaying] = useState<string | null>(null);
+  useEffect(() => {
+    let alive = true;
+    humanAudio(word).then((h) => {
+      if (alive) setHuman(h.uk ?? h.us ?? h.other ?? null);
+    });
+    return () => {
+      alive = false;
+    };
+  }, [word]);
+
+  async function run(key: string, fn: () => Promise<unknown>) {
+    stopSpeaking();
+    setPlaying(key);
+    await fn();
+    setPlaying((p) => (p === key ? null : p));
+  }
+
+  const btn = (key: string) =>
+    `rounded-full px-2.5 py-1 text-xs font-semibold transition ${playing === key ? "bg-indigo-600 text-white" : "bg-indigo-50 text-indigo-700 hover:bg-indigo-100"}`;
+  return (
+    <div className="flex flex-wrap justify-center gap-1.5">
+      {MAIN_VOICES.map((v) => (
+        <button key={v} className={btn(v)} onClick={(e) => (e.stopPropagation(), run(v, () => speak(word, { voice: v })))}>
+          {VOICES[v].label}
+        </button>
+      ))}
+      {human && (
+        <button className={btn("human")} onClick={(e) => (e.stopPropagation(), run("human", () => playUrl(human)))} title="Bản ghi giọng người thật (Wiktionary)">
+          🧑 Người thật
+        </button>
+      )}
+      <button className={btn("slow")} onClick={(e) => (e.stopPropagation(), run("slow", () => speak(word, { rate: 0.65 })))}>
+        🐢 Chậm
+      </button>
+    </div>
+  );
+}
+
+/**
+ * Shows a sentence with its intonation marks: stressed syllables in bold, the main stress of each
+ * thought group highlighted, "|" pauses, "‿" linking and ↗/↘ tones. `marked` uses CAPS for stress
+ * and *…* for the nucleus; letters are mapped back onto `en` so normal capitalisation is kept.
+ */
+export function IntonationText({ en, marked, className = "" }: { en: string; marked: string; className?: string }) {
+  const orig = en.split(/\s+/);
+  let wi = 0;
+  const groups = marked.split(/\s*\|\s*/).filter(Boolean);
+  return (
+    <p className={`leading-[2.4] ${className}`}>
+      {groups.map((g, gi) => {
+        const tone = g.match(/(↘↗|↗↘|↘|↗)\s*$/)?.[1];
+        const body = tone ? g.slice(0, g.lastIndexOf(tone)).trim() : g.trim();
+        const pieces = body.split(/\s+/).flatMap((tok) => tok.split("‿").map((w, k, arr) => ({ w, link: k < arr.length - 1 })));
+        return (
+          <span key={gi}>
+            {pieces.map((p, pi) => {
+              const o = orig[wi++] ?? p.w.replace(/\*/g, "");
+              const bare = p.w.replace(/\*/g, "");
+              const nucStart = p.w.indexOf("*");
+              const nucEnd = nucStart >= 0 ? p.w.indexOf("*", nucStart + 1) - 1 : -1;
+              const stressed = new Array<boolean>(bare.length).fill(false);
+              for (const m of bare.matchAll(/[A-Z]{2,}/g)) for (let k = m.index; k < m.index + m[0].length; k++) stressed[k] = true;
+              const chars = bare.length === o.length ? o : bare;
+              const spans: React.ReactNode[] = [];
+              let k = 0;
+              while (k < chars.length) {
+                const nuc = nucStart >= 0 && k >= nucStart && k < nucEnd;
+                const st = stressed[k] || nuc;
+                let e = k + 1;
+                while (e < chars.length && (stressed[e] || (nucStart >= 0 && e >= nucStart && e < nucEnd)) === st && (nucStart >= 0 && e >= nucStart && e < nucEnd) === nuc) e++;
+                const text = chars.slice(k, e);
+                spans.push(
+                  nuc ? (
+                    <span key={k} className="rounded bg-amber-200 px-0.5 font-extrabold text-slate-900">
+                      {text}
+                    </span>
+                  ) : st ? (
+                    <span key={k} className="font-bold text-indigo-700">
+                      {text}
+                    </span>
+                  ) : (
+                    <span key={k}>{text}</span>
+                  ),
+                );
+                k = e;
+              }
+              return (
+                <span key={pi}>
+                  {spans}
+                  {p.link ? <span className="mx-px text-indigo-400">‿</span> : pi < pieces.length - 1 ? " " : ""}
+                </span>
+              );
+            })}
+            {tone && <span className={`ml-1 font-bold ${tone === "↗" ? "text-orange-500" : tone === "↘" ? "text-sky-600" : "text-violet-600"}`}>{tone}</span>}
+            {gi < groups.length - 1 && <span className="mx-2 text-slate-300">|</span>}
+          </span>
+        );
+      })}
+    </p>
+  );
+}
+
+export function IntonationLegend() {
+  return (
+    <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-slate-500">
+      <span>
+        <b className="text-indigo-700">Đậm</b> = âm nhấn
+      </span>
+      <span>
+        <b className="rounded bg-amber-200 px-0.5 text-slate-900">Nền vàng</b> = nhấn mạnh nhất
+      </span>
+      <span>| = ngắt hơi</span>
+      <span>‿ = nối âm</span>
+      <span>
+        <b className="text-sky-600">↘</b> xuống giọng
+      </span>
+      <span>
+        <b className="text-orange-500">↗</b> lên giọng
+      </span>
+    </div>
   );
 }
 

@@ -8,7 +8,7 @@ import { isDue, knownCard, newCard, review, intervalLabel, type Grade } from "@/
 import { todayStr } from "@/lib/dates";
 import { MINUTE_CONFIG } from "@/lib/plan";
 import { speak } from "@/lib/tts";
-import { DoneBanner, LevelChip, PageHeader, ProgressBar, SpeakButton } from "@/components/ui";
+import { DoneBanner, LevelChip, PageHeader, ProgressBar, SpeakButton, WordVoices } from "@/components/ui";
 
 type Mode = "home" | "learn" | "review" | "quiz";
 
@@ -55,9 +55,8 @@ function WordHead({ w }: { w: VocabWord }) {
       <div className="mt-1 text-slate-500">
         {w.ipa} · <i>{w.pos}</i>
       </div>
-      <div className="mt-3 flex justify-center gap-2">
-        <SpeakButton text={w.word} label="UK" />
-        <SpeakButton text={w.word} rate={0.6} label="Chậm" />
+      <div className="mt-3">
+        <WordVoices word={w.word} />
       </div>
     </div>
   );

@@ -3,10 +3,12 @@ import { useEffect, useRef, useState } from "react";
 import { getState } from "@/lib/store";
 import { speak, stopSpeaking } from "@/lib/tts";
 import { compareWords, listen, recognitionSupported } from "@/lib/speech";
-import { ProgressBar, useRecorder } from "./ui";
+import { IntonationLegend, IntonationText, ProgressBar, useRecorder } from "./ui";
+import { MAIN_VOICES, VOICES, type VoiceId } from "@/lib/audio-key";
 
 export interface ShadowSentence {
   en: string;
+  marked?: string; // intonation marks, see IntonationText
   vi?: string;
   tip?: string;
 }
@@ -21,6 +23,8 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 export default function ShadowingPlayer({ sentences, onFinish }: { sentences: ShadowSentence[]; onFinish?: (avgScore: number | null) => void }) {
   const [i, setI] = useState(0);
   const [rate, setRate] = useState(0.8);
+  const [voice, setVoice] = useState<VoiceId>(() => getState().settings.voice ?? "uk-f");
+  const [showMarks, setShowMarks] = useState(true);
   const [playing, setPlaying] = useState(false);
   const [auto, setAuto] = useState(false);
   const [hideText, setHideText] = useState(false);
@@ -52,7 +56,7 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
     const my = ++run.current;
     setPlaying(true);
     for (let k = 0; k < times && run.current === my; k++) {
-      await speak(s.en, { rate });
+      await speak(s.en, { rate, voice });
       if (k < times - 1) await sleep(pauseFor(s.en, rate));
     }
     if (run.current === my) setPlaying(false);
@@ -67,7 +71,7 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
       setI(k);
       setResult(null);
       for (let rep = 0; rep < 2 && run.current === my; rep++) {
-        await speak(sentences[k].en, { rate });
+        await speak(sentences[k].en, { rate, voice });
         await sleep(pauseFor(sentences[k].en, rate));
       }
     }
@@ -113,6 +117,17 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
         {avg !== null && <span>Điểm TB: {avg}%</span>}
       </div>
       <ProgressBar value={(i + 1) / sentences.length} className="mb-3" />
+      <div className="mb-3 flex gap-1">
+        {MAIN_VOICES.map((v) => (
+          <button
+            key={v}
+            onClick={() => setVoice(v)}
+            className={`flex-1 rounded-lg py-1.5 text-xs font-semibold ${voice === v ? "bg-indigo-600 text-white" : "bg-white text-slate-600 ring-1 ring-slate-200"}`}
+          >
+            {VOICES[v].label}
+          </button>
+        ))}
+      </div>
 
       <div className="card min-h-44">
         {hideText && !result ? (
@@ -128,7 +143,16 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
             ))}
           </p>
         ) : (
-          <p className="text-xl leading-relaxed font-semibold text-slate-900">{s.en}</p>
+          s.marked && showMarks ? (
+            <IntonationText en={s.en} marked={s.marked} className="text-xl font-semibold text-slate-900" />
+          ) : (
+            <p className="text-xl leading-relaxed font-semibold text-slate-900">{s.en}</p>
+          )
+        )}
+        {s.marked && showMarks && !result && (
+          <div className="mt-2">
+            <IntonationLegend />
+          </div>
         )}
         {showVi && s.vi && <p className="mt-2 text-slate-500">{s.vi}</p>}
         {s.tip && <p className="mt-3 rounded-xl bg-amber-50 p-2.5 text-sm text-amber-800">💡 {s.tip}</p>}
@@ -221,6 +245,11 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
         <label className="flex items-center gap-2">
           <input type="checkbox" checked={showVi} onChange={(e) => setShowVi(e.target.checked)} /> Hiện nghĩa tiếng Việt
         </label>
+        {sentences.some((x) => x.marked) && (
+          <label className="flex items-center gap-2">
+            <input type="checkbox" checked={showMarks} onChange={(e) => setShowMarks(e.target.checked)} /> Hiện ngữ điệu
+          </label>
+        )}
         <label className="flex items-center gap-2">
           <input type="checkbox" checked={hideText} onChange={(e) => setHideText(e.target.checked)} /> Ẩn câu (luyện nghe)
         </label>

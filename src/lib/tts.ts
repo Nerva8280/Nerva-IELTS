@@ -1,6 +1,7 @@
 "use client";
 // Text-to-speech via the browser's Web Speech API (free; quality depends on the device's voices).
 import { getState } from "./store";
+import { audioUrl, type VoiceId } from "./audio-key";
 
 let voices: SpeechSynthesisVoice[] = [];
 
@@ -59,9 +60,16 @@ export function pickVoice(gender: "f" | "m" = "f"): SpeechSynthesisVoice | undef
 }
 
 let token = 0;
+let current: { audio: HTMLAudioElement; finish: () => void } | null = null;
+const missing = new Set<string>();
 
 export function stopSpeaking() {
   token++;
+  if (current) {
+    current.audio.pause();
+    current.finish();
+    current = null;
+  }
   if (ttsSupported()) speechSynthesis.cancel();
 }
 
@@ -71,13 +79,57 @@ function chunks(text: string): string[] {
   return parts.map((p) => p.trim()).filter(Boolean);
 }
 
-export async function speak(text: string, opts: { gender?: "f" | "m"; rate?: number; onChunk?: (i: number) => void } = {}): Promise<void> {
-  if (!ttsSupported()) return;
-  if (!voices.length) await loadVoices();
+/** The learner's chosen neural voice, plus the sentence voice of the same accent as a fallback. */
+export function preferredVoices(): VoiceId[] {
+  const v = getState().settings.voice ?? (getState().settings.accent === "en-US" ? "us-f" : "uk-f");
+  const sentence: VoiceId = v.startsWith("us") ? "us-m" : "uk-f";
+  return v === sentence ? [v] : [v, sentence];
+}
+
+/** Plays a URL; resolves "ended", "stopped" or "error" (e.g. file not generated). */
+export function playUrl(url: string, rate = 1): Promise<"ended" | "stopped" | "error"> {
+  return new Promise((resolve) => {
+    const audio = new Audio(url);
+    audio.playbackRate = Math.max(0.5, Math.min(2, rate));
+    audio.preservesPitch = true;
+    let settled = false;
+    const done = (r: "ended" | "stopped" | "error") => {
+      if (settled) return;
+      settled = true;
+      if (current?.audio === audio) current = null;
+      resolve(r);
+    };
+    current = { audio, finish: () => done("stopped") };
+    audio.onended = () => done("ended");
+    audio.onerror = () => done("error");
+    audio.play().catch(() => done("error"));
+  });
+}
+
+export interface SpeakOpts {
+  voice?: VoiceId; // exact neural voice; otherwise the learner's preference
+  gender?: "f" | "m"; // for the browser fallback
+  rate?: number;
+  browserOnly?: boolean;
+  onChunk?: (i: number) => void;
+}
+
+export async function speak(text: string, opts: SpeakOpts = {}): Promise<void> {
   stopSpeaking();
-  const my = ++token;
-  const voice = pickVoice(opts.gender ?? "f");
+  const my = token;
   const rate = (opts.rate ?? 1) * getState().settings.rate;
+  if (!opts.browserOnly) {
+    for (const v of opts.voice ? [opts.voice] : preferredVoices()) {
+      const url = audioUrl(v, text);
+      if (missing.has(url)) continue;
+      const r = await playUrl(url, rate);
+      if (my !== token || r !== "error") return;
+      missing.add(url);
+    }
+  }
+  if (!ttsSupported() || my !== token) return;
+  if (!voices.length) await loadVoices();
+  const voice = pickVoice(opts.gender ?? (opts.voice && /-m/.test(opts.voice) ? "m" : "f"));
   const list = chunks(text);
   for (let i = 0; i < list.length; i++) {
     if (my !== token) return;
@@ -94,7 +146,22 @@ export async function speak(text: string, opts: { gender?: "f" | "m"; rate?: num
   }
 }
 
-/** True while speak() for this call is still the latest request. */
-export function currentToken() {
-  return token;
+// ---- Real human recordings (Wiktionary / Wikimedia Commons via dictionaryapi.dev) ----
+
+const humanCache = new Map<string, Promise<{ uk?: string; us?: string; other?: string }>>();
+
+export function humanAudio(word: string) {
+  const key = word.toLowerCase().trim();
+  if (!humanCache.has(key))
+    humanCache.set(
+      key,
+      fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(key)}`)
+        .then((r) => (r.ok ? r.json() : []))
+        .then((entries: { phonetics?: { audio?: string }[] }[]) => {
+          const urls = entries.flatMap((e) => e.phonetics ?? []).map((p) => p.audio).filter((u): u is string => !!u);
+          return { uk: urls.find((u) => /-uk\.mp3$/.test(u)), us: urls.find((u) => /-us\.mp3$/.test(u)), other: urls.find((u) => !/-(uk|us)\.mp3$/.test(u)) };
+        })
+        .catch(() => ({})),
+    );
+  return humanCache.get(key)!;
 }

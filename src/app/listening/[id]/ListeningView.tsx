@@ -1,8 +1,9 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { ListeningItem } from "@/content/types";
 import { markDone } from "@/lib/store";
 import { speak, stopSpeaking } from "@/lib/tts";
+import { scriptVoices } from "@/lib/audio-key";
 import QuestionSet from "@/components/QuestionSet";
 import { DoneBanner, LevelChip, PageHeader } from "@/components/ui";
 
@@ -13,6 +14,7 @@ export function ScriptPlayer({ item, showTranscript }: { item: ListeningItem; sh
   const [rate, setRate] = useState(1);
   const [plays, setPlays] = useState(0);
   const run = useRef(0);
+  const voices = useMemo(() => scriptVoices(item.script), [item.script]);
 
   useEffect(() => () => stopSpeaking(), []);
 
@@ -23,7 +25,7 @@ export function ScriptPlayer({ item, showTranscript }: { item: ListeningItem; sh
     for (let i = from; i < item.script.length; i++) {
       if (run.current !== my) return;
       setLine(i);
-      await speak(item.script[i].text, { gender: item.script[i].gender, rate });
+      await speak(item.script[i].text, { voice: voices[i], gender: item.script[i].gender, rate });
       await new Promise((r) => setTimeout(r, 350));
     }
     if (run.current === my) {
