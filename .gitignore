@@ -46,3 +46,8 @@ next-env.d.ts
 /tools/audio/gen.err.log
 /tools/audio/qa-cache.json
 /tools/audio/gen-pron*.log
+/tools/audio/qa.log
+/tools/audio/qa.err.log
+/tools/audio/qa.pid
+.vercel
+.env*
