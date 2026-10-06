@@ -12,6 +12,7 @@ export interface DayLog {
   reviewed: number;
   learned: number;
   done: string[]; // task keys completed outside item tracking (e.g. "quiz")
+  seen?: string[]; // vocab ids handled in "learn" today, in order (for going back)
 }
 
 export interface Settings {

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { LEVELS, type Level, type VocabWord } from "@/content/types";
 import { useVocab } from "@/lib/vocab-client";
 import { dayLog, getState, touchDay, update, useAppState } from "@/lib/store";
@@ -62,35 +62,141 @@ function WordHead({ w }: { w: VocabWord }) {
   );
 }
 
+// ---- Back/forward navigation -----------------------------------------------------
+
+/** Swipe left/right on touch screens and ←/→ keys on a keyboard. */
+function useSwipe(onPrev: () => void, onNext: () => void) {
+  const start = useRef<{ x: number; y: number } | null>(null);
+  const prevRef = useRef(onPrev);
+  const nextRef = useRef(onNext);
+  useEffect(() => {
+    prevRef.current = onPrev;
+    nextRef.current = onNext;
+  });
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if ((e.target as HTMLElement)?.tagName === "INPUT") return;
+      if (e.key === "ArrowLeft") prevRef.current();
+      if (e.key === "ArrowRight") nextRef.current();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+  return {
+    onTouchStart: (e: React.TouchEvent) => {
+      start.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    },
+    onTouchEnd: (e: React.TouchEvent) => {
+      if (!start.current) return;
+      const dx = e.changedTouches[0].clientX - start.current.x;
+      const dy = e.changedTouches[0].clientY - start.current.y;
+      start.current = null;
+      if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.5) return; // ignore scrolling
+      if (dx > 0) prevRef.current();
+      else nextRef.current();
+    },
+  };
+}
+
+function NavRow({ canPrev, onPrev, onNext, nextLabel }: { canPrev: boolean; onPrev: () => void; onNext?: () => void; nextLabel?: string }) {
+  return (
+    <div className="mt-3 flex items-center justify-between gap-2">
+      <button className="btn-ghost" onClick={onPrev} disabled={!canPrev}>
+        ← Trước
+      </button>
+      <span className="text-xs text-slate-400">Vuốt trái/phải để chuyển từ</span>
+      {onNext ? (
+        <button className="btn-ghost" onClick={onNext}>
+          {nextLabel ?? "Sau →"}
+        </button>
+      ) : (
+        <span className="w-20" />
+      )}
+    </div>
+  );
+}
+
+/** A word seen earlier: meaning and example shown, with a way to put it back into practice. */
+function PastWord({ w, note }: { w: VocabWord; note: string }) {
+  const s = useAppState();
+  const today = todayStr();
+  const card = s.srs[w.id];
+  const relearning = card && !card.known && card.due <= today && card.reps === 0;
+  return (
+    <div className="card">
+      <div className="mb-3 flex justify-center">
+        <span className="chip bg-slate-100 text-slate-600">{note}</span>
+      </div>
+      <WordHead w={w} />
+      <div className="mt-5">
+        <WordDetails w={w} />
+      </div>
+      <button
+        className="btn-soft mt-4 w-full"
+        disabled={relearning}
+        onClick={() => update((st) => void (st.srs[w.id] = newCard(today)))}
+      >
+        {relearning ? "✓ Đã đưa vào lượt ôn hôm nay" : "Chưa nhớ: học lại từ này"}
+      </button>
+    </div>
+  );
+}
+
 // ---- Learn new words ---------------------------------------------------------
 
 function Learn({ vocab }: { vocab: VocabWord[] }) {
   const s = useAppState();
   const today = todayStr();
+  const byId = useMemo(() => new Map(vocab.map((w) => [w.id, w])), [vocab]);
   const target = MINUTE_CONFIG[s.roadmap?.minutes ?? 25].newWords;
   const [extra, setExtra] = useState(0);
-  const learnedToday = dayLog(s, today).learned;
+  const log = dayLog(s, today);
+  const learnedToday = log.learned;
+  // words handled in "learn" today, in order; kept in the day log so they survive reloads
+  const history = (log.seen ?? []).filter((id) => byId.has(id));
   const li = LEVELS.indexOf(s.level);
   const queue = useMemo(
     () => vocab.filter((w) => LEVELS.indexOf(w.level) >= li && !s.srs[w.id]).sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level)),
     [vocab, li, s.srs],
   );
   const [show, setShow] = useState(false);
+  const [pos, setPos] = useState<number | null>(null); // null = the next new word
   const w = queue[0];
   const goal = target + extra;
+  const past = pos !== null ? byId.get(history[pos]) : undefined;
+
+  const prev = () => setPos((p) => (p === null ? (history.length ? history.length - 1 : null) : Math.max(0, p - 1)));
+  const next = () => setPos((p) => (p === null || p + 1 >= history.length ? null : p + 1));
+  const swipe = useSwipe(prev, next);
 
   useEffect(() => {
-    if (w) void speakVocab(w.word);
-  }, [w]);
+    const word = past?.word ?? w?.word;
+    if (word) void speakVocab(word);
+  }, [w, past]);
+
+  if (past)
+    return (
+      <div {...swipe}>
+        <PageHeader title="Xem lại từ đã học" back="/vocab" right={<span className="muted">{pos! + 1}/{history.length}</span>} />
+        <ProgressBar value={(pos! + 1) / history.length} className="mb-4" />
+        <PastWord w={past} note={s.srs[past.id]?.known ? "Bạn đã đánh dấu: đã biết" : "Đã học hôm nay"} />
+        <NavRow canPrev={pos! > 0} onPrev={prev} onNext={next} nextLabel={pos! + 1 >= history.length ? "Từ mới →" : "Sau →"} />
+      </div>
+    );
 
   if (learnedToday >= goal || !w)
     return (
-      <div>
+      <div {...swipe}>
         <PageHeader title="Học từ mới" back="/vocab" />
         <DoneBanner>
           <div className="text-3xl">✨</div>
           <div className="font-semibold">{w ? `Đã học ${learnedToday} từ mới hôm nay!` : "Bạn đã học hết bộ từ vựng 🎉"}</div>
           <p className="muted">Các từ này sẽ xuất hiện lại trong phần ôn tập vào ngày mai.</p>
+          {history.length > 0 && (
+            <button className="btn-ghost" onClick={prev}>
+              ← Xem lại {history.length} từ hôm nay
+            </button>
+          )}
           {w && (
             <button className="btn-soft" onClick={() => setExtra((e) => e + 5)}>
               Học thêm 5 từ
@@ -103,13 +209,15 @@ function Learn({ vocab }: { vocab: VocabWord[] }) {
   function act(known: boolean) {
     update((st) => {
       st.srs[w.id] = known ? knownCard(today) : review(newCard(today), 2, today);
-      if (!known) touchDay(st, today).learned += 1;
+      const day = touchDay(st, today);
+      if (!known) day.learned += 1;
+      day.seen = [...(day.seen ?? []).filter((id) => id !== w.id), w.id];
     });
     setShow(false);
   }
 
   return (
-    <div>
+    <div {...swipe}>
       <PageHeader title="Học từ mới" back="/vocab" right={<span className="muted">{learnedToday}/{goal}</span>} />
       <ProgressBar value={learnedToday / goal} className="mb-4" />
       <div className="card">
@@ -132,12 +240,20 @@ function Learn({ vocab }: { vocab: VocabWord[] }) {
           {show ? "Đã nhớ, tiếp →" : "Học từ này"}
         </button>
       </div>
+      <NavRow canPrev={history.length > 0} onPrev={prev} />
       <p className="muted mt-3 text-center">Mẹo: đọc to ví dụ 2–3 lần theo giọng mẫu.</p>
     </div>
   );
 }
 
 // ---- Spaced-repetition review -----------------------------------------------
+
+const GRADE_LABELS: [Grade, string, string][] = [
+  [0, "Quên", "bg-rose-100 text-rose-700"],
+  [1, "Khó", "bg-amber-100 text-amber-700"],
+  [2, "Nhớ", "bg-emerald-100 text-emerald-700"],
+  [3, "Dễ", "bg-sky-100 text-sky-700"],
+];
 
 function Review({ vocab }: { vocab: VocabWord[] }) {
   const today = todayStr();
@@ -151,27 +267,52 @@ function Review({ vocab }: { vocab: VocabWord[] }) {
   );
   const [total] = useState(queue.length);
   const [show, setShow] = useState(false);
+  const [done, setDone] = useState<{ id: string; grade: Grade }[]>([]); // cards graded this session
+  const [pos, setPos] = useState<number | null>(null);
   const s = useAppState();
   const id = queue[0];
   const w = id ? byId.get(id) : undefined;
   const card = id ? s.srs[id] : undefined;
   const reverse = !!card && card.reps >= 2 && id.charCodeAt(id.length - 1) % 2 === 0;
+  const past = pos !== null ? byId.get(done[pos].id) : undefined;
+
+  const prev = () => setPos((p) => (p === null ? (done.length ? done.length - 1 : null) : Math.max(0, p - 1)));
+  const next = () => setPos((p) => (p === null || p + 1 >= done.length ? null : p + 1));
+  const swipe = useSwipe(prev, next);
 
   useEffect(() => {
-    if (w && !reverse) void speakVocab(w.word);
-  }, [w, reverse]);
+    if (past) void speakVocab(past.word);
+    else if (w && !reverse) void speakVocab(w.word);
+  }, [w, reverse, past]);
 
   useEffect(() => {
     if (!id) update((st) => void (touchDay(st, today).done.includes("review-clear") || touchDay(st, today).done.push("review-clear")));
   }, [id, today]);
 
+  if (past) {
+    const g = GRADE_LABELS[done[pos!].grade];
+    const due = s.srs[past.id]?.due;
+    return (
+      <div {...swipe}>
+        <PageHeader title="Xem lại thẻ vừa ôn" back="/vocab" right={<span className="muted">{pos! + 1}/{done.length}</span>} />
+        <PastWord w={past} note={`Bạn chấm: ${g[1]}${due && due > today ? ` · gặp lại ${due.slice(8)}/${due.slice(5, 7)}` : ""}`} />
+        <NavRow canPrev={pos! > 0} onPrev={prev} onNext={next} nextLabel={pos! + 1 >= done.length ? (id ? "Tiếp tục ôn →" : "Xong →") : "Sau →"} />
+      </div>
+    );
+  }
+
   if (!w || !card)
     return (
-      <div>
+      <div {...swipe}>
         <PageHeader title="Ôn tập" back="/vocab" />
         <DoneBanner>
           <div className="text-3xl">🔁</div>
           <div className="font-semibold">Không còn từ nào cần ôn hôm nay!</div>
+          {done.length > 0 && (
+            <button className="btn-ghost" onClick={prev}>
+              ← Xem lại {done.length} thẻ vừa ôn
+            </button>
+          )}
         </DoneBanner>
       </div>
     );
@@ -181,19 +322,13 @@ function Review({ vocab }: { vocab: VocabWord[] }) {
       st.srs[id] = review(st.srs[id], g, today);
       touchDay(st, today).reviewed += 1;
     });
+    setDone((d) => [...d, { id, grade: g }]);
     setQueue((q) => (g === 0 ? [...q.slice(1), id] : q.slice(1)));
     setShow(false);
   }
 
-  const labels: [Grade, string, string][] = [
-    [0, "Quên", "bg-rose-100 text-rose-700"],
-    [1, "Khó", "bg-amber-100 text-amber-700"],
-    [2, "Nhớ", "bg-emerald-100 text-emerald-700"],
-    [3, "Dễ", "bg-sky-100 text-sky-700"],
-  ];
-
   return (
-    <div>
+    <div {...swipe}>
       <PageHeader title="Ôn tập" back="/vocab" right={<span className="muted">còn {queue.length}</span>} />
       <ProgressBar value={total ? 1 - queue.length / total : 1} className="mb-4" />
       <div className="card min-h-72">
@@ -217,7 +352,7 @@ function Review({ vocab }: { vocab: VocabWord[] }) {
       </div>
       {show ? (
         <div className="mt-4 grid grid-cols-4 gap-2">
-          {labels.map(([g, label, cls]) => (
+          {GRADE_LABELS.map(([g, label, cls]) => (
             <button key={g} onClick={() => grade(g)} className={`btn flex-col gap-0 py-2 ${cls}`}>
               <span>{label}</span>
               <span className="text-[11px] font-normal opacity-80">{intervalLabel(card, g, today)}</span>
@@ -229,6 +364,7 @@ function Review({ vocab }: { vocab: VocabWord[] }) {
           Hiện đáp án
         </button>
       )}
+      <NavRow canPrev={done.length > 0} onPrev={prev} />
     </div>
   );
 }
