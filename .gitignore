@@ -45,3 +45,4 @@ next-env.d.ts
 /tools/audio/gen.pid
 /tools/audio/gen.err.log
 /tools/audio/qa-cache.json
+/tools/audio/gen-pron*.log
