@@ -59,7 +59,7 @@ export default function Dashboard({ catalog, levelWords }: { catalog: Catalog; l
       <div className="mb-4 flex items-start justify-between">
         <div>
           <div className="muted">{formatViDate(today)}</div>
-          <h1 className="h1">Chào {me?.user?.name?.split(" ").slice(-1)[0] ?? "bạn"} 👋</h1>
+          <h1 className="h1">Chào {me?.user?.givenName ?? me?.user?.name?.split(" ")[0] ?? "bạn"} 👋</h1>
         </div>
         <div className="text-right">
           <div className="text-2xl font-bold text-orange-500">🔥 {days}</div>

@@ -7,7 +7,7 @@ import { loadVoices } from "@/lib/tts";
 import LoginScreen from "./LoginScreen";
 
 export interface Me {
-  user: { sub: string; email: string; name: string; picture?: string } | null;
+  user: { sub: string; email: string; name: string; givenName?: string; picture?: string } | null;
   config: { googleClientId: string | null; sync: boolean; push: boolean };
 }
 

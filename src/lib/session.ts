@@ -9,6 +9,7 @@ export interface SessionUser {
   sub: string;
   email: string;
   name: string;
+  givenName?: string; // what to call the learner, e.g. "Ninh"
   picture?: string;
 }
 
@@ -30,6 +31,7 @@ export async function verifyGoogleCredential(credential: string): Promise<Sessio
     sub: String(payload.sub),
     email: String(payload.email),
     name: String(payload.name ?? payload.email),
+    givenName: payload.given_name ? String(payload.given_name) : undefined,
     picture: payload.picture ? String(payload.picture) : undefined,
   };
 }
@@ -62,7 +64,13 @@ export async function getSession(): Promise<SessionUser | null> {
   if (!token || !process.env.SESSION_SECRET) return null;
   try {
     const { payload } = await jwtVerify(token, secret());
-    return { sub: String(payload.sub), email: String(payload.email), name: String(payload.name), picture: payload.picture as string | undefined };
+    return {
+      sub: String(payload.sub),
+      email: String(payload.email),
+      name: String(payload.name),
+      givenName: payload.givenName as string | undefined,
+      picture: payload.picture as string | undefined,
+    };
   } catch {
     return null;
   }
