@@ -146,6 +146,23 @@ export async function speak(text: string, opts: SpeakOpts = {}): Promise<void> {
   }
 }
 
+/**
+ * Single words for pronunciation drills: a real human recording when one exists (precise vowels
+ * and final consonants matter there), otherwise the neural voice.
+ */
+export async function speakWord(word: string, opts: SpeakOpts = {}): Promise<void> {
+  stopSpeaking();
+  const my = token;
+  const h = await humanAudio(word);
+  const url = getState().settings.accent === "en-US" ? (h.us ?? h.uk ?? h.other) : (h.uk ?? h.us ?? h.other);
+  if (my !== token) return;
+  if (url) {
+    const r = await playUrl(url, (opts.rate ?? 1) * getState().settings.rate);
+    if (r !== "error" || my !== token) return;
+  }
+  await speak(word, opts);
+}
+
 // ---- Real human recordings (Wiktionary / Wikimedia Commons via dictionaryapi.dev) ----
 
 const humanCache = new Map<string, Promise<{ uk?: string; us?: string; other?: string }>>();

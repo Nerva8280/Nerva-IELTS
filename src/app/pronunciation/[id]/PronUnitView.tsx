@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import type { PronItem, PronUnit } from "@/content/types";
 import { getState, markDone } from "@/lib/store";
-import { speak, stopSpeaking } from "@/lib/tts";
+import { speakWord, stopSpeaking } from "@/lib/tts";
 import { compareWords, listen, recognitionSupported, tokenize } from "@/lib/speech";
 import { DoneBanner, LevelChip, PageHeader, ProgressBar, RichText, SpeakButton, useRecorder } from "@/components/ui";
 
@@ -85,7 +85,7 @@ function ItemView({ it, onAnswer }: { it: PronItem; onAnswer: (correct: boolean)
     return (
       <div>
         <p className="muted">Nghe và chọn từ bạn nghe được:</p>
-        <button className="btn-primary mt-2 w-full py-3" onClick={() => speak(words[target])}>
+        <button className="btn-primary mt-2 w-full py-3" onClick={() => speakWord(words[target])}>
           ▶ Nghe
         </button>
         <Choice options={words} answer={target} picked={picked} onPick={(k) => pick(k, target)} />
@@ -93,7 +93,7 @@ function ItemView({ it, onAnswer }: { it: PronItem; onAnswer: (correct: boolean)
           <div className="mt-4 space-y-3 border-t border-slate-100 pt-3">
             {[0, 1].map((k) => (
               <div key={k} className="flex items-center gap-2">
-                <SpeakButton text={words[k]} />
+                <SpeakButton text={words[k]} human />
                 <b>{words[k]}</b>
                 <span className="text-slate-500">{k === 0 ? it.aIpa : it.bIpa}</span>
               </div>
@@ -114,7 +114,7 @@ function ItemView({ it, onAnswer }: { it: PronItem; onAnswer: (correct: boolean)
       <div>
         <div className="text-center text-3xl font-bold">{it.word}</div>
         <div className="mt-2 flex justify-center">
-          <SpeakButton text={it.word} label="Nghe" />
+          <SpeakButton text={it.word} label="Nghe" human />
         </div>
         <p className="muted mt-3">Đuôi của từ này đọc là âm nào?</p>
         <Choice options={it.options} answer={it.answer} picked={picked} onPick={(k) => pick(k, it.answer)} />
@@ -157,7 +157,7 @@ function ItemView({ it, onAnswer }: { it: PronItem; onAnswer: (correct: boolean)
             </div>
             <div className="text-slate-500">{it.ipa}</div>
             <div className="mt-2 flex justify-center gap-2">
-              <SpeakButton text={it.say ?? it.word} label="Nghe" />
+              <SpeakButton text={it.say ?? it.word} label="Nghe" human={!it.say} />
               <SpeakButton text={it.say ?? it.word} rate={0.65} label="Chậm" />
             </div>
             <SayCheck expect={it.word} />

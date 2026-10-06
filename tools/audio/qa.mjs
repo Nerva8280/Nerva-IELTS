@@ -10,7 +10,12 @@ import { allJobs } from "./jobs.mjs";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const CACHE = path.join(HERE, "qa-cache.json");
-const MODEL = "onnx-community/whisper-base.en";
+// --recheck: single words Whisper-base failed on are re-tested with a bigger model, the clip
+// repeated 3 times (Whisper hallucinates on very short isolated audio).
+const RECHECK = process.argv.includes("--recheck") || process.env.QA_RECHECK === "1";
+const MODEL = RECHECK ? "onnx-community/whisper-small.en" : "onnx-community/whisper-base.en";
+const TILE = RECHECK ? 3 : 1;
+const FIELD = RECHECK ? "heard2" : "heard";
 
 // ---- comparison --------------------------------------------------------------
 
@@ -55,6 +60,13 @@ export function wer(ref, hyp) {
   return ref.length ? d[ref.length][hyp.length] / ref.length : 0;
 }
 
+/** Single words: flag only if the word itself was never heard; sentences: word error rate > 25%. */
+function isBad(j, c) {
+  const ref = words(j.text);
+  if (ref.length === 1) return ![c.heard, c.heard2].some((h) => h !== undefined && words(h).some((w) => same(w, ref[0])));
+  return wer(ref, words(c.heard ?? "")) > 0.25;
+}
+
 // ---- worker --------------------------------------------------------------------
 
 async function worker(list) {
@@ -75,11 +87,12 @@ async function worker(list) {
       const k = Math.floor(x);
       out[i] = src[k] + (src[Math.min(k + 1, src.length - 1)] - src[k]) * (x - k);
     }
-    // pad short clips: Whisper is unreliable on very short audio
-    const padded = new Float32Array(Math.max(out.length + 8000, 16000));
-    padded.set(out, 4000);
+    // pad short clips (and repeat them when rechecking): Whisper is unreliable on very short audio
+    const gap = TILE > 1 ? 9600 : 0;
+    const padded = new Float32Array(Math.max(out.length * TILE + gap * (TILE - 1) + 8000, 16000));
+    for (let t = 0; t < TILE; t++) padded.set(out, 4000 + t * (out.length + gap));
     const r = await asr(padded, { chunk_length_s: 30, stride_length_s: 5 });
-    process.send({ key: j.file, mtime: fs.statSync(j.file).mtimeMs, heard: r.text.trim() });
+    process.send({ key: j.file, mtime: fs.statSync(j.file).mtimeMs, field: FIELD, heard: r.text.trim() });
   }
 }
 
@@ -97,7 +110,11 @@ if (process.env.QA_WORKER) {
   };
   const cache = fs.existsSync(CACHE) ? JSON.parse(fs.readFileSync(CACHE, "utf8")) : {};
   const all = allJobs(arg("only")?.split(",")).filter((j) => fs.existsSync(j.file));
-  const todo = all.filter((j) => cache[j.file]?.mtime !== fs.statSync(j.file).mtimeMs).slice(0, Number(arg("limit") ?? Infinity));
+  const todo = (
+    RECHECK
+      ? all.filter((j) => cache[j.file] && !("heard2" in cache[j.file]) && words(j.text).length === 1 && isBad(j, cache[j.file]))
+      : all.filter((j) => cache[j.file]?.mtime !== fs.statSync(j.file).mtimeMs)
+  ).slice(0, Number(arg("limit") ?? Infinity));
   const n = Number(arg("workers") ?? 2);
   console.log(`${all.length} files exist, ${todo.length} to check`);
   if (todo.length) {
@@ -111,9 +128,10 @@ if (process.env.QA_WORKER) {
       Array.from({ length: n }, (_, k) => todo.filter((_, i) => i % n === k)).map(
         (share) =>
           new Promise((resolve) => {
-            const child = fork(self, [], { env: { ...process.env, QA_WORKER: "1" } });
+            const child = fork(self, [], { env: { ...process.env, QA_WORKER: "1", QA_RECHECK: RECHECK ? "1" : "" } });
             child.on("message", (m) => {
-              cache[m.key] = { mtime: m.mtime, heard: m.heard };
+              // a fresh base check replaces the entry; a recheck adds heard2 to it
+              cache[m.key] = m.field === "heard" ? { mtime: m.mtime, heard: m.heard } : { ...cache[m.key], [m.field]: m.heard };
               if (++done % 100 === 0) {
                 save();
                 const eta = Math.round((((Date.now() - start) / done) * (todo.length - done)) / 60000);
@@ -130,11 +148,10 @@ if (process.env.QA_WORKER) {
   const report = all
     .filter((j) => cache[j.file])
     .map((j) => {
-      const heard = cache[j.file]?.heard ?? "";
-      const ref = words(j.text);
-      const e = wer(ref, words(heard));
-      // single words: Whisper often adds/drops a filler, so only flag if the word itself is missing
-      const bad = ref.length === 1 ? !words(heard).some((w) => same(w, ref[0])) : e > 0.25;
+      const c = cache[j.file];
+      const heard = c.heard2 ?? c.heard ?? "";
+      const e = wer(words(j.text), words(heard));
+      const bad = isBad(j, c);
       return { group: j.group, voice: j.voice, text: j.text, heard, wer: Math.round(e * 100) / 100, bad, file: path.relative(HERE, j.file) };
     })
     .filter((r) => r.bad)

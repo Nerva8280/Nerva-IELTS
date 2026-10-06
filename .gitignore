@@ -51,3 +51,4 @@ next-env.d.ts
 /tools/audio/qa.pid
 .vercel
 .env*
+/tools/audio/qa-cache.backup.json

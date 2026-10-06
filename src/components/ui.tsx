@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Level } from "@/content/types";
-import { humanAudio, playUrl, speak, stopSpeaking } from "@/lib/tts";
+import { humanAudio, playUrl, speak, speakWord, stopSpeaking } from "@/lib/tts";
 import { MAIN_VOICES, VOICES, type VoiceId } from "@/lib/audio-key";
 
 export function PageHeader({ title, back, right }: { title: string; back?: string; right?: React.ReactNode }) {
@@ -38,6 +38,7 @@ export function SpeakButton({
   voice,
   className = "",
   label,
+  human,
 }: {
   text: string;
   gender?: "f" | "m";
@@ -45,6 +46,7 @@ export function SpeakButton({
   voice?: VoiceId;
   className?: string;
   label?: string;
+  human?: boolean; // prefer a real human recording (single words)
 }) {
   const [on, setOn] = useState(false);
   useEffect(() => () => stopSpeaking(), []);
@@ -60,7 +62,7 @@ export function SpeakButton({
           return;
         }
         setOn(true);
-        await speak(text, { gender, rate, voice });
+        await (human ? speakWord(text, { gender, rate, voice }) : speak(text, { gender, rate, voice }));
         setOn(false);
       }}
       aria-label="Nghe"
