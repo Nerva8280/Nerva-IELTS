@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import type { PronItem, PronUnit } from "@/content/types";
 import { getState, markDone } from "@/lib/store";
-import { speakWord, stopSpeaking } from "@/lib/tts";
+import { speakWord, stopSpeaking, wordAudioReliable } from "@/lib/tts";
 import { compareWords, listen, recognitionSupported, tokenize } from "@/lib/speech";
 import { DoneBanner, LevelChip, PageHeader, ProgressBar, RichText, SpeakButton, useRecorder } from "@/components/ui";
 
@@ -69,10 +69,26 @@ function Choice({ options, answer, picked, onPick }: { options: string[]; answer
   );
 }
 
-function ItemView({ it, onAnswer }: { it: PronItem; onAnswer: (correct: boolean) => void }) {
+function ItemView({ it, onAnswer }: { it: PronItem; onAnswer: (correct: boolean, skipped?: boolean) => void }) {
   const [picked, setPicked] = useState<number | null>(null);
   // For minimal pairs, the learner hears one of the two words at random.
-  const [target] = useState(() => (Math.random() < 0.5 ? 0 : 1));
+  const [target, setTarget] = useState(() => (Math.random() < 0.5 ? 0 : 1));
+  // which words of a minimal pair have trustworthy audio (human recording or checked AI voice)
+  const [reliable, setReliable] = useState<boolean[] | null>(it.kind === "pair" ? null : [true, true]);
+  useEffect(() => {
+    if (it.kind !== "pair") return;
+    let alive = true;
+    Promise.all([wordAudioReliable(it.a), wordAudioReliable(it.b)]).then((r) => {
+      if (!alive) return;
+      setReliable(r);
+      if (!r[target] && r[1 - target]) setTarget(1 - target);
+      if (!r[0] && !r[1]) onAnswer(false, true);
+    });
+    return () => {
+      alive = false;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const rec = useRecorder();
 
   const pick = (k: number, answer: number) => {
@@ -82,6 +98,24 @@ function ItemView({ it, onAnswer }: { it: PronItem; onAnswer: (correct: boolean)
 
   if (it.kind === "pair") {
     const words = [it.a, it.b];
+    if (!reliable) return <div className="py-6 text-center text-slate-400">Đang tải âm thanh…</div>;
+    if (!reliable[0] && !reliable[1])
+      return (
+        <div>
+          <p className="mb-3 rounded-xl bg-amber-50 p-2.5 text-sm text-amber-800">
+            Cặp từ này chưa có âm thanh mẫu đủ chuẩn để luyện nghe, nên chỉ luyện nói theo phiên âm:
+          </p>
+          {[0, 1].map((k) => (
+            <div key={k} className="text-lg">
+              <b>{words[k]}</b> <span className="text-slate-500">{k === 0 ? it.aIpa : it.bIpa}</span>
+            </div>
+          ))}
+          <div className="flex flex-wrap gap-x-3">
+            <SayCheck expect={it.a} avoid={it.b} />
+            <SayCheck expect={it.b} avoid={it.a} />
+          </div>
+        </div>
+      );
     return (
       <div>
         <p className="muted">Nghe và chọn từ bạn nghe được:</p>
@@ -93,7 +127,7 @@ function ItemView({ it, onAnswer }: { it: PronItem; onAnswer: (correct: boolean)
           <div className="mt-4 space-y-3 border-t border-slate-100 pt-3">
             {[0, 1].map((k) => (
               <div key={k} className="flex items-center gap-2">
-                <SpeakButton text={words[k]} human />
+                {reliable[k] ? <SpeakButton text={words[k]} human /> : <span className="w-9" />}
                 <b>{words[k]}</b>
                 <span className="text-slate-500">{k === 0 ? it.aIpa : it.bIpa}</span>
               </div>
@@ -197,7 +231,8 @@ export default function PronUnitView({ unit }: { unit: PronUnit }) {
   const [answered, setAnswered] = useState(false);
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
-  const quizTotal = unit.items.filter(isQuiz).length;
+  const [skipped, setSkipped] = useState(0); // pairs without reliable audio are not scored
+  const quizTotal = unit.items.filter(isQuiz).length - skipped;
   const it = unit.items[i];
 
   useEffect(() => () => stopSpeaking(), []);
@@ -251,6 +286,7 @@ export default function PronUnitView({ unit }: { unit: PronUnit }) {
             onClick={() => {
               setI(0);
               setScore(0);
+              setSkipped(0);
               setAnswered(false);
               setFinished(false);
             }}
@@ -266,10 +302,15 @@ export default function PronUnitView({ unit }: { unit: PronUnit }) {
       <PageHeader title={unit.focus} back="/practice" right={<span className="muted">{i + 1}/{unit.items.length}</span>} />
       <ProgressBar value={i / unit.items.length} className="mb-4" />
       <div className="card">
-        <ItemView key={i} it={it} onAnswer={(ok) => {
-          setAnswered(true);
-          if (ok) setScore((x) => x + 1);
-        }} />
+        <ItemView
+          key={i}
+          it={it}
+          onAnswer={(ok, skipped) => {
+            setAnswered(true);
+            if (skipped) setSkipped((x) => x + 1);
+            else if (ok) setScore((x) => x + 1);
+          }}
+        />
       </div>
       <button className="btn-primary mt-4 w-full py-3" disabled={isQuiz(it) && !answered} onClick={next}>
         {i + 1 >= unit.items.length ? "Hoàn thành" : "Tiếp →"}

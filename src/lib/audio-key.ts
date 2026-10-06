@@ -16,6 +16,9 @@ export const MAIN_VOICES: VoiceId[] = ["uk-f", "uk-m", "us-f", "us-m"];
 // Voices generated for ordinary sentences (examples, answers…): the best-rated voice of each accent
 // (Kokoro grades: af_heart A, bf_emma B-, am_michael C+, bm_george C).
 export const SENTENCE_VOICES: VoiceId[] = ["uk-f", "us-f"];
+// Single words: Kokoro garbles very short inputs; af_heart (cut from "Listen. <word>.") is the
+// only voice that reads isolated words reliably, so it is the default for words.
+export const WORD_VOICE: VoiceId = "us-f";
 
 export function normText(text: string): string {
   return text.trim().replace(/\s+/g, " ");

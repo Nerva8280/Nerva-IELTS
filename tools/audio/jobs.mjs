@@ -47,6 +47,9 @@ export function allJobs(only) {
     seen.add(file);
     j.file = file;
     j.input = OVERRIDES[j.voice + "|" + j.text] ?? j.text;
+    // Kokoro garbles very short inputs; the af_heart voice reads a word cleanly after a short
+    // carrier ("Listen. fish.") which gen.mjs then cuts off.
+    j.carrier = j.voice === "us-f" && (j.group === "words" || j.group === "pronunciation") && j.text.split(" ").length <= 3 && !/[.!?]$/.test(j.text);
     return true;
   });
 }

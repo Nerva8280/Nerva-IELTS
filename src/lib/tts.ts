@@ -1,7 +1,7 @@
 "use client";
 // Text-to-speech via the browser's Web Speech API (free; quality depends on the device's voices).
 import { getState } from "./store";
-import { audioUrl, type VoiceId } from "./audio-key";
+import { audioKey, audioUrl, WORD_VOICE, type VoiceId } from "./audio-key";
 
 let voices: SpeechSynthesisVoice[] = [];
 
@@ -160,7 +160,44 @@ export async function speakWord(word: string, opts: SpeakOpts = {}): Promise<voi
     const r = await playUrl(url, (opts.rate ?? 1) * getState().settings.rate);
     if (r !== "error" || my !== token) return;
   }
-  await speak(word, opts);
+  // drill words are generated in the two sentence voices only
+  await speak(word, { voice: await bestWordVoice(word, [WORD_VOICE, "uk-f"]), ...opts });
+}
+
+/** True if a drill word can be played reliably: a human recording or a checked AI file. */
+export async function wordAudioReliable(word: string): Promise<boolean> {
+  const h = await humanAudio(word);
+  if (h.uk || h.us || h.other) return true;
+  return (await wordVoiceOk(WORD_VOICE, word)) || (await wordVoiceOk("uk-f", word));
+}
+
+const WORD_VOICE_ORDER: VoiceId[] = [WORD_VOICE, "uk-f", "us-m", "uk-m"];
+
+/** First voice whose file for this word passed the audio check (WORD_VOICE if none did). */
+export async function bestWordVoice(word: string, order = WORD_VOICE_ORDER): Promise<VoiceId> {
+  for (const v of order) if (await wordVoiceOk(v, word)) return v;
+  return WORD_VOICE;
+}
+
+/** A single vocabulary word in the most reliable available voice. */
+export async function speakVocab(word: string, opts: SpeakOpts = {}) {
+  stopSpeaking();
+  const my = token;
+  const voice = await bestWordVoice(word);
+  if (my !== token) return;
+  return speak(word, { voice, ...opts });
+}
+
+// Word files that QA found misread, per voice; their buttons are hidden (public/audio/hidden.json).
+let hidden: Promise<Record<string, string[]>> | null = null;
+export function hiddenWordVoices(): Promise<Record<string, string[]>> {
+  hidden ??= fetch("/audio/hidden.json")
+    .then((r) => (r.ok ? r.json() : {}))
+    .catch(() => ({}));
+  return hidden;
+}
+export async function wordVoiceOk(voice: VoiceId, word: string) {
+  return !(await hiddenWordVoices())[voice]?.includes(audioKey(word));
 }
 
 // ---- Real human recordings (Wiktionary / Wikimedia Commons via dictionaryapi.dev) ----

@@ -49,7 +49,7 @@ function lev(a, b) {
 }
 
 // Whisper writes US spelling; treat near-identical words (colour/color, realise/realize) as equal.
-const same = (a, b) => a === b || (a.length >= 5 && b.length >= 5 && a[0] === b[0] && lev(a, b) <= 2) || a.replace(/'/g, "") === b.replace(/'/g, "");
+export const same = (a, b) => a === b || (a.length >= 5 && b.length >= 5 && a[0] === b[0] && lev(a, b) <= 2) || a.replace(/'/g, "") === b.replace(/'/g, "");
 
 /** Word error rate of hyp against ref, with fuzzy word equality. */
 export function wer(ref, hyp) {
@@ -103,7 +103,8 @@ if (process.env.QA_WORKER) {
     await worker(list);
     process.exit(0);
   });
-} else {
+} else if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  // run only when executed directly, not when imported for its helpers
   const arg = (n) => {
     const i = process.argv.indexOf("--" + n);
     return i > 0 ? process.argv[i + 1] : undefined;

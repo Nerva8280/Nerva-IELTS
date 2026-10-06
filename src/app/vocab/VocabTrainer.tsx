@@ -7,7 +7,7 @@ import { dayLog, getState, touchDay, update, useAppState } from "@/lib/store";
 import { isDue, knownCard, newCard, review, intervalLabel, type Grade } from "@/lib/srs";
 import { todayStr } from "@/lib/dates";
 import { MINUTE_CONFIG } from "@/lib/plan";
-import { speak } from "@/lib/tts";
+import { speakVocab } from "@/lib/tts";
 import { DoneBanner, LevelChip, PageHeader, ProgressBar, SpeakButton, WordVoices } from "@/components/ui";
 
 type Mode = "home" | "learn" | "review" | "quiz";
@@ -80,7 +80,7 @@ function Learn({ vocab }: { vocab: VocabWord[] }) {
   const goal = target + extra;
 
   useEffect(() => {
-    if (w) void speak(w.word);
+    if (w) void speakVocab(w.word);
   }, [w]);
 
   if (learnedToday >= goal || !w)
@@ -158,7 +158,7 @@ function Review({ vocab }: { vocab: VocabWord[] }) {
   const reverse = !!card && card.reps >= 2 && id.charCodeAt(id.length - 1) % 2 === 0;
 
   useEffect(() => {
-    if (w && !reverse) void speak(w.word);
+    if (w && !reverse) void speakVocab(w.word);
   }, [w, reverse]);
 
   useEffect(() => {
@@ -303,7 +303,9 @@ function Quiz({ vocab }: { vocab: VocabWord[] }) {
       <div className="card text-center">
         <div className="text-3xl font-bold">{it.w.word}</div>
         <div className="mt-1 text-slate-500">{it.w.ipa}</div>
-        <SpeakButton text={it.w.word} className="mt-2" />
+        <button className="mt-2 rounded-full bg-indigo-50 px-2.5 py-1 text-sm text-indigo-700" onClick={() => speakVocab(it.w.word)} aria-label="Nghe">
+          🔊
+        </button>
       </div>
       <div className="mt-4 grid gap-2">
         {it.options.map((o, k) => (
@@ -376,7 +378,7 @@ function Home({ vocab }: { vocab: VocabWord[] }) {
           const c = s.srs[w.id];
           return (
             <div key={w.id} className="flex items-center gap-3 px-4 py-2.5">
-              <button onClick={() => speak(w.word)} className="text-lg" aria-label="Nghe">
+              <button onClick={() => speakVocab(w.word)} className="text-lg" aria-label="Nghe">
                 🔊
               </button>
               <div className="min-w-0 flex-1">

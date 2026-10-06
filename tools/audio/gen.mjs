@@ -54,17 +54,72 @@ async function encodeMp3(samples) {
 
 // ---- worker ----------------------------------------------------------------------
 
+const CARRIER = "Listen.";
+const WIN = RATE / 50; // 20 ms
+
+function rmsWindows(a) {
+  const r = [];
+  for (let i = 0; i + WIN <= a.length; i += WIN) {
+    let e = 0;
+    for (let k = i; k < i + WIN; k++) e += a[k] * a[k];
+    r.push(Math.sqrt(e / WIN));
+  }
+  return r;
+}
+
+/** Cut the target word out of "<carrier> <word>.": the pause nearest the carrier length, to the end. */
+function cutAfterCarrier(a, carrierLen) {
+  const rms = rmsWindows(a);
+  const max = Math.max(...rms);
+  const loud = rms.map((r) => r >= max * 0.04);
+  const p = carrierLen / WIN;
+  let best = -1;
+  let bestD = Infinity;
+  for (let i = 1, q = 0; i < loud.length; i++) {
+    if (!loud[i]) {
+      q++;
+      continue;
+    }
+    if (q >= 3 && i > p * 0.5 && i < p * 1.6 && Math.abs(i - p) < bestD) {
+      bestD = Math.abs(i - p);
+      best = i;
+    }
+    q = 0;
+  }
+  if (best < 0) return null;
+  let end = loud.length - 1;
+  while (end > best && !loud[end]) end--;
+  if (end - best < 5) return null;
+  return a.subarray(Math.max(0, (best - 2) * WIN), Math.min(a.length, (end + 4) * WIN));
+}
+
 async function worker(list) {
   const { KokoroTTS } = await import("kokoro-js");
   const tts = await KokoroTTS.from_pretrained("onnx-community/Kokoro-82M-v1.0-ONNX", { dtype: "fp32", device: "cpu" });
+  const carrierLen = {};
   for (const j of list) {
     const parts = [];
-    for (const s of splitSentences(j.input ?? j.text)) {
+    const voice = VOICES[j.voice].kokoro;
+    if (j.carrier) {
+      if (!carrierLen[voice]) {
+        const c = await tts.generate(CARRIER, { voice });
+        const r = rmsWindows(c.audio);
+        const m = Math.max(...r);
+        let e = r.length - 1;
+        while (e > 0 && r[e] < m * 0.04) e--;
+        carrierLen[voice] = (e + 1) * WIN;
+      }
+      const out = await tts.generate(`${CARRIER} ${j.input}.`, { voice });
+      const cut = cutAfterCarrier(out.audio, carrierLen[voice]);
+      if (cut) parts.push(trim(cut));
+    }
+    if (!parts.length)
+      for (const s of splitSentences(j.input ?? j.text)) {
       const out = await tts.generate(s, { voice: VOICES[j.voice].kokoro });
       parts.push(trim(out.audio));
       parts.push(new Float32Array(Math.round(0.28 * RATE))); // pause between sentences
-    }
-    parts.pop();
+      }
+    if (parts.length > 1) parts.pop();
     const total = parts.reduce((a, p) => a + p.length, 0);
     const all = new Float32Array(total);
     let o = 0;

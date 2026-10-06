@@ -2,8 +2,8 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Level } from "@/content/types";
-import { humanAudio, playUrl, speak, speakWord, stopSpeaking } from "@/lib/tts";
-import { MAIN_VOICES, VOICES, type VoiceId } from "@/lib/audio-key";
+import { humanAudio, playUrl, speak, speakVocab, speakWord, stopSpeaking, wordVoiceOk } from "@/lib/tts";
+import { MAIN_VOICES, VOICES, WORD_VOICE, type VoiceId } from "@/lib/audio-key";
 
 export function PageHeader({ title, back, right }: { title: string; back?: string; right?: React.ReactNode }) {
   return (
@@ -77,10 +77,15 @@ export function SpeakButton({
 export function WordVoices({ word }: { word: string }) {
   const [human, setHuman] = useState<string | null | undefined>(undefined);
   const [playing, setPlaying] = useState<string | null>(null);
+  const [voices, setVoices] = useState<VoiceId[]>(MAIN_VOICES);
   useEffect(() => {
     let alive = true;
     humanAudio(word).then((h) => {
       if (alive) setHuman(h.uk ?? h.us ?? h.other ?? null);
+    });
+    Promise.all(MAIN_VOICES.map((v) => wordVoiceOk(v, word))).then((ok) => {
+      const good = MAIN_VOICES.filter((_, i) => ok[i]);
+      if (alive) setVoices(good.length ? good : [WORD_VOICE]);
     });
     return () => {
       alive = false;
@@ -98,7 +103,7 @@ export function WordVoices({ word }: { word: string }) {
     `rounded-full px-2.5 py-1 text-xs font-semibold transition ${playing === key ? "bg-indigo-600 text-white" : "bg-indigo-50 text-indigo-700 hover:bg-indigo-100"}`;
   return (
     <div className="flex flex-wrap justify-center gap-1.5">
-      {MAIN_VOICES.map((v) => (
+      {voices.map((v) => (
         <button key={v} className={btn(v)} onClick={(e) => (e.stopPropagation(), run(v, () => speak(word, { voice: v })))}>
           {VOICES[v].label}
         </button>
@@ -108,7 +113,7 @@ export function WordVoices({ word }: { word: string }) {
           🧑 Người thật
         </button>
       )}
-      <button className={btn("slow")} onClick={(e) => (e.stopPropagation(), run("slow", () => speak(word, { rate: 0.65 })))}>
+      <button className={btn("slow")} onClick={(e) => (e.stopPropagation(), run("slow", () => speakVocab(word, { rate: 0.65 })))}>
         🐢 Chậm
       </button>
     </div>
