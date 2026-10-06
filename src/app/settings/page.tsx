@@ -90,35 +90,10 @@ export default function SettingsPage() {
     setPushState("off");
   }
 
-  function downloadIcs() {
-    if (!r) return;
-    const [h, m] = r.reminder.split(":");
-    const d = todayStr().replace(/-/g, "");
-    const ics = [
-      "BEGIN:VCALENDAR",
-      "VERSION:2.0",
-      "PRODID:-//IELTS Coach//VI",
-      "BEGIN:VEVENT",
-      `UID:ielts-coach-${Date.now()}@ielts-coach`,
-      `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").split(".")[0]}Z`,
-      `DTSTART:${d}T${h}${m}00`,
-      `DURATION:PT${r.minutes}M`,
-      `RRULE:FREQ=WEEKLY;BYDAY=${r.studyDays.map((x) => ICS_DAYS[x]).join(",")}`,
-      "SUMMARY:📚 Học tiếng Anh (IELTS Coach)",
-      `DESCRIPTION:Mở app: ${location.origin}`,
-      `URL:${location.origin}`,
-      "BEGIN:VALARM",
-      "TRIGGER:PT0M",
-      "ACTION:DISPLAY",
-      "DESCRIPTION:Đến giờ học tiếng Anh!",
-      "END:VALARM",
-      "END:VEVENT",
-      "END:VCALENDAR",
-    ].join("\r\n");
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(new Blob([ics], { type: "text/calendar;charset=utf-8" }));
-    a.download = "ielts-coach.ics";
-    a.click();
+  function calendarUrl() {
+    if (!r) return "#";
+    const p = new URLSearchParams({ t: r.reminder, m: String(r.minutes), d: r.studyDays.join(","), s: todayStr().replace(/-/g, "") });
+    return `/api/calendar?${p}`;
   }
 
   function googleCalendarUrl() {
@@ -238,9 +213,9 @@ export default function SettingsPage() {
       <Section title="Nhắc giờ học">
         <p className="muted mb-3">Chọn một hoặc cả hai cách. Lịch điện thoại là cách nhắc ổn định nhất.</p>
         <div className="space-y-2">
-          <button className="btn-soft w-full" onClick={downloadIcs}>
-            📅 Thêm vào lịch điện thoại (iPhone / Outlook)
-          </button>
+          <a className="btn-soft w-full" href={calendarUrl()}>
+            📅 Thêm vào lịch iPhone / iPad / Outlook
+          </a>
           <a className="btn-soft w-full" href={googleCalendarUrl()} target="_blank" rel="noreferrer">
             📅 Thêm vào Google Calendar (Android)
           </a>
