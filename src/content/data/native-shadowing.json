@@ -1,0 +1,2138 @@
+[
+  {
+    "id": "nsh-intro",
+    "level": "A1",
+    "title": "Giới thiệu bản thân",
+    "topic": "intro",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I work here.",
+        "marked": "I *WORK* here. ↘",
+        "vi": "Tôi làm việc ở đây.",
+        "tip": "Nhấn 'work', 'here' đọc nhẹ rồi xuống giọng cuối câu.",
+        "sid": "730034",
+        "aid": "44196",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm thirty years old.",
+        "marked": "I'm *THIR*ty years old. ↘",
+        "vi": "Tôi ba mươi tuổi.",
+        "tip": "Nhấn âm đầu 'THIR-ty' (/ˈθɜːrti/); khác với 'thirTEEN' nhấn cuối. Xuống giọng ở cuối.",
+        "sid": "2547669",
+        "aid": "149696",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I work at a book store.",
+        "marked": "I WORK‿at a *BOOK* store. ↘",
+        "vi": "Tôi làm ở một hiệu sách.",
+        "tip": "Nối 'work‿at' → /wɜːrkət/. Nhấn 'book' vì là từ mới quan trọng.",
+        "sid": "11885110",
+        "aid": "1126065",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I work at a travel agency.",
+        "marked": "I WORK‿at a TRAvel‿*A*gency. ↘",
+        "vi": "Tôi làm việc ở một công ty du lịch.",
+        "tip": "Nối 'work‿at' và 'travel‿agency'; nhấn 'A' trong 'AGency' (/ˈeɪdʒənsi/).",
+        "sid": "7156430",
+        "aid": "668145",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "It's nice to meet you again.",
+        "marked": "It's NICE to MEET you a*GAIN*. ↘",
+        "vi": "Rất vui được gặp lại bạn.",
+        "tip": "Nhấn 'nice', 'meet', và cao nhất ở 'aGAIN'; 'to' và 'you' đọc yếu.",
+        "sid": "9665130",
+        "aid": "950446",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Where do I sign my name?",
+        "marked": "WHERE do I SIGN my *NAME*? ↘",
+        "vi": "Tôi ký tên ở đâu?",
+        "tip": "Câu hỏi Wh- xuống giọng; nhấn mạnh 'name' ở cuối.",
+        "sid": "11038894",
+        "aid": "1058026",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm from Boston, but now I live in Chicago.",
+        "marked": "I'm from *BOS*ton, ↗ | but now I LIVE‿in Chi*CA*go. ↘",
+        "vi": "Tôi đến từ Boston, nhưng giờ tôi sống ở Chicago.",
+        "tip": "Lên giọng nhẹ ở 'Boston,' (còn ý tiếp), xuống ở 'Chicago'. Nối 'live‿in'. 'Chicago' nhấn âm CA /ʃɪˈkɑːɡoʊ/.",
+        "sid": "6799122",
+        "aid": "870023",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm from Boston and my wife is from Chicago.",
+        "marked": "I'm from *BOS*ton ↗ | and my WIFE‿is from Chi*CA*go. ↘",
+        "vi": "Tôi đến từ Boston còn vợ tôi đến từ Chicago.",
+        "tip": "Hai nhóm ý: lên giọng ở 'Boston', xuống ở 'Chicago'. Nối 'wife‿is'. 'from' đọc yếu /frəm/.",
+        "sid": "8346542",
+        "aid": "972572",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-routine",
+    "level": "A1",
+    "title": "Một ngày của tôi",
+    "topic": "routine",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I run every morning.",
+        "marked": "I RUN EVery *MOR*ning. ↘",
+        "vi": "Sáng nào tôi cũng chạy bộ.",
+        "tip": "'every' thường đọc 2 âm tiết /ˈevri/. Nhấn mạnh 'MOR' trong 'morning'.",
+        "sid": "5288852",
+        "aid": "287881",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Can I go to bed now?",
+        "marked": "Can I GO to BED *NOW*? ↗",
+        "vi": "Giờ tôi đi ngủ được chưa?",
+        "tip": "Câu hỏi Yes/No lên giọng. 'Can I' đọc nhanh, nhấn 'now'.",
+        "sid": "3283434",
+        "aid": "196218",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Do you want to have breakfast?",
+        "marked": "Do you WANT to have *BREAK*fast? ↗",
+        "vi": "Bạn có muốn ăn sáng không?",
+        "tip": "'Do you' nối thành /dʒə/. Lên giọng cuối câu hỏi Yes/No; nhấn 'BREAK' trong 'breakfast'.",
+        "sid": "6048945",
+        "aid": "659207",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "What time did you go to bed?",
+        "marked": "WHAT TIME did you GO to *BED*? ↘",
+        "vi": "Hôm qua bạn đi ngủ lúc mấy giờ?",
+        "tip": "Câu hỏi Wh- xuống giọng. 'did you' → /dɪdʒə/.",
+        "sid": "12304460",
+        "aid": "1183015",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I usually study math in the evening.",
+        "marked": "I Usually STUdy *MATH* ↗ | in the *EVE*ning. ↘",
+        "vi": "Tôi thường học toán vào buổi tối.",
+        "tip": "'usually' /ˈjuːʒuəli/ (3 âm tiết). Lên giọng nhẹ sau 'math' rồi xuống ở 'evening'.",
+        "sid": "455999",
+        "aid": "35148",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I hardly ever get up this early.",
+        "marked": "I HARDly EVer get UP this *EAR*ly. ↘",
+        "vi": "Tôi hầu như không bao giờ dậy sớm thế này.",
+        "tip": "Nhấn 'hardly', 'ever', 'up' và mạnh nhất ở 'EARly' /ˈɜːrli/ (âm 'ear' = /ɜːr/).",
+        "sid": "9301780",
+        "aid": "795130",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I usually sleep on the bus on my way home.",
+        "marked": "I Usually SLEEP on the *BUS* ↗ | on my WAY *HOME*. ↘",
+        "vi": "Tôi thường ngủ trên xe buýt trên đường về nhà.",
+        "tip": "Chia 2 nhóm ý; 'on my way' đọc nhanh, nhấn 'home' để kết thúc.",
+        "sid": "8548402",
+        "aid": "868141",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I always drink a cup of coffee every morning.",
+        "marked": "I ALways DRINK‿a CUP‿of *COF*fee ↗ | EVery *MOR*ning. ↘",
+        "vi": "Tôi luôn uống một tách cà phê mỗi sáng.",
+        "tip": "Nối 'drink‿a' và 'cup‿of' → /kʌpəv/. 'coffee' nhấn COF /ˈkɔːfi/.",
+        "sid": "953360",
+        "aid": "691325",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-food",
+    "level": "A1",
+    "title": "Ăn uống",
+    "topic": "food",
+    "native": true,
+    "sentences": [
+      {
+        "en": "Lunch was great.",
+        "marked": "LUNCH was *GREAT*. ↘",
+        "vi": "Bữa trưa tuyệt lắm.",
+        "tip": "Nhấn 'great', xuống giọng dứt khoát.",
+        "sid": "4495311",
+        "aid": "253682",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Give me a cup of coffee.",
+        "marked": "GIVE me a CUP‿of *COF*fee. ↘",
+        "vi": "Cho tôi một tách cà phê.",
+        "tip": "Nối 'cup‿of' → /kʌpəv/. Nhấn 'COF' trong 'coffee'.",
+        "sid": "62183",
+        "aid": "10161",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I like my coffee strong.",
+        "marked": "I LIKE my COFfee *STRONG*. ↘",
+        "vi": "Tôi thích cà phê đậm.",
+        "tip": "Nhấn 'strong' là từ thông tin chính; cụm /str/ cần đọc rõ.",
+        "sid": "62234",
+        "aid": "10184",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Can I help with breakfast?",
+        "marked": "Can I HELP with *BREAK*fast? ↗",
+        "vi": "Tôi giúp làm bữa sáng nhé?",
+        "tip": "Câu hỏi Yes/No lên giọng cuối; 'with' đọc yếu.",
+        "sid": "3731896",
+        "aid": "224788",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Where's the nearest restaurant?",
+        "marked": "WHERE's the NEARest *REST*aurant? ↘",
+        "vi": "Nhà hàng gần nhất ở đâu?",
+        "tip": "'restaurant' /ˈrestrɑːnt/ thường đọc 2-3 âm tiết, nhấn REST. Câu hỏi Wh- xuống giọng.",
+        "sid": "7706595",
+        "aid": "561545",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Did you have a good lunch?",
+        "marked": "Did you have a GOOD *LUNCH*? ↗",
+        "vi": "Bạn ăn trưa ngon miệng chứ?",
+        "tip": "'Did you' → /dɪdʒə/. Nhấn 'lunch', lên giọng cuối.",
+        "sid": "12269858",
+        "aid": "1176982",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Do you want some tea or some coffee?",
+        "marked": "Do you WANT some *TEA* ↗ | or some *COF*fee? ↘",
+        "vi": "Bạn muốn uống trà hay cà phê?",
+        "tip": "Câu hỏi lựa chọn: lên giọng ở phương án đầu ('tea'), xuống giọng ở phương án cuối ('coffee').",
+        "sid": "758888",
+        "aid": "887510",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I skipped lunch, so I'm pretty hungry.",
+        "marked": "I SKIPPED *LUNCH*, ↗ | so I'm PRETty *HUN*gry. ↘",
+        "vi": "Tôi bỏ bữa trưa nên khá đói.",
+        "tip": "'skipped' kết thúc /t/. Lên giọng nhẹ ở dấu phẩy rồi xuống ở 'hungry'.",
+        "sid": "3199053",
+        "aid": "191658",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-shopping",
+    "level": "A1",
+    "title": "Mua sắm",
+    "topic": "shopping",
+    "native": true,
+    "sentences": [
+      {
+        "en": "Can I pay in cash?",
+        "marked": "Can I PAY in *CASH*? ↗",
+        "vi": "Tôi trả bằng tiền mặt được không?",
+        "tip": "Câu hỏi Yes/No lên giọng cuối; nhấn 'cash'.",
+        "sid": "10977112",
+        "aid": "1051402",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "How much is this umbrella?",
+        "marked": "How MUCH is this um*BREL*la? ↘",
+        "vi": "Cái ô này giá bao nhiêu?",
+        "tip": "Nhấn 'MUCH' và 'BREL' trong 'umbrella'. Câu hỏi Wh- xuống giọng.",
+        "sid": "3847212",
+        "aid": "238646",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "How much does this bag cost?",
+        "marked": "How MUCH does this BAG *COST*? ↘",
+        "vi": "Cái túi này giá bao nhiêu?",
+        "tip": "'does' đọc yếu /dəz/. Nhấn 'cost' ở cuối.",
+        "sid": "689913",
+        "aid": "660270",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Is that too expensive?",
+        "marked": "Is that too ex*PEN*sive? ↗",
+        "vi": "Cái đó có đắt quá không?",
+        "tip": "Nhấn 'PEN' trong 'expensive' /ɪkˈspensɪv/, lên giọng cuối.",
+        "sid": "4494636",
+        "aid": "253026",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Everything's really cheap.",
+        "marked": "EVerything's REAlly *CHEAP*. ↘",
+        "vi": "Mọi thứ đều rất rẻ.",
+        "tip": "'Everything's' nối 'thing's' /ˈevriθɪŋz/. Nhấn 'cheap' xuống giọng.",
+        "sid": "2935358",
+        "aid": "172470",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Where can we buy bread?",
+        "marked": "WHERE can we BUY *BREAD*? ↘",
+        "vi": "Chúng ta mua bánh mì ở đâu?",
+        "tip": "Câu hỏi Wh- xuống giọng. 'can' đọc yếu /kən/.",
+        "sid": "12361590",
+        "aid": "1192855",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm going to buy some bread.",
+        "marked": "I'm GOing to BUY some *BREAD*. ↘",
+        "vi": "Tôi sắp đi mua ít bánh mì.",
+        "tip": "'going to' thường nói là 'gonna' /ˈɡʌnə/. Nhấn 'buy' và 'bread'.",
+        "sid": "2147637",
+        "aid": "373852",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I must buy some new clothes.",
+        "marked": "I must BUY some NEW *CLOTHES*. ↘",
+        "vi": "Tôi phải mua vài bộ quần áo mới.",
+        "tip": "'clothes' đọc /kloʊz/ (th câm hoặc rất nhẹ). Nhấn 'new' và 'clothes'.",
+        "sid": "5160835",
+        "aid": "281380",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-directions",
+    "level": "A2",
+    "title": "Hỏi đường",
+    "topic": "directions",
+    "native": true,
+    "sentences": [
+      {
+        "en": "Where is the restroom?",
+        "marked": "WHERE is the *REST*room? ↘",
+        "vi": "Nhà vệ sinh ở đâu?",
+        "tip": "Nhấn 'REST'; 'is the' đọc nhanh nhẹ.",
+        "sid": "689073",
+        "aid": "43177",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Turn right at the light.",
+        "marked": "TURN RIGHT‿at the *LIGHT*. ↘",
+        "vi": "Rẽ phải ở chỗ đèn giao thông.",
+        "tip": "Nối 'right‿at' (t nối vào a). Nhấn 'turn', 'right' và mạnh nhất 'light'.",
+        "sid": "8634400",
+        "aid": "812173",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Is the station far?",
+        "marked": "Is the STAtion *FAR*? ↗",
+        "vi": "Ga có xa không?",
+        "tip": "Câu hỏi Yes/No lên giọng cuối. Nhấn 'STA' trong 'station'.",
+        "sid": "10718045",
+        "aid": "1014586",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "That's not very far from here.",
+        "marked": "That's not VEry *FAR* from here. ↘",
+        "vi": "Chỗ đó không xa lắm đâu.",
+        "tip": "Nhấn 'very' và 'FAR'; 'from' đọc yếu /frəm/.",
+        "sid": "7200388",
+        "aid": "782957",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I said turn right.",
+        "marked": "I SAID turn *RIGHT*. ↘",
+        "vi": "Tôi nói là rẽ phải mà.",
+        "tip": "Nhấn đối chiếu 'said' để sửa lại cho người nghe, nhấn mạnh nhất 'right'.",
+        "sid": "2405912",
+        "aid": "136005",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Excuse me. How can I get to the nearest station?",
+        "marked": "Ex*CUSE* me. ↘ | HOW can I GET to the NEARest *STA*tion? ↘",
+        "vi": "Xin lỗi, tôi đến ga gần nhất bằng cách nào?",
+        "tip": "'Excuse me' nhấn CUSE /ɪkˈskjuːz/. Hai câu tách nhóm, đều xuống giọng.",
+        "sid": "9770491",
+        "aid": "830613",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "You should turn left at the second light.",
+        "marked": "You should TURN LEFT‿at the SEcond *LIGHT*. ↘",
+        "vi": "Bạn nên rẽ trái ở đèn giao thông thứ hai.",
+        "tip": "Nối 'left‿at'. Nhấn 'turn left' và 'light'. 'should' đọc yếu.",
+        "sid": "2827387",
+        "aid": "167823",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Could you tell me how to get to the nearest station?",
+        "marked": "Could you TELL me how to GET to the NEARest *STA*tion? ↗",
+        "vi": "Bạn có thể chỉ cho tôi cách đến ga gần nhất không?",
+        "tip": "Lịch sự → lên giọng cuối. 'Could you' → /kʊdʒə/; 'how to' đọc nhẹ.",
+        "sid": "243719",
+        "aid": "941659",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-weather",
+    "level": "A2",
+    "title": "Thời tiết",
+    "topic": "weather",
+    "native": true,
+    "sentences": [
+      {
+        "en": "How is the weather?",
+        "marked": "How is the *WEA*ther? ↘",
+        "vi": "Thời tiết thế nào?",
+        "tip": "'weather' /ˈweðər/, âm 'th' hữu thanh. Nhấn WEA.",
+        "sid": "64158",
+        "aid": "10509",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "It was a sunny day.",
+        "marked": "It was a SUNny *DAY*. ↘",
+        "vi": "Hôm đó là một ngày nắng.",
+        "tip": "'It was a' đọc nối nhanh. Nhấn 'sunny' và 'day'.",
+        "sid": "6580910",
+        "aid": "810532",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "We finally got some rain.",
+        "marked": "We FInally GOT some *RAIN*. ↘",
+        "vi": "Cuối cùng cũng có mưa.",
+        "tip": "Nhấn 'finally', 'got', 'rain'; xuống giọng dứt khoát.",
+        "sid": "11506630",
+        "aid": "1089306",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "It snowed last night.",
+        "marked": "It SNOWED last *NIGHT*. ↘",
+        "vi": "Đêm qua có tuyết rơi.",
+        "tip": "'snowed' /snoʊd/ một âm tiết. 'last night' nối /læs naɪt/.",
+        "sid": "2247090",
+        "aid": "113830",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "How's the weather there?",
+        "marked": "HOW's the WEAther *THERE*? ↘",
+        "vi": "Ở đó thời tiết thế nào?",
+        "tip": "Câu hỏi Wh- xuống giọng; nhấn 'there' vì hỏi về nơi khác.",
+        "sid": "50753",
+        "aid": "8454",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "If it snows, I'll stay home.",
+        "marked": "If it *SNOWS*, ↗ | I'll stay *HOME*. ↘",
+        "vi": "Nếu có tuyết thì tôi sẽ ở nhà.",
+        "tip": "Mệnh đề 'if' lên giọng ở dấu phẩy, mệnh đề chính xuống giọng.",
+        "sid": "10384750",
+        "aid": "923654",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "It looks as if it's going to snow.",
+        "marked": "It LOOKS‿as if it's GOing to *SNOW*. ↘",
+        "vi": "Có vẻ trời sắp có tuyết.",
+        "tip": "Nối 'looks‿as' → /lʊksəz/. 'going to' có thể nói 'gonna'.",
+        "sid": "10281931",
+        "aid": "901226",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "If the weather's nice tomorrow, let's go to the beach.",
+        "marked": "If the WEAther's NICE to*MOR*row, ↗ | let's GO to the *BEACH*. ↘",
+        "vi": "Nếu mai trời đẹp, mình đi biển nhé.",
+        "tip": "Lên giọng ở dấu phẩy. 'toMORrow' nhấn âm 2. Nhấn 'go' và 'beach'.",
+        "sid": "8440538",
+        "aid": "712507",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-family",
+    "level": "A2",
+    "title": "Gia đình & bạn bè",
+    "topic": "family",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I love my brothers.",
+        "marked": "I LOVE my *BRO*thers. ↘",
+        "vi": "Tôi yêu các anh em của mình.",
+        "tip": "'brothers' /ˈbrʌðərz/, 'th' hữu thanh; nhấn BRO.",
+        "sid": "6018474",
+        "aid": "665668",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "My father is busy now.",
+        "marked": "My FAther is BUsy *NOW*. ↘",
+        "vi": "Bố tôi đang bận.",
+        "tip": "'busy' đọc /ˈbɪzi/ (không phải 'bu-sy'). Nhấn 'now' cuối câu.",
+        "sid": "2427038",
+        "aid": "138008",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "My sister is three years old.",
+        "marked": "My SISter is THREE years *OLD*. ↘",
+        "vi": "Em gái tôi ba tuổi.",
+        "tip": "'three years' /θriː jɪrz/; nhấn 'three' và 'old'.",
+        "sid": "1803057",
+        "aid": "79914",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "My parents won't mind.",
+        "marked": "My PARents won't *MIND*. ↘",
+        "vi": "Bố mẹ tôi sẽ không phiền đâu.",
+        "tip": "'won't' /woʊnt/, nhấn 'mind' để chốt ý.",
+        "sid": "2272066",
+        "aid": "119708",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I live in Boston with my family.",
+        "marked": "I LIVE‿in BOSton with my *FAM*ily. ↘",
+        "vi": "Tôi sống ở Boston cùng gia đình.",
+        "tip": "Nối 'live‿in'. 'family' thường đọc 2-3 âm tiết /ˈfæmli/.",
+        "sid": "5203903",
+        "aid": "284162",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I really do miss my parents a lot.",
+        "marked": "I REAlly do MISS my PARents‿a *LOT*. ↘",
+        "vi": "Tôi thực sự rất nhớ bố mẹ.",
+        "tip": "'do' nhấn để nhấn mạnh cảm xúc; nối 'parents‿a'.",
+        "sid": "2683940",
+        "aid": "162732",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I want to be a carpenter, just like my father.",
+        "marked": "I WANT to be a *CAR*penter, ↗ | just like my *FA*ther. ↘",
+        "vi": "Tôi muốn làm thợ mộc giống bố tôi.",
+        "tip": "'want to' → /ˈwɑːnə/. Lên giọng ở dấu phẩy, xuống ở 'father'.",
+        "sid": "8509567",
+        "aid": "750752",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "My mother asked me what time I'd get back home.",
+        "marked": "My MOther *ASKED* me ↗ | what TIME I'd get back *HOME*. ↘",
+        "vi": "Mẹ hỏi tôi mấy giờ tôi sẽ về nhà.",
+        "tip": "Câu hỏi gián tiếp đọc như câu kể (xuống giọng). 'I'd' = /aɪd/.",
+        "sid": "10598083",
+        "aid": "963282",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-hobbies",
+    "level": "A2",
+    "title": "Sở thích",
+    "topic": "hobbies",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I like your smile.",
+        "marked": "I LIKE your *SMILE*. ↘",
+        "vi": "Tôi thích nụ cười của bạn.",
+        "tip": "'your' đọc yếu /jər/; nhấn 'smile'.",
+        "sid": "2377637",
+        "aid": "133445",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I love your earrings.",
+        "marked": "I LOVE your *EAR*rings. ↘",
+        "vi": "Tôi thích đôi hoa tai của bạn.",
+        "tip": "'earrings' /ˈɪrɪŋz/ nhấn EAR.",
+        "sid": "4499921",
+        "aid": "258088",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Can he play the piano?",
+        "marked": "Can he PLAY the pi*AN*o? ↗",
+        "vi": "Anh ấy chơi piano được không?",
+        "tip": "'piano' /piˈænoʊ/ nhấn âm AN. Lên giọng cuối câu hỏi Yes/No.",
+        "sid": "292477",
+        "aid": "1191557",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Do you have some kind of hobby?",
+        "marked": "Do you have some KIND‿of *HOB*by? ↗",
+        "vi": "Bạn có sở thích nào không?",
+        "tip": "Nối 'kind‿of' → /kaɪndəv/. Nhấn HOB, lên giọng.",
+        "sid": "3555464",
+        "aid": "217424",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I like swimming in the sea.",
+        "marked": "I LIKE SWIMming‿in the *SEA*. ↘",
+        "vi": "Tôi thích bơi ở biển.",
+        "tip": "Nối 'swimming‿in'. Nhấn 'like', 'swimming' và 'sea'.",
+        "sid": "958792",
+        "aid": "694627",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "My hobby is writing songs.",
+        "marked": "My HOBby is WRIting *SONGS*. ↘",
+        "vi": "Sở thích của tôi là viết nhạc.",
+        "tip": "Nhấn 'hobby', 'writing', 'songs'; 'is' đọc yếu.",
+        "sid": "7802064",
+        "aid": "584083",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I like tennis better than I like soccer.",
+        "marked": "I like *TEN*nis BETter ↗ | than I like *SOC*cer. ↘",
+        "vi": "Tôi thích quần vợt hơn bóng đá.",
+        "tip": "So sánh: lên giọng ở phần đầu, xuống ở phần sau; nhấn 'tennis' và 'soccer'.",
+        "sid": "6168316",
+        "aid": "893672",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "You know I love you, right?",
+        "marked": "You *KNOW* I LOVE you, ↗ | *RIGHT*? ↗",
+        "vi": "Bạn biết là tôi yêu bạn mà, đúng không?",
+        "tip": "Câu hỏi đuôi 'right?' lên giọng để xác nhận.",
+        "sid": "10720682",
+        "aid": "1013222",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-feelings",
+    "level": "A2",
+    "title": "Cảm xúc",
+    "topic": "feelings",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I feel fine today.",
+        "marked": "I feel *FINE* toDAY. ↘",
+        "vi": "Hôm nay tôi thấy ổn.",
+        "tip": "Nhấn 'fine' và 'DAY' trong 'today' /təˈdeɪ/ (âm đầu yếu).",
+        "sid": "3737138",
+        "aid": "228733",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Why are you upset?",
+        "marked": "WHY are you up*SET*? ↘",
+        "vi": "Sao bạn lại buồn bực thế?",
+        "tip": "Câu hỏi Wh- xuống giọng. 'upSET' nhấn âm 2.",
+        "sid": "1949094",
+        "aid": "88646",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "How nervous are you?",
+        "marked": "HOW *NER*vous are you? ↘",
+        "vi": "Bạn lo lắng đến mức nào?",
+        "tip": "'nervous' /ˈnɜːrvəs/ nhấn NER. Xuống giọng.",
+        "sid": "5821878",
+        "aid": "303941",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I feel really bad for you.",
+        "marked": "I feel REAlly BAD for *YOU*. ↘",
+        "vi": "Tôi thấy thực sự tiếc cho bạn.",
+        "tip": "Nhấn 'YOU' vì nhắm vào người nghe; 'for' đọc yếu.",
+        "sid": "12295259",
+        "aid": "1181262",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm really excited about it.",
+        "marked": "I'm REAlly exCITed a*BOUT*‿it. ↘",
+        "vi": "Tôi thực sự rất hào hứng về điều đó.",
+        "tip": "Nối 'about‿it' → /əbaʊtɪt/. Nhấn CIT trong 'excited'.",
+        "sid": "10990611",
+        "aid": "1052688",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I feel like going out for a walk.",
+        "marked": "I feel like GOing OUT for a *WALK*. ↘",
+        "vi": "Tôi muốn ra ngoài đi dạo.",
+        "tip": "'feel like' = muốn; 'going out' nối nhẹ. Nhấn 'walk'.",
+        "sid": "1563950",
+        "aid": "75277",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm tired now. Can we do this later?",
+        "marked": "I'm *TIRED* now. ↘ | Can we do this *LA*ter? ↗",
+        "vi": "Giờ tôi mệt rồi. Mình làm việc này sau được không?",
+        "tip": "Hai câu tách nhóm: câu kể xuống giọng, câu hỏi lên giọng.",
+        "sid": "10605631",
+        "aid": "966527",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I feel like I'm making progress.",
+        "marked": "I feel like I'm MAking *PRO*gress. ↘",
+        "vi": "Tôi cảm thấy mình đang tiến bộ.",
+        "tip": "'progress' danh từ nhấn PRO /ˈprɑːɡrəs/.",
+        "sid": "1806237",
+        "aid": "79981",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-plans",
+    "level": "A2",
+    "title": "Kế hoạch & hẹn gặp",
+    "topic": "plans",
+    "native": true,
+    "sentences": [
+      {
+        "en": "Let's eat together tonight.",
+        "marked": "Let's EAT toGEther to*NIGHT*. ↘",
+        "vi": "Tối nay mình ăn cùng nhau nhé.",
+        "tip": "'Let's' lời đề nghị; nhấn 'eat' và 'tonight'.",
+        "sid": "1830544",
+        "aid": "80479",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Let's meet at my office.",
+        "marked": "Let's MEET‿at my *OF*fice. ↘",
+        "vi": "Mình gặp nhau ở văn phòng tôi nhé.",
+        "tip": "Nối 'meet‿at' → /miːtət/ (t có thể thành âm flap).",
+        "sid": "6824110",
+        "aid": "644826",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Let's talk about it tomorrow.",
+        "marked": "Let's TALK aBOUT‿it to*MOR*row. ↘",
+        "vi": "Mai mình bàn chuyện này nhé.",
+        "tip": "Nối 'about‿it'. Nhấn MOR trong 'tomorrow' /təˈmɔːroʊ/.",
+        "sid": "7476867",
+        "aid": "541402",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "What's your plan for tomorrow?",
+        "marked": "WHAT's your *PLAN* for toMORrow? ↘",
+        "vi": "Kế hoạch của bạn cho ngày mai là gì?",
+        "tip": "Câu hỏi Wh- xuống giọng; nhấn 'plan'.",
+        "sid": "6438437",
+        "aid": "560729",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Can we talk about it tomorrow?",
+        "marked": "Can we TALK aBOUT‿it to*MOR*row? ↗",
+        "vi": "Mình nói chuyện này vào ngày mai được không?",
+        "tip": "Câu hỏi Yes/No lên giọng cuối; 'Can we' đọc nhẹ.",
+        "sid": "7435708",
+        "aid": "591057",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm going to Australia this spring.",
+        "marked": "I'm GOing to Aus*TRA*lia ↗ | this *SPRING*. ↘",
+        "vi": "Mùa xuân này tôi sẽ đi Úc.",
+        "tip": "'Australia' nhấn TRA /ɔːˈstreɪliə/. Chia 2 nhóm ý.",
+        "sid": "7159707",
+        "aid": "603318",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Are you doing anything tomorrow afternoon?",
+        "marked": "Are you DOing Anything toMORrow after*NOON*? ↗",
+        "vi": "Chiều mai bạn có làm gì không?",
+        "tip": "'afterNOON' nhấn âm cuối. Lên giọng cuối câu hỏi Yes/No.",
+        "sid": "11922700",
+        "aid": "1130164",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "One of my friends is getting married in Boston next week.",
+        "marked": "One‿of my FRIENDS is GETting MARried‿in *BOS*ton ↗ | next *WEEK*. ↘",
+        "vi": "Tuần sau một người bạn của tôi sẽ cưới ở Boston.",
+        "tip": "Nối 'one‿of', 'married‿in'. Chia 2 nhóm: nơi chốn và thời gian.",
+        "sid": "8401374",
+        "aid": "732225",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-travel",
+    "level": "B1",
+    "title": "Du lịch",
+    "topic": "travel",
+    "native": true,
+    "sentences": [
+      {
+        "en": "What time does my flight leave?",
+        "marked": "WHAT TIME does my FLIGHT *LEAVE*? ↘",
+        "vi": "Chuyến bay của tôi cất cánh lúc mấy giờ?",
+        "tip": "Câu hỏi Wh- xuống giọng; nhấn 'flight' và 'leave'.",
+        "sid": "10361594",
+        "aid": "918228",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Did you have a nice holiday?",
+        "marked": "Did you have a NICE *HOL*iday? ↗",
+        "vi": "Bạn có kỳ nghỉ vui không?",
+        "tip": "'holiday' /ˈhɑːlədeɪ/ nhấn HOL; lên giọng cuối.",
+        "sid": "10741460",
+        "aid": "1051980",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I have a flight to catch.",
+        "marked": "I have a FLIGHT to *CATCH*. ↘",
+        "vi": "Tôi có một chuyến bay phải đi cho kịp.",
+        "tip": "Nhấn 'flight' và 'catch'; 'to' đọc yếu /tə/.",
+        "sid": "2358717",
+        "aid": "128335",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'd like a hotel near the airport.",
+        "marked": "I'd LIKE a hoTEL near the *AIR*port. ↘",
+        "vi": "Tôi muốn một khách sạn gần sân bay.",
+        "tip": "'I'd like' → /aɪd laɪk/; 'hoTEL' nhấn âm 2; 'AIRport' nhấn âm đầu.",
+        "sid": "10138443",
+        "aid": "869855",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Is there a nonstop flight to Boston?",
+        "marked": "Is there a NONstop FLIGHT to *BOS*ton? ↗",
+        "vi": "Có chuyến bay thẳng đến Boston không?",
+        "tip": "Lên giọng cuối câu hỏi Yes/No; nhấn 'NON' trong 'nonstop'.",
+        "sid": "6661387",
+        "aid": "477072",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Can you recommend a good hotel in Boston?",
+        "marked": "Can you recomMEND a GOOD hoTEL‿in *BOS*ton? ↗",
+        "vi": "Bạn có thể giới thiệu một khách sạn tốt ở Boston không?",
+        "tip": "Nối 'hotel‿in'. 'recommend' nhấn MEND /ˌrekəˈmend/.",
+        "sid": "3024473",
+        "aid": "179916",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "How did you like your trip to Australia?",
+        "marked": "HOW did you LIKE your TRIP to Aus*TRA*lia? ↘",
+        "vi": "Chuyến đi Úc của bạn thế nào?",
+        "tip": "Câu hỏi Wh- xuống giọng; 'Australia' nhấn TRA.",
+        "sid": "65138",
+        "aid": "903771",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "We're looking forward to hearing about your trip.",
+        "marked": "We're LOOKing FORward to HEARing aBOUT your *TRIP*. ↘",
+        "vi": "Chúng tôi mong được nghe về chuyến đi của bạn.",
+        "tip": "'looking forward to' đọc liền mạch, nhấn 'forward' và 'trip'.",
+        "sid": "6874150",
+        "aid": "768527",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-work",
+    "level": "B1",
+    "title": "Công việc",
+    "topic": "work",
+    "native": true,
+    "sentences": [
+      {
+        "en": "Is the post office still open?",
+        "marked": "Is the POST OFfice still *O*pen? ↗",
+        "vi": "Bưu điện còn mở cửa không?",
+        "tip": "'office' nhấn OF; 'still' nhẹ. Lên giọng cuối câu Yes/No.",
+        "sid": "1886896",
+        "aid": "782661",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "The post office is closed today.",
+        "marked": "The POST OFfice is *CLOSED* toDAY. ↘",
+        "vi": "Hôm nay bưu điện đóng cửa.",
+        "tip": "Nhấn 'closed' là thông tin chính; 'today' đọc nhẹ.",
+        "sid": "4262402",
+        "aid": "250052",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Who else was at the meeting?",
+        "marked": "Who ELSE was‿at the *MEET*ing? ↘",
+        "vi": "Còn ai khác dự cuộc họp nữa?",
+        "tip": "Nối 'was‿at'. Câu hỏi Wh- xuống giọng.",
+        "sid": "3325662",
+        "aid": "199702",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "What time is the meeting going to start?",
+        "marked": "WHAT time is the MEETing GOing to *START*? ↘",
+        "vi": "Cuộc họp bắt đầu lúc mấy giờ?",
+        "tip": "Nhấn 'start' cuối câu; 'going to' có thể thành 'gonna'.",
+        "sid": "11819527",
+        "aid": "1114792",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm headed back to the office.",
+        "marked": "I'm HEADed BACK to the *OF*fice. ↘",
+        "vi": "Tôi đang quay lại văn phòng.",
+        "tip": "'headed' /ˈhedɪd/; nhấn 'back' và 'OF' trong 'office'.",
+        "sid": "2542427",
+        "aid": "144500",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "The boss has called a meeting.",
+        "marked": "The BOSS has CALLED a *MEET*ing. ↘",
+        "vi": "Sếp đã triệu tập một cuộc họp.",
+        "tip": "'has' đọc yếu /həz/; 'called a' nối /kɔːldə/.",
+        "sid": "12156240",
+        "aid": "1158426",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "We hold a meeting once a month.",
+        "marked": "We HOLD a MEETing ONCE‿a *MONTH*. ↘",
+        "vi": "Chúng tôi họp mỗi tháng một lần.",
+        "tip": "Nối 'once‿a' → /wʌnsə/. Nhấn 'month'; chú ý âm /nθ/.",
+        "sid": "322356",
+        "aid": "24309",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Excuse me, but could you tell me where the post office is?",
+        "marked": "Ex*CUSE* me, ↗ | but could you TELL me where the POST *OF*fice is? ↘",
+        "vi": "Xin lỗi, bạn có thể cho tôi biết bưu điện ở đâu không?",
+        "tip": "Lời hỏi lịch sự: lên giọng sau 'excuse me,'; câu hỏi gián tiếp xuống giọng.",
+        "sid": "51439",
+        "aid": "949077",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-study",
+    "level": "B1",
+    "title": "Học tập",
+    "topic": "study",
+    "native": true,
+    "sentences": [
+      {
+        "en": "Where can I do my homework?",
+        "marked": "WHERE can I do my *HOME*work? ↘",
+        "vi": "Tôi có thể làm bài tập ở đâu?",
+        "tip": "Câu hỏi Wh- xuống giọng; nhấn HOME trong 'homework'.",
+        "sid": "10576223",
+        "aid": "955380",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Do you sometimes study in the library?",
+        "marked": "Do you SOMEtimes STUdy‿in the *LI*brary? ↗",
+        "vi": "Thỉnh thoảng bạn có học ở thư viện không?",
+        "tip": "Nối 'study‿in'. 'library' nhấn LI /ˈlaɪbreri/.",
+        "sid": "1525189",
+        "aid": "74099",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Could you give me some examples?",
+        "marked": "Could you GIVE me some ex*AM*ples? ↗",
+        "vi": "Bạn có thể cho tôi vài ví dụ không?",
+        "tip": "'examples' nhấn AM /ɪɡˈzæmplz/; lên giọng lịch sự.",
+        "sid": "3824855",
+        "aid": "236482",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm sure you'll pass the exam.",
+        "marked": "I'm SURE you'll PASS the ex*AM*. ↘",
+        "vi": "Tôi chắc là bạn sẽ đậu kỳ thi.",
+        "tip": "'exam' nhấn AM; 'you'll' /juːl/.",
+        "sid": "10741230",
+        "aid": "1020697",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm sorry, I forgot to do my homework.",
+        "marked": "I'm *SOR*ry, ↘ | I forGOT to do my *HOME*work. ↘",
+        "vi": "Xin lỗi, tôi quên làm bài tập.",
+        "tip": "Hai nhóm ý đều xuống giọng; 'forGOT' nhấn âm 2.",
+        "sid": "509618",
+        "aid": "38515",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "What do you want to study in college?",
+        "marked": "WHAT do you WANT to STUdy‿in *COL*lege? ↘",
+        "vi": "Bạn muốn học ngành gì ở đại học?",
+        "tip": "Nối 'study‿in'. Câu hỏi Wh- xuống giọng.",
+        "sid": "9805604",
+        "aid": "1022121",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Why don't you ask your teacher for advice?",
+        "marked": "WHY don't you ASK your TEAcher for ad*VICE*? ↘",
+        "vi": "Sao bạn không hỏi giáo viên xin lời khuyên?",
+        "tip": "'Why don't you' = gợi ý; 'adVICE' nhấn âm 2 (danh từ).",
+        "sid": "272829",
+        "aid": "589543",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "If I were you, I'd study.",
+        "marked": "If I were *YOU*, ↗ | I'd *STU*dy. ↘",
+        "vi": "Nếu tôi là bạn, tôi sẽ học bài.",
+        "tip": "Mệnh đề 'if' lên giọng, mệnh đề chính xuống; 'I'd' = /aɪd/.",
+        "sid": "10614807",
+        "aid": "978643",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-health",
+    "level": "B1",
+    "title": "Sức khỏe",
+    "topic": "health",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I'm too sleepy to do that.",
+        "marked": "I'm too *SLEEP*y to do THAT. ↘",
+        "vi": "Tôi buồn ngủ quá, không làm việc đó được.",
+        "tip": "Nhấn SLEEP; 'too' kéo dài nhẹ để nhấn mạnh.",
+        "sid": "6267566",
+        "aid": "598651",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Can you recommend a good doctor?",
+        "marked": "Can you recomMEND a GOOD *DOC*tor? ↗",
+        "vi": "Bạn giới thiệu giúp một bác sĩ giỏi được không?",
+        "tip": "'recommend' nhấn MEND; 'doctor' nhấn DOC.",
+        "sid": "5536618",
+        "aid": "293612",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I've had a headache since yesterday.",
+        "marked": "I've had a HEADache since *YES*terday. ↘",
+        "vi": "Tôi bị đau đầu từ hôm qua.",
+        "tip": "'headache' /ˈhedeɪk/ nhấn HEAD. 'I've had a' nối nhanh.",
+        "sid": "2267248",
+        "aid": "347973",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I had a bad headache last night.",
+        "marked": "I had a BAD HEADache last *NIGHT*. ↘",
+        "vi": "Đêm qua tôi bị đau đầu dữ dội.",
+        "tip": "'had a' nối /hædə/. Nhấn 'bad', 'head', 'night'.",
+        "sid": "6663855",
+        "aid": "686986",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I couldn't sleep at all last night.",
+        "marked": "I couldn't *SLEEP*‿at all ↗ | last *NIGHT*. ↘",
+        "vi": "Đêm qua tôi hoàn toàn không ngủ được.",
+        "tip": "Nối 'sleep‿at'. 'couldn't' /ˈkʊdnt/; chia 2 nhóm.",
+        "sid": "2308275",
+        "aid": "125432",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Take this medicine and you'll feel better soon.",
+        "marked": "Take this *MED*icine ↗ | and you'll feel BETter *SOON*. ↘",
+        "vi": "Uống thuốc này đi là bạn sẽ sớm khỏe hơn.",
+        "tip": "'medicine' /ˈmedsən/ chỉ 2 âm tiết. Lên giọng ở nhóm đầu, xuống ở 'soon'.",
+        "sid": "4384250",
+        "aid": "1116245",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "My doctor told me I should drink more water.",
+        "marked": "My *DOC*tor TOLD me ↗ | I should DRINK more *WA*ter. ↘",
+        "vi": "Bác sĩ bảo tôi nên uống nhiều nước hơn.",
+        "tip": "'water' kiểu Mỹ /ˈwɔːɾər/ (t thành âm nhẹ). Chia 2 nhóm ý.",
+        "sid": "12219328",
+        "aid": "1168626",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Shouldn't you go home and get some sleep?",
+        "marked": "SHOULDn't you go *HOME* ↗ | and get some *SLEEP*? ↗",
+        "vi": "Bạn không nên về nhà ngủ một chút sao?",
+        "tip": "Câu hỏi lên giọng; nối 'and get' nhẹ, nhấn 'home' và 'sleep'.",
+        "sid": "10674464",
+        "aid": "1000485",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-technology",
+    "level": "B1",
+    "title": "Công nghệ",
+    "topic": "technology",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I don't have my phone on me.",
+        "marked": "I don't have my *PHONE*‿on me. ↘",
+        "vi": "Tôi không mang điện thoại theo người.",
+        "tip": "Nối 'phone‿on'. 'don't have' đọc liền; nhấn 'phone'.",
+        "sid": "6264980",
+        "aid": "614462",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Do you have a mobile phone with you?",
+        "marked": "Do you have a MObile *PHONE* with you? ↗",
+        "vi": "Bạn có mang điện thoại di động không?",
+        "tip": "'mobile' kiểu Mỹ /ˈmoʊbl/. Lên giọng cuối.",
+        "sid": "10724874",
+        "aid": "1105720",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Don't use your phone while driving.",
+        "marked": "Don't USE your PHONE while *DRIV*ing. ↘",
+        "vi": "Đừng dùng điện thoại khi đang lái xe.",
+        "tip": "Mệnh lệnh: xuống giọng; nhấn 'use', 'phone' và 'driving'.",
+        "sid": "10111319",
+        "aid": "864951",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I want to buy a laptop computer.",
+        "marked": "I WANT to BUY a LAPtop com*PU*ter. ↘",
+        "vi": "Tôi muốn mua một chiếc máy tính xách tay.",
+        "tip": "'computer' nhấn PU /kəmˈpjuːtər/. 'want to' có thể thành 'wanna'.",
+        "sid": "9740960",
+        "aid": "824360",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Did you buy your tickets online?",
+        "marked": "Did you BUY your TICkets *ON*line? ↗",
+        "vi": "Bạn mua vé trực tuyến à?",
+        "tip": "'Did you' → /dɪdʒə/; 'online' nhấn ON; lên giọng cuối.",
+        "sid": "12228542",
+        "aid": "1171041",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "My computer won't start up anymore.",
+        "marked": "My comPUter won't *START* up anyMORE. ↘",
+        "vi": "Máy tính của tôi không khởi động được nữa.",
+        "tip": "'won't' /woʊnt/. 'anyMORE' nhấn âm cuối.",
+        "sid": "2870156",
+        "aid": "168931",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Have you seen my cell phone? I can't find it.",
+        "marked": "Have you seen my CELL *PHONE*? ↗ | I can't *FIND*‿it. ↘",
+        "vi": "Bạn thấy điện thoại của tôi không? Tôi không tìm được.",
+        "tip": "Câu hỏi lên giọng, câu kể xuống giọng. Nối 'find‿it'.",
+        "sid": "9414333",
+        "aid": "798456",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Your wife's on the phone. She says it's urgent.",
+        "marked": "Your WIFE's‿on the *PHONE*. ↘ | She SAYS it's *UR*gent. ↘",
+        "vi": "Vợ bạn đang gọi điện. Cô ấy nói có việc gấp.",
+        "tip": "Nối 'wife's‿on'. 'urgent' nhấn UR /ˈɜːrdʒənt/.",
+        "sid": "3439865",
+        "aid": "350188",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-opinions",
+    "level": "B1",
+    "title": "Nêu ý kiến",
+    "topic": "opinions",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I think I have a cold.",
+        "marked": "I think I have a *COLD*. ↘",
+        "vi": "Tôi nghĩ là tôi bị cảm.",
+        "tip": "'I think' đọc nhanh, nhẹ; nhấn 'cold'.",
+        "sid": "2407766",
+        "aid": "136912",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I think this is very bad news.",
+        "marked": "I THINK this is VEry BAD *NEWS*. ↘",
+        "vi": "Tôi nghĩ đây là một tin rất xấu.",
+        "tip": "Nhấn 'very bad news'; 'news' /nuːz/.",
+        "sid": "5732992",
+        "aid": "1003117",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I don't think this makes sense.",
+        "marked": "I don't THINK this makes *SENSE*. ↘",
+        "vi": "Tôi không nghĩ điều này hợp lý.",
+        "tip": "'don't think' thường nhấn 'THINK'; nhấn mạnh 'sense'.",
+        "sid": "6259087",
+        "aid": "614614",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I think that's the right thing to do.",
+        "marked": "I think that's the RIGHT thing to *DO*. ↘",
+        "vi": "Tôi nghĩ đó là việc nên làm.",
+        "tip": "Nhấn 'right' và 'do'; 'that's the' nối nhanh.",
+        "sid": "2408171",
+        "aid": "137163",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I believe you're telling the truth.",
+        "marked": "I beLIEVE you're TELLing the *TRUTH*. ↘",
+        "vi": "Tôi tin là bạn đang nói thật.",
+        "tip": "'believe' nhấn LIEVE /bɪˈliːv/; 'truth' có /θ/ cuối.",
+        "sid": "11173976",
+        "aid": "1082449",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "In my opinion that isn't a good idea.",
+        "marked": "In my o*PIN*ion ↗ | that isn't a good i*DE*a. ↘",
+        "vi": "Theo ý kiến của tôi đó không phải là ý hay.",
+        "tip": "'opinion' nhấn PIN; 'idea' nhấn DE /aɪˈdiːə/. Chia 2 nhóm.",
+        "sid": "10620742",
+        "aid": "976773",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I think it's still too early to tell.",
+        "marked": "I think it's STILL too *EAR*ly ↗ | to *TELL*. ↘",
+        "vi": "Tôi nghĩ vẫn còn quá sớm để nói.",
+        "tip": "'early' /ˈɜːrli/; chia 2 nhóm ý, nhấn 'tell' ở cuối.",
+        "sid": "7136615",
+        "aid": "885730",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "In that respect, I agree with you completely.",
+        "marked": "In that re*SPECT*, ↗ | I aGREE with you com*PLETE*ly. ↘",
+        "vi": "Về điểm đó, tôi hoàn toàn đồng ý với bạn.",
+        "tip": "Lên giọng sau 'respect,'. 'agree' nhấn GREE; 'completely' nhấn PLETE.",
+        "sid": "44851",
+        "aid": "941745",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-experiences",
+    "level": "B2",
+    "title": "Kể trải nghiệm",
+    "topic": "experiences",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I used to go to the beach every day.",
+        "marked": "I used to GO to the *BEACH* ↗ | EVery *DAY*. ↘",
+        "vi": "Trước đây ngày nào tôi cũng ra biển.",
+        "tip": "'used to' → /juːstə/ (không đọc 'd'). Chia 2 nhóm ý.",
+        "sid": "6529289",
+        "aid": "716323",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "When I was a kid, I played catch with my dad.",
+        "marked": "When I was a *KID*, ↗ | I played CATCH with my *DAD*. ↘",
+        "vi": "Hồi nhỏ tôi hay chơi ném bắt bóng với bố.",
+        "tip": "Lên giọng ở dấu phẩy; 'played' /pleɪd/.",
+        "sid": "9034926",
+        "aid": "967190",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "There was a park here when I was a child.",
+        "marked": "There was a *PARK* here ↗ | when I was a *CHILD*. ↘",
+        "vi": "Hồi tôi còn nhỏ, ở đây có một công viên.",
+        "tip": "'was a' nối /wəzə/. Chia 2 nhóm ý.",
+        "sid": "9803390",
+        "aid": "911462",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I was really cute when I was a kid.",
+        "marked": "I was REAlly *CUTE* ↗ | when I was a *KID*. ↘",
+        "vi": "Hồi nhỏ tôi dễ thương lắm.",
+        "tip": "Nhấn 'really' để nhấn mạnh; 'cute' /kjuːt/.",
+        "sid": "3823236",
+        "aid": "715574",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I don't drink as much beer as I used to.",
+        "marked": "I don't DRINK as much *BEER* ↗ | as I *USED* to. ↘",
+        "vi": "Tôi không uống bia nhiều như trước nữa.",
+        "tip": "'used to' → /juːstə/; 'as ... as' đọc yếu /əz/.",
+        "sid": "6659808",
+        "aid": "617754",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I'm not as patient as I used to be.",
+        "marked": "I'm not as *PA*tient ↗ | as I *USED* to be. ↘",
+        "vi": "Tôi không còn kiên nhẫn như trước.",
+        "tip": "'patient' nhấn PA /ˈpeɪʃnt/; nhấn 'used' ở nhóm sau.",
+        "sid": "8506549",
+        "aid": "742427",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I majored in chemistry when I was in college.",
+        "marked": "I MAjored‿in *CHEM*istry ↗ | when I was‿in *COL*lege. ↘",
+        "vi": "Hồi đại học tôi học chuyên ngành hóa.",
+        "tip": "Nối 'majored‿in', 'was‿in'. 'chemistry' nhấn CHEM /ˈkemɪstri/.",
+        "sid": "6237273",
+        "aid": "1116450",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I started playing the clarinet when I was thirteen years old.",
+        "marked": "I started PLAYing the clari*NET* ↗ | when I was thirTEEN years *OLD*. ↘",
+        "vi": "Tôi bắt đầu chơi kèn clarinet khi mười ba tuổi.",
+        "tip": "'clarinet' nhấn NET; 'thirTEEN' nhấn âm cuối.",
+        "sid": "8208533",
+        "aid": "672517",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-city",
+    "level": "B2",
+    "title": "Thành phố & nông thôn",
+    "topic": "city",
+    "native": true,
+    "sentences": [
+      {
+        "en": "There's a park in the middle of the city.",
+        "marked": "There's a PARK‿in the MIDdle‿of the *CI*ty. ↘",
+        "vi": "Có một công viên ở giữa thành phố.",
+        "tip": "Nối 'park‿in', 'middle‿of'. Nhấn 'city' cuối.",
+        "sid": "10324526",
+        "aid": "909663",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I was born and raised in a small village.",
+        "marked": "I was BORN‿and RAISED‿in a SMALL *VIL*lage. ↘",
+        "vi": "Tôi sinh ra và lớn lên ở một ngôi làng nhỏ.",
+        "tip": "Nối 'born‿and', 'raised‿in'. Nhấn 'small village'.",
+        "sid": "10546956",
+        "aid": "944088",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Which part of the city do you live in?",
+        "marked": "WHICH PART‿of the CIty do you *LIVE* in? ↘",
+        "vi": "Bạn sống ở khu nào của thành phố?",
+        "tip": "Nối 'part‿of'. Nhấn 'live' rồi 'in' yếu.",
+        "sid": "11137981",
+        "aid": "1074435",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "What part of the city is your hotel in?",
+        "marked": "What PART‿of the CIty is your ho*TEL* in? ↘",
+        "vi": "Khách sạn của bạn ở khu nào của thành phố?",
+        "tip": "'hoTEL' nhấn âm 2; giới từ 'in' cuối câu đọc yếu.",
+        "sid": "9061585",
+        "aid": "863782",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Go to the second traffic light, and turn left.",
+        "marked": "GO to the SEcond TRAFfic *LIGHT*, ↗ | and turn *LEFT*. ↘",
+        "vi": "Đi đến đèn giao thông thứ hai rồi rẽ trái.",
+        "tip": "Lên giọng ở dấu phẩy. Chỉ đường nhấn 'light' và 'left'.",
+        "sid": "7781438",
+        "aid": "578646",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I've finally gotten used to living in the city.",
+        "marked": "I've FInally GOTten USED to LIVing‿in the *CI*ty. ↘",
+        "vi": "Cuối cùng tôi cũng quen với cuộc sống ở thành phố.",
+        "tip": "'used to' ở đây là 'quen với' /juːst tə/. Nối 'living‿in'.",
+        "sid": "9635060",
+        "aid": "815453",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Boston is the most interesting city I've ever visited.",
+        "marked": "BOSton is the most *IN*teresting CIty ↗ | I've EVer *VI*sited. ↘",
+        "vi": "Boston là thành phố thú vị nhất tôi từng đến.",
+        "tip": "'interesting' đọc 3 âm tiết /ˈɪntrəstɪŋ/. Chia 2 nhóm ý.",
+        "sid": "6656214",
+        "aid": "909585",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I don't think that I'm cut out for city life.",
+        "marked": "I don't THINK that I'm CUT‿out for CIty *LIFE*. ↘",
+        "vi": "Tôi không nghĩ mình hợp với cuộc sống thành phố.",
+        "tip": "Nối 'cut‿out'; 'cut out for' = hợp với. Nhấn 'life'.",
+        "sid": "7231073",
+        "aid": "767208",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-environment",
+    "level": "B2",
+    "title": "Môi trường",
+    "topic": "environment",
+    "native": true,
+    "sentences": [
+      {
+        "en": "You seem to be very full of energy today.",
+        "marked": "You seem to be VEry FULL‿of *EN*ergy toDAY. ↘",
+        "vi": "Hôm nay bạn trông tràn đầy năng lượng.",
+        "tip": "Nối 'full‿of'. 'energy' nhấn EN /ˈenərdʒi/.",
+        "sid": "6241267",
+        "aid": "754538",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "What do you want to know about climate change?",
+        "marked": "WHAT do you WANT to KNOW aBOUT CLImate *CHANGE*? ↘",
+        "vi": "Bạn muốn biết gì về biến đổi khí hậu?",
+        "tip": "Danh từ ghép: nhấn 'change'. Câu hỏi Wh- xuống giọng.",
+        "sid": "12229513",
+        "aid": "1171082",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Why have we let air pollution get so bad?",
+        "marked": "WHY have we let AIR polLUtion get so *BAD*? ↘",
+        "vi": "Tại sao chúng ta để ô nhiễm không khí tệ đến vậy?",
+        "tip": "'pollution' nhấn LU /pəˈluːʃn/. Nhấn 'bad' cuối.",
+        "sid": "7989188",
+        "aid": "623971",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Air pollution is a big issue in that country.",
+        "marked": "AIR polLUtion is a BIG ISsue‿in that *COUN*try. ↘",
+        "vi": "Ô nhiễm không khí là vấn đề lớn ở nước đó.",
+        "tip": "Nối 'issue‿in'. 'country' nhấn COUN.",
+        "sid": "9360340",
+        "aid": "803151",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Wind is a cheap and clean source of energy.",
+        "marked": "WIND is a CHEAP‿and *CLEAN* ↗ | source‿of *EN*ergy. ↘",
+        "vi": "Gió là nguồn năng lượng rẻ và sạch.",
+        "tip": "Nối 'cheap‿and', 'source‿of'. Chia 2 nhóm ý.",
+        "sid": "682444",
+        "aid": "43016",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "What kind of things can people do to help reduce pollution?",
+        "marked": "WHAT KIND‿of things can *PEO*ple do ↗ | to help reDUCE pol*LU*tion? ↘",
+        "vi": "Mọi người có thể làm gì để giảm ô nhiễm?",
+        "tip": "Nối 'kind‿of'. 'reduce' nhấn DUCE; chia 2 nhóm.",
+        "sid": "8593010",
+        "aid": "723111",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Everybody will have to pitch in to save the environment.",
+        "marked": "EVerybody will have to *PITCH*‿in ↗ | to SAVE the en*VI*ronment. ↘",
+        "vi": "Mọi người đều phải góp sức để bảo vệ môi trường.",
+        "tip": "'pitch in' = góp sức, nối 'pitch‿in'. 'environment' nhấn VI.",
+        "sid": "21019",
+        "aid": "663150",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "We ought to do our best not to pollute our environment.",
+        "marked": "We ought to do our *BEST* ↗ | not to pol*LUTE*‿our enVIronment. ↘",
+        "vi": "Chúng ta nên cố gắng hết sức để không làm ô nhiễm môi trường.",
+        "tip": "'ought to' → /ˈɔːtə/. Nối 'pollute‿our'.",
+        "sid": "21021",
+        "aid": "1192613",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-society",
+    "level": "B2",
+    "title": "Xã hội",
+    "topic": "society",
+    "native": true,
+    "sentences": [
+      {
+        "en": "Were there a lot of people in the library?",
+        "marked": "Were there a LOT‿of PEOple‿in the *LI*brary? ↗",
+        "vi": "Trong thư viện có nhiều người không?",
+        "tip": "Nối 'lot‿of', 'people‿in'. Lên giọng cuối.",
+        "sid": "12348091",
+        "aid": "1188205",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "How many people were on the bus with you?",
+        "marked": "HOW MAny PEOple were‿on the *BUS* with you? ↘",
+        "vi": "Có bao nhiêu người trên xe buýt cùng bạn?",
+        "tip": "Nối 'were‿on'. Câu hỏi Wh- xuống giọng.",
+        "sid": "9781146",
+        "aid": "913018",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "How many people have a key to this room?",
+        "marked": "HOW many PEOple have a KEY to this *ROOM*? ↘",
+        "vi": "Có bao nhiêu người có chìa khóa phòng này?",
+        "tip": "'people' /ˈpiːpl/. Nhấn 'key' và 'room'.",
+        "sid": "9414481",
+        "aid": "957628",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "We must try to be kind to other people.",
+        "marked": "We must TRY to be KIND to OTHer *PEO*ple. ↘",
+        "vi": "Chúng ta phải cố gắng tử tế với người khác.",
+        "tip": "'other' /ˈʌðər/ (th hữu thanh). Nhấn 'kind' và 'people'.",
+        "sid": "249014",
+        "aid": "1024435",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I don't like it when people talk about me.",
+        "marked": "I don't LIKE‿it when PEOple TALK about *ME*. ↘",
+        "vi": "Tôi không thích khi người ta nói về tôi.",
+        "tip": "Nối 'like‿it'. Nhấn 'me' để nhấn mạnh người bị nói đến.",
+        "sid": "7735000",
+        "aid": "570545",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "It's important to help people who are in trouble.",
+        "marked": "It's imPORtant to HELP *PEO*ple ↗ | who are‿in *TROU*ble. ↘",
+        "vi": "Giúp đỡ những người đang gặp khó khăn là điều quan trọng.",
+        "tip": "'important' nhấn POR; nối 'are‿in'. Chia 2 nhóm ý.",
+        "sid": "243476",
+        "aid": "341632",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "People change. There's not much you can do about it.",
+        "marked": "PEOple *CHANGE*. ↘ | There's not MUCH you can *DO* aBOUT‿it. ↘",
+        "vi": "Con người thay đổi. Mình cũng chẳng làm gì được.",
+        "tip": "Hai câu tách nhóm; nối 'about‿it'.",
+        "sid": "1987988",
+        "aid": "911704",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Don't believe people who claim that they know everything.",
+        "marked": "Don't be*LIEVE* people ↗ | who CLAIM that they know *EV*erything. ↘",
+        "vi": "Đừng tin những người nói rằng họ biết mọi thứ.",
+        "tip": "'believe' nhấn LIEVE; 'claim' /kleɪm/. Chia 2 nhóm.",
+        "sid": "1406996",
+        "aid": "71602",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-persuade",
+    "level": "B2",
+    "title": "Thuyết phục & đề xuất",
+    "topic": "persuade",
+    "native": true,
+    "sentences": [
+      {
+        "en": "Why don't you put on a pair of socks?",
+        "marked": "WHY don't you PUT‿on a PAIR‿of *SOCKS*? ↘",
+        "vi": "Sao bạn không mang một đôi tất vào?",
+        "tip": "Nối 'put‿on', 'pair‿of'. Gợi ý nhẹ nhàng, xuống giọng.",
+        "sid": "11040479",
+        "aid": "1058441",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Why don't you wait for just a while longer?",
+        "marked": "WHY don't you *WAIT* for just a while LONger? ↘",
+        "vi": "Sao bạn không đợi thêm một chút nữa?",
+        "tip": "'Why don't you' là gợi ý; nhấn 'wait'. 'longer' /ˈlɔːŋɡər/.",
+        "sid": "8544429",
+        "aid": "726229",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Why don't you come over to my place sometime?",
+        "marked": "WHY don't you COME Over to my *PLACE* SOMEtime? ↘",
+        "vi": "Sao bạn không ghé nhà tôi chơi một lúc nào đó?",
+        "tip": "Gợi ý thân mật; 'come over' liền nhau. Nhấn 'place'.",
+        "sid": "3165939",
+        "aid": "187226",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "You should start your day off with a good breakfast.",
+        "marked": "You should START your DAY off with a GOOD *BREAK*fast. ↘",
+        "vi": "Bạn nên bắt đầu ngày mới bằng một bữa sáng đầy đủ.",
+        "tip": "'should' đọc yếu /ʃʊd/; nhấn 'start', 'day' và 'breakfast'.",
+        "sid": "7111805",
+        "aid": "779274",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "If it's that bad, you should see a doctor.",
+        "marked": "If it's that *BAD*, ↗ | you should SEE a *DOC*tor. ↘",
+        "vi": "Nếu tệ đến thế thì bạn nên đi khám bác sĩ.",
+        "tip": "Lên giọng ở dấu phẩy; 'should see a' đọc liền.",
+        "sid": "11920840",
+        "aid": "1132484",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I suggest you find a new line of work.",
+        "marked": "I sugGEST you find a NEW LINE‿of *WORK*. ↘",
+        "vi": "Tôi đề nghị bạn tìm một công việc mới.",
+        "tip": "'suggest' nhấn GEST /səˈdʒest/. Nối 'line‿of' → /laɪnəv/.",
+        "sid": "3127847",
+        "aid": "183005",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Why don't you try it? Maybe you'll like it.",
+        "marked": "WHY don't you *TRY* it? ↗ | MAYbe you'll *LIKE*‿it. ↘",
+        "vi": "Sao bạn không thử đi? Biết đâu bạn sẽ thích.",
+        "tip": "Câu đầu lên giọng, câu sau xuống. Nối 'like‿it'.",
+        "sid": "5810682",
+        "aid": "623346",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "You should change out of those wet clothes and put on something dry.",
+        "marked": "You should CHANGE‿out‿of those WET *CLOTHES* ↗ | and put‿on SOMEthing *DRY*. ↘",
+        "vi": "Bạn nên thay bộ đồ ướt ra và mặc đồ khô vào.",
+        "tip": "Nối 'change‿out‿of', 'put‿on'. Chia 2 nhóm: bỏ cái gì, mặc cái gì.",
+        "sid": "9819365",
+        "aid": "879696",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-education",
+    "level": "C1",
+    "title": "Giáo dục",
+    "topic": "education",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I have fewer students in my class this year than last year.",
+        "marked": "I have FEWer *STU*dents‿in my class ↗ | this year than last *YEAR*. ↘",
+        "vi": "Năm nay lớp tôi có ít học sinh hơn năm ngoái.",
+        "tip": "'students' nhấn STU. Nối 'students‿in'. Chia 2 nhóm.",
+        "sid": "545288",
+        "aid": "344907",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I have three sisters. One is a nurse, and the other two are students.",
+        "marked": "I have three *SIS*ters. ↘ | One‿is a *NURSE*, ↗ | and the OTHer two are *STU*dents. ↘",
+        "vi": "Tôi có ba chị em gái. Một người là y tá, hai người kia là sinh viên.",
+        "tip": "Liệt kê: lên giọng ở ý chưa hết, xuống giọng ở ý cuối. Nối 'one‿is'.",
+        "sid": "10999702",
+        "aid": "1053314",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "What's the point of knowledge if you can't share it with others?",
+        "marked": "WHAT's the *POINT*‿of KNOWledge ↗ | if you can't *SHARE*‿it with OTHers? ↘",
+        "vi": "Kiến thức mà không chia sẻ được với người khác thì có ích gì?",
+        "tip": "Nối 'point‿of', 'share‿it'. 'knowledge' /ˈnɑːlɪdʒ/.",
+        "sid": "9866726",
+        "aid": "1105934",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "It's important for the students to know what to expect on the exam.",
+        "marked": "It's imPORtant for the *STU*dents to know ↗ | what to exPECT‿on the ex*AM*. ↘",
+        "vi": "Học sinh cần biết kỳ thi sẽ như thế nào.",
+        "tip": "'important' nhấn POR; 'expect' nhấn PECT; nối 'expect‿on'.",
+        "sid": "7833470",
+        "aid": "602313",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Not very many students could answer the questions that the teacher asked.",
+        "marked": "Not very many *STU*dents could ANswer the QUEStions ↗ | that the TEAcher *ASKED*. ↘",
+        "vi": "Không có nhiều học sinh trả lời được các câu hỏi giáo viên đặt ra.",
+        "tip": "'questions' nhấn QUES /ˈkwestʃənz/; 'asked' /æskt/ cụm phụ âm cuối.",
+        "sid": "8378403",
+        "aid": "873113",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "As soon as I entered the classroom, the students started asking questions.",
+        "marked": "As SOON‿as I ENtered the *CLASS*room, ↗ | the STUdents STARted ASKing *QUES*tions. ↘",
+        "vi": "Vừa bước vào lớp là học sinh bắt đầu hỏi.",
+        "tip": "Nối 'soon‿as'. Lên giọng ở dấu phẩy rồi xuống ở 'questions'.",
+        "sid": "9023549",
+        "aid": "770693",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Part of a teacher's job is to prepare students for the future.",
+        "marked": "PART‿of a *TEA*cher's job ↗ | is to prePARE STUdents for the *FU*ture. ↘",
+        "vi": "Một phần công việc của giáo viên là chuẩn bị cho học sinh bước vào tương lai.",
+        "tip": "Nối 'part‿of'. 'prepare' nhấn PARE; 'future' nhấn FU /ˈfjuːtʃər/.",
+        "sid": "8569364",
+        "aid": "718888",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Although teachers give a lot of advice, students don't always take it.",
+        "marked": "alTHOUGH teachers give a LOT‿of ad*VICE*, ↗ | STUdents don't ALways *TAKE*‿it. ↘",
+        "vi": "Giáo viên khuyên nhiều nhưng học sinh không phải lúc nào cũng nghe theo.",
+        "tip": "'although' nhấn THOUGH; 'advice' nhấn VICE; lên giọng ở dấu phẩy.",
+        "sid": "19064",
+        "aid": "1137176",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-science",
+    "level": "C1",
+    "title": "Khoa học",
+    "topic": "science",
+    "native": true,
+    "sentences": [
+      {
+        "en": "Now that I am well again, I want to study space science in college.",
+        "marked": "Now that I am *WELL* aGAIN, ↗ | I WANT to STUdy SPACE *SCI*ence‿in COLlege. ↘",
+        "vi": "Giờ khỏe lại rồi, tôi muốn học khoa học vũ trụ ở đại học.",
+        "tip": "'science' /ˈsaɪəns/; nối 'science‿in'. Chia 2 nhóm.",
+        "sid": "255645",
+        "aid": "1073679",
+        "author": "Auride",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "en": "I discovered too late that I left out the most important part of my speech.",
+        "marked": "I disCOVered too *LATE* ↗ | that I LEFT OUT the most imPORtant part‿of my *SPEECH*. ↘",
+        "vi": "Tôi phát hiện quá muộn là mình đã bỏ sót phần quan trọng nhất trong bài nói.",
+        "tip": "'discovered' nhấn COV; 'left out' nhấn cả hai. Nối 'part‿of'.",
+        "sid": "258261",
+        "aid": "1004949",
+        "author": "Auride",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "en": "How about doing a bit of research on your own before asking for help?",
+        "marked": "How aBOUT DOing a bit‿of *RE*search‿on your own ↗ | before ASKing for *HELP*? ↘",
+        "vi": "Sao bạn không tự tìm hiểu một chút trước khi nhờ giúp?",
+        "tip": "Nối 'bit‿of', 'research‿on'. 'How about' là gợi ý.",
+        "sid": "5516210",
+        "aid": "856915",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "How much time did you spend doing research before you started writing?",
+        "marked": "How much *TIME* did you SPEND DOing REsearch ↗ | beFORE you started *WRI*ting? ↘",
+        "vi": "Bạn đã dành bao nhiêu thời gian nghiên cứu trước khi bắt đầu viết?",
+        "tip": "'research' nhấn RE hoặc SEARCH đều được; 'before' nhấn FORE.",
+        "sid": "909522",
+        "aid": "48168",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "A pet theory of mine is that things should be seen from a distance.",
+        "marked": "A PET THEory‿of *MINE* ↗ | is that THINGS should be SEEN from a *DIS*tance. ↘",
+        "vi": "Một giả thuyết riêng của tôi là mọi thứ nên được nhìn từ xa.",
+        "tip": "'theory' /ˈθɪri/; nối 'theory‿of'. 'distance' nhấn DIS.",
+        "sid": "251006",
+        "aid": "1073629",
+        "author": "Auride",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "en": "If we knew what we were doing, it wouldn't be called research, would it?",
+        "marked": "If we *KNEW* what we were DOing, ↗ | it wouldn't be called re*SEARCH*, ↗ | *WOULD*‿it? ↗",
+        "vi": "Nếu biết mình đang làm gì thì đã không gọi là nghiên cứu, đúng không?",
+        "tip": "Câu hỏi đuôi 'would it?' lên giọng; 'research' nhấn SEARCH.",
+        "sid": "2291",
+        "aid": "1158631",
+        "author": "Them",
+        "license": "CC BY 4.0"
+      },
+      {
+        "en": "Albert Einstein's theory of relativity is the most famous formula in the world.",
+        "marked": "ALbert *EIN*stein's THEory‿of relaTIvity ↗ | is the most FAmous FORmula‿in the *WORLD*. ↘",
+        "vi": "Thuyết tương đối của Albert Einstein là công thức nổi tiếng nhất thế giới.",
+        "tip": "'Einstein' /ˈaɪnstaɪn/; 'relativity' nhấn TIV. Nối 'theory‿of', 'formula‿in'.",
+        "sid": "682169",
+        "aid": "869909",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "In theory, there is no difference between theory and practice. But, in practice, there is.",
+        "marked": "In *THEO*ry, ↗ | there is no DIFference be*TWEEN* THEory‿and PRACtice. ↘ | But, in *PRAC*tice, ↗ | there *IS*. ↘",
+        "vi": "Về lý thuyết thì lý thuyết và thực hành không khác nhau, nhưng trong thực tế thì có.",
+        "tip": "Đối lập 'theory' và 'practice'; 'there IS' nhấn mạnh cuối. Nối 'theory‿and'.",
+        "sid": "1854",
+        "aid": "907094",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  },
+  {
+    "id": "nsh-economy",
+    "level": "C1",
+    "title": "Kinh tế",
+    "topic": "economy",
+    "native": true,
+    "sentences": [
+      {
+        "en": "I don't have any money and I don't have any friends either.",
+        "marked": "I don't have ANy *MO*ney ↗ | and I don't have ANy FRIENDS *EI*ther. ↘",
+        "vi": "Tôi không có tiền và cũng chẳng có bạn bè.",
+        "tip": "'either' /ˈiːðər/ nhấn EI. Chia 2 nhóm ý.",
+        "sid": "785559",
+        "aid": "45196",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I don't have enough money to buy everything I want to buy.",
+        "marked": "I don't have eNOUGH *MO*ney ↗ | to BUY EVerything I want to *BUY*. ↘",
+        "vi": "Tôi không đủ tiền để mua mọi thứ tôi muốn.",
+        "tip": "'enough' nhấn NOUGH /ɪˈnʌf/; 'want to' có thể thành 'wanna'.",
+        "sid": "10306389",
+        "aid": "907470",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "You don't need a lot of money to live a comfortable life.",
+        "marked": "You don't *NEED* a LOT‿of MOney ↗ | to LIVE‿a COMfortable *LIFE*. ↘",
+        "vi": "Bạn không cần nhiều tiền để sống thoải mái.",
+        "tip": "Nối 'lot‿of', 'live‿a'. 'comfortable' /ˈkʌmftərbl/.",
+        "sid": "5953398",
+        "aid": "1108216",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "I want to give you some money to help you through these hard times.",
+        "marked": "I WANT to GIVE you some *MO*ney ↗ | to HELP you through these HARD *TIMES*. ↘",
+        "vi": "Tôi muốn cho bạn ít tiền để giúp bạn vượt qua thời gian khó khăn.",
+        "tip": "'through' /θruː/; nhấn 'hard times'. Chia 2 nhóm.",
+        "sid": "2042845",
+        "aid": "98219",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Do you have any idea how much money you spend a month on food?",
+        "marked": "Do you have ANy i*DE*a ↗ | how MUCH MOney you spend‿a MONTH‿on *FOOD*? ↘",
+        "vi": "Bạn có biết mỗi tháng mình tiêu bao nhiêu tiền cho đồ ăn không?",
+        "tip": "Nối 'spend‿a', 'month‿on'. 'idea' nhấn DE.",
+        "sid": "9811231",
+        "aid": "859961",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "How long did it take you to save up enough money to buy a house?",
+        "marked": "How *LONG* did‿it TAKE you to save‿up eNOUGH MOney ↗ | to buy a *HOUSE*? ↘",
+        "vi": "Bạn mất bao lâu để để dành đủ tiền mua nhà?",
+        "tip": "Nối 'did‿it', 'save‿up'. Chia 2 nhóm; nhấn 'long' và 'house'.",
+        "sid": "8341308",
+        "aid": "773657",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "Doing it this way will save a lot of money in the long run.",
+        "marked": "DOing it this *WAY* ↗ | will SAVE‿a LOT‿of MOney in the long *RUN*. ↘",
+        "vi": "Làm theo cách này sẽ tiết kiệm được nhiều tiền về lâu dài.",
+        "tip": "Nối 'save‿a', 'lot‿of'. 'in the long run' = về lâu dài.",
+        "sid": "10545652",
+        "aid": "943610",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      },
+      {
+        "en": "This nation's economy has been growing at a rapid pace in recent years.",
+        "marked": "This NAtion's e*CON*omy ↗ | has been GROWing‿at a RApid *PACE* ↗ | in REcent *YEARS*. ↘",
+        "vi": "Nền kinh tế nước này những năm gần đây tăng trưởng nhanh.",
+        "tip": "'economy' nhấn CON /ɪˈkɑːnəmi/. Nối 'growing‿at'. Ba nhóm ý.",
+        "sid": "10546793",
+        "aid": "943690",
+        "author": "CK",
+        "license": "CC BY-NC-ND 3.0"
+      }
+    ]
+  }
+]

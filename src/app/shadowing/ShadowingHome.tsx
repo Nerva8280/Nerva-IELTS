@@ -36,7 +36,13 @@ export default function ShadowingHome({ catalog }: { catalog: Catalog }) {
         </ol>
       </div>
 
-      <ItemList catalog={catalog} kind="shadowing" s={s} />
+      <h2 className="h2 mb-1">🗣️ Giọng người bản xứ</h2>
+      <p className="muted mb-3">Câu do người Mỹ bản xứ đọc (Tatoeba). Nên ưu tiên luyện các bài này để bắt chước ngữ điệu tự nhiên.</p>
+      <ItemList catalog={{ ...catalog, shadowing: catalog.shadowing.filter((x) => x.id.startsWith("nsh-")) }} kind="shadowing" s={s} />
+
+      <h2 className="h2 mb-1 mt-8">🤖 Giọng AI (Anh & Mỹ, 4 giọng)</h2>
+      <p className="muted mb-3">Câu mẫu theo chủ đề IELTS, đọc bằng giọng AI: rõ nhưng ngữ điệu chưa tự nhiên bằng người thật.</p>
+      <ItemList catalog={{ ...catalog, shadowing: catalog.shadowing.filter((x) => !x.id.startsWith("nsh-")) }} kind="shadowing" s={s} />
 
       <h2 className="h2 mb-2 mt-6">Tự nhập đoạn văn để shadowing</h2>
       {customSet ? (

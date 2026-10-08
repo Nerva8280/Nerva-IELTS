@@ -2,8 +2,42 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Level } from "@/content/types";
-import { humanAudio, playUrl, speak, speakVocab, speakWord, stopSpeaking, wordVoiceOk } from "@/lib/tts";
+import { humanAudio, playNative, playUrl, speak, speakVocab, speakWord, stopSpeaking, wordVoiceOk } from "@/lib/tts";
 import { MAIN_VOICES, VOICES, WORD_VOICE, type VoiceId } from "@/lib/audio-key";
+
+/** Plays a native recording; shows the speaker credit the licence asks for. */
+export function NativeButton({ aid, rate, label = "Người bản xứ" }: { aid: string; rate?: number; label?: string }) {
+  const [on, setOn] = useState(false);
+  useEffect(() => () => stopSpeaking(), []);
+  return (
+    <button
+      type="button"
+      className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-sm font-medium text-emerald-700 hover:bg-emerald-100"
+      onClick={async (e) => {
+        e.stopPropagation();
+        if (on) return (stopSpeaking(), setOn(false));
+        setOn(true);
+        await playNative(aid, rate);
+        setOn(false);
+      }}
+      aria-label="Nghe giọng người bản xứ"
+    >
+      {on ? "⏹" : "🔊"} {label}
+    </button>
+  );
+}
+
+export function Credit({ author, license }: { author: string; license: string }) {
+  return (
+    <span className="text-[11px] text-slate-400">
+      Giọng: {author} ·{" "}
+      <a href="https://tatoeba.org" target="_blank" rel="noreferrer" className="underline">
+        Tatoeba
+      </a>{" "}
+      · {license}
+    </span>
+  );
+}
 
 export function PageHeader({ title, back, right }: { title: string; back?: string; right?: React.ReactNode }) {
   return (
@@ -103,16 +137,16 @@ export function WordVoices({ word }: { word: string }) {
     `rounded-full px-2.5 py-1 text-xs font-semibold transition ${playing === key ? "bg-indigo-600 text-white" : "bg-indigo-50 text-indigo-700 hover:bg-indigo-100"}`;
   return (
     <div className="flex flex-wrap justify-center gap-1.5">
-      {voices.map((v) => (
-        <button key={v} className={btn(v)} onClick={(e) => (e.stopPropagation(), run(v, () => speak(word, { voice: v })))}>
-          {VOICES[v].label}
-        </button>
-      ))}
       {human && (
         <button className={btn("human")} onClick={(e) => (e.stopPropagation(), run("human", () => playUrl(human)))} title="Bản ghi giọng người thật (Wiktionary)">
           🧑 Người thật
         </button>
       )}
+      {voices.map((v) => (
+        <button key={v} className={btn(v)} onClick={(e) => (e.stopPropagation(), run(v, () => speak(word, { voice: v })))}>
+          {VOICES[v].label}
+        </button>
+      ))}
       <button className={btn("slow")} onClick={(e) => (e.stopPropagation(), run("slow", () => speakVocab(word, { rate: 0.65 })))}>
         🐢 Chậm
       </button>

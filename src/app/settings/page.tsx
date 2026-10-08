@@ -326,6 +326,20 @@ export default function SettingsPage() {
         </div>
       </Section>
 
+      <Section title="Nguồn âm thanh">
+        <ul className="list-disc space-y-1 pl-5 text-sm text-slate-600">
+          <li>
+            Giọng người bản xứ (câu ví dụ, shadowing): bản ghi từ{" "}
+            <a className="underline" href="https://tatoeba.org" target="_blank" rel="noreferrer">
+              Tatoeba
+            </a>
+            , chủ yếu của người đọc CK (giấy phép CC BY-NC-ND 3.0) và một số người đọc khác (CC BY / CC BY-SA / CC BY-NC). Dùng cho học tập cá nhân, không chỉnh sửa bản ghi.
+          </li>
+          <li>Phát âm từ đơn giọng người thật: Wiktionary / Wikimedia Commons (qua dictionaryapi.dev).</li>
+          <li>Giọng AI: mô hình Kokoro-82M (Apache 2.0).</li>
+        </ul>
+      </Section>
+
       <Section title="Dữ liệu">
         <div className="flex flex-wrap gap-2">
           <button className="btn-ghost" onClick={exportData}>

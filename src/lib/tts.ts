@@ -183,9 +183,25 @@ export async function bestWordVoice(word: string, order = WORD_VOICE_ORDER): Pro
 export async function speakVocab(word: string, opts: SpeakOpts = {}) {
   stopSpeaking();
   const my = token;
+  // a real person first (Wiktionary / Wikimedia Commons recordings), the AI voice otherwise
+  const h = await humanAudio(word);
+  const human = getState().settings.accent === "en-US" ? (h.us ?? h.uk ?? h.other) : (h.uk ?? h.us ?? h.other);
+  if (my !== token) return;
+  if (human) {
+    const r = await playUrl(human, (opts.rate ?? 1) * getState().settings.rate);
+    if (r !== "error" || my !== token) return;
+  }
   const voice = await bestWordVoice(word);
   if (my !== token) return;
   return speak(word, { voice, ...opts });
+}
+
+export const nativeUrl = (aid: string) => `/audio/native/${aid}.mp3`;
+
+/** Plays a native-speaker recording (Tatoeba), at the learner rate. */
+export function playNative(aid: string, rate = 1) {
+  stopSpeaking();
+  return playUrl(nativeUrl(aid), rate * getState().settings.rate);
 }
 
 // Word files that QA found misread, per voice; their buttons are hidden (public/audio/hidden.json).

@@ -1,14 +1,17 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { getState } from "@/lib/store";
-import { speak, stopSpeaking } from "@/lib/tts";
+import { playNative, speak, stopSpeaking } from "@/lib/tts";
 import { compareWords, listen, recognitionSupported } from "@/lib/speech";
-import { IntonationLegend, IntonationText, ProgressBar, useRecorder } from "./ui";
+import { Credit, IntonationLegend, IntonationText, ProgressBar, useRecorder } from "./ui";
 import { MAIN_VOICES, VOICES, type VoiceId } from "@/lib/audio-key";
 
 export interface ShadowSentence {
   en: string;
   marked?: string; // intonation marks, see IntonationText
+  aid?: string; // native recording (Tatoeba) — played instead of the AI voice
+  author?: string;
+  license?: string;
   vi?: string;
   tip?: string;
 }
@@ -52,11 +55,14 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
     setI(Math.max(0, Math.min(sentences.length - 1, n)));
   }
 
+  const allNative = sentences.every((x) => x.aid);
+  const say = (x: ShadowSentence) => (x.aid ? playNative(x.aid, rate) : speak(x.en, { rate, voice }));
+
   async function play(times = 1) {
     const my = ++run.current;
     setPlaying(true);
     for (let k = 0; k < times && run.current === my; k++) {
-      await speak(s.en, { rate, voice });
+      await say(s);
       if (k < times - 1) await sleep(pauseFor(s.en, rate));
     }
     if (run.current === my) setPlaying(false);
@@ -71,7 +77,7 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
       setI(k);
       setResult(null);
       for (let rep = 0; rep < 2 && run.current === my; rep++) {
-        await speak(sentences[k].en, { rate, voice });
+        await say(sentences[k]);
         await sleep(pauseFor(sentences[k].en, rate));
       }
     }
@@ -118,7 +124,9 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
       </div>
       <ProgressBar value={(i + 1) / sentences.length} className="mb-3" />
       <div className="mb-3 flex gap-1">
-        {MAIN_VOICES.map((v) => (
+        {allNative ? (
+          <div className="flex-1 rounded-lg bg-emerald-50 py-1.5 text-center text-xs font-semibold text-emerald-700">🗣️ Giọng người bản xứ thật (Mỹ)</div>
+        ) : MAIN_VOICES.map((v) => (
           <button
             key={v}
             onClick={() => setVoice(v)}
@@ -156,6 +164,11 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
         )}
         {showVi && s.vi && <p className="mt-2 text-slate-500">{s.vi}</p>}
         {s.tip && <p className="mt-3 rounded-xl bg-amber-50 p-2.5 text-sm text-amber-800">💡 {s.tip}</p>}
+        {s.aid && s.author && s.license && (
+          <div className="mt-2">
+            <Credit author={s.author} license={s.license} />
+          </div>
+        )}
         {result && (
           <div className="mt-3 rounded-xl bg-slate-50 p-3 text-sm">
             {result.words.length ? (

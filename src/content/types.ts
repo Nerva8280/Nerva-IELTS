@@ -13,6 +13,14 @@ export interface VocabWord {
   exampleVi: string;
   level: Level;
   topic: string; // e.g. "family", "education", "environment"
+  native?: NativeClip & { text: string; vi: string | null }; // example recorded by a native speaker
+}
+
+/** A recording by a native speaker from Tatoeba (played unmodified; licence requires attribution). */
+export interface NativeClip {
+  aid: string; // Tatoeba audio id → /audio/native/<aid>.mp3
+  author: string;
+  license: string;
 }
 
 // Placement test: band 1 (most frequent) .. 6 (rare/academic). Pseudo words are fake.
@@ -42,11 +50,12 @@ export interface GrammarLesson {
 }
 
 export interface ShadowingSet {
-  id: string; // "sh-a1-01"
+  id: string; // "sh-a1-01" (AI voice) or "nsh-…" (native recordings)
   level: Level;
   title: string;
   topic: string;
-  sentences: { en: string; vi: string; tip?: string }[]; // tip: Vietnamese intonation/linking note
+  native?: boolean;
+  sentences: ({ en: string; vi: string; tip?: string; marked?: string } & Partial<NativeClip>)[]; // tip: Vietnamese intonation/linking note
 }
 
 export interface ReadingPassage {

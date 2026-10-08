@@ -8,7 +8,7 @@ import { isDue, knownCard, newCard, review, intervalLabel, type Grade } from "@/
 import { todayStr } from "@/lib/dates";
 import { MINUTE_CONFIG } from "@/lib/plan";
 import { speakVocab } from "@/lib/tts";
-import { DoneBanner, LevelChip, PageHeader, ProgressBar, SpeakButton, WordVoices } from "@/components/ui";
+import { Credit, DoneBanner, LevelChip, NativeButton, PageHeader, ProgressBar, SpeakButton, WordVoices } from "@/components/ui";
 
 type Mode = "home" | "learn" | "review" | "quiz";
 
@@ -25,7 +25,21 @@ function WordDetails({ w }: { w: VocabWord }) {
   return (
     <div className="space-y-3">
       <div className="text-xl font-semibold text-indigo-700">{w.vi}</div>
+      {w.native && (
+        <div className="rounded-xl bg-emerald-50/60 p-3 ring-1 ring-emerald-100">
+          <div className="mb-1 text-xs font-semibold text-emerald-700">🗣️ Câu ví dụ, giọng người bản xứ</div>
+          <div className="flex items-start gap-2">
+            <p className="flex-1 font-medium">{w.native.text}</p>
+            <NativeButton aid={w.native.aid} label="" />
+          </div>
+          {w.native.vi && <p className="mt-1 text-sm text-slate-500">{w.native.vi}</p>}
+          <div className="mt-1">
+            <Credit author={w.native.author} license={w.native.license} />
+          </div>
+        </div>
+      )}
       <div className="rounded-xl bg-slate-50 p-3">
+        {w.native && <div className="mb-1 text-xs font-semibold text-slate-400">Ví dụ khác (giọng AI)</div>}
         <div className="flex items-start gap-2">
           <p className="flex-1 font-medium">{w.example}</p>
           <SpeakButton text={w.example} />
