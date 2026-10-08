@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@google/genai": "^2.28.0",
     "@neondatabase/serverless": "^1.2.0",
     "jose": "^6.2.12",
     "next": "16.3.8",

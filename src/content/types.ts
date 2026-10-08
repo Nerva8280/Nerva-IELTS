@@ -114,3 +114,19 @@ export interface PronUnit {
   commonErrorVi: string; // the typical Vietnamese learner error and why examiners notice it
   items: PronItem[];
 }
+
+// Conversation-reflex practice: questions by topic, answers graded by AI.
+export interface TalkQuestion {
+  id: string; // "hometown-01"
+  q: string;
+  part: 1 | 3;
+  level: Level;
+  hintVi: string;
+}
+export interface TalkTopic {
+  id: string;
+  topic: string;
+  topicVi: string;
+  icon: string;
+  questions: TalkQuestion[];
+}

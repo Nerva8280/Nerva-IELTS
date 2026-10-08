@@ -251,6 +251,7 @@ export function ProgressBar({ value, className = "" }: { value: number; classNam
 export function useRecorder() {
   const [recording, setRecording] = useState(false);
   const [url, setUrl] = useState<string | null>(null);
+  const [blob, setBlob] = useState<Blob | null>(null);
   const [error, setError] = useState("");
   const rec = useRef<MediaRecorder | null>(null);
 
@@ -265,9 +266,11 @@ export function useRecorder() {
       mr.ondataavailable = (e) => chunks.push(e.data);
       mr.onstop = () => {
         stream.getTracks().forEach((t) => t.stop());
+        const b = new Blob(chunks, { type: mr.mimeType });
+        setBlob(b);
         setUrl((old) => {
           if (old) URL.revokeObjectURL(old);
-          return URL.createObjectURL(new Blob(chunks, { type: mr.mimeType }));
+          return URL.createObjectURL(b);
         });
         setRecording(false);
       };
@@ -283,7 +286,15 @@ export function useRecorder() {
     if (rec.current?.state === "recording") rec.current.stop();
   }
 
-  return { recording, url, error, start, stop };
+  function reset() {
+    setBlob(null);
+    setUrl((old) => {
+      if (old) URL.revokeObjectURL(old);
+      return null;
+    });
+  }
+
+  return { recording, url, blob, error, start, stop, reset };
 }
 
 export function useTimer(running: boolean) {

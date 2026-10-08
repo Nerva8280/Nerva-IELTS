@@ -58,6 +58,14 @@ export default function PracticeHub({ catalog }: { catalog: Catalog }) {
   return (
     <div>
       <PageHeader title="Luyện tập" />
+      <Link href="/talk" className="card mb-3 flex items-center gap-3 bg-gradient-to-r from-indigo-50 to-violet-50 ring-indigo-200">
+        <span className="text-3xl">💬</span>
+        <div className="flex-1">
+          <div className="font-semibold">Luyện phản xạ nói, có AI chấm</div>
+          <div className="text-sm text-slate-600">24 chủ đề · trả lời bằng giọng nói · chấm theo 4 tiêu chí IELTS</div>
+        </div>
+        <span className="text-slate-400">→</span>
+      </Link>
       <Link href="/mock" className="card mb-4 flex items-center gap-3 bg-gradient-to-r from-amber-50 to-orange-50 ring-amber-200">
         <span className="text-3xl">🏁</span>
         <div className="flex-1">

@@ -4,6 +4,7 @@ import type {
   ListeningItem,
   PlacementWord,
   PronUnit,
+  TalkTopic,
   ReadingPassage,
   ShadowingSet,
   SpeakingTopic,
@@ -24,6 +25,7 @@ import writingData from "./data/writing.json";
 import speakingData from "./data/speaking.json";
 import shadowingData from "./data/shadowing.json";
 import pronunciationData from "./data/pronunciation.json";
+import talkData from "./data/talk.json";
 
 export const placementWords = placement as PlacementWord[];
 export const grammar = grammarData as GrammarLesson[];
@@ -33,6 +35,7 @@ export const writing = writingData as WritingPrompt[];
 export const speaking = speakingData as SpeakingTopic[];
 export const shadowing = shadowingData as ShadowingSet[];
 export const pronunciation = pronunciationData as PronUnit[];
+export const talk = talkData as TalkTopic[];
 
 // Lower levels win when a word appears twice.
 export const vocab: VocabWord[] = (() => {

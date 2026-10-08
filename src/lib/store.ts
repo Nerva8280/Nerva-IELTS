@@ -31,6 +31,14 @@ export interface PlacementResult {
   falseAlarm: number;
 }
 
+export interface TalkRecord {
+  date: string;
+  topic: string;
+  qid?: string; // bank question id; absent for AI follow-up questions
+  q: string;
+  bands: { fluency: number; lexical: number; grammar: number; pronunciation: number; overall: number };
+}
+
 export interface AppState {
   v: 1;
   owner?: string;
@@ -44,6 +52,7 @@ export interface AppState {
   essays: Record<string, { text: string; date: string; selfBand?: number }>;
   mocks: { date: string; level: Level; score: number; total: number; band: number }[];
   pronChecks: { date: string; band: number; source: string }[]; // pronunciation self-assessments
+  talks?: TalkRecord[]; // AI-graded speaking answers
   settings: Settings;
 }
 

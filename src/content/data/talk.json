@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "hometown",
+    "topic": "Hometown",
+    "topicVi": "Quê hương",
+    "icon": "🏡",
+    "questions": [
+      {
+        "id": "hometown-01",
+        "q": "Where is your hometown, and what is it like?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "hometown-02",
+        "q": "Do you like living in your hometown?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "hometown-03",
+        "q": "What do people usually do in your hometown at the weekend?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "hometown-04",
+        "q": "What is the most famous food in your hometown?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "hometown-05",
+        "q": "Has your hometown changed much since you were a child?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "So sánh xưa và nay hoặc hai lựa chọn. Dùng: 'used to…', 'these days…', 'whereas…'"
+      },
+      {
+        "id": "hometown-06",
+        "q": "Would you prefer to live in your hometown or in a big city?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "hometown-07",
+        "q": "Why do many young people leave small towns for big cities?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "hometown-08",
+        "q": "How can local governments keep traditional culture alive in towns?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "hometown-09",
+        "q": "Do you think big cities will keep growing in the future?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      },
+      {
+        "id": "hometown-10",
+        "q": "What are the pros and cons of living in a place where everyone knows each other?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      }
+    ]
+  },
+  {
+    "id": "home",
+    "topic": "Home & Accommodation",
+    "topicVi": "Nhà ở",
+    "icon": "🏠",
+    "questions": [
+      {
+        "id": "home-01",
+        "q": "Do you live in a house or an apartment?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "home-02",
+        "q": "What is your favourite room at home, and why?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "home-03",
+        "q": "How long have you lived in your current place?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "home-04",
+        "q": "Who do you live with?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "home-05",
+        "q": "Would you like to move to a different home in the future?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu dự định → lý do → khó khăn nếu có. Dùng: 'I'm planning to…', 'hopefully…'"
+      },
+      {
+        "id": "home-06",
+        "q": "What would you change about your home if you could?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "home-07",
+        "q": "Why is housing so expensive in many big cities?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "home-08",
+        "q": "Should governments help young people buy their first home?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "home-09",
+        "q": "Do you think people will live in smaller homes in the future?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      },
+      {
+        "id": "home-10",
+        "q": "Is it better to rent or to buy a home? Why?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      }
+    ]
+  },
+  {
+    "id": "work",
+    "topic": "Work",
+    "topicVi": "Công việc",
+    "icon": "💼",
+    "questions": [
+      {
+        "id": "work-01",
+        "q": "Do you work or are you a student?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "work-02",
+        "q": "What do you like most about your job?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "work-03",
+        "q": "How do you usually get to work?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "work-04",
+        "q": "Is there anything you dislike about your job?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "work-05",
+        "q": "What was your first job, and what was it like?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "work-06",
+        "q": "Would you prefer to work for a big company or a small one?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "work-07",
+        "q": "Why do some people change jobs very often these days?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "work-08",
+        "q": "Is job satisfaction more important than a high salary?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "work-09",
+        "q": "How will artificial intelligence change the workplace?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      },
+      {
+        "id": "work-10",
+        "q": "What are the advantages and disadvantages of working from home?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      }
+    ]
+  },
+  {
+    "id": "study",
+    "topic": "Study",
+    "topicVi": "Học tập",
+    "icon": "📚",
+    "questions": [
+      {
+        "id": "study-01",
+        "q": "What subject do you enjoy studying the most?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "study-02",
+        "q": "Do you prefer studying in the morning or at night?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "study-03",
+        "q": "Where do you usually study?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "study-04",
+        "q": "Do you like studying alone or with other people?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "study-05",
+        "q": "What was your favourite teacher like?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "study-06",
+        "q": "What do you do when you find a lesson difficult?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "study-07",
+        "q": "Why do some students lose motivation to study?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "study-08",
+        "q": "Is it more useful to study abroad or in your own country?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "study-09",
+        "q": "How has technology changed the way students learn?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "study-10",
+        "q": "Should schools focus more on practical skills than on exams?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "topic": "Family",
+    "topicVi": "Gia đình",
+    "icon": "👨‍👩‍👧",
+    "questions": [
+      {
+        "id": "family-01",
+        "q": "How many people are there in your family?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "family-02",
+        "q": "Who are you closest to in your family?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "family-03",
+        "q": "How often do you see your relatives?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "family-04",
+        "q": "What do you usually do with your family at the weekend?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "family-05",
+        "q": "Are you more similar to your mother or your father?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "So sánh xưa và nay hoặc hai lựa chọn. Dùng: 'used to…', 'these days…', 'whereas…'"
+      },
+      {
+        "id": "family-06",
+        "q": "Did you have any family traditions when you were growing up?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "family-07",
+        "q": "Why are families smaller now than in the past?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "family-08",
+        "q": "Should children look after their elderly parents?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "family-09",
+        "q": "How has family life changed in your country over the years?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "family-10",
+        "q": "Will the role of the family become less important in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "friends",
+    "topic": "Friends",
+    "topicVi": "Bạn bè",
+    "icon": "🧑‍🤝‍🧑",
+    "questions": [
+      {
+        "id": "friends-01",
+        "q": "Do you have many close friends?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "friends-02",
+        "q": "How did you meet your best friend?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "friends-03",
+        "q": "How often do you see your friends?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "friends-04",
+        "q": "What do you usually do together?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "friends-05",
+        "q": "Do you prefer a few close friends or lots of casual friends?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "friends-06",
+        "q": "Have you ever lost touch with a good friend?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "friends-07",
+        "q": "What qualities make someone a good friend?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "friends-08",
+        "q": "Is it harder to make friends as an adult than as a child?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "So sánh xưa và nay hoặc hai lựa chọn. Dùng: 'used to…', 'these days…', 'whereas…'"
+      },
+      {
+        "id": "friends-09",
+        "q": "Can online friendships be as strong as face-to-face ones?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "friends-10",
+        "q": "How do friends influence the choices young people make?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      }
+    ]
+  },
+  {
+    "id": "hobbies",
+    "topic": "Hobbies",
+    "topicVi": "Sở thích",
+    "icon": "🎨",
+    "questions": [
+      {
+        "id": "hobbies-01",
+        "q": "What do you like to do in your free time?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "hobbies-02",
+        "q": "Have you had the same hobby since you were a child?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "So sánh xưa và nay hoặc hai lựa chọn. Dùng: 'used to…', 'these days…', 'whereas…'"
+      },
+      {
+        "id": "hobbies-03",
+        "q": "Do you prefer hobbies at home or outdoors?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "hobbies-04",
+        "q": "How much time do you spend on your hobby each week?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "hobbies-05",
+        "q": "Is there a new hobby you would like to try?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu dự định → lý do → khó khăn nếu có. Dùng: 'I'm planning to…', 'hopefully…'"
+      },
+      {
+        "id": "hobbies-06",
+        "q": "Do you prefer doing hobbies alone or with others?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "hobbies-07",
+        "q": "Why do some people have no time for hobbies?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "hobbies-08",
+        "q": "Can a hobby become a good way to earn money?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "hobbies-09",
+        "q": "Do hobbies help people reduce stress in modern life?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "hobbies-10",
+        "q": "How have people's free-time activities changed over the past few decades?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      }
+    ]
+  },
+  {
+    "id": "sport",
+    "topic": "Sport",
+    "topicVi": "Thể thao",
+    "icon": "⚽",
+    "questions": [
+      {
+        "id": "sport-01",
+        "q": "Do you like playing sport?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "sport-02",
+        "q": "What sports did you play at school?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "sport-03",
+        "q": "Do you prefer watching sport or playing it?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "sport-04",
+        "q": "How often do you exercise or play sport?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "sport-05",
+        "q": "Have you ever been to a live match or sports event?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "sport-06",
+        "q": "Is there a sport you would like to try one day?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu dự định → lý do → khó khăn nếu có. Dùng: 'I'm planning to…', 'hopefully…'"
+      },
+      {
+        "id": "sport-07",
+        "q": "Why are some sports more popular than others in a country?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "sport-08",
+        "q": "Should schools make sport compulsory for all students?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "sport-09",
+        "q": "Do top athletes deserve to earn so much money?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "sport-10",
+        "q": "How might sport change in the next twenty years?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "food",
+    "topic": "Food & Cooking",
+    "topicVi": "Ẩm thực & nấu ăn",
+    "icon": "🍜",
+    "questions": [
+      {
+        "id": "food-01",
+        "q": "What is your favourite food?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "food-02",
+        "q": "Do you like cooking?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "food-03",
+        "q": "Do you usually eat at home or eat out?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "food-04",
+        "q": "What did you eat for breakfast today?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "food-05",
+        "q": "Is there any food you really dislike?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "food-06",
+        "q": "Have you ever tried cooking a dish from another country?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "food-07",
+        "q": "Why are more people eating fast food these days?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "food-08",
+        "q": "Is traditional cooking disappearing from family life?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "food-09",
+        "q": "Should governments tax unhealthy food?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "food-10",
+        "q": "How might the way we produce and eat food change in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "travel",
+    "topic": "Travel & Holidays",
+    "topicVi": "Du lịch",
+    "icon": "✈️",
+    "questions": [
+      {
+        "id": "travel-01",
+        "q": "Do you like travelling?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "travel-02",
+        "q": "Where did you go on your last holiday?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "travel-03",
+        "q": "Do you prefer the beach or the mountains?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "travel-04",
+        "q": "Do you usually travel alone or with other people?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "travel-05",
+        "q": "What is the most memorable trip you have had?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "travel-06",
+        "q": "Where would you like to go next, and why?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu dự định → lý do → khó khăn nếu có. Dùng: 'I'm planning to…', 'hopefully…'"
+      },
+      {
+        "id": "travel-07",
+        "q": "Why do so many people want to travel abroad nowadays?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "travel-08",
+        "q": "Does mass tourism do more harm than good to a place?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "travel-09",
+        "q": "How has the internet changed the way people plan their trips?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "travel-10",
+        "q": "Will people travel less in the future because of the environment?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "weather",
+    "topic": "Weather & Seasons",
+    "topicVi": "Thời tiết & mùa",
+    "icon": "⛅",
+    "questions": [
+      {
+        "id": "weather-01",
+        "q": "What is the weather like where you live?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "weather-02",
+        "q": "What is your favourite season?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "weather-03",
+        "q": "What do you usually do on rainy days?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "weather-04",
+        "q": "Does the weather affect your mood?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "weather-05",
+        "q": "Do you prefer hot weather or cold weather?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "weather-06",
+        "q": "Can you remember a time when the weather ruined your plans?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "weather-07",
+        "q": "Do you think the weather in your country has changed in recent years?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "weather-08",
+        "q": "Why do some people find it hard to cope with extreme weather?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "weather-09",
+        "q": "How can cities prepare for severe weather such as floods and heatwaves?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "weather-10",
+        "q": "Will climate change affect how people live in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "technology",
+    "topic": "Technology & Phones",
+    "topicVi": "Công nghệ & điện thoại",
+    "icon": "📱",
+    "questions": [
+      {
+        "id": "technology-01",
+        "q": "How often do you use your phone every day?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "technology-02",
+        "q": "What do you mainly use your phone for?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "technology-03",
+        "q": "Do you remember your first mobile phone?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "technology-04",
+        "q": "Do you like trying new gadgets?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "technology-05",
+        "q": "Could you live without the internet for a week?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "technology-06",
+        "q": "What piece of technology do you use most in your daily life?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "technology-07",
+        "q": "Is technology making people lazier?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "technology-08",
+        "q": "What are the advantages and disadvantages of children using phones?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "technology-09",
+        "q": "How has technology changed the way people communicate?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "technology-10",
+        "q": "What technology do you think will be the most important in thirty years?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "social-media",
+    "topic": "Social Media",
+    "topicVi": "Mạng xã hội",
+    "icon": "💬",
+    "questions": [
+      {
+        "id": "social-media-01",
+        "q": "Do you use social media?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "social-media-02",
+        "q": "Which social media app do you use most?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "social-media-03",
+        "q": "How much time do you spend on it each day?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "social-media-04",
+        "q": "What kind of things do you post or share online?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "social-media-05",
+        "q": "Have you ever seen something online that you later found out was fake?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "social-media-06",
+        "q": "Do you prefer messaging friends or meeting them in person?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "social-media-07",
+        "q": "Why do so many young people feel pressure on social media?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "social-media-08",
+        "q": "Should there be an age limit for using social media?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "social-media-09",
+        "q": "Can social media bring people closer, or does it separate them?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "social-media-10",
+        "q": "How will social media change the way news is shared in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "shopping",
+    "topic": "Shopping",
+    "topicVi": "Mua sắm",
+    "icon": "🛍️",
+    "questions": [
+      {
+        "id": "shopping-01",
+        "q": "Do you like shopping?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "shopping-02",
+        "q": "Where do you usually go shopping?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "shopping-03",
+        "q": "Do you prefer shopping online or in shops?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "shopping-04",
+        "q": "How often do you buy things you do not really need?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "shopping-05",
+        "q": "What was the last thing you bought, and were you happy with it?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "shopping-06",
+        "q": "Do you usually shop alone or with someone else?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "shopping-07",
+        "q": "Why do people buy so much more than they need nowadays?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "shopping-08",
+        "q": "Is online shopping killing traditional markets and small shops?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "shopping-09",
+        "q": "How do advertisements influence what people buy?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "shopping-10",
+        "q": "Will physical shops disappear in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "transport",
+    "topic": "Transport",
+    "topicVi": "Giao thông",
+    "icon": "🚌",
+    "questions": [
+      {
+        "id": "transport-01",
+        "q": "How do you usually get around your city?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "transport-02",
+        "q": "Do you own a bike, motorbike or car?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "transport-03",
+        "q": "Do you prefer travelling by bus or by taxi?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "transport-04",
+        "q": "How long does it take you to get to work or school?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "transport-05",
+        "q": "Have you ever been stuck in a terrible traffic jam?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "transport-06",
+        "q": "Would you like to learn a new way of travelling, such as driving a car?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu dự định → lý do → khó khăn nếu có. Dùng: 'I'm planning to…', 'hopefully…'"
+      },
+      {
+        "id": "transport-07",
+        "q": "Why is traffic such a big problem in many cities?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "transport-08",
+        "q": "Should governments encourage public transport instead of private vehicles?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "transport-09",
+        "q": "How has transport changed in your country over the last few decades?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "transport-10",
+        "q": "Will electric and self-driving vehicles replace ordinary cars?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "health",
+    "topic": "Health & Fitness",
+    "topicVi": "Sức khỏe",
+    "icon": "💪",
+    "questions": [
+      {
+        "id": "health-01",
+        "q": "Do you think you have a healthy lifestyle?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "health-02",
+        "q": "How often do you exercise?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "health-03",
+        "q": "How many hours do you usually sleep at night?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "health-04",
+        "q": "What do you do to relax when you feel stressed?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "health-05",
+        "q": "Have you ever been seriously ill or hurt?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "health-06",
+        "q": "Would you prefer to go to a gym or exercise outdoors?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "health-07",
+        "q": "Why are so many people less active than before?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "health-08",
+        "q": "Whose responsibility is it to keep people healthy, the government or individuals?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "health-09",
+        "q": "How have fitness apps changed the way people look after their health?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "health-10",
+        "q": "What health problems will be most serious in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "music",
+    "topic": "Music",
+    "topicVi": "Âm nhạc",
+    "icon": "🎵",
+    "questions": [
+      {
+        "id": "music-01",
+        "q": "What kind of music do you like?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "music-02",
+        "q": "Do you listen to music every day?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "music-03",
+        "q": "When and where do you usually listen to music?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "music-04",
+        "q": "Can you play any musical instruments?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "music-05",
+        "q": "Have you ever been to a concert?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "music-06",
+        "q": "Do you prefer listening to music alone or with friends?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "music-07",
+        "q": "Why does music play such an important role in all cultures?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "music-08",
+        "q": "Has the way people discover and enjoy music changed because of streaming?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "music-09",
+        "q": "Should schools spend more time teaching music?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "music-10",
+        "q": "Will traditional music survive in the age of global pop culture?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "films",
+    "topic": "Films & TV",
+    "topicVi": "Phim & truyền hình",
+    "icon": "🎬",
+    "questions": [
+      {
+        "id": "films-01",
+        "q": "Do you like watching films?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "films-02",
+        "q": "What was the last film or series you watched?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "films-03",
+        "q": "Do you prefer watching films at the cinema or at home?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "films-04",
+        "q": "What type of films or shows do you like most?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "films-05",
+        "q": "Have you ever watched a film that made you cry or laugh a lot?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "films-06",
+        "q": "Do you prefer watching films in English or in your own language?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "films-07",
+        "q": "Why are some films and series popular around the world?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "films-08",
+        "q": "Do films and TV shows have a strong influence on young people?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "films-09",
+        "q": "Has streaming made cinemas less important?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "films-10",
+        "q": "How might films and TV be different in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "reading",
+    "topic": "Books & Reading",
+    "topicVi": "Sách & đọc",
+    "icon": "📖",
+    "questions": [
+      {
+        "id": "reading-01",
+        "q": "Do you enjoy reading?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "reading-02",
+        "q": "What kind of books do you like to read?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "reading-03",
+        "q": "How often do you read books?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "reading-04",
+        "q": "Do you prefer paper books or e-books?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "reading-05",
+        "q": "What was your favourite book when you were a child?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "reading-06",
+        "q": "Do you ever read the news or articles online?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "reading-07",
+        "q": "Why do fewer young people read books these days?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "reading-08",
+        "q": "Are libraries still necessary in the digital age?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "reading-09",
+        "q": "Is reading fiction as valuable as reading factual books?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "reading-10",
+        "q": "How will the habit of reading change in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "environment",
+    "topic": "Environment",
+    "topicVi": "Môi trường",
+    "icon": "🌱",
+    "questions": [
+      {
+        "id": "environment-01",
+        "q": "Is your area clean and green?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "environment-02",
+        "q": "Do you recycle at home?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "environment-03",
+        "q": "Do you ever walk or cycle instead of using a vehicle?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "environment-04",
+        "q": "What do you do to save energy or water?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "environment-05",
+        "q": "Have you ever taken part in a clean-up or environmental activity?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "environment-06",
+        "q": "Are you worried about pollution where you live?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "environment-07",
+        "q": "Why do people find it hard to change their habits to protect the environment?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "environment-08",
+        "q": "Who should do more for the environment, individuals or big companies?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "environment-09",
+        "q": "How effective are laws such as plastic bans?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "environment-10",
+        "q": "Will we be able to solve climate change in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "festivals",
+    "topic": "Festivals & Celebrations",
+    "topicVi": "Lễ hội & ngày lễ",
+    "icon": "🎆",
+    "questions": [
+      {
+        "id": "festivals-01",
+        "q": "What is your favourite festival in your country?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "festivals-02",
+        "q": "How do you usually celebrate Tết?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "festivals-03",
+        "q": "What special food do people eat at Tết?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "festivals-04",
+        "q": "Do you prefer celebrating with family or with friends?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "festivals-05",
+        "q": "Can you describe a festival or celebration you remember well?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "festivals-06",
+        "q": "Do you think Tết today is different from when you were a child?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "So sánh xưa và nay hoặc hai lựa chọn. Dùng: 'used to…', 'these days…', 'whereas…'"
+      },
+      {
+        "id": "festivals-07",
+        "q": "Why are traditional festivals still important to people?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "festivals-08",
+        "q": "Are young people losing interest in traditional celebrations?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "festivals-09",
+        "q": "Do big festivals bring more benefits or problems to a community?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "festivals-10",
+        "q": "How might celebrations change as lifestyles become more modern?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "clothes",
+    "topic": "Clothes & Fashion",
+    "topicVi": "Quần áo & thời trang",
+    "icon": "👗",
+    "questions": [
+      {
+        "id": "clothes-01",
+        "q": "What kind of clothes do you like to wear?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "clothes-02",
+        "q": "Do you wear different clothes for work or study and for weekends?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "So sánh xưa và nay hoặc hai lựa chọn. Dùng: 'used to…', 'these days…', 'whereas…'"
+      },
+      {
+        "id": "clothes-03",
+        "q": "Do you prefer comfortable clothes or fashionable clothes?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "clothes-04",
+        "q": "How often do you buy new clothes?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nói mức độ thường xuyên → khi nào/ở đâu → cảm xúc. Dùng: 'about once a week', 'whenever I have time'"
+      },
+      {
+        "id": "clothes-05",
+        "q": "Have you ever worn traditional clothes such as áo dài?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "clothes-06",
+        "q": "Do you like to follow fashion trends?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "clothes-07",
+        "q": "Why do trends in fashion change so quickly?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "clothes-08",
+        "q": "Should schools and workplaces have a dress code?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "clothes-09",
+        "q": "Is fast fashion bad for people and the environment?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "clothes-10",
+        "q": "Will traditional clothing disappear in the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      }
+    ]
+  },
+  {
+    "id": "childhood",
+    "topic": "Childhood",
+    "topicVi": "Tuổi thơ",
+    "icon": "🧸",
+    "questions": [
+      {
+        "id": "childhood-01",
+        "q": "Where did you grow up?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Mô tả 2-3 chi tiết nổi bật rồi nêu cảm nhận. Dùng: 'It's famous for…', 'What I like most is…'"
+      },
+      {
+        "id": "childhood-02",
+        "q": "What did you like to do as a child?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "childhood-03",
+        "q": "Who did you play with when you were little?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "childhood-04",
+        "q": "Did you enjoy school when you were young?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "childhood-05",
+        "q": "What was your favourite toy or game as a child?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "childhood-06",
+        "q": "Is your childhood different from the childhood of children today?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "So sánh xưa và nay hoặc hai lựa chọn. Dùng: 'used to…', 'these days…', 'whereas…'"
+      },
+      {
+        "id": "childhood-07",
+        "q": "How does a person's childhood shape who they become?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      },
+      {
+        "id": "childhood-08",
+        "q": "Do children today have less freedom than in the past?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nói trước đây/hiện nay → nguyên nhân → tác động. Dùng: 'Years ago…', 'This has led to…'"
+      },
+      {
+        "id": "childhood-09",
+        "q": "What are the pros and cons of children growing up with technology?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "childhood-10",
+        "q": "How can parents best prepare children for the future?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      }
+    ]
+  },
+  {
+    "id": "future",
+    "topic": "Future Plans & Ambitions",
+    "topicVi": "Dự định & ước mơ",
+    "icon": "🚀",
+    "questions": [
+      {
+        "id": "future-01",
+        "q": "What are you planning to do next year?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu dự định → lý do → khó khăn nếu có. Dùng: 'I'm planning to…', 'hopefully…'"
+      },
+      {
+        "id": "future-02",
+        "q": "What would you like to be doing in five years?",
+        "part": 1,
+        "level": "A2",
+        "hintVi": "Nêu dự định → lý do → khó khăn nếu có. Dùng: 'I'm planning to…', 'hopefully…'"
+      },
+      {
+        "id": "future-03",
+        "q": "Is there something you really want to achieve in your life?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Trả lời thẳng Yes/No → lý do → ví dụ cụ thể về bản thân. Có thể dùng: 'To be honest…', 'The main reason is…'"
+      },
+      {
+        "id": "future-04",
+        "q": "Do you like to plan things or take life as it comes?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu lựa chọn → so sánh với lựa chọn kia → ví dụ. Dùng: 'I prefer… to…', 'compared to…'"
+      },
+      {
+        "id": "future-05",
+        "q": "Is there a skill you would like to learn in the future?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Nêu dự định → lý do → khó khăn nếu có. Dùng: 'I'm planning to…', 'hopefully…'"
+      },
+      {
+        "id": "future-06",
+        "q": "What was your dream job when you were a child?",
+        "part": 1,
+        "level": "B1",
+        "hintVi": "Kể ngắn theo thứ tự: khi nào → làm gì → cảm nhận. Dùng thì quá khứ: 'Last year, I…', 'It was…'"
+      },
+      {
+        "id": "future-07",
+        "q": "Why do some people find it hard to set long-term goals?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu 2-3 nguyên nhân chính → đề xuất giải pháp. Dùng: 'One major factor is…', 'To tackle this…'"
+      },
+      {
+        "id": "future-08",
+        "q": "Is it better to follow your passion or choose a stable career?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Nêu lợi ích → bất lợi → kết luận cân bằng. Dùng: 'One upside is…', 'However, the downside is…'"
+      },
+      {
+        "id": "future-09",
+        "q": "How will the jobs young people do be different from today's?",
+        "part": 3,
+        "level": "B2",
+        "hintVi": "Dự đoán → nguyên nhân → hệ quả. Dùng: 'I think it will…', 'This is likely because…'"
+      },
+      {
+        "id": "future-10",
+        "q": "Does success depend more on hard work or on luck?",
+        "part": 3,
+        "level": "C1",
+        "hintVi": "Nêu quan điểm → 2 lý do → ví dụ xã hội → nhìn nhận mặt kia. Dùng: 'I'd argue that…', 'On the other hand…'"
+      }
+    ]
+  }
+]

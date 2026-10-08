@@ -37,6 +37,8 @@ export function allJobs(only) {
     add("speaking", SENTENCE_VOICES, t.sampleAnswer);
     t.usefulPhrases.forEach((p) => add("speaking", SENTENCE_VOICES, p.en));
   }
+  if (fs.existsSync(path.join(DATA, "talk.json")))
+    for (const t of load("talk")) for (const q of t.questions) add("talk", ["uk-f"], q.q);
   for (const g of load("grammar")) g.examples.forEach((e) => add("grammar", SENTENCE_VOICES, e.en));
   for (const r of load("reading")) add("reading", ["uk-f"], r.passage);
   for (const w of load("writing")) add("writing", ["us-f"], w.modelAnswer);
