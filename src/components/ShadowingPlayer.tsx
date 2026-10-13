@@ -16,7 +16,7 @@ export interface ShadowSentence {
   tip?: string;
 }
 
-const RATES = [0.6, 0.8, 1];
+const RATES = [0.6, 0.8, 1, 1.2]; // absolute speeds; starts at the one closest to the speed setting
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /**
@@ -25,7 +25,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
  */
 export default function ShadowingPlayer({ sentences, onFinish }: { sentences: ShadowSentence[]; onFinish?: (avgScore: number | null) => void }) {
   const [i, setI] = useState(0);
-  const [rate, setRate] = useState(0.8);
+  const [rate, setRate] = useState(() => RATES.reduce((a, b) => (Math.abs(b - getState().settings.rate) < Math.abs(a - getState().settings.rate) ? b : a)));
   const [voice, setVoice] = useState<VoiceId>(() => getState().settings.voice ?? "uk-f");
   const [showMarks, setShowMarks] = useState(true);
   const [playing, setPlaying] = useState(false);
@@ -56,7 +56,7 @@ export default function ShadowingPlayer({ sentences, onFinish }: { sentences: Sh
   }
 
   const allNative = sentences.every((x) => x.aid);
-  const say = (x: ShadowSentence) => (x.aid ? playNative(x.aid, rate) : speak(x.en, { rate, voice }));
+  const say = (x: ShadowSentence) => (x.aid ? playNative(x.aid, rate, true) : speak(x.en, { rate, voice, absoluteRate: true }));
 
   async function play(times = 1) {
     const my = ++run.current;

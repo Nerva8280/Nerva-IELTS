@@ -13,8 +13,9 @@ export const VOICES = {
 
 export type VoiceId = keyof typeof VOICES;
 export const MAIN_VOICES: VoiceId[] = ["uk-f", "uk-m", "us-f", "us-m"];
-// Voices generated for ordinary sentences (examples, answers…): the best-rated voice of each accent
-// (Kokoro grades: af_heart A, bf_emma B-, am_michael C+, bm_george C).
+// Example sentences, grammar examples and speaking answers exist in all MAIN_VOICES. Pronunciation
+// drill words exist only in these two, the best-rated voices (Kokoro grades: af_heart A, bf_emma B-,
+// am_michael C+, bm_george C), which are also the fallback when a male-voice file is missing.
 export const SENTENCE_VOICES: VoiceId[] = ["uk-f", "us-f"];
 // Single words: Kokoro garbles very short inputs; af_heart (cut from "Listen. <word>.") is the
 // only voice that reads isolated words reliably, so it is the default for words.

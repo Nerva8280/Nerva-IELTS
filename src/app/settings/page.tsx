@@ -283,7 +283,9 @@ export default function SettingsPage() {
             );
           })}
         </div>
-        <p className="muted mb-3">Từ vựng và shadowing có đủ 4 giọng. Câu ví dụ, bài nói mẫu dùng giọng 🇬🇧 Nữ hoặc 🇺🇸 Nam theo giọng Anh/Mỹ bạn chọn.</p>
+        <p className="muted mb-3">
+          Giọng này dùng cho từ vựng, câu ví dụ, ngữ pháp, bài nói mẫu và shadowing giọng AI. Bài Listening mỗi nhân vật có giọng riêng; câu “giọng người bản xứ” là bản ghi thật nên không đổi giọng được. 🇬🇧 Nữ và 🇺🇸 Nữ là hai giọng AI tự nhiên nhất.
+        </p>
         <details className="text-sm">
           <summary className="cursor-pointer text-slate-500">Giọng dự phòng của trình duyệt (khi chưa có file giọng AI)</summary>
           <div className="mt-2">

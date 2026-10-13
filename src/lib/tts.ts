@@ -109,7 +109,8 @@ export function playUrl(url: string, rate = 1): Promise<"ended" | "stopped" | "e
 export interface SpeakOpts {
   voice?: VoiceId; // exact neural voice; otherwise the learner's preference
   gender?: "f" | "m"; // for the browser fallback
-  rate?: number;
+  rate?: number; // multiplies the learner's speed setting unless absoluteRate
+  absoluteRate?: boolean;
   browserOnly?: boolean;
   onChunk?: (i: number) => void;
 }
@@ -117,7 +118,7 @@ export interface SpeakOpts {
 export async function speak(text: string, opts: SpeakOpts = {}): Promise<void> {
   stopSpeaking();
   const my = token;
-  const rate = (opts.rate ?? 1) * getState().settings.rate;
+  const rate = opts.absoluteRate ? (opts.rate ?? 1) : (opts.rate ?? 1) * getState().settings.rate;
   if (!opts.browserOnly) {
     for (const v of opts.voice ? [opts.voice] : preferredVoices()) {
       const url = audioUrl(v, text);
@@ -199,9 +200,9 @@ export async function speakVocab(word: string, opts: SpeakOpts = {}) {
 export const nativeUrl = (aid: string) => `/audio/native/${aid}.mp3`;
 
 /** Plays a native-speaker recording (Tatoeba), at the learner rate. */
-export function playNative(aid: string, rate = 1) {
+export function playNative(aid: string, rate = 1, absolute = false) {
   stopSpeaking();
-  return playUrl(nativeUrl(aid), rate * getState().settings.rate);
+  return playUrl(nativeUrl(aid), absolute ? rate : rate * getState().settings.rate);
 }
 
 // Word files that QA found misread, per voice; their buttons are hidden (public/audio/hidden.json).

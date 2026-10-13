@@ -27,19 +27,20 @@ export function allJobs(only) {
       }
   const vocab = ["a1", "a2", "b1", "b2", "c1"].flatMap((l) => load("vocab-" + l));
   for (const w of vocab) add("words", MAIN_VOICES, w.word);
-  for (const w of vocab) add("examples", SENTENCE_VOICES, w.example);
+  // sentences in all four voices so the voice chosen in Settings is used everywhere
+  for (const w of vocab) add("examples", MAIN_VOICES, w.example);
   for (const item of load("listening")) {
     const voices = scriptVoices(item.script);
     item.script.forEach((l, i) => add("listening", [voices[i]], l.text));
   }
   for (const t of load("speaking")) {
-    t.questions.forEach((q) => add("speaking", SENTENCE_VOICES, q));
-    add("speaking", SENTENCE_VOICES, t.sampleAnswer);
-    t.usefulPhrases.forEach((p) => add("speaking", SENTENCE_VOICES, p.en));
+    t.questions.forEach((q) => add("speaking", MAIN_VOICES, q));
+    add("speaking", MAIN_VOICES, t.sampleAnswer);
+    t.usefulPhrases.forEach((p) => add("speaking", MAIN_VOICES, p.en));
   }
   if (fs.existsSync(path.join(DATA, "talk.json")))
     for (const t of load("talk")) for (const q of t.questions) add("talk", ["uk-f"], q.q);
-  for (const g of load("grammar")) g.examples.forEach((e) => add("grammar", SENTENCE_VOICES, e.en));
+  for (const g of load("grammar")) g.examples.forEach((e) => add("grammar", MAIN_VOICES, e.en));
   for (const r of load("reading")) add("reading", ["uk-f"], r.passage);
   for (const w of load("writing")) add("writing", ["us-f"], w.modelAnswer);
   const seen = new Set();
