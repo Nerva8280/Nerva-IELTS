@@ -3,9 +3,10 @@ import { useState } from "react";
 import type { Question } from "@/content/types";
 import { addMistakes } from "@/lib/notebook";
 
-type Answer = string | number | number[] | undefined;
+export type Answer = string | number | number[] | undefined;
 
-const norm = (s: string) => s.trim().toLowerCase().replace(/[.,!?;:'"]/g, "").replace(/\s+/g, " ");
+// "0161 555 0147" = "01615550147", "£85" = "85", "B-R-E-N-T-O-N" = "Brenton"
+const squash = (s: string) => s.toLowerCase().replace(/[.,!?;:'"£$€\s-]/g, "");
 
 export function isCorrect(q: Question, a: Answer): boolean {
   if (a === undefined || a === "") return false;
@@ -19,7 +20,7 @@ export function isCorrect(q: Question, a: Answer): boolean {
     case "multi":
       return Array.isArray(a) && a.length === q.answer.length && q.answer.every((x) => a.includes(x));
     case "gap":
-      return q.answer.some((x) => norm(x) === norm(String(a)));
+      return q.answer.some((x) => squash(x) === squash(String(a)));
   }
 }
 
@@ -46,28 +47,69 @@ function answerText(q: Question, a: Answer) {
 
 const CHOICES: Record<"tfng" | "ynng", string[]> = { tfng: ["TRUE", "FALSE", "NOT GIVEN"], ynng: ["YES", "NO", "NOT GIVEN"] };
 
+export const scoreOf = (questions: Question[], answers: Answer[]) => questions.filter((q, i) => isCorrect(q, answers[i])).length;
+
+/** Saves the wrong answers of a submitted set to the mistake notebook. */
+export function saveMistakes(questions: Question[], answers: Answer[], source: string) {
+  addMistakes(
+    questions
+      .map((q, i) => ({ q, a: answers[i] }))
+      .filter(({ q, a }) => !isCorrect(q, a))
+      .map(({ q, a }) => ({
+        source,
+        kind: "exercise" as const,
+        original: `${q.q}${answerText(q, a) ? ` (bạn chọn: ${answerText(q, a)})` : ""}`,
+        corrected: correctText(q),
+        explanationVi: q.explain ?? "",
+      })),
+  );
+}
+
 function optionClass(isAns: boolean, chosen: boolean, checked: boolean) {
   return `rounded-xl border px-3 py-2 text-left text-sm transition ${
     isAns ? "border-emerald-500 bg-emerald-50" : chosen && checked ? "border-rose-400 bg-rose-50" : chosen ? "border-indigo-500 bg-indigo-50" : "border-slate-200 hover:bg-slate-50"
   }`;
 }
 
-/** Renders questions (with IELTS-style group instructions); after "Nộp bài" shows right/wrong with explanations. */
+/**
+ * Renders questions (with IELTS-style group instructions); after "Nộp bài" shows right/wrong with explanations.
+ * Exam sections pass `value`/`onChange` and `submitted` so several sets share one submit button.
+ */
 export default function QuestionSet({
   questions,
   onSubmit,
   submitLabel = "Nộp bài",
   source,
+  start = 1,
+  value,
+  onChange,
+  submitted,
 }: {
   questions: Question[];
   onSubmit?: (score: number, total: number) => void;
   submitLabel?: string;
   source?: string; // when set, wrong answers are saved to the mistake notebook
+  start?: number; // number of the first question (later exam parts continue the numbering)
+  value?: Answer[];
+  onChange?: (answers: Answer[]) => void;
+  submitted?: boolean; // controlled by the parent: no own submit button
 }) {
-  const [answers, setAnswers] = useState<Answer[]>([]);
-  const [checked, setChecked] = useState(false);
-  const set = (i: number, v: Answer) => !checked && setAnswers((a) => Object.assign([...a], { [i]: v }));
-  const score = questions.filter((q, i) => isCorrect(q, answers[i])).length;
+  const [own, setOwn] = useState<Answer[]>([]);
+  const [ownChecked, setChecked] = useState(false);
+  const answers = value ?? own;
+  const controlled = submitted !== undefined;
+  const checked = controlled ? submitted : ownChecked;
+  const set = (i: number, v: Answer) => {
+    if (checked) return;
+    const next = Object.assign([...answers], { [i]: v });
+    if (value === undefined) setOwn(next);
+    onChange?.(next);
+  };
+  const score = scoreOf(questions, answers);
+  const off = start - 1;
+  // group texts are numbered within their own set ("Questions 1–5", "(3) ____")
+  const shiftTitle = (t: string) => (off ? t.replace(/\d+/g, (d) => String(Number(d) + off)) : t);
+  const shiftText = (t: string) => (off ? t.replace(/\((\d+)\) ____/g, (_, d) => `(${Number(d) + off}) ____`) : t);
 
   return (
     <div className="space-y-4">
@@ -80,8 +122,8 @@ export default function QuestionSet({
           <div key={i} className="space-y-4">
             {newGroup && q.group && (
               <div className="rounded-2xl bg-indigo-50 p-4 text-sm ring-1 ring-indigo-100">
-                <div className="font-bold text-indigo-900">{q.group.title}</div>
-                {q.group.text && <p className="mt-1 whitespace-pre-line leading-relaxed text-slate-700">{q.group.text}</p>}
+                <div className="font-bold text-indigo-900">{shiftTitle(q.group.title)}</div>
+                {q.group.text && <p className="mt-1 whitespace-pre-line leading-relaxed text-slate-700">{shiftText(q.group.text)}</p>}
                 {q.group.list && (
                   <ul className="mt-2 space-y-1 rounded-xl bg-white p-3 text-slate-800">
                     {q.group.list.map((x) => (
@@ -93,7 +135,7 @@ export default function QuestionSet({
             )}
             <div className={`card ${ok ? "ring-emerald-300" : bad ? "ring-rose-300" : ""}`}>
               <div className="mb-2 text-sm font-semibold text-slate-400">
-                Câu {i + 1}
+                Câu {i + start}
                 {q.type === "tfng" && " · TRUE / FALSE / NOT GIVEN"}
                 {q.type === "ynng" && " · YES / NO / NOT GIVEN"}
                 {q.type === "multi" && ` · Chọn ${q.answer.length} đáp án`}
@@ -192,25 +234,13 @@ export default function QuestionSet({
           </div>
         );
       })}
-      {!checked ? (
+      {controlled ? null : !checked ? (
         <button
           className="btn-primary w-full"
           onClick={() => {
             setChecked(true);
             onSubmit?.(score, questions.length);
-            if (source)
-              addMistakes(
-                questions
-                  .map((q, i) => ({ q, a: answers[i] }))
-                  .filter(({ q, a }) => !isCorrect(q, a))
-                  .map(({ q, a }) => ({
-                    source,
-                    kind: "exercise" as const,
-                    original: `${q.q}${answerText(q, a) ? ` (bạn chọn: ${answerText(q, a)})` : ""}`,
-                    corrected: correctText(q),
-                    explanationVi: q.explain ?? "",
-                  })),
-              );
+            if (source) saveMistakes(questions, answers, source);
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         >
@@ -224,7 +254,7 @@ export default function QuestionSet({
           <button
             className="btn-ghost mt-3"
             onClick={() => {
-              setAnswers([]);
+              setOwn([]);
               setChecked(false);
             }}
           >

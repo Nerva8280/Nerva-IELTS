@@ -10,6 +10,7 @@ import { todayStr, WEEKDAY_VI } from "@/lib/dates";
 import { MAIN_VOICES, VOICES } from "@/lib/audio-key";
 import { useAuth } from "@/components/AppShell";
 import { LevelChip, PageHeader } from "@/components/ui";
+import OfflineSection from "./OfflineSection";
 
 const ICS_DAYS = ["SU", "MO", "TU", "WE", "TH", "FR", "SA"];
 
@@ -326,6 +327,10 @@ export default function SettingsPage() {
           />
           <span className="w-10 text-right">{s.settings.rate.toFixed(2)}×</span>
         </div>
+      </Section>
+
+      <Section title="Học offline">
+        <OfflineSection />
       </Section>
 
       <Section title="Nguồn âm thanh">

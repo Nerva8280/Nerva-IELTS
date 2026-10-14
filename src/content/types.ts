@@ -174,3 +174,16 @@ export interface VoaListening {
   questions: Question[];
   vocab: { word: string; vi: string }[];
 }
+
+// Full mock test: IELTS Listening (4 parts × 10 questions, AI voices) + 3 Reading passages.
+export interface MockListening {
+  id: string; // "mt-01"
+  title: string;
+  parts: ListeningItem[]; // part 1..4, 10 questions each
+}
+export interface FullTest {
+  id: string; // "1"
+  title: string;
+  listening: MockListening | null;
+  reading: ReadingPassage[]; // easy → hard
+}

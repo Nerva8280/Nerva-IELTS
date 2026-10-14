@@ -20,6 +20,18 @@ export function estimateBand(level: Level, pct: number) {
   return Math.max(1, Math.min(9, BASE_BAND[level] + adj));
 }
 
+// Official IELTS raw-score tables (40 questions): [lowest raw score, band].
+const BAND_TABLE: Record<"listening" | "reading", [number, number][]> = {
+  listening: [[39, 9], [37, 8.5], [35, 8], [32, 7.5], [30, 7], [26, 6.5], [23, 6], [18, 5.5], [16, 5], [13, 4.5], [10, 4], [8, 3.5], [6, 3], [4, 2.5], [1, 2]],
+  reading: [[39, 9], [37, 8.5], [35, 8], [33, 7.5], [30, 7], [27, 6.5], [23, 6], [19, 5.5], [15, 5], [13, 4.5], [10, 4], [8, 3.5], [6, 3], [4, 2.5], [1, 2]],
+};
+
+/** Band for a full-test section; other totals are scaled to 40 questions first. */
+export function rawToBand(skill: "listening" | "reading", score: number, total: number) {
+  const raw = total ? Math.round((score / total) * 40) : 0;
+  return BAND_TABLE[skill].find(([min]) => raw >= min)?.[1] ?? 0;
+}
+
 /** Monday of the week containing the date. */
 export function weekStart(day: string): string {
   const d = parseDay(day);
@@ -40,10 +52,16 @@ export function skillPoints(s: AppState, catalog: Catalog): Record<Skill, Point[
   for (const [id, d] of Object.entries(s.done)) {
     const level = levelOf.get(id);
     if (!level || !d.total) continue;
-    const kind: Skill = id.startsWith("l-") ? "listening" : "reading";
+    const kind: Skill = id.startsWith("l-") || id.startsWith("voa-") ? "listening" : "reading";
     out[kind].push({ date: d.date, band: estimateBand(level, (d.score ?? 0) / d.total) });
   }
-  for (const m of s.mocks) for (const k of ["listening", "reading"] as const) out[k].push({ date: m.date, band: m.band });
+  for (const m of s.mocks) {
+    if (m.test) {
+      // full test: a band per section that was taken
+      if (m.lBand != null) out.listening.push({ date: m.date, band: m.lBand });
+      if (m.rBand != null) out.reading.push({ date: m.date, band: m.rBand });
+    } else for (const k of ["listening", "reading"] as const) out[k].push({ date: m.date, band: m.band });
+  }
   for (const k of Object.keys(out) as Skill[]) out[k].sort((a, b) => a.date.localeCompare(b.date));
   return out;
 }

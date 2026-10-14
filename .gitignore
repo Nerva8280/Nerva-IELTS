@@ -53,3 +53,4 @@ next-env.d.ts
 .env*
 /tools/audio/qa-cache.backup.json
 /tools/audio/hidden.log
+/public/audio/manifest.json

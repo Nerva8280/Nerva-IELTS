@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState, useSyncExternalStore } from "react";
 import { startSync, stopSync, useAppState } from "@/lib/store";
 import { loadVoices } from "@/lib/tts";
 import LoginScreen from "./LoginScreen";
@@ -12,6 +12,16 @@ export interface Me {
 }
 
 const GUEST_KEY = "ielts-coach-guest";
+const ME_KEY = "ielts-coach-me"; // last signed-in user, so the app opens offline
+
+function subscribeOnline(cb: () => void) {
+  window.addEventListener("online", cb);
+  window.addEventListener("offline", cb);
+  return () => {
+    window.removeEventListener("online", cb);
+    window.removeEventListener("offline", cb);
+  };
+}
 const AuthCtx = createContext<{ me: Me | null; guest: boolean; logout: () => Promise<void> }>({
   me: null,
   guest: false,
@@ -34,6 +44,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
   const state = useAppState();
+  const online = useSyncExternalStore(subscribeOnline, () => navigator.onLine, () => true);
 
   useEffect(() => {
     if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js", { scope: "/", updateViaCache: "none" }).catch(() => {});
@@ -42,8 +53,12 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
       let m: Me | null = null;
       try {
         m = (await (await fetch("/api/me")).json()) as Me;
+        if (m.user) localStorage.setItem(ME_KEY, JSON.stringify(m));
+        else localStorage.removeItem(ME_KEY);
       } catch {
-        /* offline */
+        // offline: keep the last signed-in user; progress syncs when the connection is back
+        const cached = localStorage.getItem(ME_KEY);
+        if (cached) m = JSON.parse(cached) as Me;
       }
       setMe(m);
       const isGuest = localStorage.getItem(GUEST_KEY) === "1";
@@ -66,6 +81,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   async function logout() {
     stopSync();
     localStorage.removeItem(GUEST_KEY);
+    localStorage.removeItem(ME_KEY);
     await fetch("/api/auth/logout", { method: "POST" }).catch(() => {});
     location.reload();
   }
@@ -88,6 +104,11 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   const hideNav = pathname === "/placement";
   return (
     <AuthCtx.Provider value={{ me, guest, logout }}>
+      {!online && (
+        <div className="sticky top-0 z-30 bg-slate-800 px-4 pt-[env(safe-area-inset-top)] text-center text-xs text-white">
+          <div className="py-1.5">📴 Đang offline. Bài học đã tải vẫn dùng được; tiến độ tự đồng bộ khi có mạng.</div>
+        </div>
+      )}
       <div className="mx-auto min-h-screen max-w-2xl px-4 pt-[max(1rem,env(safe-area-inset-top))] pb-28">{children}</div>
       {!hideNav && (
         <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-slate-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">

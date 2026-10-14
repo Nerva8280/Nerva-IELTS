@@ -1,7 +1,9 @@
 import "server-only";
 import type {
   GrammarLesson,
+  FullTest,
   ListeningItem,
+  MockListening,
   PlacementWord,
   PronUnit,
   TalkTopic,
@@ -32,6 +34,7 @@ import nativeExamples from "./data/native-examples.json";
 import nativeShadowingData from "./data/native-shadowing.json";
 import synonymsData from "./data/synonyms.json";
 import voaData from "./data/voa-listening.json";
+import mockListeningData from "./data/mock-listening.json";
 
 export const placementWords = placement as PlacementWord[];
 export const grammar = grammarData as GrammarLesson[];
@@ -45,6 +48,15 @@ export const shadowing = [...(nativeShadowingData as ShadowingSet[]), ...(shadow
 export const pronunciation = pronunciationData as PronUnit[];
 export const talk = talkData as TalkTopic[];
 export const voaListening = voaData as VoaListening[];
+export const mockListening = mockListeningData as MockListening[];
+
+/** Full tests: each listening test with one B1 + B2 + C1 IELTS-style passage; the spare passage sets are Reading-only tests. */
+export const fullTests: FullTest[] = ["01", "02", "03", "04"].map((n, i) => ({
+  id: String(i + 1),
+  title: `Full Test ${i + 1}`,
+  listening: mockListening[i] ?? null,
+  reading: ["b1", "b2", "c1"].map((l) => reading.find((r) => r.id === `r2-${l}-${n}`)!),
+}));
 
 // Lower levels win when a word appears twice.
 export const vocab: VocabWord[] = (() => {

@@ -51,7 +51,8 @@ export interface AppState {
   done: Record<string, { date: string; score?: number; total?: number; count: number }>;
   days: Record<string, DayLog>;
   essays: Record<string, { text: string; date: string; selfBand?: number }>;
-  mocks: { date: string; level: Level; score: number; total: number; band: number }[];
+  // test/lBand/rBand: full mock test (sections can be taken separately, so either band may be missing)
+  mocks: { date: string; level: Level; score: number; total: number; band: number; test?: string; lBand?: number; rBand?: number }[];
   pronChecks: { date: string; band: number; source: string }[]; // pronunciation self-assessments
   talks?: TalkRecord[]; // AI-graded speaking answers
   writingGrades?: { date: string; id: string; bands: { task: number; coherence: number; lexical: number; grammar: number; overall: number } }[];
@@ -196,6 +197,17 @@ export async function startSync(owner: string) {
   }
   state.owner = owner;
   persist();
+  await reconcile(owner);
+  if (typeof document !== "undefined") {
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") void pushNow(true);
+    });
+    // studied offline: the newer copy wins once the connection is back
+    window.addEventListener("online", () => void reconcile(owner));
+  }
+}
+
+async function reconcile(owner: string) {
   try {
     const res = await fetch("/api/progress");
     if (res.ok) {
@@ -213,11 +225,6 @@ export async function startSync(owner: string) {
     syncOn = true;
   }
   emit();
-  if (typeof document !== "undefined") {
-    document.addEventListener("visibilitychange", () => {
-      if (document.visibilityState === "hidden") void pushNow(true);
-    });
-  }
 }
 
 export function stopSync() {

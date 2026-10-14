@@ -1,0 +1,2038 @@
+[
+  {
+    "id": "mt-01",
+    "title": "Full Test 1",
+    "parts": [
+      {
+        "id": "mt-01-p1",
+        "level": "B1",
+        "title": "Pottery course enquiry",
+        "part": 1,
+        "contextVi": "Một người đàn ông gọi điện đến trung tâm cộng đồng để hỏi và đăng ký khóa học làm gốm.",
+        "script": [
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Good morning, Willowbrook Community Centre, Megan speaking. How can I help?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Hello. I saw a poster for your beginners' pottery course, and I'd like to find out about joining it."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Of course. We still have places on the autumn course. Can I take your details first? What's your surname?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "It's Brenton."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Could you spell that for me, please?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Sure. That's B-R-E-N-T-O-N."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Thank you, Mr Brenton. And a contact number?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "My mobile is oh one six one, five five five, oh one four seven."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Lovely. Now, the course runs on three evenings, Tuesday, Wednesday or Thursday. Which would suit you?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Tuesday would be best, because I finish work early that day."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Oh, I'm sorry, the Tuesday class is already full. Wednesday has places, and so does Thursday."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "I play football on Wednesdays, so Thursday it is."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Great. The poster says the class starts at seven o'clock, but we've changed it, so it's seven fifteen and finishes at nine thirty."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "And how much is the course?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "It used to be seventy-five pounds, but the price went up this term, so it's eighty-five pounds for ten weeks, including all the clay."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "That's fine. Do I need to bring anything?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Just an apron, as clay gets everywhere. All the tools are provided, and you don't need a towel because there are sinks in the studio."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Where exactly is the centre?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "We're on Mill Lane, just past the post office."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "And is there somewhere to park?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "The small car park at the front is for staff, and the street opposite the café is always busy. Most people use the car park behind the library, which is only a two-minute walk."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Good. And which room is the class in?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Studio twelve, on the first floor. Studio two on the ground floor is for the painting class, so please don't go there by mistake."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "One more thing. Are there any discounts?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Yes, pensioners get ten percent off, but unfortunately students don't. I'll send you a confirmation by email. Thanks for calling, Mr Brenton."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Thank you very much. Goodbye."
+          }
+        ],
+        "questions": [
+          {
+            "type": "gap",
+            "q": "Surname: ____",
+            "answer": [
+              "Brenton",
+              "B-R-E-N-T-O-N"
+            ],
+            "explain": "Daniel đánh vần: 'That's B-R-E-N-T-O-N' → Brenton.",
+            "group": {
+              "title": "Questions 1–2",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nPOTTERY COURSE ENQUIRY\nSurname: (1) ____\nContact number: (2) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Contact number: ____",
+            "answer": [
+              "0161 555 0147",
+              "01615550147"
+            ],
+            "explain": "Daniel nói 'My mobile is 0161 555 0147' → 0161 555 0147.",
+            "group": {
+              "title": "Questions 1–2",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nPOTTERY COURSE ENQUIRY\nSurname: (1) ____\nContact number: (2) ____"
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "Which evening will Daniel attend the course?",
+            "options": [
+              "Tuesday",
+              "Wednesday",
+              "Thursday"
+            ],
+            "answer": 2,
+            "explain": "Lớp thứ Ba đã đầy ('already full'), Daniel chơi bóng đá vào thứ Tư ('I play football on Wednesdays') nên chọn 'Thursday it is' → thứ Năm.",
+            "group": {
+              "title": "Question 3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Start time: ____ p.m.",
+            "answer": [
+              "7.15",
+              "7:15",
+              "seven fifteen",
+              "quarter past seven"
+            ],
+            "explain": "Áp phích ghi 7 giờ nhưng đã đổi: 'it's 7.15' → 7.15.",
+            "group": {
+              "title": "Questions 4–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nCourse details\nStart time: (4) ____ p.m.\nFee: £ (5) ____\nStudents must bring: an (6) ____\nCentre address: (7) ____ Lane"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Fee: £ ____",
+            "answer": [
+              "85",
+              "£85",
+              "eighty-five",
+              "85 pounds"
+            ],
+            "explain": "Giá cũ 75 nhưng đã tăng: 'it's 85 pounds for ten weeks' → 85.",
+            "group": {
+              "title": "Questions 4–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nCourse details\nStart time: (4) ____ p.m.\nFee: £ (5) ____\nStudents must bring: an (6) ____\nCentre address: (7) ____ Lane"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Students must bring: an ____",
+            "answer": [
+              "apron"
+            ],
+            "explain": "Megan nói 'Just an apron' (dụng cụ có sẵn, không cần khăn) → apron.",
+            "group": {
+              "title": "Questions 4–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nCourse details\nStart time: (4) ____ p.m.\nFee: £ (5) ____\nStudents must bring: an (6) ____\nCentre address: (7) ____ Lane"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Centre address: ____ Lane",
+            "answer": [
+              "Mill"
+            ],
+            "explain": "Megan nói 'We're on Mill Lane' → Mill.",
+            "group": {
+              "title": "Questions 4–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nCourse details\nStart time: (4) ____ p.m.\nFee: £ (5) ____\nStudents must bring: an (6) ____\nCentre address: (7) ____ Lane"
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "Where does Megan recommend that Daniel parks?",
+            "options": [
+              "in the small car park at the front",
+              "in the street opposite the café",
+              "in the car park behind the library"
+            ],
+            "answer": 2,
+            "explain": "Bãi nhỏ phía trước dành cho nhân viên, đường đối diện quán luôn đông; 'Most people use the car park behind the library' → C.",
+            "group": {
+              "title": "Question 8",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Room: Studio ____",
+            "answer": [
+              "12",
+              "twelve",
+              "Studio 12"
+            ],
+            "explain": "Megan nói 'Studio 12, on the first floor' (Studio 2 là lớp vẽ) → 12.",
+            "group": {
+              "title": "Questions 9–10",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nRoom: Studio (9) ____\nDiscount of ten percent for (10) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Discount of ten percent for ____",
+            "answer": [
+              "pensioners"
+            ],
+            "explain": "'pensioners get ten percent off, but unfortunately students don't' → pensioners.",
+            "group": {
+              "title": "Questions 9–10",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nRoom: Studio (9) ____\nDiscount of ten percent for (10) ____"
+            }
+          }
+        ]
+      },
+      {
+        "id": "mt-01-p2",
+        "level": "B1",
+        "title": "Welcome to Kestrel Valley Nature Park",
+        "part": 2,
+        "contextVi": "Một nhân viên công viên giới thiệu cho du khách về lịch sử, giờ mở cửa, bản đồ và sự kiện của công viên thiên nhiên.",
+        "script": [
+          {
+            "speaker": "Ruth",
+            "gender": "f",
+            "text": "Good morning everyone, and welcome to Kestrel Valley Nature Park. Before you set off, I'll give you a quick introduction. The park is only twenty-five years old, but the land has a long history. Many people assume it was farmland, and some of the stone walls do come from old farms, but most of the lake was actually created when a quarry was flooded after the stone workers left in the nineteen seventies."
+          },
+          {
+            "speaker": "Ruth",
+            "gender": "f",
+            "text": "Opening times are worth knowing. The car park opens at eight, for walkers and dog owners, but the visitor centre, where you can pick up maps, doesn't open until nine. The café opens even later, at ten, so you might want to bring a snack if you arrive early."
+          },
+          {
+            "speaker": "Ruth",
+            "gender": "f",
+            "text": "Entry to the park is free, and so is parking, which surprises many visitors. The only thing you pay for is our guided walks, which are six pounds per person and last about ninety minutes. Bird-watching and walking on the main paths cost nothing at all."
+          },
+          {
+            "speaker": "Ruth",
+            "gender": "f",
+            "text": "Now let me take you round the map. The first aid point is right next to the main gate, so you'll pass it as you come in. The café used to be in the visitor centre, but it moved last year, and it's now inside the old barn, the stone building you can see in the middle of the map."
+          },
+          {
+            "speaker": "Ruth",
+            "gender": "f",
+            "text": "The toilets are behind the visitor centre, not in it, which confuses a lot of people, so look for the small wooden building. If you're keen on birds, many visitors expect the hide to be along the river path, but the best one is actually beside the lake, so head there early in the morning."
+          },
+          {
+            "speaker": "Ruth",
+            "gender": "f",
+            "text": "If you'd like to explore on two wheels, bike hire is run by a separate company, and you'll find it at the south entrance, which is the opposite end of the park from the main gate. It's about a twenty-minute walk from here, so you may prefer to drive round."
+          },
+          {
+            "speaker": "Ruth",
+            "gender": "f",
+            "text": "A few requests before you go. Dogs are welcome but must be kept on a lead because of the nesting birds, and you're welcome to take photographs of the wild flowers. What we really ask is that you don't feed the ducks. Many people like to throw bread, but it makes them ill, so please don't."
+          },
+          {
+            "speaker": "Ruth",
+            "gender": "f",
+            "text": "Finally, some events next month. We were going to run an astronomy night, but it's been cancelled because of the weather forecast. Instead we have a bat walk on the twelfth, and a photography workshop on the nineteenth. Pond-dipping is only in summer, and the craft market doesn't happen until December. Enjoy your visit."
+          }
+        ],
+        "questions": [
+          {
+            "type": "mcq",
+            "q": "Before it became a park, the land was mostly",
+            "options": [
+              "a farm",
+              "a quarry",
+              "a railway"
+            ],
+            "answer": 1,
+            "explain": "Nhiều người nghĩ đó là nông trại, nhưng 'the lake was actually created when a quarry was flooded' → mỏ đá.",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "The visitor centre opens at",
+            "options": [
+              "8.00",
+              "9.00",
+              "10.00"
+            ],
+            "answer": 1,
+            "explain": "Bãi xe mở lúc 8, quán cà phê lúc 10; 'the visitor centre ... doesn't open until nine' → 9.00.",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "Visitors have to pay for",
+            "options": [
+              "parking",
+              "guided walks",
+              "entry to the bird areas"
+            ],
+            "answer": 1,
+            "explain": "'Entry ... is free, and so is parking. The only thing you pay for is our guided walks' → B.",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "match",
+            "q": "First aid point",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 0,
+            "explain": "'The first aid point is right next to the main gate' → A.",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "Where is each facility located? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  next to the main gate",
+                "B  beside the lake",
+                "C  on top of the hill",
+                "D  inside the old barn",
+                "E  behind the visitor centre",
+                "F  along the river path",
+                "G  at the south entrance"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Café",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 3,
+            "explain": "Quán từng ở visitor centre nhưng 'it's now inside the old barn' → D.",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "Where is each facility located? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  next to the main gate",
+                "B  beside the lake",
+                "C  on top of the hill",
+                "D  inside the old barn",
+                "E  behind the visitor centre",
+                "F  along the river path",
+                "G  at the south entrance"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Toilets",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 4,
+            "explain": "'The toilets are behind the visitor centre' → E.",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "Where is each facility located? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  next to the main gate",
+                "B  beside the lake",
+                "C  on top of the hill",
+                "D  inside the old barn",
+                "E  behind the visitor centre",
+                "F  along the river path",
+                "G  at the south entrance"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Bird hide",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 1,
+            "explain": "Nhiều người nghĩ ở river path nhưng 'the best one is actually beside the lake' → B.",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "Where is each facility located? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  next to the main gate",
+                "B  beside the lake",
+                "C  on top of the hill",
+                "D  inside the old barn",
+                "E  behind the visitor centre",
+                "F  along the river path",
+                "G  at the south entrance"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Bike hire",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 6,
+            "explain": "'you'll find it at the south entrance' → G.",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "Where is each facility located? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  next to the main gate",
+                "B  beside the lake",
+                "C  on top of the hill",
+                "D  inside the old barn",
+                "E  behind the visitor centre",
+                "F  along the river path",
+                "G  at the south entrance"
+              ]
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What are visitors asked not to do?",
+            "options": [
+              "bring dogs",
+              "photograph the flowers",
+              "feed the ducks"
+            ],
+            "answer": 2,
+            "explain": "Chó được phép nếu có dây dắt, chụp ảnh hoa được hoan nghênh; 'we really ask is that you don't feed the ducks' → C.",
+            "group": {
+              "title": "Question 9",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "multi",
+            "q": "Which TWO events will take place next month?",
+            "options": [
+              "an astronomy night",
+              "a bat walk",
+              "pond-dipping",
+              "a photography workshop",
+              "a craft market"
+            ],
+            "answer": [
+              1,
+              3
+            ],
+            "explain": "Đêm thiên văn bị hủy; 'a bat walk on the twelfth, and a photography workshop on the nineteenth' → B và D. Pond-dipping chỉ vào mùa hè, chợ thủ công vào tháng Mười Hai.",
+            "group": {
+              "title": "Question 10",
+              "text": "Choose TWO letters, A–E. Which TWO events will take place next month?"
+            }
+          }
+        ]
+      },
+      {
+        "id": "mt-01-p3",
+        "level": "B2",
+        "title": "Supermarket packaging presentation",
+        "part": 3,
+        "contextVi": "Hai sinh viên trao đổi với giảng viên về bài thuyết trình nhóm về bao bì nhựa trong siêu thị.",
+        "script": [
+          {
+            "speaker": "Dr Alvarez",
+            "gender": "m",
+            "text": "Hello both, thanks for coming. You wanted to talk about your presentation on supermarket packaging. How's it going?"
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "Quite well, although we nearly chose a different topic. At first I suggested food waste, but Priya pointed out that almost every group in previous years has done it, so we went for plastic packaging instead."
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "It also gives us a local angle. We're comparing three supermarkets in the town centre."
+          },
+          {
+            "speaker": "Dr Alvarez",
+            "gender": "m",
+            "text": "Good. And how are you collecting your data? Last time you mentioned interviewing shoppers."
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "That was the plan, but the store managers refused permission to stand outside their shops. So we've put a questionnaire online and we're sharing it through the university's social media."
+          },
+          {
+            "speaker": "Dr Alvarez",
+            "gender": "m",
+            "text": "That's reasonable, but be careful. An online survey may attract mostly students, so your results might not represent ordinary shoppers. You need to mention that limitation in your talk."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "We did think of that. We're aiming for about two hundred responses, and we'll ask our families to share the link with their neighbours and friends as well."
+          },
+          {
+            "speaker": "Dr Alvarez",
+            "gender": "m",
+            "text": "Good idea. Now, let's look at your sources. What have you found so far?"
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "The council report looked ideal at first, because it has figures for every supermarket in the region."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "True, but it was published in twenty fourteen, so most of the packaging policies it describes have since changed."
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "Then there's the Greenfield Stores brochure about reducing plastic. It's full of impressive claims, but of course it only tells the company's side of the story."
+          },
+          {
+            "speaker": "Dr Alvarez",
+            "gender": "m",
+            "text": "Yes, treat that with caution. What about academic sources?"
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "There's a journal article on recycling rates. It's very thorough, but frankly the statistics are so complicated that we had to ask a lecturer to explain them to us."
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "And we found a newspaper article saying supermarkets waste thousands of tonnes of plastic, but it gives no evidence for that figure, so we can't really use it."
+          },
+          {
+            "speaker": "Dr Alvarez",
+            "gender": "m",
+            "text": "That's sensible. Now, the structure of the presentation. How long do you have?"
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "Fifteen minutes for the talk itself, then five minutes for questions, so twenty in total."
+          },
+          {
+            "speaker": "Dr Alvarez",
+            "gender": "m",
+            "text": "Fine. For your conclusion, I'd suggest two things. First, a clear recommendation for the supermarkets, and second, an honest discussion of the weaknesses of your own research. You don't need to repeat all your survey results, and photographs belong earlier in the talk."
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "That makes sense. When should we send you a draft of the slides?"
+          },
+          {
+            "speaker": "Dr Alvarez",
+            "gender": "m",
+            "text": "By next Friday, please. I'm at a conference on Thursday, so email it and I'll comment over the weekend. And do rehearse before the real thing, ideally in front of other students."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "We'll do that. I'll book a seminar room for Monday afternoon."
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "Thank you, Dr Alvarez. This has been really helpful."
+          },
+          {
+            "speaker": "Dr Alvarez",
+            "gender": "m",
+            "text": "You're welcome. Good luck with the survey."
+          }
+        ],
+        "questions": [
+          {
+            "type": "mcq",
+            "q": "Why did the students reject food waste as a topic?",
+            "options": [
+              "It was too complicated.",
+              "Other groups had already done it.",
+              "There was no data available."
+            ],
+            "answer": 1,
+            "explain": "Tom nói Priya chỉ ra 'almost every group in previous years has done it' → B.",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What is Dr Alvarez's concern about the online questionnaire?",
+            "options": [
+              "It may have too few questions.",
+              "It may need ethical approval.",
+              "Its respondents may not be typical shoppers."
+            ],
+            "answer": 2,
+            "explain": "'An online survey may attract mostly students, so your results might not represent ordinary shoppers' → C.",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "How will the students try to get more responses?",
+            "options": [
+              "by asking their families to share the link",
+              "by offering a prize",
+              "by returning to the shops"
+            ],
+            "answer": 0,
+            "explain": "Tom nói 'we'll ask our families to share the link' → A. Các cửa hàng đã từ chối cho phỏng vấn.",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "match",
+            "q": "The council report",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 1,
+            "explain": "Tom nói 'it was published in 2014, so most of the packaging policies ... have since changed' → B (lỗi thời).",
+            "group": {
+              "title": "Questions 4–7",
+              "text": "What do the students say about each source? Choose FOUR answers from the box and write the correct letter, A–E, next to Questions 4–7.",
+              "list": [
+                "A  It lacks evidence",
+                "B  It is out of date",
+                "C  It is too technical",
+                "D  It only presents one point of view",
+                "E  It is the most useful"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "The Greenfield Stores brochure",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 3,
+            "explain": "'it only tells the company's side of the story' → D (chỉ một góc nhìn).",
+            "group": {
+              "title": "Questions 4–7",
+              "text": "What do the students say about each source? Choose FOUR answers from the box and write the correct letter, A–E, next to Questions 4–7.",
+              "list": [
+                "A  It lacks evidence",
+                "B  It is out of date",
+                "C  It is too technical",
+                "D  It only presents one point of view",
+                "E  It is the most useful"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "The journal article",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 2,
+            "explain": "'the statistics are so complicated that we had to ask a lecturer to explain them' → C (quá chuyên môn).",
+            "group": {
+              "title": "Questions 4–7",
+              "text": "What do the students say about each source? Choose FOUR answers from the box and write the correct letter, A–E, next to Questions 4–7.",
+              "list": [
+                "A  It lacks evidence",
+                "B  It is out of date",
+                "C  It is too technical",
+                "D  It only presents one point of view",
+                "E  It is the most useful"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "The newspaper article",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 0,
+            "explain": "'it gives no evidence for that figure' → A (thiếu bằng chứng).",
+            "group": {
+              "title": "Questions 4–7",
+              "text": "What do the students say about each source? Choose FOUR answers from the box and write the correct letter, A–E, next to Questions 4–7.",
+              "list": [
+                "A  It lacks evidence",
+                "B  It is out of date",
+                "C  It is too technical",
+                "D  It only presents one point of view",
+                "E  It is the most useful"
+              ]
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "How long is the presentation itself?",
+            "options": [
+              "10 minutes",
+              "15 minutes",
+              "20 minutes"
+            ],
+            "answer": 1,
+            "explain": "'Fifteen minutes for the talk itself, then five minutes for questions, so twenty in total' → 15 phút.",
+            "group": {
+              "title": "Question 8",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "multi",
+            "q": "Which TWO things does Dr Alvarez suggest including in the conclusion?",
+            "options": [
+              "a recommendation for supermarkets",
+              "detailed survey results",
+              "weaknesses of their research",
+              "photographs",
+              "a list of sources"
+            ],
+            "answer": [
+              0,
+              2
+            ],
+            "explain": "'a clear recommendation for the supermarkets, and ... an honest discussion of the weaknesses of your own research' → A và C. Kết quả chi tiết và ảnh không cần.",
+            "group": {
+              "title": "Question 9",
+              "text": "Choose TWO letters, A–E. Which TWO things does Dr Alvarez suggest including in the conclusion?"
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "When must the students send the draft slides?",
+            "options": [
+              "Thursday",
+              "Friday",
+              "Monday"
+            ],
+            "answer": 1,
+            "explain": "'By next Friday, please.' Thứ Năm là ngày thầy đi hội nghị, thứ Hai là lịch đặt phòng của Tom → Friday.",
+            "group": {
+              "title": "Question 10",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          }
+        ]
+      },
+      {
+        "id": "mt-01-p4",
+        "level": "C1",
+        "title": "Green roofs",
+        "part": 4,
+        "contextVi": "Một bài giảng đại học về lịch sử, các loại hình, lợi ích và hạn chế của mái nhà xanh.",
+        "script": [
+          {
+            "speaker": "Dr Hartley",
+            "gender": "f",
+            "text": "Today I'd like to talk about green roofs, that is, roofs deliberately covered with vegetation. Although they seem like a modern idea, the earliest examples are the turf roofs of traditional Scandinavian houses, where a layer of soil provided insulation against the cold. They were largely forgotten during the nineteenth century, until German engineers revived the concept in the nineteen sixties."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "gender": "f",
+            "text": "Modern green roofs come in two main types. Extensive roofs have only a thin layer of growing material, usually under fifteen centimetres, and are planted mainly with a hardy plant called sedum. They are light and cheap. Intensive roofs, by contrast, can support shrubs and even small trees, but they require much stronger structures underneath, as well as regular irrigation."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "gender": "f",
+            "text": "Let me now turn to the benefits, and the first is stormwater management. In a heavy rainstorm, a green roof can absorb up to eighty percent of the water that falls on it, which relieves the pressure on city drains and so reduces the risk of flooding. This is why a number of European cities have encouraged them."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "gender": "f",
+            "text": "The second benefit relates to temperature. Cities are warmer than the surrounding countryside, an effect known as the urban heat island. Plants cool the air through evaporation, and measurements in one Australian city showed that green roof surfaces were up to thirty degrees cooler than conventional ones on a summer afternoon."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "gender": "f",
+            "text": "Third, there is biodiversity. Even small roofs attract insects, and so-called brownfield roofs, which imitate abandoned industrial land, have attracted rare beetles, as well as nesting birds. In some cities, these roofs now act as stepping stones between parks that would otherwise be isolated."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "gender": "f",
+            "text": "However, there are drawbacks. The most obvious is cost, since installation can be three times that of a conventional roof. There is also the matter of maintenance, because weeds can damage the waterproof membrane. Some owners worry about leaks, but research suggests that properly installed roofs actually last longer, since the vegetation protects the roof from ultraviolet light."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "gender": "f",
+            "text": "Despite these concerns, several countries have made green roofs compulsory in certain cases. The best-known example is the Swiss city of Basel, where the regulations require all new flat roofs to be green. As a result, the city now has one of the highest proportions of green roofs in Europe."
+          },
+          {
+            "speaker": "Dr Hartley",
+            "gender": "f",
+            "text": "To sum up, green roofs are an old idea that has been given new life by modern technology. Their value lies not in any single advantage but in the combination of water control, cooling and wildlife habitat. In the next session, we'll look at how their performance can be measured in practice."
+          }
+        ],
+        "questions": [
+          {
+            "type": "gap",
+            "q": "Early Scandinavian roofs used a layer of ____ to keep houses warm.",
+            "answer": [
+              "soil"
+            ],
+            "explain": "'a layer of soil provided insulation against the cold' → soil.",
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nGREEN ROOFS\nHistory\n- Early Scandinavian roofs used a layer of (1) ____ to keep houses warm\n- Idea revived in the 1960s by (2) ____ engineers\nTypes\n- Extensive: thin layer, mainly planted with (3) ____\n- Intensive: needs much stronger (4) ____\nBenefits\n- Stormwater: reduces pressure on city (5) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "The idea was revived in the 1960s by ____ engineers.",
+            "answer": [
+              "German"
+            ],
+            "explain": "'German engineers revived the concept in the 1960s' → German.",
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nGREEN ROOFS\nHistory\n- Early Scandinavian roofs used a layer of (1) ____ to keep houses warm\n- Idea revived in the 1960s by (2) ____ engineers\nTypes\n- Extensive: thin layer, mainly planted with (3) ____\n- Intensive: needs much stronger (4) ____\nBenefits\n- Stormwater: reduces pressure on city (5) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Extensive roofs are mainly planted with ____.",
+            "answer": [
+              "sedum"
+            ],
+            "explain": "'planted mainly with a hardy plant called sedum' → sedum.",
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nGREEN ROOFS\nHistory\n- Early Scandinavian roofs used a layer of (1) ____ to keep houses warm\n- Idea revived in the 1960s by (2) ____ engineers\nTypes\n- Extensive: thin layer, mainly planted with (3) ____\n- Intensive: needs much stronger (4) ____\nBenefits\n- Stormwater: reduces pressure on city (5) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Intensive roofs need much stronger ____.",
+            "answer": [
+              "structures",
+              "structure"
+            ],
+            "explain": "'they require much stronger structures underneath' → structures.",
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nGREEN ROOFS\nHistory\n- Early Scandinavian roofs used a layer of (1) ____ to keep houses warm\n- Idea revived in the 1960s by (2) ____ engineers\nTypes\n- Extensive: thin layer, mainly planted with (3) ____\n- Intensive: needs much stronger (4) ____\nBenefits\n- Stormwater: reduces pressure on city (5) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Green roofs reduce pressure on city ____.",
+            "answer": [
+              "drains"
+            ],
+            "explain": "'relieves the pressure on city drains' → drains.",
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nGREEN ROOFS\nHistory\n- Early Scandinavian roofs used a layer of (1) ____ to keep houses warm\n- Idea revived in the 1960s by (2) ____ engineers\nTypes\n- Extensive: thin layer, mainly planted with (3) ____\n- Intensive: needs much stronger (4) ____\nBenefits\n- Stormwater: reduces pressure on city (5) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Green roofs help reduce the urban ____ island effect.",
+            "answer": [
+              "heat"
+            ],
+            "explain": "'an effect known as the urban heat island' → heat.",
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nBenefits (continued)\n- Temperature: helps reduce the urban (6) ____ island effect\n- Plants cool the air through (7) ____\n- Biodiversity: brownfield roofs attract rare (8) ____\nDrawbacks\n- Weeds can damage the waterproof (9) ____\nRegulations\n- In Basel, all new (10) ____ roofs must be green"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Plants cool the air through ____.",
+            "answer": [
+              "evaporation"
+            ],
+            "explain": "'Plants cool the air through evaporation' → evaporation.",
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nBenefits (continued)\n- Temperature: helps reduce the urban (6) ____ island effect\n- Plants cool the air through (7) ____\n- Biodiversity: brownfield roofs attract rare (8) ____\nDrawbacks\n- Weeds can damage the waterproof (9) ____\nRegulations\n- In Basel, all new (10) ____ roofs must be green"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Brownfield roofs attract rare ____.",
+            "answer": [
+              "beetles"
+            ],
+            "explain": "'have attracted rare beetles, as well as nesting birds' → beetles.",
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nBenefits (continued)\n- Temperature: helps reduce the urban (6) ____ island effect\n- Plants cool the air through (7) ____\n- Biodiversity: brownfield roofs attract rare (8) ____\nDrawbacks\n- Weeds can damage the waterproof (9) ____\nRegulations\n- In Basel, all new (10) ____ roofs must be green"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Weeds can damage the waterproof ____.",
+            "answer": [
+              "membrane"
+            ],
+            "explain": "'weeds can damage the waterproof membrane' → membrane (lo ngại rò rỉ chỉ là phụ).",
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nBenefits (continued)\n- Temperature: helps reduce the urban (6) ____ island effect\n- Plants cool the air through (7) ____\n- Biodiversity: brownfield roofs attract rare (8) ____\nDrawbacks\n- Weeds can damage the waterproof (9) ____\nRegulations\n- In Basel, all new (10) ____ roofs must be green"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "In Basel, all new ____ roofs must be green.",
+            "answer": [
+              "flat"
+            ],
+            "explain": "'require all new flat roofs to be green' → flat.",
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nBenefits (continued)\n- Temperature: helps reduce the urban (6) ____ island effect\n- Plants cool the air through (7) ____\n- Biodiversity: brownfield roofs attract rare (8) ____\nDrawbacks\n- Weeds can damage the waterproof (9) ____\nRegulations\n- In Basel, all new (10) ____ roofs must be green"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt-02",
+    "title": "Full Test 2",
+    "parts": [
+      {
+        "id": "mt-02-p1",
+        "level": "B1",
+        "title": "Joining a climbing centre",
+        "part": 1,
+        "contextVi": "Một người đàn ông gọi điện đến trung tâm leo núi trong nhà để hỏi về việc đăng ký thành viên.",
+        "script": [
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Good morning, Harbourview Climbing Centre, Megan speaking. How can I help?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Hello. I'm thinking of joining the centre, and I wondered if you could tell me how it all works."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Of course. Can I take your name first, so I can set up an enquiry record?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Yes, it's Daniel Brennick."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Could you spell the surname for me, please?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Sure. That's B-R-E-N-N-I-C-K."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Thank you. And if you're wondering where we are, we're at fourteen Calder Road, just behind the old bus station. Please don't confuse it with Calder Street, which is on the other side of town."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Thanks, I'll make a note of that. Is there anything I have to do before I can start climbing?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Yes, every new member has to complete a safety induction. We have places on Wednesday evening, if that suits you."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Wednesday is difficult for me, because I work late. Is Thursday possible?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Yes, Thursday is fine. The first session at five thirty is already full, so I'd book you into the later one, at six thirty in the evening. It takes about ninety minutes."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "That's perfect. Is there anything I should bring?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Just comfortable sports clothes. We lend out climbing shoes for free during the induction. But do bring a padlock for your locker, because we provide the lockers but not the locks."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "OK, a padlock. I'll buy one on the way."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Now I'll ask a few questions for the form. How did you hear about us?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "My sister told me about you. She joined last year. I did see your advert on a bus too, but she's the reason I called."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Lovely. And what kind of climbing interests you most? We have bouldering, rope climbing and a fitness area."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "I'd like to try rope climbing eventually, but I've never done it. I'll start with bouldering, since I don't need a partner for that."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "That's sensible. Now, for membership, the standard one is fifty-two pounds a month and lets you come at any time. Off-peak is thirty-eight pounds, but only on weekdays before four o'clock. And there's a weekend-only one at thirty pounds."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "I finish work at half past five, and I'm busy on Saturdays, so off-peak and weekend-only are no good for me. I'll take the standard one."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Great. The joining fee is normally twenty pounds, but this month we're offering it at fifteen pounds."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Excellent. Thank you very much, Megan. I'll see you on Thursday."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Goodbye, Daniel. See you then."
+          }
+        ],
+        "questions": [
+          {
+            "type": "gap",
+            "q": "Surname: ____",
+            "answer": [
+              "Brennick"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nHarbourview Climbing Centre – enquiry\nSurname: (1) ____\nLocation: 14 (2) ____ Road\nSafety induction day: (3) ____\nInduction time: (4) ____ p.m.\nBring: a (5) ____ for the locker"
+            },
+            "explain": "Daniel nói 'Daniel Brennick' rồi đánh vần 'B-R-E-N-N-I-C-K' → Brennick."
+          },
+          {
+            "type": "gap",
+            "q": "Location: 14 ____ Road",
+            "answer": [
+              "Calder"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nHarbourview Climbing Centre – enquiry\nSurname: (1) ____\nLocation: 14 (2) ____ Road\nSafety induction day: (3) ____\nInduction time: (4) ____ p.m.\nBring: a (5) ____ for the locker"
+            },
+            "explain": "Megan nói 'at 14 Calder Road' và dặn đừng nhầm với 'Calder Street' → Calder."
+          },
+          {
+            "type": "gap",
+            "q": "Safety induction day: ____",
+            "answer": [
+              "Thursday"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nHarbourview Climbing Centre – enquiry\nSurname: (1) ____\nLocation: 14 (2) ____ Road\nSafety induction day: (3) ____\nInduction time: (4) ____ p.m.\nBring: a (5) ____ for the locker"
+            },
+            "explain": "Megan đề nghị Wednesday nhưng Daniel nói 'Wednesday is difficult... Is Thursday possible?' → Thursday."
+          },
+          {
+            "type": "gap",
+            "q": "Induction time: ____ p.m.",
+            "answer": [
+              "6.30",
+              "6:30",
+              "six thirty",
+              "half past six",
+              "6.30 pm"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nHarbourview Climbing Centre – enquiry\nSurname: (1) ____\nLocation: 14 (2) ____ Road\nSafety induction day: (3) ____\nInduction time: (4) ____ p.m.\nBring: a (5) ____ for the locker"
+            },
+            "explain": "'The first session at 5.30 is already full... the later one, at 6.30 in the evening' → 6.30 (5.30 là bẫy)."
+          },
+          {
+            "type": "gap",
+            "q": "Bring: a ____ for the locker",
+            "answer": [
+              "padlock",
+              "lock"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nHarbourview Climbing Centre – enquiry\nSurname: (1) ____\nLocation: 14 (2) ____ Road\nSafety induction day: (3) ____\nInduction time: (4) ____ p.m.\nBring: a (5) ____ for the locker"
+            },
+            "explain": "Megan nói 'do bring a padlock for your locker' → padlock."
+          },
+          {
+            "type": "mcq",
+            "q": "How did Daniel hear about the centre?",
+            "options": [
+              "from an advert on a bus",
+              "from his sister",
+              "from a website"
+            ],
+            "answer": 1,
+            "group": {
+              "title": "Questions 6–8",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "'My sister told me about you... she's the reason I called' → từ chị gái. Quảng cáo trên xe buýt chỉ là phụ."
+          },
+          {
+            "type": "mcq",
+            "q": "What type of climbing will Daniel start with?",
+            "options": [
+              "rope climbing",
+              "bouldering",
+              "fitness training"
+            ],
+            "answer": 1,
+            "group": {
+              "title": "Questions 6–8",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "Anh ấy muốn thử rope climbing sau này nhưng 'I'll start with bouldering'."
+          },
+          {
+            "type": "mcq",
+            "q": "Which membership does Daniel choose?",
+            "options": [
+              "standard",
+              "off-peak",
+              "weekend-only"
+            ],
+            "answer": 0,
+            "group": {
+              "title": "Questions 6–8",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "'off-peak and weekend-only are no good for me. I'll take the standard one.'"
+          },
+          {
+            "type": "gap",
+            "q": "Monthly fee (standard): £____",
+            "answer": [
+              "52",
+              "£52",
+              "fifty-two"
+            ],
+            "group": {
+              "title": "Questions 9–10",
+              "text": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nMembership\nMonthly fee (standard): £(9) ____\nJoining fee this month: £(10) ____"
+            },
+            "explain": "'the standard one is 52 pounds a month' → 52 (38 là off-peak, 30 là weekend-only)."
+          },
+          {
+            "type": "gap",
+            "q": "Joining fee this month: £____",
+            "answer": [
+              "15",
+              "£15",
+              "fifteen"
+            ],
+            "group": {
+              "title": "Questions 9–10",
+              "text": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nMembership\nMonthly fee (standard): £(9) ____\nJoining fee this month: £(10) ____"
+            },
+            "explain": "'normally 20 pounds, but this month... 15 pounds' → 15."
+          }
+        ]
+      },
+      {
+        "id": "mt-02-p2",
+        "level": "B1",
+        "title": "A new park opens in the city",
+        "part": 2,
+        "contextVi": "Một người dẫn chương trình radio địa phương giới thiệu công viên mới sắp mở cửa trong thành phố.",
+        "script": [
+          {
+            "speaker": "Nadia",
+            "gender": "f",
+            "text": "Welcome to the community slot on Greenline Radio. This week, the long-awaited Marlow Fields Park finally opens to the public on Saturday the twelfth of April. You may have seen the eleventh of April on some websites, but that's only a private preview for local councillors, so please don't turn up on Friday."
+          },
+          {
+            "speaker": "Nadia",
+            "gender": "f",
+            "text": "Many people believe the city council paid for the whole project, but in fact most of the money, about seventy percent, came from a national lottery grant. The council paid for the playground, and a few local businesses donated the trees."
+          },
+          {
+            "speaker": "Nadia",
+            "gender": "f",
+            "text": "The site has an interesting past. It was a tram depot for many years, and later a car factory, which closed in the nineteen nineties. For the last ten years or so, before building began, the land was used as a temporary car park, which is why the ground needed so much work."
+          },
+          {
+            "speaker": "Nadia",
+            "gender": "f",
+            "text": "Now let me take you on a tour. When you come in through the East Gate, the first thing you'll see is a children's maze made of tall hedges. It's already popular with the families who've seen it growing. Further on, at the Lakeside, there's a wooden bird hide, where you can watch ducks and herons without disturbing them."
+          },
+          {
+            "speaker": "Nadia",
+            "gender": "f",
+            "text": "Walk on to Orchard Corner, where old apple and pear trees have been kept, and you'll find several picnic shelters, so a shower won't spoil your lunch. If you're feeling energetic, climb up to the Hilltop, where artists have placed eight sculptures along a winding path, and the view over the city is wonderful."
+          },
+          {
+            "speaker": "Nadia",
+            "gender": "f",
+            "text": "The last area is Old Station Square, by the West Gate, where a small café will serve hot drinks and cakes. An outdoor gym was planned for that area, but the council decided it was too expensive, and the bike repair stand has been postponed until next year."
+          },
+          {
+            "speaker": "Nadia",
+            "gender": "f",
+            "text": "Opening hours: from April to September, the park is open from six in the morning until nine at night. In winter, the closing time was going to be five o'clock, but after requests from residents who walk home from work, the gates will now close at six."
+          },
+          {
+            "speaker": "Nadia",
+            "gender": "f",
+            "text": "And finally, the opening weekend. On Saturday there'll be a guided history walk, and on Sunday morning children can join a tree planting session. We had hoped for live music too, but unfortunately the band has pulled out. Free bike checks won't start until May. See you there!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "mcq",
+            "q": "The park will open to the public on",
+            "options": [
+              "Friday the eleventh of April.",
+              "Saturday the twelfth of April.",
+              "Saturday the nineteenth of April."
+            ],
+            "answer": 1,
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "'opens to the public on Saturday the twelfth of April'; ngày 11 chỉ là buổi xem trước cho hội đồng."
+          },
+          {
+            "type": "mcq",
+            "q": "Most of the money for the park came from",
+            "options": [
+              "the city council.",
+              "a lottery grant.",
+              "local businesses."
+            ],
+            "answer": 1,
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "'most of the money, about seventy percent, came from a national lottery grant'."
+          },
+          {
+            "type": "mcq",
+            "q": "Immediately before the building work, the site was used as",
+            "options": [
+              "a tram depot.",
+              "a car factory.",
+              "a car park."
+            ],
+            "answer": 2,
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "'the land was used as a temporary car park' trong 10 năm gần nhất; depot và nhà máy là trước đó."
+          },
+          {
+            "type": "match",
+            "q": "East Gate",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 4,
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What can visitors find in each area of Marlow Fields Park? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  outdoor gym",
+                "B  bird hide",
+                "C  café",
+                "D  bike repair stand",
+                "E  children's maze",
+                "F  sculpture trail",
+                "G  picnic shelters"
+              ]
+            },
+            "explain": "'through the East Gate... a children's maze' → E."
+          },
+          {
+            "type": "match",
+            "q": "Lakeside",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 1,
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What can visitors find in each area of Marlow Fields Park? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  outdoor gym",
+                "B  bird hide",
+                "C  café",
+                "D  bike repair stand",
+                "E  children's maze",
+                "F  sculpture trail",
+                "G  picnic shelters"
+              ]
+            },
+            "explain": "'at the Lakeside, there's a wooden bird hide' → B."
+          },
+          {
+            "type": "match",
+            "q": "Orchard Corner",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 6,
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What can visitors find in each area of Marlow Fields Park? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  outdoor gym",
+                "B  bird hide",
+                "C  café",
+                "D  bike repair stand",
+                "E  children's maze",
+                "F  sculpture trail",
+                "G  picnic shelters"
+              ]
+            },
+            "explain": "'Orchard Corner... several picnic shelters' → G."
+          },
+          {
+            "type": "match",
+            "q": "Hilltop",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 5,
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What can visitors find in each area of Marlow Fields Park? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  outdoor gym",
+                "B  bird hide",
+                "C  café",
+                "D  bike repair stand",
+                "E  children's maze",
+                "F  sculpture trail",
+                "G  picnic shelters"
+              ]
+            },
+            "explain": "'Hilltop, where artists have placed eight sculptures along a winding path' → F."
+          },
+          {
+            "type": "match",
+            "q": "Old Station Square",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 2,
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What can visitors find in each area of Marlow Fields Park? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 4–8.",
+              "list": [
+                "A  outdoor gym",
+                "B  bird hide",
+                "C  café",
+                "D  bike repair stand",
+                "E  children's maze",
+                "F  sculpture trail",
+                "G  picnic shelters"
+              ]
+            },
+            "explain": "'Old Station Square... a small café' → C. Phòng tập ngoài trời và chỗ sửa xe đều bị hoãn/hủy."
+          },
+          {
+            "type": "mcq",
+            "q": "In winter, the park will close at",
+            "options": [
+              "five o'clock.",
+              "six o'clock.",
+              "nine o'clock."
+            ],
+            "answer": 1,
+            "group": {
+              "title": "Question 9",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "Dự định là five o'clock nhưng 'the gates will now close at six'."
+          },
+          {
+            "type": "multi",
+            "q": "Which TWO activities will take place on the opening weekend?",
+            "options": [
+              "a guided history walk",
+              "live music",
+              "free bike checks",
+              "a tree planting session",
+              "a kite workshop"
+            ],
+            "answer": [
+              0,
+              3
+            ],
+            "group": {
+              "title": "Question 10",
+              "text": "Choose TWO letters, A–E."
+            },
+            "explain": "'a guided history walk' và 'a tree planting session'; nhạc sống bị hủy, kiểm tra xe bắt đầu từ tháng Năm."
+          }
+        ]
+      },
+      {
+        "id": "mt-02-p3",
+        "level": "B2",
+        "title": "Planning a presentation on food waste",
+        "part": 3,
+        "contextVi": "Hai sinh viên thảo luận với giảng viên về bài thuyết trình cho môn học về phát triển bền vững.",
+        "script": [
+          {
+            "speaker": "Dr Marsh",
+            "gender": "f",
+            "text": "Come in, both of you. So, you wanted to talk about your presentation for the sustainability module. Last week you were planning to look at plastic packaging, I think?"
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "We were, but when we did a literature search, we found loads of recent studies already. We didn't think we could add anything new."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "Our first worry was that the topic was too broad, but the real problem was how much had been published. So we've switched to food waste."
+          },
+          {
+            "speaker": "Dr Marsh",
+            "gender": "f",
+            "text": "That sounds sensible. What kind of data do you have in mind?"
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "I thought we could ask supermarket managers, to get figures on how much they throw away."
+          },
+          {
+            "speaker": "Dr Marsh",
+            "gender": "f",
+            "text": "Realistically, I doubt they'd agree, and you only have three weeks. But the campus café has weighed its waste every day for two years, and the manager is happy to share the records."
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "That's much easier. Though I'd still like to look at households as well, because honestly I think families throw away far more food than shops do, and that's where the real problem is."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "Maybe, but the café figures give us numbers we can trust. Household waste is mostly guesswork."
+          },
+          {
+            "speaker": "Dr Marsh",
+            "gender": "f",
+            "text": "You could add a short survey for the household side. Now, the format. The slot is twenty minutes altogether, but that includes five minutes of questions, so you have fifteen minutes to present."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "Fifteen, OK. For the slides, I think photographs of bins full of food would have more impact than graphs. People remember pictures."
+          },
+          {
+            "speaker": "Dr Marsh",
+            "gender": "f",
+            "text": "Some, certainly, but I'd keep graphs for the main comparisons. And keep your introduction brief, no more than two minutes. Audiences lose patience if you take too long to reach your findings."
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "We should rehearse with a timer, then. Last time we ran over by six minutes and lost marks."
+          },
+          {
+            "speaker": "Dr Marsh",
+            "gender": "f",
+            "text": "Good idea. I read the draft outline you sent. The structure is clear, but the conclusion is weak. You describe the problem well, yet you don't suggest what the café could do differently."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "We can add some recommendations. We also ran a pilot survey last week, with fifty students."
+          },
+          {
+            "speaker": "Dr Marsh",
+            "gender": "f",
+            "text": "How did it go?"
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "Mostly fine, but nearly everyone who answered was under twenty-five, so we've hardly got any older people. And some questions confused people. Nobody understood what we meant by 'avoidable waste'."
+          },
+          {
+            "speaker": "Dr Marsh",
+            "gender": "f",
+            "text": "Those are both fixable. I wouldn't worry about the length, ten questions is fine, and there's no need to translate it, since you're surveying English-speaking course members."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "So what should we do before the next tutorial?"
+          },
+          {
+            "speaker": "Dr Marsh",
+            "gender": "f",
+            "text": "Email me the revised outline by Friday if you can, but first of all go and meet the café manager, and ask which weeks' figures are the most reliable."
+          },
+          {
+            "speaker": "Priya",
+            "gender": "f",
+            "text": "We'll do that tomorrow. Thanks, Dr Marsh."
+          }
+        ],
+        "questions": [
+          {
+            "type": "mcq",
+            "q": "Why did the students change their topic?",
+            "options": [
+              "Too much research already existed.",
+              "Dr Marsh advised against it.",
+              "They could not find any data."
+            ],
+            "answer": 0,
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "Callum: 'the real problem was how much had been published' (lo ngại 'too broad' chỉ là phụ)."
+          },
+          {
+            "type": "mcq",
+            "q": "Their main source of data will be",
+            "options": [
+              "interviews with supermarket managers.",
+              "an online survey of shoppers.",
+              "records from the campus café."
+            ],
+            "answer": 2,
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "Dr Marsh nghi ngờ siêu thị đồng ý; 'the campus café has weighed its waste every day for two years'."
+          },
+          {
+            "type": "mcq",
+            "q": "How long should the presentation itself last?",
+            "options": [
+              "five minutes",
+              "fifteen minutes",
+              "twenty minutes"
+            ],
+            "answer": 1,
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "'twenty minutes altogether... includes five minutes of questions, so you have fifteen minutes to present'."
+          },
+          {
+            "type": "match",
+            "q": "Households throw away more food than shops do.",
+            "options": [
+              "A  Priya",
+              "B  Callum",
+              "C  Dr Marsh"
+            ],
+            "answer": 0,
+            "group": {
+              "title": "Questions 4–7",
+              "text": "Who expresses each opinion about the presentation? Choose the correct letter, A, B or C.",
+              "list": [
+                "A  Priya",
+                "B  Callum",
+                "C  Dr Marsh"
+              ]
+            },
+            "explain": "Priya: 'families throw away far more food than shops do'."
+          },
+          {
+            "type": "match",
+            "q": "Photographs would have more impact than graphs.",
+            "options": [
+              "A  Priya",
+              "B  Callum",
+              "C  Dr Marsh"
+            ],
+            "answer": 1,
+            "group": {
+              "title": "Questions 4–7",
+              "text": "Who expresses each opinion about the presentation? Choose the correct letter, A, B or C.",
+              "list": [
+                "A  Priya",
+                "B  Callum",
+                "C  Dr Marsh"
+              ]
+            },
+            "explain": "Callum: 'photographs of bins full of food would have more impact than graphs'."
+          },
+          {
+            "type": "match",
+            "q": "The introduction should last no more than two minutes.",
+            "options": [
+              "A  Priya",
+              "B  Callum",
+              "C  Dr Marsh"
+            ],
+            "answer": 2,
+            "group": {
+              "title": "Questions 4–7",
+              "text": "Who expresses each opinion about the presentation? Choose the correct letter, A, B or C.",
+              "list": [
+                "A  Priya",
+                "B  Callum",
+                "C  Dr Marsh"
+              ]
+            },
+            "explain": "Dr Marsh: 'keep your introduction brief, no more than two minutes'."
+          },
+          {
+            "type": "match",
+            "q": "The group should rehearse using a timer.",
+            "options": [
+              "A  Priya",
+              "B  Callum",
+              "C  Dr Marsh"
+            ],
+            "answer": 0,
+            "group": {
+              "title": "Questions 4–7",
+              "text": "Who expresses each opinion about the presentation? Choose the correct letter, A, B or C.",
+              "list": [
+                "A  Priya",
+                "B  Callum",
+                "C  Dr Marsh"
+              ]
+            },
+            "explain": "Priya: 'We should rehearse with a timer, then.'"
+          },
+          {
+            "type": "mcq",
+            "q": "What is Dr Marsh's criticism of the draft outline?",
+            "options": [
+              "The structure is unclear.",
+              "The conclusion has no recommendations.",
+              "The problem is not described well."
+            ],
+            "answer": 1,
+            "group": {
+              "title": "Question 8",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "'the conclusion is weak... you don't suggest what the café could do differently'."
+          },
+          {
+            "type": "multi",
+            "q": "Which TWO problems with the pilot survey do the students mention?",
+            "options": [
+              "too few older respondents",
+              "the survey was too long",
+              "some questions were confusing",
+              "it was not translated",
+              "too few people answered"
+            ],
+            "answer": [
+              0,
+              2
+            ],
+            "group": {
+              "title": "Question 9",
+              "text": "Which TWO problems with the pilot survey do the students mention? Choose TWO letters, A–E."
+            },
+            "explain": "'hardly any older people' và 'some questions confused people'. Độ dài và dịch thuật do Dr Marsh nói là không cần lo."
+          },
+          {
+            "type": "mcq",
+            "q": "What do the students agree to do first?",
+            "options": [
+              "email the revised outline",
+              "book a room for rehearsal",
+              "meet the café manager"
+            ],
+            "answer": 2,
+            "group": {
+              "title": "Question 10",
+              "text": "Choose the correct letter, A, B or C."
+            },
+            "explain": "Dr Marsh: 'but first of all go and meet the café manager'; Priya: 'We'll do that tomorrow'."
+          }
+        ]
+      },
+      {
+        "id": "mt-02-p4",
+        "level": "C1",
+        "title": "The history of glass",
+        "part": 4,
+        "contextVi": "Một bài giảng đại học về lịch sử của thủy tinh, từ thủy tinh tự nhiên đến quy trình sản xuất hiện đại.",
+        "script": [
+          {
+            "speaker": "Dr Haldane",
+            "gender": "m",
+            "text": "Good afternoon. Today's lecture is about glass, a material so familiar that we rarely think about where it came from. Let's begin with natural glass. When volcanic lava cools very quickly, it can solidify before crystals have time to form, and the best known example of this is obsidian. Early peoples all over the world used it to make sharp blades and, above all, arrowheads."
+          },
+          {
+            "speaker": "Dr Haldane",
+            "gender": "m",
+            "text": "When was glass first made deliberately? Some older books say Egypt, and Egyptian glassmakers were certainly skilled, but the earliest evidence we have points to Mesopotamia, the region between the Tigris and Euphrates rivers. Those early craftsmen could not blow glass. Instead they shaped small containers by wrapping soft glass around a core of clay, which was scraped out afterwards."
+          },
+          {
+            "speaker": "Dr Haldane",
+            "gender": "m",
+            "text": "The real revolution came in the Roman period, with the invention of glassblowing in the first century before Christ. Blowing air through a tube allowed craftsmen to produce vessels far more quickly, and as a result glass became much cheaper, so that ordinary families, not only the wealthy, could afford cups and bottles."
+          },
+          {
+            "speaker": "Dr Haldane",
+            "gender": "m",
+            "text": "The Romans also produced the first window glass, but it was thick and cloudy. Interestingly, the earliest windows were not installed in homes at all, but in bathhouses, where they helped to keep the heat in while still letting some light through."
+          },
+          {
+            "speaker": "Dr Haldane",
+            "gender": "m",
+            "text": "Let's jump forward to the Middle Ages, when Venice became the glass capital of Europe. In the thirteenth century, the city ordered its glassmakers to move to the island of Murano. The official reason was the danger of fire, since furnaces burned day and night in a city of wooden buildings, although many historians suspect the rulers also wanted to protect their trade secrets."
+          },
+          {
+            "speaker": "Dr Haldane",
+            "gender": "m",
+            "text": "In the seventeenth century, the English maker George Ravenscroft transformed the industry. By adding lead oxide to the mixture, he produced a heavy, brilliant glass which we still call lead crystal. It was softer to cut and decorate, and it quickly became fashionable across Europe."
+          },
+          {
+            "speaker": "Dr Haldane",
+            "gender": "m",
+            "text": "The next major change came in the nineteen fifties, when Alastair Pilkington developed the float process. Molten glass is poured onto a bath of liquid tin, and because tin is so dense and perfectly level, the glass spreads out into a flat, smooth sheet. Before this, large sheets had to be ground and polished by hand, which was slow and wasteful."
+          },
+          {
+            "speaker": "Dr Haldane",
+            "gender": "m",
+            "text": "Finally, a word about sustainability. Glass is made from sand, soda ash and limestone, all of them abundant, and unlike many materials it can be recycled endlessly without any loss of quality. Yet in many countries only a fraction of bottles is collected. Next week, we'll turn to metals and ask a similar question."
+          }
+        ],
+        "questions": [
+          {
+            "type": "gap",
+            "q": "Volcanic glass, e.g. ____",
+            "answer": [
+              "obsidian"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nThe history of glass\n\nNatural glass\n- formed when lava cools very quickly, e.g. (1) ____\n- used by early people to make blades and (2) ____\n\nFirst manufacture\n- earliest evidence from (3) ____\n- containers shaped by wrapping glass around a core of (4) ____\n\nRoman period\n- glassblowing made glass much (5) ____"
+            },
+            "explain": "'the best known example of this is obsidian'."
+          },
+          {
+            "type": "gap",
+            "q": "blades and ____",
+            "answer": [
+              "arrowheads"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nThe history of glass\n\nNatural glass\n- formed when lava cools very quickly, e.g. (1) ____\n- used by early people to make blades and (2) ____\n\nFirst manufacture\n- earliest evidence from (3) ____\n- containers shaped by wrapping glass around a core of (4) ____\n\nRoman period\n- glassblowing made glass much (5) ____"
+            },
+            "explain": "'sharp blades and, above all, arrowheads'."
+          },
+          {
+            "type": "gap",
+            "q": "earliest evidence from ____",
+            "answer": [
+              "Mesopotamia"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nThe history of glass\n\nNatural glass\n- formed when lava cools very quickly, e.g. (1) ____\n- used by early people to make blades and (2) ____\n\nFirst manufacture\n- earliest evidence from (3) ____\n- containers shaped by wrapping glass around a core of (4) ____\n\nRoman period\n- glassblowing made glass much (5) ____"
+            },
+            "explain": "Một số sách nói Egypt, nhưng 'the earliest evidence... points to Mesopotamia'."
+          },
+          {
+            "type": "gap",
+            "q": "core of ____",
+            "answer": [
+              "clay"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nThe history of glass\n\nNatural glass\n- formed when lava cools very quickly, e.g. (1) ____\n- used by early people to make blades and (2) ____\n\nFirst manufacture\n- earliest evidence from (3) ____\n- containers shaped by wrapping glass around a core of (4) ____\n\nRoman period\n- glassblowing made glass much (5) ____"
+            },
+            "explain": "'wrapping soft glass around a core of clay'."
+          },
+          {
+            "type": "gap",
+            "q": "glassblowing made glass much ____",
+            "answer": [
+              "cheaper"
+            ],
+            "group": {
+              "title": "Questions 1–5",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nThe history of glass\n\nNatural glass\n- formed when lava cools very quickly, e.g. (1) ____\n- used by early people to make blades and (2) ____\n\nFirst manufacture\n- earliest evidence from (3) ____\n- containers shaped by wrapping glass around a core of (4) ____\n\nRoman period\n- glassblowing made glass much (5) ____"
+            },
+            "explain": "'glass became much cheaper' (còn 'more quickly' nói về việc sản xuất)."
+          },
+          {
+            "type": "gap",
+            "q": "first windows were installed in ____",
+            "answer": [
+              "bathhouses"
+            ],
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nRoman period (continued)\n- first windows were installed in (6) ____\n\nMiddle Ages\n- glassmakers sent to Murano because of the danger of (7) ____\n\nSeventeenth century\n- lead crystal: made by adding (8) ____ oxide\n\nModern glass\n- float process: molten glass poured onto liquid (9) ____\n- glass can be recycled (10) ____ without loss of quality"
+            },
+            "explain": "'not installed in homes at all, but in bathhouses'."
+          },
+          {
+            "type": "gap",
+            "q": "danger of ____",
+            "answer": [
+              "fire"
+            ],
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nRoman period (continued)\n- first windows were installed in (6) ____\n\nMiddle Ages\n- glassmakers sent to Murano because of the danger of (7) ____\n\nSeventeenth century\n- lead crystal: made by adding (8) ____ oxide\n\nModern glass\n- float process: molten glass poured onto liquid (9) ____\n- glass can be recycled (10) ____ without loss of quality"
+            },
+            "explain": "'The official reason was the danger of fire'; bảo vệ bí mật thương mại chỉ là nghi ngờ của sử gia."
+          },
+          {
+            "type": "gap",
+            "q": "lead crystal: made by adding ____ oxide",
+            "answer": [
+              "lead"
+            ],
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nRoman period (continued)\n- first windows were installed in (6) ____\n\nMiddle Ages\n- glassmakers sent to Murano because of the danger of (7) ____\n\nSeventeenth century\n- lead crystal: made by adding (8) ____ oxide\n\nModern glass\n- float process: molten glass poured onto liquid (9) ____\n- glass can be recycled (10) ____ without loss of quality"
+            },
+            "explain": "'By adding lead oxide to the mixture... lead crystal'."
+          },
+          {
+            "type": "gap",
+            "q": "molten glass poured onto liquid ____",
+            "answer": [
+              "tin"
+            ],
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nRoman period (continued)\n- first windows were installed in (6) ____\n\nMiddle Ages\n- glassmakers sent to Murano because of the danger of (7) ____\n\nSeventeenth century\n- lead crystal: made by adding (8) ____ oxide\n\nModern glass\n- float process: molten glass poured onto liquid (9) ____\n- glass can be recycled (10) ____ without loss of quality"
+            },
+            "explain": "'poured onto a bath of liquid tin'."
+          },
+          {
+            "type": "gap",
+            "q": "recycled ____ without loss of quality",
+            "answer": [
+              "endlessly"
+            ],
+            "group": {
+              "title": "Questions 6–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nRoman period (continued)\n- first windows were installed in (6) ____\n\nMiddle Ages\n- glassmakers sent to Murano because of the danger of (7) ____\n\nSeventeenth century\n- lead crystal: made by adding (8) ____ oxide\n\nModern glass\n- float process: molten glass poured onto liquid (9) ____\n- glass can be recycled (10) ____ without loss of quality"
+            },
+            "explain": "'can be recycled endlessly without any loss of quality'."
+          }
+        ]
+      }
+    ]
+  }
+]

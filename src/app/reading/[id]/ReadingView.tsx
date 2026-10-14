@@ -5,7 +5,8 @@ import { markDone } from "@/lib/store";
 import QuestionSet from "@/components/QuestionSet";
 import { DoneBanner, fmtTime, LevelChip, PageHeader, SpeakButton, useTimer } from "@/components/ui";
 
-export function Passage({ item }: { item: ReadingPassage }) {
+/** `exam`: no read-aloud and no vocabulary help, as in the real test. */
+export function Passage({ item, exam = false }: { item: ReadingPassage; exam?: boolean }) {
   const [showVocab, setShowVocab] = useState(false);
   return (
     <>
@@ -16,8 +17,10 @@ export function Passage({ item }: { item: ReadingPassage }) {
             {p}
           </p>
         ))}
-        <SpeakButton text={item.passage} label="Nghe cả bài" />
+        {!exam && <SpeakButton text={item.passage} label="Nghe cả bài" />}
       </div>
+      {!exam && (
+        <>
       <button className="btn-ghost mt-3 w-full" onClick={() => setShowVocab((v) => !v)}>
         {showVocab ? "Ẩn" : "Xem"} từ vựng khó ({item.vocab.length})
       </button>
@@ -29,6 +32,8 @@ export function Passage({ item }: { item: ReadingPassage }) {
             </div>
           ))}
         </div>
+      )}
+        </>
       )}
     </>
   );

@@ -2,6 +2,7 @@
 // Text-to-speech via the browser's Web Speech API (free; quality depends on the device's voices).
 import { getState } from "./store";
 import { audioKey, audioUrl, WORD_VOICE, type VoiceId } from "./audio-key";
+import { offlineAudio, saveAudio } from "./offline";
 
 let voices: SpeechSynthesisVoice[] = [];
 
@@ -89,20 +90,36 @@ export function preferredVoices(): VoiceId[] {
 /** Plays a URL; resolves "ended", "stopped" or "error" (e.g. file not generated). */
 export function playUrl(url: string, rate = 1): Promise<"ended" | "stopped" | "error"> {
   return new Promise((resolve) => {
-    const audio = new Audio(url);
-    audio.playbackRate = Math.max(0.5, Math.min(2, rate));
-    audio.preservesPitch = true;
+    const audio = new Audio();
     let settled = false;
+    let release = () => {};
     const done = (r: "ended" | "stopped" | "error") => {
       if (settled) return;
       settled = true;
+      release();
       if (current?.audio === audio) current = null;
       resolve(r);
     };
     current = { audio, finish: () => done("stopped") };
     audio.onended = () => done("ended");
     audio.onerror = () => done("error");
-    audio.play().catch(() => done("error"));
+    const start = (src: string) => {
+      audio.src = src;
+      audio.playbackRate = Math.max(0.5, Math.min(2, rate));
+      audio.preservesPitch = true;
+      audio.play().catch(() => done("error"));
+    };
+    if (navigator.onLine) {
+      // play straight away (iOS wants play() inside the tap), and keep a copy for offline use
+      start(url);
+      saveAudio(url);
+    } else
+      void offlineAudio(url).then((c) => {
+        if (!c) return done("error");
+        release = c.release;
+        if (settled) return c.release();
+        start(c.src);
+      });
   });
 }
 

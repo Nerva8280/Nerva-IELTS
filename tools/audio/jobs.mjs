@@ -33,6 +33,10 @@ export function allJobs(only) {
     const voices = scriptVoices(item.script);
     item.script.forEach((l, i) => add("listening", [voices[i]], l.text));
   }
+  for (const test of load("mock-listening")) for (const item of test.parts) {
+    const voices = scriptVoices(item.script);
+    item.script.forEach((l, i) => add("mock", [voices[i]], l.text));
+  }
   for (const t of load("speaking")) {
     t.questions.forEach((q) => add("speaking", MAIN_VOICES, q));
     add("speaking", MAIN_VOICES, t.sampleAnswer);
@@ -41,7 +45,7 @@ export function allJobs(only) {
   if (fs.existsSync(path.join(DATA, "talk.json")))
     for (const t of load("talk")) for (const q of t.questions) add("talk", ["uk-f"], q.q);
   for (const g of load("grammar")) g.examples.forEach((e) => add("grammar", MAIN_VOICES, e.en));
-  for (const r of load("reading")) add("reading", ["uk-f"], r.passage);
+  for (const r of [...load("reading"), ...load("reading-ielts")]) add("reading", ["uk-f"], r.passage);
   for (const w of load("writing")) add("writing", ["us-f"], w.modelAnswer);
   const seen = new Set();
   return list.filter((j) => {

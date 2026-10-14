@@ -1,7 +1,11 @@
-import VocabTrainer from "./VocabTrainer";
+import { Suspense } from "react";
+import VocabPage from "./VocabPage";
 
-export default async function Page({ searchParams }: PageProps<"/vocab">) {
-  const mode = (await searchParams).mode;
-  const m = mode === "review" || mode === "learn" || mode === "quiz" ? mode : "home";
-  return <VocabTrainer key={m} mode={m} />;
+// The mode is read in the browser so this page stays static (and works offline).
+export default function Page() {
+  return (
+    <Suspense>
+      <VocabPage />
+    </Suspense>
+  );
 }

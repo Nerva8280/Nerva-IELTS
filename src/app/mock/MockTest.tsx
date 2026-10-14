@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import Link from "next/link";
+import { useState } from "react";
 import type { Level, ListeningItem, ReadingPassage } from "@/content/types";
 import { getState, markDone, update, useAppState } from "@/lib/store";
 import { todayStr } from "@/lib/dates";
@@ -13,11 +14,12 @@ import { Passage } from "../reading/[id]/ReadingView";
 
 type Ref = { id: string; level: Level };
 
-/** Picks one listening and one reading at the learner's level, preferring ones not done yet. */
-export function MockPicker({ listening, reading }: { listening: Ref[]; reading: Ref[] }) {
+/** Mock test menu: the short level-based test and the full IELTS-format tests. */
+export function MockHub({ listening, reading, tests }: { listening: Ref[]; reading: Ref[]; tests: { id: string; title: string; listening: boolean; reading: string[] }[] }) {
   const router = useRouter();
   const s = useAppState();
-  useEffect(() => {
+
+  function startMini() {
     const st = getState();
     const pick = (list: Ref[]) => {
       const atLevel = list.filter((x) => x.level === st.level);
@@ -26,13 +28,47 @@ export function MockPicker({ listening, reading }: { listening: Ref[]; reading: 
       const from = fresh.length ? fresh : pool;
       return from[Math.floor(Math.random() * from.length)].id;
     };
-    router.replace(`/mock?l=${pick(listening)}&r=${pick(reading)}`);
-  }, [listening, reading, router]);
+    router.push(`/mock?l=${pick(listening)}&r=${pick(reading)}`);
+  }
 
   return (
     <div>
-      <PageHeader title="Mock test mini" back="/practice" />
-      <div className="muted">Đang chọn đề…</div>
+      <PageHeader title="Thi thử" back="/practice" />
+      <button onClick={startMini} className="card mb-3 flex w-full items-center gap-3 text-left">
+        <span className="text-3xl">⚡</span>
+        <div className="flex-1">
+          <div className="font-semibold">Mock test mini · 15–20 phút</div>
+          <div className="text-sm text-slate-600">1 bài Listening + 1 bài Reading theo trình độ {s.level}. Hợp với buổi học hằng ngày.</div>
+        </div>
+        <span className="text-slate-400">→</span>
+      </button>
+      <h2 className="h2 mb-2 mt-5">Đề thi thử đầy đủ</h2>
+      <p className="muted mb-3 text-sm">Đúng cấu trúc IELTS: Listening 4 part 40 câu, Reading 3 bài 60 phút. Có thể làm riêng từng phần.</p>
+      <div className="grid gap-2">
+        {tests.map((t) => {
+          const last = [...s.mocks].reverse().find((m) => m.test === t.id);
+          return (
+            <Link key={t.id} href={`/mock/full/${t.id}`} className="card flex items-center gap-3">
+              <span className="text-3xl">🏁</span>
+              <div className="flex-1">
+                <div className="font-semibold">
+                  {t.title}
+                  {!t.listening && <span className="ml-2 text-xs font-normal text-slate-500">chỉ Reading</span>}
+                </div>
+                <div className="text-xs text-slate-500">{t.reading.join(" · ")}</div>
+                {last && (
+                  <div className="mt-1 text-xs font-semibold text-indigo-600">
+                    Lần gần nhất {last.date}: {last.lBand != null && `Listening ${last.lBand}`}
+                    {last.lBand != null && last.rBand != null && " · "}
+                    {last.rBand != null && `Reading ${last.rBand}`}
+                  </div>
+                )}
+              </div>
+              <span className="text-slate-400">→</span>
+            </Link>
+          );
+        })}
+      </div>
       {s.mocks.length > 0 && <History />}
     </div>
   );
@@ -42,12 +78,12 @@ function History() {
   const s = useAppState();
   return (
     <div className="card mt-4">
-      <div className="h2 mb-2">Lịch sử mock test</div>
+      <div className="h2 mb-2">Lịch sử thi thử</div>
       {[...s.mocks].reverse().slice(0, 10).map((m, i) => (
-        <div key={i} className="flex justify-between border-b border-slate-100 py-1.5 text-sm">
+        <div key={i} className="flex justify-between gap-2 border-b border-slate-100 py-1.5 text-sm">
           <span>{m.date}</span>
-          <span>
-            {m.level} · {m.score}/{m.total}
+          <span className="flex-1 text-slate-600">
+            {m.test ? `Full Test ${m.test}` : `Mini ${m.level}`} · {m.score}/{m.total}
           </span>
           <b className="text-indigo-600">~{m.band}</b>
         </div>
@@ -147,9 +183,9 @@ export default function MockTest({ listening, reading }: { listening: ListeningI
         </p>
       </div>
       <DoneBanner>
-        <a href="/mock" className="btn-soft">
+        <Link href="/mock" className="btn-soft">
           Làm đề khác
-        </a>
+        </Link>
       </DoneBanner>
       <History />
     </div>

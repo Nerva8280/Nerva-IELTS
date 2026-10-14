@@ -85,8 +85,8 @@ export default function PracticeHub({ catalog }: { catalog: Catalog }) {
       <Link href="/mock" className="card mb-4 flex items-center gap-3 bg-gradient-to-r from-amber-50 to-orange-50 ring-amber-200">
         <span className="text-3xl">🏁</span>
         <div className="flex-1">
-          <div className="font-semibold">Mock test mini</div>
-          <div className="text-sm text-slate-600">Listening + Reading theo trình độ, ước tính band điểm</div>
+          <div className="font-semibold">Thi thử</div>
+          <div className="text-sm text-slate-600">Mock test mini 15 phút, hoặc đề đầy đủ (Listening 40 câu, Reading 60 phút)</div>
         </div>
         <span className="text-slate-400">→</span>
       </Link>
