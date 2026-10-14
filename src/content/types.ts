@@ -140,3 +140,18 @@ export interface TalkTopic {
   icon: string;
   questions: TalkQuestion[];
 }
+
+// Real-audio listening: VOA Learning English stories (VOA-produced, US public domain), streamed from VOA.
+export interface VoaListening {
+  id: string; // "voa-a01"
+  level: Level;
+  title: string;
+  section: string;
+  url: string; // story page
+  audio: string; // VOA MP3 URL
+  credit: string;
+  contextVi: string;
+  transcript: string[];
+  questions: Question[];
+  vocab: { word: string; vi: string }[];
+}

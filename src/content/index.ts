@@ -5,6 +5,7 @@ import type {
   PlacementWord,
   PronUnit,
   TalkTopic,
+  VoaListening,
   ReadingPassage,
   ShadowingSet,
   SpeakingTopic,
@@ -29,6 +30,7 @@ import talkData from "./data/talk.json";
 import nativeExamples from "./data/native-examples.json";
 import nativeShadowingData from "./data/native-shadowing.json";
 import synonymsData from "./data/synonyms.json";
+import voaData from "./data/voa-listening.json";
 
 export const placementWords = placement as PlacementWord[];
 export const grammar = grammarData as GrammarLesson[];
@@ -40,6 +42,7 @@ export const speaking = speakingData as SpeakingTopic[];
 export const shadowing = [...(nativeShadowingData as ShadowingSet[]), ...(shadowingData as ShadowingSet[])];
 export const pronunciation = pronunciationData as PronUnit[];
 export const talk = talkData as TalkTopic[];
+export const voaListening = voaData as VoaListening[];
 
 // Lower levels win when a word appears twice.
 export const vocab: VocabWord[] = (() => {
@@ -61,7 +64,11 @@ export function getCatalog(): Catalog {
   return {
     grammar: grammar.map((g) => ({ id: g.id, level: g.level, title: g.title, kind: "grammar" })),
     reading: reading.map((r) => ({ id: r.id, level: r.level, title: r.title, kind: "reading" })),
-    listening: listening.map((l) => ({ id: l.id, level: l.level, title: l.title, kind: "listening", sub: `Part ${l.part}` })),
+    // real VOA recordings first so they are offered before the AI-voice dialogues
+    listening: [
+      ...voaListening.map((v) => ({ id: v.id, level: v.level, title: v.title, kind: "listening" as const, sub: "VOA · giọng thật" })),
+      ...listening.map((l) => ({ id: l.id, level: l.level, title: l.title, kind: "listening" as const, sub: `Part ${l.part} · giọng AI` })),
+    ],
     writing: writing.map((w) => ({ id: w.id, level: w.level, title: w.title, kind: "writing", sub: w.id.startsWith("w0") ? "Nền tảng" : `Task ${w.task}` })),
     speaking: speaking.map((s) => ({ id: s.id, level: s.level, title: s.topic, kind: "speaking", sub: `Part ${s.part}` })),
     shadowing: shadowing.map((s) => ({ id: s.id, level: s.level, title: s.title, kind: "shadowing", sub: s.native ? "Giọng người bản xứ" : "Giọng AI" })),
