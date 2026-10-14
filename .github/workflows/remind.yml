@@ -1,0 +1,13 @@
+# Every 30 minutes from 06:00 to 23:30 Vietnam time (UTC+7), ask the app to send
+# study reminders to learners whose study time has just started.
+name: Study reminders
+on:
+  schedule:
+    - cron: "*/30 0-16,23 * * *"
+  workflow_dispatch:
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - run: curl -fsS -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" https://nerva-ielts.vercel.app/api/cron/remind
