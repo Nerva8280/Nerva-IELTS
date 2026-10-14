@@ -4,6 +4,7 @@ import type { WritingPrompt } from "@/content/types";
 import { getState, markDone, update, useAppState } from "@/lib/store";
 import { todayStr } from "@/lib/dates";
 import DataChart, { chartKind } from "@/components/DataChart";
+import WritingAi from "./WritingAi";
 import { DoneBanner, fmtTime, LevelChip, PageHeader, SpeakButton, useTimer } from "@/components/ui";
 
 const CHECKLIST = [
@@ -142,6 +143,7 @@ export default function WritingView({ item }: { item: WritingPrompt }) {
 
       {submitted && (
         <>
+          <WritingAi item={item} text={text} />
           <div className="card mt-5">
             <div className="mb-2 flex items-center justify-between">
               <div className="h2">Bài mẫu (band ~{item.band})</div>

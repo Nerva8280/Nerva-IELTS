@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { LEVELS, type Level, type VocabWord } from "@/content/types";
-import { useVocab } from "@/lib/vocab-client";
+import { useAllVocab } from "@/lib/vocab-client";
 import { dayLog, getState, touchDay, update, useAppState } from "@/lib/store";
 import { isDue, knownCard, newCard, review, intervalLabel, type Grade } from "@/lib/srs";
 import { todayStr } from "@/lib/dates";
@@ -13,7 +13,7 @@ import { Credit, DoneBanner, LevelChip, NativeButton, PageHeader, ProgressBar, S
 type Mode = "home" | "learn" | "review" | "quiz";
 
 export default function VocabTrainer({ mode }: { mode: Mode }) {
-  const vocab = useVocab();
+  const vocab = useAllVocab();
   if (!vocab) return <div className="pt-10 text-center text-slate-400">Đang tải từ vựng…</div>;
   if (mode === "learn") return <Learn vocab={vocab} />;
   if (mode === "review") return <Review vocab={vocab} />;
@@ -38,6 +38,7 @@ function WordDetails({ w }: { w: VocabWord }) {
           </div>
         </div>
       )}
+      {w.example && (
       <div className="rounded-xl bg-slate-50 p-3">
         {w.native && <div className="mb-1 text-xs font-semibold text-slate-400">Ví dụ khác (giọng AI)</div>}
         <div className="flex items-start gap-2">
@@ -46,6 +47,7 @@ function WordDetails({ w }: { w: VocabWord }) {
         </div>
         <p className="mt-1 text-sm text-slate-500">{w.exampleVi}</p>
       </div>
+      )}
       <a
         className="inline-block text-sm text-indigo-600 underline"
         href={`https://youglish.com/pronounce/${encodeURIComponent(w.word)}/english/uk`}
@@ -66,9 +68,11 @@ function WordHead({ w }: { w: VocabWord }) {
         <span className="chip bg-slate-100 text-slate-600">{w.topic}</span>
       </div>
       <div className="text-4xl font-bold text-slate-900">{w.word}</div>
-      <div className="mt-1 text-slate-500">
-        {w.ipa} · <i>{w.pos}</i>
-      </div>
+      {(w.ipa || w.pos) && (
+        <div className="mt-1 text-slate-500">
+          {w.ipa} {w.pos && <>· <i>{w.pos}</i></>}
+        </div>
+      )}
       <div className="mt-3">
         <WordVoices word={w.word} />
       </div>

@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import type { Question } from "@/content/types";
+import { addMistakes } from "@/lib/notebook";
 
 const norm = (s: string) => s.trim().toLowerCase().replace(/[.,!?;:'"]/g, "").replace(/\s+/g, " ");
 
@@ -22,10 +23,12 @@ export default function QuestionSet({
   questions,
   onSubmit,
   submitLabel = "Nộp bài",
+  source,
 }: {
   questions: Question[];
   onSubmit?: (score: number, total: number) => void;
   submitLabel?: string;
+  source?: string; // when set, wrong answers are saved to the mistake notebook
 }) {
   const [answers, setAnswers] = useState<(string | number | undefined)[]>([]);
   const [checked, setChecked] = useState(false);
@@ -109,6 +112,19 @@ export default function QuestionSet({
           onClick={() => {
             setChecked(true);
             onSubmit?.(score, questions.length);
+            if (source)
+              addMistakes(
+                questions
+                  .map((q, i) => ({ q, a: answers[i] }))
+                  .filter(({ q, a }) => !isCorrect(q, a))
+                  .map(({ q, a }) => ({
+                    source,
+                    kind: "exercise" as const,
+                    original: `${q.q}${a === undefined || a === "" ? "" : ` (bạn chọn: ${q.type === "mcq" ? q.options[a as number] : a})`}`,
+                    corrected: correctText(q),
+                    explanationVi: q.explain ?? "",
+                  })),
+              );
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         >

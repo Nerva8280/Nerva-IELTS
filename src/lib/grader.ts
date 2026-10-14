@@ -103,38 +103,26 @@ export function graderReady() {
   return !!process.env.GEMINI_API_KEY;
 }
 
-/** IELTS rounding of the average: .25 rounds up to .5 and .75 up to the next whole band. */
-export function overallBand(b: Omit<TalkGrade["bands"], "overall">) {
-  const mean = (b.fluency + b.lexical + b.grammar + b.pronunciation) / 4;
+/** IELTS rounding of an average of half bands: .25 rounds up to .5 and .75 up to the next whole band. */
+export function roundBand(mean: number) {
   return Math.floor(mean * 2 + 0.5 + 1e-9) / 2;
 }
+export const clampBand = (x: unknown) => Math.max(0, Math.min(9, Math.round((Number(x) || 0) * 2) / 2));
 
-export async function gradeAnswer(opts: {
-  audioBase64: string;
-  mimeType: string;
-  question: string;
-  part: 1 | 2 | 3;
-  level: string;
-  learnedWords: string[];
-}): Promise<TalkGrade> {
+type GeminiInput = ({ type: "text"; text: string } | { type: "audio"; data: string; mime_type: string })[];
+
+/** One structured-output call to Gemini, trying the next model when one is overloaded. */
+export async function askGemini<T>(system: string, input: GeminiInput, schema: object): Promise<T> {
   client ??= new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-  const context = [
-    `Question (IELTS Speaking Part ${opts.part}): ${opts.question}`,
-    `Learner's current level: ${opts.level}.`,
-    `Learner's studied vocabulary (most recent first): ${opts.learnedWords.slice(0, 200).join(", ") || "(none yet)"}`,
-  ].join("\n");
   let text: string | undefined;
   let lastError: unknown;
   for (const model of GRADER_MODELS) {
     try {
       const interaction = await client.interactions.create({
         model,
-        system_instruction: INSTRUCTIONS,
-        input: [
-          { type: "text", text: context },
-          { type: "audio", data: opts.audioBase64, mime_type: opts.mimeType },
-        ],
-        response_format: { type: "text", mime_type: "application/json", schema: SCHEMA },
+        system_instruction: system,
+        input,
+        response_format: { type: "text", mime_type: "application/json", schema: schema as Record<string, unknown> },
       });
       text = interaction.output_text;
       if (text) break;
@@ -146,15 +134,39 @@ export async function gradeAnswer(opts: {
   }
   if (!text && lastError) throw lastError;
   if (!text) throw new Error("empty grader response");
-  const g = JSON.parse(text) as TalkGrade;
-  const clamp = (x: number) => Math.max(0, Math.min(9, Math.round((Number(x) || 0) * 2) / 2));
-  g.bands = {
-    fluency: clamp(g.bands.fluency),
-    lexical: clamp(g.bands.lexical),
-    grammar: clamp(g.bands.grammar),
-    pronunciation: clamp(g.bands.pronunciation),
-    overall: 0,
+  return JSON.parse(text) as T;
+}
+
+export async function gradeAnswer(opts: {
+  audioBase64: string;
+  mimeType: string;
+  question: string;
+  part: 1 | 2 | 3;
+  level: string;
+  learnedWords: string[];
+}): Promise<TalkGrade> {
+  const context = [
+    `Question (IELTS Speaking Part ${opts.part}): ${opts.question}`,
+    opts.part === 2 ? "This is a Part 2 long turn: the learner should speak for 1-2 minutes covering the cue card points." : "",
+    `Learner's current level: ${opts.level}.`,
+    `Learner's studied vocabulary (most recent first): ${opts.learnedWords.slice(0, 200).join(", ") || "(none yet)"}`,
+  ]
+    .filter(Boolean)
+    .join("\n");
+  const g = await askGemini<TalkGrade>(
+    INSTRUCTIONS,
+    [
+      { type: "text", text: context },
+      { type: "audio", data: opts.audioBase64, mime_type: opts.mimeType },
+    ],
+    SCHEMA,
+  );
+  const b = {
+    fluency: clampBand(g.bands.fluency),
+    lexical: clampBand(g.bands.lexical),
+    grammar: clampBand(g.bands.grammar),
+    pronunciation: clampBand(g.bands.pronunciation),
   };
-  g.bands.overall = overallBand(g.bands);
+  g.bands = { ...b, overall: roundBand((b.fluency + b.lexical + b.grammar + b.pronunciation) / 4) };
   return g;
 }

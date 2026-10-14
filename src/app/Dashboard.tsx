@@ -139,6 +139,23 @@ export default function Dashboard({ catalog, levelWords }: { catalog: Catalog; l
         </div>
       )}
 
+      <Link href="/progress" className="card mt-3 flex items-center gap-3 hover:ring-indigo-300">
+        <span className="text-2xl">📈</span>
+        <div className="flex-1 text-sm">
+          <b>Biểu đồ tiến bộ</b> band từng kỹ năng theo tuần
+        </div>
+        <span className="text-slate-400">→</span>
+      </Link>
+      {(s.mistakes ?? []).some((m) => !m.mastered) && (
+        <Link href="/notebook" className="card mt-3 flex items-center gap-3 hover:ring-indigo-300">
+          <span className="text-2xl">📒</span>
+          <div className="flex-1 text-sm">
+            <b>{(s.mistakes ?? []).filter((m) => !m.mastered).length} lỗi sai</b> đang chờ ôn lại
+          </div>
+          <span className="text-slate-400">→</span>
+        </Link>
+      )}
+
       <div className="mt-6 grid grid-cols-3 gap-3 text-center">
         <div className="card">
           <div className="text-xl font-bold">{learned}</div>
@@ -148,7 +165,7 @@ export default function Dashboard({ catalog, levelWords }: { catalog: Catalog; l
           <div className="text-xl font-bold">{due}</div>
           <div className="text-xs text-slate-500">từ cần ôn</div>
         </div>
-        <Link href="/settings" className="card">
+        <Link href="/progress" className="card hover:ring-indigo-300">
           <div className="flex justify-center">
             <LevelChip level={s.level} />
           </div>

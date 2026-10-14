@@ -4,31 +4,23 @@ import type { TalkGrade } from "@/lib/grader";
 import { getState, markDone, update, useAppState } from "@/lib/store";
 import { todayStr } from "@/lib/dates";
 import { speak, speakVocab, stopSpeaking } from "@/lib/tts";
-import { useVocab } from "@/lib/vocab-client";
+import { useLearnedWords } from "@/lib/vocab-client";
 import { useAuth } from "@/components/AppShell";
 import ShadowingPlayer, { splitSentences } from "@/components/ShadowingPlayer";
 import { PageHeader, ProgressBar, SpeakButton, fmtTime, useRecorder, useTimer } from "@/components/ui";
 import type { ActiveQuestion } from "./TalkHome";
+import { addMistakes } from "@/lib/notebook";
+import { BandBars, Corrections, WordAdvice, bandColor } from "@/components/feedback";
 
 type Phase = "ready" | "asking" | "thinking" | "recording" | "grading" | "result" | "error";
 
-const THINK_SEC = 5;
+const THINK_SEC = 5; // Part 1/3: quick reflex; Part 2 gets the real 1 minute to prepare
 const CRITERIA: [keyof TalkGrade["feedback"], string][] = [
   ["fluency", "Trôi chảy & mạch lạc"],
   ["lexical", "Từ vựng"],
   ["grammar", "Ngữ pháp"],
   ["pronunciation", "Phát âm"],
 ];
-
-/** Learner's studied words (still-learning first) to send to the grader. */
-function useLearnedWords(): string[] {
-  const vocab = useVocab();
-  const s = useAppState();
-  if (!vocab) return [];
-  const byId = new Map(vocab.map((w) => [w.id, w.word]));
-  const ids = Object.entries(s.srs).sort((a, b) => Number(!!a[1].known) - Number(!!b[1].known));
-  return ids.map(([id]) => byId.get(id)).filter((w): w is string => !!w).slice(0, 200);
-}
 
 export default function TalkPractice({ active, onBack, onNext }: { active: ActiveQuestion; onBack: () => void; onNext: (next?: ActiveQuestion) => void }) {
   const { me } = useAuth();
@@ -39,13 +31,15 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
   const [reflex, setReflex] = useState(true);
   const [listenOnly, setListenOnly] = useState(false);
   const [showHint, setShowHint] = useState(false);
-  const [thinkLeft, setThinkLeft] = useState(THINK_SEC);
+  const thinkSec = active.part === 2 ? 60 : THINK_SEC;
+  const [thinkLeft, setThinkLeft] = useState(thinkSec);
+  const [notes, setNotes] = useState("");
   const [sec, setSec] = useTimer(phase === "recording");
   const [grade, setGrade] = useState<TalkGrade | null>(null);
   const [error, setError] = useState("");
   const [shadow, setShadow] = useState(false);
   const run = useRef(0);
-  const maxSec = active.part === 3 ? 90 : 45;
+  const maxSec = active.part === 2 ? 120 : active.part === 3 ? 90 : 45;
   const { recording, stop, blob } = rec;
 
   useEffect(() => () => {
@@ -80,7 +74,7 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
     if (my !== run.current) return;
     if (!reflex) return setPhase("thinking");
     setPhase("thinking");
-    for (let t = THINK_SEC; t > 0; t--) {
+    for (let t = thinkSec; t > 0; t--) {
       setThinkLeft(t);
       await new Promise((r) => setTimeout(r, 1000));
       if (my !== run.current) return;
@@ -92,7 +86,7 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
     setPhase("grading");
     const form = new FormData();
     form.append("audio", audio, "answer");
-    form.append("question", active.q);
+    form.append("question", active.cueCard ? `${active.q}\nCue card: ${active.cueCard.join("; ")}` : active.q);
     form.append("part", String(active.part));
     form.append("level", getState().level);
     form.append("words", words.join(","));
@@ -108,6 +102,11 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
           st.talks = [...(st.talks ?? []), { date: todayStr(), topic: active.topic.id, qid: active.qid, q: active.q, bands: g.bands }].slice(-300);
         });
       if (active.qid && g.bands.overall > 0) markDone(active.qid, Math.round(g.bands.overall * 10), 90);
+      const source = `Nói: ${active.topic.topicVi}`;
+      addMistakes([
+        ...g.corrections.map((c) => ({ source, kind: "grammar" as const, original: c.original, corrected: c.corrected, explanationVi: c.explanationVi })),
+        ...g.pronunciationIssues.map((p) => ({ source, kind: "pronunciation" as const, original: p.word, corrected: p.word, explanationVi: p.issueVi })),
+      ]);
       window.scrollTo({ top: 0 });
     } catch (e) {
       setError((e as Error).message);
@@ -145,6 +144,13 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
             </button>
           )}
         </div>
+        {active.cueCard && (
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-left text-slate-700">
+            {active.cueCard.map((c) => (
+              <li key={c}>{c}</li>
+            ))}
+          </ul>
+        )}
         {showHint && active.hintVi && <p className="mt-3 rounded-xl bg-amber-50 p-2.5 text-left text-sm text-amber-800">{active.hintVi}</p>}
       </div>
 
@@ -155,7 +161,7 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
               ▶ Bắt đầu
             </button>
             <p className="muted mt-2">
-              {reflex ? `Nghe câu hỏi → ${THINK_SEC} giây suy nghĩ → tự động ghi âm (tối đa ${maxSec} giây).` : "Nghe câu hỏi, rồi tự bấm ghi âm khi sẵn sàng."}
+              {reflex ? `Nghe câu hỏi → ${thinkSec} giây ${active.part === 2 ? "chuẩn bị (ghi ý chính)" : "suy nghĩ"} → tự động ghi âm (tối đa ${maxSec} giây).` : "Nghe câu hỏi, rồi tự bấm ghi âm khi sẵn sàng."}
             </p>
           </>
         )}
@@ -165,6 +171,14 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
             <div className="py-2">
               <div className="text-5xl font-bold text-indigo-600">{thinkLeft}</div>
               <div className="muted">Chuẩn bị trả lời…</div>
+              {active.part === 2 && (
+                <textarea
+                  className="input mt-3 min-h-24 text-left text-sm"
+                  placeholder="Ghi nhanh vài từ khóa cho từng ý…"
+                  value={notes}
+                  onChange={(e) => setNotes(e.target.value)}
+                />
+              )}
               <button className="btn-soft mt-3" onClick={() => (run.current++, startRecording())}>
                 Nói luôn
               </button>
@@ -179,6 +193,8 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
             <div className="flex items-center justify-center gap-2 text-lg font-semibold text-rose-600">
               <span className="inline-block h-3 w-3 animate-pulse rounded-full bg-rose-600" /> Đang ghi âm {fmtTime(sec)} / {fmtTime(maxSec)}
             </div>
+            {active.part === 2 && sec < 60 && <div className="muted mt-1">Cố gắng nói ít nhất 1 phút ({60 - sec}s nữa)</div>}
+            {active.part === 2 && notes && <p className="mt-2 whitespace-pre-line rounded-xl bg-slate-50 p-2 text-left text-sm text-slate-600">{notes}</p>}
             <ProgressBar value={sec / maxSec} className="mt-3" />
             <button className="btn mt-4 w-full bg-rose-600 py-4 text-base text-white" onClick={stop}>
               ⏹ Trả lời xong, chấm điểm
@@ -212,7 +228,7 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
       {phase === "ready" && (
         <div className="mt-3 flex flex-wrap gap-4 text-sm text-slate-600">
           <label className="flex items-center gap-2">
-            <input type="checkbox" checked={reflex} onChange={(e) => setReflex(e.target.checked)} /> Phản xạ nhanh (tự ghi âm sau {THINK_SEC}s)
+            <input type="checkbox" checked={reflex} onChange={(e) => setReflex(e.target.checked)} /> Tự ghi âm sau {thinkSec}s
           </label>
           <label className="flex items-center gap-2">
             <input type="checkbox" checked={listenOnly} onChange={(e) => setListenOnly(e.target.checked)} /> Chỉ nghe, ẩn chữ câu hỏi
@@ -224,10 +240,6 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
       )}
     </div>
   );
-}
-
-function bandColor(b: number) {
-  return b >= 7 ? "text-emerald-600" : b >= 5.5 ? "text-indigo-600" : b >= 4 ? "text-amber-600" : "text-rose-600";
 }
 
 function Result({
@@ -260,18 +272,7 @@ function Result({
         {!grade.answeredQuestion && <p className="mt-2 rounded-xl bg-amber-50 p-2 text-sm text-amber-800">⚠️ Câu trả lời chưa đúng trọng tâm câu hỏi.</p>}
       </div>
 
-      <div className="card mt-4 space-y-4">
-        {CRITERIA.map(([k, name]) => (
-          <div key={k}>
-            <div className="mb-1 flex justify-between text-sm font-semibold">
-              <span>{name}</span>
-              <span className={bandColor(b[k])}>{b[k].toFixed(1)}</span>
-            </div>
-            <ProgressBar value={b[k] / 9} />
-            <p className="mt-1.5 text-sm text-slate-600">{grade.feedback[k]}</p>
-          </div>
-        ))}
-      </div>
+      <BandBars items={CRITERIA.map(([k, name]) => ({ name, band: b[k], text: grade.feedback[k] }))} />
 
       <div className="card mt-4">
         <div className="h2 mb-2">Bạn đã nói</div>
@@ -279,20 +280,7 @@ function Result({
         {audioUrl && <audio controls src={audioUrl} className="mt-3 w-full" />}
       </div>
 
-      {grade.corrections.length > 0 && (
-        <div className="card mt-4">
-          <div className="h2 mb-2">Sửa lỗi</div>
-          <div className="space-y-3">
-            {grade.corrections.map((c, i) => (
-              <div key={i} className="text-sm">
-                <div className="text-rose-600 line-through">{c.original}</div>
-                <div className="font-semibold text-emerald-700">→ {c.corrected}</div>
-                <div className="text-slate-500">{c.explanationVi}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+      <Corrections items={grade.corrections} />
 
       {grade.pronunciationIssues.length > 0 && (
         <div className="card mt-4">
@@ -312,28 +300,7 @@ function Result({
         </div>
       )}
 
-      <div className="card mt-4">
-        <div className="h2 mb-2">Từ vựng</div>
-        {grade.learnedWordsUsed.length > 0 ? (
-          <div className="mb-3 flex flex-wrap gap-1.5">
-            <span className="text-sm text-slate-500">Từ đã học bạn dùng được:</span>
-            {grade.learnedWordsUsed.map((w) => (
-              <span key={w} className="chip bg-emerald-100 text-emerald-700">
-                ✓ {w}
-              </span>
-            ))}
-          </div>
-        ) : (
-          <p className="mb-3 text-sm text-slate-500">Lần này bạn chưa dùng từ nào trong danh sách đã học. Thử áp dụng các từ dưới đây nhé!</p>
-        )}
-        <div className="space-y-2">
-          {grade.suggestedWords.map((w, i) => (
-            <div key={i} className="text-sm">
-              <b className="text-indigo-700">{w.word}</b>: {w.howVi}
-            </div>
-          ))}
-        </div>
-      </div>
+      <WordAdvice used={grade.learnedWordsUsed} suggested={grade.suggestedWords} source={`Nói: ${active.topic.topicVi}`} />
 
       <div className="card mt-4">
         <div className="mb-2 flex items-center justify-between">
@@ -355,7 +322,7 @@ function Result({
         {grade.followUp && (
           <button
             className="btn-primary w-full py-3"
-            onClick={() => onNext({ topic: active.topic, q: grade.followUp, part: active.part })}
+            onClick={() => onNext({ topic: active.topic, q: grade.followUp, part: active.part === 2 ? 3 : active.part })}
           >
             💬 Trả lời câu hỏi tiếp: “{grade.followUp.length > 60 ? grade.followUp.slice(0, 60) + "…" : grade.followUp}”
           </button>

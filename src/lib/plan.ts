@@ -2,6 +2,7 @@
 import { LEVELS, type Level } from "@/content/types";
 import type { AppState } from "./store";
 import { addDays, diffDays, weekday } from "./dates";
+import { weakestSkill } from "./progress";
 import { isDue } from "./srs";
 
 export type ItemKind = "grammar" | "reading" | "listening" | "writing" | "speaking" | "shadowing" | "pronunciation";
@@ -189,12 +190,20 @@ export function generatePlan(s: AppState, catalog: Catalog, today: string): Plan
   // Learners below B1 do not get full IELTS writing tasks yet: swap for reading practice.
   if (focus === "writing" && levelIdx(s.level) < 1) focus = "reading";
   if (focus === "mock" && roadmapWeek(choice, today) % 2 === 0 && roadmap.id !== "D") focus = "quiz";
+  // Adaptive: on the vocabulary-quiz day of odd weeks, practise the weakest skill instead.
+  if (focus === "quiz" && roadmapWeek(choice, today) % 2 === 1) {
+    const weak = weakestSkill(s, catalog, today);
+    if (weak === "speaking") {
+      tasks.push({ key: "talk", kind: "speaking", title: "Kỹ năng yếu nhất: luyện nói có AI chấm (2–3 câu)", minutes: 10, href: "/talk" });
+      focus = "rest";
+    } else if (weak) focus = weak;
+  }
 
   if (focus === "quiz") {
     tasks.push({ key: "quiz", kind: "quiz", title: "Kiểm tra nhanh 15 từ đã học", minutes: 6, href: "/vocab?mode=quiz" });
   } else if (focus === "mock") {
     tasks.push({ key: "mock", kind: "mock", title: "Mock test mini (Listening + Reading)", minutes: 15, href: "/mock" });
-  } else {
+  } else if (focus !== "rest") {
     const item = nextItem(catalog, focus, s);
     if (item)
       tasks.push({ key: item.id, kind: focus, itemId: item.id, title: `${KIND_VI[focus]}: ${item.title}`, minutes: focus === "writing" ? 12 : 9, href: itemHref(focus, item.id) });
@@ -220,6 +229,7 @@ export function isTaskDone(t: PlanTask, s: AppState, today: string): boolean {
   if (t.kind === "learn") return (log?.learned ?? 0) >= (t.target ?? 0);
   if (t.kind === "quiz") return !!log?.done.includes("quiz");
   if (t.kind === "mock") return s.mocks.some((m) => m.date === today);
+  if (t.key === "talk") return (s.talks ?? []).some((x) => x.date === today);
   return !!t.itemId && s.done[t.itemId]?.date === today;
 }
 
@@ -247,5 +257,6 @@ function isTaskDoneOn(t: PlanTask, s: AppState, day: string): boolean {
   if (t.kind === "learn") return (log?.learned ?? 0) >= (t.target ?? 0);
   if (t.kind === "quiz") return !!log?.done.includes("quiz");
   if (t.kind === "mock") return s.mocks.some((m) => m.date === day);
+  if (t.key === "talk") return (s.talks ?? []).some((x) => x.date === day);
   return !!t.itemId && !!log?.done.includes(t.itemId);
 }

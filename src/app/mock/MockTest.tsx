@@ -4,17 +4,12 @@ import { useEffect, useState } from "react";
 import type { Level, ListeningItem, ReadingPassage } from "@/content/types";
 import { getState, markDone, update, useAppState } from "@/lib/store";
 import { todayStr } from "@/lib/dates";
+import { estimateBand } from "@/lib/progress";
 import QuestionSet from "@/components/QuestionSet";
 import { DoneBanner, fmtTime, LevelChip, PageHeader, useTimer } from "@/components/ui";
 import { ScriptPlayer } from "../listening/[id]/ListeningView";
 import { Passage } from "../reading/[id]/ReadingView";
 
-const BASE_BAND: Record<Level, number> = { A1: 2.5, A2: 3.5, B1: 4.5, B2: 5.5, C1: 6.5 };
-
-export function estimateBand(level: Level, pct: number) {
-  const adj = pct >= 0.85 ? 1 : pct >= 0.7 ? 0.5 : pct >= 0.5 ? 0 : -0.5;
-  return Math.max(1, Math.min(9, BASE_BAND[level] + adj));
-}
 
 type Ref = { id: string; level: Level };
 

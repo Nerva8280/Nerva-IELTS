@@ -66,6 +66,22 @@ export default function PracticeHub({ catalog }: { catalog: Catalog }) {
         </div>
         <span className="text-slate-400">→</span>
       </Link>
+      <Link href="/dictation" className="card mb-3 flex items-center gap-3 ring-emerald-200">
+        <span className="text-3xl">✍️</span>
+        <div className="flex-1">
+          <div className="font-semibold">Nghe chép chính tả</div>
+          <div className="text-sm text-slate-600">Giọng người bản xứ · gõ lại câu nghe được · luyện tai cho Listening</div>
+        </div>
+        <span className="text-slate-400">→</span>
+      </Link>
+      <Link href="/notebook" className="card mb-3 flex items-center gap-3 ring-rose-200">
+        <span className="text-3xl">📒</span>
+        <div className="flex-1">
+          <div className="font-semibold">Sổ lỗi sai & Từ của tôi</div>
+          <div className="text-sm text-slate-600">{(s.mistakes ?? []).filter((m) => !m.mastered).length} lỗi cần ôn · {(s.myWords ?? []).length} từ tự thêm</div>
+        </div>
+        <span className="text-slate-400">→</span>
+      </Link>
       <Link href="/mock" className="card mb-4 flex items-center gap-3 bg-gradient-to-r from-amber-50 to-orange-50 ring-amber-200">
         <span className="text-3xl">🏁</span>
         <div className="flex-1">

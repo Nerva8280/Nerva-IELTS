@@ -53,6 +53,10 @@ export interface AppState {
   mocks: { date: string; level: Level; score: number; total: number; band: number }[];
   pronChecks: { date: string; band: number; source: string }[]; // pronunciation self-assessments
   talks?: TalkRecord[]; // AI-graded speaking answers
+  writingGrades?: { date: string; id: string; bands: { task: number; coherence: number; lexical: number; grammar: number; overall: number } }[];
+  mistakes?: import("./notebook").Mistake[];
+  myWords?: import("./notebook").MyWord[];
+  dictation?: { date: string; aid: string; correct: number; total: number }[]; // words heard correctly per sentence
   settings: Settings;
 }
 

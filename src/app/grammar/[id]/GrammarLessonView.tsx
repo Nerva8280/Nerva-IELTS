@@ -29,6 +29,7 @@ export default function GrammarLessonView({ lesson }: { lesson: GrammarLesson })
       <h2 className="h2 mb-2 mt-5">Bài tập</h2>
       <QuestionSet
         questions={lesson.exercises}
+        source={`Ngữ pháp: ${lesson.title}`}
         onSubmit={(score, total) => {
           markDone(lesson.id, score, total);
           setResult([score, total]);
