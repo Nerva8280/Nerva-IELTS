@@ -21,6 +21,7 @@ export interface Settings {
   voiceF?: string;
   voiceM?: string;
   rate: number;
+  reviewMode?: "flip" | "meaning" | "synonym"; // how vocabulary review asks
 }
 
 export interface PlacementResult {

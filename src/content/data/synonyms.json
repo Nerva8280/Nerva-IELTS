@@ -1,0 +1,5135 @@
+{
+ "a1-002": [
+  "nourishment"
+ ],
+ "a1-004": [
+  "companion",
+  "mate"
+ ],
+ "a1-005": [
+  "home",
+  "residence",
+  "dwelling"
+ ],
+ "a1-007": [
+  "labour",
+  "be employed"
+ ],
+ "a1-008": [
+  "cash",
+  "currency"
+ ],
+ "a1-015": [
+  "individuals",
+  "the public"
+ ],
+ "a1-016": [
+  "male",
+  "gentleman"
+ ],
+ "a1-017": [
+  "female",
+  "lady"
+ ],
+ "a1-018": [
+  "kid",
+  "youngster"
+ ],
+ "a1-019": [
+  "mum",
+  "mom"
+ ],
+ "a1-020": [
+  "dad"
+ ],
+ "a1-025": [
+  "spouse",
+  "partner"
+ ],
+ "a1-026": [
+  "spouse",
+  "partner"
+ ],
+ "a1-027": [
+  "guardian"
+ ],
+ "a1-028": [
+  "infant",
+  "newborn"
+ ],
+ "a1-029": [
+  "lad",
+  "youngster"
+ ],
+ "a1-030": [
+  "lass",
+  "young woman"
+ ],
+ "a1-031": [
+  "instructor",
+  "tutor",
+  "educator"
+ ],
+ "a1-032": [
+  "pupil",
+  "learner"
+ ],
+ "a1-033": [
+  "physician"
+ ],
+ "a1-034": [
+  "occupation",
+  "employment",
+  "position"
+ ],
+ "a1-035": [
+  "workplace"
+ ],
+ "a1-036": [
+  "store"
+ ],
+ "a1-037": [
+  "bazaar",
+  "marketplace"
+ ],
+ "a1-038": [
+  "urban area"
+ ],
+ "a1-039": [
+  "small city"
+ ],
+ "a1-040": [
+  "nation",
+  "state"
+ ],
+ "a1-041": [
+  "avenue"
+ ],
+ "a1-042": [
+  "route"
+ ],
+ "a1-043": [
+  "automobile",
+  "vehicle"
+ ],
+ "a1-046": [
+  "bicycle"
+ ],
+ "a1-050": [
+  "inn"
+ ],
+ "a1-064": [
+  "PC",
+  "laptop"
+ ],
+ "a1-065": [
+  "TV"
+ ],
+ "a1-071": [
+  "morning meal"
+ ],
+ "a1-072": [
+  "midday meal"
+ ],
+ "a1-073": [
+  "evening meal"
+ ],
+ "a1-074": [
+  "repast"
+ ],
+ "a1-093": [
+  "eatery"
+ ],
+ "a1-094": [
+  "starving",
+  "famished"
+ ],
+ "a1-095": [
+  "dehydrated"
+ ],
+ "a1-096": [
+  "prepare food"
+ ],
+ "a1-097": [
+  "consume",
+  "have"
+ ],
+ "a1-098": [
+  "consume",
+  "sip"
+ ],
+ "a1-099": [
+  "purchase"
+ ],
+ "a1-100": [
+  "market",
+  "trade"
+ ],
+ "a1-101": [
+  "travel",
+  "move"
+ ],
+ "a1-102": [
+  "arrive"
+ ],
+ "a1-103": [
+  "stroll",
+  "stride"
+ ],
+ "a1-104": [
+  "sprint",
+  "jog"
+ ],
+ "a1-105": [
+  "take a seat"
+ ],
+ "a1-107": [
+  "rest",
+  "doze"
+ ],
+ "a1-108": [
+  "awaken"
+ ],
+ "a1-109": [
+  "rise"
+ ],
+ "a1-110": [
+  "reside",
+  "dwell"
+ ],
+ "a1-111": [
+  "learn",
+  "research"
+ ],
+ "a1-112": [
+  "pick up",
+  "master"
+ ],
+ "a1-113": [
+  "instruct",
+  "educate"
+ ],
+ "a1-114": [
+  "scan",
+  "study"
+ ],
+ "a1-115": [
+  "compose",
+  "jot down"
+ ],
+ "a1-116": [
+  "pay attention"
+ ],
+ "a1-117": [
+  "talk",
+  "say"
+ ],
+ "a1-118": [
+  "chat",
+  "converse"
+ ],
+ "a1-119": [
+  "state",
+  "tell"
+ ],
+ "a1-120": [
+  "enquire",
+  "question"
+ ],
+ "a1-121": [
+  "reply",
+  "respond"
+ ],
+ "a1-122": [
+  "be aware of"
+ ],
+ "a1-123": [
+  "believe",
+  "consider"
+ ],
+ "a1-124": [
+  "comprehend",
+  "grasp"
+ ],
+ "a1-125": [
+  "recall",
+  "recollect"
+ ],
+ "a1-126": [
+  "overlook"
+ ],
+ "a1-127": [
+  "enjoy",
+  "be fond of"
+ ],
+ "a1-128": [
+  "adore"
+ ],
+ "a1-129": [
+  "desire",
+  "wish for"
+ ],
+ "a1-130": [
+  "require"
+ ],
+ "a1-131": [
+  "hand",
+  "provide"
+ ],
+ "a1-132": [
+  "grab",
+  "carry"
+ ],
+ "a1-133": [
+  "create",
+  "produce"
+ ],
+ "a1-134": [
+  "assist",
+  "aid"
+ ],
+ "a1-135": [
+  "utilise",
+  "employ"
+ ],
+ "a1-136": [
+  "unlock"
+ ],
+ "a1-137": [
+  "shut"
+ ],
+ "a1-138": [
+  "begin",
+  "commence"
+ ],
+ "a1-139": [
+  "complete",
+  "end"
+ ],
+ "a1-140": [
+  "take part",
+  "compete"
+ ],
+ "a1-141": [
+  "observe",
+  "view"
+ ],
+ "a1-142": [
+  "gaze",
+  "glance"
+ ],
+ "a1-143": [
+  "notice",
+  "spot"
+ ],
+ "a1-144": [
+  "catch"
+ ],
+ "a1-145": [
+  "encounter"
+ ],
+ "a1-146": [
+  "call on"
+ ],
+ "a1-147": [
+  "phone",
+  "ring"
+ ],
+ "a1-148": [
+  "hold on",
+  "stay"
+ ],
+ "a1-149": [
+  "halt",
+  "cease"
+ ],
+ "a1-150": [
+  "attempt",
+  "endeavour"
+ ],
+ "a1-151": [
+  "glad",
+  "cheerful",
+  "pleased"
+ ],
+ "a1-152": [
+  "unhappy",
+  "upset",
+  "miserable"
+ ],
+ "a1-153": [
+  "exhausted",
+  "weary"
+ ],
+ "a1-154": [
+  "furious",
+  "mad",
+  "annoyed"
+ ],
+ "a1-155": [
+  "great",
+  "fine",
+  "excellent"
+ ],
+ "a1-156": [
+  "poor",
+  "terrible"
+ ],
+ "a1-157": [
+  "large",
+  "huge"
+ ],
+ "a1-158": [
+  "little",
+  "tiny"
+ ],
+ "a1-159": [
+  "lengthy"
+ ],
+ "a1-160": [
+  "brief"
+ ],
+ "a1-161": [
+  "high"
+ ],
+ "a1-162": [
+  "aged",
+  "elderly"
+ ],
+ "a1-163": [
+  "recent",
+  "modern"
+ ],
+ "a1-164": [
+  "youthful"
+ ],
+ "a1-165": [
+  "boiling"
+ ],
+ "a1-166": [
+  "chilly",
+  "freezing"
+ ],
+ "a1-167": [
+  "mild"
+ ],
+ "a1-168": [
+  "simple",
+  "effortless"
+ ],
+ "a1-169": [
+  "hard",
+  "challenging"
+ ],
+ "a1-170": [
+  "quick",
+  "rapid"
+ ],
+ "a1-171": [
+  "sluggish",
+  "unhurried"
+ ],
+ "a1-172": [
+  "premature"
+ ],
+ "a1-173": [
+  "delayed",
+  "overdue"
+ ],
+ "a1-174": [
+  "inexpensive",
+  "affordable"
+ ],
+ "a1-175": [
+  "costly",
+  "pricey"
+ ],
+ "a1-176": [
+  "lovely",
+  "attractive",
+  "gorgeous"
+ ],
+ "a1-177": [
+  "pleasant",
+  "agreeable",
+  "lovely"
+ ],
+ "a1-178": [
+  "spotless",
+  "tidy"
+ ],
+ "a1-179": [
+  "filthy",
+  "unclean"
+ ],
+ "a1-180": [
+  "occupied",
+  "engaged"
+ ],
+ "a1-181": [
+  "available",
+  "complimentary"
+ ],
+ "a1-182": [
+  "prepared",
+  "set"
+ ],
+ "a1-183": [
+  "correct",
+  "accurate"
+ ],
+ "a1-184": [
+  "incorrect",
+  "mistaken"
+ ],
+ "a1-185": [
+  "identical",
+  "equal"
+ ],
+ "a1-186": [
+  "distinct",
+  "unlike"
+ ],
+ "a1-187": [
+  "significant",
+  "essential",
+  "vital"
+ ],
+ "a1-188": [
+  "preferred",
+  "best-loved"
+ ],
+ "a1-189": [
+  "fascinating",
+  "engaging"
+ ],
+ "a1-190": [
+  "dull",
+  "tedious"
+ ],
+ "a1-197": [
+  "shade",
+  "hue"
+ ],
+ "a1-207": [
+  "ocean"
+ ],
+ "a1-213": [
+  "creature"
+ ],
+ "a1-226": [
+  "footwear"
+ ],
+ "a1-227": [
+  "gown",
+  "frock"
+ ],
+ "a1-229": [
+  "clothing",
+  "garments"
+ ],
+ "a1-234": [
+  "movie"
+ ],
+ "a1-235": [
+  "match",
+  "contest"
+ ],
+ "a1-236": [
+  "soccer"
+ ],
+ "a1-237": [
+  "bathe"
+ ],
+ "a1-238": [
+  "waltz"
+ ],
+ "a1-239": [
+  "chant"
+ ],
+ "a1-240": [
+  "photograph",
+  "snapshot"
+ ],
+ "a1-241": [
+  "image",
+  "illustration"
+ ],
+ "a1-242": [
+  "nowadays"
+ ],
+ "a1-246": [
+  "constantly",
+  "forever"
+ ],
+ "a1-247": [
+  "at no time"
+ ],
+ "a1-248": [
+  "frequently",
+  "regularly"
+ ],
+ "a1-249": [
+  "occasionally",
+  "at times"
+ ],
+ "a1-250": [
+  "normally",
+  "generally"
+ ],
+ "a1-251": [
+  "extremely",
+  "really"
+ ],
+ "a1-252": [
+  "excessively"
+ ],
+ "a1-253": [
+  "as well",
+  "too"
+ ],
+ "a1-254": [
+  "once more"
+ ],
+ "a1-257": [
+  "since",
+  "as"
+ ],
+ "a1-258": [
+  "however",
+  "yet"
+ ],
+ "a1-259": [
+  "close to",
+  "nearby"
+ ],
+ "a1-260": [
+  "at the back of"
+ ],
+ "a1-261": [
+  "beneath",
+  "below"
+ ],
+ "a1-262": [
+  "following"
+ ],
+ "a1-263": [
+  "prior to",
+  "ahead of"
+ ],
+ "a1-266": [
+  "celebration",
+  "gathering"
+ ],
+ "a1-267": [
+  "gift"
+ ],
+ "a1-268": [
+  "vacation"
+ ],
+ "a1-273": [
+  "timepiece"
+ ],
+ "a1-275": [
+  "dusk"
+ ],
+ "a1-277": [
+  "initial",
+  "opening"
+ ],
+ "a1-278": [
+  "final",
+  "latest"
+ ],
+ "a1-279": [
+  "following",
+  "subsequent"
+ ],
+ "a1-280": [
+  "numerous",
+  "plenty of"
+ ],
+ "a1-281": [
+  "each",
+  "all"
+ ],
+ "a1-282": [
+  "query"
+ ],
+ "a1-283": [
+  "term"
+ ],
+ "a1-284": [
+  "tongue"
+ ],
+ "a1-285": [
+  "lesson",
+  "course"
+ ],
+ "a1-286": [
+  "class",
+  "session"
+ ],
+ "a1-288": [
+  "test",
+  "examination"
+ ],
+ "a1-289": [
+  "tale",
+  "narrative"
+ ],
+ "a1-290": [
+  "message"
+ ],
+ "a1-291": [
+  "electronic mail"
+ ],
+ "a1-292": [
+  "cost",
+  "fee"
+ ],
+ "a1-293": [
+  "clean",
+  "rinse"
+ ],
+ "a1-294": [
+  "sick",
+  "unwell"
+ ],
+ "a1-296": [
+  "fit",
+  "well"
+ ],
+ "a1-297": [
+  "grin",
+  "beam"
+ ],
+ "a1-298": [
+  "giggle",
+  "chuckle"
+ ],
+ "a1-299": [
+  "granny",
+  "nan"
+ ],
+ "a1-300": [
+  "granddad",
+  "grandpa"
+ ],
+ "a2-001": [
+  "determine",
+  "resolve"
+ ],
+ "a2-002": [
+  "alter",
+  "modify"
+ ],
+ "a2-003": [
+  "tour",
+  "journey"
+ ],
+ "a2-004": [
+  "reach",
+  "get to"
+ ],
+ "a2-005": [
+  "depart",
+  "go away"
+ ],
+ "a2-006": [
+  "come back",
+  "go back"
+ ],
+ "a2-007": [
+  "remain"
+ ],
+ "a2-008": [
+  "relish",
+  "like"
+ ],
+ "a2-009": [
+  "favour"
+ ],
+ "a2-010": [
+  "expect"
+ ],
+ "a2-011": [
+  "want",
+  "desire"
+ ],
+ "a2-012": [
+  "scheme",
+  "strategy"
+ ],
+ "a2-013": [
+  "ask"
+ ],
+ "a2-014": [
+  "concur",
+  "consent"
+ ],
+ "a2-015": [
+  "clarify"
+ ],
+ "a2-016": [
+  "portray",
+  "depict"
+ ],
+ "a2-017": [
+  "split",
+  "divide"
+ ],
+ "a2-018": [
+  "take part in",
+  "participate in"
+ ],
+ "a2-019": [
+  "triumph",
+  "succeed"
+ ],
+ "a2-020": [
+  "misplace",
+  "be defeated"
+ ],
+ "a2-021": [
+  "succeed in"
+ ],
+ "a2-022": [
+  "flop",
+  "be unsuccessful"
+ ],
+ "a2-023": [
+  "rehearse",
+  "train"
+ ],
+ "a2-024": [
+  "enhance",
+  "upgrade"
+ ],
+ "a2-025": [
+  "fix",
+  "mend"
+ ],
+ "a2-026": [
+  "smash",
+  "damage"
+ ],
+ "a2-027": [
+  "slice",
+  "chop"
+ ],
+ "a2-028": [
+  "sketch"
+ ],
+ "a2-029": [
+  "colour"
+ ],
+ "a2-030": [
+  "construct",
+  "erect"
+ ],
+ "a2-031": [
+  "cultivate",
+  "raise"
+ ],
+ "a2-032": [
+  "conserve",
+  "rescue"
+ ],
+ "a2-033": [
+  "use",
+  "pay out"
+ ],
+ "a2-034": [
+  "be priced at"
+ ],
+ "a2-035": [
+  "settle"
+ ],
+ "a2-036": [
+  "request"
+ ],
+ "a2-037": [
+  "take on loan"
+ ],
+ "a2-038": [
+  "loan"
+ ],
+ "a2-039": [
+  "post",
+  "dispatch"
+ ],
+ "a2-040": [
+  "fetch",
+  "deliver"
+ ],
+ "a2-041": [
+  "transport",
+  "haul"
+ ],
+ "a2-042": [
+  "select",
+  "pick"
+ ],
+ "a2-043": [
+  "sense"
+ ],
+ "a2-044": [
+  "trust"
+ ],
+ "a2-045": [
+  "fret",
+  "be anxious"
+ ],
+ "a2-046": [
+  "long for"
+ ],
+ "a2-047": [
+  "wed"
+ ],
+ "a2-048": [
+  "tumble",
+  "drop"
+ ],
+ "a2-049": [
+  "ache",
+  "injure"
+ ],
+ "a2-050": [
+  "workout",
+  "physical activity"
+ ],
+ "a2-051": [
+  "medication",
+  "drug"
+ ],
+ "a2-052": [
+  "head pain"
+ ],
+ "a2-053": [
+  "ache",
+  "discomfort"
+ ],
+ "a2-060": [
+  "voyage",
+  "travel"
+ ],
+ "a2-061": [
+  "excursion",
+  "outing"
+ ],
+ "a2-062": [
+  "traveller",
+  "visitor"
+ ],
+ "a2-066": [
+  "pair",
+  "duo"
+ ],
+ "a2-067": [
+  "visitor"
+ ],
+ "a2-068": [
+  "client",
+  "shopper"
+ ],
+ "a2-069": [
+  "supervisor",
+  "director"
+ ],
+ "a2-070": [
+  "co-worker",
+  "workmate"
+ ],
+ "a2-071": [
+  "employer",
+  "supervisor"
+ ],
+ "a2-079": [
+  "wage",
+  "pay"
+ ],
+ "a2-080": [
+  "conference",
+  "gathering"
+ ],
+ "a2-082": [
+  "firm",
+  "business"
+ ],
+ "a2-083": [
+  "plant",
+  "works"
+ ],
+ "a2-084": [
+  "college"
+ ],
+ "a2-085": [
+  "topic",
+  "theme"
+ ],
+ "a2-086": [
+  "exam",
+  "quiz"
+ ],
+ "a2-087": [
+  "error",
+  "fault"
+ ],
+ "a2-091": [
+  "crossing"
+ ],
+ "a2-094": [
+  "structure"
+ ],
+ "a2-095": [
+  "hamlet"
+ ],
+ "a2-096": [
+  "rural area"
+ ],
+ "a2-097": [
+  "isle"
+ ],
+ "a2-099": [
+  "woods",
+  "woodland"
+ ],
+ "a2-102": [
+  "tempest"
+ ],
+ "a2-103": [
+  "time of year"
+ ],
+ "a2-108": [
+  "ranch"
+ ],
+ "a2-112": [
+  "bug"
+ ],
+ "a2-135": [
+  "scared",
+  "frightened"
+ ],
+ "a2-136": [
+  "cautious",
+  "attentive"
+ ],
+ "a2-137": [
+  "cosy",
+  "relaxed"
+ ],
+ "a2-138": [
+  "risky",
+  "hazardous",
+  "unsafe"
+ ],
+ "a2-139": [
+  "tasty",
+  "yummy"
+ ],
+ "a2-140": [
+  "outstanding",
+  "superb",
+  "brilliant"
+ ],
+ "a2-141": [
+  "well-known",
+  "renowned"
+ ],
+ "a2-142": [
+  "new",
+  "crisp"
+ ],
+ "a2-143": [
+  "packed",
+  "crowded"
+ ],
+ "a2-144": [
+  "vacant",
+  "bare"
+ ],
+ "a2-145": [
+  "weighty"
+ ],
+ "a2-146": [
+  "lightweight"
+ ],
+ "a2-147": [
+  "peaceful",
+  "silent",
+  "calm"
+ ],
+ "a2-148": [
+  "loud",
+  "rowdy"
+ ],
+ "a2-149": [
+  "idle",
+  "slack"
+ ],
+ "a2-150": [
+  "courteous",
+  "well-mannered"
+ ],
+ "a2-151": [
+  "well-liked",
+  "widespread"
+ ],
+ "a2-152": [
+  "wealthy",
+  "well-off"
+ ],
+ "a2-153": [
+  "needy",
+  "impoverished"
+ ],
+ "a2-154": [
+  "secure",
+  "protected"
+ ],
+ "a2-155": [
+  "grave",
+  "earnest"
+ ],
+ "a2-156": [
+  "odd",
+  "unusual",
+  "weird"
+ ],
+ "a2-157": [
+  "sugary"
+ ],
+ "a2-158": [
+  "sharp",
+  "tart"
+ ],
+ "a2-159": [
+  "prosperous",
+  "accomplished"
+ ],
+ "a2-160": [
+  "awful",
+  "dreadful",
+  "horrible"
+ ],
+ "a2-161": [
+  "conventional",
+  "customary"
+ ],
+ "a2-162": [
+  "helpful",
+  "handy"
+ ],
+ "a2-163": [
+  "fantastic",
+  "marvellous",
+  "great"
+ ],
+ "a2-164": [
+  "packed",
+  "busy",
+  "overcrowded"
+ ],
+ "a2-165": [
+  "up-to-date",
+  "contemporary"
+ ],
+ "a2-166": [
+  "regional",
+  "community"
+ ],
+ "a2-167": [
+  "overseas",
+  "international"
+ ],
+ "a2-168": [
+  "communal",
+  "open to all"
+ ],
+ "a2-169": [
+  "wed"
+ ],
+ "a2-170": [
+  "unmarried",
+  "solo"
+ ],
+ "a2-171": [
+  "kind",
+  "welcoming",
+  "sociable"
+ ],
+ "a2-172": [
+  "caring",
+  "generous",
+  "nice"
+ ],
+ "a2-173": [
+  "amusing",
+  "humorous",
+  "comical"
+ ],
+ "a2-174": [
+  "smart",
+  "intelligent",
+  "bright"
+ ],
+ "a2-175": [
+  "courageous",
+  "fearless",
+  "bold"
+ ],
+ "a2-176": [
+  "timid",
+  "bashful",
+  "reserved"
+ ],
+ "a2-177": [
+  "truthful",
+  "sincere",
+  "frank"
+ ],
+ "a2-178": [
+  "fortunate"
+ ],
+ "a2-179": [
+  "flawless",
+  "ideal"
+ ],
+ "a2-180": [
+  "particular",
+  "unique",
+  "exceptional"
+ ],
+ "a2-181": [
+  "broad"
+ ],
+ "a2-182": [
+  "tight",
+  "thin"
+ ],
+ "a2-183": [
+  "profound"
+ ],
+ "a2-184": [
+  "tall",
+  "elevated"
+ ],
+ "a2-185": [
+  "small",
+  "shallow"
+ ],
+ "a2-186": [
+  "slim",
+  "slender",
+  "skinny"
+ ],
+ "a2-187": [
+  "chunky"
+ ],
+ "a2-188": [
+  "gentle",
+  "tender"
+ ],
+ "a2-189": [
+  "firm",
+  "difficult",
+  "tough"
+ ],
+ "a2-190": [
+  "powerful",
+  "sturdy",
+  "tough"
+ ],
+ "a2-191": [
+  "feeble",
+  "frail"
+ ],
+ "a2-192": [
+  "dim",
+  "gloomy"
+ ],
+ "a2-193": [
+  "shining",
+  "vivid"
+ ],
+ "a2-194": [
+  "damp",
+  "soaked"
+ ],
+ "a2-195": [
+  "arid",
+  "parched"
+ ],
+ "a2-196": [
+  "keen",
+  "pointed"
+ ],
+ "a2-197": [
+  "noisy"
+ ],
+ "a2-198": [
+  "anxious",
+  "concerned",
+  "uneasy"
+ ],
+ "a2-199": [
+  "thrilled",
+  "enthusiastic",
+  "eager"
+ ],
+ "a2-200": [
+  "astonished",
+  "amazed",
+  "shocked"
+ ],
+ "a2-201": [
+  "happy",
+  "delighted",
+  "satisfied"
+ ],
+ "a2-202": [
+  "pleased",
+  "honoured"
+ ],
+ "a2-203": [
+  "fed up",
+  "uninterested"
+ ],
+ "a2-204": [
+  "tense",
+  "anxious",
+  "on edge"
+ ],
+ "a2-205": [
+  "isolated",
+  "solitary"
+ ],
+ "a2-206": [
+  "apologetic",
+  "regretful"
+ ],
+ "a2-207": [
+  "happy",
+  "pleased",
+  "delighted"
+ ],
+ "a2-208": [
+  "certain",
+  "confident",
+  "positive"
+ ],
+ "a2-209": [
+  "feasible",
+  "achievable",
+  "doable"
+ ],
+ "a2-210": [
+  "rapidly",
+  "swiftly",
+  "fast"
+ ],
+ "a2-211": [
+  "gradually",
+  "unhurriedly"
+ ],
+ "a2-212": [
+  "cautiously",
+  "attentively"
+ ],
+ "a2-213": [
+  "nearly",
+  "virtually"
+ ],
+ "a2-214": [
+  "previously",
+  "by now"
+ ],
+ "a2-215": [
+  "so far"
+ ],
+ "a2-216": [
+  "continuing to",
+  "even now"
+ ],
+ "a2-217": [
+  "only",
+  "merely",
+  "recently"
+ ],
+ "a2-218": [
+  "perhaps",
+  "possibly"
+ ],
+ "a2-219": [
+  "likely",
+  "most likely"
+ ],
+ "a2-220": [
+  "jointly",
+  "side by side"
+ ],
+ "a2-221": [
+  "on my own",
+  "solo"
+ ],
+ "a2-222": [
+  "particularly",
+  "above all",
+  "notably"
+ ],
+ "a2-223": [
+  "outdoors",
+  "out of doors"
+ ],
+ "a2-224": [
+  "indoors",
+  "within"
+ ],
+ "a2-225": [
+  "overseas",
+  "in another country"
+ ],
+ "a2-226": [
+  "all of a sudden",
+  "abruptly"
+ ],
+ "a2-227": [
+  "at last",
+  "in the end",
+  "eventually"
+ ],
+ "a2-228": [
+  "truly",
+  "genuinely"
+ ],
+ "a2-229": [
+  "fairly",
+  "rather",
+  "pretty"
+ ],
+ "a2-230": [
+  "sufficiently"
+ ],
+ "a2-231": [
+  "off",
+  "elsewhere"
+ ],
+ "a2-232": [
+  "all over",
+  "throughout"
+ ],
+ "a2-233": [
+  "maybe",
+  "possibly"
+ ],
+ "a2-234": [
+  "afterwards",
+  "subsequently"
+ ],
+ "a2-235": [
+  "shortly",
+  "before long"
+ ],
+ "a2-236": [
+  "amid"
+ ],
+ "a2-237": [
+  "via",
+  "by way of"
+ ],
+ "a2-238": [
+  "over"
+ ],
+ "a2-239": [
+  "beside"
+ ],
+ "a2-240": [
+  "throughout",
+  "over"
+ ],
+ "a2-241": [
+  "till",
+  "up to"
+ ],
+ "a2-242": [
+  "to",
+  "in the direction of"
+ ],
+ "a2-243": [
+  "lacking"
+ ],
+ "a2-244": [
+  "facing"
+ ],
+ "a2-245": [
+  "over"
+ ],
+ "a2-246": [
+  "whereas",
+  "at the same time as"
+ ],
+ "a2-247": [
+  "provided that",
+  "assuming"
+ ],
+ "a2-248": [
+  "therefore",
+  "as a result"
+ ],
+ "a2-249": [
+  "the Net",
+  "the web"
+ ],
+ "a2-250": [
+  "web page",
+  "site"
+ ],
+ "a2-251": [
+  "notebook",
+  "portable computer"
+ ],
+ "a2-252": [
+  "display",
+  "monitor"
+ ],
+ "a2-254": [
+  "text",
+  "note"
+ ],
+ "a2-255": [
+  "passcode"
+ ],
+ "a2-256": [
+  "clip",
+  "film"
+ ],
+ "a2-257": [
+  "couch",
+  "settee"
+ ],
+ "a2-258": [
+  "refrigerator"
+ ],
+ "a2-259": [
+  "light"
+ ],
+ "a2-260": [
+  "ledge"
+ ],
+ "a2-261": [
+  "looking glass"
+ ],
+ "a2-262": [
+  "staircase",
+  "steps"
+ ],
+ "a2-267": [
+  "brolly"
+ ],
+ "a2-268": [
+  "squad",
+  "side"
+ ],
+ "a2-269": [
+  "game",
+  "contest",
+  "fixture"
+ ],
+ "a2-270": [
+  "participant",
+  "competitor"
+ ],
+ "a2-273": [
+  "pastime",
+  "interest"
+ ],
+ "a2-275": [
+  "concept",
+  "thought",
+  "notion"
+ ],
+ "a2-276": [
+  "difficulty",
+  "trouble",
+  "issue"
+ ],
+ "a2-277": [
+  "cause",
+  "motive",
+  "explanation"
+ ],
+ "a2-278": [
+  "instance",
+  "illustration"
+ ],
+ "a2-279": [
+  "method",
+  "means",
+  "route"
+ ],
+ "a2-280": [
+  "existence",
+  "living"
+ ],
+ "a2-281": [
+  "globe",
+  "planet",
+  "earth"
+ ],
+ "a2-282": [
+  "the past"
+ ],
+ "a2-283": [
+  "reports",
+  "headlines"
+ ],
+ "a2-284": [
+  "data",
+  "facts",
+  "details"
+ ],
+ "a2-285": [
+  "guidance",
+  "recommendation",
+  "tip"
+ ],
+ "a2-286": [
+  "action",
+  "pursuit"
+ ],
+ "a2-287": [
+  "crash",
+  "mishap"
+ ],
+ "a2-288": [
+  "regulation",
+  "principle",
+  "guideline"
+ ],
+ "a2-289": [
+  "mystery"
+ ],
+ "a2-290": [
+  "marriage ceremony"
+ ],
+ "a2-291": [
+  "live show",
+  "gig"
+ ],
+ "a2-292": [
+  "celebration",
+  "fair"
+ ],
+ "a2-293": [
+  "gallery"
+ ],
+ "a2-294": [
+  "movie theatre",
+  "picture house"
+ ],
+ "a2-295": [
+  "grocery store"
+ ],
+ "a2-296": [
+  "chemist",
+  "drugstore"
+ ],
+ "a2-298": [
+  "line"
+ ],
+ "a2-299": [
+  "case",
+  "bag"
+ ],
+ "b1-001": [
+  "accomplish",
+  "attain",
+  "reach"
+ ],
+ "b1-003": [
+  "benefit",
+  "strength",
+  "edge"
+ ],
+ "b1-004": [
+  "drawback",
+  "downside",
+  "weakness"
+ ],
+ "b1-005": [
+  "surroundings",
+  "habitat",
+  "setting"
+ ],
+ "b1-006": [
+  "contamination"
+ ],
+ "b1-007": [
+  "administration",
+  "authorities"
+ ],
+ "b1-008": [
+  "the public",
+  "civilisation"
+ ],
+ "b1-009": [
+  "neighbourhood",
+  "public"
+ ],
+ "b1-010": [
+  "customs",
+  "way of life"
+ ],
+ "b1-011": [
+  "custom",
+  "convention"
+ ],
+ "b1-012": [
+  "chance",
+  "opening",
+  "possibility"
+ ],
+ "b1-013": [
+  "background",
+  "practice",
+  "familiarity"
+ ],
+ "b1-014": [
+  "understanding",
+  "learning",
+  "awareness"
+ ],
+ "b1-015": [
+  "expertise",
+  "talent",
+  "competence"
+ ],
+ "b1-016": [
+  "capability",
+  "capacity",
+  "talent"
+ ],
+ "b1-017": [
+  "exertion",
+  "hard work",
+  "struggle"
+ ],
+ "b1-018": [
+  "test",
+  "difficulty",
+  "trial"
+ ],
+ "b1-019": [
+  "answer",
+  "remedy",
+  "fix"
+ ],
+ "b1-020": [
+  "outcome",
+  "consequence",
+  "effect"
+ ],
+ "b1-021": [
+  "source",
+  "reason",
+  "origin"
+ ],
+ "b1-022": [
+  "impact",
+  "influence",
+  "consequence"
+ ],
+ "b1-024": [
+  "advantage",
+  "gain",
+  "good"
+ ],
+ "b1-025": [
+  "danger",
+  "threat",
+  "hazard"
+ ],
+ "b1-026": [
+  "harm",
+  "destruction",
+  "injury"
+ ],
+ "b1-027": [
+  "defend",
+  "safeguard",
+  "shield"
+ ],
+ "b1-028": [
+  "back",
+  "assist",
+  "help"
+ ],
+ "b1-029": [
+  "grow",
+  "advance",
+  "expand"
+ ],
+ "b1-030": [
+  "rise",
+  "grow",
+  "go up"
+ ],
+ "b1-031": [
+  "drop",
+  "decline",
+  "fall"
+ ],
+ "b1-032": [
+  "cut",
+  "lower",
+  "lessen"
+ ],
+ "b1-033": [
+  "make",
+  "manufacture",
+  "generate"
+ ],
+ "b1-034": [
+  "supply",
+  "offer",
+  "give"
+ ],
+ "b1-035": [
+  "need",
+  "demand",
+  "call for"
+ ],
+ "b1-036": [
+  "think about",
+  "contemplate",
+  "weigh up"
+ ],
+ "b1-037": [
+  "propose",
+  "put forward",
+  "recommend"
+ ],
+ "b1-038": [
+  "advise",
+  "suggest",
+  "advocate"
+ ],
+ "b1-039": [
+  "motivate",
+  "urge",
+  "inspire"
+ ],
+ "b1-040": [
+  "stop",
+  "block",
+  "avert"
+ ],
+ "b1-041": [
+  "steer clear of",
+  "dodge",
+  "escape"
+ ],
+ "b1-042": [
+  "have the means",
+  "pay for"
+ ],
+ "b1-043": [
+  "run",
+  "handle",
+  "cope"
+ ],
+ "b1-044": [
+  "plan",
+  "coordinate",
+  "arrange"
+ ],
+ "b1-045": [
+  "organise",
+  "set up",
+  "order"
+ ],
+ "b1-046": [
+  "put in a request",
+  "use",
+  "employ"
+ ],
+ "b1-047": [
+  "request",
+  "form",
+  "program"
+ ],
+ "b1-048": [
+  "hire",
+  "recruit",
+  "take on"
+ ],
+ "b1-049": [
+  "boss",
+  "hirer"
+ ],
+ "b1-050": [
+  "worker",
+  "staff member"
+ ],
+ "b1-052": [
+  "profession",
+  "occupation",
+  "working life"
+ ],
+ "b1-053": [
+  "occupation",
+  "vocation",
+  "career"
+ ],
+ "b1-054": [
+  "certificate",
+  "credential",
+  "diploma"
+ ],
+ "b1-055": [
+  "alumnus",
+  "degree holder"
+ ],
+ "b1-056": [
+  "qualification",
+  "extent",
+  "level"
+ ],
+ "b1-057": [
+  "grant",
+  "bursary"
+ ],
+ "b1-058": [
+  "talk",
+  "speech"
+ ],
+ "b1-059": [
+  "study",
+  "investigation",
+  "analysis"
+ ],
+ "b1-060": [
+  "report",
+  "piece",
+  "essay"
+ ],
+ "b1-061": [
+  "subject",
+  "theme",
+  "issue"
+ ],
+ "b1-063": [
+  "talk about",
+  "debate",
+  "go over"
+ ],
+ "b1-064": [
+  "debate",
+  "claim",
+  "maintain"
+ ],
+ "b1-065": [
+  "case",
+  "reasoning",
+  "dispute"
+ ],
+ "b1-066": [
+  "view",
+  "belief",
+  "viewpoint"
+ ],
+ "b1-068": [
+  "differ",
+  "object",
+  "dissent"
+ ],
+ "b1-071": [
+  "contrast",
+  "weigh against"
+ ],
+ "b1-072": [
+  "contrast",
+  "analogy"
+ ],
+ "b1-073": [
+  "picture",
+  "envisage",
+  "visualise"
+ ],
+ "b1-074": [
+  "anticipate",
+  "look for",
+  "hope for"
+ ],
+ "b1-075": [
+  "understand",
+  "become aware",
+  "grasp"
+ ],
+ "b1-076": [
+  "identify",
+  "acknowledge",
+  "accept"
+ ],
+ "b1-077": [
+  "spot",
+  "observe",
+  "see"
+ ],
+ "b1-078": [
+  "rely",
+  "hinge",
+  "be determined by"
+ ],
+ "b1-079": [
+  "depend",
+  "count",
+  "trust"
+ ],
+ "b1-080": [
+  "be part of",
+  "fit in"
+ ],
+ "b1-081": [
+  "hold",
+  "comprise",
+  "have"
+ ],
+ "b1-082": [
+  "comprise",
+  "cover",
+  "incorporate"
+ ],
+ "b1-083": [
+  "entail",
+  "require",
+  "include"
+ ],
+ "b1-084": [
+  "substitute",
+  "swap",
+  "supersede"
+ ],
+ "b1-085": [
+  "get rid of",
+  "take away",
+  "eliminate"
+ ],
+ "b1-087": [
+  "split",
+  "separate",
+  "share"
+ ],
+ "b1-089": [
+  "link",
+  "join",
+  "attach"
+ ],
+ "b1-090": [
+  "link",
+  "relationship",
+  "bond"
+ ],
+ "b1-091": [
+  "interact",
+  "talk",
+  "get in touch"
+ ],
+ "b1-092": [
+  "contact",
+  "interaction",
+  "dialogue"
+ ],
+ "b1-093": [
+  "outlook",
+  "view",
+  "approach"
+ ],
+ "b1-094": [
+  "conduct",
+  "actions",
+  "manners"
+ ],
+ "b1-095": [
+  "tech",
+  "applied science"
+ ],
+ "b1-096": [
+  "gadget",
+  "machine",
+  "tool"
+ ],
+ "b1-097": [
+  "programs",
+  "apps"
+ ],
+ "b1-099": [
+  "save",
+  "transfer"
+ ],
+ "b1-100": [
+  "web-based",
+  "connected"
+ ],
+ "b1-101": [
+  "computerised",
+  "electronic"
+ ],
+ "b1-102": [
+  "creation",
+  "innovation"
+ ],
+ "b1-103": [
+  "create",
+  "devise",
+  "develop"
+ ],
+ "b1-104": [
+  "find",
+  "uncover",
+  "identify"
+ ],
+ "b1-105": [
+  "finding",
+  "breakthrough",
+  "find"
+ ],
+ "b1-106": [
+  "test",
+  "trial"
+ ],
+ "b1-107": [
+  "researcher"
+ ],
+ "b1-108": [
+  "power",
+  "vigour"
+ ],
+ "b1-109": [
+  "power",
+  "current"
+ ],
+ "b1-110": [
+  "petrol",
+  "power source"
+ ],
+ "b1-111": [
+  "supply",
+  "asset",
+  "reserve"
+ ],
+ "b1-112": [
+  "the natural world",
+  "wildness"
+ ],
+ "b1-113": [
+  "fauna",
+  "wild animals"
+ ],
+ "b1-114": [
+  "type",
+  "kind",
+  "breed"
+ ],
+ "b1-115": [
+  "weather conditions"
+ ],
+ "b1-116": [
+  "inundation",
+  "deluge"
+ ],
+ "b1-117": [
+  "water shortage",
+  "dry spell"
+ ],
+ "b1-118": [
+  "reuse",
+  "reprocess"
+ ],
+ "b1-119": [
+  "rubbish",
+  "refuse",
+  "misuse"
+ ],
+ "b1-120": [
+  "damaging",
+  "dangerous",
+  "bad"
+ ],
+ "b1-121": [
+  "illness",
+  "disorder",
+  "sickness"
+ ],
+ "b1-122": [
+  "sickness",
+  "disease",
+  "ailment"
+ ],
+ "b1-123": [
+  "wound",
+  "harm",
+  "hurt"
+ ],
+ "b1-124": [
+  "therapy",
+  "care",
+  "remedy"
+ ],
+ "b1-126": [
+  "food plan",
+  "eating habits"
+ ],
+ "b1-127": [
+  "strain",
+  "pressure",
+  "tension"
+ ],
+ "b1-128": [
+  "sign",
+  "indication"
+ ],
+ "b1-129": [
+  "get better",
+  "heal",
+  "improve"
+ ],
+ "b1-130": [
+  "remedy",
+  "treatment",
+  "solution"
+ ],
+ "b1-131": [
+  "sick person",
+  "case"
+ ],
+ "b1-132": [
+  "operation"
+ ],
+ "b1-133": [
+  "psychological",
+  "emotional"
+ ],
+ "b1-136": [
+  "the travel industry",
+  "travel"
+ ],
+ "b1-137": [
+  "location",
+  "stop",
+  "resort"
+ ],
+ "b1-141": [
+  "lodging",
+  "housing",
+  "place to stay"
+ ],
+ "b1-144": [
+  "touring",
+  "exploring"
+ ],
+ "b1-146": [
+  "transportation",
+  "travel"
+ ],
+ "b1-147": [
+  "travel to work",
+  "travel daily"
+ ],
+ "b1-148": [
+  "advert",
+  "ad",
+  "commercial"
+ ],
+ "b1-149": [
+  "air",
+  "transmit",
+  "show"
+ ],
+ "b1-150": [
+  "title",
+  "heading"
+ ],
+ "b1-151": [
+  "reporter",
+  "correspondent"
+ ],
+ "b1-152": [
+  "periodical",
+  "journal"
+ ],
+ "b1-153": [
+  "star",
+  "famous person",
+  "VIP"
+ ],
+ "b1-154": [
+  "amusement",
+  "fun",
+  "leisure"
+ ],
+ "b1-155": [
+  "viewers",
+  "spectators",
+  "readers"
+ ],
+ "b1-156": [
+  "show",
+  "schedule"
+ ],
+ "b1-157": [
+  "station"
+ ],
+ "b1-158": [
+  "city",
+  "metropolitan"
+ ],
+ "b1-159": [
+  "country",
+  "countryside"
+ ],
+ "b1-160": [
+  "outskirts",
+  "residential area"
+ ],
+ "b1-161": [
+  "district",
+  "area",
+  "locality"
+ ],
+ "b1-162": [
+  "inhabitants",
+  "residents"
+ ],
+ "b1-163": [
+  "sidewalk",
+  "footpath"
+ ],
+ "b1-164": [
+  "amenities",
+  "services",
+  "equipment"
+ ],
+ "b1-166": [
+  "offence",
+  "lawbreaking",
+  "wrongdoing"
+ ],
+ "b1-167": [
+  "offender",
+  "lawbreaker",
+  "convict"
+ ],
+ "b1-168": [
+  "rob",
+  "take",
+  "pinch"
+ ],
+ "b1-169": [
+  "robbery",
+  "stealing",
+  "burglary"
+ ],
+ "b1-170": [
+  "penalise",
+  "discipline"
+ ],
+ "b1-171": [
+  "penalty",
+  "sentence"
+ ],
+ "b1-172": [
+  "legislation",
+  "regulation",
+  "rule"
+ ],
+ "b1-173": [
+  "jail",
+  "gaol"
+ ],
+ "b1-174": [
+  "casualty",
+  "sufferer"
+ ],
+ "b1-175": [
+  "observer",
+  "onlooker",
+  "bystander"
+ ],
+ "b1-176": [
+  "proof",
+  "testimony"
+ ],
+ "b1-177": [
+  "penalty",
+  "charge"
+ ],
+ "b1-178": [
+  "detain",
+  "capture",
+  "apprehend"
+ ],
+ "b1-179": [
+  "culpable",
+  "at fault"
+ ],
+ "b1-180": [
+  "safety",
+  "protection"
+ ],
+ "b1-183": [
+  "earnings",
+  "salary",
+  "pay"
+ ],
+ "b1-184": [
+  "levy",
+  "duty"
+ ],
+ "b1-185": [
+  "gain",
+  "earnings",
+  "return"
+ ],
+ "b1-186": [
+  "exported goods"
+ ],
+ "b1-187": [
+  "bring in"
+ ],
+ "b1-188": [
+  "commerce",
+  "business",
+  "dealing"
+ ],
+ "b1-189": [
+  "sector",
+  "business",
+  "manufacturing"
+ ],
+ "b1-190": [
+  "financial system",
+  "wealth"
+ ],
+ "b1-192": [
+  "buyer",
+  "customer",
+  "shopper"
+ ],
+ "b1-193": [
+  "funds",
+  "financial plan"
+ ],
+ "b1-194": [
+  "liability",
+  "money owed",
+  "borrowings"
+ ],
+ "b1-195": [
+  "hardship",
+  "destitution"
+ ],
+ "b1-196": [
+  "joblessness"
+ ],
+ "b1-197": [
+  "pay",
+  "earnings",
+  "salary"
+ ],
+ "b1-198": [
+  "put money in",
+  "fund"
+ ],
+ "b1-200": [
+  "merchandise",
+  "products",
+  "wares"
+ ],
+ "b1-201": [
+  "item",
+  "commodity",
+  "goods"
+ ],
+ "b1-202": [
+  "fairness",
+  "parity"
+ ],
+ "b1-204": [
+  "liberty",
+  "independence"
+ ],
+ "b1-205": [
+  "age group",
+  "era"
+ ],
+ "b1-206": [
+  "old",
+  "aged",
+  "senior"
+ ],
+ "b1-207": [
+  "bond",
+  "link",
+  "connection"
+ ],
+ "b1-208": [
+  "wedlock",
+  "union"
+ ],
+ "b1-209": [
+  "rite",
+  "ritual",
+  "event"
+ ],
+ "b1-211": [
+  "tradition",
+  "practice",
+  "habit"
+ ],
+ "b1-212": [
+  "faith",
+  "belief system"
+ ],
+ "b1-213": [
+  "faith",
+  "conviction",
+  "opinion"
+ ],
+ "b1-214": [
+  "smaller group"
+ ],
+ "b1-215": [
+  "newcomer",
+  "settler",
+  "migrant"
+ ],
+ "b1-216": [
+  "vital",
+  "crucial",
+  "necessary"
+ ],
+ "b1-217": [
+  "present",
+  "existing",
+  "contemporary"
+ ],
+ "b1-218": [
+  "earlier",
+  "former",
+  "prior"
+ ],
+ "b1-219": [
+  "diverse",
+  "assorted",
+  "different"
+ ],
+ "b1-220": [
+  "alike",
+  "comparable"
+ ],
+ "b1-221": [
+  "whole",
+  "complete",
+  "full"
+ ],
+ "b1-222": [
+  "main",
+  "key",
+  "principal"
+ ],
+ "b1-223": [
+  "enormous",
+  "giant",
+  "vast"
+ ],
+ "b1-225": [
+  "age-old",
+  "old",
+  "prehistoric"
+ ],
+ "b1-226": [
+  "serious",
+  "harsh",
+  "extreme"
+ ],
+ "b1-230": [
+  "constructive",
+  "optimistic",
+  "upbeat"
+ ],
+ "b1-231": [
+  "pessimistic",
+  "unfavourable"
+ ],
+ "b1-233": [
+  "unachievable",
+  "out of the question"
+ ],
+ "b1-234": [
+  "probable",
+  "expected"
+ ],
+ "b1-235": [
+  "improbable",
+  "doubtful"
+ ],
+ "b1-236": [
+  "essential",
+  "needed",
+  "required"
+ ],
+ "b1-237": [
+  "appropriate",
+  "fitting",
+  "right"
+ ],
+ "b1-238": [
+  "characteristic",
+  "representative",
+  "standard"
+ ],
+ "b1-239": [
+  "widespread",
+  "usual",
+  "frequent"
+ ],
+ "b1-240": [
+  "certain",
+  "special",
+  "specific"
+ ],
+ "b1-241": [
+  "precise",
+  "definite",
+  "exact"
+ ],
+ "b1-242": [
+  "overall",
+  "broad",
+  "universal"
+ ],
+ "b1-243": [
+  "single",
+  "separate",
+  "personal"
+ ],
+ "b1-244": [
+  "self-reliant",
+  "autonomous",
+  "free"
+ ],
+ "b1-245": [
+  "accountable",
+  "in charge",
+  "answerable"
+ ],
+ "b1-246": [
+  "adaptable",
+  "versatile",
+  "adjustable"
+ ],
+ "b1-247": [
+  "inventive",
+  "imaginative",
+  "original"
+ ],
+ "b1-248": [
+  "self-assured",
+  "assured",
+  "positive"
+ ],
+ "b1-249": [
+  "inquisitive",
+  "interested"
+ ],
+ "b1-250": [
+  "worried",
+  "nervous",
+  "uneasy"
+ ],
+ "b1-251": [
+  "resolute",
+  "committed",
+  "set on"
+ ],
+ "b1-252": [
+  "dependable",
+  "trustworthy"
+ ],
+ "b1-253": [
+  "productive",
+  "effective",
+  "well-organised"
+ ],
+ "b1-254": [
+  "handy",
+  "easy",
+  "practical"
+ ],
+ "b1-256": [
+  "on the whole",
+  "in general",
+  "usually"
+ ],
+ "b1-257": [
+  "lately",
+  "in recent times"
+ ],
+ "b1-258": [
+  "these days",
+  "today"
+ ],
+ "b1-259": [
+  "at present",
+  "at the moment"
+ ],
+ "b1-260": [
+  "certainly",
+  "undoubtedly",
+  "surely"
+ ],
+ "b1-261": [
+  "in fact",
+  "in reality",
+  "really"
+ ],
+ "b1-262": [
+  "clearly",
+  "evidently",
+  "plainly"
+ ],
+ "b1-263": [
+  "in the end",
+  "finally",
+  "ultimately"
+ ],
+ "b1-264": [
+  "step by step",
+  "slowly",
+  "little by little"
+ ],
+ "b1-265": [
+  "quickly",
+  "swiftly",
+  "fast"
+ ],
+ "b1-266": [
+  "very",
+  "exceptionally",
+  "highly"
+ ],
+ "b1-267": [
+  "quite",
+  "rather",
+  "reasonably"
+ ],
+ "b1-268": [
+  "roughly",
+  "about",
+  "around"
+ ],
+ "b1-269": [
+  "alternatively",
+  "rather"
+ ],
+ "b1-270": [
+  "nevertheless",
+  "but",
+  "still"
+ ],
+ "b1-271": [
+  "thus",
+  "consequently",
+  "hence"
+ ],
+ "b1-272": [
+  "though",
+  "even though",
+  "while"
+ ],
+ "b1-273": [
+  "in spite of",
+  "regardless of"
+ ],
+ "b1-274": [
+  "quit",
+  "abandon",
+  "stop"
+ ],
+ "b1-275": [
+  "conduct",
+  "perform",
+  "do"
+ ],
+ "b1-276": [
+  "indicate",
+  "highlight",
+  "mention"
+ ],
+ "b1-277": [
+  "establish",
+  "found",
+  "start"
+ ],
+ "b1-278": [
+  "discover",
+  "learn",
+  "uncover"
+ ],
+ "b1-279": [
+  "take care of",
+  "care for",
+  "tend"
+ ],
+ "b1-280": [
+  "anticipate",
+  "await"
+ ],
+ "b1-281": [
+  "reject",
+  "refuse",
+  "decline"
+ ],
+ "b1-282": [
+  "participate in",
+  "join in",
+  "be involved in"
+ ],
+ "b1-283": [
+  "handle",
+  "tackle",
+  "manage"
+ ],
+ "b1-284": [
+  "manage",
+  "handle",
+  "deal with"
+ ],
+ "b1-285": [
+  "postpone",
+  "delay",
+  "defer"
+ ],
+ "b1-286": [
+  "raise",
+  "rear"
+ ],
+ "b1-287": [
+  "mature",
+  "become an adult"
+ ],
+ "b1-288": [
+  "stop working",
+  "fail",
+  "malfunction"
+ ],
+ "b1-289": [
+  "think of",
+  "devise",
+  "invent"
+ ],
+ "b1-290": [
+  "start",
+  "begin",
+  "adopt"
+ ],
+ "b1-291": [
+  "use up",
+  "exhaust"
+ ],
+ "b1-292": [
+  "be on good terms with",
+  "be friends with"
+ ],
+ "b1-293": [
+  "solve",
+  "figure out",
+  "exercise"
+ ],
+ "b1-294": [
+  "complete",
+  "fill out"
+ ],
+ "b1-295": [
+  "helper",
+  "unpaid worker"
+ ],
+ "b1-296": [
+  "good cause",
+  "aid organisation"
+ ],
+ "b1-297": [
+  "routine",
+  "custom",
+  "practice"
+ ],
+ "b1-298": [
+  "stress",
+  "strain",
+  "demand"
+ ],
+ "b1-299": [
+  "rivalry",
+  "contest",
+  "tournament"
+ ],
+ "b2-001": [
+  "notable",
+  "considerable",
+  "major"
+ ],
+ "b2-002": [
+  "result",
+  "outcome",
+  "repercussion"
+ ],
+ "b2-003": [
+  "add",
+  "give",
+  "play a part"
+ ],
+ "b2-004": [
+  "impact",
+  "effect",
+  "power"
+ ],
+ "b2-005": [
+  "problem",
+  "matter",
+  "concern"
+ ],
+ "b2-006": [
+  "method",
+  "strategy",
+  "way"
+ ],
+ "b2-007": [
+  "facet",
+  "feature",
+  "element"
+ ],
+ "b2-008": [
+  "viewpoint",
+  "outlook",
+  "standpoint"
+ ],
+ "b2-009": [
+  "pattern",
+  "tendency",
+  "direction"
+ ],
+ "b2-010": [
+  "inclination",
+  "trend",
+  "leaning"
+ ],
+ "b2-011": [
+  "occurrence",
+  "event",
+  "marvel"
+ ],
+ "b2-012": [
+  "precedence",
+  "main concern"
+ ],
+ "b2-013": [
+  "effect",
+  "influence",
+  "consequence"
+ ],
+ "b2-014": [
+  "promise",
+  "capacity",
+  "possibility"
+ ],
+ "b2-015": [
+  "sufficient",
+  "enough",
+  "acceptable"
+ ],
+ "b2-016": [
+  "disputed",
+  "contentious",
+  "debatable"
+ ],
+ "b2-017": [
+  "considerable",
+  "sizeable",
+  "significant"
+ ],
+ "b2-018": [
+  "substantial",
+  "significant",
+  "large"
+ ],
+ "b2-019": [
+  "sudden",
+  "striking",
+  "sharp"
+ ],
+ "b2-020": [
+  "noticeable",
+  "apparent",
+  "clear"
+ ],
+ "b2-021": [
+  "essential",
+  "crucial",
+  "critical"
+ ],
+ "b2-022": [
+  "shared",
+  "common",
+  "reciprocal"
+ ],
+ "b2-023": [
+  "clear",
+  "evident",
+  "plain"
+ ],
+ "b2-024": [
+  "unwilling",
+  "hesitant",
+  "unenthusiastic"
+ ],
+ "b2-025": [
+  "long-lasting",
+  "eco-friendly",
+  "viable"
+ ],
+ "b2-026": [
+  "replaceable",
+  "non-depleting",
+  "clean"
+ ],
+ "b2-027": [
+  "successful",
+  "productive",
+  "useful"
+ ],
+ "b2-028": [
+  "advantageous",
+  "helpful",
+  "favourable"
+ ],
+ "b2-029": [
+  "harmful",
+  "damaging",
+  "adverse"
+ ],
+ "b2-030": [
+  "vital",
+  "essential",
+  "critical"
+ ],
+ "b2-031": [
+  "common",
+  "extensive",
+  "prevalent"
+ ],
+ "b2-032": [
+  "more and more",
+  "progressively",
+  "steadily"
+ ],
+ "b2-033": [
+  "considerably",
+  "markedly",
+  "substantially"
+ ],
+ "b2-034": [
+  "mainly",
+  "chiefly",
+  "mostly"
+ ],
+ "b2-035": [
+  "moreover",
+  "in addition",
+  "additionally"
+ ],
+ "b2-036": [
+  "however",
+  "even so",
+  "nonetheless"
+ ],
+ "b2-037": [
+  "while",
+  "whilst"
+ ],
+ "b2-038": [
+  "without doubt",
+  "certainly",
+  "definitely"
+ ],
+ "b2-039": [
+  "go through",
+  "experience",
+  "face"
+ ],
+ "b2-040": [
+  "improve",
+  "boost",
+  "strengthen"
+ ],
+ "b2-041": [
+  "encourage",
+  "advance",
+  "advertise"
+ ],
+ "b2-042": [
+  "face",
+  "come across",
+  "meet"
+ ],
+ "b2-043": [
+  "set up",
+  "found",
+  "create"
+ ],
+ "b2-044": [
+  "keep up",
+  "preserve",
+  "sustain"
+ ],
+ "b2-045": [
+  "acquire",
+  "gain",
+  "get"
+ ],
+ "b2-046": [
+  "take part",
+  "join in",
+  "be involved"
+ ],
+ "b2-047": [
+  "forecast",
+  "foresee",
+  "anticipate"
+ ],
+ "b2-048": [
+  "limit",
+  "restrain",
+  "confine"
+ ],
+ "b2-049": [
+  "deal with",
+  "address",
+  "handle"
+ ],
+ "b2-050": [
+  "conquer",
+  "get past",
+  "defeat"
+ ],
+ "b2-051": [
+  "stress",
+  "highlight",
+  "underline"
+ ],
+ "b2-052": [
+  "show",
+  "demonstrate",
+  "depict"
+ ],
+ "b2-053": [
+  "show",
+  "suggest",
+  "point to"
+ ],
+ "b2-054": [
+  "prove",
+  "show",
+  "display"
+ ],
+ "b2-055": [
+  "establish",
+  "decide",
+  "work out"
+ ],
+ "b2-056": [
+  "produce",
+  "create",
+  "cause"
+ ],
+ "b2-057": [
+  "calculate",
+  "approximate",
+  "guess"
+ ],
+ "b2-058": [
+  "explain",
+  "understand",
+  "read"
+ ],
+ "b2-059": [
+  "desert",
+  "give up",
+  "leave"
+ ],
+ "b2-060": [
+  "build up",
+  "gather",
+  "amass"
+ ],
+ "b2-061": [
+  "adjust",
+  "get used to",
+  "acclimatise"
+ ],
+ "b2-062": [
+  "assign",
+  "distribute",
+  "allot"
+ ],
+ "b2-063": [
+  "expect",
+  "foresee",
+  "predict"
+ ],
+ "b2-064": [
+  "evaluate",
+  "judge",
+  "appraise"
+ ],
+ "b2-065": [
+  "presume",
+  "suppose",
+  "take for granted"
+ ],
+ "b2-066": [
+  "make up",
+  "form",
+  "represent"
+ ],
+ "b2-067": [
+  "condemn",
+  "attack",
+  "fault"
+ ],
+ "b2-068": [
+  "control",
+  "prevail over",
+  "rule"
+ ],
+ "b2-069": [
+  "remove",
+  "get rid of",
+  "eradicate"
+ ],
+ "b2-070": [
+  "impose",
+  "apply",
+  "carry out"
+ ],
+ "b2-071": [
+  "use",
+  "tap",
+  "take advantage of"
+ ],
+ "b2-072": [
+  "carry out",
+  "put into practice",
+  "execute"
+ ],
+ "b2-073": [
+  "motivate",
+  "stimulate",
+  "encourage"
+ ],
+ "b2-074": [
+  "combine",
+  "incorporate",
+  "assimilate"
+ ],
+ "b2-075": [
+  "defend",
+  "warrant",
+  "explain"
+ ],
+ "b2-076": [
+  "introduce",
+  "unveil",
+  "start"
+ ],
+ "b2-077": [
+  "ignore",
+  "disregard",
+  "overlook"
+ ],
+ "b2-078": [
+  "crowded",
+  "packed",
+  "congested"
+ ],
+ "b2-079": [
+  "chase",
+  "seek",
+  "follow"
+ ],
+ "b2-080": [
+  "strengthen",
+  "bolster",
+  "support"
+ ],
+ "b2-081": [
+  "disclose",
+  "show",
+  "uncover"
+ ],
+ "b2-082": [
+  "encourage",
+  "spur",
+  "provoke"
+ ],
+ "b2-083": [
+  "weaken",
+  "sabotage",
+  "erode"
+ ],
+ "b2-084": [
+  "break",
+  "breach",
+  "infringe"
+ ],
+ "b2-085": [
+  "pull out",
+  "retreat",
+  "take out"
+ ],
+ "b2-086": [
+  "syllabus",
+  "course of study"
+ ],
+ "b2-087": [
+  "school fees",
+  "teaching",
+  "tutoring"
+ ],
+ "b2-088": [
+  "reading and writing skills"
+ ],
+ "b2-089": [
+  "job-related",
+  "technical"
+ ],
+ "b2-090": [
+  "thesis"
+ ],
+ "b2-091": [
+  "labour force",
+  "personnel",
+  "staff"
+ ],
+ "b2-092": [
+  "hire",
+  "employ",
+  "take on"
+ ],
+ "b2-093": [
+  "stop working",
+  "leave work"
+ ],
+ "b2-094": [
+  "advancement",
+  "upgrade",
+  "marketing"
+ ],
+ "b2-095": [
+  "unemployed",
+  "laid off",
+  "surplus"
+ ],
+ "b2-096": [
+  "self-employed",
+  "independent"
+ ],
+ "b2-097": [
+  "extra hours",
+  "extra work"
+ ],
+ "b2-098": [
+  "preconception",
+  "cliche",
+  "generalisation"
+ ],
+ "b2-099": [
+  "prejudice",
+  "bias",
+  "unfair treatment"
+ ],
+ "b2-100": [
+  "disparity",
+  "unfairness",
+  "imbalance"
+ ],
+ "b2-101": [
+  "well-being",
+  "benefits",
+  "social support"
+ ],
+ "b2-102": [
+  "being without a home"
+ ],
+ "b2-103": [
+  "overweight"
+ ],
+ "b2-104": [
+  "dependence",
+  "habit",
+  "dependency"
+ ],
+ "b2-105": [
+  "inactive",
+  "desk-bound"
+ ],
+ "b2-106": [
+  "diet",
+  "nourishment",
+  "food intake"
+ ],
+ "b2-107": [
+  "resistant",
+  "protected"
+ ],
+ "b2-108": [
+  "long-term",
+  "persistent",
+  "lasting"
+ ],
+ "b2-109": [
+  "outbreak",
+  "plague",
+  "spread of disease"
+ ],
+ "b2-110": [
+  "jab",
+  "immunisation",
+  "inoculation"
+ ],
+ "b2-111": [
+  "discharge",
+  "release",
+  "output"
+ ],
+ "b2-112": [
+  "forest clearance",
+  "tree clearing"
+ ],
+ "b2-113": [
+  "biological diversity",
+  "variety of life"
+ ],
+ "b2-114": [
+  "environment",
+  "natural community"
+ ],
+ "b2-115": [
+  "natural environment",
+  "home",
+  "territory"
+ ],
+ "b2-116": [
+  "threatened",
+  "at risk",
+  "vulnerable"
+ ],
+ "b2-117": [
+  "dying out",
+  "disappearance"
+ ],
+ "b2-118": [
+  "protection",
+  "preservation",
+  "safeguarding"
+ ],
+ "b2-119": [
+  "rubbish dump",
+  "tip",
+  "dump"
+ ],
+ "b2-120": [
+  "prehistoric",
+  "ancient"
+ ],
+ "b2-121": [
+  "glasshouse",
+  "hothouse"
+ ],
+ "b2-122": [
+  "hereditary",
+  "inherited"
+ ],
+ "b2-123": [
+  "man-made",
+  "synthetic",
+  "manufactured"
+ ],
+ "b2-124": [
+  "mechanisation",
+  "computerisation"
+ ],
+ "b2-125": [
+  "new idea",
+  "breakthrough",
+  "novelty"
+ ],
+ "b2-126": [
+  "outdated",
+  "out of date",
+  "old-fashioned"
+ ],
+ "b2-127": [
+  "online bullying",
+  "online harassment"
+ ],
+ "b2-128": [
+  "personal space",
+  "confidentiality",
+  "secrecy"
+ ],
+ "b2-129": [
+  "monitoring",
+  "observation",
+  "supervision"
+ ],
+ "b2-130": [
+  "false",
+  "counterfeit",
+  "bogus"
+ ],
+ "b2-131": [
+  "prejudice",
+  "partiality",
+  "favouritism"
+ ],
+ "b2-132": [
+  "suppression",
+  "restriction"
+ ],
+ "b2-133": [
+  "shocking",
+  "dramatic",
+  "lurid"
+ ],
+ "b2-134": [
+  "sign up",
+  "pay for"
+ ],
+ "b2-135": [
+  "online celebrity",
+  "social media star"
+ ],
+ "b2-136": [
+  "overcrowding",
+  "blockage",
+  "jam"
+ ],
+ "b2-137": [
+  "public facilities",
+  "basic services",
+  "framework"
+ ],
+ "b2-138": [
+  "city growth",
+  "urban growth"
+ ],
+ "b2-139": [
+  "shanty town",
+  "run-down area"
+ ],
+ "b2-140": [
+  "tower block",
+  "high-rise"
+ ],
+ "b2-141": [
+  "walker",
+  "person on foot"
+ ],
+ "b2-142": [
+  "facility",
+  "convenience",
+  "service"
+ ],
+ "b2-143": [
+  "too many people",
+  "crowding"
+ ],
+ "b2-144": [
+  "youth crime",
+  "juvenile crime"
+ ],
+ "b2-145": [
+  "criminal",
+  "lawbreaker",
+  "wrongdoer"
+ ],
+ "b2-146": [
+  "destruction of property",
+  "damage"
+ ],
+ "b2-147": [
+  "deception",
+  "scam",
+  "swindle"
+ ],
+ "b2-148": [
+  "reform",
+  "restore",
+  "reintegrate"
+ ],
+ "b2-149": [
+  "discourage",
+  "prevent",
+  "dissuade"
+ ],
+ "b2-150": [
+  "punishment",
+  "penalty",
+  "ruling"
+ ],
+ "b2-151": [
+  "rising prices",
+  "price rises"
+ ],
+ "b2-152": [
+  "downturn",
+  "slump",
+  "economic decline"
+ ],
+ "b2-153": [
+  "income",
+  "earnings",
+  "sales"
+ ],
+ "b2-154": [
+  "grant",
+  "financial aid",
+  "funding"
+ ],
+ "b2-155": [
+  "worldwide integration",
+  "internationalisation"
+ ],
+ "b2-156": [
+  "business owner",
+  "start-up founder"
+ ],
+ "b2-157": [
+  "product",
+  "goods",
+  "merchandise"
+ ],
+ "b2-158": [
+  "insolvent",
+  "broke",
+  "ruined"
+ ],
+ "b2-159": [
+  "lack",
+  "scarcity",
+  "deficiency"
+ ],
+ "b2-160": [
+  "use",
+  "usage",
+  "spending"
+ ],
+ "b2-161": [
+  "wealthy",
+  "prosperous",
+  "well-off"
+ ],
+ "b2-162": [
+  "legacy",
+  "tradition",
+  "inheritance"
+ ],
+ "b2-163": [
+  "racial",
+  "cultural"
+ ],
+ "b2-164": [
+  "native",
+  "local",
+  "original"
+ ],
+ "b2-165": [
+  "cooking",
+  "food",
+  "culinary tradition"
+ ],
+ "b2-166": [
+  "manners",
+  "protocol",
+  "good manners"
+ ],
+ "b2-167": [
+  "absorb",
+  "integrate",
+  "blend in"
+ ],
+ "b2-168": [
+  "protect",
+  "conserve",
+  "maintain"
+ ],
+ "b2-169": [
+  "genuine",
+  "real",
+  "original"
+ ],
+ "b2-170": [
+  "route",
+  "schedule",
+  "travel plan"
+ ],
+ "b2-171": [
+  "trip",
+  "outing",
+  "day trip"
+ ],
+ "b2-172": [
+  "holiday complex",
+  "vacation spot"
+ ],
+ "b2-173": [
+  "disorientation abroad"
+ ],
+ "b2-174": [
+  "increase awareness",
+  "educate the public"
+ ],
+ "b2-175": [
+  "have a part",
+  "be involved"
+ ],
+ "b2-176": [
+  "take steps",
+  "take action"
+ ],
+ "b2-177": [
+  "threaten",
+  "endanger",
+  "put at risk"
+ ],
+ "b2-178": [
+  "satisfy demand",
+  "fulfil needs"
+ ],
+ "b2-179": [
+  "contribute",
+  "give",
+  "make an impact"
+ ],
+ "b2-180": [
+  "remember",
+  "keep in mind",
+  "note"
+ ],
+ "b2-181": [
+  "consider",
+  "factor in",
+  "allow for"
+ ],
+ "b2-182": [
+  "a variety of",
+  "numerous",
+  "many different"
+ ],
+ "b2-183": [
+  "regarding",
+  "with regard to",
+  "as far as"
+ ],
+ "b2-184": [
+  "generally",
+  "overall",
+  "in general"
+ ],
+ "b2-185": [
+  "because of",
+  "owing to",
+  "as a consequence of"
+ ],
+ "b2-186": [
+  "owing to",
+  "because of",
+  "thanks to"
+ ],
+ "b2-187": [
+  "cause",
+  "result in",
+  "contribute to"
+ ],
+ "b2-188": [
+  "lead to",
+  "cause",
+  "give rise to"
+ ],
+ "b2-189": [
+  "make up",
+  "represent",
+  "explain"
+ ],
+ "b2-190": [
+  "cause",
+  "produce",
+  "lead to"
+ ],
+ "b2-191": [
+  "reduce",
+  "decrease",
+  "cut back on"
+ ],
+ "b2-192": [
+  "stay level with",
+  "match"
+ ],
+ "b2-193": [
+  "lag behind",
+  "trail"
+ ],
+ "b2-194": [
+  "quit school",
+  "leave school",
+  "abandon studies"
+ ],
+ "b2-195": [
+  "enrol in",
+  "register for",
+  "join"
+ ],
+ "b2-196": [
+  "make up for",
+  "recover"
+ ],
+ "b2-197": [
+  "withdraw gradually",
+  "end gradually"
+ ],
+ "b2-198": [
+  "resign",
+  "quit",
+  "leave office"
+ ],
+ "b2-199": [
+  "put down roots",
+  "establish a home"
+ ],
+ "b2-200": [
+  "meet expectations",
+  "match up to"
+ ],
+ "b2-201": [
+  "belong to",
+  "come under"
+ ],
+ "b2-202": [
+  "carry out a survey",
+  "do a survey"
+ ],
+ "b2-203": [
+  "conclude",
+  "come to a conclusion"
+ ],
+ "b2-204": [
+  "highlight",
+  "focus on",
+  "spotlight"
+ ],
+ "b2-205": [
+  "confront a challenge",
+  "meet a challenge"
+ ],
+ "b2-206": [
+  "solve a problem",
+  "address an issue",
+  "deal with a problem"
+ ],
+ "b2-207": [
+  "find a compromise",
+  "achieve equilibrium"
+ ],
+ "b2-208": [
+  "take notice of",
+  "focus on",
+  "heed"
+ ],
+ "b2-209": [
+  "be a role model",
+  "lead by example"
+ ],
+ "b2-210": [
+  "earn a living",
+  "support oneself"
+ ],
+ "b2-211": [
+  "encourage",
+  "promote",
+  "nurture"
+ ],
+ "b2-212": [
+  "ease",
+  "relieve",
+  "reduce"
+ ],
+ "b2-213": [
+  "fight",
+  "tackle",
+  "oppose"
+ ],
+ "b2-214": [
+  "worsen",
+  "decline",
+  "get worse"
+ ],
+ "b2-215": [
+  "vary",
+  "change",
+  "swing"
+ ],
+ "b2-216": [
+  "jump",
+  "rise",
+  "increase"
+ ],
+ "b2-217": [
+  "plunge",
+  "slump",
+  "collapse"
+ ],
+ "b2-218": [
+  "rocket",
+  "shoot up",
+  "skyrocket"
+ ],
+ "b2-219": [
+  "stand still",
+  "stall",
+  "languish"
+ ],
+ "b2-220": [
+  "restrain",
+  "control",
+  "limit"
+ ],
+ "b2-221": [
+  "rare",
+  "limited",
+  "insufficient"
+ ],
+ "b2-222": [
+  "plentiful",
+  "ample"
+ ],
+ "b2-223": [
+  "exposed",
+  "at risk",
+  "defenceless"
+ ],
+ "b2-224": [
+  "responsible",
+  "answerable"
+ ],
+ "b2-225": [
+  "unclear",
+  "vague",
+  "uncertain"
+ ],
+ "b2-226": [
+  "obvious",
+  "clear",
+  "evident"
+ ],
+ "b2-227": [
+  "possibly",
+  "it could be argued"
+ ],
+ "b2-228": [
+  "government",
+  "power",
+  "control"
+ ],
+ "b2-229": [
+  "able",
+  "competent",
+  "skilled"
+ ],
+ "b2-230": [
+  "cooperate",
+  "work together"
+ ],
+ "b2-231": [
+  "make up for",
+  "offset",
+  "reimburse"
+ ],
+ "b2-232": [
+  "thorough",
+  "complete",
+  "all-inclusive"
+ ],
+ "b2-233": [
+  "focus",
+  "pay attention"
+ ],
+ "b2-234": [
+  "agreement",
+  "general agreement",
+  "unanimity"
+ ],
+ "b2-235": [
+  "limitation",
+  "restriction",
+  "restraint"
+ ],
+ "b2-236": [
+  "modern",
+  "present-day",
+  "current"
+ ],
+ "b2-237": [
+  "conflict with",
+  "disagree with",
+  "deny"
+ ],
+ "b2-238": [
+  "traditional",
+  "standard",
+  "ordinary"
+ ],
+ "b2-239": [
+  "collaborate",
+  "work together"
+ ],
+ "b2-240": [
+  "standard",
+  "benchmark",
+  "measure"
+ ],
+ "b2-241": [
+  "intentional",
+  "intended",
+  "purposeful"
+ ],
+ "b2-242": [
+  "challenging",
+  "tough",
+  "exacting"
+ ],
+ "b2-243": [
+  "varied",
+  "assorted",
+  "different"
+ ],
+ "b2-244": [
+  "variety",
+  "range",
+  "difference"
+ ],
+ "b2-245": [
+  "disadvantage",
+  "downside",
+  "shortcoming"
+ ],
+ "b2-246": [
+  "decline",
+  "shrink",
+  "diminish"
+ ],
+ "b2-247": [
+  "detailed",
+  "intricate",
+  "complex"
+ ],
+ "b2-248": [
+  "qualified",
+  "entitled",
+  "suitable"
+ ],
+ "b2-249": [
+  "surpass",
+  "go beyond",
+  "top"
+ ],
+ "b2-250": [
+  "leave out",
+  "rule out",
+  "omit"
+ ],
+ "b2-251": [
+  "grow",
+  "enlarge",
+  "extend"
+ ],
+ "b2-252": [
+  "uncover",
+  "reveal",
+  "subject"
+ ],
+ "b2-253": [
+  "enable",
+  "help",
+  "make easier"
+ ],
+ "b2-254": [
+  "basic",
+  "essential",
+  "core"
+ ],
+ "b2-255": [
+  "ensure",
+  "promise",
+  "secure"
+ ],
+ "b2-256": [
+  "hamper",
+  "obstruct",
+  "impede"
+ ],
+ "b2-257": [
+  "unavoidable",
+  "inescapable"
+ ],
+ "b2-258": [
+  "built-in",
+  "natural",
+  "innate"
+ ],
+ "b2-259": [
+  "new plan",
+  "enterprise",
+  "first step"
+ ],
+ "b2-260": [
+  "extreme",
+  "fierce",
+  "strong"
+ ],
+ "b2-261": [
+  "separate",
+  "cut off",
+  "segregate"
+ ],
+ "b2-262": [
+  "justified",
+  "lawful",
+  "valid"
+ ],
+ "b2-263": [
+  "conventional",
+  "widespread",
+  "common"
+ ],
+ "b2-264": [
+  "scale",
+  "extent",
+  "size"
+ ],
+ "b2-265": [
+  "inspire",
+  "encourage",
+  "drive"
+ ],
+ "b2-266": [
+  "bargain",
+  "discuss terms",
+  "hold talks"
+ ],
+ "b2-267": [
+  "idea",
+  "concept",
+  "belief"
+ ],
+ "b2-268": [
+  "aim",
+  "goal",
+  "target"
+ ],
+ "b2-269": [
+  "result",
+  "consequence",
+  "effect"
+ ],
+ "b2-270": [
+  "exceed",
+  "override",
+  "be greater than"
+ ],
+ "b2-271": [
+  "crushing",
+  "huge",
+  "excessive"
+ ],
+ "b2-272": [
+  "height",
+  "high point",
+  "maximum"
+ ],
+ "b2-273": [
+  "view",
+  "regard",
+  "see"
+ ],
+ "b2-274": [
+  "convince",
+  "win over",
+  "encourage"
+ ],
+ "b2-275": [
+  "negative",
+  "gloomy",
+  "defeatist"
+ ],
+ "b2-276": [
+  "remarkable",
+  "extraordinary",
+  "amazing"
+ ],
+ "b2-277": [
+  "believable",
+  "credible",
+  "reasonable"
+ ],
+ "b2-278": [
+  "bias",
+  "bigotry",
+  "preconception"
+ ],
+ "b2-279": [
+  "ban",
+  "forbid",
+  "bar"
+ ],
+ "b2-280": [
+  "percentage",
+  "share",
+  "ratio"
+ ],
+ "b2-281": [
+  "related",
+  "applicable",
+  "pertinent"
+ ],
+ "b2-282": [
+  "tough",
+  "adaptable",
+  "hardy"
+ ],
+ "b2-283": [
+  "close examination",
+  "inspection",
+  "analysis"
+ ],
+ "b2-284": [
+  "doubtful",
+  "dubious",
+  "unconvinced"
+ ],
+ "b2-285": [
+  "advanced",
+  "complex",
+  "refined"
+ ],
+ "b2-286": [
+  "range",
+  "scale",
+  "variety"
+ ],
+ "b2-287": [
+  "enough",
+  "adequate",
+  "ample"
+ ],
+ "b2-288": [
+  "additive",
+  "extra",
+  "addition"
+ ],
+ "b2-289": [
+  "put up with",
+  "endure",
+  "accept"
+ ],
+ "b2-290": [
+  "change",
+  "convert",
+  "alter"
+ ],
+ "b2-291": [
+  "in the end",
+  "finally",
+  "eventually"
+ ],
+ "b2-292": [
+  "use",
+  "make use of",
+  "employ"
+ ],
+ "b2-293": [
+  "flexible",
+  "adaptable",
+  "multipurpose"
+ ],
+ "b2-294": [
+  "broaden",
+  "extend",
+  "expand"
+ ],
+ "b2-295": [
+  "interrupt",
+  "disturb",
+  "upset"
+ ],
+ "b2-296": [
+  "resident",
+  "citizen",
+  "dweller"
+ ],
+ "b2-297": [
+  "compulsory",
+  "obligatory",
+  "required"
+ ],
+ "b2-298": [
+  "major advance",
+  "discovery",
+  "development"
+ ],
+ "b2-299": [
+  "amount of work",
+  "work demands"
+ ],
+ "b2-300": [
+  "staff turnover",
+  "sales"
+ ],
+ "c1-001": [
+  "worsen",
+  "aggravate",
+  "intensify"
+ ],
+ "c1-003": [
+  "two-edged sword",
+  "mixed blessing"
+ ],
+ "c1-004": [
+  "endanger",
+  "jeopardise",
+  "put at risk"
+ ],
+ "c1-005": [
+  "examine",
+  "study",
+  "break down"
+ ],
+ "c1-008": [
+  "idea",
+  "notion",
+  "principle"
+ ],
+ "c1-009": [
+  "originate",
+  "come",
+  "obtain"
+ ],
+ "c1-014": [
+  "reduce",
+  "lessen",
+  "alleviate"
+ ],
+ "c1-016": [
+  "add to",
+  "lead to",
+  "help cause"
+ ],
+ "c1-025": [
+  "give priority to",
+  "put first"
+ ],
+ "c1-031": [
+  "support",
+  "champion",
+  "promote"
+ ],
+ "c1-032": [
+  "arise from",
+  "originate from",
+  "result from"
+ ],
+ "c1-033": [
+  "gap",
+  "difference",
+  "imbalance"
+ ],
+ "c1-034": [
+  "reduce poverty",
+  "fight poverty"
+ ],
+ "c1-035": [
+  "increase the gap",
+  "deepen the divide"
+ ],
+ "c1-041": [
+  "independence",
+  "self-rule",
+  "freedom"
+ ],
+ "c1-042": [
+  "efficiency",
+  "output"
+ ],
+ "c1-044": [
+  "layoff",
+  "job loss",
+  "dismissal"
+ ],
+ "c1-045": [
+  "pay",
+  "payment",
+  "salary"
+ ],
+ "c1-046": [
+  "balance between work and life"
+ ],
+ "c1-047": [
+  "career opportunities",
+  "job outlook"
+ ],
+ "c1-048": [
+  "stable employment",
+  "employment security"
+ ],
+ "c1-053": [
+  "coal and oil",
+  "hydrocarbons"
+ ],
+ "c1-054": [
+  "personal emissions",
+  "environmental impact"
+ ],
+ "c1-056": [
+  "decline",
+  "deterioration",
+  "decay"
+ ],
+ "c1-060": [
+  "take extreme measures",
+  "act decisively"
+ ],
+ "c1-062": [
+  "mass transit",
+  "public transportation"
+ ],
+ "c1-066": [
+  "population-related",
+  "statistical"
+ ],
+ "c1-067": [
+  "excluded",
+  "sidelined",
+  "disadvantaged"
+ ],
+ "c1-070": [
+  "social unity",
+  "social solidarity"
+ ],
+ "c1-071": [
+  "youth offending",
+  "youth crime"
+ ],
+ "c1-073": [
+  "laws",
+  "law",
+  "rules"
+ ],
+ "c1-074": [
+  "control",
+  "manage",
+  "govern"
+ ],
+ "c1-075": [
+  "fund",
+  "support financially",
+  "finance"
+ ],
+ "c1-077": [
+  "strategy",
+  "approach",
+  "plan"
+ ],
+ "c1-078": [
+  "tax break",
+  "tax benefit"
+ ],
+ "c1-082": [
+  "materialism",
+  "consumption culture"
+ ],
+ "c1-085": [
+  "machine intelligence"
+ ],
+ "c1-086": [
+  "state-of-the-art",
+  "advanced",
+  "pioneering"
+ ],
+ "c1-089": [
+  "online crime",
+  "internet crime"
+ ],
+ "c1-091": [
+  "habit-forming",
+  "compulsive"
+ ],
+ "c1-092": [
+  "digital gap",
+  "technology gap"
+ ],
+ "c1-093": [
+  "online",
+  "computer-generated",
+  "simulated"
+ ],
+ "c1-094": [
+  "dependence on",
+  "dependency on"
+ ],
+ "c1-096": [
+  "model",
+  "trial version",
+  "first version"
+ ],
+ "c1-098": [
+  "theory",
+  "proposition",
+  "assumption"
+ ],
+ "c1-099": [
+  "evidence-based",
+  "experimental",
+  "observed"
+ ],
+ "c1-100": [
+  "link",
+  "connection",
+  "relationship"
+ ],
+ "c1-102": [
+  "medical trial",
+  "drug trial"
+ ],
+ "c1-103": [
+  "immunisation",
+  "inoculation",
+  "jab"
+ ],
+ "c1-106": [
+  "protective",
+  "precautionary",
+  "prophylactic"
+ ],
+ "c1-107": [
+  "welfare",
+  "health and happiness"
+ ],
+ "c1-108": [
+  "undernourishment",
+  "undernutrition"
+ ],
+ "c1-109": [
+  "average lifespan",
+  "life span"
+ ],
+ "c1-110": [
+  "psychological health",
+  "emotional well-being"
+ ],
+ "c1-111": [
+  "ready-made food",
+  "convenience food"
+ ],
+ "c1-112": [
+  "harm",
+  "damage",
+  "affect badly"
+ ],
+ "c1-113": [
+  "exaggerate",
+  "hype up",
+  "dramatise"
+ ],
+ "c1-115": [
+  "reliability",
+  "trustworthiness",
+  "believability"
+ ],
+ "c1-116": [
+  "false information",
+  "disinformation"
+ ],
+ "c1-119": [
+  "the media",
+  "news media"
+ ],
+ "c1-120": [
+  "influence opinion",
+  "sway public opinion"
+ ],
+ "c1-125": [
+  "national identity",
+  "cultural heritage"
+ ],
+ "c1-126": [
+  "multiethnic",
+  "cross-cultural"
+ ],
+ "c1-127": [
+  "uniform",
+  "similar",
+  "consistent"
+ ],
+ "c1-130": [
+  "comply with",
+  "follow",
+  "obey"
+ ],
+ "c1-131": [
+  "social pressure",
+  "pressure from friends"
+ ],
+ "c1-132": [
+  "small family",
+  "immediate family"
+ ],
+ "c1-133": [
+  "age gap",
+  "age difference"
+ ],
+ "c1-134": [
+  "raising",
+  "rearing",
+  "childhood"
+ ],
+ "c1-136": [
+  "selfless",
+  "unselfish",
+  "generous"
+ ],
+ "c1-137": [
+  "widespread",
+  "common",
+  "rife"
+ ],
+ "c1-138": [
+  "worrying",
+  "disturbing",
+  "shocking"
+ ],
+ "c1-139": [
+  "make responsible",
+  "blame"
+ ],
+ "c1-140": [
+  "pay the price",
+  "cover the cost"
+ ],
+ "c1-143": [
+  "beneficial",
+  "favourable",
+  "helpful"
+ ],
+ "c1-145": [
+  "moral",
+  "principled"
+ ],
+ "c1-146": [
+  "workable",
+  "practicable",
+  "realistic"
+ ],
+ "c1-147": [
+  "workable",
+  "achievable",
+  "practicable"
+ ],
+ "c1-150": [
+  "insignificant",
+  "minor",
+  "trivial"
+ ],
+ "c1-153": [
+  "inherent",
+  "built-in",
+  "essential"
+ ],
+ "c1-154": [
+  "concrete",
+  "real",
+  "noticeable"
+ ],
+ "c1-156": [
+  "unparalleled",
+  "exceptional",
+  "never seen before"
+ ],
+ "c1-159": [
+  "assess",
+  "appraise",
+  "judge"
+ ],
+ "c1-162": [
+  "look into",
+  "examine",
+  "explore"
+ ],
+ "c1-164": [
+  "consist of",
+  "include",
+  "contain"
+ ],
+ "c1-166": [
+  "keep",
+  "hold",
+  "remember"
+ ],
+ "c1-169": [
+  "take on",
+  "carry out",
+  "assume"
+ ],
+ "c1-170": [
+  "admit",
+  "accept",
+  "recognise"
+ ],
+ "c1-171": [
+  "adjust to",
+  "get used to"
+ ],
+ "c1-173": [
+  "ascribe to",
+  "put down to",
+  "credit to"
+ ],
+ "c1-174": [
+  "make up for",
+  "offset"
+ ],
+ "c1-176": [
+  "steady",
+  "uniform",
+  "coherent"
+ ],
+ "c1-179": [
+  "separate",
+  "clear",
+  "noticeable"
+ ],
+ "c1-181": [
+  "appear",
+  "arise",
+  "surface"
+ ],
+ "c1-183": [
+  "allow",
+  "permit",
+  "empower"
+ ],
+ "c1-184": [
+  "huge",
+  "vast",
+  "immense"
+ ],
+ "c1-185": [
+  "equal",
+  "comparable",
+  "identical"
+ ],
+ "c1-186": [
+  "clear",
+  "specific",
+  "definite"
+ ],
+ "c1-188": [
+  "motivation",
+  "stimulus",
+  "encouragement"
+ ],
+ "c1-192": [
+  "gap",
+  "difference",
+  "allowance"
+ ],
+ "c1-193": [
+  "impartial",
+  "unbiased",
+  "objective"
+ ],
+ "c1-194": [
+  "standard",
+  "convention",
+  "rule"
+ ],
+ "c1-195": [
+  "continue",
+  "last",
+  "carry on"
+ ],
+ "c1-197": [
+  "mainly",
+  "mostly",
+  "largely"
+ ],
+ "c1-199": [
+  "settle",
+  "solve",
+  "sort out"
+ ],
+ "c1-201": [
+  "extent",
+  "range",
+  "scale"
+ ],
+ "c1-202": [
+  "change",
+  "move",
+  "transition"
+ ],
+ "c1-203": [
+  "state",
+  "stipulate",
+  "define"
+ ],
+ "c1-204": [
+  "enough proof",
+  "adequate proof"
+ ],
+ "c1-208": [
+  "differ",
+  "fluctuate",
+  "range"
+ ],
+ "c1-209": [
+  "confirm",
+  "check",
+  "validate"
+ ],
+ "c1-210": [
+  "be essential to",
+  "be vital to",
+  "be central to"
+ ],
+ "c1-212": [
+  "lead to",
+  "cause",
+  "bring about"
+ ],
+ "c1-213": [
+  "address the underlying cause",
+  "get to the source"
+ ],
+ "c1-215": [
+  "eventually",
+  "over time",
+  "in the end"
+ ],
+ "c1-218": [
+  "small part of a bigger problem"
+ ],
+ "c1-219": [
+  "endless cycle",
+  "downward spiral"
+ ],
+ "c1-220": [
+  "hidden benefit",
+  "silver lining"
+ ],
+ "c1-221": [
+  "negligible effort",
+  "tiny amount"
+ ],
+ "c1-222": [
+  "stop early",
+  "stop at the outset"
+ ],
+ "c1-223": [
+  "better of two bad options"
+ ],
+ "c1-224": [
+  "get to the core of",
+  "get to the root of"
+ ],
+ "c1-225": [
+  "increasing",
+  "growing",
+  "going up"
+ ],
+ "c1-226": [
+  "provoke debate",
+  "trigger discussion"
+ ],
+ "c1-227": [
+  "reach agreement",
+  "come to an agreement"
+ ],
+ "c1-228": [
+  "despite",
+  "in spite of"
+ ],
+ "c1-230": [
+  "therefore",
+  "as a result",
+  "thus"
+ ],
+ "c1-231": [
+  "considerably",
+  "significantly",
+  "greatly"
+ ],
+ "c1-232": [
+  "noticeably",
+  "significantly",
+  "distinctly"
+ ],
+ "c1-234": [
+  "unavoidably",
+  "necessarily",
+  "naturally"
+ ],
+ "c1-235": [
+  "although",
+  "though",
+  "even though"
+ ],
+ "c1-237": [
+  "harmful effect",
+  "negative impact"
+ ],
+ "c1-238": [
+  "harmful",
+  "unfavourable",
+  "negative"
+ ],
+ "c1-239": [
+  "permanent",
+  "irrevocable",
+  "irreparable"
+ ],
+ "c1-241": [
+  "urgent",
+  "critical",
+  "vital"
+ ],
+ "c1-243": [
+  "essential",
+  "vital",
+  "crucial"
+ ],
+ "c1-244": [
+  "strict",
+  "thorough",
+  "exacting"
+ ],
+ "c1-245": [
+  "strict",
+  "rigid",
+  "tough"
+ ],
+ "c1-246": [
+  "merciful",
+  "tolerant",
+  "forgiving"
+ ],
+ "c1-247": [
+  "disincentive",
+  "discouragement",
+  "preventive"
+ ],
+ "c1-248": [
+  "clampdown",
+  "tougher measures"
+ ],
+ "c1-249": [
+  "red tape",
+  "officialdom"
+ ],
+ "c1-250": [
+  "openness",
+  "clarity",
+  "accountability"
+ ],
+ "c1-251": [
+  "graft",
+  "bribery",
+  "dishonesty"
+ ],
+ "c1-254": [
+  "disadvantaged",
+  "deprived",
+  "poor"
+ ],
+ "c1-256": [
+  "fairness",
+  "justice",
+  "impartiality"
+ ],
+ "c1-257": [
+  "merit-based system"
+ ],
+ "c1-258": [
+  "upper class",
+  "privileged class"
+ ],
+ "c1-259": [
+  "after-school",
+  "non-academic"
+ ],
+ "c1-260": [
+  "memorisation",
+  "learning by heart"
+ ],
+ "c1-261": [
+  "analytical thinking",
+  "independent thinking"
+ ],
+ "c1-262": [
+  "educational attainment",
+  "school performance"
+ ],
+ "c1-263": [
+  "mandatory",
+  "obligatory",
+  "required"
+ ],
+ "c1-264": [
+  "higher education",
+  "university-level"
+ ],
+ "c1-265": [
+  "early school leaver",
+  "school quitter"
+ ],
+ "c1-266": [
+  "copying",
+  "intellectual theft"
+ ],
+ "c1-267": [
+  "expert review",
+  "scholarly review"
+ ],
+ "c1-268": [
+  "fulfilling",
+  "satisfying",
+  "worthwhile"
+ ],
+ "c1-270": [
+  "exhaustion",
+  "work stress"
+ ],
+ "c1-273": [
+  "work remotely",
+  "work from home"
+ ],
+ "c1-274": [
+  "advantage over rivals",
+  "upper hand"
+ ],
+ "c1-275": [
+  "employment market",
+  "labour market"
+ ],
+ "c1-276": [
+  "income gap",
+  "wealth gap"
+ ],
+ "c1-277": [
+  "living costs",
+  "living expenses"
+ ],
+ "c1-278": [
+  "spendable income",
+  "take-home pay"
+ ],
+ "c1-279": [
+  "overseas investment",
+  "foreign capital"
+ ],
+ "c1-280": [
+  "compromise",
+  "sacrifice",
+  "balance"
+ ],
+ "c1-281": [
+  "at the cost of",
+  "to the detriment of"
+ ],
+ "c1-282": [
+  "brief",
+  "temporary",
+  "immediate"
+ ],
+ "c1-283": [
+  "single-use",
+  "throwaway"
+ ],
+ "c1-284": [
+  "compostable",
+  "eco-friendly"
+ ],
+ "c1-285": [
+  "GHG",
+  "warming gas"
+ ],
+ "c1-288": [
+  "excessive fishing",
+  "depleting fish stocks"
+ ],
+ "c1-289": [
+  "use up",
+  "exhaust",
+  "drain"
+ ],
+ "c1-290": [
+  "wearing away",
+  "weathering",
+  "wear"
+ ],
+ "c1-292": [
+  "green",
+  "environmentally friendly",
+  "sustainable"
+ ],
+ "c1-294": [
+  "reform",
+  "restructuring",
+  "shake-up"
+ ],
+ "c1-295": [
+  "lead",
+  "head",
+  "pioneer"
+ ],
+ "c1-296": [
+  "enjoy the benefits",
+  "profit"
+ ],
+ "c1-297": [
+  "positive move",
+  "positive development"
+ ],
+ "c1-298": [
+  "something to think about",
+  "thought-provoking"
+ ],
+ "c1-299": [
+  "at a loss",
+  "in a weaker position"
+ ],
+ "c1-300": [
+  "fail to appreciate",
+  "overlook"
+ ]
+}

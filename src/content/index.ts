@@ -28,6 +28,7 @@ import pronunciationData from "./data/pronunciation.json";
 import talkData from "./data/talk.json";
 import nativeExamples from "./data/native-examples.json";
 import nativeShadowingData from "./data/native-shadowing.json";
+import synonymsData from "./data/synonyms.json";
 
 export const placementWords = placement as PlacementWord[];
 export const grammar = grammarData as GrammarLesson[];
@@ -50,7 +51,8 @@ export const vocab: VocabWord[] = (() => {
       if (seen.has(k)) continue;
       seen.add(k);
       const native = (nativeExamples as Record<string, VocabWord["native"]>)[w.id];
-      out.push(native ? { ...w, native } : w);
+      const synonyms = (synonymsData as Record<string, string[]>)[w.id];
+      out.push({ ...w, ...(native ? { native } : {}), ...(synonyms?.length ? { synonyms } : {}) });
     }
   return out;
 })();

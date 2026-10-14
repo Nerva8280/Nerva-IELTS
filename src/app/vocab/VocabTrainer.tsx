@@ -273,6 +273,42 @@ const GRADE_LABELS: [Grade, string, string][] = [
   [3, "Dễ", "bg-sky-100 text-sky-700"],
 ];
 
+const REVIEW_MODES: ["flip" | "meaning" | "synonym", string][] = [
+  ["flip", "Lật thẻ"],
+  ["meaning", "Chọn nghĩa"],
+  ["synonym", "Từ gần nghĩa"],
+];
+
+/** Deterministic shuffle (seeded by the word id) so options stay put while the card is shown. */
+function seeded<T>(xs: T[], seed: string): T[] {
+  let h = 2166136261;
+  for (let i = 0; i < seed.length; i++) h = Math.imul(h ^ seed.charCodeAt(i), 16777619) >>> 0;
+  const rnd = () => ((h = (Math.imul(h, 1103515245) + 12345) >>> 0) / 4294967296);
+  return xs
+    .map((x) => [rnd(), x] as const)
+    .sort((a, b) => a[0] - b[0])
+    .map(([, x]) => x);
+}
+
+/** Four-option question: Vietnamese meaning, or (when the word has synonyms) a near-synonym. */
+function makeQuiz(w: VocabWord, vocab: VocabWord[], mode: "meaning" | "synonym") {
+  const others = seeded(
+    vocab.filter((v) => v.id !== w.id && v.word.toLowerCase() !== w.word.toLowerCase()),
+    w.id,
+  );
+  const samePos = (v: VocabWord) => !w.pos || v.pos === w.pos;
+  if (mode === "synonym" && w.synonyms?.length) {
+    const syn = new Set(w.synonyms.map((x) => x.toLowerCase()));
+    const right = w.synonyms[0];
+    const wrong = [...others.filter(samePos), ...others].filter((v) => !syn.has(v.word.toLowerCase()) && v.level === w.level).map((v) => v.word);
+    const options = seeded([right, ...[...new Set(wrong)].slice(0, 3)], w.id + "s");
+    return { kind: "synonym" as const, options, answer: options.indexOf(right) };
+  }
+  const wrong = [...others.filter(samePos), ...others].map((v) => v.vi).filter((vi) => vi && vi !== w.vi);
+  const options = seeded([w.vi, ...[...new Set(wrong)].slice(0, 3)], w.id + "m");
+  return { kind: "meaning" as const, options, answer: options.indexOf(w.vi) };
+}
+
 function Review({ vocab }: { vocab: VocabWord[] }) {
   const today = todayStr();
   const byId = useMemo(() => new Map(vocab.map((w) => [w.id, w])), [vocab]);
@@ -293,6 +329,9 @@ function Review({ vocab }: { vocab: VocabWord[] }) {
   const card = id ? s.srs[id] : undefined;
   const reverse = !!card && card.reps >= 2 && id.charCodeAt(id.length - 1) % 2 === 0;
   const past = pos !== null ? byId.get(done[pos].id) : undefined;
+  const mode = s.settings.reviewMode ?? "flip";
+  const [picked, setPicked] = useState<number | null>(null);
+  const quiz = useMemo(() => (w && mode !== "flip" ? makeQuiz(w, vocab, mode) : null), [w, vocab, mode]);
 
   const prev = () => setPos((p) => (p === null ? (done.length ? done.length - 1 : null) : Math.max(0, p - 1)));
   const next = () => setPos((p) => (p === null || p + 1 >= done.length ? null : p + 1));
@@ -343,32 +382,107 @@ function Review({ vocab }: { vocab: VocabWord[] }) {
     setDone((d) => [...d, { id, grade: g }]);
     setQueue((q) => (g === 0 ? [...q.slice(1), id] : q.slice(1)));
     setShow(false);
+    setPicked(null);
   }
+
+  const answered = picked !== null;
+  const correct = answered && quiz ? picked === quiz.answer : false;
 
   return (
     <div {...swipe}>
       <PageHeader title="Ôn tập" back="/vocab" right={<span className="muted">còn {queue.length}</span>} />
+      <div className="mb-3 flex gap-1 rounded-xl bg-white p-1 ring-1 ring-slate-200">
+        {REVIEW_MODES.map(([m, label]) => (
+          <button
+            key={m}
+            onClick={() => {
+              update((st) => void (st.settings.reviewMode = m));
+              setShow(false);
+              setPicked(null);
+            }}
+            className={`flex-1 rounded-lg py-1.5 text-xs font-semibold ${mode === m ? "bg-indigo-600 text-white" : "text-slate-600"}`}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
       <ProgressBar value={total ? 1 - queue.length / total : 1} className="mb-4" />
+
       <div className="card min-h-72">
-        {reverse && !show ? (
-          <div className="py-6 text-center">
-            <div className="muted mb-2">Từ tiếng Anh nào có nghĩa:</div>
-            <div className="text-2xl font-bold text-indigo-700">{w.vi}</div>
-            <div className="muted mt-2">({w.pos})</div>
-          </div>
-        ) : (
-          <WordHead w={w} />
-        )}
-        {show && (
-          <div className="mt-5">
-            {reverse && <WordHead w={w} />}
-            <div className="mt-4">
-              <WordDetails w={w} />
+        {quiz ? (
+          <>
+            <WordHead w={w} />
+            <div className="muted mb-2 mt-5 text-center">{quiz.kind === "meaning" ? "Nghĩa tiếng Việt là gì?" : `Từ nào gần nghĩa nhất với “${w.word}”?`}</div>
+            <div className="grid gap-2">
+              {quiz.options.map((o, k) => (
+                <button
+                  key={k}
+                  disabled={answered}
+                  onClick={() => {
+                    setPicked(k);
+                    if (k !== quiz.answer) void speakVocab(w.word);
+                  }}
+                  className={`rounded-xl border px-4 py-3 text-left transition disabled:pointer-events-none ${
+                    answered && k === quiz.answer ? "border-emerald-500 bg-emerald-50" : picked === k ? "border-rose-400 bg-rose-50" : "border-slate-200 bg-white hover:bg-slate-50"
+                  }`}
+                >
+                  {o}
+                </button>
+              ))}
             </div>
-          </div>
+            {answered && (
+              <div className="mt-4">
+                <div className={`mb-2 text-sm font-semibold ${correct ? "text-emerald-700" : "text-rose-700"}`}>
+                  {correct ? "✓ Chính xác!" : "✗ Chưa đúng, từ này sẽ được hỏi lại trong lượt này."}
+                </div>
+                {w.synonyms?.length ? (
+                  <p className="mb-2 text-sm text-slate-600">
+                    Từ gần nghĩa: <b>{w.synonyms.join(", ")}</b>
+                  </p>
+                ) : null}
+                <WordDetails w={w} />
+              </div>
+            )}
+          </>
+        ) : (
+          <>
+            {reverse && !show ? (
+              <div className="py-6 text-center">
+                <div className="muted mb-2">Từ tiếng Anh nào có nghĩa:</div>
+                <div className="text-2xl font-bold text-indigo-700">{w.vi}</div>
+                <div className="muted mt-2">({w.pos})</div>
+              </div>
+            ) : (
+              <WordHead w={w} />
+            )}
+            {show && (
+              <div className="mt-5">
+                {reverse && <WordHead w={w} />}
+                {w.synonyms?.length ? (
+                  <p className="mt-3 text-center text-sm text-slate-600">
+                    Từ gần nghĩa: <b>{w.synonyms.join(", ")}</b>
+                  </p>
+                ) : null}
+                <div className="mt-4">
+                  <WordDetails w={w} />
+                </div>
+              </div>
+            )}
+          </>
         )}
       </div>
-      {show ? (
+
+      {quiz ? (
+        answered ? (
+          <button className="btn-primary mt-4 w-full py-3" onClick={() => grade(correct ? 2 : 0)}>
+            Tiếp →
+          </button>
+        ) : (
+          <button className="btn-ghost mt-4 w-full py-3" onClick={() => grade(3)}>
+            ✓ Đã biết, bỏ qua
+          </button>
+        )
+      ) : show ? (
         <div className="mt-4 grid grid-cols-4 gap-2">
           {GRADE_LABELS.map(([g, label, cls]) => (
             <button key={g} onClick={() => grade(g)} className={`btn flex-col gap-0 py-2 ${cls}`}>
@@ -378,9 +492,14 @@ function Review({ vocab }: { vocab: VocabWord[] }) {
           ))}
         </div>
       ) : (
-        <button className="btn-primary mt-4 w-full py-3" onClick={() => setShow(true)}>
-          Hiện đáp án
-        </button>
+        <div className="mt-4 grid grid-cols-3 gap-2">
+          <button className="btn bg-emerald-100 py-3 text-emerald-800" onClick={() => grade(3)} title="Đã thuộc: gặp lại sau lâu hơn">
+            ✓ Đã biết
+          </button>
+          <button className="btn-primary col-span-2 py-3" onClick={() => setShow(true)}>
+            Hiện đáp án
+          </button>
+        </div>
       )}
       <NavRow canPrev={done.length > 0} onPrev={prev} />
     </div>

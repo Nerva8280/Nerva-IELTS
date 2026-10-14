@@ -14,6 +14,7 @@ export interface VocabWord {
   level: Level;
   topic: string; // e.g. "family", "education", "environment"
   native?: NativeClip & { text: string; vi: string | null }; // example recorded by a native speaker
+  synonyms?: string[]; // near-synonyms in the same sense, for paraphrase review
 }
 
 /** A recording by a native speaker from Tatoeba (played unmodified; licence requires attribution). */
