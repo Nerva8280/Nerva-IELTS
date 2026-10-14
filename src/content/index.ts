@@ -21,6 +21,7 @@ import vocabB2 from "./data/vocab-b2.json";
 import vocabC1 from "./data/vocab-c1.json";
 import grammarData from "./data/grammar.json";
 import readingData from "./data/reading.json";
+import readingIeltsData from "./data/reading-ielts.json";
 import listeningData from "./data/listening.json";
 import writingData from "./data/writing.json";
 import speakingData from "./data/speaking.json";
@@ -34,7 +35,8 @@ import voaData from "./data/voa-listening.json";
 
 export const placementWords = placement as PlacementWord[];
 export const grammar = grammarData as GrammarLesson[];
-export const reading = readingData as ReadingPassage[];
+// reading-ielts: full-length passages with the real IELTS question types (headings, matching, Y/N/NG, choose TWO…)
+export const reading = [...readingData, ...readingIeltsData] as ReadingPassage[];
 export const listening = listeningData as ListeningItem[];
 export const writing = writingData as WritingPrompt[];
 export const speaking = speakingData as SpeakingTopic[];
@@ -63,7 +65,7 @@ export const vocab: VocabWord[] = (() => {
 export function getCatalog(): Catalog {
   return {
     grammar: grammar.map((g) => ({ id: g.id, level: g.level, title: g.title, kind: "grammar" })),
-    reading: reading.map((r) => ({ id: r.id, level: r.level, title: r.title, kind: "reading" })),
+    reading: reading.map((r) => ({ id: r.id, level: r.level, title: r.title, kind: "reading", sub: r.id.startsWith("r2-") ? `Đề kiểu IELTS · ${r.questions.length} câu` : `${r.questions.length} câu` })),
     // real VOA recordings first so they are offered before the AI-voice dialogues
     listening: [
       ...voaListening.map((v) => ({ id: v.id, level: v.level, title: v.title, kind: "listening" as const, sub: "VOA · giọng thật" })),

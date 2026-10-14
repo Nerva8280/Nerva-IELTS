@@ -32,11 +32,30 @@ export interface PlacementWord {
   vi?: string;
 }
 
-export type Question =
-  | { type: "mcq"; q: string; options: string[]; answer: number; explain?: string }
-  | { type: "tfng"; q: string; answer: "TRUE" | "FALSE" | "NOT GIVEN"; explain?: string }
+/**
+ * Instructions shown above a run of questions, like an IELTS paper ("Questions 1-5 …").
+ * Repeat the same object (same title) on every question of the group; it is shown once.
+ * `list` holds a shared box such as the list of headings or of people to match.
+ */
+export interface QuestionGroup {
+  title: string;
+  text?: string;
+  list?: string[];
+}
+
+export type Question = (
+  | { type: "mcq"; q: string; options: string[]; answer: number }
+  | { type: "tfng"; q: string; answer: "TRUE" | "FALSE" | "NOT GIVEN" }
+  // writer's views/claims
+  | { type: "ynng"; q: string; answer: "YES" | "NO" | "NOT GIVEN" }
   // q contains "____" once; answer lists accepted variants (compared case-insensitively)
-  | { type: "gap"; q: string; answer: string[]; explain?: string };
+  | { type: "gap"; q: string; answer: string[] }
+  // matching headings / information / features / sentence endings: pick one item of `options`
+  // (usually the group's list, e.g. ["i. …", "ii. …"] or ["A", "B", "C"])
+  | { type: "match"; q: string; options: string[]; answer: number }
+  // "Choose TWO letters": every index in `answer` must be picked, and nothing else
+  | { type: "multi"; q: string; options: string[]; answer: number[] }
+) & { explain?: string; group?: QuestionGroup };
 
 export interface GrammarLesson {
   id: string; // "g-a1-01"
