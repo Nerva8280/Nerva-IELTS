@@ -208,13 +208,16 @@ export async function startSync(owner: string) {
 }
 
 async function reconcile(owner: string) {
+  // The app is usable while this runs. If another device saved newer progress, it wins even
+  // when something was clicked here in the meantime (losing a second here beats losing a session there).
+  const base = state.updatedAt;
   try {
     const res = await fetch("/api/progress");
     if (res.ok) {
       const j = (await res.json()) as { data: AppState | null; updatedAt: number; enabled: boolean };
       if (!j.enabled) return emit();
       syncOn = true;
-      if (j.data && j.updatedAt > state.updatedAt) {
+      if (j.data && j.updatedAt > base) {
         state = normalize({ ...j.data, owner });
         persist();
       } else if (state.updatedAt > (j.updatedAt ?? 0)) {

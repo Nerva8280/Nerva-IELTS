@@ -50,6 +50,14 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
     if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js", { scope: "/", updateViaCache: "none" }).catch(() => {});
     void loadVoices();
     (async () => {
+      // Signed in on this device before: open at once with the local data; the session check and
+      // the progress sync below run in the background (they can take a few seconds after the
+      // server has been idle).
+      const known = localStorage.getItem(ME_KEY);
+      if (known) {
+        setMe(JSON.parse(known) as Me);
+        setPhase("ready");
+      }
       let m: Me | null = null;
       try {
         m = (await (await fetch("/api/me")).json()) as Me;
