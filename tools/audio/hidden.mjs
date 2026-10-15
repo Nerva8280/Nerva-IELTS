@@ -4,8 +4,8 @@
 //   node hidden.mjs
 import fs from "node:fs";
 import path from "node:path";
-import { allJobs, OUT } from "./jobs.mjs";
-import { audioKey, WORD_VOICE } from "../../src/lib/audio-key.ts";
+import { allJobs, EXTRA_VOCAB, loadData, OUT } from "./jobs.mjs";
+import { audioKey, MAIN_VOICES, WORD_VOICE } from "../../src/lib/audio-key.ts";
 import { same, words } from "./qa.mjs";
 
 const cache = JSON.parse(fs.readFileSync(new URL("./qa-cache.json", import.meta.url), "utf8"));
@@ -23,6 +23,8 @@ const HOMOPHONES = {
   sun: ["son"], sell: ["cell"], sent: ["cent", "scent"], sight: ["site", "cite"], cereal: ["serial"],
   grey: ["gray"], "break down": ["breakdown"], outweigh: ["out way", "outway"], overtime: ["over time"],
   cooperate: ["co operate"], "set up": ["setup"], "work out": ["workout"], "drop out": ["dropout"],
+  cite: ["sight", "site"], sole: ["soul", "seoul"], "healthcare system": ["health care system"], "an ageing population": ["an aging population"],
+  "policy makers": ["policymakers"],
 };
 
 function heardOk(text, heard) {
@@ -47,6 +49,8 @@ for (const j of allJobs(["words", "pronunciation"])) {
   if (j.voice === WORD_VOICE) review.push(`${j.text} → ${c.heard2 ?? c.heard}`);
   (hidden[j.voice] ??= []).push(audioKey(j.text));
 }
+// Academic words and collocations only exist in the word voice.
+for (const w of EXTRA_VOCAB.flatMap(loadData)) for (const v of MAIN_VOICES) if (v !== WORD_VOICE) (hidden[v] ??= []).push(audioKey(w.word));
 for (const v of Object.keys(hidden)) hidden[v] = [...new Set(hidden[v])].sort();
 fs.writeFileSync(path.join(OUT, "hidden.json"), JSON.stringify(hidden));
 console.log("hidden per voice:", Object.fromEntries(Object.entries(hidden).map(([v, k]) => [v, k.length])));

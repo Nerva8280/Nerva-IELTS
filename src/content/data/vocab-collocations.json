@@ -1,0 +1,2132 @@
+[
+  {
+    "id": "col-001",
+    "word": "academic performance",
+    "ipa": "/ˌækəˈdemɪk pəˈfɔːməns/",
+    "pos": "phr",
+    "vi": "kết quả học tập",
+    "example": "Heavy use of smartphones can seriously damage students' academic performance in the long term.",
+    "exampleVi": "Việc dùng điện thoại thông minh quá nhiều có thể làm giảm nghiêm trọng kết quả học tập của học sinh về lâu dài.",
+    "level": "B2",
+    "topic": "education",
+    "synonyms": [
+      "academic results",
+      "school achievement"
+    ]
+  },
+  {
+    "id": "col-002",
+    "word": "higher education",
+    "ipa": "/ˈhaɪər ˌedjuˈkeɪʃn/",
+    "pos": "phr",
+    "vi": "giáo dục đại học",
+    "example": "In my country, higher education is becoming more expensive every year, which worries many families.",
+    "exampleVi": "Ở nước tôi, giáo dục đại học ngày càng đắt đỏ, điều này khiến nhiều gia đình lo lắng.",
+    "level": "B1",
+    "topic": "education",
+    "synonyms": [
+      "university education",
+      "tertiary education"
+    ]
+  },
+  {
+    "id": "col-003",
+    "word": "tuition fees",
+    "ipa": "/tjuˈɪʃn fiːz/",
+    "pos": "phr",
+    "vi": "học phí",
+    "example": "Many young people avoid going to university because tuition fees are simply too high.",
+    "exampleVi": "Nhiều bạn trẻ tránh học đại học vì học phí quá cao.",
+    "level": "B1",
+    "topic": "education",
+    "synonyms": [
+      "course fees"
+    ]
+  },
+  {
+    "id": "col-004",
+    "word": "pass an exam",
+    "ipa": "/pɑːs ən ɪɡˈzæm/",
+    "pos": "phr",
+    "vi": "vượt qua kỳ thi",
+    "example": "I studied every evening for a month so that I could pass the exam.",
+    "exampleVi": "Tôi học mỗi tối suốt một tháng để có thể vượt qua kỳ thi.",
+    "level": "B1",
+    "topic": "education",
+    "synonyms": [
+      "succeed in an exam"
+    ]
+  },
+  {
+    "id": "col-005",
+    "word": "practical skills",
+    "ipa": "/ˈpræktɪkl skɪlz/",
+    "pos": "phr",
+    "vi": "kỹ năng thực hành",
+    "example": "Schools should teach more practical skills such as cooking and managing money.",
+    "exampleVi": "Trường học nên dạy nhiều kỹ năng thực hành hơn như nấu ăn và quản lý tiền bạc.",
+    "level": "B1",
+    "topic": "education",
+    "synonyms": [
+      "hands-on skills"
+    ]
+  },
+  {
+    "id": "col-006",
+    "word": "learning outcomes",
+    "ipa": "/ˈlɜːnɪŋ ˈaʊtkʌmz/",
+    "pos": "phr",
+    "vi": "kết quả đạt được trong học tập",
+    "example": "Smaller classes tend to produce better learning outcomes because teachers can give individual attention.",
+    "exampleVi": "Lớp học nhỏ thường mang lại kết quả học tập tốt hơn vì giáo viên có thể chú ý đến từng em.",
+    "level": "B2",
+    "topic": "education",
+    "synonyms": [
+      "educational results"
+    ]
+  },
+  {
+    "id": "col-007",
+    "word": "gain qualifications",
+    "ipa": "/ɡeɪn ˌkwɒlɪfɪˈkeɪʃnz/",
+    "pos": "phr",
+    "vi": "đạt được bằng cấp",
+    "example": "Gaining qualifications is often the only way to secure a well-paid job.",
+    "exampleVi": "Đạt được bằng cấp thường là cách duy nhất để có một công việc lương cao.",
+    "level": "B1",
+    "topic": "education",
+    "synonyms": [
+      "earn qualifications",
+      "obtain certificates"
+    ]
+  },
+  {
+    "id": "col-008",
+    "word": "distance learning",
+    "ipa": "/ˈdɪstəns ˈlɜːnɪŋ/",
+    "pos": "phr",
+    "vi": "học từ xa",
+    "example": "Distance learning allows people living in remote areas to study without leaving their villages.",
+    "exampleVi": "Học từ xa cho phép người ở vùng xa học tập mà không phải rời khỏi làng của mình.",
+    "level": "B1",
+    "topic": "education",
+    "synonyms": [
+      "remote learning",
+      "online study"
+    ]
+  },
+  {
+    "id": "col-009",
+    "word": "private tutoring",
+    "ipa": "/ˈpraɪvət ˈtjuːtərɪŋ/",
+    "pos": "phr",
+    "vi": "học thêm, dạy kèm",
+    "example": "Private tutoring puts extra pressure on families who cannot afford it.",
+    "exampleVi": "Việc học thêm tạo thêm áp lực cho những gia đình không đủ khả năng chi trả.",
+    "level": "B2",
+    "topic": "education",
+    "synonyms": [
+      "extra lessons",
+      "one-to-one tuition"
+    ]
+  },
+  {
+    "id": "col-010",
+    "word": "extracurricular activities",
+    "ipa": "/ˌekstrəkəˈrɪkjələ ækˈtɪvətiz/",
+    "pos": "phr",
+    "vi": "hoạt động ngoại khóa",
+    "example": "Extracurricular activities help teenagers develop teamwork and leadership skills outside the classroom.",
+    "exampleVi": "Các hoạt động ngoại khóa giúp thanh thiếu niên phát triển kỹ năng làm việc nhóm và lãnh đạo ngoài lớp học.",
+    "level": "B1",
+    "topic": "education",
+    "synonyms": [
+      "after-school activities"
+    ]
+  },
+  {
+    "id": "col-011",
+    "word": "lifelong learning",
+    "ipa": "/ˈlaɪflɒŋ ˈlɜːnɪŋ/",
+    "pos": "phr",
+    "vi": "học tập suốt đời",
+    "example": "In a rapidly changing economy, lifelong learning is essential for staying employable.",
+    "exampleVi": "Trong nền kinh tế thay đổi nhanh chóng, học tập suốt đời là điều cần thiết để duy trì khả năng được tuyển dụng.",
+    "level": "B2",
+    "topic": "education",
+    "synonyms": [
+      "continuous learning"
+    ]
+  },
+  {
+    "id": "col-012",
+    "word": "academic pressure",
+    "ipa": "/ˌækəˈdemɪk ˈpreʃə/",
+    "pos": "phr",
+    "vi": "áp lực học tập",
+    "example": "Excessive academic pressure can lead to anxiety and depression among teenagers.",
+    "exampleVi": "Áp lực học tập quá mức có thể dẫn đến lo âu và trầm cảm ở thanh thiếu niên.",
+    "level": "B2",
+    "topic": "education",
+    "synonyms": [
+      "pressure to achieve at school"
+    ]
+  },
+  {
+    "id": "col-013",
+    "word": "study abroad",
+    "ipa": "/ˈstʌdi əˈbrɔːd/",
+    "pos": "phr",
+    "vi": "du học",
+    "example": "Studying abroad gave me the chance to improve my English and experience a new culture.",
+    "exampleVi": "Du học cho tôi cơ hội cải thiện tiếng Anh và trải nghiệm một nền văn hóa mới.",
+    "level": "B1",
+    "topic": "education",
+    "synonyms": [
+      "study overseas"
+    ]
+  },
+  {
+    "id": "col-014",
+    "word": "learning environment",
+    "ipa": "/ˈlɜːnɪŋ ɪnˈvaɪrənmənt/",
+    "pos": "phr",
+    "vi": "môi trường học tập",
+    "example": "A supportive learning environment encourages students to ask questions without fear of making mistakes.",
+    "exampleVi": "Một môi trường học tập hỗ trợ khuyến khích học sinh đặt câu hỏi mà không sợ mắc lỗi.",
+    "level": "B1",
+    "topic": "education",
+    "synonyms": [
+      "classroom atmosphere"
+    ]
+  },
+  {
+    "id": "col-015",
+    "word": "school dropout rate",
+    "ipa": "/skuːl ˈdrɒpaʊt reɪt/",
+    "pos": "phr",
+    "vi": "tỷ lệ bỏ học",
+    "example": "Poverty is a major reason why the school dropout rate remains high in rural areas.",
+    "exampleVi": "Nghèo đói là lý do chính khiến tỷ lệ bỏ học vẫn cao ở nông thôn.",
+    "level": "B2",
+    "topic": "education",
+    "synonyms": [
+      "rate of early school leaving"
+    ]
+  },
+  {
+    "id": "col-016",
+    "word": "tackle climate change",
+    "ipa": "/ˈtækl ˈklaɪmət tʃeɪndʒ/",
+    "pos": "phr",
+    "vi": "giải quyết biến đổi khí hậu",
+    "example": "Governments must work together to tackle climate change before the damage becomes irreversible.",
+    "exampleVi": "Các chính phủ phải hợp tác để giải quyết biến đổi khí hậu trước khi thiệt hại không thể đảo ngược.",
+    "level": "B1",
+    "topic": "environment",
+    "synonyms": [
+      "combat climate change",
+      "address climate change"
+    ]
+  },
+  {
+    "id": "col-017",
+    "word": "global warming",
+    "ipa": "/ˈɡləʊbl ˈwɔːmɪŋ/",
+    "pos": "phr",
+    "vi": "sự nóng lên toàn cầu",
+    "example": "Global warming is causing glaciers to melt and sea levels to rise.",
+    "exampleVi": "Sự nóng lên toàn cầu đang làm sông băng tan chảy và mực nước biển dâng cao.",
+    "level": "B1",
+    "topic": "environment",
+    "synonyms": [
+      "rising global temperatures"
+    ]
+  },
+  {
+    "id": "col-018",
+    "word": "reduce carbon emissions",
+    "ipa": "/rɪˈdjuːs ˈkɑːbən ɪˈmɪʃnz/",
+    "pos": "phr",
+    "vi": "giảm lượng khí thải carbon",
+    "example": "Factories should be forced to reduce carbon emissions by using cleaner technology.",
+    "exampleVi": "Các nhà máy nên bị buộc phải giảm khí thải carbon bằng cách dùng công nghệ sạch hơn.",
+    "level": "B2",
+    "topic": "environment",
+    "synonyms": [
+      "cut carbon emissions",
+      "lower carbon output"
+    ]
+  },
+  {
+    "id": "col-019",
+    "word": "renewable energy sources",
+    "ipa": "/rɪˈnjuːəbl ˈenədʒi ˈsɔːsɪz/",
+    "pos": "phr",
+    "vi": "nguồn năng lượng tái tạo",
+    "example": "Investing in renewable energy sources such as wind and solar is vital for the future.",
+    "exampleVi": "Đầu tư vào các nguồn năng lượng tái tạo như gió và mặt trời là rất quan trọng cho tương lai.",
+    "level": "B2",
+    "topic": "environment",
+    "synonyms": [
+      "clean energy",
+      "green energy"
+    ]
+  },
+  {
+    "id": "col-020",
+    "word": "natural resources",
+    "ipa": "/ˈnætʃrəl rɪˈzɔːsɪz/",
+    "pos": "phr",
+    "vi": "tài nguyên thiên nhiên",
+    "example": "Many developing countries depend heavily on exporting their natural resources.",
+    "exampleVi": "Nhiều nước đang phát triển phụ thuộc nhiều vào việc xuất khẩu tài nguyên thiên nhiên.",
+    "level": "B1",
+    "topic": "environment",
+    "synonyms": [
+      "natural assets"
+    ]
+  },
+  {
+    "id": "col-021",
+    "word": "protect the environment",
+    "ipa": "/prəˈtekt ði ɪnˈvaɪrənmənt/",
+    "pos": "phr",
+    "vi": "bảo vệ môi trường",
+    "example": "Everyone has a duty to protect the environment, even in small daily ways.",
+    "exampleVi": "Mọi người đều có bổn phận bảo vệ môi trường, dù chỉ bằng những việc nhỏ hằng ngày.",
+    "level": "B1",
+    "topic": "environment",
+    "synonyms": [
+      "safeguard the environment"
+    ]
+  },
+  {
+    "id": "col-022",
+    "word": "air pollution",
+    "ipa": "/eə pəˈluːʃn/",
+    "pos": "phr",
+    "vi": "ô nhiễm không khí",
+    "example": "Air pollution in big cities is a serious threat to the health of children.",
+    "exampleVi": "Ô nhiễm không khí ở các thành phố lớn là mối đe dọa nghiêm trọng đối với sức khỏe trẻ em.",
+    "level": "B1",
+    "topic": "environment",
+    "synonyms": [
+      "polluted air"
+    ]
+  },
+  {
+    "id": "col-023",
+    "word": "plastic waste",
+    "ipa": "/ˈplæstɪk weɪst/",
+    "pos": "phr",
+    "vi": "rác thải nhựa",
+    "example": "Plastic waste in the oceans is killing thousands of marine animals every year.",
+    "exampleVi": "Rác thải nhựa trong đại dương đang giết chết hàng nghìn sinh vật biển mỗi năm.",
+    "level": "B1",
+    "topic": "environment",
+    "synonyms": [
+      "plastic rubbish"
+    ]
+  },
+  {
+    "id": "col-024",
+    "word": "endangered species",
+    "ipa": "/ɪnˈdeɪndʒəd ˈspiːʃiːz/",
+    "pos": "phr",
+    "vi": "loài có nguy cơ tuyệt chủng",
+    "example": "Hunting and habitat loss have put many endangered species at risk of disappearing.",
+    "exampleVi": "Săn bắn và mất môi trường sống đã khiến nhiều loài có nguy cơ biến mất.",
+    "level": "B2",
+    "topic": "environment",
+    "synonyms": [
+      "threatened species"
+    ]
+  },
+  {
+    "id": "col-025",
+    "word": "rising sea levels",
+    "ipa": "/ˈraɪzɪŋ siː ˈlevlz/",
+    "pos": "phr",
+    "vi": "mực nước biển dâng",
+    "example": "Rising sea levels threaten low-lying countries such as Vietnam and Bangladesh.",
+    "exampleVi": "Mực nước biển dâng đe dọa các quốc gia thấp như Việt Nam và Bangladesh.",
+    "level": "B2",
+    "topic": "environment",
+    "synonyms": [
+      "sea level rise"
+    ]
+  },
+  {
+    "id": "col-026",
+    "word": "environmental degradation",
+    "ipa": "/ɪnˌvaɪrənˈmentl ˌdeɡrəˈdeɪʃn/",
+    "pos": "phr",
+    "vi": "sự suy thoái môi trường",
+    "example": "Rapid industrialisation has led to severe environmental degradation in many regions.",
+    "exampleVi": "Công nghiệp hóa nhanh chóng đã dẫn đến suy thoái môi trường nghiêm trọng ở nhiều vùng.",
+    "level": "B2",
+    "topic": "environment",
+    "synonyms": [
+      "damage to the environment"
+    ]
+  },
+  {
+    "id": "col-027",
+    "word": "household waste",
+    "ipa": "/ˈhaʊshəʊld weɪst/",
+    "pos": "phr",
+    "vi": "rác thải sinh hoạt",
+    "example": "Families can reduce household waste by composting food scraps and avoiding single-use items.",
+    "exampleVi": "Các gia đình có thể giảm rác thải sinh hoạt bằng cách ủ phân thức ăn thừa và tránh đồ dùng một lần.",
+    "level": "B1",
+    "topic": "environment",
+    "synonyms": [
+      "domestic rubbish"
+    ]
+  },
+  {
+    "id": "col-028",
+    "word": "natural habitat",
+    "ipa": "/ˈnætʃrəl ˈhæbɪtæt/",
+    "pos": "phr",
+    "vi": "môi trường sống tự nhiên",
+    "example": "Wild animals should be kept in their natural habitat rather than in zoos.",
+    "exampleVi": "Động vật hoang dã nên được giữ trong môi trường sống tự nhiên hơn là trong sở thú.",
+    "level": "B2",
+    "topic": "environment",
+    "synonyms": [
+      "wild environment"
+    ]
+  },
+  {
+    "id": "col-029",
+    "word": "extreme weather events",
+    "ipa": "/ɪkˈstriːm ˈweðər ɪˈvents/",
+    "pos": "phr",
+    "vi": "hiện tượng thời tiết cực đoan",
+    "example": "Extreme weather events such as floods and heatwaves are becoming more frequent.",
+    "exampleVi": "Các hiện tượng thời tiết cực đoan như lũ lụt và sóng nhiệt đang xảy ra thường xuyên hơn.",
+    "level": "B2",
+    "topic": "environment",
+    "synonyms": [
+      "severe weather",
+      "weather extremes"
+    ]
+  },
+  {
+    "id": "col-030",
+    "word": "sustainable development",
+    "ipa": "/səˈsteɪnəbl dɪˈveləpmənt/",
+    "pos": "phr",
+    "vi": "phát triển bền vững",
+    "example": "Sustainable development means growing the economy without harming future generations.",
+    "exampleVi": "Phát triển bền vững nghĩa là tăng trưởng kinh tế mà không gây hại cho các thế hệ tương lai.",
+    "level": "B2",
+    "topic": "environment",
+    "synonyms": [
+      "eco-friendly growth"
+    ]
+  },
+  {
+    "id": "col-031",
+    "word": "technological advances",
+    "ipa": "/ˌteknəˈlɒdʒɪkl ədˈvɑːnsɪz/",
+    "pos": "phr",
+    "vi": "những tiến bộ công nghệ",
+    "example": "Technological advances have made it far easier to keep in touch with relatives abroad.",
+    "exampleVi": "Những tiến bộ công nghệ giúp việc giữ liên lạc với người thân ở nước ngoài dễ dàng hơn nhiều.",
+    "level": "B2",
+    "topic": "technology",
+    "synonyms": [
+      "technological progress",
+      "tech developments"
+    ]
+  },
+  {
+    "id": "col-032",
+    "word": "social media platforms",
+    "ipa": "/ˈsəʊʃl ˈmiːdiə ˈplætfɔːmz/",
+    "pos": "phr",
+    "vi": "các nền tảng mạng xã hội",
+    "example": "Social media platforms allow teenagers to share their lives, but they also encourage comparison.",
+    "exampleVi": "Các nền tảng mạng xã hội cho phép thanh thiếu niên chia sẻ cuộc sống, nhưng cũng khuyến khích so sánh.",
+    "level": "B1",
+    "topic": "technology",
+    "synonyms": [
+      "social networking sites"
+    ]
+  },
+  {
+    "id": "col-033",
+    "word": "internet access",
+    "ipa": "/ˈɪntənet ˈækses/",
+    "pos": "phr",
+    "vi": "quyền truy cập internet",
+    "example": "Reliable internet access should be considered a basic right in the modern world.",
+    "exampleVi": "Truy cập internet ổn định nên được coi là quyền cơ bản trong thế giới hiện đại.",
+    "level": "B1",
+    "topic": "technology",
+    "synonyms": [
+      "online connectivity"
+    ]
+  },
+  {
+    "id": "col-034",
+    "word": "online shopping",
+    "ipa": "/ˈɒnlaɪn ˈʃɒpɪŋ/",
+    "pos": "phr",
+    "vi": "mua sắm trực tuyến",
+    "example": "Online shopping is convenient, but it has hurt many small local shops.",
+    "exampleVi": "Mua sắm trực tuyến rất tiện lợi, nhưng nó đã gây thiệt hại cho nhiều cửa hàng nhỏ địa phương.",
+    "level": "B1",
+    "topic": "technology",
+    "synonyms": [
+      "e-commerce",
+      "internet shopping"
+    ]
+  },
+  {
+    "id": "col-035",
+    "word": "data protection",
+    "ipa": "/ˈdeɪtə prəˈtekʃn/",
+    "pos": "phr",
+    "vi": "bảo vệ dữ liệu",
+    "example": "Stronger data protection laws are needed to stop companies misusing our personal information.",
+    "exampleVi": "Cần có luật bảo vệ dữ liệu chặt chẽ hơn để ngăn các công ty lạm dụng thông tin cá nhân.",
+    "level": "B2",
+    "topic": "technology",
+    "synonyms": [
+      "safeguarding of information"
+    ]
+  },
+  {
+    "id": "col-036",
+    "word": "personal data",
+    "ipa": "/ˈpɜːsənl ˈdeɪtə/",
+    "pos": "phr",
+    "vi": "dữ liệu cá nhân",
+    "example": "Many apps collect personal data without users fully understanding how it will be used.",
+    "exampleVi": "Nhiều ứng dụng thu thập dữ liệu cá nhân mà người dùng không hiểu rõ nó sẽ được dùng thế nào.",
+    "level": "B2",
+    "topic": "technology",
+    "synonyms": [
+      "private information"
+    ]
+  },
+  {
+    "id": "col-037",
+    "word": "screen time",
+    "ipa": "/skriːn taɪm/",
+    "pos": "phr",
+    "vi": "thời gian nhìn màn hình",
+    "example": "Parents should limit their children's screen time to protect their eyesight and sleep.",
+    "exampleVi": "Phụ huynh nên hạn chế thời gian nhìn màn hình của con để bảo vệ thị lực và giấc ngủ.",
+    "level": "B1",
+    "topic": "technology",
+    "synonyms": [
+      "time spent on devices"
+    ]
+  },
+  {
+    "id": "col-038",
+    "word": "smart devices",
+    "ipa": "/smɑːt dɪˈvaɪsɪz/",
+    "pos": "phr",
+    "vi": "thiết bị thông minh",
+    "example": "Smart devices in the home can help elderly people live more independently.",
+    "exampleVi": "Các thiết bị thông minh trong nhà có thể giúp người cao tuổi sống độc lập hơn.",
+    "level": "B1",
+    "topic": "technology",
+    "synonyms": [
+      "connected gadgets"
+    ]
+  },
+  {
+    "id": "col-039",
+    "word": "keep in touch",
+    "ipa": "/kiːp ɪn tʌtʃ/",
+    "pos": "phr",
+    "vi": "giữ liên lạc",
+    "example": "Video calls make it much easier to keep in touch with friends overseas.",
+    "exampleVi": "Gọi video giúp việc giữ liên lạc với bạn bè ở nước ngoài dễ hơn nhiều.",
+    "level": "B1",
+    "topic": "technology",
+    "synonyms": [
+      "stay in contact"
+    ]
+  },
+  {
+    "id": "col-040",
+    "word": "digital literacy",
+    "ipa": "/ˈdɪdʒɪtl ˈlɪtrəsi/",
+    "pos": "phr",
+    "vi": "năng lực số",
+    "example": "Digital literacy should be taught in schools so that students can judge online information.",
+    "exampleVi": "Năng lực số nên được dạy ở trường để học sinh biết đánh giá thông tin trực tuyến.",
+    "level": "B2",
+    "topic": "technology",
+    "synonyms": [
+      "computer skills"
+    ]
+  },
+  {
+    "id": "col-041",
+    "word": "invasion of privacy",
+    "ipa": "/ɪnˈveɪʒn əv ˈprɪvəsi/",
+    "pos": "phr",
+    "vi": "xâm phạm quyền riêng tư",
+    "example": "Constant tracking by apps is, in my view, a serious invasion of privacy.",
+    "exampleVi": "Theo tôi, việc ứng dụng liên tục theo dõi là một sự xâm phạm quyền riêng tư nghiêm trọng.",
+    "level": "B2",
+    "topic": "technology",
+    "synonyms": [
+      "breach of privacy"
+    ]
+  },
+  {
+    "id": "col-042",
+    "word": "state-of-the-art technology",
+    "ipa": "/ˌsteɪt əv ði ˈɑːt tekˈnɒlədʒi/",
+    "pos": "phr",
+    "vi": "công nghệ hiện đại nhất",
+    "example": "Hospitals equipped with state-of-the-art technology can diagnose diseases much earlier.",
+    "exampleVi": "Các bệnh viện trang bị công nghệ hiện đại nhất có thể chẩn đoán bệnh sớm hơn nhiều.",
+    "level": "B2",
+    "topic": "technology",
+    "synonyms": [
+      "the latest technology",
+      "advanced technology"
+    ]
+  },
+  {
+    "id": "col-043",
+    "word": "instant access",
+    "ipa": "/ˈɪnstənt ˈækses/",
+    "pos": "phr",
+    "vi": "truy cập tức thì",
+    "example": "The internet gives us instant access to news and information from all over the world.",
+    "exampleVi": "Internet cho chúng ta truy cập tức thì tin tức và thông tin từ khắp thế giới.",
+    "level": "B1",
+    "topic": "technology",
+    "synonyms": [
+      "immediate access"
+    ]
+  },
+  {
+    "id": "col-044",
+    "word": "technological breakthrough",
+    "ipa": "/ˌteknəˈlɒdʒɪkl ˈbreɪkθruː/",
+    "pos": "phr",
+    "vi": "đột phá công nghệ",
+    "example": "The invention of the smartphone was a technological breakthrough that changed daily life.",
+    "exampleVi": "Việc phát minh ra điện thoại thông minh là một đột phá công nghệ đã thay đổi cuộc sống hằng ngày.",
+    "level": "B2",
+    "topic": "technology",
+    "synonyms": [
+      "major tech advance"
+    ]
+  },
+  {
+    "id": "col-045",
+    "word": "tech-savvy generation",
+    "ipa": "/tek ˈsævi ˌdʒenəˈreɪʃn/",
+    "pos": "phr",
+    "vi": "thế hệ am hiểu công nghệ",
+    "example": "The tech-savvy generation finds it natural to learn new skills through online videos.",
+    "exampleVi": "Thế hệ am hiểu công nghệ thấy việc học kỹ năng mới qua video trực tuyến là điều tự nhiên.",
+    "level": "B2",
+    "topic": "technology",
+    "synonyms": [
+      "digital natives"
+    ]
+  },
+  {
+    "id": "col-046",
+    "word": "a sedentary lifestyle",
+    "ipa": "/ə ˈsedntri ˈlaɪfstaɪl/",
+    "pos": "phr",
+    "vi": "lối sống ít vận động",
+    "example": "A sedentary lifestyle is linked to heart disease, diabetes and obesity.",
+    "exampleVi": "Lối sống ít vận động có liên quan đến bệnh tim, tiểu đường và béo phì.",
+    "level": "B2",
+    "topic": "health",
+    "synonyms": [
+      "an inactive lifestyle"
+    ]
+  },
+  {
+    "id": "col-047",
+    "word": "a balanced diet",
+    "ipa": "/ə ˈbælənst ˈdaɪət/",
+    "pos": "phr",
+    "vi": "chế độ ăn cân bằng",
+    "example": "Eating a balanced diet with plenty of vegetables keeps the body strong.",
+    "exampleVi": "Ăn một chế độ ăn cân bằng với nhiều rau giúp cơ thể khỏe mạnh.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "a healthy diet"
+    ]
+  },
+  {
+    "id": "col-048",
+    "word": "regular exercise",
+    "ipa": "/ˈreɡjələr ˈeksəsaɪz/",
+    "pos": "phr",
+    "vi": "tập thể dục đều đặn",
+    "example": "Regular exercise reduces stress and helps people sleep better at night.",
+    "exampleVi": "Tập thể dục đều đặn giúp giảm căng thẳng và giúp mọi người ngủ ngon hơn.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "frequent workouts"
+    ]
+  },
+  {
+    "id": "col-049",
+    "word": "a healthy lifestyle",
+    "ipa": "/ə ˈhelθi ˈlaɪfstaɪl/",
+    "pos": "phr",
+    "vi": "lối sống lành mạnh",
+    "example": "Adopting a healthy lifestyle early in life prevents many problems later on.",
+    "exampleVi": "Áp dụng lối sống lành mạnh từ sớm giúp ngăn ngừa nhiều vấn đề về sau.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "a wholesome way of living"
+    ]
+  },
+  {
+    "id": "col-050",
+    "word": "physical activity",
+    "ipa": "/ˈfɪzɪkl ækˈtɪvəti/",
+    "pos": "phr",
+    "vi": "hoạt động thể chất",
+    "example": "Schools should increase physical activity by offering more sports during the day.",
+    "exampleVi": "Trường học nên tăng hoạt động thể chất bằng cách tổ chức nhiều môn thể thao hơn trong ngày.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "bodily exercise"
+    ]
+  },
+  {
+    "id": "col-051",
+    "word": "childhood obesity",
+    "ipa": "/ˈtʃaɪldhʊd əʊˈbiːsəti/",
+    "pos": "phr",
+    "vi": "béo phì ở trẻ em",
+    "example": "Childhood obesity is rising because children eat more junk food and play outside less.",
+    "exampleVi": "Béo phì ở trẻ em đang gia tăng vì trẻ ăn nhiều đồ ăn vặt hơn và ít chơi ngoài trời.",
+    "level": "B2",
+    "topic": "health",
+    "synonyms": [
+      "obesity in children"
+    ]
+  },
+  {
+    "id": "col-052",
+    "word": "healthcare system",
+    "ipa": "/ˈhelθkeə ˈsɪstəm/",
+    "pos": "phr",
+    "vi": "hệ thống chăm sóc sức khỏe",
+    "example": "A strong healthcare system should provide treatment for everyone, regardless of income.",
+    "exampleVi": "Một hệ thống chăm sóc sức khỏe tốt nên cung cấp điều trị cho mọi người, bất kể thu nhập.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "medical service"
+    ]
+  },
+  {
+    "id": "col-053",
+    "word": "life-threatening disease",
+    "ipa": "/ˈlaɪf ˈθretnɪŋ dɪˈziːz/",
+    "pos": "phr",
+    "vi": "bệnh nguy hiểm đến tính mạng",
+    "example": "Early screening can detect a life-threatening disease before it becomes untreatable.",
+    "exampleVi": "Sàng lọc sớm có thể phát hiện bệnh nguy hiểm đến tính mạng trước khi không thể chữa được.",
+    "level": "B2",
+    "topic": "health",
+    "synonyms": [
+      "fatal illness",
+      "serious illness"
+    ]
+  },
+  {
+    "id": "col-054",
+    "word": "suffer from stress",
+    "ipa": "/ˈsʌfə frəm stres/",
+    "pos": "phr",
+    "vi": "bị căng thẳng",
+    "example": "Many office workers suffer from stress because of long hours and heavy workloads.",
+    "exampleVi": "Nhiều nhân viên văn phòng bị căng thẳng vì làm việc nhiều giờ và khối lượng công việc lớn.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "experience stress"
+    ]
+  },
+  {
+    "id": "col-055",
+    "word": "fast food",
+    "ipa": "/fɑːst fuːd/",
+    "pos": "phr",
+    "vi": "đồ ăn nhanh",
+    "example": "Eating too much fast food is a major cause of weight gain.",
+    "exampleVi": "Ăn quá nhiều đồ ăn nhanh là nguyên nhân chính gây tăng cân.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "junk food"
+    ]
+  },
+  {
+    "id": "col-056",
+    "word": "side effects",
+    "ipa": "/saɪd ɪˈfekts/",
+    "pos": "phr",
+    "vi": "tác dụng phụ",
+    "example": "Some medicines have unpleasant side effects, so patients should follow the doctor's advice.",
+    "exampleVi": "Một số loại thuốc có tác dụng phụ khó chịu, nên bệnh nhân cần làm theo lời khuyên của bác sĩ.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "adverse reactions"
+    ]
+  },
+  {
+    "id": "col-057",
+    "word": "medical treatment",
+    "ipa": "/ˈmedɪkl ˈtriːtmənt/",
+    "pos": "phr",
+    "vi": "điều trị y tế",
+    "example": "In some countries, medical treatment is free for all citizens.",
+    "exampleVi": "Ở một số quốc gia, điều trị y tế là miễn phí cho mọi công dân.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "healthcare"
+    ]
+  },
+  {
+    "id": "col-058",
+    "word": "public health",
+    "ipa": "/ˈpʌblɪk helθ/",
+    "pos": "phr",
+    "vi": "sức khỏe cộng đồng",
+    "example": "Smoking in public places is a threat to public health.",
+    "exampleVi": "Hút thuốc ở nơi công cộng là mối đe dọa đối với sức khỏe cộng đồng.",
+    "level": "B2",
+    "topic": "health",
+    "synonyms": [
+      "community health"
+    ]
+  },
+  {
+    "id": "col-059",
+    "word": "get enough sleep",
+    "ipa": "/ɡet ɪˈnʌf sliːp/",
+    "pos": "phr",
+    "vi": "ngủ đủ giấc",
+    "example": "Students who do not get enough sleep find it hard to concentrate in class.",
+    "exampleVi": "Học sinh ngủ không đủ giấc thấy khó tập trung trong lớp.",
+    "level": "B1",
+    "topic": "health",
+    "synonyms": [
+      "sleep well"
+    ]
+  },
+  {
+    "id": "col-060",
+    "word": "spread of disease",
+    "ipa": "/spred əv dɪˈziːz/",
+    "pos": "phr",
+    "vi": "sự lây lan của bệnh tật",
+    "example": "Good hygiene and vaccination can slow the spread of disease in crowded places.",
+    "exampleVi": "Vệ sinh tốt và tiêm chủng có thể làm chậm sự lây lan của bệnh tật ở nơi đông người.",
+    "level": "B2",
+    "topic": "health",
+    "synonyms": [
+      "transmission of illness"
+    ]
+  },
+  {
+    "id": "col-061",
+    "word": "full-time job",
+    "ipa": "/fʊl taɪm dʒɒb/",
+    "pos": "phr",
+    "vi": "công việc toàn thời gian",
+    "example": "After graduating, she quickly found a full-time job in a local bank.",
+    "exampleVi": "Sau khi tốt nghiệp, cô ấy nhanh chóng tìm được một công việc toàn thời gian tại ngân hàng địa phương.",
+    "level": "B1",
+    "topic": "work",
+    "synonyms": [
+      "permanent position"
+    ]
+  },
+  {
+    "id": "col-062",
+    "word": "job satisfaction",
+    "ipa": "/dʒɒb ˌsætɪsˈfækʃn/",
+    "pos": "phr",
+    "vi": "sự hài lòng trong công việc",
+    "example": "Good colleagues and fair pay are key factors in job satisfaction.",
+    "exampleVi": "Đồng nghiệp tốt và lương công bằng là yếu tố then chốt của sự hài lòng trong công việc.",
+    "level": "B2",
+    "topic": "work",
+    "synonyms": [
+      "workplace happiness"
+    ]
+  },
+  {
+    "id": "col-063",
+    "word": "career path",
+    "ipa": "/kəˈrɪə pɑːθ/",
+    "pos": "phr",
+    "vi": "con đường sự nghiệp",
+    "example": "Choosing a career path that matches your interests makes work more enjoyable.",
+    "exampleVi": "Chọn con đường sự nghiệp phù hợp với sở thích giúp công việc thú vị hơn.",
+    "level": "B1",
+    "topic": "work",
+    "synonyms": [
+      "professional route"
+    ]
+  },
+  {
+    "id": "col-064",
+    "word": "work experience",
+    "ipa": "/wɜːk ɪkˈspɪəriəns/",
+    "pos": "phr",
+    "vi": "kinh nghiệm làm việc",
+    "example": "Employers often prefer candidates who already have some work experience.",
+    "exampleVi": "Nhà tuyển dụng thường thích ứng viên đã có một chút kinh nghiệm làm việc.",
+    "level": "B1",
+    "topic": "work",
+    "synonyms": [
+      "professional background"
+    ]
+  },
+  {
+    "id": "col-065",
+    "word": "working conditions",
+    "ipa": "/ˈwɜːkɪŋ kənˈdɪʃnz/",
+    "pos": "phr",
+    "vi": "điều kiện làm việc",
+    "example": "Poor working conditions in factories can damage workers' health.",
+    "exampleVi": "Điều kiện làm việc kém trong nhà máy có thể gây hại cho sức khỏe công nhân.",
+    "level": "B1",
+    "topic": "work",
+    "synonyms": [
+      "workplace conditions"
+    ]
+  },
+  {
+    "id": "col-066",
+    "word": "meet deadlines",
+    "ipa": "/miːt ˈdedlaɪnz/",
+    "pos": "phr",
+    "vi": "hoàn thành đúng hạn",
+    "example": "Good time management helps employees meet deadlines without working overtime.",
+    "exampleVi": "Quản lý thời gian tốt giúp nhân viên hoàn thành đúng hạn mà không phải làm thêm giờ.",
+    "level": "B1",
+    "topic": "work",
+    "synonyms": [
+      "finish on time"
+    ]
+  },
+  {
+    "id": "col-067",
+    "word": "work under pressure",
+    "ipa": "/wɜːk ˈʌndə ˈpreʃə/",
+    "pos": "phr",
+    "vi": "làm việc dưới áp lực",
+    "example": "Doctors and nurses must be able to work under pressure in emergencies.",
+    "exampleVi": "Bác sĩ và y tá phải có khả năng làm việc dưới áp lực trong các tình huống khẩn cấp.",
+    "level": "B1",
+    "topic": "work",
+    "synonyms": [
+      "cope with stress at work"
+    ]
+  },
+  {
+    "id": "col-068",
+    "word": "climb the career ladder",
+    "ipa": "/klaɪm ðə kəˈrɪə ˈlædə/",
+    "pos": "phr",
+    "vi": "thăng tiến trong sự nghiệp",
+    "example": "Ambitious young people are keen to climb the career ladder as quickly as possible.",
+    "exampleVi": "Những người trẻ đầy tham vọng muốn thăng tiến trong sự nghiệp càng nhanh càng tốt.",
+    "level": "B2",
+    "topic": "work",
+    "synonyms": [
+      "get promoted",
+      "advance in one's career"
+    ]
+  },
+  {
+    "id": "col-069",
+    "word": "remote working",
+    "ipa": "/rɪˈməʊt ˈwɜːkɪŋ/",
+    "pos": "phr",
+    "vi": "làm việc từ xa",
+    "example": "Remote working saves commuting time but can make employees feel isolated.",
+    "exampleVi": "Làm việc từ xa tiết kiệm thời gian đi lại nhưng có thể khiến nhân viên cảm thấy cô lập.",
+    "level": "B2",
+    "topic": "work",
+    "synonyms": [
+      "working from home",
+      "teleworking"
+    ]
+  },
+  {
+    "id": "col-070",
+    "word": "job opportunities",
+    "ipa": "/dʒɒb ˌɒpəˈtjuːnətiz/",
+    "pos": "phr",
+    "vi": "cơ hội việc làm",
+    "example": "Big cities offer more job opportunities, which attracts young people from the countryside.",
+    "exampleVi": "Các thành phố lớn có nhiều cơ hội việc làm hơn, thu hút người trẻ từ nông thôn.",
+    "level": "B1",
+    "topic": "work",
+    "synonyms": [
+      "employment prospects"
+    ]
+  },
+  {
+    "id": "col-071",
+    "word": "a stable income",
+    "ipa": "/ə ˈsteɪbl ˈɪnkʌm/",
+    "pos": "phr",
+    "vi": "thu nhập ổn định",
+    "example": "Many graduates prefer government jobs because they offer a stable income.",
+    "exampleVi": "Nhiều sinh viên mới ra trường thích việc nhà nước vì có thu nhập ổn định.",
+    "level": "B2",
+    "topic": "work",
+    "synonyms": [
+      "a steady income",
+      "a regular salary"
+    ]
+  },
+  {
+    "id": "col-072",
+    "word": "teamwork skills",
+    "ipa": "/ˈtiːmwɜːk skɪlz/",
+    "pos": "phr",
+    "vi": "kỹ năng làm việc nhóm",
+    "example": "Group projects at school help children develop teamwork skills they will need later.",
+    "exampleVi": "Các dự án nhóm ở trường giúp trẻ phát triển kỹ năng làm việc nhóm cần thiết sau này.",
+    "level": "B1",
+    "topic": "work",
+    "synonyms": [
+      "collaboration skills"
+    ]
+  },
+  {
+    "id": "col-073",
+    "word": "pay rise",
+    "ipa": "/peɪ raɪz/",
+    "pos": "phr",
+    "vi": "tăng lương",
+    "example": "He worked extra hours for a year in the hope of getting a pay rise.",
+    "exampleVi": "Anh ấy làm thêm giờ suốt một năm với hy vọng được tăng lương.",
+    "level": "B1",
+    "topic": "work",
+    "synonyms": [
+      "salary increase",
+      "wage increase"
+    ]
+  },
+  {
+    "id": "col-074",
+    "word": "flexible working hours",
+    "ipa": "/ˈfleksəbl ˈwɜːkɪŋ ˈaʊəz/",
+    "pos": "phr",
+    "vi": "giờ làm việc linh hoạt",
+    "example": "Flexible working hours let parents balance their careers with family responsibilities.",
+    "exampleVi": "Giờ làm việc linh hoạt cho phép cha mẹ cân bằng sự nghiệp với trách nhiệm gia đình.",
+    "level": "B2",
+    "topic": "work",
+    "synonyms": [
+      "flexitime",
+      "adjustable schedules"
+    ]
+  },
+  {
+    "id": "col-075",
+    "word": "take on responsibility",
+    "ipa": "/teɪk ɒn rɪˌspɒnsəˈbɪləti/",
+    "pos": "phr",
+    "vi": "đảm nhận trách nhiệm",
+    "example": "Part-time jobs teach teenagers to take on responsibility from an early age.",
+    "exampleVi": "Việc làm thêm dạy thanh thiếu niên đảm nhận trách nhiệm từ sớm.",
+    "level": "B2",
+    "topic": "work",
+    "synonyms": [
+      "accept duties"
+    ]
+  },
+  {
+    "id": "col-076",
+    "word": "social problems",
+    "ipa": "/ˈsəʊʃl ˈprɒbləmz/",
+    "pos": "phr",
+    "vi": "các vấn đề xã hội",
+    "example": "Unemployment and homelessness are among the most serious social problems today.",
+    "exampleVi": "Thất nghiệp và vô gia cư là một trong những vấn đề xã hội nghiêm trọng nhất hiện nay.",
+    "level": "B1",
+    "topic": "society",
+    "synonyms": [
+      "societal issues"
+    ]
+  },
+  {
+    "id": "col-077",
+    "word": "bridge the gap",
+    "ipa": "/brɪdʒ ðə ɡæp/",
+    "pos": "phr",
+    "vi": "thu hẹp khoảng cách",
+    "example": "Education can bridge the gap between the rich and the poor.",
+    "exampleVi": "Giáo dục có thể thu hẹp khoảng cách giữa người giàu và người nghèo.",
+    "level": "B2",
+    "topic": "society",
+    "synonyms": [
+      "narrow the gap",
+      "close the divide"
+    ]
+  },
+  {
+    "id": "col-078",
+    "word": "an ageing population",
+    "ipa": "/ən ˈeɪdʒɪŋ ˌpɒpjuˈleɪʃn/",
+    "pos": "phr",
+    "vi": "dân số già hóa",
+    "example": "An ageing population puts great pressure on pensions and hospitals.",
+    "exampleVi": "Dân số già hóa tạo áp lực lớn lên lương hưu và bệnh viện.",
+    "level": "B2",
+    "topic": "society",
+    "synonyms": [
+      "a growing elderly population"
+    ]
+  },
+  {
+    "id": "col-079",
+    "word": "a sense of community",
+    "ipa": "/ə sens əv kəˈmjuːnəti/",
+    "pos": "phr",
+    "vi": "tinh thần cộng đồng",
+    "example": "Festivals help to create a sense of community among neighbours.",
+    "exampleVi": "Các lễ hội giúp tạo nên tinh thần cộng đồng giữa những người hàng xóm.",
+    "level": "B2",
+    "topic": "society",
+    "synonyms": [
+      "community spirit"
+    ]
+  },
+  {
+    "id": "col-080",
+    "word": "gender equality",
+    "ipa": "/ˈdʒendər iˈkwɒləti/",
+    "pos": "phr",
+    "vi": "bình đẳng giới",
+    "example": "Gender equality in the workplace has improved, but women still earn less on average.",
+    "exampleVi": "Bình đẳng giới ở nơi làm việc đã cải thiện, nhưng phụ nữ vẫn kiếm được ít hơn trung bình.",
+    "level": "B2",
+    "topic": "society",
+    "synonyms": [
+      "equal rights for men and women"
+    ]
+  },
+  {
+    "id": "col-081",
+    "word": "crime rate",
+    "ipa": "/kraɪm reɪt/",
+    "pos": "phr",
+    "vi": "tỷ lệ tội phạm",
+    "example": "The crime rate tends to rise in areas with high unemployment.",
+    "exampleVi": "Tỷ lệ tội phạm thường tăng ở những khu vực có tỷ lệ thất nghiệp cao.",
+    "level": "B1",
+    "topic": "society",
+    "synonyms": [
+      "level of crime"
+    ]
+  },
+  {
+    "id": "col-082",
+    "word": "social inequality",
+    "ipa": "/ˈsəʊʃl ˌɪnɪˈkwɒləti/",
+    "pos": "phr",
+    "vi": "bất bình đẳng xã hội",
+    "example": "Social inequality grows when only wealthy families can afford a good education.",
+    "exampleVi": "Bất bình đẳng xã hội tăng lên khi chỉ những gia đình giàu mới đủ tiền cho nền giáo dục tốt.",
+    "level": "B2",
+    "topic": "society",
+    "synonyms": [
+      "unequal society"
+    ]
+  },
+  {
+    "id": "col-083",
+    "word": "family values",
+    "ipa": "/ˈfæməli ˈvæljuːz/",
+    "pos": "phr",
+    "vi": "giá trị gia đình",
+    "example": "Strong family values teach children to respect their elders.",
+    "exampleVi": "Những giá trị gia đình vững chắc dạy trẻ biết kính trọng người lớn tuổi.",
+    "level": "B1",
+    "topic": "society",
+    "synonyms": [
+      "family traditions"
+    ]
+  },
+  {
+    "id": "col-084",
+    "word": "traditional values",
+    "ipa": "/trəˈdɪʃnəl ˈvæljuːz/",
+    "pos": "phr",
+    "vi": "giá trị truyền thống",
+    "example": "Some people fear that traditional values are disappearing in modern society.",
+    "exampleVi": "Một số người lo rằng các giá trị truyền thống đang biến mất trong xã hội hiện đại.",
+    "level": "B1",
+    "topic": "society",
+    "synonyms": [
+      "time-honoured beliefs"
+    ]
+  },
+  {
+    "id": "col-085",
+    "word": "quality of life",
+    "ipa": "/ˈkwɒləti əv laɪf/",
+    "pos": "phr",
+    "vi": "chất lượng cuộc sống",
+    "example": "Access to clean water and green space greatly improves quality of life.",
+    "exampleVi": "Việc tiếp cận nước sạch và không gian xanh cải thiện rất nhiều chất lượng cuộc sống.",
+    "level": "B1",
+    "topic": "society",
+    "synonyms": [
+      "standard of living"
+    ]
+  },
+  {
+    "id": "col-086",
+    "word": "cultural diversity",
+    "ipa": "/ˈkʌltʃərəl daɪˈvɜːsəti/",
+    "pos": "phr",
+    "vi": "sự đa dạng văn hóa",
+    "example": "Cultural diversity makes a city more interesting and creative.",
+    "exampleVi": "Sự đa dạng văn hóa khiến thành phố thú vị và sáng tạo hơn.",
+    "level": "B2",
+    "topic": "society",
+    "synonyms": [
+      "variety of cultures"
+    ]
+  },
+  {
+    "id": "col-087",
+    "word": "care for the elderly",
+    "ipa": "/keə fə ði ˈeldəli/",
+    "pos": "phr",
+    "vi": "chăm sóc người cao tuổi",
+    "example": "In Vietnam, families traditionally care for the elderly at home.",
+    "exampleVi": "Ở Việt Nam, các gia đình theo truyền thống chăm sóc người cao tuổi tại nhà.",
+    "level": "B1",
+    "topic": "society",
+    "synonyms": [
+      "look after older people"
+    ]
+  },
+  {
+    "id": "col-088",
+    "word": "break the law",
+    "ipa": "/breɪk ðə lɔː/",
+    "pos": "phr",
+    "vi": "vi phạm pháp luật",
+    "example": "People who break the law should face appropriate punishment.",
+    "exampleVi": "Những người vi phạm pháp luật nên chịu hình phạt thích đáng.",
+    "level": "B1",
+    "topic": "society",
+    "synonyms": [
+      "commit an offence"
+    ]
+  },
+  {
+    "id": "col-089",
+    "word": "voluntary work",
+    "ipa": "/ˈvɒləntri wɜːk/",
+    "pos": "phr",
+    "vi": "công việc thiện nguyện",
+    "example": "Voluntary work gives young people valuable experience and a sense of purpose.",
+    "exampleVi": "Công việc thiện nguyện mang lại cho người trẻ kinh nghiệm quý giá và cảm giác có mục đích.",
+    "level": "B1",
+    "topic": "society",
+    "synonyms": [
+      "volunteering",
+      "unpaid charity work"
+    ]
+  },
+  {
+    "id": "col-090",
+    "word": "role model",
+    "ipa": "/rəʊl ˈmɒdl/",
+    "pos": "phr",
+    "vi": "hình mẫu",
+    "example": "Teachers and parents should act as positive role models for children.",
+    "exampleVi": "Giáo viên và cha mẹ nên là hình mẫu tích cực cho trẻ em.",
+    "level": "B1",
+    "topic": "society",
+    "synonyms": [
+      "example to follow"
+    ]
+  },
+  {
+    "id": "col-091",
+    "word": "economic growth",
+    "ipa": "/ˌiːkəˈnɒmɪk ɡrəʊθ/",
+    "pos": "phr",
+    "vi": "tăng trưởng kinh tế",
+    "example": "Rapid economic growth has lifted millions of people out of poverty.",
+    "exampleVi": "Tăng trưởng kinh tế nhanh chóng đã giúp hàng triệu người thoát nghèo.",
+    "level": "B1",
+    "topic": "economy",
+    "synonyms": [
+      "expansion of the economy"
+    ]
+  },
+  {
+    "id": "col-092",
+    "word": "standard of living",
+    "ipa": "/ˈstændəd əv ˈlɪvɪŋ/",
+    "pos": "phr",
+    "vi": "mức sống",
+    "example": "The standard of living in cities is generally higher than in rural areas.",
+    "exampleVi": "Mức sống ở thành thị nhìn chung cao hơn ở nông thôn.",
+    "level": "B1",
+    "topic": "economy",
+    "synonyms": [
+      "living standards"
+    ]
+  },
+  {
+    "id": "col-093",
+    "word": "unemployment rate",
+    "ipa": "/ˌʌnɪmˈplɔɪmənt reɪt/",
+    "pos": "phr",
+    "vi": "tỷ lệ thất nghiệp",
+    "example": "The unemployment rate among young graduates has risen sharply in recent years.",
+    "exampleVi": "Tỷ lệ thất nghiệp ở sinh viên mới tốt nghiệp đã tăng mạnh trong những năm gần đây.",
+    "level": "B1",
+    "topic": "economy",
+    "synonyms": [
+      "jobless rate"
+    ]
+  },
+  {
+    "id": "col-094",
+    "word": "job creation",
+    "ipa": "/dʒɒb kriˈeɪʃn/",
+    "pos": "phr",
+    "vi": "tạo việc làm",
+    "example": "Foreign investment encourages job creation, particularly in manufacturing and other labour-intensive industries.",
+    "exampleVi": "Đầu tư nước ngoài thúc đẩy tạo việc làm, đặc biệt trong sản xuất và các ngành sử dụng nhiều lao động.",
+    "level": "B2",
+    "topic": "economy",
+    "synonyms": [
+      "generating employment"
+    ]
+  },
+  {
+    "id": "col-095",
+    "word": "the global economy",
+    "ipa": "/ðə ˈɡləʊbl ɪˈkɒnəmi/",
+    "pos": "phr",
+    "vi": "nền kinh tế toàn cầu",
+    "example": "Small countries are increasingly dependent on the global economy.",
+    "exampleVi": "Các nước nhỏ ngày càng phụ thuộc vào nền kinh tế toàn cầu.",
+    "level": "B1",
+    "topic": "economy",
+    "synonyms": [
+      "the world economy"
+    ]
+  },
+  {
+    "id": "col-096",
+    "word": "developing countries",
+    "ipa": "/dɪˈveləpɪŋ ˈkʌntriz/",
+    "pos": "phr",
+    "vi": "các nước đang phát triển",
+    "example": "Developing countries often struggle to provide healthcare for all citizens.",
+    "exampleVi": "Các nước đang phát triển thường gặp khó khăn trong việc cung cấp y tế cho mọi công dân.",
+    "level": "B1",
+    "topic": "economy",
+    "synonyms": [
+      "emerging economies"
+    ]
+  },
+  {
+    "id": "col-097",
+    "word": "gross domestic product",
+    "ipa": "/ɡrəʊs dəˈmestɪk ˈprɒdʌkt/",
+    "pos": "phr",
+    "vi": "tổng sản phẩm quốc nội",
+    "example": "Tourism contributes a large share of the country's gross domestic product.",
+    "exampleVi": "Du lịch đóng góp một tỷ trọng lớn vào tổng sản phẩm quốc nội của đất nước.",
+    "level": "B2",
+    "topic": "economy",
+    "synonyms": [
+      "GDP",
+      "national output"
+    ]
+  },
+  {
+    "id": "col-098",
+    "word": "small businesses",
+    "ipa": "/smɔːl ˈbɪznɪsɪz/",
+    "pos": "phr",
+    "vi": "doanh nghiệp nhỏ",
+    "example": "Small businesses create most of the jobs in my hometown.",
+    "exampleVi": "Các doanh nghiệp nhỏ tạo ra phần lớn việc làm ở quê tôi.",
+    "level": "B1",
+    "topic": "economy",
+    "synonyms": [
+      "small enterprises"
+    ]
+  },
+  {
+    "id": "col-099",
+    "word": "economic crisis",
+    "ipa": "/ˌiːkəˈnɒmɪk ˈkraɪsɪs/",
+    "pos": "phr",
+    "vi": "khủng hoảng kinh tế",
+    "example": "During an economic crisis, many families struggle to pay their bills.",
+    "exampleVi": "Trong thời kỳ khủng hoảng kinh tế, nhiều gia đình chật vật trả các hóa đơn.",
+    "level": "B1",
+    "topic": "economy",
+    "synonyms": [
+      "financial crisis"
+    ]
+  },
+  {
+    "id": "col-100",
+    "word": "stimulate the economy",
+    "ipa": "/ˈstɪmjuleɪt ði ɪˈkɒnəmi/",
+    "pos": "phr",
+    "vi": "kích thích nền kinh tế",
+    "example": "Cutting taxes can stimulate the economy by encouraging people to spend more.",
+    "exampleVi": "Giảm thuế có thể kích thích nền kinh tế bằng cách khuyến khích mọi người chi tiêu nhiều hơn.",
+    "level": "B2",
+    "topic": "economy",
+    "synonyms": [
+      "boost the economy",
+      "revive the economy"
+    ]
+  },
+  {
+    "id": "col-101",
+    "word": "wealth distribution",
+    "ipa": "/welθ ˌdɪstrɪˈbjuːʃn/",
+    "pos": "phr",
+    "vi": "phân phối của cải",
+    "example": "Unfair wealth distribution leads to resentment and social unrest.",
+    "exampleVi": "Phân phối của cải không công bằng dẫn đến sự bất mãn và bất ổn xã hội.",
+    "level": "B2",
+    "topic": "economy",
+    "synonyms": [
+      "division of wealth"
+    ]
+  },
+  {
+    "id": "col-102",
+    "word": "cheap labour",
+    "ipa": "/tʃiːp ˈleɪbə/",
+    "pos": "phr",
+    "vi": "lao động giá rẻ",
+    "example": "Many companies move factories abroad to take advantage of cheap labour.",
+    "exampleVi": "Nhiều công ty chuyển nhà máy ra nước ngoài để tận dụng lao động giá rẻ.",
+    "level": "B2",
+    "topic": "economy",
+    "synonyms": [
+      "low-cost workforce"
+    ]
+  },
+  {
+    "id": "col-103",
+    "word": "international trade",
+    "ipa": "/ˌɪntəˈnæʃnəl treɪd/",
+    "pos": "phr",
+    "vi": "thương mại quốc tế",
+    "example": "International trade allows countries to sell what they produce best.",
+    "exampleVi": "Thương mại quốc tế cho phép các nước bán những gì họ sản xuất tốt nhất.",
+    "level": "B1",
+    "topic": "economy",
+    "synonyms": [
+      "global commerce"
+    ]
+  },
+  {
+    "id": "col-104",
+    "word": "save money",
+    "ipa": "/seɪv ˈmʌni/",
+    "pos": "phr",
+    "vi": "tiết kiệm tiền",
+    "example": "Young people should learn to save money rather than spend everything they earn.",
+    "exampleVi": "Người trẻ nên học cách tiết kiệm tiền thay vì tiêu hết những gì kiếm được.",
+    "level": "B1",
+    "topic": "economy",
+    "synonyms": [
+      "put money aside"
+    ]
+  },
+  {
+    "id": "col-105",
+    "word": "financial security",
+    "ipa": "/faɪˈnænʃl sɪˈkjʊərəti/",
+    "pos": "phr",
+    "vi": "an ninh tài chính",
+    "example": "Owning a home gives many people a feeling of financial security.",
+    "exampleVi": "Sở hữu nhà mang lại cho nhiều người cảm giác an toàn về tài chính.",
+    "level": "B2",
+    "topic": "economy",
+    "synonyms": [
+      "economic stability"
+    ]
+  },
+  {
+    "id": "col-106",
+    "word": "public transport network",
+    "ipa": "/ˈpʌblɪk ˈtrænspɔːt ˈnetwɜːk/",
+    "pos": "phr",
+    "vi": "mạng lưới giao thông công cộng",
+    "example": "A reliable public transport network can reduce the number of private cars on the road.",
+    "exampleVi": "Một mạng lưới giao thông công cộng đáng tin cậy có thể giảm số ô tô cá nhân trên đường.",
+    "level": "B2",
+    "topic": "city",
+    "synonyms": [
+      "bus and metro system"
+    ]
+  },
+  {
+    "id": "col-107",
+    "word": "traffic jams",
+    "ipa": "/ˈtræfɪk dʒæmz/",
+    "pos": "phr",
+    "vi": "tắc đường",
+    "example": "Traffic jams in Ho Chi Minh City waste hours of people's time every week.",
+    "exampleVi": "Tắc đường ở TP. Hồ Chí Minh làm lãng phí hàng giờ của mọi người mỗi tuần.",
+    "level": "B1",
+    "topic": "city",
+    "synonyms": [
+      "traffic congestion"
+    ]
+  },
+  {
+    "id": "col-108",
+    "word": "rush hour",
+    "ipa": "/rʌʃ ˈaʊə/",
+    "pos": "phr",
+    "vi": "giờ cao điểm",
+    "example": "I avoid travelling during rush hour because the roads are extremely crowded.",
+    "exampleVi": "Tôi tránh đi lại vào giờ cao điểm vì đường cực kỳ đông.",
+    "level": "B1",
+    "topic": "city",
+    "synonyms": [
+      "peak time"
+    ]
+  },
+  {
+    "id": "col-109",
+    "word": "urban sprawl",
+    "ipa": "/ˈɜːbən sprɔːl/",
+    "pos": "phr",
+    "vi": "sự mở rộng đô thị tràn lan",
+    "example": "Urban sprawl swallows farmland and forces people to commute longer distances.",
+    "exampleVi": "Sự mở rộng đô thị tràn lan nuốt chửng đất nông nghiệp và buộc mọi người đi làm xa hơn.",
+    "level": "B2",
+    "topic": "city",
+    "synonyms": [
+      "uncontrolled city expansion"
+    ]
+  },
+  {
+    "id": "col-110",
+    "word": "green spaces",
+    "ipa": "/ɡriːn ˈspeɪsɪz/",
+    "pos": "phr",
+    "vi": "không gian xanh",
+    "example": "Parks and other green spaces make crowded cities more pleasant to live in.",
+    "exampleVi": "Công viên và các không gian xanh khác khiến thành phố đông đúc dễ sống hơn.",
+    "level": "B1",
+    "topic": "city",
+    "synonyms": [
+      "parks and gardens"
+    ]
+  },
+  {
+    "id": "col-111",
+    "word": "affordable housing",
+    "ipa": "/əˈfɔːdəbl ˈhaʊzɪŋ/",
+    "pos": "phr",
+    "vi": "nhà ở giá phải chăng",
+    "example": "The lack of affordable housing forces many workers to live far from the centre.",
+    "exampleVi": "Việc thiếu nhà ở giá phải chăng buộc nhiều người lao động phải sống xa trung tâm.",
+    "level": "B2",
+    "topic": "city",
+    "synonyms": [
+      "low-cost homes"
+    ]
+  },
+  {
+    "id": "col-112",
+    "word": "air quality",
+    "ipa": "/eə ˈkwɒləti/",
+    "pos": "phr",
+    "vi": "chất lượng không khí",
+    "example": "Air quality in the capital is often poor in winter.",
+    "exampleVi": "Chất lượng không khí ở thủ đô thường kém vào mùa đông.",
+    "level": "B1",
+    "topic": "city",
+    "synonyms": [
+      "level of air pollution"
+    ]
+  },
+  {
+    "id": "col-113",
+    "word": "city centre",
+    "ipa": "/ˈsɪti ˈsentə/",
+    "pos": "phr",
+    "vi": "trung tâm thành phố",
+    "example": "Banning cars from the city centre would make the streets safer and quieter.",
+    "exampleVi": "Cấm ô tô vào trung tâm thành phố sẽ làm đường phố an toàn và yên tĩnh hơn.",
+    "level": "B1",
+    "topic": "city",
+    "synonyms": [
+      "downtown area"
+    ]
+  },
+  {
+    "id": "col-114",
+    "word": "rural-urban migration",
+    "ipa": "/ˈrʊərəl ˈɜːbən maɪˈɡreɪʃn/",
+    "pos": "phr",
+    "vi": "di cư từ nông thôn ra thành thị",
+    "example": "Rural-urban migration has put enormous pressure on housing and services in big cities.",
+    "exampleVi": "Di cư từ nông thôn ra thành thị đã tạo áp lực rất lớn lên nhà ở và dịch vụ ở thành phố lớn.",
+    "level": "B2",
+    "topic": "city",
+    "synonyms": [
+      "drift to the cities"
+    ]
+  },
+  {
+    "id": "col-115",
+    "word": "noise pollution",
+    "ipa": "/nɔɪz pəˈluːʃn/",
+    "pos": "phr",
+    "vi": "ô nhiễm tiếng ồn",
+    "example": "Noise pollution from traffic and construction makes it hard to sleep in the city.",
+    "exampleVi": "Ô nhiễm tiếng ồn từ giao thông và công trình khiến khó ngủ ở thành phố.",
+    "level": "B1",
+    "topic": "city",
+    "synonyms": [
+      "excessive noise"
+    ]
+  },
+  {
+    "id": "col-116",
+    "word": "pedestrian zone",
+    "ipa": "/pəˈdestriən zəʊn/",
+    "pos": "phr",
+    "vi": "khu vực dành cho người đi bộ",
+    "example": "Many European cities have created a pedestrian zone in their historic centres.",
+    "exampleVi": "Nhiều thành phố châu Âu đã lập khu vực dành cho người đi bộ ở trung tâm lịch sử.",
+    "level": "B2",
+    "topic": "city",
+    "synonyms": [
+      "car-free area"
+    ]
+  },
+  {
+    "id": "col-117",
+    "word": "high-rise buildings",
+    "ipa": "/haɪ raɪz ˈbɪldɪŋz/",
+    "pos": "phr",
+    "vi": "tòa nhà cao tầng",
+    "example": "High-rise buildings allow more people to live in a limited amount of space.",
+    "exampleVi": "Các tòa nhà cao tầng cho phép nhiều người sống trong không gian hạn chế.",
+    "level": "B1",
+    "topic": "city",
+    "synonyms": [
+      "tall apartment blocks"
+    ]
+  },
+  {
+    "id": "col-118",
+    "word": "road safety",
+    "ipa": "/rəʊd ˈseɪfti/",
+    "pos": "phr",
+    "vi": "an toàn giao thông",
+    "example": "Stricter penalties would improve road safety and save lives.",
+    "exampleVi": "Hình phạt nghiêm khắc hơn sẽ cải thiện an toàn giao thông và cứu được nhiều mạng người.",
+    "level": "B1",
+    "topic": "city",
+    "synonyms": [
+      "traffic safety"
+    ]
+  },
+  {
+    "id": "col-119",
+    "word": "urban planning",
+    "ipa": "/ˈɜːbən ˈplænɪŋ/",
+    "pos": "phr",
+    "vi": "quy hoạch đô thị",
+    "example": "Poor urban planning is one of the main reasons for chronic congestion.",
+    "exampleVi": "Quy hoạch đô thị kém là một trong những lý do chính gây ùn tắc kéo dài.",
+    "level": "B2",
+    "topic": "city",
+    "synonyms": [
+      "city planning"
+    ]
+  },
+  {
+    "id": "col-120",
+    "word": "public facilities",
+    "ipa": "/ˈpʌblɪk fəˈsɪlətiz/",
+    "pos": "phr",
+    "vi": "cơ sở vật chất công cộng",
+    "example": "Local councils should invest more in public facilities such as libraries and sports centres.",
+    "exampleVi": "Chính quyền địa phương nên đầu tư nhiều hơn vào cơ sở vật chất công cộng như thư viện và trung tâm thể thao.",
+    "level": "B1",
+    "topic": "city",
+    "synonyms": [
+      "community amenities"
+    ]
+  },
+  {
+    "id": "col-121",
+    "word": "social media",
+    "ipa": "/ˈsəʊʃl ˈmiːdiə/",
+    "pos": "phr",
+    "vi": "mạng xã hội",
+    "example": "Social media has changed the way young people receive news.",
+    "exampleVi": "Mạng xã hội đã thay đổi cách người trẻ tiếp nhận tin tức.",
+    "level": "B1",
+    "topic": "media",
+    "synonyms": [
+      "social networks"
+    ]
+  },
+  {
+    "id": "col-122",
+    "word": "news outlets",
+    "ipa": "/njuːz ˈaʊtlets/",
+    "pos": "phr",
+    "vi": "các cơ quan báo chí",
+    "example": "Reliable news outlets check their facts before publishing a story.",
+    "exampleVi": "Các cơ quan báo chí đáng tin cậy kiểm tra thông tin trước khi đăng bài.",
+    "level": "B2",
+    "topic": "media",
+    "synonyms": [
+      "news organisations"
+    ]
+  },
+  {
+    "id": "col-123",
+    "word": "fake news",
+    "ipa": "/feɪk njuːz/",
+    "pos": "phr",
+    "vi": "tin giả",
+    "example": "Fake news spreads quickly online and can mislead millions of people.",
+    "exampleVi": "Tin giả lan nhanh trên mạng và có thể đánh lừa hàng triệu người.",
+    "level": "B1",
+    "topic": "media",
+    "synonyms": [
+      "false information",
+      "disinformation"
+    ]
+  },
+  {
+    "id": "col-124",
+    "word": "targeted advertising",
+    "ipa": "/ˈtɑːɡɪtɪd ˈædvətaɪzɪŋ/",
+    "pos": "phr",
+    "vi": "quảng cáo nhắm mục tiêu",
+    "example": "Targeted advertising uses our browsing history to persuade us to buy things.",
+    "exampleVi": "Quảng cáo nhắm mục tiêu dùng lịch sử duyệt web để thuyết phục chúng ta mua hàng.",
+    "level": "B2",
+    "topic": "media",
+    "synonyms": [
+      "personalised ads"
+    ]
+  },
+  {
+    "id": "col-125",
+    "word": "freedom of the press",
+    "ipa": "/ˈfriːdəm əv ðə pres/",
+    "pos": "phr",
+    "vi": "tự do báo chí",
+    "example": "Freedom of the press is essential for holding governments to account.",
+    "exampleVi": "Tự do báo chí là điều thiết yếu để buộc chính phủ chịu trách nhiệm.",
+    "level": "B2",
+    "topic": "media",
+    "synonyms": [
+      "independent journalism"
+    ]
+  },
+  {
+    "id": "col-126",
+    "word": "traditional media",
+    "ipa": "/trəˈdɪʃnəl ˈmiːdiə/",
+    "pos": "phr",
+    "vi": "truyền thông truyền thống",
+    "example": "Traditional media such as newspapers are losing readers to online platforms.",
+    "exampleVi": "Truyền thông truyền thống như báo giấy đang mất độc giả vào tay các nền tảng trực tuyến.",
+    "level": "B1",
+    "topic": "media",
+    "synonyms": [
+      "print and broadcast media"
+    ]
+  },
+  {
+    "id": "col-127",
+    "word": "go viral",
+    "ipa": "/ɡəʊ ˈvaɪrəl/",
+    "pos": "phr",
+    "vi": "lan truyền chóng mặt",
+    "example": "A short video can go viral within hours and reach millions of viewers.",
+    "exampleVi": "Một video ngắn có thể lan truyền chóng mặt chỉ trong vài giờ và đến với hàng triệu người xem.",
+    "level": "B2",
+    "topic": "media",
+    "synonyms": [
+      "spread rapidly online"
+    ]
+  },
+  {
+    "id": "col-128",
+    "word": "reality TV shows",
+    "ipa": "/riˈæləti ˌtiː ˈviː ʃəʊz/",
+    "pos": "phr",
+    "vi": "chương trình truyền hình thực tế",
+    "example": "Reality TV shows are popular, though many of them are staged and shallow.",
+    "exampleVi": "Các chương trình truyền hình thực tế rất phổ biến, dù nhiều chương trình được dàn dựng và nông cạn.",
+    "level": "B1",
+    "topic": "media",
+    "synonyms": [
+      "unscripted programmes"
+    ]
+  },
+  {
+    "id": "col-129",
+    "word": "TV commercials",
+    "ipa": "/ˌtiː ˈviː kəˈmɜːʃlz/",
+    "pos": "phr",
+    "vi": "quảng cáo trên truyền hình",
+    "example": "TV commercials aimed at children should be strictly controlled.",
+    "exampleVi": "Quảng cáo trên truyền hình nhắm đến trẻ em nên được kiểm soát chặt chẽ.",
+    "level": "B1",
+    "topic": "media",
+    "synonyms": [
+      "television adverts"
+    ]
+  },
+  {
+    "id": "col-130",
+    "word": "media coverage",
+    "ipa": "/ˈmiːdiə ˈkʌvərɪdʒ/",
+    "pos": "phr",
+    "vi": "sự đưa tin của truyền thông",
+    "example": "Extensive media coverage of the trial attracted international attention.",
+    "exampleVi": "Sự đưa tin rộng rãi của truyền thông về phiên tòa đã thu hút sự chú ý quốc tế.",
+    "level": "B2",
+    "topic": "media",
+    "synonyms": [
+      "press reporting"
+    ]
+  },
+  {
+    "id": "col-131",
+    "word": "breaking news",
+    "ipa": "/ˈbreɪkɪŋ njuːz/",
+    "pos": "phr",
+    "vi": "tin nóng",
+    "example": "I get breaking news alerts on my phone throughout the day.",
+    "exampleVi": "Tôi nhận thông báo tin nóng trên điện thoại suốt cả ngày.",
+    "level": "B1",
+    "topic": "media",
+    "synonyms": [
+      "latest news",
+      "urgent news"
+    ]
+  },
+  {
+    "id": "col-132",
+    "word": "public figures",
+    "ipa": "/ˈpʌblɪk ˈfɪɡəz/",
+    "pos": "phr",
+    "vi": "nhân vật của công chúng",
+    "example": "Public figures should expect some interest in their private lives.",
+    "exampleVi": "Nhân vật của công chúng nên chấp nhận có sự quan tâm nhất định đến đời tư.",
+    "level": "B2",
+    "topic": "media",
+    "synonyms": [
+      "well-known people"
+    ]
+  },
+  {
+    "id": "col-133",
+    "word": "stay informed",
+    "ipa": "/steɪ ɪnˈfɔːmd/",
+    "pos": "phr",
+    "vi": "luôn nắm thông tin",
+    "example": "Reading the news every morning is how I stay informed about current events.",
+    "exampleVi": "Đọc tin tức mỗi sáng là cách tôi luôn nắm thông tin về các sự kiện hiện tại.",
+    "level": "B1",
+    "topic": "media",
+    "synonyms": [
+      "keep up to date"
+    ]
+  },
+  {
+    "id": "col-134",
+    "word": "online content",
+    "ipa": "/ˈɒnlaɪn ˈkɒntent/",
+    "pos": "phr",
+    "vi": "nội dung trực tuyến",
+    "example": "Parents should monitor the online content their children watch.",
+    "exampleVi": "Cha mẹ nên giám sát nội dung trực tuyến mà con cái xem.",
+    "level": "B1",
+    "topic": "media",
+    "synonyms": [
+      "internet material"
+    ]
+  },
+  {
+    "id": "col-135",
+    "word": "biased reporting",
+    "ipa": "/ˈbaɪəst rɪˈpɔːtɪŋ/",
+    "pos": "phr",
+    "vi": "đưa tin thiên lệch",
+    "example": "Biased reporting makes audiences lose trust in the media.",
+    "exampleVi": "Việc đưa tin thiên lệch khiến khán giả mất niềm tin vào truyền thông.",
+    "level": "B2",
+    "topic": "media",
+    "synonyms": [
+      "one-sided coverage",
+      "partial journalism"
+    ]
+  },
+  {
+    "id": "col-136",
+    "word": "public spending",
+    "ipa": "/ˈpʌblɪk ˈspendɪŋ/",
+    "pos": "phr",
+    "vi": "chi tiêu công",
+    "example": "Public spending on healthcare should be a priority for any government.",
+    "exampleVi": "Chi tiêu công cho y tế nên là ưu tiên của bất kỳ chính phủ nào.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "government expenditure"
+    ]
+  },
+  {
+    "id": "col-137",
+    "word": "introduce legislation",
+    "ipa": "/ˌɪntrəˈdjuːs ˌledʒɪsˈleɪʃn/",
+    "pos": "phr",
+    "vi": "ban hành luật",
+    "example": "The authorities should introduce legislation to protect workers from unfair dismissal.",
+    "exampleVi": "Chính quyền nên ban hành luật để bảo vệ người lao động khỏi bị sa thải bất công.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "pass laws",
+      "bring in new laws"
+    ]
+  },
+  {
+    "id": "col-138",
+    "word": "impose a ban",
+    "ipa": "/ɪmˈpəʊz ə bæn/",
+    "pos": "phr",
+    "vi": "áp đặt lệnh cấm",
+    "example": "The government decided to impose a ban on single-use plastic bags.",
+    "exampleVi": "Chính phủ quyết định áp đặt lệnh cấm túi nhựa dùng một lần.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "prohibit",
+      "outlaw"
+    ]
+  },
+  {
+    "id": "col-139",
+    "word": "raise taxes",
+    "ipa": "/reɪz ˈtæksɪz/",
+    "pos": "phr",
+    "vi": "tăng thuế",
+    "example": "Raising taxes on sugary drinks may encourage people to choose healthier options.",
+    "exampleVi": "Tăng thuế đồ uống có đường có thể khuyến khích mọi người chọn lựa chọn lành mạnh hơn.",
+    "level": "B1",
+    "topic": "government",
+    "synonyms": [
+      "increase taxation"
+    ]
+  },
+  {
+    "id": "col-140",
+    "word": "local authorities",
+    "ipa": "/ˈləʊkl ɔːˈθɒrətiz/",
+    "pos": "phr",
+    "vi": "chính quyền địa phương",
+    "example": "Local authorities are responsible for maintaining roads and public parks.",
+    "exampleVi": "Chính quyền địa phương chịu trách nhiệm bảo trì đường sá và công viên công cộng.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "town councils"
+    ]
+  },
+  {
+    "id": "col-141",
+    "word": "public services",
+    "ipa": "/ˈpʌblɪk ˈsɜːvɪsɪz/",
+    "pos": "phr",
+    "vi": "dịch vụ công",
+    "example": "Public services such as education and transport should be affordable for everyone.",
+    "exampleVi": "Các dịch vụ công như giáo dục và giao thông nên có giá phải chăng với mọi người.",
+    "level": "B1",
+    "topic": "government",
+    "synonyms": [
+      "state-provided services"
+    ]
+  },
+  {
+    "id": "col-142",
+    "word": "government funding",
+    "ipa": "/ˈɡʌvənmənt ˈfʌndɪŋ/",
+    "pos": "phr",
+    "vi": "kinh phí của chính phủ",
+    "example": "Many museums depend on government funding to stay open.",
+    "exampleVi": "Nhiều bảo tàng phụ thuộc vào kinh phí của chính phủ để tiếp tục mở cửa.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "state financing"
+    ]
+  },
+  {
+    "id": "col-143",
+    "word": "take action",
+    "ipa": "/teɪk ˈækʃn/",
+    "pos": "phr",
+    "vi": "hành động",
+    "example": "Governments must take action now to reduce traffic in major cities.",
+    "exampleVi": "Các chính phủ phải hành động ngay để giảm giao thông ở các thành phố lớn.",
+    "level": "B1",
+    "topic": "government",
+    "synonyms": [
+      "act",
+      "step in"
+    ]
+  },
+  {
+    "id": "col-144",
+    "word": "enforce the law",
+    "ipa": "/ɪnˈfɔːs ðə lɔː/",
+    "pos": "phr",
+    "vi": "thực thi pháp luật",
+    "example": "Police must enforce the law fairly, regardless of a person's wealth.",
+    "exampleVi": "Cảnh sát phải thực thi pháp luật công bằng, bất kể giàu hay nghèo.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "apply the rules"
+    ]
+  },
+  {
+    "id": "col-145",
+    "word": "tax burden",
+    "ipa": "/tæks ˈbɜːdn/",
+    "pos": "phr",
+    "vi": "gánh nặng thuế",
+    "example": "A heavy tax burden discourages people from starting new businesses.",
+    "exampleVi": "Gánh nặng thuế lớn làm nản lòng những người muốn khởi nghiệp.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "heavy taxation"
+    ]
+  },
+  {
+    "id": "col-146",
+    "word": "national security",
+    "ipa": "/ˈnæʃnəl sɪˈkjʊərəti/",
+    "pos": "phr",
+    "vi": "an ninh quốc gia",
+    "example": "Some people accept surveillance because it protects national security.",
+    "exampleVi": "Một số người chấp nhận việc giám sát vì nó bảo vệ an ninh quốc gia.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "state safety"
+    ]
+  },
+  {
+    "id": "col-147",
+    "word": "human rights",
+    "ipa": "/ˈhjuːmən raɪts/",
+    "pos": "phr",
+    "vi": "nhân quyền",
+    "example": "Governments have a duty to protect human rights and treat citizens equally.",
+    "exampleVi": "Chính phủ có nghĩa vụ bảo vệ nhân quyền và đối xử bình đẳng với công dân.",
+    "level": "B1",
+    "topic": "government",
+    "synonyms": [
+      "basic freedoms"
+    ]
+  },
+  {
+    "id": "col-148",
+    "word": "welfare system",
+    "ipa": "/ˈwelfeə ˈsɪstəm/",
+    "pos": "phr",
+    "vi": "hệ thống phúc lợi",
+    "example": "A good welfare system supports people who lose their jobs.",
+    "exampleVi": "Một hệ thống phúc lợi tốt hỗ trợ những người mất việc.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "social security"
+    ]
+  },
+  {
+    "id": "col-149",
+    "word": "political leaders",
+    "ipa": "/pəˈlɪtɪkl ˈliːdəz/",
+    "pos": "phr",
+    "vi": "các nhà lãnh đạo chính trị",
+    "example": "Political leaders should listen to ordinary citizens before making major decisions.",
+    "exampleVi": "Các nhà lãnh đạo chính trị nên lắng nghe người dân bình thường trước khi đưa ra quyết định lớn.",
+    "level": "B1",
+    "topic": "government",
+    "synonyms": [
+      "statesmen",
+      "government heads"
+    ]
+  },
+  {
+    "id": "col-150",
+    "word": "policy makers",
+    "ipa": "/ˈpɒləsi ˈmeɪkəz/",
+    "pos": "phr",
+    "vi": "nhà hoạch định chính sách",
+    "example": "Policy makers need reliable data to design effective education reforms.",
+    "exampleVi": "Các nhà hoạch định chính sách cần dữ liệu đáng tin cậy để thiết kế cải cách giáo dục hiệu quả.",
+    "level": "B2",
+    "topic": "government",
+    "synonyms": [
+      "decision makers",
+      "legislators"
+    ]
+  }
+]

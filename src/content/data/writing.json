@@ -984,6 +984,595 @@
     ]
   },
   {
+    "id": "w1-09",
+    "level": "B1",
+    "task": 1,
+    "title": "Visitors to three museums (line graph)",
+    "prompt": "The line graph shows the number of people who visited three museums each year between 2014 and 2024.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Annual visitors to three museums (thousands), 2014-2024",
+      "headers": [
+        "Year",
+        "Science Museum",
+        "History Museum",
+        "Art Gallery"
+      ],
+      "rows": [
+        [
+          2014,
+          120,
+          180,
+          60
+        ],
+        [
+          2016,
+          135,
+          170,
+          75
+        ],
+        [
+          2018,
+          150,
+          160,
+          95
+        ],
+        [
+          2020,
+          80,
+          95,
+          50
+        ],
+        [
+          2022,
+          160,
+          140,
+          110
+        ],
+        [
+          2024,
+          190,
+          135,
+          130
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Mở bài: paraphrase đề (shows -> illustrates; the number of people who visited -> how many people visited) và nhớ nêu đơn vị (thousands).",
+      "Overview cần có: xu hướng chung và điểm đặc biệt (cả ba đều giảm mạnh năm 2020, nhưng chỉ hai nơi phục hồi tốt).",
+      "Khi đường đi xuống rồi đi lên, hãy dùng các cụm như fall to ... before recovering to ..., hoặc reach a peak of ....",
+      "Nhóm các đường có xu hướng giống nhau vào cùng một đoạn (Science Museum và Art Gallery) để so sánh dễ hơn.",
+      "Chỉ mô tả số liệu, không giải thích nguyên nhân của sự sụt giảm."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase the question and mention the unit (thousands).",
+      "Paragraph 2 (Overview): Science Museum and Art Gallery gained visitors, History Museum lost them; all fell sharply in 2020.",
+      "Paragraph 3: History Museum - most popular in 2014, gradual decline, 2020 drop, small recovery.",
+      "Paragraph 4: Science Museum and Art Gallery - steady growth, 2020 fall, strong recovery and final figures."
+    ],
+    "modelAnswer": "The line graph illustrates how many people visited three museums each year between 2014 and 2024, with figures given in thousands.\n\nOverall, the Science Museum and the Art Gallery attracted more visitors over the period, whereas the History Museum became less popular. All three venues experienced a sharp fall in 2020, but only the first two recovered strongly afterwards.\n\nIn 2014, the History Museum was the most popular, with 180,000 visitors, compared with 120,000 for the Science Museum and only 60,000 for the Art Gallery. The History Museum then declined gradually to 160,000 in 2018 and dropped to 95,000 in 2020. It recovered only slightly afterwards, ending at 135,000 in 2024.\n\nBy contrast, the Science Museum rose steadily from 120,000 to 150,000 between 2014 and 2018. After falling to 80,000 in 2020, its figure jumped to 160,000 in 2022 and reached a peak of 190,000 in 2024, which made it the most visited museum. The Art Gallery followed a similar pattern. Its figure grew from 60,000 to 95,000 in 2018, fell to 50,000 in 2020 and then climbed to 130,000 by the end of the period.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "The line graph illustrates how many people...",
+        "vi": "Biểu đồ đường minh họa có bao nhiêu người..."
+      },
+      {
+        "en": "with figures given in thousands",
+        "vi": "với số liệu tính bằng nghìn"
+      },
+      {
+        "en": "whereas / by contrast",
+        "vi": "trong khi / ngược lại"
+      },
+      {
+        "en": "decline gradually to",
+        "vi": "giảm dần xuống"
+      },
+      {
+        "en": "drop sharply to",
+        "vi": "giảm mạnh xuống"
+      },
+      {
+        "en": "recover slightly",
+        "vi": "phục hồi nhẹ"
+      },
+      {
+        "en": "reach a peak of",
+        "vi": "đạt đỉnh là"
+      },
+      {
+        "en": "follow a similar pattern",
+        "vi": "theo xu hướng tương tự"
+      }
+    ]
+  },
+  {
+    "id": "w1-10",
+    "level": "B2",
+    "task": 1,
+    "title": "International tourist arrivals by region (line graph)",
+    "prompt": "The line graph shows the number of international tourists who arrived in four regions of the world between 2000 and 2025.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "International tourist arrivals by region (millions), 2000-2025",
+      "headers": [
+        "Year",
+        "Europe",
+        "Asia",
+        "Americas",
+        "Africa"
+      ],
+      "rows": [
+        [
+          2000,
+          380,
+          110,
+          130,
+          30
+        ],
+        [
+          2005,
+          420,
+          150,
+          170,
+          40
+        ],
+        [
+          2010,
+          460,
+          230,
+          200,
+          50
+        ],
+        [
+          2015,
+          500,
+          330,
+          230,
+          60
+        ],
+        [
+          2020,
+          530,
+          420,
+          190,
+          70
+        ],
+        [
+          2025,
+          560,
+          500,
+          185,
+          80
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Với 4 đường, đừng mô tả từng điểm: hãy chọn điểm đầu, điểm cuối, điểm giao nhau và đỉnh.",
+      "Overview nên nêu: khu vực dẫn đầu (Europe), khu vực tăng nhanh nhất (Asia vượt Americas) và khu vực duy nhất giảm sau đỉnh (Americas).",
+      "Khi hai đường cắt nhau, dùng overtake / surpass / pass và ghi rõ khoảng thời gian (between 2005 and 2010).",
+      "Đỉnh: dùng peak at / reach a peak of rồi nói tiếp giảm bao nhiêu (decline to).",
+      "Dùng đa dạng cách so sánh: well below, close to, almost double, the lowest figure."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase the question and give the unit (millions).",
+      "Paragraph 2 (Overview): Europe leads throughout; Asia grows fastest and overtakes the Americas; the Americas peak then fall; Africa stays lowest.",
+      "Paragraph 3: Europe and Asia - starting figures, the crossing with the Americas, final figures.",
+      "Paragraph 4: Americas peak and decline; Africa modest steady growth."
+    ],
+    "modelAnswer": "The line graph shows how many international tourists arrived in four world regions between 2000 and 2025, measured in millions.\n\nOverall, Europe received the most visitors throughout the period, while Asia experienced the most dramatic growth and overtook the Americas. Africa remained the least popular destination, although its figure also rose. The Americas were the only region where arrivals fell after reaching a peak.\n\nEurope started at 380 million in 2000 and increased steadily to 560 million in 2025. Asia, by contrast, began well below the Americas, at 110 million compared with 130 million. However, it grew rapidly and passed the Americas between 2005 and 2010, reaching 230 million in 2010, against 200 million for the Americas. By 2025, Asia had climbed to 500 million, which was close to the European total.\n\nArrivals in the Americas rose from 130 million to a peak of 230 million in 2015. After that, they declined to 190 million in 2020 and 185 million in 2025. Africa saw a modest but consistent rise, from only 30 million in 2000 to 80 million in the final year.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "measured in millions",
+        "vi": "tính bằng triệu"
+      },
+      {
+        "en": "experience the most dramatic growth",
+        "vi": "có mức tăng ấn tượng nhất"
+      },
+      {
+        "en": "overtake / pass",
+        "vi": "vượt qua"
+      },
+      {
+        "en": "well below ... compared with ...",
+        "vi": "thấp hơn nhiều so với ..."
+      },
+      {
+        "en": "close to the total for",
+        "vi": "gần bằng tổng số của"
+      },
+      {
+        "en": "reach a peak of ... in 2015",
+        "vi": "đạt đỉnh ... vào năm 2015"
+      },
+      {
+        "en": "decline to",
+        "vi": "giảm xuống"
+      },
+      {
+        "en": "a modest but consistent rise",
+        "vi": "mức tăng nhỏ nhưng đều đặn"
+      }
+    ]
+  },
+  {
+    "id": "w1-11",
+    "level": "B1",
+    "task": 1,
+    "title": "Teenagers' free-time activities (bar chart)",
+    "prompt": "The bar chart shows the percentage of teenagers who took part in five free-time activities every day in 2008 and 2018.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Percentage of teenagers doing each activity every day (%), 2008 and 2018",
+      "headers": [
+        "Activity",
+        "2008",
+        "2018"
+      ],
+      "rows": [
+        [
+          "Gaming",
+          35,
+          58
+        ],
+        [
+          "Reading",
+          40,
+          25
+        ],
+        [
+          "Sport",
+          50,
+          45
+        ],
+        [
+          "Social media",
+          30,
+          70
+        ],
+        [
+          "Watching TV",
+          65,
+          40
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Biểu đồ cột 2 năm: so sánh từng nhóm giữa hai năm, đồng thời so sánh giữa các nhóm trong cùng một năm.",
+      "Overview: nêu hoạt động tăng (social media, gaming), hoạt động giảm (TV, reading) và hoạt động gần như không đổi (sport).",
+      "Nhóm các hoạt động có xu hướng giống nhau vào cùng một đoạn để bài viết mạch lạc.",
+      "Dùng cụm so sánh: the most popular, the biggest fall, more than doubled, overtake.",
+      "Luôn ghi đơn vị % và năm đi kèm số liệu."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase the question (five activities, 2008 and 2018).",
+      "Paragraph 2 (Overview): Social media and gaming rose; TV and reading fell; sport stayed fairly stable.",
+      "Paragraph 3: The declining activities - TV (65% to 40%), reading, sport.",
+      "Paragraph 4: The rising activities - social media (30% to 70%) and gaming (35% to 58%), and how gaming overtook sport and TV."
+    ],
+    "modelAnswer": "The bar chart compares the percentage of teenagers who took part in five free-time activities every day in 2008 and 2018.\n\nOverall, the proportion of teenagers using social media and playing games rose considerably, while the figures for watching TV and reading fell. Sport remained fairly stable over the ten years.\n\nIn 2008, watching TV was the most common activity, at 65%, followed by sport at 50%. By 2018, however, TV had dropped to 40%, which was the biggest fall among the five activities. Reading also declined, from 40% to 25%, and sport fell only slightly, to 45%, which was a drop of only five percentage points.\n\nIn contrast, social media showed the most dramatic change. Only 30% of teenagers used it every day in 2008, but this figure more than doubled to 70% in 2018, making it the most popular activity at the end of the period. Gaming also became more popular, rising from 35% to 58%. As a result, gaming overtook both sport and TV by 2018, although it still came second to social media.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "took part in",
+        "vi": "tham gia"
+      },
+      {
+        "en": "the proportion of teenagers",
+        "vi": "tỷ lệ thanh thiếu niên"
+      },
+      {
+        "en": "remain fairly stable",
+        "vi": "giữ khá ổn định"
+      },
+      {
+        "en": "the most common activity",
+        "vi": "hoạt động phổ biến nhất"
+      },
+      {
+        "en": "the biggest fall",
+        "vi": "mức giảm lớn nhất"
+      },
+      {
+        "en": "more than double",
+        "vi": "tăng hơn gấp đôi"
+      },
+      {
+        "en": "In contrast, ...",
+        "vi": "Ngược lại, ..."
+      },
+      {
+        "en": "come second to",
+        "vi": "đứng thứ hai sau"
+      }
+    ]
+  },
+  {
+    "id": "w1-12",
+    "level": "C1",
+    "task": 1,
+    "title": "Daily news sources by age group (bar chart)",
+    "prompt": "The bar chart shows the percentage of people in three age groups who used five different sources of news at least once a day.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Percentage of people using each news source at least once a day, by age group (%)",
+      "headers": [
+        "Source",
+        "18-29",
+        "30-49",
+        "50+"
+      ],
+      "rows": [
+        [
+          "Television",
+          20,
+          45,
+          72
+        ],
+        [
+          "Newspapers",
+          5,
+          15,
+          38
+        ],
+        [
+          "Websites",
+          30,
+          35,
+          25
+        ],
+        [
+          "Social media",
+          68,
+          40,
+          12
+        ],
+        [
+          "Radio",
+          8,
+          22,
+          30
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Có 3 nhóm tuổi nên đừng liệt kê hết 15 cột: hãy tìm quy luật (tăng dần theo tuổi hay giảm dần theo tuổi).",
+      "Overview: social media giảm theo tuổi; TV, báo, radio tăng theo tuổi; websites gần như đồng đều giữa các nhóm.",
+      "Nhóm theo xu hướng: một đoạn cho nguồn tin giảm theo tuổi, một đoạn cho nguồn tin tăng theo tuổi và nguồn tin ổn định.",
+      "Dùng cấu trúc so sánh nâng cao: the opposite trend, a mere 5%, peak at, consistently less popular than.",
+      "Biểu đồ này cho phép chọn nhiều nguồn nên tổng không bằng 100%; không cố cộng các cột lại."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase the question (three age groups, five news sources, daily use).",
+      "Paragraph 2 (Overview): Usage differs sharply by age; social media dominates the youngest group; TV, newspapers and radio favour the oldest; websites are even.",
+      "Paragraph 3: Social media (falls with age) contrasted with television and newspapers (rise with age).",
+      "Paragraph 4: Websites (small differences) and radio (more popular with older groups)."
+    ],
+    "modelAnswer": "The bar chart compares how many people in three age groups used five different sources of news at least once a day.\n\nOverall, usage patterns differed sharply by age. Social media dominated among the youngest group, whereas television and newspapers were far more popular with the oldest group. Websites were the only source with relatively similar levels of use across all three groups.\n\nSocial media was used by 68% of 18-29-year-olds, but this figure fell to 40% among those aged 30-49 and to just 12% among those aged 50 and over. The opposite trend can be seen for television, which rose from 20% for the youngest group to 45% for the middle group and peaked at 72% among the oldest. Newspapers followed a similar pattern, climbing from a mere 5% to 38%, although they were consistently less popular than TV.\n\nWebsites attracted 30% of the youngest group, 35% of the middle group and 25% of the oldest, so the differences were small. Radio also appealed more to older people, with its figure rising from 8% among 18-29-year-olds to 22% among 30-49-year-olds and 30% among those aged 50 and over, slightly above the figure for websites in that group.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "at least once a day",
+        "vi": "ít nhất một lần mỗi ngày"
+      },
+      {
+        "en": "usage patterns differed sharply by age",
+        "vi": "cách sử dụng khác biệt rõ rệt theo độ tuổi"
+      },
+      {
+        "en": "dominate among",
+        "vi": "chiếm ưu thế ở"
+      },
+      {
+        "en": "the opposite trend can be seen for",
+        "vi": "xu hướng ngược lại ở"
+      },
+      {
+        "en": "peak at",
+        "vi": "đạt đỉnh ở mức"
+      },
+      {
+        "en": "a mere 5%",
+        "vi": "chỉ vỏn vẹn 5%"
+      },
+      {
+        "en": "consistently less popular than",
+        "vi": "luôn kém phổ biến hơn"
+      },
+      {
+        "en": "appeal more to",
+        "vi": "thu hút hơn đối với"
+      }
+    ]
+  },
+  {
+    "id": "w1-13",
+    "level": "B2",
+    "task": 1,
+    "title": "How students spent their money (pie chart)",
+    "prompt": "The pie charts show how students at one university divided their monthly budget between five types of spending in 2005 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Share of a student's monthly budget by type of spending (%), 2005 and 2020",
+      "headers": [
+        "Category",
+        "2005",
+        "2020"
+      ],
+      "rows": [
+        [
+          "Accommodation",
+          35,
+          45
+        ],
+        [
+          "Food",
+          25,
+          20
+        ],
+        [
+          "Transport",
+          15,
+          10
+        ],
+        [
+          "Study materials",
+          15,
+          5
+        ],
+        [
+          "Entertainment",
+          10,
+          20
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Pie chart: dùng từ chỉ tỷ lệ như account for, make up, represent, proportion, share.",
+      "Overview: nêu mục lớn nhất ở cả hai năm (accommodation) và mục thay đổi rõ nhất (entertainment tăng, study materials giảm).",
+      "So sánh giữa hai biểu đồ theo từng mục, đừng chỉ liệt kê số của từng biểu đồ riêng lẻ.",
+      "Dùng các cách nói phân số: almost half, a quarter, one fifth, doubled.",
+      "Mỗi biểu đồ cộng lại bằng 100%; hãy kiểm tra nhanh để không nhầm số."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase the question (student budget, five categories, 2005 and 2020).",
+      "Paragraph 2 (Overview): Accommodation largest in both years and growing; food, transport and study materials fell; entertainment rose.",
+      "Paragraph 3: 2005 figures in order (accommodation, food, transport and study materials, entertainment), then accommodation in 2020.",
+      "Paragraph 4: Changes in entertainment, food, study materials and transport."
+    ],
+    "modelAnswer": "The pie charts compare how students at one university divided their monthly budget between five types of spending in 2005 and 2020.\n\nOverall, accommodation took the largest share of the budget in both years, and its dominance grew over the period. By contrast, the shares spent on food, transport and study materials all fell, while entertainment became considerably more significant.\n\nIn 2005, accommodation accounted for 35% of spending, followed by food at 25%. Transport and study materials each represented 15%, and entertainment was the smallest category, at only 10%. Fifteen years later, the proportion spent on accommodation had risen to 45%, which was almost half of the total budget.\n\nSpending on entertainment doubled from 10% to 20%, so it reached the same level as food, which dropped from 25% to 20%. Study materials showed the sharpest decline, falling from 15% to just 5%, and transport also decreased, from 15% to 10%. These changes suggest that students devoted a growing part of their money to housing and leisure, at the expense of the other categories.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "divide ... between",
+        "vi": "phân chia ... giữa"
+      },
+      {
+        "en": "account for / make up / represent",
+        "vi": "chiếm"
+      },
+      {
+        "en": "took the largest share",
+        "vi": "chiếm phần lớn nhất"
+      },
+      {
+        "en": "almost half of the total",
+        "vi": "gần một nửa tổng số"
+      },
+      {
+        "en": "the smallest category",
+        "vi": "mục nhỏ nhất"
+      },
+      {
+        "en": "double from ... to ...",
+        "vi": "tăng gấp đôi từ ... lên ..."
+      },
+      {
+        "en": "reach the same level as",
+        "vi": "đạt cùng mức với"
+      },
+      {
+        "en": "the sharpest decline",
+        "vi": "mức giảm mạnh nhất"
+      }
+    ]
+  },
+  {
+    "id": "w1-14",
+    "level": "C1",
+    "task": 1,
+    "title": "How chocolate is made (process)",
+    "prompt": "The diagram below shows the process by which chocolate is made from cocoa beans.\n\nSummarise the information by selecting and reporting the main features.\n\nWrite at least 150 words.",
+    "data": {
+      "caption": "Stages in making chocolate from cocoa beans",
+      "headers": [
+        "Step",
+        "Description"
+      ],
+      "rows": [
+        [
+          1,
+          "Harvesting: ripe cocoa pods are cut from the trees by hand and split open so that the beans can be removed."
+        ],
+        [
+          2,
+          "Fermentation: the beans and the pulp around them are piled under banana leaves for about a week, which develops their flavour."
+        ],
+        [
+          3,
+          "Drying: the fermented beans are spread out in the sun for several days until they dry out."
+        ],
+        [
+          4,
+          "Roasting: the dried beans are roasted at a high temperature in large ovens."
+        ],
+        [
+          5,
+          "Grinding: the shells are removed and the remaining pieces are ground into a thick paste called cocoa liquor."
+        ],
+        [
+          6,
+          "Mixing: the liquor is mixed with sugar, milk and cocoa butter."
+        ],
+        [
+          7,
+          "Refining: the mixture is rolled until smooth and then stirred in heated tanks for many hours."
+        ],
+        [
+          8,
+          "Moulding and packing: the warm chocolate is poured into moulds, cooled until it hardens and wrapped for sale."
+        ]
+      ]
+    },
+    "tipsVi": [
+      "Process: dùng thể bị động và đa dạng từ nối (First, Once this is complete, subsequently, After that, Finally).",
+      "Overview: nêu tổng số bước (eight stages) và chia thành hai giai đoạn lớn (xử lý hạt sau thu hoạch; biến bột cacao thành sô-cô-la).",
+      "Không cần số liệu; hãy nêu đủ các bước và có thể gộp các bước ngắn lại thành một câu.",
+      "Dùng mệnh đề quan hệ và phân từ để nối các bước: ..., which is then mixed with ...; known as ...",
+      "Tránh dùng cùng một động từ hoặc từ nối lặp lại nhiều lần; hãy thay bằng từ đồng nghĩa."
+    ],
+    "outline": [
+      "Paragraph 1: Paraphrase - the diagram illustrates how chocolate is produced from cocoa beans.",
+      "Paragraph 2 (Overview): Eight stages in two phases - treatment of the beans after harvest, then turning the cocoa into solid chocolate.",
+      "Paragraph 3: Stages 1-3 - harvesting, fermentation, drying.",
+      "Paragraph 4: Stages 4-8 - roasting, grinding, mixing, refining, moulding and packing."
+    ],
+    "modelAnswer": "The diagram illustrates how chocolate is produced from the cocoa beans that grow on tropical trees.\n\nOverall, the process consists of eight stages, which can be divided into two phases: the treatment of the beans after harvest, and the transformation of the cocoa into solid chocolate.\n\nThe process begins when ripe pods are cut from the trees by hand and split open so that the beans can be removed. The beans, together with the pulp surrounding them, are then piled under banana leaves and left for about a week to ferment, a stage that develops their flavour. Once this is complete, they are spread out in the sun for several days to dry.\n\nThe dried beans are subsequently roasted at a high temperature in large ovens. After the shells have been removed, the remaining pieces are ground into a thick paste known as cocoa liquor, which is mixed with sugar, milk and cocoa butter. This mixture is rolled until smooth and is then stirred in heated tanks for many hours. Finally, the warm chocolate is poured into moulds, cooled until it hardens and wrapped for sale.",
+    "band": 7.5,
+    "usefulPhrases": [
+      {
+        "en": "The diagram illustrates how ... is produced from ...",
+        "vi": "Sơ đồ minh họa cách ... được sản xuất từ ..."
+      },
+      {
+        "en": "consists of eight stages",
+        "vi": "gồm tám giai đoạn"
+      },
+      {
+        "en": "can be divided into two phases",
+        "vi": "có thể chia thành hai giai đoạn"
+      },
+      {
+        "en": "is split open",
+        "vi": "được bổ/tách ra"
+      },
+      {
+        "en": "Once this is complete, ...",
+        "vi": "Khi bước này hoàn tất, ..."
+      },
+      {
+        "en": "is subsequently roasted",
+        "vi": "sau đó được rang"
+      },
+      {
+        "en": "a thick paste known as",
+        "vi": "một hỗn hợp đặc được gọi là"
+      },
+      {
+        "en": "is poured into moulds",
+        "vi": "được rót vào khuôn"
+      }
+    ]
+  },
+  {
     "id": "w2-01",
     "level": "B1",
     "task": 2,

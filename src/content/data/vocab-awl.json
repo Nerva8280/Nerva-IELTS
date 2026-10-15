@@ -1,0 +1,5804 @@
+[
+  {
+    "id": "awl-001",
+    "word": "area",
+    "ipa": "/ˈeəriə/",
+    "pos": "n",
+    "vi": "khu vực",
+    "example": "Rural areas often lack access to high-quality healthcare and modern educational facilities.",
+    "exampleVi": "Các khu vực nông thôn thường thiếu điều kiện tiếp cận dịch vụ y tế chất lượng cao và cơ sở giáo dục hiện đại.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "region",
+      "zone"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-002",
+    "word": "available",
+    "ipa": "/əˈveɪləbl/",
+    "pos": "adj",
+    "vi": "có sẵn",
+    "example": "Fresh water is no longer readily available in many parts of the world.",
+    "exampleVi": "Nước sạch không còn dễ dàng có sẵn ở nhiều nơi trên thế giới.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "accessible",
+      "obtainable"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-003",
+    "word": "consist",
+    "ipa": "/kənˈsɪst/",
+    "pos": "v",
+    "vi": "bao gồm",
+    "example": "The research team consists of economists, sociologists and several experienced data analysts.",
+    "exampleVi": "Nhóm nghiên cứu bao gồm các nhà kinh tế, nhà xã hội học và một số nhà phân tích dữ liệu giàu kinh nghiệm.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "be made up of",
+      "comprise"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-004",
+    "word": "context",
+    "ipa": "/ˈkɒntekst/",
+    "pos": "n",
+    "vi": "bối cảnh",
+    "example": "Statistics must be interpreted within their social and historical context to avoid misleading conclusions.",
+    "exampleVi": "Số liệu thống kê phải được diễn giải trong bối cảnh xã hội và lịch sử để tránh những kết luận sai lệch.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "setting",
+      "background"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-005",
+    "word": "contract",
+    "ipa": "/ˈkɒntrækt/",
+    "pos": "n",
+    "vi": "hợp đồng",
+    "example": "Many young graduates are offered short-term contracts instead of permanent positions.",
+    "exampleVi": "Nhiều sinh viên mới tốt nghiệp được đề nghị hợp đồng ngắn hạn thay vì vị trí cố định.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "agreement"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-006",
+    "word": "create",
+    "ipa": "/kriˈeɪt/",
+    "pos": "v",
+    "vi": "tạo ra",
+    "example": "New technologies can create thousands of jobs in developing regions.",
+    "exampleVi": "Công nghệ mới có thể tạo ra hàng nghìn việc làm ở các vùng đang phát triển.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "generate",
+      "produce"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-007",
+    "word": "data",
+    "ipa": "/ˈdeɪtə/",
+    "pos": "n",
+    "vi": "dữ liệu",
+    "example": "Researchers collected data from over two thousand households across the country.",
+    "exampleVi": "Các nhà nghiên cứu đã thu thập dữ liệu từ hơn hai nghìn hộ gia đình trên cả nước.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "information",
+      "figures"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-008",
+    "word": "define",
+    "ipa": "/dɪˈfaɪn/",
+    "pos": "v",
+    "vi": "định nghĩa",
+    "example": "It is difficult to define success because the term means different things to different people.",
+    "exampleVi": "Rất khó để định nghĩa thành công vì thuật ngữ này có ý nghĩa khác nhau với mỗi người.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "characterise",
+      "outline"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-009",
+    "word": "distribute",
+    "ipa": "/dɪˈstrɪbjuːt/",
+    "pos": "v",
+    "vi": "phân phối",
+    "example": "Governments should distribute resources more fairly between wealthy and disadvantaged communities.",
+    "exampleVi": "Chính phủ nên phân phối nguồn lực công bằng hơn giữa các cộng đồng giàu có và thiệt thòi.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "share out",
+      "allocate"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-010",
+    "word": "evident",
+    "ipa": "/ˈevɪdənt/",
+    "pos": "adj",
+    "vi": "rõ ràng",
+    "example": "The benefits of regular exercise are evident in both physical and mental health.",
+    "exampleVi": "Lợi ích của việc tập thể dục thường xuyên thể hiện rõ ở cả sức khỏe thể chất lẫn tinh thần.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "obvious",
+      "clear"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-011",
+    "word": "factor",
+    "ipa": "/ˈfæktə/",
+    "pos": "n",
+    "vi": "yếu tố",
+    "example": "Poor diet is a major factor contributing to rising obesity rates.",
+    "exampleVi": "Chế độ ăn kém là một yếu tố chính góp phần làm tăng tỷ lệ béo phì.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "element",
+      "cause"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-012",
+    "word": "finance",
+    "ipa": "/ˈfaɪnæns/",
+    "pos": "n",
+    "vi": "nguồn tài chính",
+    "example": "Lack of finance prevents many small businesses from expanding their operations.",
+    "exampleVi": "Thiếu nguồn tài chính khiến nhiều doanh nghiệp nhỏ không thể mở rộng hoạt động.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "funding",
+      "capital"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-013",
+    "word": "formula",
+    "ipa": "/ˈfɔːmjʊlə/",
+    "pos": "n",
+    "vi": "công thức",
+    "example": "There is no simple formula for achieving a healthy balance between work and family life.",
+    "exampleVi": "Không có công thức đơn giản nào để đạt được sự cân bằng lành mạnh giữa công việc và gia đình.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "recipe",
+      "method"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-014",
+    "word": "function",
+    "ipa": "/ˈfʌŋkʃn/",
+    "pos": "n",
+    "vi": "chức năng",
+    "example": "The main function of schools is to prepare young people for adult life.",
+    "exampleVi": "Chức năng chính của nhà trường là chuẩn bị cho giới trẻ bước vào cuộc sống trưởng thành.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "purpose",
+      "role"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-015",
+    "word": "identify",
+    "ipa": "/aɪˈdentɪfaɪ/",
+    "pos": "v",
+    "vi": "xác định",
+    "example": "Scientists have identified several factors that may explain the sudden decline in bee populations.",
+    "exampleVi": "Các nhà khoa học đã xác định được một số yếu tố có thể giải thích sự suy giảm đột ngột của quần thể ong.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "pinpoint",
+      "recognise"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-016",
+    "word": "labour",
+    "ipa": "/ˈleɪbə/",
+    "pos": "n",
+    "vi": "lao động",
+    "example": "Cheap labour attracts many multinational companies to developing countries seeking to reduce production costs.",
+    "exampleVi": "Lao động giá rẻ thu hút nhiều công ty đa quốc gia đến các nước đang phát triển để giảm chi phí sản xuất.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "workforce",
+      "manpower"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-017",
+    "word": "legal",
+    "ipa": "/ˈliːɡl/",
+    "pos": "adj",
+    "vi": "hợp pháp, pháp lý",
+    "example": "Employers have a legal obligation to provide a safe working environment.",
+    "exampleVi": "Người sử dụng lao động có nghĩa vụ pháp lý phải đảm bảo môi trường làm việc an toàn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "lawful",
+      "legitimate"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-018",
+    "word": "method",
+    "ipa": "/ˈmeθəd/",
+    "pos": "n",
+    "vi": "phương pháp",
+    "example": "Traditional teaching methods are gradually being replaced by interactive online learning.",
+    "exampleVi": "Các phương pháp giảng dạy truyền thống đang dần được thay thế bằng học trực tuyến tương tác.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "technique",
+      "approach"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-019",
+    "word": "occur",
+    "ipa": "/əˈkɜː/",
+    "pos": "v",
+    "vi": "xảy ra",
+    "example": "Natural disasters occur more frequently in regions affected by climate change.",
+    "exampleVi": "Thiên tai xảy ra thường xuyên hơn ở những vùng chịu ảnh hưởng của biến đổi khí hậu.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "happen",
+      "take place"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-020",
+    "word": "percent",
+    "ipa": "/pəˈsent/",
+    "pos": "n",
+    "vi": "phần trăm",
+    "example": "Nearly sixty percent of respondents said they preferred working from home.",
+    "exampleVi": "Gần sáu mươi phần trăm người được hỏi cho biết họ thích làm việc tại nhà hơn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "percentage"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-021",
+    "word": "period",
+    "ipa": "/ˈpɪəriəd/",
+    "pos": "n",
+    "vi": "giai đoạn",
+    "example": "Over a short period of time, the city's population doubled.",
+    "exampleVi": "Trong một giai đoạn ngắn, dân số của thành phố đã tăng gấp đôi.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "era",
+      "timeframe"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-022",
+    "word": "principle",
+    "ipa": "/ˈprɪnsəpl/",
+    "pos": "n",
+    "vi": "nguyên tắc",
+    "example": "Equal access to education is a basic principle of any fair society.",
+    "exampleVi": "Quyền tiếp cận giáo dục bình đẳng là nguyên tắc cơ bản của mọi xã hội công bằng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "rule",
+      "doctrine"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-023",
+    "word": "proceed",
+    "ipa": "/prəˈsiːd/",
+    "pos": "v",
+    "vi": "tiến hành",
+    "example": "Construction of the new railway will proceed once funding has been approved.",
+    "exampleVi": "Việc xây dựng tuyến đường sắt mới sẽ được tiến hành khi nguồn vốn được phê duyệt.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "go ahead",
+      "continue"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-024",
+    "word": "process",
+    "ipa": "/ˈprəʊses/",
+    "pos": "n",
+    "vi": "quá trình",
+    "example": "Learning a foreign language is a gradual process that requires constant practice.",
+    "exampleVi": "Học ngoại ngữ là một quá trình dần dần đòi hỏi phải luyện tập liên tục.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "procedure",
+      "course"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-025",
+    "word": "respond",
+    "ipa": "/rɪˈspɒnd/",
+    "pos": "v",
+    "vi": "phản ứng, đáp lại",
+    "example": "Governments must respond quickly to the growing threat of cyberattacks.",
+    "exampleVi": "Chính phủ phải phản ứng nhanh trước mối đe dọa ngày càng tăng từ các cuộc tấn công mạng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "react",
+      "reply"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-026",
+    "word": "role",
+    "ipa": "/rəʊl/",
+    "pos": "n",
+    "vi": "vai trò",
+    "example": "Parents play a vital role in shaping children's attitudes towards learning.",
+    "exampleVi": "Cha mẹ đóng vai trò thiết yếu trong việc hình thành thái độ học tập của trẻ.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "part",
+      "function"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-027",
+    "word": "section",
+    "ipa": "/ˈsekʃn/",
+    "pos": "n",
+    "vi": "bộ phận, phần",
+    "example": "A large section of the population cannot afford adequate housing.",
+    "exampleVi": "Một bộ phận lớn dân cư không đủ khả năng chi trả cho nhà ở tử tế.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "part",
+      "segment"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-028",
+    "word": "sector",
+    "ipa": "/ˈsektə/",
+    "pos": "n",
+    "vi": "khu vực kinh tế, ngành",
+    "example": "The service sector now employs far more people than the manufacturing sector in most developed economies.",
+    "exampleVi": "Khu vực dịch vụ hiện nay sử dụng nhiều lao động hơn hẳn khu vực sản xuất ở hầu hết các nền kinh tế phát triển.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "industry",
+      "branch"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-029",
+    "word": "source",
+    "ipa": "/sɔːs/",
+    "pos": "n",
+    "vi": "nguồn",
+    "example": "Coal remains a major source of energy in many developing nations.",
+    "exampleVi": "Than đá vẫn là nguồn năng lượng chính ở nhiều quốc gia đang phát triển.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "origin",
+      "supply"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-030",
+    "word": "structure",
+    "ipa": "/ˈstrʌktʃə/",
+    "pos": "n",
+    "vi": "cấu trúc",
+    "example": "The structure of an essay should be clear and logical from beginning to end.",
+    "exampleVi": "Cấu trúc của một bài luận cần rõ ràng và logic từ đầu đến cuối.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "framework",
+      "organisation"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-031",
+    "word": "theory",
+    "ipa": "/ˈθɪəri/",
+    "pos": "n",
+    "vi": "lý thuyết",
+    "example": "According to this theory, children learn language by imitating the adults around them.",
+    "exampleVi": "Theo lý thuyết này, trẻ học ngôn ngữ bằng cách bắt chước những người lớn xung quanh.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "idea",
+      "model"
+    ],
+    "sublist": 1
+  },
+  {
+    "id": "awl-032",
+    "word": "acquire",
+    "ipa": "/əˈkwaɪə/",
+    "pos": "v",
+    "vi": "tiếp thu, đạt được",
+    "example": "Students acquire practical skills more effectively through hands-on experience than through lectures.",
+    "exampleVi": "Sinh viên tiếp thu kỹ năng thực hành hiệu quả hơn qua trải nghiệm thực tế so với nghe giảng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "gain",
+      "obtain"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-033",
+    "word": "administration",
+    "ipa": "/ədˌmɪnɪˈstreɪʃn/",
+    "pos": "n",
+    "vi": "việc quản lý, hành chính",
+    "example": "Poor administration in public hospitals leads to long waiting times for patients.",
+    "exampleVi": "Công tác quản lý yếu kém ở các bệnh viện công khiến bệnh nhân phải chờ đợi lâu.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "management",
+      "governance"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-034",
+    "word": "affect",
+    "ipa": "/əˈfekt/",
+    "pos": "v",
+    "vi": "ảnh hưởng đến",
+    "example": "Air pollution seriously affects the health of people living in large cities.",
+    "exampleVi": "Ô nhiễm không khí ảnh hưởng nghiêm trọng đến sức khỏe người dân sống ở các thành phố lớn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "influence",
+      "impact"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-035",
+    "word": "appropriate",
+    "ipa": "/əˈprəʊpriət/",
+    "pos": "adj",
+    "vi": "phù hợp",
+    "example": "Schools should provide appropriate support for students with learning difficulties.",
+    "exampleVi": "Nhà trường nên cung cấp sự hỗ trợ phù hợp cho học sinh gặp khó khăn trong học tập.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "suitable",
+      "proper"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-036",
+    "word": "assist",
+    "ipa": "/əˈsɪst/",
+    "pos": "v",
+    "vi": "hỗ trợ",
+    "example": "Trained volunteers assist elderly residents with shopping and household tasks in many local communities.",
+    "exampleVi": "Các tình nguyện viên được đào tạo hỗ trợ người cao tuổi đi mua sắm và làm việc nhà ở nhiều cộng đồng địa phương.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "help",
+      "support"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-037",
+    "word": "category",
+    "ipa": "/ˈkætəɡəri/",
+    "pos": "n",
+    "vi": "loại, nhóm",
+    "example": "Respondents were divided into three age categories for the purpose of analysis.",
+    "exampleVi": "Những người được hỏi được chia thành ba nhóm tuổi nhằm phục vụ phân tích.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "class",
+      "group"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-038",
+    "word": "chapter",
+    "ipa": "/ˈtʃæptə/",
+    "pos": "n",
+    "vi": "chương",
+    "example": "The final chapter of the report summarises the main findings and recommendations.",
+    "exampleVi": "Chương cuối của báo cáo tóm tắt các phát hiện chính và các khuyến nghị.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "section",
+      "part"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-039",
+    "word": "commission",
+    "ipa": "/kəˈmɪʃn/",
+    "pos": "n",
+    "vi": "ủy ban",
+    "example": "The government set up a commission to investigate the causes of rising unemployment.",
+    "exampleVi": "Chính phủ đã thành lập một ủy ban để điều tra nguyên nhân của tình trạng thất nghiệp gia tăng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "committee",
+      "board"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-040",
+    "word": "complex",
+    "ipa": "/ˈkɒmpleks/",
+    "pos": "adj",
+    "vi": "phức tạp",
+    "example": "Climate change is a complex problem that requires international cooperation.",
+    "exampleVi": "Biến đổi khí hậu là một vấn đề phức tạp đòi hỏi sự hợp tác quốc tế.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "complicated",
+      "intricate"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-041",
+    "word": "compute",
+    "ipa": "/kəmˈpjuːt/",
+    "pos": "v",
+    "vi": "tính toán",
+    "example": "Researchers used software to compute the average income of each household.",
+    "exampleVi": "Các nhà nghiên cứu đã dùng phần mềm để tính thu nhập trung bình của mỗi hộ gia đình.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "calculate",
+      "work out"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-042",
+    "word": "conclude",
+    "ipa": "/kənˈkluːd/",
+    "pos": "v",
+    "vi": "kết luận",
+    "example": "The study concluded that regular sleep improves academic performance among teenagers.",
+    "exampleVi": "Nghiên cứu kết luận rằng ngủ đều đặn giúp cải thiện kết quả học tập của thanh thiếu niên.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "infer",
+      "deduce"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-043",
+    "word": "conduct",
+    "ipa": "/kənˈdʌkt/",
+    "pos": "v",
+    "vi": "tiến hành",
+    "example": "Scientists conduct experiments to test whether new drugs are safe and effective.",
+    "exampleVi": "Các nhà khoa học tiến hành thí nghiệm để kiểm tra xem thuốc mới có an toàn và hiệu quả không.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "carry out",
+      "perform"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-044",
+    "word": "construct",
+    "ipa": "/kənˈstrʌkt/",
+    "pos": "v",
+    "vi": "xây dựng",
+    "example": "Authorities plan to construct a new bridge to reduce traffic congestion in the city.",
+    "exampleVi": "Chính quyền có kế hoạch xây một cây cầu mới để giảm ùn tắc giao thông trong thành phố.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "build",
+      "erect"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-045",
+    "word": "credit",
+    "ipa": "/ˈkredɪt/",
+    "pos": "n",
+    "vi": "tín dụng",
+    "example": "Easy access to credit encourages many young people to spend beyond their means.",
+    "exampleVi": "Việc dễ dàng vay tín dụng khiến nhiều bạn trẻ chi tiêu vượt quá khả năng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "loan",
+      "borrowing"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-046",
+    "word": "design",
+    "ipa": "/dɪˈzaɪn/",
+    "pos": "n",
+    "vi": "thiết kế",
+    "example": "Good urban design can make cities safer and more pleasant to live in.",
+    "exampleVi": "Thiết kế đô thị tốt có thể làm cho thành phố an toàn và dễ sống hơn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "layout",
+      "plan"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-047",
+    "word": "element",
+    "ipa": "/ˈelɪmənt/",
+    "pos": "n",
+    "vi": "yếu tố",
+    "example": "Trust is widely regarded as an essential element of any successful and productive team.",
+    "exampleVi": "Sự tin tưởng được xem là yếu tố thiết yếu của mọi đội nhóm thành công và hiệu quả.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "component",
+      "factor"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-048",
+    "word": "equate",
+    "ipa": "/ɪˈkweɪt/",
+    "pos": "v",
+    "vi": "đánh đồng",
+    "example": "Many people wrongly equate material wealth with genuine happiness and a fulfilling life.",
+    "exampleVi": "Nhiều người đánh đồng sai lầm giữa của cải vật chất với hạnh phúc thực sự và cuộc sống trọn vẹn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "associate",
+      "identify"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-049",
+    "word": "feature",
+    "ipa": "/ˈfiːtʃə/",
+    "pos": "n",
+    "vi": "đặc điểm",
+    "example": "A key feature of modern cities is their reliance on public transport.",
+    "exampleVi": "Một đặc điểm then chốt của các thành phố hiện đại là sự phụ thuộc vào giao thông công cộng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "characteristic",
+      "trait"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-050",
+    "word": "final",
+    "ipa": "/ˈfaɪnl/",
+    "pos": "adj",
+    "vi": "cuối cùng",
+    "example": "The final decision on which applicants are accepted rests with the university's admissions committee.",
+    "exampleVi": "Quyết định cuối cùng về việc nhận ứng viên nào thuộc về hội đồng tuyển sinh của trường đại học.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "last",
+      "ultimate"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-051",
+    "word": "focus",
+    "ipa": "/ˈfəʊkəs/",
+    "pos": "v",
+    "vi": "tập trung",
+    "example": "Schools should focus on developing critical thinking rather than memorisation.",
+    "exampleVi": "Nhà trường nên tập trung phát triển tư duy phản biện thay vì học thuộc lòng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "centre on",
+      "concentrate"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-052",
+    "word": "institute",
+    "ipa": "/ˈɪnstɪtjuːt/",
+    "pos": "n",
+    "vi": "viện",
+    "example": "The research institute received substantial funding to study renewable energy technologies.",
+    "exampleVi": "Viện nghiên cứu đã nhận được nguồn tài trợ lớn để nghiên cứu các công nghệ năng lượng tái tạo.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "organisation",
+      "establishment"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-053",
+    "word": "item",
+    "ipa": "/ˈaɪtəm/",
+    "pos": "n",
+    "vi": "mặt hàng, món đồ",
+    "example": "Luxury items are often purchased to display social status rather than for practical use.",
+    "exampleVi": "Hàng xa xỉ thường được mua để thể hiện địa vị xã hội hơn là để sử dụng thực tế.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "product",
+      "article"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-054",
+    "word": "journal",
+    "ipa": "/ˈdʒɜːnl/",
+    "pos": "n",
+    "vi": "tạp chí khoa học",
+    "example": "The findings were published in a leading scientific journal last year.",
+    "exampleVi": "Các phát hiện được công bố trên một tạp chí khoa học hàng đầu vào năm ngoái.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "periodical",
+      "publication"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-055",
+    "word": "normal",
+    "ipa": "/ˈnɔːml/",
+    "pos": "adj",
+    "vi": "bình thường",
+    "example": "Working from home has become a normal part of life for many employees.",
+    "exampleVi": "Làm việc tại nhà đã trở thành một phần bình thường trong cuộc sống của nhiều nhân viên.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "usual",
+      "standard"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-056",
+    "word": "primary",
+    "ipa": "/ˈpraɪməri/",
+    "pos": "adj",
+    "vi": "chính",
+    "example": "The primary cause of the problem is a lack of investment in infrastructure.",
+    "exampleVi": "Nguyên nhân chính của vấn đề là thiếu đầu tư vào cơ sở hạ tầng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "main",
+      "chief"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-057",
+    "word": "purchase",
+    "ipa": "/ˈpɜːtʃəs/",
+    "pos": "v",
+    "vi": "mua",
+    "example": "Consumers are increasingly purchasing goods online rather than in traditional shops.",
+    "exampleVi": "Người tiêu dùng ngày càng mua hàng trực tuyến thay vì ở các cửa hàng truyền thống.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "buy",
+      "acquire"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-058",
+    "word": "range",
+    "ipa": "/reɪndʒ/",
+    "pos": "n",
+    "vi": "phạm vi, phổ rộng",
+    "example": "The course offers a broad range of subjects to suit different interests.",
+    "exampleVi": "Khóa học cung cấp nhiều môn đa dạng phù hợp với các sở thích khác nhau.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "variety",
+      "spectrum"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-059",
+    "word": "region",
+    "ipa": "/ˈriːdʒən/",
+    "pos": "n",
+    "vi": "vùng",
+    "example": "Poverty is especially severe in rural regions of the country.",
+    "exampleVi": "Nghèo đói đặc biệt nghiêm trọng ở các vùng nông thôn của đất nước.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "area",
+      "district"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-060",
+    "word": "reside",
+    "ipa": "/rɪˈzaɪd/",
+    "pos": "v",
+    "vi": "cư trú",
+    "example": "Over half of the world's population now resides in urban areas.",
+    "exampleVi": "Hơn một nửa dân số thế giới hiện cư trú ở các khu vực đô thị.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "live",
+      "dwell"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-061",
+    "word": "secure",
+    "ipa": "/sɪˈkjʊə/",
+    "pos": "adj",
+    "vi": "ổn định, an toàn",
+    "example": "Many young people prefer a secure job to a higher but uncertain salary.",
+    "exampleVi": "Nhiều bạn trẻ thích một công việc ổn định hơn một mức lương cao nhưng bấp bênh.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "stable",
+      "safe"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-062",
+    "word": "seek",
+    "ipa": "/siːk/",
+    "pos": "v",
+    "vi": "tìm kiếm",
+    "example": "Many graduates seek employment abroad because of limited opportunities at home.",
+    "exampleVi": "Nhiều sinh viên tốt nghiệp tìm việc ở nước ngoài vì cơ hội trong nước hạn chế.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "look for",
+      "pursue"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-063",
+    "word": "select",
+    "ipa": "/sɪˈlekt/",
+    "pos": "v",
+    "vi": "chọn lựa",
+    "example": "Students should select courses that match their long-term career goals.",
+    "exampleVi": "Sinh viên nên chọn các khóa học phù hợp với mục tiêu nghề nghiệp lâu dài.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "choose",
+      "pick"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-064",
+    "word": "site",
+    "ipa": "/saɪt/",
+    "pos": "n",
+    "vi": "địa điểm",
+    "example": "The ancient archaeological site attracts millions of tourists from around the world every single year.",
+    "exampleVi": "Di chỉ khảo cổ cổ đại này thu hút hàng triệu khách du lịch từ khắp nơi trên thế giới mỗi năm.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "location",
+      "place"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-065",
+    "word": "strategy",
+    "ipa": "/ˈstrætədʒi/",
+    "pos": "n",
+    "vi": "chiến lược",
+    "example": "Governments need a coherent long-term strategy to reduce carbon emissions and protect the environment.",
+    "exampleVi": "Chính phủ cần một chiến lược dài hạn nhất quán để giảm khí thải carbon và bảo vệ môi trường.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "plan",
+      "approach"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-066",
+    "word": "survey",
+    "ipa": "/ˈsɜːveɪ/",
+    "pos": "n",
+    "vi": "cuộc khảo sát",
+    "example": "A recent survey revealed that most teenagers spend over four hours online daily.",
+    "exampleVi": "Một cuộc khảo sát gần đây cho thấy hầu hết thanh thiếu niên dành hơn bốn giờ mỗi ngày trên mạng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "poll",
+      "questionnaire"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-067",
+    "word": "text",
+    "ipa": "/tekst/",
+    "pos": "n",
+    "vi": "văn bản, bài đọc",
+    "example": "Candidates must read the text carefully before answering the questions.",
+    "exampleVi": "Thí sinh phải đọc kỹ bài đọc trước khi trả lời các câu hỏi.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "passage",
+      "document"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-068",
+    "word": "transfer",
+    "ipa": "/trænsˈfɜː/",
+    "pos": "v",
+    "vi": "chuyển giao",
+    "example": "Developed countries should transfer modern technology to poorer nations to help them develop more quickly.",
+    "exampleVi": "Các nước phát triển nên chuyển giao công nghệ hiện đại cho các quốc gia nghèo hơn để giúp họ phát triển nhanh hơn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "pass on",
+      "transmit"
+    ],
+    "sublist": 2
+  },
+  {
+    "id": "awl-069",
+    "word": "alternative",
+    "ipa": "/ɔːlˈtɜːnətɪv/",
+    "pos": "n",
+    "vi": "lựa chọn thay thế",
+    "example": "Cycling is a healthy and environmentally friendly alternative to driving for short everyday journeys.",
+    "exampleVi": "Đạp xe là lựa chọn thay thế lành mạnh và thân thiện với môi trường so với lái xe cho các chuyến đi ngắn hằng ngày.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "option",
+      "substitute"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-070",
+    "word": "circumstance",
+    "ipa": "/ˈsɜːkəmstəns/",
+    "pos": "n",
+    "vi": "hoàn cảnh",
+    "example": "A child's academic success often depends heavily on their family circumstances and financial situation.",
+    "exampleVi": "Thành công học tập của một đứa trẻ thường phụ thuộc nhiều vào hoàn cảnh gia đình và tình hình tài chính.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "situation",
+      "condition"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-071",
+    "word": "comment",
+    "ipa": "/ˈkɒment/",
+    "pos": "v",
+    "vi": "bình luận",
+    "example": "The minister declined to comment on the sharp rise in unemployment.",
+    "exampleVi": "Bộ trưởng từ chối bình luận về sự gia tăng mạnh của tỷ lệ thất nghiệp.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "remark",
+      "state"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-072",
+    "word": "component",
+    "ipa": "/kəmˈpəʊnənt/",
+    "pos": "n",
+    "vi": "thành phần",
+    "example": "Physical education should be a compulsory component of the school curriculum.",
+    "exampleVi": "Giáo dục thể chất nên là một thành phần bắt buộc của chương trình học.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "element",
+      "part"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-073",
+    "word": "consent",
+    "ipa": "/kənˈsent/",
+    "pos": "n",
+    "vi": "sự đồng ý",
+    "example": "Companies must obtain users' consent before collecting their personal data.",
+    "exampleVi": "Các công ty phải có sự đồng ý của người dùng trước khi thu thập dữ liệu cá nhân.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "permission",
+      "approval"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-074",
+    "word": "constant",
+    "ipa": "/ˈkɒnstənt/",
+    "pos": "adj",
+    "vi": "liên tục",
+    "example": "Constant exposure to social media can harm teenagers' mental health.",
+    "exampleVi": "Tiếp xúc liên tục với mạng xã hội có thể gây hại cho sức khỏe tâm thần của thanh thiếu niên.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "continuous",
+      "continual"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-075",
+    "word": "constrain",
+    "ipa": "/kənˈstreɪn/",
+    "pos": "v",
+    "vi": "hạn chế, kìm hãm",
+    "example": "Limited funding constrains the ability of schools to hire qualified teachers.",
+    "exampleVi": "Nguồn kinh phí hạn hẹp hạn chế khả năng tuyển giáo viên có trình độ của các trường.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "limit",
+      "restrain"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-076",
+    "word": "convene",
+    "ipa": "/kənˈviːn/",
+    "pos": "v",
+    "vi": "triệu tập, họp",
+    "example": "World leaders convene every year to discuss global environmental issues.",
+    "exampleVi": "Các nhà lãnh đạo thế giới họp mỗi năm để bàn về các vấn đề môi trường toàn cầu.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "gather",
+      "assemble"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-077",
+    "word": "coordinate",
+    "ipa": "/kəʊˈɔːdɪneɪt/",
+    "pos": "v",
+    "vi": "phối hợp",
+    "example": "Governments must coordinate their efforts closely in order to tackle international crime effectively.",
+    "exampleVi": "Các chính phủ phải phối hợp chặt chẽ nỗ lực để giải quyết hiệu quả tội phạm quốc tế.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "organise",
+      "harmonise"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-078",
+    "word": "core",
+    "ipa": "/kɔː/",
+    "pos": "adj",
+    "vi": "cốt lõi",
+    "example": "Mathematics and literacy should remain core subjects in every school.",
+    "exampleVi": "Toán và kỹ năng đọc viết nên tiếp tục là các môn cốt lõi ở mọi trường học.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "central",
+      "essential"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-079",
+    "word": "corporate",
+    "ipa": "/ˈkɔːpərət/",
+    "pos": "adj",
+    "vi": "thuộc doanh nghiệp",
+    "example": "Large corporate organisations have a responsibility to reduce their environmental impact.",
+    "exampleVi": "Các tổ chức doanh nghiệp lớn có trách nhiệm giảm tác động đến môi trường.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "business",
+      "company"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-080",
+    "word": "correspond",
+    "ipa": "/ˌkɒrəˈspɒnd/",
+    "pos": "v",
+    "vi": "tương ứng",
+    "example": "Higher levels of education often correspond to higher lifetime earnings.",
+    "exampleVi": "Trình độ học vấn cao hơn thường tương ứng với thu nhập suốt đời cao hơn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "match",
+      "tally"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-081",
+    "word": "deduce",
+    "ipa": "/dɪˈdjuːs/",
+    "pos": "v",
+    "vi": "suy ra",
+    "example": "From the data, we can deduce that younger people are more active online.",
+    "exampleVi": "Từ dữ liệu, ta có thể suy ra rằng người trẻ hoạt động tích cực hơn trên mạng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "infer",
+      "conclude"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-082",
+    "word": "document",
+    "ipa": "/ˈdɒkjʊmənt/",
+    "pos": "n",
+    "vi": "tài liệu",
+    "example": "Historians rely on official documents to understand how past societies functioned.",
+    "exampleVi": "Các nhà sử học dựa vào tài liệu chính thức để hiểu các xã hội trong quá khứ vận hành ra sao.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "record",
+      "paper"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-083",
+    "word": "emphasis",
+    "ipa": "/ˈemfəsɪs/",
+    "pos": "n",
+    "vi": "sự nhấn mạnh",
+    "example": "Modern schools place great emphasis on teamwork and communication skills.",
+    "exampleVi": "Các trường học hiện đại đặc biệt nhấn mạnh làm việc nhóm và kỹ năng giao tiếp.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "importance",
+      "priority"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-084",
+    "word": "ensure",
+    "ipa": "/ɪnˈʃɔː/",
+    "pos": "v",
+    "vi": "đảm bảo",
+    "example": "Strict regulations ensure that food products are safe for consumers.",
+    "exampleVi": "Các quy định nghiêm ngặt đảm bảo thực phẩm an toàn cho người tiêu dùng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "make sure",
+      "guarantee"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-085",
+    "word": "framework",
+    "ipa": "/ˈfreɪmwɜːk/",
+    "pos": "n",
+    "vi": "khuôn khổ",
+    "example": "The government has introduced a legal framework to protect personal data.",
+    "exampleVi": "Chính phủ đã ban hành một khuôn khổ pháp lý để bảo vệ dữ liệu cá nhân.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "structure",
+      "system"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-086",
+    "word": "fund",
+    "ipa": "/fʌnd/",
+    "pos": "v",
+    "vi": "tài trợ",
+    "example": "Public money should fund scientific research that benefits society as a whole.",
+    "exampleVi": "Tiền công nên tài trợ cho nghiên cứu khoa học mang lại lợi ích cho toàn xã hội.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "finance",
+      "sponsor"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-087",
+    "word": "imply",
+    "ipa": "/ɪmˈplaɪ/",
+    "pos": "v",
+    "vi": "ngụ ý",
+    "example": "These figures imply that the problem will worsen unless action is taken.",
+    "exampleVi": "Những số liệu này ngụ ý rằng vấn đề sẽ tồi tệ hơn nếu không có hành động.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "suggest",
+      "indicate"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-088",
+    "word": "initial",
+    "ipa": "/ɪˈnɪʃl/",
+    "pos": "adj",
+    "vi": "ban đầu",
+    "example": "The initial cost of solar panels is high, but they save money later.",
+    "exampleVi": "Chi phí ban đầu của tấm pin mặt trời cao, nhưng về sau chúng giúp tiết kiệm tiền.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "first",
+      "early"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-089",
+    "word": "instance",
+    "ipa": "/ˈɪnstəns/",
+    "pos": "n",
+    "vi": "trường hợp",
+    "example": "There have been several instances of students cheating in online examinations.",
+    "exampleVi": "Đã có một số trường hợp sinh viên gian lận trong các kỳ thi trực tuyến.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "case",
+      "example"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-090",
+    "word": "interact",
+    "ipa": "/ˌɪntərˈækt/",
+    "pos": "v",
+    "vi": "tương tác",
+    "example": "Children learn social skills by interacting with their peers at school.",
+    "exampleVi": "Trẻ học các kỹ năng xã hội bằng cách tương tác với bạn bè cùng trang lứa ở trường.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "communicate",
+      "engage"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-091",
+    "word": "layer",
+    "ipa": "/ˈleɪə/",
+    "pos": "n",
+    "vi": "tầng, lớp",
+    "example": "The ozone layer protects the Earth from harmful ultraviolet radiation.",
+    "exampleVi": "Tầng ozone bảo vệ Trái Đất khỏi bức xạ tia cực tím có hại.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "level",
+      "stratum"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-092",
+    "word": "link",
+    "ipa": "/lɪŋk/",
+    "pos": "n",
+    "vi": "mối liên hệ",
+    "example": "Researchers have found a strong link between sleep deprivation and poor concentration.",
+    "exampleVi": "Các nhà nghiên cứu đã tìm thấy mối liên hệ chặt chẽ giữa thiếu ngủ và khả năng tập trung kém.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "connection",
+      "relationship"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-093",
+    "word": "locate",
+    "ipa": "/ləʊˈkeɪt/",
+    "pos": "v",
+    "vi": "đặt tại, xác định vị trí",
+    "example": "Many factories are located in suburban areas where land is cheaper.",
+    "exampleVi": "Nhiều nhà máy được đặt tại các vùng ngoại ô nơi đất rẻ hơn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "situate",
+      "position"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-094",
+    "word": "maximise",
+    "ipa": "/ˈmæksɪmaɪz/",
+    "pos": "v",
+    "vi": "tối đa hóa",
+    "example": "Companies aim to maximise profits, sometimes at the expense of the environment.",
+    "exampleVi": "Các công ty hướng tới tối đa hóa lợi nhuận, đôi khi phải trả giá bằng môi trường.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "optimise",
+      "boost"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-095",
+    "word": "minor",
+    "ipa": "/ˈmaɪnə/",
+    "pos": "adj",
+    "vi": "nhỏ, thứ yếu",
+    "example": "Minor changes to daily habits can have a significant impact on health.",
+    "exampleVi": "Những thay đổi nhỏ trong thói quen hằng ngày có thể tác động đáng kể đến sức khỏe.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "small",
+      "slight"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-096",
+    "word": "negate",
+    "ipa": "/nɪˈɡeɪt/",
+    "pos": "v",
+    "vi": "làm mất tác dụng",
+    "example": "Rising consumption may negate the benefits of more efficient technology.",
+    "exampleVi": "Mức tiêu thụ tăng có thể làm mất tác dụng của công nghệ hiệu quả hơn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "nullify",
+      "cancel out"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-097",
+    "word": "partner",
+    "ipa": "/ˈpɑːtnə/",
+    "pos": "n",
+    "vi": "đối tác",
+    "example": "China is now one of the largest trading partners of many countries.",
+    "exampleVi": "Trung Quốc hiện là một trong những đối tác thương mại lớn nhất của nhiều nước.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "ally",
+      "associate"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-098",
+    "word": "philosophy",
+    "ipa": "/fəˈlɒsəfi/",
+    "pos": "n",
+    "vi": "triết lý",
+    "example": "The school's educational philosophy emphasises creativity and independent thinking over exam results.",
+    "exampleVi": "Triết lý giáo dục của nhà trường đề cao sự sáng tạo và tư duy độc lập hơn kết quả thi.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "ideology",
+      "belief system"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-099",
+    "word": "physical",
+    "ipa": "/ˈfɪzɪkl/",
+    "pos": "adj",
+    "vi": "thuộc thể chất",
+    "example": "Regular physical activity reduces the risk of many chronic diseases.",
+    "exampleVi": "Hoạt động thể chất thường xuyên làm giảm nguy cơ mắc nhiều bệnh mãn tính.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "bodily"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-100",
+    "word": "publish",
+    "ipa": "/ˈpʌblɪʃ/",
+    "pos": "v",
+    "vi": "xuất bản, công bố",
+    "example": "The study was published in a peer-reviewed journal last year.",
+    "exampleVi": "Nghiên cứu được công bố trên một tạp chí có bình duyệt vào năm ngoái.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "release",
+      "print"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-101",
+    "word": "react",
+    "ipa": "/riˈækt/",
+    "pos": "v",
+    "vi": "phản ứng",
+    "example": "People react very differently to stress depending on their personality and previous life experiences.",
+    "exampleVi": "Mỗi người phản ứng rất khác nhau với căng thẳng tùy theo tính cách và những trải nghiệm trong quá khứ.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "respond",
+      "reply"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-102",
+    "word": "register",
+    "ipa": "/ˈredʒɪstə/",
+    "pos": "v",
+    "vi": "đăng ký",
+    "example": "Students must register for courses before the start of the semester.",
+    "exampleVi": "Sinh viên phải đăng ký môn học trước khi học kỳ bắt đầu.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "enrol",
+      "sign up"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-103",
+    "word": "scheme",
+    "ipa": "/skiːm/",
+    "pos": "n",
+    "vi": "chương trình, kế hoạch",
+    "example": "The government introduced a scheme to provide free meals for low-income children.",
+    "exampleVi": "Chính phủ đã đưa ra một chương trình cung cấp bữa ăn miễn phí cho trẻ em thu nhập thấp.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "programme",
+      "plan"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-104",
+    "word": "sequence",
+    "ipa": "/ˈsiːkwəns/",
+    "pos": "n",
+    "vi": "trình tự",
+    "example": "The sequence of events described in the report remains unclear.",
+    "exampleVi": "Trình tự các sự kiện được mô tả trong báo cáo vẫn chưa rõ ràng.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "order",
+      "series"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-105",
+    "word": "sex",
+    "ipa": "/seks/",
+    "pos": "n",
+    "vi": "giới tính",
+    "example": "Employers must not discriminate against job applicants on the basis of sex or age.",
+    "exampleVi": "Nhà tuyển dụng không được phân biệt đối xử với ứng viên dựa trên giới tính hay tuổi tác.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "gender"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-106",
+    "word": "task",
+    "ipa": "/tɑːsk/",
+    "pos": "n",
+    "vi": "nhiệm vụ",
+    "example": "Automation allows machines to perform repetitive tasks more efficiently than humans.",
+    "exampleVi": "Tự động hóa cho phép máy móc thực hiện các nhiệm vụ lặp đi lặp lại hiệu quả hơn con người.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "job",
+      "assignment"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-107",
+    "word": "technical",
+    "ipa": "/ˈteknɪkl/",
+    "pos": "adj",
+    "vi": "thuộc kỹ thuật",
+    "example": "Many employers now value practical technical skills more highly than purely academic qualifications.",
+    "exampleVi": "Nhiều nhà tuyển dụng hiện đánh giá cao kỹ năng kỹ thuật thực tế hơn bằng cấp thuần túy học thuật.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "specialised",
+      "practical"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-108",
+    "word": "technique",
+    "ipa": "/tekˈniːk/",
+    "pos": "n",
+    "vi": "kỹ thuật",
+    "example": "Modern farming techniques have greatly increased crop yields in many developing countries.",
+    "exampleVi": "Các kỹ thuật canh tác hiện đại đã làm tăng mạnh năng suất cây trồng ở nhiều nước đang phát triển.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "method",
+      "procedure"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-109",
+    "word": "valid",
+    "ipa": "/ˈvælɪd/",
+    "pos": "adj",
+    "vi": "có giá trị, xác đáng",
+    "example": "Critics raise a valid point about the high cost of tuition fees.",
+    "exampleVi": "Các nhà phê bình nêu ra một điểm xác đáng về mức học phí cao.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "sound",
+      "legitimate"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-110",
+    "word": "volume",
+    "ipa": "/ˈvɒljuːm/",
+    "pos": "n",
+    "vi": "khối lượng",
+    "example": "The sheer volume of information online makes it hard to find reliable sources.",
+    "exampleVi": "Chỉ riêng khối lượng thông tin khổng lồ trên mạng đã khiến việc tìm nguồn đáng tin cậy trở nên khó khăn.",
+    "level": "B1",
+    "topic": "academic",
+    "synonyms": [
+      "amount",
+      "quantity"
+    ],
+    "sublist": 3
+  },
+  {
+    "id": "awl-111",
+    "word": "access",
+    "ipa": "/ˈækses/",
+    "pos": "n",
+    "vi": "quyền tiếp cận",
+    "example": "Access to clean water remains a serious problem in many rural areas.",
+    "exampleVi": "Việc tiếp cận nước sạch vẫn là vấn đề nghiêm trọng ở nhiều vùng nông thôn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "entry",
+      "availability"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-112",
+    "word": "annual",
+    "ipa": "/ˈænjuəl/",
+    "pos": "adj",
+    "vi": "hằng năm",
+    "example": "The country's annual rainfall has fallen steadily over the past decade.",
+    "exampleVi": "Lượng mưa hằng năm của đất nước đã giảm đều đặn trong thập kỷ qua.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "yearly"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-113",
+    "word": "attribute",
+    "ipa": "/ˈætrɪbjuːt/",
+    "pos": "n",
+    "vi": "phẩm chất",
+    "example": "Honesty is an attribute that employers value highly in new recruits.",
+    "exampleVi": "Sự trung thực là phẩm chất mà nhà tuyển dụng đánh giá cao ở nhân viên mới.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "quality",
+      "characteristic"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-114",
+    "word": "civil",
+    "ipa": "/ˈsɪvl/",
+    "pos": "adj",
+    "vi": "thuộc công dân, dân sự",
+    "example": "Civil rights movements have played a key role in reducing discrimination.",
+    "exampleVi": "Các phong trào dân quyền đã đóng vai trò then chốt trong việc giảm phân biệt đối xử.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "civic"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-115",
+    "word": "code",
+    "ipa": "/kəʊd/",
+    "pos": "n",
+    "vi": "quy tắc",
+    "example": "Many professions have a strict code of conduct that members must follow.",
+    "exampleVi": "Nhiều ngành nghề có bộ quy tắc ứng xử nghiêm ngặt mà thành viên phải tuân theo.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "rules",
+      "guidelines"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-116",
+    "word": "commit",
+    "ipa": "/kəˈmɪt/",
+    "pos": "v",
+    "vi": "cam kết",
+    "example": "Governments have committed to cutting greenhouse gas emissions by 2050.",
+    "exampleVi": "Các chính phủ đã cam kết cắt giảm khí thải nhà kính vào năm 2050.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "pledge",
+      "dedicate"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-117",
+    "word": "confer",
+    "ipa": "/kənˈfɜː/",
+    "pos": "v",
+    "vi": "mang lại, trao cho",
+    "example": "A degree from a top university confers considerable prestige on its graduates.",
+    "exampleVi": "Tấm bằng của một trường đại học hàng đầu mang lại uy tín đáng kể cho người tốt nghiệp.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "grant",
+      "bestow"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-118",
+    "word": "contrast",
+    "ipa": "/ˈkɒntrɑːst/",
+    "pos": "n",
+    "vi": "sự tương phản",
+    "example": "In contrast to previous generations, young people today change jobs frequently.",
+    "exampleVi": "Trái với các thế hệ trước, giới trẻ ngày nay thường xuyên đổi việc.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "difference",
+      "opposition"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-119",
+    "word": "cycle",
+    "ipa": "/ˈsaɪkl/",
+    "pos": "n",
+    "vi": "vòng, chu kỳ",
+    "example": "Poverty often becomes a cycle that passes from one generation to the next.",
+    "exampleVi": "Nghèo đói thường trở thành một vòng luẩn quẩn truyền từ thế hệ này sang thế hệ khác.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "circle",
+      "pattern"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-120",
+    "word": "debate",
+    "ipa": "/dɪˈbeɪt/",
+    "pos": "n",
+    "vi": "cuộc tranh luận",
+    "example": "There is ongoing debate about whether social media does more harm than good.",
+    "exampleVi": "Vẫn đang có tranh luận về việc mạng xã hội có hại nhiều hơn lợi hay không.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "discussion",
+      "argument"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-121",
+    "word": "dimension",
+    "ipa": "/daɪˈmenʃn/",
+    "pos": "n",
+    "vi": "khía cạnh",
+    "example": "Globalisation has added an international dimension to local environmental problems.",
+    "exampleVi": "Toàn cầu hóa đã thêm một khía cạnh quốc tế vào các vấn đề môi trường địa phương.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "aspect",
+      "facet"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-122",
+    "word": "domestic",
+    "ipa": "/dəˈmestɪk/",
+    "pos": "adj",
+    "vi": "trong nước",
+    "example": "Governments often protect domestic industries from foreign competition by imposing high import taxes.",
+    "exampleVi": "Chính phủ thường bảo hộ các ngành công nghiệp trong nước trước cạnh tranh nước ngoài bằng thuế nhập khẩu cao.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "national",
+      "home"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-123",
+    "word": "error",
+    "ipa": "/ˈerə/",
+    "pos": "n",
+    "vi": "lỗi",
+    "example": "Human error is the leading cause of accidents in the workplace.",
+    "exampleVi": "Lỗi của con người là nguyên nhân hàng đầu gây ra tai nạn ở nơi làm việc.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "mistake",
+      "fault"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-124",
+    "word": "goal",
+    "ipa": "/ɡəʊl/",
+    "pos": "n",
+    "vi": "mục tiêu",
+    "example": "Reducing poverty is a central goal of most national development plans.",
+    "exampleVi": "Giảm nghèo là mục tiêu trọng tâm của hầu hết các kế hoạch phát triển quốc gia.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "aim",
+      "target"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-125",
+    "word": "grant",
+    "ipa": "/ɡrɑːnt/",
+    "pos": "n",
+    "vi": "khoản trợ cấp",
+    "example": "Many universities rely heavily on government grants to fund their scientific research projects.",
+    "exampleVi": "Nhiều trường đại học phụ thuộc nhiều vào trợ cấp của chính phủ để tài trợ các dự án nghiên cứu khoa học.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "funding",
+      "award"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-126",
+    "word": "hence",
+    "ipa": "/hens/",
+    "pos": "adv",
+    "vi": "do đó",
+    "example": "Fuel prices have risen sharply; hence, many people have switched to public transport.",
+    "exampleVi": "Giá nhiên liệu tăng mạnh; do đó, nhiều người đã chuyển sang dùng phương tiện công cộng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "therefore",
+      "thus"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-127",
+    "word": "impose",
+    "ipa": "/ɪmˈpəʊz/",
+    "pos": "v",
+    "vi": "áp đặt",
+    "example": "Governments may impose higher taxes on sugary drinks to reduce consumption.",
+    "exampleVi": "Chính phủ có thể áp đặt mức thuế cao hơn lên đồ uống có đường để giảm tiêu thụ.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "levy",
+      "enforce"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-128",
+    "word": "implicate",
+    "ipa": "/ˈɪmplɪkeɪt/",
+    "pos": "v",
+    "vi": "làm liên lụy",
+    "example": "Several senior government officials were implicated in the corruption scandal that shocked the nation.",
+    "exampleVi": "Một số quan chức cấp cao của chính phủ bị liên lụy trong vụ bê bối tham nhũng gây chấn động cả nước.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "involve",
+      "incriminate"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-129",
+    "word": "internal",
+    "ipa": "/ɪnˈtɜːnl/",
+    "pos": "adj",
+    "vi": "nội bộ",
+    "example": "The company launched an internal investigation into the cause of the data leak.",
+    "exampleVi": "Công ty đã mở cuộc điều tra nội bộ về nguyên nhân rò rỉ dữ liệu.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "inner",
+      "in-house"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-130",
+    "word": "label",
+    "ipa": "/ˈleɪbl/",
+    "pos": "n",
+    "vi": "nhãn mác",
+    "example": "Clear and accurate food labels help consumers make healthier choices when they go shopping.",
+    "exampleVi": "Nhãn thực phẩm rõ ràng và chính xác giúp người tiêu dùng lựa chọn lành mạnh hơn khi mua sắm.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "tag",
+      "sticker"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-131",
+    "word": "mechanism",
+    "ipa": "/ˈmekənɪzəm/",
+    "pos": "n",
+    "vi": "cơ chế",
+    "example": "The body has a natural mechanism for regulating its temperature.",
+    "exampleVi": "Cơ thể có cơ chế tự nhiên để điều hòa nhiệt độ.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "process",
+      "system"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-132",
+    "word": "occupy",
+    "ipa": "/ˈɒkjupaɪ/",
+    "pos": "v",
+    "vi": "chiếm giữ",
+    "example": "Agriculture still occupies a large part of the workforce in developing countries.",
+    "exampleVi": "Nông nghiệp vẫn chiếm một phần lớn lực lượng lao động ở các nước đang phát triển.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "take up",
+      "fill"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-133",
+    "word": "option",
+    "ipa": "/ˈɒpʃn/",
+    "pos": "n",
+    "vi": "lựa chọn",
+    "example": "Remote work gives employees the option of living far from the office.",
+    "exampleVi": "Làm việc từ xa cho nhân viên lựa chọn sống xa văn phòng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "choice",
+      "alternative"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-134",
+    "word": "output",
+    "ipa": "/ˈaʊtpʊt/",
+    "pos": "n",
+    "vi": "sản lượng",
+    "example": "Industrial output has fallen sharply since the start of the economic crisis.",
+    "exampleVi": "Sản lượng công nghiệp đã giảm mạnh kể từ khi cuộc khủng hoảng kinh tế bắt đầu.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "production",
+      "yield"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-135",
+    "word": "overall",
+    "ipa": "/ˌəʊvərˈɔːl/",
+    "pos": "adj",
+    "vi": "tổng thể",
+    "example": "The overall standard of living has improved significantly over the last century.",
+    "exampleVi": "Mức sống tổng thể đã được cải thiện đáng kể trong thế kỷ qua.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "general",
+      "total"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-136",
+    "word": "parallel",
+    "ipa": "/ˈpærəlel/",
+    "pos": "n",
+    "vi": "sự tương đồng",
+    "example": "Experts have drawn a parallel between the two economic crises.",
+    "exampleVi": "Các chuyên gia đã chỉ ra sự tương đồng giữa hai cuộc khủng hoảng kinh tế.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "similarity",
+      "resemblance"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-137",
+    "word": "parameter",
+    "ipa": "/pəˈræmɪtə/",
+    "pos": "n",
+    "vi": "giới hạn, tham số",
+    "example": "Researchers must work within clear ethical parameters when studying human participants.",
+    "exampleVi": "Các nhà nghiên cứu phải làm việc trong những giới hạn đạo đức rõ ràng khi nghiên cứu con người.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "limit",
+      "boundary"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-138",
+    "word": "phase",
+    "ipa": "/feɪz/",
+    "pos": "n",
+    "vi": "giai đoạn",
+    "example": "The first phase of the project focused on collecting data.",
+    "exampleVi": "Giai đoạn đầu của dự án tập trung vào việc thu thập dữ liệu.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "stage",
+      "step"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-139",
+    "word": "principal",
+    "ipa": "/ˈprɪnsəpl/",
+    "pos": "adj",
+    "vi": "chính",
+    "example": "Tourism is the principal source of income for many island nations.",
+    "exampleVi": "Du lịch là nguồn thu nhập chính của nhiều quốc đảo.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "main",
+      "chief"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-140",
+    "word": "prior",
+    "ipa": "/ˈpraɪə/",
+    "pos": "adj",
+    "vi": "trước đó",
+    "example": "Prior knowledge of a subject helps students understand new and more difficult concepts more quickly.",
+    "exampleVi": "Kiến thức có trước về một môn học giúp sinh viên hiểu các khái niệm mới và khó hơn nhanh hơn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "earlier",
+      "previous"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-141",
+    "word": "professional",
+    "ipa": "/prəˈfeʃənl/",
+    "pos": "adj",
+    "vi": "chuyên nghiệp, chuyên môn",
+    "example": "Employees should receive professional training to keep up with new technologies.",
+    "exampleVi": "Nhân viên nên được đào tạo chuyên môn để theo kịp công nghệ mới.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "skilled",
+      "expert"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-142",
+    "word": "project",
+    "ipa": "/ˈprɒdʒekt/",
+    "pos": "n",
+    "vi": "dự án",
+    "example": "The government launched a project to improve access to clean water.",
+    "exampleVi": "Chính phủ đã khởi động một dự án nhằm cải thiện khả năng tiếp cận nước sạch.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "scheme",
+      "undertaking"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-143",
+    "word": "regime",
+    "ipa": "/reɪˈʒiːm/",
+    "pos": "n",
+    "vi": "chế độ",
+    "example": "The authoritarian regime strictly restricted freedom of speech and the press for several decades.",
+    "exampleVi": "Chế độ độc tài đã hạn chế nghiêm ngặt tự do ngôn luận và báo chí trong nhiều thập kỷ.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "government",
+      "administration"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-144",
+    "word": "series",
+    "ipa": "/ˈsɪəriːz/",
+    "pos": "n",
+    "vi": "chuỗi",
+    "example": "A series of floods has forced thousands of families to leave their homes.",
+    "exampleVi": "Một chuỗi trận lũ đã buộc hàng nghìn gia đình phải rời bỏ nhà cửa.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "sequence",
+      "succession"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-145",
+    "word": "statistic",
+    "ipa": "/stəˈtɪstɪk/",
+    "pos": "n",
+    "vi": "số liệu thống kê",
+    "example": "The latest statistics show a steady rise in youth unemployment.",
+    "exampleVi": "Số liệu thống kê mới nhất cho thấy thất nghiệp ở thanh niên tăng đều.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "figure",
+      "data"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-146",
+    "word": "status",
+    "ipa": "/ˈsteɪtəs/",
+    "pos": "n",
+    "vi": "địa vị",
+    "example": "In some societies, wealth is closely linked to social status.",
+    "exampleVi": "Ở một số xã hội, sự giàu có gắn chặt với địa vị xã hội.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "standing",
+      "rank"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-147",
+    "word": "subsequent",
+    "ipa": "/ˈsʌbsɪkwənt/",
+    "pos": "adj",
+    "vi": "tiếp theo, về sau",
+    "example": "Subsequent studies carried out by independent researchers confirmed the results of the original experiment.",
+    "exampleVi": "Các nghiên cứu tiếp theo do các nhà nghiên cứu độc lập thực hiện đã xác nhận kết quả của thí nghiệm ban đầu.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "following",
+      "later"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-148",
+    "word": "sum",
+    "ipa": "/sʌm/",
+    "pos": "n",
+    "vi": "khoản tiền",
+    "example": "Governments spend huge sums of money on defence every year.",
+    "exampleVi": "Chính phủ chi những khoản tiền khổng lồ cho quốc phòng mỗi năm.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "amount",
+      "total"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-149",
+    "word": "summary",
+    "ipa": "/ˈsʌməri/",
+    "pos": "n",
+    "vi": "bản tóm tắt",
+    "example": "The report begins with a brief summary of its main findings.",
+    "exampleVi": "Báo cáo mở đầu bằng một bản tóm tắt ngắn gọn các phát hiện chính.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "overview",
+      "synopsis"
+    ],
+    "sublist": 4
+  },
+  {
+    "id": "awl-150",
+    "word": "academy",
+    "ipa": "/əˈkædəmi/",
+    "pos": "n",
+    "vi": "học viện",
+    "example": "Many talented young athletes join sports academies at an early age.",
+    "exampleVi": "Nhiều vận động viên trẻ tài năng vào các học viện thể thao từ rất sớm.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "school",
+      "institute"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-151",
+    "word": "adjust",
+    "ipa": "/əˈdʒʌst/",
+    "pos": "v",
+    "vi": "thích nghi, điều chỉnh",
+    "example": "Immigrants often struggle to adjust to the culture of their new country.",
+    "exampleVi": "Người nhập cư thường vất vả để thích nghi với văn hóa của đất nước mới.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "adapt",
+      "get used to"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-152",
+    "word": "alter",
+    "ipa": "/ˈɔːltə/",
+    "pos": "v",
+    "vi": "thay đổi",
+    "example": "Social media has dramatically altered the way people communicate with each other.",
+    "exampleVi": "Mạng xã hội đã thay đổi đáng kể cách mọi người giao tiếp với nhau.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "change",
+      "modify"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-153",
+    "word": "amend",
+    "ipa": "/əˈmend/",
+    "pos": "v",
+    "vi": "sửa đổi",
+    "example": "Lawmakers voted to amend the constitution to protect individual privacy.",
+    "exampleVi": "Các nhà lập pháp đã bỏ phiếu sửa đổi hiến pháp để bảo vệ quyền riêng tư cá nhân.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "revise",
+      "reform"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-154",
+    "word": "aware",
+    "ipa": "/əˈweə/",
+    "pos": "adj",
+    "vi": "nhận thức được",
+    "example": "Many consumers are not fully aware of the environmental cost of fast fashion.",
+    "exampleVi": "Nhiều người tiêu dùng chưa nhận thức đầy đủ về cái giá môi trường của thời trang nhanh.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "conscious",
+      "informed"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-155",
+    "word": "capacity",
+    "ipa": "/kəˈpæsəti/",
+    "pos": "n",
+    "vi": "sức chứa, công suất",
+    "example": "Hospitals in many large cities are now operating at full capacity during the winter months.",
+    "exampleVi": "Bệnh viện ở nhiều thành phố lớn hiện đang hoạt động hết công suất trong các tháng mùa đông.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "room",
+      "space"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-156",
+    "word": "clause",
+    "ipa": "/klɔːz/",
+    "pos": "n",
+    "vi": "điều khoản",
+    "example": "The contract contains a clause that protects employees from unfair dismissal.",
+    "exampleVi": "Hợp đồng có một điều khoản bảo vệ người lao động khỏi việc sa thải bất công.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "provision",
+      "article"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-157",
+    "word": "compound",
+    "ipa": "/kəmˈpaʊnd/",
+    "pos": "v",
+    "vi": "làm trầm trọng thêm",
+    "example": "Long working hours compound the stress that many employees already experience.",
+    "exampleVi": "Giờ làm việc kéo dài làm trầm trọng thêm căng thẳng mà nhiều nhân viên vốn đã phải chịu.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "worsen",
+      "aggravate"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-158",
+    "word": "conflict",
+    "ipa": "/ˈkɒnflɪkt/",
+    "pos": "n",
+    "vi": "xung đột",
+    "example": "Armed conflict forces millions of civilians to flee their homes each year.",
+    "exampleVi": "Xung đột vũ trang buộc hàng triệu thường dân phải bỏ nhà chạy nạn mỗi năm.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "war",
+      "dispute"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-159",
+    "word": "consult",
+    "ipa": "/kənˈsʌlt/",
+    "pos": "v",
+    "vi": "tham khảo ý kiến",
+    "example": "Patients should consult a doctor before making major changes to their diet.",
+    "exampleVi": "Bệnh nhân nên tham khảo ý kiến bác sĩ trước khi thay đổi lớn chế độ ăn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "ask",
+      "seek advice from"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-160",
+    "word": "contact",
+    "ipa": "/ˈkɒntækt/",
+    "pos": "n",
+    "vi": "sự tiếp xúc, liên lạc",
+    "example": "Face-to-face contact between colleagues has declined since remote work became common.",
+    "exampleVi": "Việc tiếp xúc trực tiếp giữa đồng nghiệp đã giảm kể từ khi làm việc từ xa trở nên phổ biến.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "communication",
+      "interaction"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-161",
+    "word": "decline",
+    "ipa": "/dɪˈklaɪn/",
+    "pos": "n",
+    "vi": "sự suy giảm",
+    "example": "There has been a steady decline in the number of people reading newspapers.",
+    "exampleVi": "Số người đọc báo giấy đã suy giảm đều đặn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "decrease",
+      "drop"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-162",
+    "word": "discrete",
+    "ipa": "/dɪˈskriːt/",
+    "pos": "adj",
+    "vi": "riêng biệt",
+    "example": "The curriculum is divided into several discrete units, each with its own assessment.",
+    "exampleVi": "Chương trình học được chia thành nhiều phần riêng biệt, mỗi phần có bài đánh giá riêng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "separate",
+      "distinct"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-163",
+    "word": "draft",
+    "ipa": "/drɑːft/",
+    "pos": "n",
+    "vi": "bản nháp",
+    "example": "The students submitted a first draft of their essays last week.",
+    "exampleVi": "Sinh viên đã nộp bản nháp đầu tiên của bài luận vào tuần trước.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "outline",
+      "version"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-164",
+    "word": "entity",
+    "ipa": "/ˈentəti/",
+    "pos": "n",
+    "vi": "thực thể",
+    "example": "The company is a separate legal entity from its owners.",
+    "exampleVi": "Công ty là một pháp nhân tách biệt với các chủ sở hữu.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "body",
+      "organisation"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-165",
+    "word": "evolve",
+    "ipa": "/ɪˈvɒlv/",
+    "pos": "v",
+    "vi": "phát triển, tiến hóa",
+    "example": "Languages continue to evolve gradually as societies change and new technologies are introduced.",
+    "exampleVi": "Ngôn ngữ tiếp tục phát triển dần dần khi xã hội thay đổi và công nghệ mới ra đời.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "develop",
+      "progress"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-166",
+    "word": "external",
+    "ipa": "/ɪkˈstɜːnl/",
+    "pos": "adj",
+    "vi": "bên ngoài",
+    "example": "External factors such as inflation can affect a company's profits.",
+    "exampleVi": "Các yếu tố bên ngoài như lạm phát có thể ảnh hưởng đến lợi nhuận của công ty.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "outside",
+      "outer"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-167",
+    "word": "image",
+    "ipa": "/ˈɪmɪdʒ/",
+    "pos": "n",
+    "vi": "hình ảnh",
+    "example": "Advertising often presents an unrealistic image of beauty to young people.",
+    "exampleVi": "Quảng cáo thường đưa ra hình ảnh vẻ đẹp phi thực tế cho giới trẻ.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "picture",
+      "portrayal"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-168",
+    "word": "liberal",
+    "ipa": "/ˈlɪbərəl/",
+    "pos": "adj",
+    "vi": "cởi mở, tự do",
+    "example": "Younger generations tend to hold more liberal attitudes towards marriage.",
+    "exampleVi": "Các thế hệ trẻ có xu hướng cởi mở hơn về hôn nhân.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "open-minded",
+      "progressive"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-169",
+    "word": "licence",
+    "ipa": "/ˈlaɪsns/",
+    "pos": "n",
+    "vi": "giấy phép",
+    "example": "Drivers must pass a test before they are granted a licence.",
+    "exampleVi": "Người lái xe phải vượt qua bài kiểm tra trước khi được cấp giấy phép.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "permit",
+      "authorisation"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-170",
+    "word": "logic",
+    "ipa": "/ˈlɒdʒɪk/",
+    "pos": "n",
+    "vi": "tính logic",
+    "example": "The argument lacks logic because its conclusion does not follow from the evidence.",
+    "exampleVi": "Lập luận thiếu logic vì kết luận không xuất phát từ bằng chứng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "reasoning",
+      "rationale"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-171",
+    "word": "medical",
+    "ipa": "/ˈmedɪkl/",
+    "pos": "adj",
+    "vi": "thuộc y tế",
+    "example": "Rising medical costs place a heavy burden on low-income families.",
+    "exampleVi": "Chi phí y tế tăng cao đè nặng lên các gia đình thu nhập thấp.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "health",
+      "clinical"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-172",
+    "word": "modify",
+    "ipa": "/ˈmɒdɪfaɪ/",
+    "pos": "v",
+    "vi": "điều chỉnh, sửa đổi",
+    "example": "Farmers modify crops genetically to make them resistant to disease.",
+    "exampleVi": "Nông dân biến đổi gen cây trồng để chúng kháng được bệnh.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "alter",
+      "adjust"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-173",
+    "word": "monitor",
+    "ipa": "/ˈmɒnɪtə/",
+    "pos": "v",
+    "vi": "giám sát",
+    "example": "Parents should monitor how much time their children spend online.",
+    "exampleVi": "Cha mẹ nên giám sát thời gian con cái sử dụng mạng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "observe",
+      "supervise"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-174",
+    "word": "network",
+    "ipa": "/ˈnetwɜːk/",
+    "pos": "n",
+    "vi": "mạng lưới",
+    "example": "A reliable and affordable transport network is essential for sustained economic growth in any country.",
+    "exampleVi": "Một mạng lưới giao thông đáng tin cậy và giá phải chăng là thiết yếu cho tăng trưởng kinh tế bền vững ở mọi quốc gia.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "system",
+      "web"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-175",
+    "word": "orientation",
+    "ipa": "/ˌɔːriənˈteɪʃn/",
+    "pos": "n",
+    "vi": "buổi định hướng",
+    "example": "Many universities hold an orientation week to help new students settle in.",
+    "exampleVi": "Nhiều trường đại học tổ chức tuần định hướng để giúp tân sinh viên làm quen.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "induction",
+      "introduction"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-176",
+    "word": "precise",
+    "ipa": "/prɪˈsaɪs/",
+    "pos": "adj",
+    "vi": "chính xác",
+    "example": "The precise causes of the economic crisis are still debated.",
+    "exampleVi": "Nguyên nhân chính xác của cuộc khủng hoảng kinh tế vẫn còn tranh cãi.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "exact",
+      "accurate"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-177",
+    "word": "prime",
+    "ipa": "/praɪm/",
+    "pos": "adj",
+    "vi": "hàng đầu, chính",
+    "example": "Improving the quality of education should be a prime concern for any responsible government.",
+    "exampleVi": "Nâng cao chất lượng giáo dục nên là mối quan tâm hàng đầu của bất kỳ chính phủ có trách nhiệm nào.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "main",
+      "chief"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-178",
+    "word": "psychology",
+    "ipa": "/saɪˈkɒlədʒi/",
+    "pos": "n",
+    "vi": "tâm lý học",
+    "example": "Advertisers use psychology to influence what people choose to buy.",
+    "exampleVi": "Các nhà quảng cáo vận dụng tâm lý học để tác động đến lựa chọn mua sắm của mọi người.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [],
+    "sublist": 5
+  },
+  {
+    "id": "awl-179",
+    "word": "ratio",
+    "ipa": "/ˈreɪʃiəʊ/",
+    "pos": "n",
+    "vi": "tỷ lệ",
+    "example": "A low student-teacher ratio allows teachers to give more individual attention.",
+    "exampleVi": "Tỷ lệ học sinh trên giáo viên thấp cho phép giáo viên quan tâm từng em hơn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "proportion",
+      "rate"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-180",
+    "word": "reject",
+    "ipa": "/rɪˈdʒekt/",
+    "pos": "v",
+    "vi": "bác bỏ",
+    "example": "Many voters rejected the proposal to increase taxes on fuel.",
+    "exampleVi": "Nhiều cử tri đã bác bỏ đề xuất tăng thuế nhiên liệu.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "refuse",
+      "turn down"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-181",
+    "word": "stable",
+    "ipa": "/ˈsteɪbl/",
+    "pos": "adj",
+    "vi": "ổn định",
+    "example": "A stable economy attracts foreign investors, encourages business growth and creates many new jobs.",
+    "exampleVi": "Một nền kinh tế ổn định thu hút nhà đầu tư nước ngoài, thúc đẩy doanh nghiệp phát triển và tạo nhiều việc làm.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "steady",
+      "secure"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-182",
+    "word": "style",
+    "ipa": "/staɪl/",
+    "pos": "n",
+    "vi": "phong cách",
+    "example": "Parenting style has a strong and lasting influence on children's behaviour and emotional development.",
+    "exampleVi": "Phong cách nuôi dạy con có ảnh hưởng mạnh và lâu dài đến hành vi và sự phát triển cảm xúc của trẻ.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "manner",
+      "fashion"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-183",
+    "word": "substitute",
+    "ipa": "/ˈsʌbstɪtjuːt/",
+    "pos": "n",
+    "vi": "vật thay thế",
+    "example": "Online lessons are no substitute for face-to-face teaching, especially for younger school children.",
+    "exampleVi": "Các bài học trực tuyến không thể thay thế việc giảng dạy trực tiếp, đặc biệt với học sinh nhỏ tuổi.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "replacement",
+      "alternative"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-184",
+    "word": "sustain",
+    "ipa": "/səˈsteɪn/",
+    "pos": "v",
+    "vi": "duy trì",
+    "example": "The planet cannot sustain current levels of resource consumption for much longer.",
+    "exampleVi": "Hành tinh không thể duy trì mức tiêu thụ tài nguyên hiện nay lâu hơn nữa.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "maintain",
+      "support"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-185",
+    "word": "symbol",
+    "ipa": "/ˈsɪmbl/",
+    "pos": "n",
+    "vi": "biểu tượng",
+    "example": "The national flag is a powerful symbol of cultural identity.",
+    "exampleVi": "Quốc kỳ là biểu tượng mạnh mẽ của bản sắc văn hóa.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "emblem",
+      "sign"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-186",
+    "word": "target",
+    "ipa": "/ˈtɑːɡɪt/",
+    "pos": "n",
+    "vi": "chỉ tiêu, mục tiêu",
+    "example": "Many countries have set ambitious targets for reducing carbon emissions.",
+    "exampleVi": "Nhiều quốc gia đã đặt ra các chỉ tiêu đầy tham vọng về giảm khí thải carbon.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "goal",
+      "objective"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-187",
+    "word": "transit",
+    "ipa": "/ˈtrænzɪt/",
+    "pos": "n",
+    "vi": "giao thông công cộng",
+    "example": "Investment in mass transit systems can reduce traffic congestion in cities.",
+    "exampleVi": "Đầu tư vào hệ thống giao thông công cộng có thể giảm ùn tắc giao thông trong thành phố.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "transport",
+      "transportation"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-188",
+    "word": "version",
+    "ipa": "/ˈvɜːʃn/",
+    "pos": "n",
+    "vi": "phiên bản",
+    "example": "The latest version of the software includes improved security features.",
+    "exampleVi": "Phiên bản mới nhất của phần mềm có các tính năng bảo mật được cải thiện.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "edition",
+      "form"
+    ],
+    "sublist": 5
+  },
+  {
+    "id": "awl-302",
+    "word": "accurate",
+    "ipa": "/ˈækjərət/",
+    "pos": "adj",
+    "vi": "chính xác",
+    "example": "Reliable statistics are essential if governments want to make accurate predictions about population growth.",
+    "exampleVi": "Số liệu đáng tin cậy là điều thiết yếu nếu chính phủ muốn dự báo chính xác về tăng dân số.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "precise",
+      "correct"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-342",
+    "word": "aggregate",
+    "ipa": "/ˈæɡrɪɡət/",
+    "pos": "adj",
+    "vi": "tổng hợp, gộp lại",
+    "example": "The aggregate demand for energy is expected to double as developing economies continue to grow.",
+    "exampleVi": "Tổng nhu cầu năng lượng dự kiến sẽ tăng gấp đôi khi các nền kinh tế đang phát triển tiếp tục tăng trưởng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "total",
+      "combined"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-344",
+    "word": "assign",
+    "ipa": "/əˈsaɪn/",
+    "pos": "v",
+    "vi": "giao, phân công",
+    "example": "Teachers should assign tasks that encourage students to think independently rather than memorise facts.",
+    "exampleVi": "Giáo viên nên giao những nhiệm vụ khuyến khích học sinh suy nghĩ độc lập thay vì học thuộc lòng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "allocate",
+      "set"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-345",
+    "word": "attach",
+    "ipa": "/əˈtætʃ/",
+    "pos": "v",
+    "vi": "gắn, coi trọng",
+    "example": "Many employers attach great importance to practical experience as well as academic qualifications.",
+    "exampleVi": "Nhiều nhà tuyển dụng rất coi trọng kinh nghiệm thực tế cũng như bằng cấp học thuật.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "fasten",
+      "link"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-346",
+    "word": "author",
+    "ipa": "/ˈɔːθə/",
+    "pos": "n",
+    "vi": "tác giả",
+    "example": "The author argues that social media has changed the way young people form friendships.",
+    "exampleVi": "Tác giả lập luận rằng mạng xã hội đã thay đổi cách người trẻ xây dựng tình bạn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "writer"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-347",
+    "word": "bond",
+    "ipa": "/bɒnd/",
+    "pos": "n",
+    "vi": "mối gắn kết",
+    "example": "Eating meals together helps strengthen the family bond between parents and children.",
+    "exampleVi": "Ăn cơm cùng nhau giúp củng cố mối gắn kết gia đình giữa cha mẹ và con cái.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "link",
+      "tie"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-348",
+    "word": "brief",
+    "ipa": "/briːf/",
+    "pos": "adj",
+    "vi": "ngắn gọn",
+    "example": "The lecturer gave a brief overview of the main causes of the economic crisis.",
+    "exampleVi": "Giảng viên trình bày tổng quan ngắn gọn về các nguyên nhân chính của cuộc khủng hoảng kinh tế.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "short",
+      "concise"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-350",
+    "word": "cite",
+    "ipa": "/saɪt/",
+    "pos": "v",
+    "vi": "trích dẫn, viện dẫn",
+    "example": "Students must cite every source they use in order to avoid plagiarism.",
+    "exampleVi": "Sinh viên phải trích dẫn mọi nguồn họ sử dụng để tránh đạo văn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "quote",
+      "refer to"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-351",
+    "word": "discriminate",
+    "ipa": "/dɪˈskrɪmɪneɪt/",
+    "pos": "v",
+    "vi": "phân biệt đối xử",
+    "example": "It is illegal for employers to discriminate against applicants on the grounds of age or gender.",
+    "exampleVi": "Việc nhà tuyển dụng phân biệt đối xử ứng viên vì tuổi tác hay giới tính là bất hợp pháp.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "treat unfairly",
+      "segregate"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-352",
+    "word": "display",
+    "ipa": "/dɪˈspleɪ/",
+    "pos": "v",
+    "vi": "thể hiện, trưng bày",
+    "example": "Children who display aggressive behaviour at school often come from unstable family backgrounds.",
+    "exampleVi": "Trẻ có hành vi hung hăng ở trường thường xuất thân từ gia đình không ổn định.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "show",
+      "exhibit"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-353",
+    "word": "domain",
+    "ipa": "/dəˈmeɪn/",
+    "pos": "n",
+    "vi": "lĩnh vực",
+    "example": "Medicine was once the exclusive domain of men, but women now make up the majority of students.",
+    "exampleVi": "Y học từng là lĩnh vực dành riêng cho nam giới, nhưng nay phụ nữ chiếm đa số sinh viên.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "field",
+      "sphere"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-354",
+    "word": "edit",
+    "ipa": "/ˈedɪt/",
+    "pos": "v",
+    "vi": "biên tập, chỉnh sửa",
+    "example": "Writers should carefully edit their essays to remove errors and improve clarity.",
+    "exampleVi": "Người viết nên chỉnh sửa kỹ bài luận để loại bỏ lỗi và làm rõ ý hơn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "revise",
+      "correct"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-355",
+    "word": "estate",
+    "ipa": "/ɪˈsteɪt/",
+    "pos": "n",
+    "vi": "khu đất, tài sản",
+    "example": "Property developers have built a large housing estate on land that was previously farmland.",
+    "exampleVi": "Các nhà phát triển bất động sản đã xây một khu nhà ở lớn trên đất trước đây là đất nông nghiệp.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "property",
+      "development"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-356",
+    "word": "expert",
+    "ipa": "/ˈekspɜːt/",
+    "pos": "n",
+    "vi": "chuyên gia",
+    "example": "Experts warn that the rapid spread of misinformation poses a serious threat to democracy.",
+    "exampleVi": "Các chuyên gia cảnh báo sự lan truyền nhanh của thông tin sai lệch là mối đe dọa nghiêm trọng với nền dân chủ.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "specialist",
+      "authority"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-357",
+    "word": "federal",
+    "ipa": "/ˈfedərəl/",
+    "pos": "adj",
+    "vi": "liên bang",
+    "example": "The federal government has promised to increase funding for public schools across the country.",
+    "exampleVi": "Chính phủ liên bang đã hứa tăng kinh phí cho các trường công trên toàn quốc.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "national",
+      "central"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-358",
+    "word": "fee",
+    "ipa": "/fiː/",
+    "pos": "n",
+    "vi": "học phí, lệ phí",
+    "example": "Rising tuition fees have discouraged many students from low-income families from attending university.",
+    "exampleVi": "Học phí tăng đã làm nản lòng nhiều sinh viên từ gia đình thu nhập thấp theo học đại học.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "charge",
+      "payment"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-359",
+    "word": "gender",
+    "ipa": "/ˈdʒendə/",
+    "pos": "n",
+    "vi": "giới tính",
+    "example": "Gender inequality in the workplace remains a major concern in many countries.",
+    "exampleVi": "Bất bình đẳng giới ở nơi làm việc vẫn là mối quan tâm lớn ở nhiều quốc gia.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "sex"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-360",
+    "word": "ignorance",
+    "ipa": "/ˈɪɡnərəns/",
+    "pos": "n",
+    "vi": "sự thiếu hiểu biết",
+    "example": "Public ignorance about nutrition is a major cause of rising obesity rates.",
+    "exampleVi": "Sự thiếu hiểu biết của công chúng về dinh dưỡng là nguyên nhân chính khiến tỷ lệ béo phì tăng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "lack of knowledge",
+      "unawareness"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-361",
+    "word": "incidence",
+    "ipa": "/ˈɪnsɪdəns/",
+    "pos": "n",
+    "vi": "tỷ lệ mắc, tần suất",
+    "example": "The incidence of heart disease is much higher among people who smoke and take little exercise.",
+    "exampleVi": "Tỷ lệ mắc bệnh tim cao hơn nhiều ở những người hút thuốc và ít vận động.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "frequency",
+      "rate"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-362",
+    "word": "incorporate",
+    "ipa": "/ɪnˈkɔːpəreɪt/",
+    "pos": "v",
+    "vi": "kết hợp, đưa vào",
+    "example": "Schools should incorporate practical life skills into the standard curriculum.",
+    "exampleVi": "Các trường nên đưa kỹ năng sống thực tế vào chương trình học chuẩn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "include",
+      "integrate"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-363",
+    "word": "index",
+    "ipa": "/ˈɪndeks/",
+    "pos": "n",
+    "vi": "chỉ số",
+    "example": "The cost of living index shows that housing prices have risen faster than wages.",
+    "exampleVi": "Chỉ số giá sinh hoạt cho thấy giá nhà tăng nhanh hơn tiền lương.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "indicator",
+      "measure"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-364",
+    "word": "inhibit",
+    "ipa": "/ɪnˈhɪbɪt/",
+    "pos": "v",
+    "vi": "kìm hãm, ngăn cản",
+    "example": "Excessive regulation can inhibit innovation and discourage small businesses from expanding.",
+    "exampleVi": "Quy định quá mức có thể kìm hãm đổi mới và làm nản lòng doanh nghiệp nhỏ mở rộng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "hinder",
+      "restrain"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-365",
+    "word": "initiate",
+    "ipa": "/ɪˈnɪʃieɪt/",
+    "pos": "v",
+    "vi": "khởi xướng",
+    "example": "The council plans to initiate a recycling scheme in every residential area next year.",
+    "exampleVi": "Hội đồng thành phố dự định khởi xướng chương trình tái chế ở mọi khu dân cư vào năm tới.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "launch",
+      "start"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-366",
+    "word": "input",
+    "ipa": "/ˈɪnpʊt/",
+    "pos": "n",
+    "vi": "đóng góp, ý kiến đóng góp",
+    "example": "Local residents should have some input into decisions about new building projects in their area.",
+    "exampleVi": "Người dân địa phương nên có tiếng nói đóng góp vào các quyết định về công trình mới trong khu vực.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "contribution",
+      "feedback"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-367",
+    "word": "instruct",
+    "ipa": "/ɪnˈstrʌkt/",
+    "pos": "v",
+    "vi": "chỉ dẫn, dạy",
+    "example": "Teachers are trained to instruct students in ways that suit different learning styles.",
+    "exampleVi": "Giáo viên được đào tạo để dạy học sinh theo những cách phù hợp với các phong cách học khác nhau.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "teach",
+      "direct"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-368",
+    "word": "intelligence",
+    "ipa": "/ɪnˈtelɪdʒəns/",
+    "pos": "n",
+    "vi": "trí thông minh",
+    "example": "Some researchers believe that intelligence is shaped by both genetic factors and the environment.",
+    "exampleVi": "Một số nhà nghiên cứu tin rằng trí thông minh được hình thành bởi cả yếu tố di truyền lẫn môi trường.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "intellect",
+      "brainpower"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-369",
+    "word": "interval",
+    "ipa": "/ˈɪntəvl/",
+    "pos": "n",
+    "vi": "khoảng thời gian",
+    "example": "Experts recommend short breaks at regular intervals to help students maintain their concentration.",
+    "exampleVi": "Các chuyên gia khuyên nên nghỉ ngắn đều đặn để giúp học sinh duy trì sự tập trung.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "gap",
+      "break"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-370",
+    "word": "migrate",
+    "ipa": "/maɪˈɡreɪt/",
+    "pos": "v",
+    "vi": "di cư",
+    "example": "Many young people migrate from rural areas to cities in search of better jobs.",
+    "exampleVi": "Nhiều người trẻ di cư từ nông thôn ra thành phố để tìm việc làm tốt hơn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "relocate",
+      "move"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-371",
+    "word": "minimum",
+    "ipa": "/ˈmɪnɪməm/",
+    "pos": "adj",
+    "vi": "tối thiểu",
+    "example": "Raising the minimum wage could help reduce poverty among low-paid workers.",
+    "exampleVi": "Tăng mức lương tối thiểu có thể giúp giảm nghèo cho người lao động lương thấp.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "lowest",
+      "least"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-372",
+    "word": "ministry",
+    "ipa": "/ˈmɪnɪstri/",
+    "pos": "n",
+    "vi": "bộ (cơ quan chính phủ)",
+    "example": "The Ministry of Education has introduced a new programme to improve teaching standards.",
+    "exampleVi": "Bộ Giáo dục đã đưa ra chương trình mới nhằm nâng cao chất lượng giảng dạy.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "department"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-373",
+    "word": "motive",
+    "ipa": "/ˈməʊtɪv/",
+    "pos": "n",
+    "vi": "động cơ",
+    "example": "Profit is the main motive behind many companies' decisions to move production overseas.",
+    "exampleVi": "Lợi nhuận là động cơ chính đằng sau quyết định chuyển sản xuất ra nước ngoài của nhiều công ty.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "reason",
+      "incentive"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-374",
+    "word": "overseas",
+    "ipa": "/ˌəʊvəˈsiːz/",
+    "pos": "adj",
+    "vi": "ở nước ngoài",
+    "example": "Overseas students make a significant contribution to the economies of many host countries.",
+    "exampleVi": "Sinh viên quốc tế đóng góp đáng kể cho nền kinh tế của nhiều nước tiếp nhận.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "foreign",
+      "international"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-375",
+    "word": "preceding",
+    "ipa": "/prɪˈsiːdɪŋ/",
+    "pos": "adj",
+    "vi": "đứng trước, trước đó",
+    "example": "Greenhouse gas emissions were higher this year than in any of the preceding decades.",
+    "exampleVi": "Lượng khí thải nhà kính năm nay cao hơn bất kỳ thập kỷ nào trước đó.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "previous",
+      "prior"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-376",
+    "word": "presume",
+    "ipa": "/prɪˈzjuːm/",
+    "pos": "v",
+    "vi": "cho rằng, giả định",
+    "example": "Many people presume that technology will solve environmental problems without any change in behaviour.",
+    "exampleVi": "Nhiều người cho rằng công nghệ sẽ giải quyết vấn đề môi trường mà không cần thay đổi hành vi.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "assume",
+      "suppose"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-377",
+    "word": "rational",
+    "ipa": "/ˈræʃnəl/",
+    "pos": "adj",
+    "vi": "hợp lý, có lý trí",
+    "example": "Consumers do not always make rational choices when they are influenced by advertising.",
+    "exampleVi": "Người tiêu dùng không phải lúc nào cũng đưa ra lựa chọn hợp lý khi bị quảng cáo tác động.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "logical",
+      "reasonable"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-378",
+    "word": "tape",
+    "ipa": "/teɪp/",
+    "pos": "n",
+    "vi": "băng ghi âm, băng ghi hình",
+    "example": "Police used a security tape as evidence to identify the person responsible for the crime.",
+    "exampleVi": "Cảnh sát dùng băng ghi hình an ninh làm bằng chứng để xác định người gây ra tội ác.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "recording"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-379",
+    "word": "trace",
+    "ipa": "/treɪs/",
+    "pos": "v",
+    "vi": "truy ra, lần theo",
+    "example": "Scientists can now trace the origin of many diseases by analysing genetic information.",
+    "exampleVi": "Các nhà khoa học nay có thể truy ra nguồn gốc nhiều bệnh bằng cách phân tích thông tin di truyền.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "track",
+      "track down"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-380",
+    "word": "underlie",
+    "ipa": "/ˌʌndəˈlaɪ/",
+    "pos": "v",
+    "vi": "làm cơ sở, nằm bên dưới",
+    "example": "Poverty and lack of education underlie many of the social problems in large cities.",
+    "exampleVi": "Nghèo đói và thiếu giáo dục là nguyên nhân nền tảng của nhiều vấn đề xã hội ở các thành phố lớn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "form the basis of",
+      "support"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-601",
+    "word": "abstract",
+    "ipa": "/ˈæbstrækt/",
+    "pos": "adj",
+    "vi": "trừu tượng",
+    "example": "Students often struggle to understand abstract concepts without concrete examples from everyday life.",
+    "exampleVi": "Học sinh thường gặp khó khăn khi hiểu các khái niệm trừu tượng nếu không có ví dụ cụ thể từ cuộc sống hằng ngày.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "theoretical",
+      "conceptual"
+    ],
+    "sublist": 6
+  },
+  {
+    "id": "awl-309",
+    "word": "contrary",
+    "ipa": "/ˈkɒntrəri/",
+    "pos": "adj",
+    "vi": "trái ngược",
+    "example": "Contrary to popular belief, many young people are keen to take part in volunteer work.",
+    "exampleVi": "Trái với quan niệm phổ biến, nhiều người trẻ rất hào hứng tham gia hoạt động tình nguyện.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "opposite",
+      "conflicting"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-339",
+    "word": "thesis",
+    "ipa": "/ˈθiːsɪs/",
+    "pos": "n",
+    "vi": "luận điểm, luận văn",
+    "example": "The central thesis of the article is that economic growth does not guarantee greater happiness.",
+    "exampleVi": "Luận điểm trung tâm của bài báo là tăng trưởng kinh tế không đảm bảo hạnh phúc lớn hơn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "argument",
+      "proposition"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-343",
+    "word": "aid",
+    "ipa": "/eɪd/",
+    "pos": "n",
+    "vi": "viện trợ, sự hỗ trợ",
+    "example": "Many developing countries still depend heavily on foreign aid to fund basic healthcare services.",
+    "exampleVi": "Nhiều nước đang phát triển vẫn phụ thuộc nhiều vào viện trợ nước ngoài để chi cho dịch vụ y tế cơ bản.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "assistance",
+      "support"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-602",
+    "word": "adult",
+    "ipa": "/ˈædʌlt/",
+    "pos": "n",
+    "vi": "người trưởng thành",
+    "example": "Adults who return to education often balance study with full-time work and family duties.",
+    "exampleVi": "Người trưởng thành quay lại học tập thường phải cân bằng việc học với công việc toàn thời gian và trách nhiệm gia đình.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "grown-up"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-603",
+    "word": "chemical",
+    "ipa": "/ˈkemɪkl/",
+    "pos": "n",
+    "vi": "hóa chất",
+    "example": "Many farmers rely on chemical fertilisers, which can damage rivers and soil over time.",
+    "exampleVi": "Nhiều nông dân phụ thuộc vào phân bón hóa học, loại có thể gây hại cho sông ngòi và đất theo thời gian.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [],
+    "sublist": 7
+  },
+  {
+    "id": "awl-604",
+    "word": "decade",
+    "ipa": "/ˈdekeɪd/",
+    "pos": "n",
+    "vi": "thập kỷ",
+    "example": "Average life expectancy has risen steadily over the past decade in most developing countries.",
+    "exampleVi": "Tuổi thọ trung bình đã tăng đều đặn trong thập kỷ qua ở hầu hết các nước đang phát triển.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "ten years"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-605",
+    "word": "deny",
+    "ipa": "/dɪˈnaɪ/",
+    "pos": "v",
+    "vi": "từ chối, không cho phép",
+    "example": "Governments should not deny citizens access to affordable healthcare because of their income.",
+    "exampleVi": "Chính phủ không nên từ chối quyền tiếp cận chăm sóc sức khỏe giá phải chăng của người dân vì thu nhập của họ.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "refuse",
+      "withhold"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-606",
+    "word": "dynamic",
+    "ipa": "/daɪˈnæmɪk/",
+    "pos": "adj",
+    "vi": "năng động",
+    "example": "A dynamic economy creates new jobs and encourages young people to start businesses.",
+    "exampleVi": "Một nền kinh tế năng động tạo ra việc làm mới và khuyến khích người trẻ khởi nghiệp.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "energetic",
+      "vibrant"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-607",
+    "word": "file",
+    "ipa": "/faɪl/",
+    "pos": "n",
+    "vi": "hồ sơ",
+    "example": "Employers must keep a confidential file on every employee who works for the company.",
+    "exampleVi": "Nhà tuyển dụng phải lưu một hồ sơ bảo mật về mọi nhân viên làm việc cho công ty.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "record",
+      "dossier"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-608",
+    "word": "foundation",
+    "ipa": "/faʊnˈdeɪʃn/",
+    "pos": "n",
+    "vi": "nền tảng",
+    "example": "A strong education system provides the foundation for long-term economic growth and social stability.",
+    "exampleVi": "Một hệ thống giáo dục vững mạnh tạo nền tảng cho tăng trưởng kinh tế lâu dài và sự ổn định xã hội.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "basis",
+      "groundwork"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-609",
+    "word": "hierarchy",
+    "ipa": "/ˈhaɪərɑːki/",
+    "pos": "n",
+    "vi": "hệ thống cấp bậc",
+    "example": "In traditional companies, a rigid hierarchy often prevents junior staff from sharing creative ideas.",
+    "exampleVi": "Trong các công ty truyền thống, hệ thống cấp bậc cứng nhắc thường ngăn nhân viên cấp dưới chia sẻ ý tưởng sáng tạo.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "chain of command",
+      "ranking"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-610",
+    "word": "ideology",
+    "ipa": "/ˌaɪdiˈɒlədʒi/",
+    "pos": "n",
+    "vi": "hệ tư tưởng",
+    "example": "Political ideology strongly influences how voters judge government policies on tax and welfare.",
+    "exampleVi": "Hệ tư tưởng chính trị ảnh hưởng mạnh đến cách cử tri đánh giá các chính sách thuế và phúc lợi của chính phủ.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "belief system",
+      "doctrine"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-611",
+    "word": "infer",
+    "ipa": "/ɪnˈfɜː/",
+    "pos": "v",
+    "vi": "suy ra, suy luận",
+    "example": "From the survey results, researchers can infer that most young people prefer online shopping.",
+    "exampleVi": "Từ kết quả khảo sát, các nhà nghiên cứu có thể suy ra rằng hầu hết người trẻ thích mua sắm trực tuyến hơn.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "deduce",
+      "conclude"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-612",
+    "word": "paradigm",
+    "ipa": "/ˈpærədaɪm/",
+    "pos": "n",
+    "vi": "mô hình, khuôn mẫu tư duy",
+    "example": "The invention of the internet caused a paradigm shift in how people access information.",
+    "exampleVi": "Sự ra đời của internet đã gây ra một sự thay đổi mô hình trong cách con người tiếp cận thông tin.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "model",
+      "framework"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-613",
+    "word": "quote",
+    "ipa": "/kwəʊt/",
+    "pos": "v",
+    "vi": "trích dẫn",
+    "example": "Writers should always quote their sources accurately to avoid accusations of plagiarism in academic essays.",
+    "exampleVi": "Người viết luôn nên trích dẫn nguồn chính xác để tránh bị cáo buộc đạo văn trong các bài luận học thuật.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "cite"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-614",
+    "word": "release",
+    "ipa": "/rɪˈliːs/",
+    "pos": "v",
+    "vi": "thải ra, xả ra",
+    "example": "Factories that release toxic waste into rivers should face heavy fines from the government.",
+    "exampleVi": "Các nhà máy xả chất thải độc hại ra sông nên bị chính phủ phạt nặng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "discharge",
+      "emit"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-615",
+    "word": "reverse",
+    "ipa": "/rɪˈvɜːs/",
+    "pos": "v",
+    "vi": "đảo ngược",
+    "example": "It is difficult to reverse the damage that deforestation has caused to the climate.",
+    "exampleVi": "Rất khó để đảo ngược những thiệt hại mà nạn phá rừng đã gây ra cho khí hậu.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "undo",
+      "turn around"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-616",
+    "word": "simulation",
+    "ipa": "/ˌsɪmjuˈleɪʃn/",
+    "pos": "n",
+    "vi": "mô phỏng",
+    "example": "Medical students use computer simulation to practise complex operations before treating real patients.",
+    "exampleVi": "Sinh viên y khoa dùng mô phỏng trên máy tính để luyện các ca phẫu thuật phức tạp trước khi điều trị bệnh nhân thật.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "imitation",
+      "model"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-617",
+    "word": "sole",
+    "ipa": "/səʊl/",
+    "pos": "adj",
+    "vi": "duy nhất",
+    "example": "Money should not be the sole measure of a person's success in life.",
+    "exampleVi": "Tiền bạc không nên là thước đo duy nhất cho thành công của một người trong cuộc sống.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "only",
+      "single"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-618",
+    "word": "somewhat",
+    "ipa": "/ˈsʌmwɒt/",
+    "pos": "adv",
+    "vi": "hơi, phần nào",
+    "example": "The results were somewhat surprising, as the new method proved less effective than expected.",
+    "exampleVi": "Kết quả hơi bất ngờ, vì phương pháp mới tỏ ra kém hiệu quả hơn dự kiến.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "rather",
+      "slightly",
+      "fairly"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-619",
+    "word": "submit",
+    "ipa": "/səbˈmɪt/",
+    "pos": "v",
+    "vi": "nộp",
+    "example": "Candidates must submit their written assignments before the deadline to receive a final grade.",
+    "exampleVi": "Thí sinh phải nộp bài tập viết trước thời hạn để nhận điểm cuối cùng.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "hand in",
+      "present"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-620",
+    "word": "survive",
+    "ipa": "/səˈvaɪv/",
+    "pos": "v",
+    "vi": "tồn tại, sống sót",
+    "example": "Many small businesses struggle to survive during an economic recession without government support.",
+    "exampleVi": "Nhiều doanh nghiệp nhỏ chật vật để tồn tại trong thời kỳ suy thoái kinh tế nếu thiếu sự hỗ trợ của chính phủ.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "endure",
+      "persist"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-621",
+    "word": "transmit",
+    "ipa": "/trænzˈmɪt/",
+    "pos": "v",
+    "vi": "truyền (bệnh)",
+    "example": "Mosquitoes can transmit serious diseases such as malaria to people in tropical regions.",
+    "exampleVi": "Muỗi có thể truyền những căn bệnh nghiêm trọng như sốt rét cho người dân ở các vùng nhiệt đới.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "spread",
+      "pass on"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-622",
+    "word": "unique",
+    "ipa": "/juˈniːk/",
+    "pos": "adj",
+    "vi": "độc nhất, đặc trưng",
+    "example": "Every culture has a unique set of traditions that should be preserved for future generations.",
+    "exampleVi": "Mỗi nền văn hóa đều có một hệ thống truyền thống độc đáo cần được bảo tồn cho các thế hệ tương lai.",
+    "level": "B2",
+    "topic": "academic",
+    "synonyms": [
+      "distinctive",
+      "exceptional"
+    ],
+    "sublist": 7
+  },
+  {
+    "id": "awl-301",
+    "word": "accompany",
+    "ipa": "/əˈkʌmpəni/",
+    "pos": "v",
+    "vi": "đi kèm, đồng hành",
+    "example": "Rapid economic growth is often accompanied by serious damage to the natural environment.",
+    "exampleVi": "Tăng trưởng kinh tế nhanh thường đi kèm với tổn hại nghiêm trọng cho môi trường tự nhiên.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "go with",
+      "coincide with"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-303",
+    "word": "append",
+    "ipa": "/əˈpend/",
+    "pos": "v",
+    "vi": "đính kèm, thêm vào",
+    "example": "Researchers must append a full list of references to the end of their report.",
+    "exampleVi": "Các nhà nghiên cứu phải đính kèm danh sách tài liệu tham khảo đầy đủ vào cuối báo cáo.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "attach",
+      "add"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-304",
+    "word": "appreciate",
+    "ipa": "/əˈpriːʃieɪt/",
+    "pos": "v",
+    "vi": "đánh giá cao, hiểu rõ",
+    "example": "Travelling abroad helps young people appreciate the value of cultural diversity and different ways of life.",
+    "exampleVi": "Đi du lịch nước ngoài giúp người trẻ hiểu rõ giá trị của đa dạng văn hóa và các lối sống khác nhau.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "value",
+      "recognise"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-305",
+    "word": "arbitrary",
+    "ipa": "/ˈɑːbɪtrəri/",
+    "pos": "adj",
+    "vi": "tùy tiện, độc đoán",
+    "example": "Critics argue that setting an arbitrary retirement age ignores differences in individual health and ability.",
+    "exampleVi": "Các nhà phê bình cho rằng việc đặt tuổi nghỉ hưu tùy tiện bỏ qua khác biệt về sức khỏe và năng lực từng người.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "random",
+      "capricious"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-306",
+    "word": "chart",
+    "ipa": "/tʃɑːt/",
+    "pos": "n",
+    "vi": "biểu đồ",
+    "example": "The chart shows a steady rise in the number of international students over the past decade.",
+    "exampleVi": "Biểu đồ cho thấy số lượng sinh viên quốc tế tăng đều trong thập kỷ qua.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "graph",
+      "diagram"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-307",
+    "word": "clarify",
+    "ipa": "/ˈklærəfaɪ/",
+    "pos": "v",
+    "vi": "làm rõ",
+    "example": "The government should clarify the rules on data protection so that companies know their responsibilities.",
+    "exampleVi": "Chính phủ nên làm rõ các quy định về bảo vệ dữ liệu để doanh nghiệp biết trách nhiệm của mình.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "explain",
+      "make clear"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-308",
+    "word": "complement",
+    "ipa": "/ˈkɒmplɪment/",
+    "pos": "v",
+    "vi": "bổ sung, bổ trợ",
+    "example": "Online courses can complement traditional classroom teaching rather than replace it entirely.",
+    "exampleVi": "Các khóa học trực tuyến có thể bổ trợ cho việc dạy học truyền thống thay vì thay thế hoàn toàn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "supplement",
+      "complete"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-310",
+    "word": "currency",
+    "ipa": "/ˈkʌrənsi/",
+    "pos": "n",
+    "vi": "tiền tệ",
+    "example": "A sudden fall in the value of the national currency can push up the price of imported goods.",
+    "exampleVi": "Việc đồng tiền quốc gia mất giá đột ngột có thể đẩy giá hàng nhập khẩu lên cao.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "money"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-311",
+    "word": "denote",
+    "ipa": "/dɪˈnəʊt/",
+    "pos": "v",
+    "vi": "biểu thị, có nghĩa là",
+    "example": "In economics, the term inflation denotes a general rise in prices across an entire economy.",
+    "exampleVi": "Trong kinh tế học, thuật ngữ lạm phát biểu thị sự tăng giá chung trên toàn bộ nền kinh tế.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "indicate",
+      "signify"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-312",
+    "word": "detect",
+    "ipa": "/dɪˈtekt/",
+    "pos": "v",
+    "vi": "phát hiện",
+    "example": "Modern screening programmes make it possible to detect cancer at a much earlier stage.",
+    "exampleVi": "Các chương trình sàng lọc hiện đại giúp phát hiện ung thư ở giai đoạn sớm hơn nhiều.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "discover",
+      "identify"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-313",
+    "word": "deviate",
+    "ipa": "/ˈdiːvieɪt/",
+    "pos": "v",
+    "vi": "lệch khỏi, đi chệch",
+    "example": "Students who deviate from the standard format may lose marks in formal examinations.",
+    "exampleVi": "Học sinh đi chệch khỏi định dạng chuẩn có thể bị mất điểm trong các kỳ thi chính thức.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "diverge",
+      "depart"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-314",
+    "word": "displace",
+    "ipa": "/dɪsˈpleɪs/",
+    "pos": "v",
+    "vi": "thay thế, buộc phải rời bỏ",
+    "example": "Automation could displace millions of workers in manufacturing over the next twenty years.",
+    "exampleVi": "Tự động hóa có thể thay thế hàng triệu công nhân ngành sản xuất trong hai mươi năm tới.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "replace",
+      "uproot"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-315",
+    "word": "drama",
+    "ipa": "/ˈdrɑːmə/",
+    "pos": "n",
+    "vi": "kịch, nghệ thuật sân khấu",
+    "example": "Studying drama at school can build confidence and improve students' communication skills.",
+    "exampleVi": "Học môn kịch ở trường có thể xây dựng sự tự tin và cải thiện kỹ năng giao tiếp của học sinh.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "theatre",
+      "play"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-316",
+    "word": "eventual",
+    "ipa": "/ɪˈventʃuəl/",
+    "pos": "adj",
+    "vi": "cuối cùng, rốt cuộc",
+    "example": "The eventual outcome of the policy was a significant reduction in traffic congestion.",
+    "exampleVi": "Kết quả cuối cùng của chính sách là giảm đáng kể tình trạng ùn tắc giao thông.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "final",
+      "ultimate"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-317",
+    "word": "exhibit",
+    "ipa": "/ɪɡˈzɪbɪt/",
+    "pos": "v",
+    "vi": "biểu hiện, trưng bày",
+    "example": "Children who exhibit signs of stress should receive support from teachers and parents.",
+    "exampleVi": "Trẻ em có biểu hiện căng thẳng cần nhận được sự hỗ trợ từ giáo viên và cha mẹ.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "show",
+      "display"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-318",
+    "word": "guideline",
+    "ipa": "/ˈɡaɪdlaɪn/",
+    "pos": "n",
+    "vi": "hướng dẫn, nguyên tắc chỉ đạo",
+    "example": "Health authorities have issued new guidelines on the amount of sugar people should consume daily.",
+    "exampleVi": "Cơ quan y tế đã ban hành hướng dẫn mới về lượng đường mà mọi người nên tiêu thụ mỗi ngày.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "rule",
+      "recommendation"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-319",
+    "word": "highlight",
+    "ipa": "/ˈhaɪlaɪt/",
+    "pos": "v",
+    "vi": "làm nổi bật, nhấn mạnh",
+    "example": "The report highlights the need for greater investment in public transport in major cities.",
+    "exampleVi": "Báo cáo nhấn mạnh nhu cầu đầu tư nhiều hơn vào giao thông công cộng ở các thành phố lớn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "emphasise",
+      "stress"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-320",
+    "word": "implicit",
+    "ipa": "/ɪmˈplɪsɪt/",
+    "pos": "adj",
+    "vi": "ngầm, không nói ra",
+    "example": "There is an implicit assumption that higher education always leads to better job opportunities.",
+    "exampleVi": "Có một giả định ngầm rằng giáo dục đại học luôn dẫn đến cơ hội việc làm tốt hơn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "implied",
+      "unspoken"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-321",
+    "word": "induce",
+    "ipa": "/ɪnˈdjuːs/",
+    "pos": "v",
+    "vi": "gây ra, thúc đẩy",
+    "example": "Long working hours can induce stress and reduce overall productivity in the workplace.",
+    "exampleVi": "Làm việc nhiều giờ có thể gây ra căng thẳng và làm giảm năng suất chung tại nơi làm việc.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "cause",
+      "bring about"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-322",
+    "word": "inspect",
+    "ipa": "/ɪnˈspekt/",
+    "pos": "v",
+    "vi": "kiểm tra, thanh tra",
+    "example": "Officials regularly inspect factories to ensure that safety regulations are being followed.",
+    "exampleVi": "Các quan chức thường xuyên kiểm tra nhà máy để đảm bảo các quy định an toàn được tuân thủ.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "examine",
+      "check"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-323",
+    "word": "manipulate",
+    "ipa": "/məˈnɪpjuleɪt/",
+    "pos": "v",
+    "vi": "thao túng, điều khiển",
+    "example": "Some advertisers manipulate children's emotions in order to persuade them to ask for unhealthy snacks.",
+    "exampleVi": "Một số nhà quảng cáo thao túng cảm xúc trẻ em để thuyết phục chúng đòi đồ ăn vặt không lành mạnh.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "exploit",
+      "influence"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-324",
+    "word": "minimise",
+    "ipa": "/ˈmɪnɪmaɪz/",
+    "pos": "v",
+    "vi": "giảm thiểu",
+    "example": "Governments should act quickly to minimise the harmful effects of air pollution on public health.",
+    "exampleVi": "Chính phủ nên hành động nhanh để giảm thiểu tác hại của ô nhiễm không khí đối với sức khỏe cộng đồng.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "reduce",
+      "lessen"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-325",
+    "word": "nuclear",
+    "ipa": "/ˈnjuːkliə/",
+    "pos": "adj",
+    "vi": "hạt nhân",
+    "example": "Supporters claim that nuclear power can supply large amounts of energy without producing carbon emissions.",
+    "exampleVi": "Những người ủng hộ cho rằng điện hạt nhân có thể cung cấp nhiều năng lượng mà không thải ra carbon.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "atomic"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-326",
+    "word": "offset",
+    "ipa": "/ˈɒfset/",
+    "pos": "v",
+    "vi": "bù đắp, cân bằng",
+    "example": "Planting trees cannot fully offset the carbon dioxide released by heavy industry.",
+    "exampleVi": "Việc trồng cây không thể bù đắp hoàn toàn lượng khí carbon dioxide do công nghiệp nặng thải ra.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "counterbalance",
+      "compensate for"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-327",
+    "word": "paragraph",
+    "ipa": "/ˈpærəɡrɑːf/",
+    "pos": "n",
+    "vi": "đoạn văn",
+    "example": "Each paragraph in an essay should develop one main idea supported by relevant examples.",
+    "exampleVi": "Mỗi đoạn văn trong bài luận nên phát triển một ý chính được hỗ trợ bằng các ví dụ phù hợp.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "section",
+      "passage"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-328",
+    "word": "plus",
+    "ipa": "/plʌs/",
+    "pos": "n",
+    "vi": "ưu điểm, điểm cộng",
+    "example": "Speaking a second language is a distinct plus for graduates seeking work in international companies.",
+    "exampleVi": "Biết thêm một ngoại ngữ là một lợi thế rõ rệt cho sinh viên tốt nghiệp muốn làm cho công ty quốc tế.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "advantage",
+      "bonus"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-329",
+    "word": "practitioner",
+    "ipa": "/prækˈtɪʃənə/",
+    "pos": "n",
+    "vi": "người hành nghề",
+    "example": "General practitioners are often the first point of contact for patients seeking medical advice.",
+    "exampleVi": "Bác sĩ đa khoa thường là đầu mối liên hệ đầu tiên của bệnh nhân cần tư vấn y tế.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "professional",
+      "specialist"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-330",
+    "word": "prospect",
+    "ipa": "/ˈprɒspekt/",
+    "pos": "n",
+    "vi": "triển vọng, viễn cảnh",
+    "example": "The prospect of losing their jobs to machines worries many workers in the manufacturing sector.",
+    "exampleVi": "Viễn cảnh mất việc vào tay máy móc khiến nhiều công nhân ngành sản xuất lo lắng.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "outlook",
+      "possibility"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-331",
+    "word": "radical",
+    "ipa": "/ˈrædɪkl/",
+    "pos": "adj",
+    "vi": "triệt để, căn bản",
+    "example": "Solving the housing crisis may require radical changes to the way cities are planned.",
+    "exampleVi": "Giải quyết khủng hoảng nhà ở có thể đòi hỏi những thay đổi căn bản trong cách quy hoạch đô thị.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "drastic",
+      "fundamental"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-332",
+    "word": "random",
+    "ipa": "/ˈrændəm/",
+    "pos": "adj",
+    "vi": "ngẫu nhiên",
+    "example": "The researchers selected a random sample of five hundred households for the survey.",
+    "exampleVi": "Các nhà nghiên cứu chọn một mẫu ngẫu nhiên gồm năm trăm hộ gia đình cho cuộc khảo sát.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "arbitrary",
+      "chance"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-333",
+    "word": "restore",
+    "ipa": "/rɪˈstɔː/",
+    "pos": "v",
+    "vi": "khôi phục, phục hồi",
+    "example": "Governments must invest in projects that restore damaged ecosystems such as wetlands and coral reefs.",
+    "exampleVi": "Chính phủ phải đầu tư vào các dự án khôi phục hệ sinh thái bị tổn hại như đất ngập nước và rạn san hô.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "revive",
+      "rebuild"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-334",
+    "word": "revise",
+    "ipa": "/rɪˈvaɪz/",
+    "pos": "v",
+    "vi": "sửa đổi, ôn lại",
+    "example": "Universities should revise their courses regularly to reflect changes in the modern job market.",
+    "exampleVi": "Các trường đại học nên thường xuyên sửa đổi chương trình học để phản ánh thay đổi của thị trường việc làm.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "amend",
+      "update"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-335",
+    "word": "schedule",
+    "ipa": "/ˈʃedjuːl/",
+    "pos": "n",
+    "vi": "lịch trình, thời gian biểu",
+    "example": "Many students struggle to balance a demanding study schedule with part-time work.",
+    "exampleVi": "Nhiều sinh viên khó cân bằng thời gian biểu học tập dày đặc với công việc bán thời gian.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "timetable",
+      "programme"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-336",
+    "word": "tense",
+    "ipa": "/tens/",
+    "pos": "adj",
+    "vi": "căng thẳng",
+    "example": "Competition for limited resources has made relations between the two neighbouring countries increasingly tense.",
+    "exampleVi": "Cạnh tranh về nguồn lực hạn chế đã khiến quan hệ giữa hai nước láng giềng ngày càng căng thẳng.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "strained",
+      "stressful"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-337",
+    "word": "terminate",
+    "ipa": "/ˈtɜːmɪneɪt/",
+    "pos": "v",
+    "vi": "chấm dứt",
+    "example": "Employers may terminate a contract if workers repeatedly fail to meet the agreed standards.",
+    "exampleVi": "Người sử dụng lao động có thể chấm dứt hợp đồng nếu người lao động liên tục không đạt tiêu chuẩn đã thỏa thuận.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "end",
+      "cancel"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-338",
+    "word": "theme",
+    "ipa": "/θiːm/",
+    "pos": "n",
+    "vi": "chủ đề",
+    "example": "Climate change is a recurring theme in debates about the future of the global economy.",
+    "exampleVi": "Biến đổi khí hậu là chủ đề lặp đi lặp lại trong các cuộc tranh luận về tương lai nền kinh tế toàn cầu.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "topic",
+      "subject"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-623",
+    "word": "conform",
+    "ipa": "/kənˈfɔːm/",
+    "pos": "v",
+    "vi": "tuân theo, làm theo",
+    "example": "Young people often feel pressure to conform to the expectations of their peers.",
+    "exampleVi": "Người trẻ thường cảm thấy áp lực phải làm theo kỳ vọng của bạn bè đồng trang lứa.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "comply",
+      "adapt"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-624",
+    "word": "vehicle",
+    "ipa": "/ˈviːəkl/",
+    "pos": "n",
+    "vi": "phương tiện giao thông",
+    "example": "Reducing private vehicle use in city centres would cut air pollution significantly.",
+    "exampleVi": "Giảm việc sử dụng phương tiện cá nhân ở trung tâm thành phố sẽ cắt giảm đáng kể ô nhiễm không khí.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "car",
+      "transport"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-625",
+    "word": "visual",
+    "ipa": "/ˈvɪʒuəl/",
+    "pos": "adj",
+    "vi": "trực quan, thị giác",
+    "example": "Visual aids such as charts and diagrams help students remember complex information more easily.",
+    "exampleVi": "Các công cụ trực quan như biểu đồ và sơ đồ giúp học sinh ghi nhớ thông tin phức tạp dễ dàng hơn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "optical"
+    ],
+    "sublist": 8
+  },
+  {
+    "id": "awl-340",
+    "word": "trigger",
+    "ipa": "/ˈtrɪɡə/",
+    "pos": "v",
+    "vi": "gây ra, kích hoạt",
+    "example": "A sharp rise in oil prices can trigger inflation in many sectors of the economy.",
+    "exampleVi": "Giá dầu tăng mạnh có thể gây ra lạm phát ở nhiều lĩnh vực của nền kinh tế.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "cause",
+      "spark"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-381",
+    "word": "accommodate",
+    "ipa": "/əˈkɒmədeɪt/",
+    "pos": "v",
+    "vi": "đáp ứng, cung cấp chỗ ở",
+    "example": "Cities must build more housing to accommodate the growing number of people moving from rural areas.",
+    "exampleVi": "Các thành phố phải xây thêm nhà ở để đáp ứng số người ngày càng tăng chuyển từ nông thôn lên.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "house",
+      "cater for"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-382",
+    "word": "analogy",
+    "ipa": "/əˈnælədʒi/",
+    "pos": "n",
+    "vi": "phép so sánh tương đồng",
+    "example": "The writer draws an analogy between the human brain and a powerful computer.",
+    "exampleVi": "Tác giả so sánh tương đồng giữa bộ não con người và một chiếc máy tính mạnh.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "comparison",
+      "parallel"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-383",
+    "word": "assure",
+    "ipa": "/əˈʃɔː/",
+    "pos": "v",
+    "vi": "đảm bảo, cam đoan",
+    "example": "The government has tried to assure the public that drinking water is safe.",
+    "exampleVi": "Chính phủ đã cố cam đoan với công chúng rằng nước uống là an toàn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "guarantee",
+      "reassure"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-384",
+    "word": "attain",
+    "ipa": "/əˈteɪn/",
+    "pos": "v",
+    "vi": "đạt được",
+    "example": "Students from poorer families often find it harder to attain high academic standards.",
+    "exampleVi": "Học sinh từ gia đình nghèo hơn thường khó đạt được chuẩn học thuật cao hơn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "achieve",
+      "reach"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-385",
+    "word": "behalf",
+    "ipa": "/bɪˈhɑːf/",
+    "pos": "n",
+    "vi": "thay mặt, nhân danh",
+    "example": "Charities campaign on behalf of people who cannot speak for themselves.",
+    "exampleVi": "Các tổ chức từ thiện vận động thay mặt những người không thể tự lên tiếng.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "representation",
+      "interest"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-386",
+    "word": "bulk",
+    "ipa": "/bʌlk/",
+    "pos": "n",
+    "vi": "phần lớn, số đông",
+    "example": "The bulk of the country's electricity is still generated by burning coal.",
+    "exampleVi": "Phần lớn điện năng của quốc gia này vẫn được tạo ra bằng cách đốt than.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "majority",
+      "most"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-387",
+    "word": "cease",
+    "ipa": "/siːs/",
+    "pos": "v",
+    "vi": "ngừng, chấm dứt",
+    "example": "Many small shops have ceased trading since large supermarkets opened nearby.",
+    "exampleVi": "Nhiều cửa hàng nhỏ đã ngừng kinh doanh kể từ khi siêu thị lớn mở gần đó.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "stop",
+      "halt"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-388",
+    "word": "coherence",
+    "ipa": "/kəʊˈhɪərəns/",
+    "pos": "n",
+    "vi": "tính mạch lạc",
+    "example": "Good essays show clear coherence, with each idea logically connected to the next.",
+    "exampleVi": "Bài luận tốt có tính mạch lạc rõ ràng, mỗi ý liên kết hợp lý với ý tiếp theo.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "consistency",
+      "unity"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-389",
+    "word": "coincide",
+    "ipa": "/ˌkəʊɪnˈsaɪd/",
+    "pos": "v",
+    "vi": "trùng hợp, xảy ra đồng thời",
+    "example": "The rise in obesity has coincided with a decline in physical activity among children.",
+    "exampleVi": "Sự gia tăng béo phì đã diễn ra đồng thời với việc trẻ em ít vận động hơn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "occur together",
+      "correspond"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-390",
+    "word": "commence",
+    "ipa": "/kəˈmens/",
+    "pos": "v",
+    "vi": "bắt đầu",
+    "example": "Construction of the new railway line is due to commence early next year.",
+    "exampleVi": "Việc xây dựng tuyến đường sắt mới dự kiến bắt đầu vào đầu năm sau.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "begin",
+      "start"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-391",
+    "word": "compatible",
+    "ipa": "/kəmˈpætəbl/",
+    "pos": "adj",
+    "vi": "tương thích, phù hợp",
+    "example": "Economic growth is not always compatible with the protection of the natural environment.",
+    "exampleVi": "Tăng trưởng kinh tế không phải lúc nào cũng phù hợp với việc bảo vệ môi trường tự nhiên.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "consistent",
+      "suited"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-392",
+    "word": "concurrent",
+    "ipa": "/kənˈkʌrənt/",
+    "pos": "adj",
+    "vi": "đồng thời",
+    "example": "Students who take concurrent courses in two subjects often struggle to keep up with the workload.",
+    "exampleVi": "Sinh viên học đồng thời hai môn thường vất vả theo kịp khối lượng bài vở.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "simultaneous",
+      "parallel"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-393",
+    "word": "confine",
+    "ipa": "/kənˈfaɪn/",
+    "pos": "v",
+    "vi": "giới hạn, hạn chế",
+    "example": "Some teachers confine their lessons to textbooks, which limits students' creativity.",
+    "exampleVi": "Một số giáo viên chỉ giới hạn bài giảng trong sách giáo khoa, điều này hạn chế sự sáng tạo của học sinh.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "restrict",
+      "limit"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-394",
+    "word": "controversy",
+    "ipa": "/ˈkɒntrəvɜːsi/",
+    "pos": "n",
+    "vi": "tranh cãi",
+    "example": "There is considerable controversy over whether zoos should be allowed to keep wild animals.",
+    "exampleVi": "Có nhiều tranh cãi về việc có nên cho phép sở thú nuôi giữ động vật hoang dã hay không.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "dispute",
+      "debate"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-395",
+    "word": "converse",
+    "ipa": "/ˈkɒnvɜːs/",
+    "pos": "adj",
+    "vi": "ngược lại",
+    "example": "The converse is also true: people who sleep well tend to perform better at work.",
+    "exampleVi": "Điều ngược lại cũng đúng: người ngủ ngon thường làm việc hiệu quả hơn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "opposite",
+      "reverse"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-396",
+    "word": "devote",
+    "ipa": "/dɪˈvəʊt/",
+    "pos": "v",
+    "vi": "dành, cống hiến",
+    "example": "Parents who devote time to their children's education usually see better academic results.",
+    "exampleVi": "Cha mẹ dành thời gian cho việc học của con thường thấy kết quả học tập tốt hơn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "dedicate",
+      "commit"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-397",
+    "word": "diminish",
+    "ipa": "/dɪˈmɪnɪʃ/",
+    "pos": "v",
+    "vi": "giảm bớt",
+    "example": "Overuse of smartphones can diminish the quality of face-to-face communication within families.",
+    "exampleVi": "Lạm dụng điện thoại thông minh có thể làm giảm chất lượng giao tiếp trực tiếp trong gia đình.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "reduce",
+      "decrease"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-398",
+    "word": "distort",
+    "ipa": "/dɪˈstɔːt/",
+    "pos": "v",
+    "vi": "bóp méo, xuyên tạc",
+    "example": "Biased reporting can distort public perception of important political issues.",
+    "exampleVi": "Đưa tin thiên lệch có thể bóp méo nhận thức của công chúng về các vấn đề chính trị quan trọng.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "twist",
+      "misrepresent"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-399",
+    "word": "duration",
+    "ipa": "/djʊˈreɪʃn/",
+    "pos": "n",
+    "vi": "khoảng thời gian kéo dài",
+    "example": "The duration of the course has been extended from two years to three years.",
+    "exampleVi": "Thời gian của khóa học đã được kéo dài từ hai năm lên ba năm.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "length",
+      "period"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-400",
+    "word": "erode",
+    "ipa": "/ɪˈrəʊd/",
+    "pos": "v",
+    "vi": "bào mòn, xói mòn",
+    "example": "Heavy rainfall and deforestation can erode fertile soil and reduce crop yields.",
+    "exampleVi": "Mưa lớn và nạn phá rừng có thể xói mòn đất màu mỡ và làm giảm năng suất cây trồng.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "wear away",
+      "undermine"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-401",
+    "word": "ethic",
+    "ipa": "/ˈeθɪk/",
+    "pos": "n",
+    "vi": "đạo đức, quy tắc đạo đức",
+    "example": "A strong work ethic is one of the qualities most valued by employers.",
+    "exampleVi": "Tinh thần làm việc nghiêm túc là một trong những phẩm chất nhà tuyển dụng đánh giá cao nhất.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "principle",
+      "moral code"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-402",
+    "word": "format",
+    "ipa": "/ˈfɔːmæt/",
+    "pos": "n",
+    "vi": "định dạng, hình thức",
+    "example": "The format of the exam has changed, with more emphasis on practical skills.",
+    "exampleVi": "Hình thức của kỳ thi đã thay đổi, chú trọng hơn vào kỹ năng thực hành.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "layout",
+      "structure"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-403",
+    "word": "found",
+    "ipa": "/faʊnd/",
+    "pos": "v",
+    "vi": "thành lập, sáng lập",
+    "example": "Many successful entrepreneurs found their companies while they are still university students.",
+    "exampleVi": "Nhiều doanh nhân thành đạt thành lập công ty khi vẫn còn là sinh viên đại học.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "establish",
+      "set up"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-404",
+    "word": "insight",
+    "ipa": "/ˈɪnsaɪt/",
+    "pos": "n",
+    "vi": "sự thấu hiểu, cái nhìn sâu sắc",
+    "example": "The study offers valuable insights into how young people use social media.",
+    "exampleVi": "Nghiên cứu mang lại những hiểu biết sâu sắc có giá trị về cách người trẻ sử dụng mạng xã hội.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "understanding",
+      "perception"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-405",
+    "word": "integral",
+    "ipa": "/ˈɪntɪɡrəl/",
+    "pos": "adj",
+    "vi": "không thể thiếu, thiết yếu",
+    "example": "Physical education should be an integral part of the school curriculum.",
+    "exampleVi": "Giáo dục thể chất nên là một phần không thể thiếu của chương trình học ở trường.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "essential",
+      "fundamental"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-406",
+    "word": "intermediate",
+    "ipa": "/ˌɪntəˈmiːdiət/",
+    "pos": "adj",
+    "vi": "trung cấp, trung gian",
+    "example": "Learners at an intermediate level often need more opportunities to practise speaking with native speakers.",
+    "exampleVi": "Người học trình độ trung cấp thường cần thêm cơ hội luyện nói với người bản ngữ.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "middle",
+      "mid-level"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-407",
+    "word": "manual",
+    "ipa": "/ˈmænjuəl/",
+    "pos": "adj",
+    "vi": "thủ công, bằng tay",
+    "example": "Automation is replacing manual labour in many factories across the world.",
+    "exampleVi": "Tự động hóa đang thay thế lao động thủ công ở nhiều nhà máy trên thế giới.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "hand-operated",
+      "physical"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-408",
+    "word": "mature",
+    "ipa": "/məˈtʃʊə/",
+    "pos": "adj",
+    "vi": "trưởng thành",
+    "example": "Mature students often bring valuable life experience to university classrooms.",
+    "exampleVi": "Sinh viên lớn tuổi thường mang đến lớp học đại học những kinh nghiệm sống quý giá.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "adult",
+      "grown-up"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-409",
+    "word": "mediate",
+    "ipa": "/ˈmiːdieɪt/",
+    "pos": "v",
+    "vi": "hòa giải",
+    "example": "International organisations sometimes mediate between countries that are in conflict.",
+    "exampleVi": "Các tổ chức quốc tế đôi khi hòa giải giữa những quốc gia đang xung đột.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "arbitrate",
+      "intervene"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-410",
+    "word": "medium",
+    "ipa": "/ˈmiːdiəm/",
+    "pos": "n",
+    "vi": "phương tiện",
+    "example": "Television remains an effective medium for reaching older audiences with public health messages.",
+    "exampleVi": "Truyền hình vẫn là phương tiện hiệu quả để đưa thông điệp y tế công cộng đến khán giả lớn tuổi.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "means",
+      "channel"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-411",
+    "word": "military",
+    "ipa": "/ˈmɪlətri/",
+    "pos": "adj",
+    "vi": "quân sự",
+    "example": "Critics argue that governments spend too much on military equipment and too little on education.",
+    "exampleVi": "Các nhà phê bình cho rằng chính phủ chi quá nhiều cho trang thiết bị quân sự và quá ít cho giáo dục.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "armed",
+      "defence"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-412",
+    "word": "minimal",
+    "ipa": "/ˈmɪnɪml/",
+    "pos": "adj",
+    "vi": "tối thiểu, rất ít",
+    "example": "Online shopping has had minimal impact on the sales of some traditional local markets.",
+    "exampleVi": "Mua sắm trực tuyến chỉ tác động rất ít đến doanh số của một số chợ truyền thống địa phương.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "negligible",
+      "slight"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-413",
+    "word": "overlap",
+    "ipa": "/ˌəʊvəˈlæp/",
+    "pos": "v",
+    "vi": "chồng chéo, trùng lặp",
+    "example": "The responsibilities of the two government departments overlap, which leads to confusion.",
+    "exampleVi": "Trách nhiệm của hai cơ quan chính phủ chồng chéo nhau, gây ra sự nhầm lẫn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "coincide",
+      "duplicate"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-414",
+    "word": "passive",
+    "ipa": "/ˈpæsɪv/",
+    "pos": "adj",
+    "vi": "thụ động",
+    "example": "Watching television is a passive activity that does little to develop children's thinking skills.",
+    "exampleVi": "Xem truyền hình là hoạt động thụ động và ít giúp phát triển kỹ năng tư duy của trẻ.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "inactive",
+      "submissive"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-415",
+    "word": "portion",
+    "ipa": "/ˈpɔːʃn/",
+    "pos": "n",
+    "vi": "phần",
+    "example": "A large portion of household income is spent on housing in major cities.",
+    "exampleVi": "Một phần lớn thu nhập hộ gia đình được chi cho nhà ở tại các thành phố lớn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "part",
+      "share"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-416",
+    "word": "preliminary",
+    "ipa": "/prɪˈlɪmɪnəri/",
+    "pos": "adj",
+    "vi": "sơ bộ",
+    "example": "Preliminary results suggest that the new treatment is safe and effective.",
+    "exampleVi": "Kết quả sơ bộ cho thấy phương pháp điều trị mới an toàn và hiệu quả.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "initial",
+      "introductory"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-417",
+    "word": "protocol",
+    "ipa": "/ˈprəʊtəkɒl/",
+    "pos": "n",
+    "vi": "quy trình, nghị định thư",
+    "example": "Hospitals follow strict protocols to prevent infections from spreading between patients.",
+    "exampleVi": "Các bệnh viện tuân theo quy trình nghiêm ngặt để ngăn nhiễm trùng lây giữa các bệnh nhân.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "procedure",
+      "code of conduct"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-418",
+    "word": "qualitative",
+    "ipa": "/ˈkwɒlɪtətɪv/",
+    "pos": "adj",
+    "vi": "định tính",
+    "example": "The study combined qualitative interviews with a large quantitative survey of workers.",
+    "exampleVi": "Nghiên cứu kết hợp các cuộc phỏng vấn định tính với một khảo sát định lượng lớn về người lao động.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "descriptive"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-419",
+    "word": "refine",
+    "ipa": "/rɪˈfaɪn/",
+    "pos": "v",
+    "vi": "tinh chỉnh, hoàn thiện",
+    "example": "Researchers continue to refine their methods in order to obtain more accurate results.",
+    "exampleVi": "Các nhà nghiên cứu tiếp tục hoàn thiện phương pháp để thu được kết quả chính xác hơn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "improve",
+      "polish"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-420",
+    "word": "relax",
+    "ipa": "/rɪˈlæks/",
+    "pos": "v",
+    "vi": "nới lỏng, thư giãn",
+    "example": "Several countries have decided to relax the rules on working from home.",
+    "exampleVi": "Một số quốc gia đã quyết định nới lỏng các quy định về làm việc tại nhà.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "ease",
+      "loosen"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-421",
+    "word": "restrain",
+    "ipa": "/rɪˈstreɪn/",
+    "pos": "v",
+    "vi": "kiềm chế, hạn chế",
+    "example": "Governments should restrain rising food prices to protect low-income households.",
+    "exampleVi": "Chính phủ nên kiềm chế đà tăng giá lương thực để bảo vệ các hộ thu nhập thấp.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "curb",
+      "limit"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-422",
+    "word": "revolution",
+    "ipa": "/ˌrevəˈluːʃn/",
+    "pos": "n",
+    "vi": "cuộc cách mạng",
+    "example": "The digital revolution has transformed the way people work, shop and communicate.",
+    "exampleVi": "Cuộc cách mạng số đã thay đổi cách con người làm việc, mua sắm và giao tiếp.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "upheaval",
+      "transformation"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-423",
+    "word": "rigid",
+    "ipa": "/ˈrɪdʒɪd/",
+    "pos": "adj",
+    "vi": "cứng nhắc",
+    "example": "Rigid working hours make it hard for parents to look after young children.",
+    "exampleVi": "Giờ làm việc cứng nhắc khiến cha mẹ khó chăm sóc con nhỏ.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "inflexible",
+      "strict"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-424",
+    "word": "route",
+    "ipa": "/ruːt/",
+    "pos": "n",
+    "vi": "tuyến đường, con đường",
+    "example": "Cycling is the quickest route to reducing traffic congestion in crowded city centres.",
+    "exampleVi": "Đi xe đạp là con đường nhanh nhất để giảm ùn tắc giao thông ở trung tâm thành phố đông đúc.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "path",
+      "way"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-425",
+    "word": "scenario",
+    "ipa": "/səˈnɑːriəʊ/",
+    "pos": "n",
+    "vi": "kịch bản, tình huống",
+    "example": "In the worst-case scenario, rising sea levels could force millions of people to leave coastal areas.",
+    "exampleVi": "Trong kịch bản xấu nhất, mực nước biển dâng có thể buộc hàng triệu người rời vùng ven biển.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "situation",
+      "possibility"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-426",
+    "word": "sphere",
+    "ipa": "/sfɪə/",
+    "pos": "n",
+    "vi": "lĩnh vực, phạm vi",
+    "example": "Women are now active in every sphere of public life, including politics and business.",
+    "exampleVi": "Phụ nữ nay hoạt động tích cực trong mọi lĩnh vực đời sống xã hội, kể cả chính trị và kinh doanh.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "domain",
+      "area"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-427",
+    "word": "subordinate",
+    "ipa": "/səˈbɔːdɪnət/",
+    "pos": "adj",
+    "vi": "phụ thuộc, cấp dưới",
+    "example": "In some societies, women are still treated as subordinate to men in family decisions.",
+    "exampleVi": "Ở một số xã hội, phụ nữ vẫn bị coi là phụ thuộc vào nam giới trong các quyết định gia đình.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "inferior",
+      "secondary"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-428",
+    "word": "suspend",
+    "ipa": "/səˈspend/",
+    "pos": "v",
+    "vi": "đình chỉ, tạm ngừng",
+    "example": "Schools may suspend students who repeatedly break the rules of conduct.",
+    "exampleVi": "Các trường có thể đình chỉ học sinh liên tục vi phạm nội quy.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "halt",
+      "postpone"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-429",
+    "word": "temporary",
+    "ipa": "/ˈtemprəri/",
+    "pos": "adj",
+    "vi": "tạm thời",
+    "example": "Temporary contracts give workers little job security and discourage long-term financial planning.",
+    "exampleVi": "Hợp đồng tạm thời cho người lao động rất ít sự ổn định việc làm và cản trở lập kế hoạch tài chính lâu dài.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "short-term",
+      "provisional"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-430",
+    "word": "unify",
+    "ipa": "/ˈjuːnɪfaɪ/",
+    "pos": "v",
+    "vi": "thống nhất, hợp nhất",
+    "example": "Shared festivals and traditions can unify people from different ethnic backgrounds.",
+    "exampleVi": "Các lễ hội và truyền thống chung có thể thống nhất những người thuộc các nhóm dân tộc khác nhau.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "unite",
+      "combine"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-431",
+    "word": "vision",
+    "ipa": "/ˈvɪʒn/",
+    "pos": "n",
+    "vi": "tầm nhìn",
+    "example": "Successful leaders need a clear vision of how their organisation should develop in the future.",
+    "exampleVi": "Nhà lãnh đạo thành công cần một tầm nhìn rõ ràng về hướng phát triển tương lai của tổ chức.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "foresight",
+      "outlook"
+    ],
+    "sublist": 9
+  },
+  {
+    "id": "awl-432",
+    "word": "adjacent",
+    "ipa": "/əˈdʒeɪsnt/",
+    "pos": "adj",
+    "vi": "liền kề, kế bên",
+    "example": "Land adjacent to major highways is often unsuitable for housing because of noise and pollution.",
+    "exampleVi": "Đất liền kề các đường cao tốc lớn thường không phù hợp để xây nhà vì tiếng ồn và ô nhiễm.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "neighbouring",
+      "next to"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-433",
+    "word": "assemble",
+    "ipa": "/əˈsembl/",
+    "pos": "v",
+    "vi": "lắp ráp, tập hợp",
+    "example": "Workers in the factory assemble thousands of electronic devices every day.",
+    "exampleVi": "Công nhân trong nhà máy lắp ráp hàng nghìn thiết bị điện tử mỗi ngày.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "put together",
+      "gather"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-434",
+    "word": "collapse",
+    "ipa": "/kəˈlæps/",
+    "pos": "v",
+    "vi": "sụp đổ",
+    "example": "Many small businesses may collapse if the economy continues to weaken.",
+    "exampleVi": "Nhiều doanh nghiệp nhỏ có thể sụp đổ nếu nền kinh tế tiếp tục suy yếu.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "fail",
+      "break down"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-435",
+    "word": "compile",
+    "ipa": "/kəmˈpaɪl/",
+    "pos": "v",
+    "vi": "biên soạn, tổng hợp",
+    "example": "Researchers compile data from hundreds of surveys to identify long-term trends.",
+    "exampleVi": "Các nhà nghiên cứu tổng hợp dữ liệu từ hàng trăm cuộc khảo sát để nhận diện xu hướng dài hạn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "gather",
+      "put together"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-436",
+    "word": "conceive",
+    "ipa": "/kənˈsiːv/",
+    "pos": "v",
+    "vi": "hình dung, nghĩ ra",
+    "example": "It is difficult to conceive of modern life without the internet.",
+    "exampleVi": "Thật khó hình dung cuộc sống hiện đại mà không có internet.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "imagine",
+      "envisage"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-437",
+    "word": "convince",
+    "ipa": "/kənˈvɪns/",
+    "pos": "v",
+    "vi": "thuyết phục",
+    "example": "Governments must convince citizens that higher taxes will lead to better public services.",
+    "exampleVi": "Chính phủ phải thuyết phục người dân rằng thuế cao hơn sẽ mang lại dịch vụ công tốt hơn.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "persuade",
+      "win over"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-438",
+    "word": "depress",
+    "ipa": "/dɪˈpres/",
+    "pos": "v",
+    "vi": "làm suy giảm, làm chán nản",
+    "example": "High unemployment tends to depress wages and reduce consumer spending.",
+    "exampleVi": "Thất nghiệp cao thường làm giảm tiền lương và giảm chi tiêu của người tiêu dùng.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "reduce",
+      "lower"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-439",
+    "word": "forthcoming",
+    "ipa": "/ˌfɔːθˈkʌmɪŋ/",
+    "pos": "adj",
+    "vi": "sắp tới",
+    "example": "Voters will decide on the proposed reforms in the forthcoming election.",
+    "exampleVi": "Cử tri sẽ quyết định về các cải cách đề xuất trong cuộc bầu cử sắp tới.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "upcoming",
+      "imminent"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-440",
+    "word": "incline",
+    "ipa": "/ɪnˈklaɪn/",
+    "pos": "v",
+    "vi": "có xu hướng, nghiêng về",
+    "example": "Young people are inclined to rely on social media as their main source of news.",
+    "exampleVi": "Người trẻ có xu hướng dựa vào mạng xã hội làm nguồn tin chính.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "tend",
+      "lean"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-441",
+    "word": "integrity",
+    "ipa": "/ɪnˈteɡrəti/",
+    "pos": "n",
+    "vi": "sự liêm chính",
+    "example": "Academic integrity requires students to complete their own work without copying from others.",
+    "exampleVi": "Liêm chính học thuật đòi hỏi sinh viên tự hoàn thành bài của mình mà không sao chép của người khác.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "honesty",
+      "moral principles"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-442",
+    "word": "invoke",
+    "ipa": "/ɪnˈvəʊk/",
+    "pos": "v",
+    "vi": "viện dẫn, khơi gợi",
+    "example": "Opponents of the law often invoke the right to privacy to support their arguments.",
+    "exampleVi": "Những người phản đối luật thường viện dẫn quyền riêng tư để củng cố lập luận.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "cite",
+      "appeal to"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-443",
+    "word": "levy",
+    "ipa": "/ˈlevi/",
+    "pos": "v",
+    "vi": "đánh (thuế)",
+    "example": "Several governments now levy a tax on sugary drinks to improve public health.",
+    "exampleVi": "Một số chính phủ nay đánh thuế đồ uống có đường để cải thiện sức khỏe cộng đồng.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "impose",
+      "charge"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-444",
+    "word": "likewise",
+    "ipa": "/ˈlaɪkwaɪz/",
+    "pos": "adv",
+    "vi": "tương tự, cũng vậy",
+    "example": "Cars cause serious air pollution, and likewise, aircraft contribute heavily to global emissions.",
+    "exampleVi": "Ô tô gây ô nhiễm không khí nghiêm trọng, và tương tự, máy bay cũng góp phần lớn vào khí thải toàn cầu.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "similarly",
+      "in the same way"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-445",
+    "word": "nonetheless",
+    "ipa": "/ˌnʌnðəˈles/",
+    "pos": "adv",
+    "vi": "tuy nhiên, dù vậy",
+    "example": "The new system is expensive; nonetheless, it will save considerable money in the long term.",
+    "exampleVi": "Hệ thống mới tốn kém; tuy vậy, nó sẽ tiết kiệm đáng kể tiền về lâu dài.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "nevertheless",
+      "even so"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-446",
+    "word": "odd",
+    "ipa": "/ɒd/",
+    "pos": "adj",
+    "vi": "kỳ lạ, bất thường",
+    "example": "It seems odd that the richest countries still have large numbers of homeless people.",
+    "exampleVi": "Có vẻ kỳ lạ khi những nước giàu nhất vẫn có rất nhiều người vô gia cư.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "strange",
+      "unusual"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-447",
+    "word": "ongoing",
+    "ipa": "/ˈɒnɡəʊɪŋ/",
+    "pos": "adj",
+    "vi": "đang diễn ra, liên tục",
+    "example": "There is an ongoing debate about whether university education should be free.",
+    "exampleVi": "Có một cuộc tranh luận đang diễn ra về việc giáo dục đại học có nên miễn phí hay không.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "continuing",
+      "current"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-448",
+    "word": "panel",
+    "ipa": "/ˈpænl/",
+    "pos": "n",
+    "vi": "hội đồng, ban",
+    "example": "A panel of independent experts will review the safety of the proposed nuclear plant.",
+    "exampleVi": "Một hội đồng chuyên gia độc lập sẽ xem xét độ an toàn của nhà máy hạt nhân được đề xuất.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "committee",
+      "board"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-449",
+    "word": "pose",
+    "ipa": "/pəʊz/",
+    "pos": "v",
+    "vi": "đặt ra, gây ra",
+    "example": "Cheap imports pose a serious problem for local farmers who cannot compete on price.",
+    "exampleVi": "Hàng nhập khẩu giá rẻ đặt ra vấn đề nghiêm trọng cho nông dân địa phương không thể cạnh tranh về giá.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "present",
+      "create"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-450",
+    "word": "reluctance",
+    "ipa": "/rɪˈlʌktəns/",
+    "pos": "n",
+    "vi": "sự miễn cưỡng, do dự",
+    "example": "Many employers show a reluctance to hire older workers because of outdated stereotypes.",
+    "exampleVi": "Nhiều nhà tuyển dụng tỏ ra miễn cưỡng khi thuê lao động lớn tuổi vì những định kiến lỗi thời.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "unwillingness",
+      "hesitation"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-451",
+    "word": "so-called",
+    "ipa": "/ˌsəʊ ˈkɔːld/",
+    "pos": "adj",
+    "vi": "được gọi là (thường hàm ý nghi ngờ)",
+    "example": "The so-called experts on social media often have no formal qualifications in the subject.",
+    "exampleVi": "Những người được gọi là chuyên gia trên mạng xã hội thường không có bằng cấp chính thức về chủ đề đó.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "alleged",
+      "supposed"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-452",
+    "word": "straightforward",
+    "ipa": "/ˌstreɪtˈfɔːwəd/",
+    "pos": "adj",
+    "vi": "đơn giản, dễ hiểu",
+    "example": "There is no straightforward solution to the problem of rising housing costs.",
+    "exampleVi": "Không có giải pháp đơn giản nào cho vấn đề chi phí nhà ở tăng cao.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "simple",
+      "uncomplicated"
+    ],
+    "sublist": 10
+  },
+  {
+    "id": "awl-453",
+    "word": "whereby",
+    "ipa": "/weəˈbaɪ/",
+    "pos": "adv",
+    "vi": "theo đó, nhờ đó",
+    "example": "The government introduced a system whereby low-income families receive free school meals.",
+    "exampleVi": "Chính phủ đưa ra một hệ thống theo đó các gia đình thu nhập thấp được nhận bữa ăn học đường miễn phí.",
+    "level": "C1",
+    "topic": "academic",
+    "synonyms": [
+      "by which",
+      "through which"
+    ],
+    "sublist": 10
+  }
+]

@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { MAIN_VOICES, SENTENCE_VOICES, audioKey, normText, scriptVoices } from "../../src/lib/audio-key.ts";
+import { MAIN_VOICES, SENTENCE_VOICES, WORD_VOICE, audioKey, normText, scriptVoices } from "../../src/lib/audio-key.ts";
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const DATA = path.join(ROOT, "src/content/data");
@@ -11,6 +11,9 @@ const load = (f) => JSON.parse(fs.readFileSync(path.join(DATA, f + ".json"), "ut
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 // Spoken-form fixes for texts the model reads badly: { "voice|text": "text to synthesise" }.
 const OVERRIDES = fs.existsSync(path.join(HERE, "overrides.json")) ? JSON.parse(fs.readFileSync(path.join(HERE, "overrides.json"), "utf8")) : {};
+
+export const EXTRA_VOCAB = ["vocab-awl", "vocab-collocations"].filter((f) => fs.existsSync(path.join(DATA, f + ".json")));
+export const loadData = load;
 
 export function allJobs(only) {
   const list = [];
@@ -29,6 +32,12 @@ export function allJobs(only) {
   for (const w of vocab) add("words", MAIN_VOICES, w.word);
   // sentences in all four voices so the voice chosen in Settings is used everywhere
   for (const w of vocab) add("examples", MAIN_VOICES, w.example);
+  // Academic Word List and topic collocations: the word in the reliable word voice only, examples in
+  // the two sentence voices (the app falls back to the same-accent one); hidden.mjs hides the rest.
+  for (const w of EXTRA_VOCAB.flatMap(load)) {
+    add("words", [WORD_VOICE], w.word);
+    add("examples", SENTENCE_VOICES, w.example);
+  }
   for (const item of load("listening")) {
     const voices = scriptVoices(item.script);
     item.script.forEach((l, i) => add("listening", [voices[i]], l.text));

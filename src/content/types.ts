@@ -15,6 +15,7 @@ export interface VocabWord {
   topic: string; // e.g. "family", "education", "environment"
   native?: NativeClip & { text: string; vi: string | null }; // example recorded by a native speaker
   synonyms?: string[]; // near-synonyms in the same sense, for paraphrase review
+  sublist?: number; // Academic Word List sublist (1 = most frequent)
 }
 
 /** A recording by a native speaker from Tatoeba (played unmodified; licence requires attribution). */

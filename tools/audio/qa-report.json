@@ -54,42 +54,6 @@
   "file": "..\\..\\public\\audio\\uk-m\\4bb7cbce.mp3"
  },
  {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "pig",
-  "heard": "peg it peg it peg it",
-  "wer": 6,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\6840fb8f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "mop",
-  "heard": "Not p- Not p- Not p-",
-  "wer": 6,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\d39e5f9f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "sip",
-  "heard": "the simple, the simple, the simple",
-  "wer": 6,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\c22ffb13.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "six",
-  "heard": "the sex, the sex, the sex",
-  "wer": 6,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\ca3007ab.mp3"
- },
- {
   "group": "words",
   "voice": "uk-f",
   "text": "meat",
@@ -151,6 +115,15 @@
   "wer": 6,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-f\\689219d9.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "pig",
+  "heard": "peg it peg it peg it",
+  "wer": 6,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\6840fb8f.mp3"
  },
  {
   "group": "words",
@@ -268,537 +241,6 @@
   "wer": 4,
   "bad": true,
   "file": "..\\..\\public\\audio\\us-m\\d5049e53.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "bat",
-  "heard": "that that that",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\70b773a8.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "bed",
-  "heard": "Beto Beto Beto",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\50ae46ec.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "bed",
-  "heard": "bad bad bad",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\50ae46ec.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "cart",
-  "heard": "cut cut cut",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\9827728f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "wide",
-  "heard": "White White White",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\f723cdea.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "hat",
-  "heard": "hurt hurt hurt",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\f2bf17c2.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "grey",
-  "heard": "gray gray gray",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\b29019a6.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "cab",
-  "heard": "Tabit, Tabit, Tabit",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\f4743fb1.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "rope",
-  "heard": "Rape. Rape. Rape.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\4044a22d.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "robe",
-  "heard": "Rope. Rope. Rope.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\0c18c3b3.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "dock",
-  "heard": "Doc. Doc. Doc.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\40eb5a9a.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "mob",
-  "heard": "Nub. Nub. Nub.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\e59e7bf5.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "buy",
-  "heard": "bite bite bite",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\65d5776b.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "bus",
-  "heard": "Thus, thus, thus,",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\5fd56df9.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "peas",
-  "heard": "Please, please, please",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\cf1fc0da.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "live",
-  "heard": "Lized Lized Lized",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\07f017af.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "sit",
-  "heard": "Setter Setter Setter",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\c630015f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "sit",
-  "heard": "Set Set Set",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\c630015f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "chip",
-  "heard": "N'Sha'p N'Sha'p N'Sha'p",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\96385f0f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "peak",
-  "heard": "taker taker taker",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\b71f9b12.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "will",
-  "heard": "Well, well, well",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\10106d8d.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "eat",
-  "heard": "late late late",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\6c6e2525.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "it",
-  "heard": "net net net",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\47388410.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "men",
-  "heard": "zmen zmen zmen",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\c9ad5a6b.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "men",
-  "heard": "man man man",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\c9ad5a6b.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "pet",
-  "heard": "peta peta peta",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\694b8a7e.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "beg",
-  "heard": "bag bag bag",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\53ae4ba5.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "mat",
-  "heard": "Matt. Matt. Matt.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\e3a2f5fd.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "met",
-  "heard": "Matt, Matt, Matt",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\d3ad6a29.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "pack",
-  "heard": "Packaged. Packaged. Packaged.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\63533de0.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "peck",
-  "heard": "Pekka Pekka Pekka",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\b7198ae4.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "peck",
-  "heard": "pack pack pack",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\b7198ae4.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "tree",
-  "heard": "3 3 3",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\6d8b34d5.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "tin",
-  "heard": "10 10 10",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\bd0aeeb0.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "path",
-  "heard": "passed passed passed",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\84874d36.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "den",
-  "heard": "Dan Dan Dan",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\cd598b24.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "she",
-  "heard": "shape, shape, shape",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\e92df9e1.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "shy",
-  "heard": "shyg shyg shyg",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\d52dda65.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "sigh",
-  "heard": "Side Side Side",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\0abc887e.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "shoe",
-  "heard": "Shoo, shoo, shoo",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\9b47cc32.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "sue",
-  "heard": "Suit. Suit. Suit.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\d54e2e10.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "mesh",
-  "heard": "MASH MASH MASH",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\a100bebc.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "mess",
-  "heard": "mass mass mass",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\9c00b6dd.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "lock",
-  "heard": "Look, look, look.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\ef0d7842.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "knock",
-  "heard": "Nox Nox Nox",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\7266707f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "bowl",
-  "heard": "Bell Bell Bell",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\c87f7a85.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "bowl",
-  "heard": "bo bo bo",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\c87f7a85.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "zest",
-  "heard": "zast zast zast",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\7271fe9f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "rap",
-  "heard": "reps reps reps",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\44ff1484.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "rap",
-  "heard": "wrap wrap wrap",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\44ff1484.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "vest",
-  "heard": "Vestal Vestal Vestal",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\e63776b3.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "pull",
-  "heard": "Pulled. Pulled. Pulled.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\812d107e.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "pull",
-  "heard": "Paul Paul Paul",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\812d107e.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "fair",
-  "heard": "Se, se, se.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\00535833.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "pear",
-  "heard": "pair pair pair",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\d01fc26d.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "jest",
-  "heard": "Just. Just. Just.",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\5ca31e0f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "bell",
-  "heard": "belt belt belt",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\826e1638.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "toll",
-  "heard": "tall tall tall",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\4f6cbcdc.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "whirl",
-  "heard": "Wurstin, Wurstin, Wurstin",
-  "wer": 3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\e2fd9217.mp3"
  },
  {
   "group": "words",
@@ -955,6 +397,15 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "bus",
+  "heard": "Thus, thus, thus,",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\5fd56df9.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "bus",
   "heard": "Buzz, buzz, buzz.",
@@ -1024,6 +475,24 @@
   "wer": 3,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-m\\5cb49d8a.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "bed",
+  "heard": "Beto Beto Beto",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\50ae46ec.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "us-f",
+  "text": "bed",
+  "heard": "bad bad bad",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\us-f\\50ae46ec.mp3"
  },
  {
   "group": "words",
@@ -1207,6 +676,15 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "eat",
+  "heard": "late late late",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\6c6e2525.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "eat",
   "heard": "Laid. Laid. Laid.",
@@ -1225,6 +703,15 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "buy",
+  "heard": "bite bite bite",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\65d5776b.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "buy",
   "heard": "Bye. Bye. Bye.",
@@ -1240,6 +727,33 @@
   "wer": 3,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-f\\a0262210.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "sit",
+  "heard": "Setter Setter Setter",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\c630015f.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "us-f",
+  "text": "sit",
+  "heard": "Set Set Set",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\us-f\\c630015f.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "live",
+  "heard": "Lized Lized Lized",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\07f017af.mp3"
  },
  {
   "group": "words",
@@ -1531,6 +1045,15 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "tree",
+  "heard": "3 3 3",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\6d8b34d5.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "tree",
   "heard": "Train. Train. Train.",
@@ -1654,6 +1177,15 @@
   "wer": 3,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-m\\43e36503.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "hat",
+  "heard": "hurt hurt hurt",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\f2bf17c2.mp3"
  },
  {
   "group": "words",
@@ -2152,12 +1684,30 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "shy",
+  "heard": "shyg shyg shyg",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\d52dda65.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "shy",
   "heard": "Zhai Zhai Zhai",
   "wer": 3,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-m\\d52dda65.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "wide",
+  "heard": "White White White",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\f723cdea.mp3"
  },
  {
   "group": "words",
@@ -2638,6 +2188,15 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "peak",
+  "heard": "taker taker taker",
+  "wer": 3,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\b71f9b12.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "peak",
   "heard": "Bake Bake Bake",
@@ -2709,42 +2268,6 @@
   "file": "..\\..\\public\\audio\\us-m\\40abde45.mp3"
  },
  {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "roofs",
-  "heard": "The Raves",
-  "wer": 2,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\34800a74.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "chip",
-  "heard": "The ship.",
-  "wer": 2,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\96385f0f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "mesh",
-  "heard": "A mess.",
-  "wer": 2,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\a100bebc.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "full",
-  "heard": "/səl/",
-  "wer": 2,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\ff79b33c.mp3"
- },
- {
   "group": "words",
   "voice": "uk-m",
   "text": "bag",
@@ -2806,6 +2329,15 @@
   "wer": 2,
   "bad": true,
   "file": "..\\..\\public\\audio\\us-m\\6517b3e5.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "full",
+  "heard": "/səl/",
+  "wer": 2,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\ff79b33c.mp3"
  },
  {
   "group": "words",
@@ -2988,337 +2520,22 @@
   "file": "..\\..\\public\\audio\\uk-m\\103addfc.mp3"
  },
  {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "seed",
-  "heard": "Sade.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\5045bcac.mp3"
- },
- {
-  "group": "pronunciation",
+  "group": "words",
   "voice": "us-f",
-  "text": "bid",
-  "heard": "Bed.",
-  "wer": 1,
+  "text": "affect",
+  "heard": "A fact.",
+  "wer": 2,
   "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\50cac900.mp3"
+  "file": "..\\..\\public\\audio\\us-f\\45afe178.mp3"
  },
  {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "cap",
-  "heard": "S'habi.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\027455bb.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "dock",
-  "heard": "Dok.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\40eb5a9a.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "tab",
-  "heard": "Sabi",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\98f72e4c.mp3"
- },
- {
-  "group": "pronunciation",
+  "group": "words",
   "voice": "us-f",
-  "text": "buy",
-  "heard": "Bye.",
-  "wer": 1,
+  "text": "accompany",
+  "heard": "A company.",
+  "wer": 2,
   "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\65d5776b.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "wash",
-  "heard": "WUST.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\a0f6c56e.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "badge",
-  "heard": "Baju",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\35648278.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "beat",
-  "heard": "V8",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\905255c5.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "wheel",
-  "heard": "Will.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\1c324cfc.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "will",
-  "heard": "Wilt",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\10106d8d.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "man",
-  "heard": "Smanned",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\e9a2ff6f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "pat",
-  "heard": "Perted",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\695617da.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "lend",
-  "heard": "land",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\123764b8.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "gas",
-  "heard": "Gasp.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\49172362.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "end",
-  "heard": "and",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\6a8e75aa.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "mat",
-  "heard": "Matt.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\e3a2f5fd.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "thin",
-  "heard": "send",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\c52bb172.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "tin",
-  "heard": "sin",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\bd0aeeb0.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "pass",
-  "heard": "passed",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\7b7a7318.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "she",
-  "heard": "Shieh",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\e92df9e1.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "sea",
-  "heard": "Sake.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\b926f28c.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "sea",
-  "heard": "C.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\b926f28c.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "sigh",
-  "heard": "PSI",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\0abc887e.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "sell",
-  "heard": "SELD",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\5e5b9905.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "net",
-  "heard": "Nat.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\25999158.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "mile",
-  "heard": "Smile.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\8a8e7dc8.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "mine",
-  "heard": "Smined",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\7e89edb6.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "fine",
-  "heard": "Find.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\bef086ed.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "bone",
-  "heard": "Boned.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\db90e18f.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "rock",
-  "heard": "Rook.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\3a1b4ab4.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "fly",
-  "heard": "slide",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\bff162e2.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "vest",
-  "heard": "Vast",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\e63776b3.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "fan",
-  "heard": "Fand.",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\a8f7fa72.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "us-f",
-  "text": "pear",
-  "heard": "pair",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\d01fc26d.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "plan",
-  "heard": "planned",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\b7cbc712.mp3"
- },
- {
-  "group": "pronunciation",
-  "voice": "uk-f",
-  "text": "toll",
-  "heard": "toe",
-  "wer": 1,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\4f6cbcdc.mp3"
+  "file": "..\\..\\public\\audio\\us-f\\756e8a24.mp3"
  },
  {
   "group": "words",
@@ -3328,6 +2545,15 @@
   "wer": 1,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-f\\7c3f812f.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "man",
+  "heard": "Smanned",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\e9a2ff6f.mp3"
  },
  {
   "group": "words",
@@ -3430,12 +2656,30 @@
  },
  {
   "group": "words",
+  "voice": "us-f",
+  "text": "buy",
+  "heard": "Bye.",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\us-f\\65d5776b.mp3"
+ },
+ {
+  "group": "words",
   "voice": "us-m",
   "text": "buy",
   "heard": "Bye",
   "wer": 1,
   "bad": true,
   "file": "..\\..\\public\\audio\\us-m\\65d5776b.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "sell",
+  "heard": "SELD",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\5e5b9905.mp3"
  },
  {
   "group": "words",
@@ -3601,12 +2845,30 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "sea",
+  "heard": "Sake.",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\b926f28c.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "sea",
   "heard": "Z.",
   "wer": 1,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-m\\b926f28c.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "us-f",
+  "text": "sea",
+  "heard": "C.",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\us-f\\b926f28c.mp3"
  },
  {
   "group": "words",
@@ -3763,12 +3025,30 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "wash",
+  "heard": "WUST.",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\a0f6c56e.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "wash",
   "heard": "Washing",
   "wer": 1,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-m\\a0f6c56e.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "plan",
+  "heard": "planned",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\b7cbc712.mp3"
  },
  {
   "group": "words",
@@ -3781,12 +3061,30 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "pass",
+  "heard": "passed",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\7b7a7318.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "save",
   "heard": "SAVA",
   "wer": 1,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-m\\ccff7e48.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "us-f",
+  "text": "lend",
+  "heard": "land",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\us-f\\123764b8.mp3"
  },
  {
   "group": "words",
@@ -3979,6 +3277,15 @@
  },
  {
   "group": "words",
+  "voice": "uk-f",
+  "text": "thin",
+  "heard": "send",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\c52bb172.mp3"
+ },
+ {
+  "group": "words",
   "voice": "uk-m",
   "text": "soft",
   "heard": "Zoved",
@@ -4138,6 +3445,15 @@
   "wer": 1,
   "bad": true,
   "file": "..\\..\\public\\audio\\uk-m\\e3fab4c0.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "uk-f",
+  "text": "fine",
+  "heard": "Find.",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\uk-f\\bef086ed.mp3"
  },
  {
   "group": "words",
@@ -4374,13 +3690,49 @@
   "file": "..\\..\\public\\audio\\uk-f\\bbac6d30.mp3"
  },
  {
-  "group": "listening",
-  "voice": "uk-m",
-  "text": "The fourteenth of March, nineteen ninety-two.",
-  "heard": "14 March, 1992",
-  "wer": 0.71,
+  "group": "words",
+  "voice": "us-f",
+  "text": "sex",
+  "heard": "Saks",
+  "wer": 1,
   "bad": true,
-  "file": "..\\..\\public\\audio\\uk-m\\c42a6860.mp3"
+  "file": "..\\..\\public\\audio\\us-f\\d22719e7.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "us-f",
+  "text": "cite",
+  "heard": "Sight",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\us-f\\01c46e5e.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "us-f",
+  "text": "sole",
+  "heard": "Seoul",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\us-f\\df633b8c.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "us-f",
+  "text": "healthcare system",
+  "heard": "Health care system.",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\us-f\\346d212b.mp3"
+ },
+ {
+  "group": "words",
+  "voice": "us-f",
+  "text": "policy makers",
+  "heard": "Policymakers",
+  "wer": 1,
+  "bad": true,
+  "file": "..\\..\\public\\audio\\us-f\\6dfab304.mp3"
  },
  {
   "group": "words",
@@ -4399,60 +3751,6 @@
   "wer": 0.67,
   "bad": true,
   "file": "..\\..\\public\\audio\\us-m\\eee75468.mp3"
- },
- {
-  "group": "listening",
-  "voice": "uk-m",
-  "text": "Right, fifty pence.",
-  "heard": "Write 50 pens",
-  "wer": 0.67,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-m\\9119f42c.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "us-f",
-  "text": "I'm originally from...",
-  "heard": "I am originally from.",
-  "wer": 0.67,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\ec91b432.mp3"
- },
- {
-  "group": "listening",
-  "voice": "uk-m",
-  "text": "My mobile is oh seven seven double-oh, nine double-oh, four six three.",
-  "heard": "My mobile is 07700, 900-463.",
-  "wer": 0.64,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-m\\83bc8bea.mp3"
- },
- {
-  "group": "listening",
-  "voice": "uk-f",
-  "text": "Two and a half thousand. Thanks very much.",
-  "heard": "2,500. Thanks very much.",
-  "wer": 0.63,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\54afc23a.mp3"
- },
- {
-  "group": "listening",
-  "voice": "uk-m",
-  "text": "It's Daniel Carter. That's C-A-R-T-E-R.",
-  "heard": "It's Daniel Carter, that's CRTER.",
-  "wer": 0.6,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-m\\f532221f.mp3"
- },
- {
-  "group": "listening",
-  "voice": "uk-m",
-  "text": "It's Alexei Petrov. That's P-E-T-R-O-V.",
-  "heard": "It's Alexei Petrov, that's PTROV.",
-  "wer": 0.6,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-m\\d3612590.mp3"
  },
  {
   "group": "words",
@@ -4545,94 +3843,31 @@
   "file": "..\\..\\public\\audio\\us-m\\e0e4dac9.mp3"
  },
  {
-  "group": "listening",
-  "voice": "uk-f",
-  "text": "B D nine, four R F. Got it. And a contact number?",
-  "heard": "BD94RF got it, and a contact number.",
+  "group": "words",
+  "voice": "us-f",
+  "text": "tuition fees",
+  "heard": "Tuishan fees",
   "wer": 0.5,
   "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\2e0ac90c.mp3"
+  "file": "..\\..\\public\\audio\\us-f\\cbf81044.mp3"
  },
  {
-  "group": "speaking",
-  "voice": "uk-f",
-  "text": "spacious / cosy",
-  "heard": "Spacious cozy",
+  "group": "words",
+  "voice": "us-f",
+  "text": "traffic jams",
+  "heard": "Jams",
   "wer": 0.5,
   "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\d0b36f1b.mp3"
+  "file": "..\\..\\public\\audio\\us-f\\382797d3.mp3"
  },
  {
-  "group": "speaking",
+  "group": "words",
   "voice": "us-f",
-  "text": "spacious / cosy",
-  "heard": "Spacious cozy.",
+  "text": "biased reporting",
+  "heard": "Bias reporting.",
   "wer": 0.5,
   "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\d0b36f1b.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "uk-f",
-  "text": "eat out",
-  "heard": "Neat out",
-  "wer": 0.5,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\d9bfb3d1.mp3"
- },
- {
-  "group": "listening",
-  "voice": "uk-m",
-  "text": "Forty-two Harbour Road. And the postcode is B D nine, four R T. Oh, sorry, that's wrong. It's B D nine, four R F.",
-  "heard": "42 Harbor Road, and the postcode is BD94RT. Oh sorry that's wrong, it's BD94RF.",
-  "wer": 0.48,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-m\\46242f2d.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "us-f",
-  "text": "The festival I'd like to describe is the Mid-Autumn Festival, which takes place in September or October, on the fifteenth day of the eighth lunar month. It's often called the Children's Festival, because it's a special time for kids. In the weeks before, the streets fill up with colourful lanterns, masks and stalls selling mooncakes. On the night itself, families gather to share a meal, eat mooncakes and enjoy fruit like pomelos and persimmons. Children carry paper lanterns and join lion dances in the neighbourhood, while adults sit outside and admire the full moon. I remember as a child waiting all day for the evening, because my father always helped me make a lantern in the shape of a star. What I like most about the festival is the warm, relaxed mood. It's not as hectic as the Lunar New Year, but it brings people together just the same. In my view, it's important because it reminds us to value family and to care about children. It also keeps old traditions alive, such as lantern making and lion dancing, which might otherwise be forgotten as life becomes more modern. Nowadays, many people give mooncakes to colleagues and friends as gifts, and some worry the festival is becoming too commercial. Still, whenever I look up at the bright moon with my family, I feel that the spirit of the festival is very much alive.",
-  "heard": "The festival I'd like to describe is the Mid-Autumn Festival, which takes place in September or October on the 15th day of the 8th lunar month. It's often called the Children's Festival because it year, but it brings people together just the same. In my view, it's important because it reminds us to value family and to care about children. It also keeps old traditions alive, such as lantern making and lion dancing, which might otherwise be forgotten as life becomes more modern. Nowadays, many people give mooncakes to colleagues and friends as gifts, and some worry the festival is becoming too commercial. Still, whenever I look up at the bright moon with my family, I feel that the spirit of the festival is very much alive.",
-  "wer": 0.46,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\ac8c0fc4.mp3"
- },
- {
-  "group": "examples",
-  "voice": "uk-f",
-  "text": "Ho Chi Minh City is very big.",
-  "heard": "Hokkai Min City is very big.",
-  "wer": 0.43,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\7768db37.mp3"
- },
- {
-  "group": "examples",
-  "voice": "us-f",
-  "text": "Ho Chi Minh City is very big.",
-  "heard": "Hokkai Min City is very big.",
-  "wer": 0.43,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\7768db37.mp3"
- },
- {
-  "group": "grammar",
-  "voice": "uk-f",
-  "text": "The elderly need better healthcare.",
-  "heard": "The elderly need better health care.",
-  "wer": 0.4,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\8dcc2b56.mp3"
- },
- {
-  "group": "grammar",
-  "voice": "us-f",
-  "text": "The elderly need better healthcare.",
-  "heard": "The elderly need better health care.",
-  "wer": 0.4,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\8dcc2b56.mp3"
+  "file": "..\\..\\public\\audio\\us-f\\d423268f.mp3"
  },
  {
   "group": "words",
@@ -4761,183 +3996,21 @@
   "file": "..\\..\\public\\audio\\us-m\\56ca78fb.mp3"
  },
  {
-  "group": "examples",
-  "voice": "uk-f",
-  "text": "Many tourists visit Ha Long Bay.",
-  "heard": "Many tourists visit Harlong Bay.",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\60c4fb8d.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "uk-f",
-  "text": "a great way to de-stress",
-  "heard": "A great way to distress.",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\da780c89.mp3"
- },
- {
-  "group": "speaking",
+  "group": "words",
   "voice": "us-f",
-  "text": "a great way to de-stress",
-  "heard": "A great way to distress.",
+  "text": "tech-savvy generation",
+  "heard": "Text-savvy generation",
   "wer": 0.33,
   "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\da780c89.mp3"
+  "file": "..\\..\\public\\audio\\us-f\\5ca19aa3.mp3"
  },
  {
-  "group": "speaking",
+  "group": "words",
   "voice": "us-f",
-  "text": "hot and humid",
-  "heard": "Heart and Humid",
+  "text": "spread of disease",
+  "heard": "Sprout of disease.",
   "wer": 0.33,
   "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\fd644bc2.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "uk-f",
-  "text": "a page-turner",
-  "heard": "A page durner",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\1992722e.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "us-f",
-  "text": "a page-turner",
-  "heard": "A Page Stirner",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\1992722e.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "uk-f",
-  "text": "lift your mood",
-  "heard": "Lift your mooder.",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\a6c60086.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "uk-f",
-  "text": "families gather to...",
-  "heard": "Families gather too.",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\9727ece9.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "us-f",
-  "text": "families gather to...",
-  "heard": "Families gather too.",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\9727ece9.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "uk-f",
-  "text": "be conscious of",
-  "heard": "Be conscious of it.",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\828f0a1f.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "us-f",
-  "text": "rely heavily on",
-  "heard": "Relay heavily on.",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\14c9cfd0.mp3"
- },
- {
-  "group": "speaking",
-  "voice": "uk-f",
-  "text": "remove a barrier",
-  "heard": "Remove the barriers.",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\77134d9d.mp3"
- },
- {
-  "group": "grammar",
-  "voice": "uk-f",
-  "text": "I was studying at 9 p.m. last night.",
-  "heard": "I was studying at 9pm last night.",
-  "wer": 0.33,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\66a552d3.mp3"
- },
- {
-  "group": "grammar",
-  "voice": "uk-f",
-  "text": "Hanoi is colder than Ho Chi Minh City in winter.",
-  "heard": "Hanoi is colder than Hokkai Min City in winter.",
-  "wer": 0.3,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\08ba496e.mp3"
- },
- {
-  "group": "examples",
-  "voice": "uk-f",
-  "text": "The island has around five thousand inhabitants.",
-  "heard": "The island has around 5,000 inhabitants.",
-  "wer": 0.29,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\d9f2b295.mp3"
- },
- {
-  "group": "examples",
-  "voice": "us-f",
-  "text": "The island has around five thousand inhabitants.",
-  "heard": "The island has around 5,000 inhabitants.",
-  "wer": 0.29,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\d9f2b295.mp3"
- },
- {
-  "group": "examples",
-  "voice": "uk-f",
-  "text": "Altruistic behaviour is common during natural disasters.",
-  "heard": "All truistic behavior is common during natural disasters.",
-  "wer": 0.29,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\566bdf63.mp3"
- },
- {
-  "group": "examples",
-  "voice": "us-f",
-  "text": "Altruistic behaviour is common during natural disasters.",
-  "heard": "All truistic behavior is common during natural disasters.",
-  "wer": 0.29,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\566bdf63.mp3"
- },
- {
-  "group": "examples",
-  "voice": "us-f",
-  "text": "The course comprises lectures, seminars and fieldwork.",
-  "heard": "The course comprises lectures, seminars and field work.",
-  "wer": 0.29,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\us-f\\02f68585.mp3"
- },
- {
-  "group": "reading",
-  "voice": "uk-f",
-  "text": "The bicycle looks simple, but it took nearly a century to reach its modern form. The first ancestor was built in Germany in 1817 by Karl von Drais. His 'running machine' had two wheels and a wooden frame, but no pedals; riders pushed along the ground with their feet. It was popular for a short time, but poor roads and some accidents meant that many towns banned it. In the 1860s, French makers added pedals to the front wheel. These machines were uncomfortable on rough streets, so people called them 'boneshakers'. Later models had a huge front wheel, because a larger wheel meant a greater distance with each turn of the pedals. These 'penny-farthings' were fast, but also dangerous: a rider who hit a stone could be thrown over the handlebars. The big change came in the 1880s with the 'safety bicycle'. It had two wheels of equal size, a chain connecting the pedals to the back wheel, and a lower seat. Soon afterwards, inflatable rubber tyres made the ride much smoother. Bicycles became cheap enough for ordinary workers to buy, and they gave people a new kind of freedom. Women in particular found that cycling allowed them to travel alone, and some historians believe it helped change attitudes to women's clothing and independence. During the twentieth century, cars became the main form of transport in many countries, and cycling became less common. However, in the last twenty years, bikes have returned to city streets. Governments build cycle lanes to reduce traffic and pollution, and many cities offer bikes for rent through mobile phone apps. Electric bicycles, which have a small motor to help the rider, are especially popular because they make hills and long journeys easier. Cycling is also healthy, because regular exercise strengthens the heart and reduces stress. The Netherlands has a particularly strong cycling culture, and there are more bicycles there than people.",
-  "heard": "The bicycle looked simple, but it took nearly a century to reach its modern form. The first ancestor was built in Germany in 1817 by Karl von Dries. His running machine had two wheels and a wooden frame, but no pedals. Riders pushed along the ground with their feet. It was popular for a short time. But poor roads and some accidents meant that many towns banned it. In the 1860s, French makers added pedals to the front wheel. These machines were uncomfortable on rough streets, so people called them The a to buy. And they gave people a new kind of freedom. Women in particular found that cycling allowed them to travel alone. And some historians believe it helped change attitudes to women's clothing and independence. During the 20th century, cars became the main form of transport in many countries. And cycling became less common. However, in the last 20 years, bikes have returned to city streets. Governments build cycle lanes to reduce traffic and pollution. And many cities offer bikes for rent through mobile phone apps. Electric bicycles which have a small motor to help the rider, are especially popular because they make hills and long journeys easier. Cycling is also healthy, because regular exercise strengthens the heart and reduces stress. The Netherlands has a particularly strong cycling culture, and there are more bicycles there than people.",
-  "wer": 0.28,
-  "bad": true,
-  "file": "..\\..\\public\\audio\\uk-f\\b4a1ddd6.mp3"
+  "file": "..\\..\\public\\audio\\us-f\\fc04dfb1.mp3"
  }
 ]

@@ -21,6 +21,8 @@ import vocabA2 from "./data/vocab-a2.json";
 import vocabB1 from "./data/vocab-b1.json";
 import vocabB2 from "./data/vocab-b2.json";
 import vocabC1 from "./data/vocab-c1.json";
+import vocabAwl from "./data/vocab-awl.json";
+import vocabCollocations from "./data/vocab-collocations.json";
 import grammarData from "./data/grammar.json";
 import readingData from "./data/reading.json";
 import readingIeltsData from "./data/reading-ielts.json";
@@ -58,11 +60,12 @@ export const fullTests: FullTest[] = ["01", "02", "03", "04"].map((n, i) => ({
   reading: ["b1", "b2", "c1"].map((l) => reading.find((r) => r.id === `r2-${l}-${n}`)!),
 }));
 
-// Lower levels win when a word appears twice.
+// Lower levels win when a word appears twice. The Academic Word List ("awl-") and topic collocations
+// ("col-") come after the core lists, so within a level the core words are learned first.
 export const vocab: VocabWord[] = (() => {
   const seen = new Set<string>();
   const out: VocabWord[] = [];
-  for (const list of [vocabA1, vocabA2, vocabB1, vocabB2, vocabC1] as VocabWord[][])
+  for (const list of [vocabA1, vocabA2, vocabB1, vocabB2, vocabC1, vocabAwl, vocabCollocations] as VocabWord[][])
     for (const w of list) {
       const k = w.word.toLowerCase();
       if (seen.has(k)) continue;
