@@ -2034,5 +2034,2429 @@
         ]
       }
     ]
+  },
+  {
+    "id": "mt-03",
+    "title": "Full Test 3",
+    "parts": [
+      {
+        "id": "mt-03-p1",
+        "level": "B1",
+        "title": "Part 1 – Holiday cottage enquiry",
+        "part": 1,
+        "contextVi": "Một người đàn ông gọi điện cho công ty cho thuê nhà nghỉ để hỏi thuê một căn nhà cho gia đình vào mùa hè.",
+        "script": [
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "Good morning, Coastline Cottages, Helen speaking. How can I help you?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Hello. I'd like to ask about renting a cottage for a week this summer, please."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "Of course it is. I'll just take a few details first so that I can set up an enquiry for you. Could I have your name, please?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Yes, it's Daniel Morrow."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "Thank you. And could you spell your surname for me?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Certainly. That's M, O, R, R, O, W."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "Lovely, thank you, Mr Morrow. And is there a telephone number where we can reach you if we need to call you back?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Yes, my mobile is oh one six one, two four eight, three nine nine."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "Let me read that back. Oh one six one, two four eight, three nine nine. Perfect. Now, which cottage were you interested in?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "There was one with a blue front door in the photographs on your home page. I think it was called Heron Cottage. No, sorry, I've got the page open in front of me now. It's Kestrel Cottage."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "Ah yes, Kestrel Cottage. That's one of our most popular properties. Heron Cottage is a different one, in the next village, and it's quite a lot smaller. Kestrel is in the village of Lanbury, and it's about ten minutes' walk from the beach."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "That sounds just right. There will be five of us, with three children, and the youngest is only four, so I'd like to know that it's safe for small children."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "It sleeps six, in three bedrooms, and the garden is completely fenced, so that's no problem. When were you hoping to arrive?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "We were thinking of the twelfth of June, because the children finish school the day before."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "I'm afraid that week is already booked. All our cottages change over on a Saturday, and the next free week at Kestrel starts on the nineteenth of June. After that, the next one is the twenty-sixth."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "The nineteenth is fine for us, thank you. We'd like to stay for seven nights."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "Good. Now, you'll want to know the price. The brochure says five hundred and twenty pounds a week, but that was last year's price, and it has been reduced. For a week in June it's four hundred and eighty pounds. In July and August it goes up to six hundred and fifty."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "That's well within our budget. Is there anything else we have to pay when we book?"
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "We take a deposit of one hundred pounds, which is returned to you within two weeks after your stay, as long as there's no damage. The rest of the payment is due six weeks before you arrive."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "That's fine. And what about bed linen and towels? Do we need to bring our own?"
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "No, they're included in the price, and so is electricity. But there are a few optional extras. You can order firewood for the stove, at twelve pounds a basket, or you can hire a rowing boat from the harbour for thirty pounds a day."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Oh, a boat sounds wonderful. The older children would love it."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "It's very popular, but I should mention that the life jackets are only available for children aged eight and over, so your youngest wouldn't be able to go out."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Ah, in that case I'll leave the boat. It wouldn't be fair on him. But we'll definitely take the firewood, because the evenings can be chilly by the sea."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "I'll add that to your enquiry. Now, about the keys. Normally guests collect them from our office in the High Street, but we close at four o'clock on Saturdays."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "We probably won't get there until about six."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "In that case there's an easy solution. There's a key safe on the wall by the back door of the cottage. We'll text you the code a few days before you travel, and you can let yourselves in."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "That sounds ideal. That's much better than rushing."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "Right, I think that's everything. We'll send you an email today with all the details and a booking form. How would you like to pay the deposit?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Could I do a bank transfer? I usually do it that way."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "We used to accept transfers, but they take several days to appear in our account. Most people pay by credit card over the phone, or you can send a cheque, but that takes even longer."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "I see. Well, I've got my card here, so I might as well do it now, if that's all right."
+          },
+          {
+            "speaker": "Helen",
+            "gender": "f",
+            "text": "That's perfect. Let me put you through to my colleague, who will take the payment. Thank you so much for calling, Mr Morrow, and I hope you all enjoy your holiday."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Thank you very much for your help. Goodbye."
+          }
+        ],
+        "questions": [
+          {
+            "type": "gap",
+            "q": "Name: Daniel ____",
+            "answer": [
+              "Morrow"
+            ],
+            "explain": "Daniel đánh vần họ: \"M, O, R, R, O, W\" nên đáp án là Morrow.",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\n\nHoliday cottage enquiry\nName: Daniel (1) ____\nTelephone: (2) ____\nCottage: (3) ____ Cottage\nVillage: (4) ____\nArrival date: (5) ____ June\nPrice for one week: £(6) ____\nDeposit: £(7) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Telephone: ____",
+            "answer": [
+              "0161 248 399",
+              "0161248399",
+              "oh one six one two four eight three nine nine"
+            ],
+            "explain": "Daniel đọc số: \"oh one six one, two four eight, three nine nine\" = 0161 248 399.",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\n\nHoliday cottage enquiry\nName: Daniel (1) ____\nTelephone: (2) ____\nCottage: (3) ____ Cottage\nVillage: (4) ____\nArrival date: (5) ____ June\nPrice for one week: £(6) ____\nDeposit: £(7) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Cottage: ____ Cottage",
+            "answer": [
+              "Kestrel"
+            ],
+            "explain": "Ban đầu Daniel nói \"Heron Cottage\" nhưng tự sửa: \"No, sorry... It's Kestrel Cottage.\"",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\n\nHoliday cottage enquiry\nName: Daniel (1) ____\nTelephone: (2) ____\nCottage: (3) ____ Cottage\nVillage: (4) ____\nArrival date: (5) ____ June\nPrice for one week: £(6) ____\nDeposit: £(7) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Village: ____",
+            "answer": [
+              "Lanbury"
+            ],
+            "explain": "Helen nói \"Kestrel is in the village of Lanbury\" (Heron ở làng bên cạnh).",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\n\nHoliday cottage enquiry\nName: Daniel (1) ____\nTelephone: (2) ____\nCottage: (3) ____ Cottage\nVillage: (4) ____\nArrival date: (5) ____ June\nPrice for one week: £(6) ____\nDeposit: £(7) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Arrival date: ____ June",
+            "answer": [
+              "19",
+              "19th",
+              "nineteenth",
+              "the nineteenth"
+            ],
+            "explain": "Daniel muốn \"the twelfth\" nhưng tuần đó đã kín; chốt \"The nineteenth is fine for us\".",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\n\nHoliday cottage enquiry\nName: Daniel (1) ____\nTelephone: (2) ____\nCottage: (3) ____ Cottage\nVillage: (4) ____\nArrival date: (5) ____ June\nPrice for one week: £(6) ____\nDeposit: £(7) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Price for one week: £____",
+            "answer": [
+              "480",
+              "£480",
+              "four hundred and eighty"
+            ],
+            "explain": "Giá cũ \"five hundred and twenty\" đã giảm; tháng Sáu là \"four hundred and eighty pounds\".",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\n\nHoliday cottage enquiry\nName: Daniel (1) ____\nTelephone: (2) ____\nCottage: (3) ____ Cottage\nVillage: (4) ____\nArrival date: (5) ____ June\nPrice for one week: £(6) ____\nDeposit: £(7) ____"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Deposit: £____",
+            "answer": [
+              "100",
+              "£100",
+              "one hundred"
+            ],
+            "explain": "Helen nói \"a deposit of one hundred pounds\".",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below.\nWrite ONE WORD AND/OR A NUMBER for each answer.\n\nHoliday cottage enquiry\nName: Daniel (1) ____\nTelephone: (2) ____\nCottage: (3) ____ Cottage\nVillage: (4) ____\nArrival date: (5) ____ June\nPrice for one week: £(6) ____\nDeposit: £(7) ____"
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "Which extra does Daniel decide to order?",
+            "options": [
+              "bed linen",
+              "firewood",
+              "a rowing boat"
+            ],
+            "answer": 1,
+            "explain": "Bed linen đã bao gồm trong giá; chiếc thuyền bị bỏ vì áo phao chỉ cho trẻ từ tám tuổi; \"we'll definitely take the firewood\".",
+            "group": {
+              "title": "Questions 8–10",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "How will the family get into the cottage?",
+            "options": [
+              "Collect the keys from the agency office",
+              "Get the keys from a neighbour",
+              "Use a key safe by the back door"
+            ],
+            "answer": 2,
+            "explain": "Văn phòng đóng cửa lúc bốn giờ, họ đến khoảng sáu giờ nên dùng \"a key safe on the wall by the back door\".",
+            "group": {
+              "title": "Questions 8–10",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "How will Daniel pay the deposit?",
+            "options": [
+              "by bank transfer",
+              "by credit card over the phone",
+              "by cheque"
+            ],
+            "answer": 1,
+            "explain": "Chuyển khoản chậm nên không dùng; Daniel nói \"I've got my card here, so I might as well do it now\".",
+            "group": {
+              "title": "Questions 8–10",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          }
+        ]
+      },
+      {
+        "id": "mt-03-p2",
+        "level": "B1",
+        "title": "Part 2 – Volunteer orientation at the city museum",
+        "part": 2,
+        "contextVi": "Điều phối viên của bảo tàng thành phố chào đón các tình nguyện viên mới và giới thiệu ca làm việc cùng vị trí các phòng.",
+        "script": [
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "Good morning, everyone, and welcome to Harbourgate City Museum. My name is Grace, and I coordinate the volunteer team. Thank you all for giving up your time. This morning I'll explain how your shifts work, show you where everything is, and tell you what we expect. We have had volunteers here since the nineteen sixties, and today there are more than ninety of you."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "The museum is open from ten until five, and most volunteers work one shift a week. When I first advertised the role, I said shifts would last five hours, but several of you told me that was too tiring, so we changed it. Every shift is now four hours, either in the morning or in the afternoon, and you can swap with a colleague if you give us a few days' notice."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "Some of you were hoping for a uniform, but we don't have one. You'll wear your own smart clothes, and the one thing you must always wear is the yellow name badge that you'll collect today. The green aprons belong to the shop and café staff, and the dark jackets belong to the security team, so please don't borrow either, however cold the galleries feel."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "Many of you asked to guide school groups straight away, but that only comes after six months of experience. Most new volunteers begin at the information desk in the entrance hall, where you hand out floor plans, answer questions, and help people find the lifts and toilets. It's a good way to learn the building, and visitors always seem to ask the same ten questions."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "Now I'll take you round the building in words, and you can follow on the plan in your folder. Let's start with where you'll spend your breaks. The volunteer lounge is on the first floor, beside the lift. Sorry, I'm wrong there, that's the staff office, which is always locked. The lounge is actually behind the café, through the blue door. There's a kettle, a fridge and plenty of comfortable chairs."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "Back in the entrance hall, the coat and bag store is directly opposite the ticket desk. Please leave everything there except your phone and your water bottle, because large bags aren't allowed in the galleries. The shop is next to the main doors, on the left, and the café is straight ahead, but I'm sure you'll find those without any help from me."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "If you go out through the side door and cross the courtyard garden, you'll come to the old stable block, which now houses our learning studio. That's where school groups do craft activities and handling sessions. It's the only space outside the main building, so wear a coat in winter. You can't miss it, because the green door has a large owl painted on it."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "Downstairs in the basement is the conservation workshop. You won't be working there, and the door is kept locked, but now and then the conservators give a talk to the volunteers, and you'll be taken down in the goods lift. Please don't be tempted to go down alone, because some of the materials they use are hazardous."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "If you go up the main staircase, the archive reading room is right at the top, on your left. Researchers and local history groups use it by appointment, and volunteers are sometimes asked to escort them. It was our library until last year, so you may still see people carrying boxes of old photographs and maps along the landing."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "The first aid room is also on the first floor, but it's beside the lift, quite near the staff office I mentioned earlier. Our trained first aiders are listed on the noticeboard in the lounge. If a visitor feels unwell, stay with them, call a first aider on your radio, and never try to move anyone yourself."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "Now, what happens at the start of every shift? First, you sign the register at the staff entrance, in case of a fire. Second, you collect a radio from reception, so that security can reach you. Some people think you should check the emergency exits, but security does that before we open. There's also a noticeboard with daily news, but I'll email you a summary, so you needn't read it."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "Finally, a few words about the benefits. You'll get a free lunch voucher for the café after each shift, a discount in the shop, and an invitation to our summer party in the courtyard garden. We also run a monthly talk by a curator, which is a lovely chance to hear about objects normally kept in storage."
+          },
+          {
+            "speaker": "Grace",
+            "gender": "f",
+            "text": "That's all from me for now. In a moment, my colleague Hassan will hand out your folders and name badges, and then we'll walk through the galleries together so you can see the building properly. Please ask questions at any time, because nobody remembers everything on the first day. Thank you again, and welcome to the team."
+          }
+        ],
+        "questions": [
+          {
+            "type": "mcq",
+            "q": "How long is each volunteer shift?",
+            "options": [
+              "three hours",
+              "four hours",
+              "five hours"
+            ],
+            "answer": 1,
+            "explain": "Ban đầu là năm tiếng nhưng đã đổi: \"Every shift is now four hours\".",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What must volunteers always wear?",
+            "options": [
+              "a green apron",
+              "a yellow name badge",
+              "a dark jacket"
+            ],
+            "answer": 1,
+            "explain": "Không có đồng phục; \"the one thing you must always wear is the yellow name badge\".",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "Where do most new volunteers start?",
+            "options": [
+              "at the information desk",
+              "in the shop",
+              "guiding school groups"
+            ],
+            "answer": 0,
+            "explain": "Dẫn đoàn học sinh chỉ sau sáu tháng; \"Most new volunteers begin at the information desk\".",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "match",
+            "q": "Volunteer lounge",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 2,
+            "explain": "Cô nói nhầm \"beside the lift\" rồi sửa: \"The lounge is actually behind the café\" = C.",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "Label the plan of the museum. Which place is each room? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  next to the shop, facing the main doors",
+                "B  at the top of the main staircase",
+                "C  behind the café",
+                "D  beside the lift on the first floor",
+                "E  in the basement",
+                "F  across the courtyard garden",
+                "G  opposite the ticket desk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Coat and bag store",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 6,
+            "explain": "\"directly opposite the ticket desk\" = G.",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "Label the plan of the museum. Which place is each room? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  next to the shop, facing the main doors",
+                "B  at the top of the main staircase",
+                "C  behind the café",
+                "D  beside the lift on the first floor",
+                "E  in the basement",
+                "F  across the courtyard garden",
+                "G  opposite the ticket desk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Learning studio",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 5,
+            "explain": "\"cross the courtyard garden... the old stable block\" = F.",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "Label the plan of the museum. Which place is each room? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  next to the shop, facing the main doors",
+                "B  at the top of the main staircase",
+                "C  behind the café",
+                "D  beside the lift on the first floor",
+                "E  in the basement",
+                "F  across the courtyard garden",
+                "G  opposite the ticket desk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Conservation workshop",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 4,
+            "explain": "\"Downstairs in the basement\" = E.",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "Label the plan of the museum. Which place is each room? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  next to the shop, facing the main doors",
+                "B  at the top of the main staircase",
+                "C  behind the café",
+                "D  beside the lift on the first floor",
+                "E  in the basement",
+                "F  across the courtyard garden",
+                "G  opposite the ticket desk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Archive reading room",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 1,
+            "explain": "\"right at the top, on your left\" của cầu thang chính = B.",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "Label the plan of the museum. Which place is each room? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  next to the shop, facing the main doors",
+                "B  at the top of the main staircase",
+                "C  behind the café",
+                "D  beside the lift on the first floor",
+                "E  in the basement",
+                "F  across the courtyard garden",
+                "G  opposite the ticket desk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "First aid room",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 3,
+            "explain": "\"on the first floor, but it's beside the lift\" = D.",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "Label the plan of the museum. Which place is each room? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  next to the shop, facing the main doors",
+                "B  at the top of the main staircase",
+                "C  behind the café",
+                "D  beside the lift on the first floor",
+                "E  in the basement",
+                "F  across the courtyard garden",
+                "G  opposite the ticket desk"
+              ]
+            }
+          },
+          {
+            "type": "multi",
+            "q": "Which TWO things must volunteers do at the start of every shift?",
+            "options": [
+              "sign the register",
+              "check the emergency exits",
+              "collect a radio",
+              "read the noticeboard",
+              "wash their hands"
+            ],
+            "answer": [
+              0,
+              2
+            ],
+            "explain": "\"you sign the register\" và \"you collect a radio from reception\"; lối thoát hiểm do bảo vệ kiểm tra, bảng tin sẽ được gửi email.",
+            "group": {
+              "title": "Question 10",
+              "text": "Choose TWO letters, A–E."
+            }
+          }
+        ]
+      },
+      {
+        "id": "mt-03-p3",
+        "level": "B2",
+        "title": "Part 3 – Research project on urban noise",
+        "part": 3,
+        "contextVi": "Hai sinh viên thảo luận với giảng viên về đề tài nghiên cứu tiếng ồn đô thị, gồm khu vực khảo sát và phương pháp thu thập dữ liệu.",
+        "script": [
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Come in, both of you, and sit down. Right, I've read your project outline on urban noise, and I'd like to hear how you're feeling about it before we talk about method."
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "Honestly, quite excited. I grew up beside a railway line, so I assumed that was the reason I'd always been interested in noise. But actually, it was an article I read last year about traffic noise and children's sleep that made me want to investigate it properly."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "And I got involved mainly because Sana kept talking about it in the canteen. But I do like the idea of measuring something that everybody complains about without really knowing how loud it is."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Good. Now, my main concern with the outline is the aim. At the moment it says you'll investigate noise pollution in the city, which is far too broad for a project of this size. The topic itself is fine. A few students have looked at noise before, but your angle is new, and your timetable looks sensible."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "We were afraid you'd say that. We thought we could cover the whole centre, but when Sana drew up a map, it had about forty streets on it."
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "Which is impossible. So I suggested choosing one area. The streets around the railway station are the obvious choice, because they're the noisiest, but the council has already done several studies there."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Exactly, and you'd struggle to add anything new. What about somewhere with a mixture of noise sources?"
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "What about the Fernley market area? There are stalls, buskers, early morning deliveries and a bus route, and people actually live in flats above the shops."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "That sounds ideal. The residential streets beside the ring road would work too, but traffic would dominate everything you measured. I'd go with the market."
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "Then that's decided. The market it is."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Now, equipment. The department has two professional sound level meters that you can borrow. They're accurate, but you must calibrate them before every session, otherwise your readings will slowly drift, and you won't be able to defend them in your report."
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "We'd also thought of using phone apps, because they're free and we'd all have one with us."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "For a pilot, that's fine. You could test where to put the meters and how long to record. But I wouldn't use them for your main data, because the microphones vary so much between phones."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "What about a questionnaire for residents? We wanted to ask how much the noise bothers them."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "It's a worthwhile idea, but remember that if you ask people about their health or their sleep, you need approval from the ethics committee, and that can take several weeks. So you'd need to submit your form very soon."
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "And what about recording through the night? Callum thinks it would be pointless, because nothing happens after midnight except deliveries."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "That isn't what I said. I said it would be expensive, because we'd need weatherproof equipment and somewhere safe to leave it."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Callum's right about the cost. But overnight data is very reliable, because nobody disturbs the equipment, and the early deliveries are one of the main complaints. So it's costly, but worth one or two nights if you can borrow a unit."
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "We also wanted to interview the café owners and stallholders about how noise affects their business."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Be careful there. People with a commercial interest tend to exaggerate the problem or play it down, depending on whether they like the buskers. You can certainly use them, but you must treat what they say as biased."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "Finally, the council keeps records of noise complaints. We could use those to see when problems happen."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Yes, and that data is free, because they publish it online every quarter. You don't need to collect anything yourselves. Just download the figures for the market area."
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "That's helpful. It sounds like we've got plenty to work with."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "You do. Now, thinking ahead to the report, what would you like to include apart from the data tables?"
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "I'd love to have a map showing the noise levels at different spots, coloured from quiet to loud. People find those very easy to understand."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "I was thinking of a comparison with another city, perhaps Rotterdam, but I suppose that would take far too long to research."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "It would. Stick to your own area. And what about the health side?"
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "I'd like a section on how noise affects residents' health, but we're not medical students, so we'd be on thin ice."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Agreed, leave that to the specialists. As for background reading, a short review of earlier studies in your introduction is enough, not a whole chapter. What I would like to see is a final section with recommendations for the council. That's where you show your own thinking."
+          },
+          {
+            "speaker": "Callum",
+            "gender": "m",
+            "text": "Right. Then a map and a set of recommendations. We could suggest quieter delivery hours, for example, or limits on where buskers can stand."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Good, that's the kind of practical idea I mean. Now, let's look at your schedule for the next month, and work out when you can book those meters."
+          },
+          {
+            "speaker": "Sana",
+            "gender": "f",
+            "text": "I'll check the department diary this afternoon, and then we can come back to you tomorrow."
+          },
+          {
+            "speaker": "Dr Ellis",
+            "gender": "f",
+            "text": "Perfect. Send me an email as soon as you've done it, and well done, both of you. This is a much stronger plan than the first one."
+          }
+        ],
+        "questions": [
+          {
+            "type": "mcq",
+            "q": "What made Sana choose urban noise as a topic?",
+            "options": [
+              "growing up near a railway",
+              "an article about traffic noise and sleep",
+              "a lecture given by Dr Ellis"
+            ],
+            "answer": 1,
+            "explain": "Sana nghĩ do đường ray nhưng \"actually, it was an article I read last year about traffic noise and children's sleep\".",
+            "group": {
+              "title": "Questions 1–4",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What is the tutor's main concern about the outline?",
+            "options": [
+              "The aim is too broad.",
+              "The timetable is unrealistic.",
+              "The topic has been studied before."
+            ],
+            "answer": 0,
+            "explain": "\"the aim... is far too broad\"; chủ đề ổn và lịch trình \"looks sensible\".",
+            "group": {
+              "title": "Questions 1–4",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "Which area do the students decide to study?",
+            "options": [
+              "the streets around the railway station",
+              "the Fernley market area",
+              "the residential streets beside the ring road"
+            ],
+            "answer": 1,
+            "explain": "Khu ga đã có nhiều nghiên cứu, ring road bị giao thông lấn át; \"I'd go with the market\".",
+            "group": {
+              "title": "Questions 1–4",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What does the tutor advise about the sound level meters?",
+            "options": [
+              "They should buy their own.",
+              "They must calibrate them before every session.",
+              "They should only use them at night."
+            ],
+            "answer": 1,
+            "explain": "Máy mượn được của khoa; \"you must calibrate them before every session\".",
+            "group": {
+              "title": "Questions 1–4",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "match",
+            "q": "Phone sound apps",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 1,
+            "explain": "\"For a pilot, that's fine... But I wouldn't use them for your main data\" = B.",
+            "group": {
+              "title": "Questions 5–9",
+              "text": "What does the tutor say about each of the following methods and data sources? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 5–9.",
+              "list": [
+                "A  reliable but expensive",
+                "B  useful only as a pilot",
+                "C  needs ethical approval",
+                "D  likely to be biased",
+                "E  already available free"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Questionnaire for residents",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 2,
+            "explain": "\"you need approval from the ethics committee\" = C.",
+            "group": {
+              "title": "Questions 5–9",
+              "text": "What does the tutor say about each of the following methods and data sources? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 5–9.",
+              "list": [
+                "A  reliable but expensive",
+                "B  useful only as a pilot",
+                "C  needs ethical approval",
+                "D  likely to be biased",
+                "E  already available free"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Recording through the night",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 0,
+            "explain": "\"very reliable\" nhưng \"costly\" = A.",
+            "group": {
+              "title": "Questions 5–9",
+              "text": "What does the tutor say about each of the following methods and data sources? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 5–9.",
+              "list": [
+                "A  reliable but expensive",
+                "B  useful only as a pilot",
+                "C  needs ethical approval",
+                "D  likely to be biased",
+                "E  already available free"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Interviews with café owners",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 3,
+            "explain": "\"you must treat what they say as biased\" = D.",
+            "group": {
+              "title": "Questions 5–9",
+              "text": "What does the tutor say about each of the following methods and data sources? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 5–9.",
+              "list": [
+                "A  reliable but expensive",
+                "B  useful only as a pilot",
+                "C  needs ethical approval",
+                "D  likely to be biased",
+                "E  already available free"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Council complaint records",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 4,
+            "explain": "\"that data is free, because they publish it online\" = E.",
+            "group": {
+              "title": "Questions 5–9",
+              "text": "What does the tutor say about each of the following methods and data sources? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 5–9.",
+              "list": [
+                "A  reliable but expensive",
+                "B  useful only as a pilot",
+                "C  needs ethical approval",
+                "D  likely to be biased",
+                "E  already available free"
+              ]
+            }
+          },
+          {
+            "type": "multi",
+            "q": "Which TWO things will the students include in their final report?",
+            "options": [
+              "a map of noise levels",
+              "a comparison with another city",
+              "recommendations for the council",
+              "a section on residents' health",
+              "a long literature review"
+            ],
+            "answer": [
+              0,
+              2
+            ],
+            "explain": "Họ chọn \"a map\" và \"recommendations for the council\"; so sánh thành phố khác tốn thời gian, phần sức khỏe để chuyên gia, tổng quan tài liệu chỉ ngắn.",
+            "group": {
+              "title": "Question 10",
+              "text": "Choose TWO letters, A–E."
+            }
+          }
+        ]
+      },
+      {
+        "id": "mt-03-p4",
+        "level": "C1",
+        "title": "Part 4 – Bioluminescence in the ocean",
+        "part": 4,
+        "contextVi": "Một bài giảng đại học về hiện tượng sinh vật biển tự phát sáng, chức năng của nó và các ứng dụng của con người.",
+        "script": [
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "Good afternoon. Today I want to talk about one of the most spectacular phenomena in the oceans, bioluminescence, which simply means light produced by living organisms. It is astonishingly common. Some estimates suggest that around three quarters of the animals living in open water below a few hundred metres can make their own light, which makes it far more widespread than most people imagine."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "Chemically, the process is quite simple in principle. A molecule called luciferin reacts with oxygen, and the reaction is sped up by an enzyme. Many students assume that the enzyme is also called luciferin, but it is not. The enzyme is known as luciferase, and different species have evolved different versions of both molecules, which is why the light varies from one animal to another."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "One feature stands out when you look at the colour of this light. Most of it is blue, sometimes with a slight tinge of green, and you might expect some of it to be red or yellow. Blue light has the wavelength that travels furthest through seawater, while red light is absorbed within a few metres of the surface. Evolution has simply favoured the colour that can actually be seen."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "Now, why do animals bother? The first function is camouflage. In the twilight zone, predators look upwards and see the faint sunlight, so any animal swimming above them appears as a dark outline. Hatchetfish and some squid solve this by producing light from organs on their undersides. This is called counter-illumination, and it removes the animal's shadow."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "A second function is defence. When a deep-sea shrimp is attacked, it releases a glowing cloud into the water, rather like an octopus uses ink, and it swims away in the dark while the predator is distracted. Other species, such as certain jellyfish, flash dramatically, so that a larger predator is attracted to the scene. This is known as the burglar alarm effect."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "Light can also be used offensively. The best known example is the anglerfish, which has a long spine growing from its head, with a glowing tip full of bacteria. Small fish are attracted to it, assuming it is food, and swim close enough to be swallowed. The unlucky prey never sees the mouth until it is too late."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "The fourth function is communication. In the Caribbean there are tiny crustaceans called sea fireflies. At certain times after sunset, the males release a pattern of glowing droplets as they swim upwards, leaving a vertical line of light. Each species uses a different rhythm, so females know which males to approach. Divers describe these lines as trails of light."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "Most of us have seen photographs of glowing waves along a beach at night. The light comes from microscopic algae called dinoflagellates. They flash whenever the water around them is disturbed, so a breaking wave, a swimming fish or an oar will set them off. Biologists believe that this movement startles the small grazers that would otherwise eat the algae."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "Sometimes the effect happens on an enormous scale. Sailors have reported what they call milky seas, in which the ocean glows evenly for hundreds of square kilometres. For a long time these accounts were treated as legend, but in the early two thousands, satellite sensors finally confirmed one, and researchers now believe that glowing bacteria are responsible."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "Let me turn to what humans have done with all this. In medicine, researchers have inserted luciferase genes into bacteria, so that they can follow the progress of an infection inside laboratory animals. The infection lights up, and the scientists need not operate, so far fewer animals are needed. The same idea has since been adapted for testing new drugs, which saves enormous amounts of time."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "There are military applications too. During the Second World War, bioluminescence was a real danger for ships at night. A vessel moving through plankton-rich water leaves a glowing wake, which an enemy aircraft could follow straight back to the ship. Navies still study the phenomenon today, and some modern ships have special designs to reduce the disturbance that makes the water glow."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "Which brings me to the deep ocean itself, and the problem of studying animals that react to light. When the first submersibles went down, their bright white lamps made animals flee or flash in panic. Researchers then switched to red light, which most deep-sea animals cannot see, because, as I said earlier, red is absorbed so quickly in seawater that they never evolved to detect it."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "Another approach is to use cameras that are sensitive to almost no light at all. A famous example was a system called the Eye-in-the-Sea, which was lowered into the dark with a dim lure that imitated the flash of a jellyfish. It attracted a giant squid, an animal that had never been filmed in its natural habitat before. This was in two thousand twelve."
+          },
+          {
+            "speaker": "Dr Lindqvist",
+            "gender": "m",
+            "text": "To sum up, bioluminescence is not a curiosity. It is one of the main ways that life communicates, hunts and hides in the largest habitat on the planet. Next week, we'll look at the chemistry of fluorescence, which is often confused with bioluminescence, and I'll explain why the famous green protein from jellyfish belongs in a different category."
+          }
+        ],
+        "questions": [
+          {
+            "type": "gap",
+            "q": "An enzyme called ____ speeds up the reaction.",
+            "answer": [
+              "luciferase"
+            ],
+            "explain": "Giảng viên sửa lỗi hay gặp: enzyme \"is known as luciferase\" (luciferin là phân tử phản ứng).",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Most bioluminescence is ____ in colour.",
+            "answer": [
+              "blue"
+            ],
+            "explain": "\"Most of it is blue... Blue light has the wavelength that travels furthest through seawater\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Counter-illumination removes the animal's ____.",
+            "answer": [
+              "shadow",
+              "silhouette"
+            ],
+            "explain": "\"it removes the animal's shadow\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Some shrimp escape by releasing a glowing ____.",
+            "answer": [
+              "cloud"
+            ],
+            "explain": "\"it releases a glowing cloud into the water, rather like an octopus uses ink\" (ink chỉ là phép so sánh).",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Anglerfish use a glowing lure to attract ____.",
+            "answer": [
+              "prey"
+            ],
+            "explain": "\"The unlucky prey never sees the mouth until it is too late\"; \"small fish\" được thu hút bởi mồi sáng.",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Male sea fireflies leave glowing ____ in the water.",
+            "answer": [
+              "trails",
+              "trail"
+            ],
+            "explain": "\"Divers describe these lines as trails of light\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Dinoflagellates flash when there is ____ in the water.",
+            "answer": [
+              "movement",
+              "motion"
+            ],
+            "explain": "Chúng phát sáng khi nước \"is disturbed\"; \"Biologists believe that this movement startles the small grazers\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Glowing bacteria let researchers follow an ____ inside animals.",
+            "answer": [
+              "infection"
+            ],
+            "explain": "\"follow the progress of an infection inside laboratory animals\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "A ship moving through plankton leaves a glowing ____.",
+            "answer": [
+              "wake"
+            ],
+            "explain": "\"leaves a glowing wake, which an enemy aircraft could follow\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Submersibles now use ____ light because most deep-sea animals cannot see it.",
+            "answer": [
+              "red"
+            ],
+            "explain": "\"Researchers then switched to red light, which most deep-sea animals cannot see\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below.\nWrite ONE WORD ONLY for each answer.\n\nBioluminescence in the ocean\n\nHow it works\n- luciferin reacts with oxygen; the reaction is sped up by an enzyme called (1) ____\n- most light is (2) ____ because that colour travels furthest through seawater\n\nFunctions\n- camouflage: some squid use light on their undersides to remove their (3) ____\n- defence: some shrimp escape by releasing a glowing (4) ____\n- hunting: anglerfish use a glowing lure to attract (5) ____\n- communication: male sea fireflies leave glowing (6) ____ to attract females\n- dinoflagellates flash when there is (7) ____ in the water\n\nHuman uses\n- medicine: glowing bacteria let researchers follow an (8) ____ inside laboratory animals\n- military: a ship moving through plankton leaves a glowing (9) ____\n- deep-sea research: submersibles now use (10) ____ light, which most animals cannot see"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mt-04",
+    "title": "Full Test 4",
+    "parts": [
+      {
+        "id": "mt-04-p1",
+        "level": "B1",
+        "title": "Joining a community choir",
+        "part": 1,
+        "contextVi": "Một người đàn ông mới chuyển đến gọi điện cho nhân viên của dàn hợp xướng cộng đồng để đăng ký tham gia.",
+        "script": [
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Good morning, Riverside Community Choir, Megan speaking. How can I help you?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Oh, hello. My name's Daniel. I've just moved to the area and I'd really love to join a choir. I saw that you take new members this month, is that right?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Yes, that's right. We have a new term starting in two weeks, and we always welcome beginners. Let me take a few details first, if that's all right. Could I have your full name, please?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Sure. It's Daniel Hayley."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Could you spell the surname for me?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Of course. That's H, A, Y, L, E, Y. Most people write it with an I in the middle, but mine doesn't have one, so it catches everybody out."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Thanks, Daniel, I've got that. And what's the best phone number to reach you on? We send a text message reminder before each rehearsal."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "My mobile is oh seven seven one, three five two, eight eight four."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Let me read that back to you. Oh seven seven one, three five two, eight eight four. Is that correct?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Yes, perfect. That's the one I use all the time."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Lovely. Now, do you know what sort of voice you have? We have four sections in the choir, and we're a bit short of men at the moment."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Well, at school I sang bass, but my voice has changed a lot since then. These days I can reach the higher notes quite easily, so I think I'm a tenor now."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "That's good news, because we really need more tenors. You can always try both parts at the first rehearsal, and the conductor will move you if necessary."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "That sounds sensible. And when do you rehearse? I work during the day, so I can only come in the evening."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "It's every Thursday evening. People usually arrive from seven o'clock for a cup of tea and a chat, but the singing itself starts at seven thirty and we finish at nine thirty."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Seven thirty is fine for me. Is the rehearsal in the town centre? I don't have a car yet, so I'll be walking or taking the bus."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "It's at Marlow Hall, which is just behind the railway station, so it's very easy to reach. We used to use the church hall, but it was too small, so we moved last year."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Marlow Hall, I'll find it. And how much does it cost to join?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "The fee is thirty-five pounds a term for students and retired people. For everyone else it's forty-two pounds, and that includes all your music and a printed folder."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "I'm working full time, so I'll be paying the forty-two pounds. Can I pay on the first night, or do I need to send something in advance?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "You can pay on the first night, cash or card, whichever you prefer. Now, we have a concert at the end of term. It's the nineteenth of December, in the cathedral. Some members think it's the twenty-first, but that was the date last year."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "The nineteenth, I'll write that down. That's very soon, though. Do new members really perform in the concert, or do they just come along and listen the first time?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Everyone sings. We choose easy songs for the winter concert, mostly folk tunes and a few carols, and the conductor makes sure that newer members stand next to more experienced singers."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "That's reassuring. Do I have to do an audition before I can join?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Not at all. Years ago there was a proper audition in front of a panel, which put a lot of people off, but now it's just a five-minute chat with the conductor. She asks you to sing a simple scale so that she knows where to place you. Nobody is ever turned away."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Good, that's a relief. What should I bring on the first night?"
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Some people bring their own sheet music, but there's no need, as we give you a folder. The most useful thing is a pencil, because the conductor changes the markings all the time. Oh, and please don't record anything on your phone. That's a firm rule."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "A pencil, and no recordings. Understood."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "One last thing, just for our records. How did you hear about the choir? Was it through our website?"
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "I did look at your website, but that was afterwards. My neighbour mentioned the choir a few weeks ago, though I didn't really think about it until I saw your poster in the library yesterday. That's what made me pick up the phone."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Wonderful, so I'll put down the poster. Well, Daniel, we're delighted to have you, and we look forward to seeing you on Thursday week."
+          },
+          {
+            "speaker": "Daniel",
+            "gender": "m",
+            "text": "Thank you very much, Megan. I'm already looking forward to it. See you then. Goodbye."
+          },
+          {
+            "speaker": "Megan",
+            "gender": "f",
+            "text": "Goodbye, Daniel. Take care."
+          }
+        ],
+        "questions": [
+          {
+            "type": "gap",
+            "q": "Surname: ____",
+            "answer": [
+              "Hayley"
+            ],
+            "explain": "Daniel đánh vần họ: \"H, A, Y, L, E, Y\" nên họ là Hayley.",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nRiverside Community Choir – New member form\n\nName: Daniel (1) ____\nMobile number: (2) ____\nVoice type: (3) ____\nRehearsals: Thursdays, singing starts at (4) ____\nVenue: (5) ____ Hall\nFee per term (full rate): £(6) ____\nWinter concert: the (7) ____ of December"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Mobile number: ____",
+            "answer": [
+              "0771352884",
+              "0771 352 884",
+              "07713 52884",
+              "oh seven seven one three five two eight eight four"
+            ],
+            "explain": "Số điện thoại được đọc hai lần: \"oh seven seven one, three five two, eight eight four\" tức 0771 352 884.",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nRiverside Community Choir – New member form\n\nName: Daniel (1) ____\nMobile number: (2) ____\nVoice type: (3) ____\nRehearsals: Thursdays, singing starts at (4) ____\nVenue: (5) ____ Hall\nFee per term (full rate): £(6) ____\nWinter concert: the (7) ____ of December"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Voice type: ____",
+            "answer": [
+              "tenor"
+            ],
+            "explain": "Ở trường anh hát bass nhưng giờ \"I think I'm a tenor now\", nên đáp án là tenor.",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nRiverside Community Choir – New member form\n\nName: Daniel (1) ____\nMobile number: (2) ____\nVoice type: (3) ____\nRehearsals: Thursdays, singing starts at (4) ____\nVenue: (5) ____ Hall\nFee per term (full rate): £(6) ____\nWinter concert: the (7) ____ of December"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Singing starts at ____",
+            "answer": [
+              "7.30",
+              "7:30",
+              "7.30 pm",
+              "seven thirty",
+              "half past seven",
+              "19.30"
+            ],
+            "explain": "Mọi người đến từ bảy giờ nhưng \"the singing itself starts at seven thirty\", tức 7.30.",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nRiverside Community Choir – New member form\n\nName: Daniel (1) ____\nMobile number: (2) ____\nVoice type: (3) ____\nRehearsals: Thursdays, singing starts at (4) ____\nVenue: (5) ____ Hall\nFee per term (full rate): £(6) ____\nWinter concert: the (7) ____ of December"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Venue: ____ Hall",
+            "answer": [
+              "Marlow"
+            ],
+            "explain": "\"It's at Marlow Hall, which is just behind the railway station\" (nhà thờ là địa điểm cũ).",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nRiverside Community Choir – New member form\n\nName: Daniel (1) ____\nMobile number: (2) ____\nVoice type: (3) ____\nRehearsals: Thursdays, singing starts at (4) ____\nVenue: (5) ____ Hall\nFee per term (full rate): £(6) ____\nWinter concert: the (7) ____ of December"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Fee per term (full rate): £____",
+            "answer": [
+              "42",
+              "£42",
+              "forty-two",
+              "forty two"
+            ],
+            "explain": "Ba mươi lăm bảng là giá cho sinh viên và người nghỉ hưu; Daniel đi làm nên trả \"forty-two pounds\".",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nRiverside Community Choir – New member form\n\nName: Daniel (1) ____\nMobile number: (2) ____\nVoice type: (3) ____\nRehearsals: Thursdays, singing starts at (4) ____\nVenue: (5) ____ Hall\nFee per term (full rate): £(6) ____\nWinter concert: the (7) ____ of December"
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Winter concert: the ____ of December",
+            "answer": [
+              "19th",
+              "19",
+              "nineteenth",
+              "nineteen"
+            ],
+            "explain": "\"It's the nineteenth of December\"; ngày 21 là ngày của năm ngoái.",
+            "group": {
+              "title": "Questions 1–7",
+              "text": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.\n\nRiverside Community Choir – New member form\n\nName: Daniel (1) ____\nMobile number: (2) ____\nVoice type: (3) ____\nRehearsals: Thursdays, singing starts at (4) ____\nVenue: (5) ____ Hall\nFee per term (full rate): £(6) ____\nWinter concert: the (7) ____ of December"
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What is needed to join the choir?",
+            "options": [
+              "a full audition",
+              "a short chat with the conductor",
+              "a written test"
+            ],
+            "answer": 1,
+            "explain": "Trước đây có thử giọng trước hội đồng, nhưng giờ \"it's just a five-minute chat with the conductor\".",
+            "group": {
+              "title": "Questions 8–10",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What is the most useful thing to bring on the first night?",
+            "options": [
+              "your own sheet music",
+              "a pencil",
+              "a recording device"
+            ],
+            "answer": 1,
+            "explain": "Dàn hợp xướng phát tập nhạc; \"the most useful thing is a pencil\"; không được ghi âm.",
+            "group": {
+              "title": "Questions 8–10",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What made Daniel decide to phone the choir?",
+            "options": [
+              "a neighbour's recommendation",
+              "a poster in the library",
+              "the choir's website"
+            ],
+            "answer": 1,
+            "explain": "Hàng xóm chỉ nhắc đến, nhưng \"I saw your poster in the library yesterday. That's what made me pick up the phone\".",
+            "group": {
+              "title": "Questions 8–10",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          }
+        ]
+      },
+      {
+        "id": "mt-04-p2",
+        "level": "B1",
+        "title": "Harbourside Food and Music Weekend",
+        "part": 2,
+        "contextVi": "Một người dẫn chương trình radio giới thiệu cho thính giả lễ hội ẩm thực và âm nhạc cuối tuần ở bến cảng.",
+        "script": [
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "Hello and welcome to Weekend Watch, your guide to what's on in the city. I'm Tom Garrick, and today I'm taking you through the Harbourside Food and Music Weekend, which starts this Friday evening and runs until Sunday night. It's a huge celebration of local cooking and live music, and this year it's bigger than ever, with more than sixty stalls and eleven bands."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "First, getting there. Many of you will want to drive, but please don't. The harbour car park is closed for repairs all month, and the streets nearby fill up very quickly. Some people have suggested using the ferry from Northside, and it does stop close to the site, but it only runs once an hour. Your best option is the free shuttle bus from the railway station, which leaves every ten minutes."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "Now, tickets. Entry on Friday is free for everyone after five o'clock, but on Saturday and Sunday you'll need a day pass. Adults pay twelve pounds, and children under twelve come in free, as long as they're with an adult. You can buy passes at the gate, though the organisers recommend booking online, because it's cheaper and the queues on Saturday morning can be very long."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "So what's new this year? Last year's most popular event was the cooking contest, and that returns on Sunday, along with two extra bands on the main stage. But the big addition is the Lantern Market, which opens after dark on Saturday. It's a night market with over twenty stalls, all lit by hundreds of paper lanterns, and I think it's going to be the highlight of the whole weekend."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "Let me now guide you around the site. If you have the festival plan in front of you, you'll see that everything is arranged around the old harbour in a big circle, and the seven main areas are labelled A to G. I'll walk you through the ones you'll most want to visit, starting with the entrance, so you can follow me on the map."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "As you come in from the bus stop, you'll arrive at Pier Square. This is where all the street food is, with stalls serving dishes from fourteen different countries, from Korean dumplings to Peruvian grilled chicken. Last year the stalls were along the Ropewalk, but they've been moved here to make more space, so please don't go looking for them in the old place."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "Walk on past the fountain and you'll find the Orchard Garden, which is the place to take the family. Children can join workshops where they make their own bread, from mixing the dough to taking it home warm in a paper bag. They run every hour from ten, and a grown-up is welcome to help, though it's mostly the children who end up covered in flour."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "Next is the Old Boathouse, a lovely old building right by the water. Inside you can try regional cheeses and apple cider, and best of all, the tasting is free, thanks to the farmers who sponsor it. You might think it's a cooking area because of the delicious smells, but the chefs are in a different building, so don't expect to see any demonstrations there."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "And that other building is the Market Hall. This is where the cooking demonstrations take place, led by chefs from the best restaurants in the region. There are four sessions a day, each lasting forty minutes, and seats are limited, so I'd arrive early. The Saturday afternoon session with a famous pastry chef is expected to be especially busy, so try Sunday if you can."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "If you'd like to sit down with a drink, head to the Quayside Steps. That's where the jazz is, with a different band every afternoon from two o'clock, and it's a great place to listen while you watch the boats. Lighthouse Lawn, just beyond, is the quiet area, with a first aid point and baby changing facilities, but there's no music there at all."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "At the far end of the site is the Ropewalk, a long, narrow path lined with trees. Every evening at seven there is folk dancing, and visitors are invited to join in. No experience is needed, because a caller shows you every step. It can get crowded, but it's the most cheerful place on the whole site, and the music goes on until ten o'clock."
+          },
+          {
+            "speaker": "Tom",
+            "gender": "m",
+            "text": "Finally, a few tips. Bring a refillable water bottle, because there are free water points all around the site, and bottled water isn't sold at all. I'd also suggest a folding chair, since the grass areas have very little seating. You won't need cash, as every stall takes cards, and the forecast is dry, so leave the umbrella at home. Have a great weekend, and enjoy the food and the music!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "mcq",
+            "q": "What does the speaker recommend for getting to the festival?",
+            "options": [
+              "driving to the harbour car park",
+              "taking the ferry from Northside",
+              "using the free shuttle bus"
+            ],
+            "answer": 2,
+            "explain": "Bãi đỗ xe đóng cửa, phà chỉ chạy mỗi giờ; \"Your best option is the free shuttle bus from the railway station\".",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "Who can enter the festival free of charge on Saturday?",
+            "options": [
+              "anyone arriving after five o'clock",
+              "children under twelve with an adult",
+              "people who book online"
+            ],
+            "answer": 1,
+            "explain": "Miễn phí sau năm giờ chỉ vào thứ Sáu; thứ Bảy \"children under twelve come in free, as long as they're with an adult\".",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What is new at the festival this year?",
+            "options": [
+              "a cooking contest",
+              "a night market",
+              "a larger main stage"
+            ],
+            "answer": 1,
+            "explain": "Cuộc thi nấu ăn đã có từ năm ngoái; điều mới là \"the Lantern Market\", chợ đêm mở sau khi trời tối.",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "match",
+            "q": "Street food from other countries",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 0,
+            "explain": "\"This is where all the street food is\" ở Pier Square (A), không còn ở Ropewalk.",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "What is offered at each place at the festival? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  Pier Square",
+                "B  Orchard Garden",
+                "C  Old Boathouse",
+                "D  Market Hall",
+                "E  Lighthouse Lawn",
+                "F  Quayside Steps",
+                "G  Ropewalk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Workshops where children make bread",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 1,
+            "explain": "\"Orchard Garden ... Children can join workshops where they make their own bread\".",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "What is offered at each place at the festival? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  Pier Square",
+                "B  Orchard Garden",
+                "C  Old Boathouse",
+                "D  Market Hall",
+                "E  Lighthouse Lawn",
+                "F  Quayside Steps",
+                "G  Ropewalk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Free tasting of cheese and cider",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 2,
+            "explain": "\"Old Boathouse ... try regional cheeses and apple cider ... the tasting is free\".",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "What is offered at each place at the festival? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  Pier Square",
+                "B  Orchard Garden",
+                "C  Old Boathouse",
+                "D  Market Hall",
+                "E  Lighthouse Lawn",
+                "F  Quayside Steps",
+                "G  Ropewalk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Cooking demonstrations by chefs",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 3,
+            "explain": "Các buổi trình diễn nấu ăn diễn ra ở \"the Market Hall\", không phải Old Boathouse.",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "What is offered at each place at the festival? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  Pier Square",
+                "B  Orchard Garden",
+                "C  Old Boathouse",
+                "D  Market Hall",
+                "E  Lighthouse Lawn",
+                "F  Quayside Steps",
+                "G  Ropewalk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Live jazz every afternoon",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 5,
+            "explain": "\"Quayside Steps. That's where the jazz is\"; Lighthouse Lawn thì không có nhạc.",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "What is offered at each place at the festival? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  Pier Square",
+                "B  Orchard Garden",
+                "C  Old Boathouse",
+                "D  Market Hall",
+                "E  Lighthouse Lawn",
+                "F  Quayside Steps",
+                "G  Ropewalk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "Folk dancing in the evening",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ],
+            "answer": 6,
+            "explain": "\"At the far end ... the Ropewalk ... Every evening at seven there is folk dancing\".",
+            "group": {
+              "title": "Questions 4–9",
+              "text": "What is offered at each place at the festival? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 4–9.",
+              "list": [
+                "A  Pier Square",
+                "B  Orchard Garden",
+                "C  Old Boathouse",
+                "D  Market Hall",
+                "E  Lighthouse Lawn",
+                "F  Quayside Steps",
+                "G  Ropewalk"
+              ]
+            }
+          },
+          {
+            "type": "multi",
+            "q": "Which TWO things does the speaker advise visitors to bring?",
+            "options": [
+              "a refillable water bottle",
+              "a folding chair",
+              "cash",
+              "an umbrella",
+              "a sun hat"
+            ],
+            "answer": [
+              0,
+              1
+            ],
+            "explain": "\"Bring a refillable water bottle\" và \"a folding chair\"; không cần tiền mặt vì ai cũng nhận thẻ, và dự báo trời khô nên không cần ô.",
+            "group": {
+              "title": "Question 10",
+              "text": "Choose TWO letters, A–E."
+            }
+          }
+        ]
+      },
+      {
+        "id": "mt-04-p3",
+        "level": "B2",
+        "title": "Presentation on social media and sleep",
+        "part": 3,
+        "contextVi": "Hai sinh viên gặp giảng viên để xin ý kiến về bài thuyết trình về ảnh hưởng của mạng xã hội đến giấc ngủ.",
+        "script": [
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Come in, both of you, and sit down. So, you wanted to talk about the presentation for the Health and Behaviour module. Remind me of your topic, and tell me how far you've got."
+          },
+          {
+            "speaker": "Hannah",
+            "gender": "f",
+            "text": "Thanks, Dr Reyes. We're looking at the effects of social media on sleep, specifically among university students. We've done most of the reading, and we've run a small survey, so we'd like your opinion on our plan."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Good. What first gave you the idea? Was it that article in the student newspaper a few weeks ago?"
+          },
+          {
+            "speaker": "Liam",
+            "gender": "m",
+            "text": "Actually, I only read that afterwards. The idea came from your lecture last term, when you mentioned that most students check their phones within five minutes of waking up. Hannah and I both thought, that's us."
+          },
+          {
+            "speaker": "Hannah",
+            "gender": "f",
+            "text": "Yes. I'd also considered doing something on exam stress, but that felt too general. Nobody had really tested sleep and scrolling in our own halls of residence, so we decided to try it."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Sensible. Tell me about the survey, then. How did it go?"
+          },
+          {
+            "speaker": "Liam",
+            "gender": "m",
+            "text": "We asked one hundred and twenty students in the halls to fill in a questionnaire about bedtime and screen use. The response was better than we expected, actually. Almost everyone we approached answered."
+          },
+          {
+            "speaker": "Hannah",
+            "gender": "f",
+            "text": "The problem is accuracy. People had to estimate how long they spent on their phones each evening, and when we compared that with the screen time figures on the phones themselves, most students had guessed far too low."
+          },
+          {
+            "speaker": "Liam",
+            "gender": "m",
+            "text": "We piloted the questions on friends first, so confusing wording wasn't the issue. It's just that people don't like to admit how much time they spend online."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "That's a well-known limitation of self-reported data. It doesn't make your survey worthless, but you must say so openly. Treat it as a point for your discussion section rather than an apology."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Now, let's talk about your title. At the moment it's Social Media and Sleep, which is far too wide for fifteen minutes. You could spend an hour on it. A narrower focus would help."
+          },
+          {
+            "speaker": "Hannah",
+            "gender": "f",
+            "text": "We thought about adding Young People, but that's just as vague. How about Night-time Scrolling and Sleep Quality in University Students?"
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Much better. It isn't misleading, and it's not too technical either, just specific. Keep that. Now, I've read the draft outline you sent me, so let me go through it section by section."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Your introduction first. You spend nearly four minutes on background and definitions. Your audience are students, they know what social media is. One minute is plenty, so I'd cut it right down."
+          },
+          {
+            "speaker": "Liam",
+            "gender": "m",
+            "text": "That's fair. I wrote most of that, and I think I got carried away with the history of the platforms."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Then the survey results. You've got two long tables of figures on one slide, and nobody will read them. A simple bar chart showing bedtime against hours of use would make your point instantly."
+          },
+          {
+            "speaker": "Hannah",
+            "gender": "f",
+            "text": "We could do that. I'd have made a graph already, but I wasn't sure which figures to use."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Use the averages for each group. Next is the research on blue light from screens. The studies you cite are from about fifteen years ago, and the field has moved on. Look for recent work, especially anything that disagrees with the older findings."
+          },
+          {
+            "speaker": "Liam",
+            "gender": "m",
+            "text": "Honestly, I was wondering whether we should drop that section entirely, because the evidence seems to be changing."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "No, keep it, but update it. It's the most scientific part of your talk, and a good evaluation of changing evidence will impress the markers."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Then there are your two interviews with students about their night-time habits. At present they come near the end. I'd start with them, because a real story grabs the audience's attention, and then you can bring in the numbers."
+          },
+          {
+            "speaker": "Hannah",
+            "gender": "f",
+            "text": "That makes sense. We could open with a short quotation from one of them, and then explain why we looked into it."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Exactly. Finally, your recommendations. Switching off notifications, keeping phones outside the bedroom, setting a screen curfew. They are practical and clearly explained, so I wouldn't touch them."
+          },
+          {
+            "speaker": "Liam",
+            "gender": "m",
+            "text": "I thought we might shorten that part, because it felt a bit obvious."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "It isn't obvious to everyone, and it's what people will remember. Leave it as it is."
+          },
+          {
+            "speaker": "Hannah",
+            "gender": "f",
+            "text": "And how long do we have, exactly? I thought the handbook said twenty minutes."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "It did last year, but it's been reduced. You'll have fifteen minutes for the presentation, followed by five minutes of questions, and I'll stop you if you go over."
+          },
+          {
+            "speaker": "Liam",
+            "gender": "m",
+            "text": "Fifteen, then. That's another reason to shorten the introduction."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "Right. Now, what are you going to do before next Thursday? I'd like to see some progress."
+          },
+          {
+            "speaker": "Hannah",
+            "gender": "f",
+            "text": "We'll rework the slides along the lines you suggested and email them to you by Monday. Is that early enough for you to give us feedback?"
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "That's perfect. I'd also like you to record yourselves practising the talk, and watch it back. It's uncomfortable, but you'll spot problems you'd never notice otherwise."
+          },
+          {
+            "speaker": "Liam",
+            "gender": "m",
+            "text": "I could also contact the university sleep clinic and ask for an interview. They might give us a useful quotation."
+          },
+          {
+            "speaker": "Dr Reyes",
+            "gender": "f",
+            "text": "It's a nice idea, but you really don't have the time before the deadline. Concentrate on the slides and the practice. And there's no need to rewrite the questionnaire, since you've already collected your data. Good luck, both of you."
+          }
+        ],
+        "questions": [
+          {
+            "type": "mcq",
+            "q": "What first gave the students the idea for their topic?",
+            "options": [
+              "an article in the student newspaper",
+              "Hannah's interest in exam stress",
+              "a lecture last term"
+            ],
+            "answer": 2,
+            "explain": "Liam nói đã đọc bài báo \"afterwards\"; ý tưởng đến từ \"your lecture last term\".",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What problem did the students have with their survey?",
+            "options": [
+              "too few students replied",
+              "students guessed their phone use inaccurately",
+              "the questions were confusing"
+            ],
+            "answer": 1,
+            "explain": "Phản hồi tốt hơn mong đợi, câu hỏi đã được thử trước; vấn đề là \"most students had guessed far too low\".",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "What does Dr Reyes say about their title?",
+            "options": [
+              "It is too broad.",
+              "It is misleading.",
+              "It is too technical."
+            ],
+            "answer": 0,
+            "explain": "Tiêu đề cũ \"far too wide for fifteen minutes\"; tiêu đề mới thì \"not misleading ... not too technical\".",
+            "group": {
+              "title": "Questions 1–3",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "match",
+            "q": "The introduction",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 1,
+            "explain": "Phần mở đầu mất gần bốn phút; cô nói \"One minute is plenty, so I'd cut it right down\".",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What does Dr Reyes say about each section of the presentation? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 4–8.",
+              "list": [
+                "A  It is already clear and effective",
+                "B  It should be shortened",
+                "C  It needs a chart or diagram",
+                "D  It needs more recent evidence",
+                "E  It should come earlier in the talk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "The survey results",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 2,
+            "explain": "Hai bảng số liệu dày đặc; \"A simple bar chart ... would make your point instantly\".",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What does Dr Reyes say about each section of the presentation? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 4–8.",
+              "list": [
+                "A  It is already clear and effective",
+                "B  It should be shortened",
+                "C  It needs a chart or diagram",
+                "D  It needs more recent evidence",
+                "E  It should come earlier in the talk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "The research on blue light",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 3,
+            "explain": "Các nghiên cứu \"from about fifteen years ago\"; cô bảo \"Look for recent work\".",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What does Dr Reyes say about each section of the presentation? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 4–8.",
+              "list": [
+                "A  It is already clear and effective",
+                "B  It should be shortened",
+                "C  It needs a chart or diagram",
+                "D  It needs more recent evidence",
+                "E  It should come earlier in the talk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "The interviews with students",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 4,
+            "explain": "\"I'd start with them, because a real story grabs the audience's attention\".",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What does Dr Reyes say about each section of the presentation? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 4–8.",
+              "list": [
+                "A  It is already clear and effective",
+                "B  It should be shortened",
+                "C  It needs a chart or diagram",
+                "D  It needs more recent evidence",
+                "E  It should come earlier in the talk"
+              ]
+            }
+          },
+          {
+            "type": "match",
+            "q": "The recommendations",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "answer": 0,
+            "explain": "Liam muốn rút gọn nhưng cô nói \"practical and clearly explained, so I wouldn't touch them\".",
+            "group": {
+              "title": "Questions 4–8",
+              "text": "What does Dr Reyes say about each section of the presentation? Choose FIVE answers from the box and write the correct letter, A–E, next to Questions 4–8.",
+              "list": [
+                "A  It is already clear and effective",
+                "B  It should be shortened",
+                "C  It needs a chart or diagram",
+                "D  It needs more recent evidence",
+                "E  It should come earlier in the talk"
+              ]
+            }
+          },
+          {
+            "type": "mcq",
+            "q": "How long will the main presentation be?",
+            "options": [
+              "fifteen minutes",
+              "twenty minutes",
+              "twenty-five minutes"
+            ],
+            "answer": 0,
+            "explain": "Năm ngoái là hai mươi phút nhưng giờ \"fifteen minutes for the presentation, followed by five minutes of questions\".",
+            "group": {
+              "title": "Question 9",
+              "text": "Choose the correct letter, A, B or C."
+            }
+          },
+          {
+            "type": "multi",
+            "q": "Which TWO things will the students do before next Thursday?",
+            "options": [
+              "email revised slides to Dr Reyes",
+              "interview someone at the sleep clinic",
+              "rewrite the questionnaire",
+              "record a practice run of the talk",
+              "book a room for the presentation"
+            ],
+            "answer": [
+              0,
+              3
+            ],
+            "explain": "Họ sẽ gửi slide \"by Monday\" và quay video luyện tập; cô bảo bỏ ý định phỏng vấn phòng khám và không cần viết lại bảng hỏi.",
+            "group": {
+              "title": "Question 10",
+              "text": "Choose TWO letters, A–E."
+            }
+          }
+        ]
+      },
+      {
+        "id": "mt-04-p4",
+        "level": "C1",
+        "title": "How honeybees navigate",
+        "part": 4,
+        "contextVi": "Một giảng viên sinh học giảng về cách ong mật định hướng và tìm đường về tổ.",
+        "script": [
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "Good afternoon, everyone. Today I want to look at one of the great puzzles of animal behaviour, namely how honeybees find their way. A forager may fly three kilometres from the hive, visit hundreds of flowers, and return in a straight line, with a brain smaller than a sesame seed. How does it do it? The answer, as we'll see, involves several systems working together."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "Let's begin with the most important cue. Some early naturalists believed that bees followed scent trails, and others suggested that they simply remembered the route. Neither is the main explanation. Bees use the position of the sun as a compass, and they compensate for its movement across the sky, because their internal clock tells them where the sun ought to be at any given time of day."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "Of course, the sun is not always visible. Yet bees still navigate on cloudy days, and that was a mystery for decades. We now know that their eyes can detect polarised light, a pattern created as sunlight is scattered by the atmosphere, which remains visible through thin cloud. Even a small patch of blue sky is enough for a bee to work out where the sun is."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "This brings us to the famous waggle dance, decoded by the Austrian scientist Karl von Frisch, a Nobel Prize winner. Back at the hive, a forager dances on the vertical comb. The angle of the waggle run, measured from straight up, shows the direction of the food relative to the sun. The liveliness shows its quality, but the length of each waggle run indicates the distance."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "But how does a bee measure distance in the first place? Not by counting wingbeats, nor by estimating the energy it has used, as people once thought. The answer is that it measures how much the landscape appears to move past its eyes as it flies. Evidence came from a tunnel experiment by Australian researchers in the nineteen nineties, in which bees flew through a narrow tunnel to reach food."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "When the tunnel walls were lined with stripes, the bees reported distances far greater than the real ones when they danced, because the patterns made the world seem to rush past at high speed. When the walls were plain, they underestimated the distance. This also explains why bees are rarely seen crossing large stretches of calm water, where there is almost nothing visual to measure."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "Distance and direction are not the whole story, however. Young bees do not simply fly off into the unknown. Before their first trip they make short orientation flights, hovering in front of the hive and memorising the shapes of nearby trees, buildings and fences. Colour seems to matter far less than outline. These landmarks matter most in the final approach."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "There is also, so to speak, a sixth sense. The abdomens of bees contain tiny particles of iron, and there is evidence that they can detect the Earth's magnetic field. In experiments where bees were kept near strong magnets, their dances became disoriented. However, the magnetic sense is probably a back-up, used for example inside the dark hive, rather than a primary compass for long journeys."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "To follow bees outside the hive, scientists needed a way to track insects weighing less than a tenth of a gram. Cameras proved useless over long distances, so the solution was harmonic radar. Researchers glued tiny transmitters, lighter than a grain of rice, to the backs of foragers, and a radar unit then followed their flights across open fields, producing detailed maps of every turn and pause."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "One striking experiment used this technique. Bees captured as they left the hive were released at an unfamiliar site several hundred metres away. Instead of flying randomly, many first flew the direction they would have taken from the hive, then turned and flew straight home. This suggests that bees may hold a mental map of their surroundings, rather than merely following fixed steps."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "Not everyone agrees, though. Critics argue that a collection of simple rules, such as head for the hive when you see this particular landmark, could produce the same behaviour without any true map. The debate is still running, and a decisive experiment has been hard to design, partly because bees are so small and so easily disturbed by the equipment attached to them."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "Why does all this matter? Because in recent decades many colonies have declined. Disease and the loss of habitat both play a part, yet one factor stands out. Studies show that bees exposed to certain pesticides lose their way, and many foragers never return to the hive. Even doses too small to kill them damage their memory, which is exactly what navigation depends on."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "Bear in mind that most of this work was done on one species in open country, and bees living in dense forest or crowded cities may rely on rather different cues."
+          },
+          {
+            "speaker": "Dr Lindgren",
+            "gender": "f",
+            "text": "So, to summarise. Bees combine a sun compass, polarised light, a measure of distance from the flow of the landscape, learned landmarks and possibly a map, and each system acts as a back-up when another fails. Next week we'll turn to how colonies make collective decisions. Please read the two chapters on swarm behaviour before then. Thank you."
+          }
+        ],
+        "questions": [
+          {
+            "type": "gap",
+            "q": "Bees use the position of the ____ as a compass.",
+            "answer": [
+              "sun"
+            ],
+            "explain": "Mùi và trí nhớ lộ trình không phải giải thích chính; \"Bees use the position of the sun as a compass\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "On cloudy days bees detect ____ light patterns in the sky.",
+            "answer": [
+              "polarised",
+              "polarized"
+            ],
+            "explain": "\"their eyes can detect polarised light\" nên ong vẫn định hướng được khi trời nhiều mây.",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "The length of each waggle run shows the ____ to the food.",
+            "answer": [
+              "distance"
+            ],
+            "explain": "Độ sống động phản ánh chất lượng thức ăn, còn \"the length of each waggle run ... indicates the distance\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Bees judge distance by how fast the ____ seems to pass their eyes.",
+            "answer": [
+              "landscape"
+            ],
+            "explain": "Không phải đếm nhịp vỗ cánh; \"it measures how much the landscape appears to move past its eyes\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "In the tunnel experiment the walls were covered with ____.",
+            "answer": [
+              "stripes"
+            ],
+            "explain": "\"When the tunnel walls were lined with stripes, the bees reported distances far greater than the real ones\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Young bees memorise the ____ of landmarks near the hive.",
+            "answer": [
+              "shapes",
+              "shape"
+            ],
+            "explain": "\"memorising the shapes of nearby trees, buildings and fences\"; màu sắc ít quan trọng hơn.",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Tiny particles of ____ in the abdomen may detect the magnetic field.",
+            "answer": [
+              "iron"
+            ],
+            "explain": "\"The abdomens of bees contain tiny particles of iron\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Scientists attached tiny ____ to foragers to track them with radar.",
+            "answer": [
+              "transmitters",
+              "transmitter"
+            ],
+            "explain": "Camera vô dụng; các nhà khoa học \"glued tiny transmitters ... to the backs of foragers\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Released bees flew home, which suggests they have a mental ____.",
+            "answer": [
+              "map"
+            ],
+            "explain": "\"This suggests that bees may hold a mental map of their surroundings\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          },
+          {
+            "type": "gap",
+            "q": "Exposure to ____ damages bees' memory.",
+            "answer": [
+              "pesticides",
+              "pesticide"
+            ],
+            "explain": "Bệnh và mất môi trường sống cũng có vai trò, nhưng \"bees exposed to certain pesticides lose their way\".",
+            "group": {
+              "title": "Questions 1–10",
+              "text": "Complete the notes below. Write ONE WORD ONLY for each answer.\n\nHow honeybees navigate\n\nSun compass\n- Bees use the position of the (1) ____ as a compass.\n\nCloudy days\n- Bees detect (2) ____ light patterns in the sky.\n\nWaggle dance\n- The length of each waggle run shows the (3) ____ to the food.\n\nMeasuring distance\n- Bees judge distance by how fast the (4) ____ seems to pass their eyes.\n- In a tunnel experiment, the walls were covered with (5) ____, and bees overestimated distances.\n\nOther cues\n- Young bees memorise the (6) ____ of landmarks near the hive.\n- Tiny particles of (7) ____ in the abdomen may detect the magnetic field.\n\nResearch methods and findings\n- Scientists attached tiny (8) ____ to foragers to track them with radar.\n- Released bees flew home, which suggests they have a mental (9) ____.\n\nThreats\n- Exposure to (10) ____ damages bees' memory and their ability to find home."
+            }
+          }
+        ]
+      }
+    ]
   }
 ]

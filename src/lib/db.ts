@@ -26,6 +26,7 @@ export async function db(): Promise<NeonQueryFunction<false, false>> {
       days TEXT NOT NULL,
       last_sent TEXT
     )`;
+    await sql`ALTER TABLE push_subs ADD COLUMN IF NOT EXISTS last_report TEXT`;
     await sql`CREATE TABLE IF NOT EXISTS ai_quota (
       day TEXT NOT NULL,
       model TEXT NOT NULL,

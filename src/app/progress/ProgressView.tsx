@@ -6,6 +6,7 @@ import { useAppState } from "@/lib/store";
 import { addDays, todayStr } from "@/lib/dates";
 import { SKILLS, recentBand, skillPoints, weakestSkill, weekly, type Skill } from "@/lib/progress";
 import SkillChart from "@/components/SkillChart";
+import WeekReportCard from "./WeekReportCard";
 import { PageHeader } from "@/components/ui";
 
 const PRACTICE: Record<Skill, { href: string; text: string }> = {
@@ -43,6 +44,7 @@ export default function ProgressView({ catalog }: { catalog: Catalog }) {
   return (
     <div>
       <PageHeader title="📈 Tiến bộ" back="/" />
+      <WeekReportCard s={s} catalog={catalog} today={today} />
 
       {weak && (
         <div className="card mb-4 ring-amber-200">
