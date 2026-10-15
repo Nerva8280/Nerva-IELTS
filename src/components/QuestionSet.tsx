@@ -50,7 +50,7 @@ const CHOICES: Record<"tfng" | "ynng", string[]> = { tfng: ["TRUE", "FALSE", "NO
 export const scoreOf = (questions: Question[], answers: Answer[]) => questions.filter((q, i) => isCorrect(q, answers[i])).length;
 
 /** Saves the wrong answers of a submitted set to the mistake notebook. */
-export function saveMistakes(questions: Question[], answers: Answer[], source: string) {
+export function saveMistakes(questions: Question[], answers: Answer[], source: string, standalone = false) {
   addMistakes(
     questions
       .map((q, i) => ({ q, a: answers[i] }))
@@ -61,6 +61,7 @@ export function saveMistakes(questions: Question[], answers: Answer[], source: s
         original: `${q.q}${answerText(q, a) ? ` (bạn chọn: ${answerText(q, a)})` : ""}`,
         corrected: correctText(q),
         explanationVi: q.explain ?? "",
+        ...(standalone ? { question: q } : {}),
       })),
   );
 }
@@ -84,6 +85,7 @@ export default function QuestionSet({
   value,
   onChange,
   submitted,
+  standalone = false,
 }: {
   questions: Question[];
   onSubmit?: (score: number, total: number) => void;
@@ -93,6 +95,7 @@ export default function QuestionSet({
   value?: Answer[];
   onChange?: (answers: Answer[]) => void;
   submitted?: boolean; // controlled by the parent: no own submit button
+  standalone?: boolean; // questions make sense without a passage, so the notebook can ask them again
 }) {
   const [own, setOwn] = useState<Answer[]>([]);
   const [ownChecked, setChecked] = useState(false);
@@ -240,7 +243,7 @@ export default function QuestionSet({
           onClick={() => {
             setChecked(true);
             onSubmit?.(score, questions.length);
-            if (source) saveMistakes(questions, answers, source);
+            if (source) saveMistakes(questions, answers, source, standalone);
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         >

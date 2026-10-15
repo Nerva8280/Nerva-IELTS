@@ -1,6 +1,6 @@
 "use client";
 // Mistake notebook and the learner's own word list, both stored in AppState (synced like the rest).
-import type { VocabWord } from "@/content/types";
+import type { Question, VocabWord } from "@/content/types";
 import { update } from "./store";
 import { todayStr } from "./dates";
 import { newCard } from "./srs";
@@ -17,6 +17,9 @@ export interface Mistake {
   explanationVi: string;
   reviews: number;
   mastered: boolean;
+  due?: string; // next review (missing = due now)
+  step?: number; // successful spaced reviews so far (see MISTAKE_STEPS)
+  question?: Question; // exercise that can be answered again on its own (grammar)
 }
 
 export interface MyWord {

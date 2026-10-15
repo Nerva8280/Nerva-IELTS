@@ -26,6 +26,14 @@ export async function db(): Promise<NeonQueryFunction<false, false>> {
       days TEXT NOT NULL,
       last_sent TEXT
     )`;
+    await sql`CREATE TABLE IF NOT EXISTS ai_quota (
+      day TEXT NOT NULL,
+      model TEXT NOT NULL,
+      used INT NOT NULL DEFAULT 0,
+      lim INT,
+      blocked_until BIGINT,
+      PRIMARY KEY (day, model)
+    )`;
   })().catch((e) => {
     ready = null;
     throw e;

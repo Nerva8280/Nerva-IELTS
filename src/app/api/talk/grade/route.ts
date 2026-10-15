@@ -1,5 +1,6 @@
 import { getSession } from "@/lib/session";
 import { gradeAnswer, graderReady } from "@/lib/grader";
+import { QuotaError, quotaMessage } from "@/lib/ai-quota";
 
 export const maxDuration = 60;
 
@@ -42,7 +43,8 @@ export async function POST(req: Request) {
   } catch (e) {
     const status = (e as { status?: number }).status;
     console.error("grading failed", e);
-    if (status === 429) return Response.json({ error: "AI chấm bài đang quá tải hoặc hết lượt miễn phí hôm nay. Thử lại sau ít phút." }, { status: 429 });
+    if (e instanceof QuotaError) return Response.json({ error: quotaMessage(e), quota: true }, { status: 429 });
+    if (status === 429) return Response.json({ error: "AI chấm bài đang quá tải. Thử lại sau ít phút." }, { status: 429 });
     return Response.json({ error: "AI chưa chấm được bài này. Thử ghi âm lại nhé." }, { status: 502 });
   }
 }

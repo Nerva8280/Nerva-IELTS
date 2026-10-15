@@ -1,12 +1,15 @@
 import "server-only";
 import { GoogleGenAI } from "@google/genai";
+import { nextReset, QuotaError, recordLimit, recordUse, usableModels } from "./ai-quota";
 
 // Grades a recorded IELTS Speaking answer with Gemini, which listens to the audio itself
 // (so pronunciation is judged from sound, not from a transcript).
 
 // gemini-3.1-flash-lite: ~7 s per answer and consistent scores in tests (a band-7 sample got 7.5,
-// a weak answer 5.0 twice); gemini-3.8-flash took ~2 min or returned 503. Next model is the fallback.
-export const GRADER_MODELS = (process.env.GEMINI_MODEL ?? "gemini-3.1-flash-lite,gemini-3.5-flash-lite").split(",");
+// a weak answer 5.0 twice); gemini-3.8-flash took ~2 min or returned 503. The rest are fallbacks:
+// each model has its own free daily quota (20 requests), so more models mean more gradings a day.
+// gemini-3.7-flash is the slowest (~16 s). Not usable on this key: 2.5 models (404), 3.5/3.6-flash (no quota).
+export const GRADER_MODELS = (process.env.GEMINI_MODEL ?? "gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemini-flash-lite-latest,gemini-3.7-flash").split(",");
 
 export interface TalkGrade {
   transcript: string;
@@ -116,7 +119,10 @@ export async function askGemini<T>(system: string, input: GeminiInput, schema: o
   client ??= new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   let text: string | undefined;
   let lastError: unknown;
-  for (const model of GRADER_MODELS) {
+  let limited: { daily: boolean; until: number } | null = null;
+  const models = await usableModels(GRADER_MODELS);
+  if (!models.length) throw new QuotaError(true, nextReset());
+  for (const model of models) {
     try {
       const interaction = await client.interactions.create({
         model,
@@ -125,13 +131,21 @@ export async function askGemini<T>(system: string, input: GeminiInput, schema: o
         response_format: { type: "text", mime_type: "application/json", schema: schema as Record<string, unknown> },
       });
       text = interaction.output_text;
-      if (text) break;
+      if (text) {
+        await recordUse(model);
+        break;
+      }
     } catch (e) {
       lastError = e;
       const status = (e as { status?: number }).status ?? 0;
-      if (status !== 429 && status < 500) throw e; // a bad request will not succeed on another model
+      if (status === 429) {
+        const l = await recordLimit(model, e);
+        // remember the earliest moment some model is usable again
+        if (!limited || l.until < limited.until) limited = { daily: limited ? limited.daily && l.daily : l.daily, until: l.until };
+      } else if (status < 500) throw e; // a bad request will not succeed on another model
     }
   }
+  if (!text && limited) throw new QuotaError(limited.daily, limited.until);
   if (!text && lastError) throw lastError;
   if (!text) throw new Error("empty grader response");
   return JSON.parse(text) as T;

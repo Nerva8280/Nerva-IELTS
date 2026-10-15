@@ -3,7 +3,7 @@ import { LEVELS, type Level } from "@/content/types";
 import type { AppState } from "./store";
 import { addDays, diffDays, weekday } from "./dates";
 import { weakestSkill } from "./progress";
-import { isDue } from "./srs";
+import { isDue, mistakeDue } from "./srs";
 
 export type ItemKind = "grammar" | "reading" | "listening" | "writing" | "speaking" | "shadowing" | "pronunciation";
 export interface CatalogItem {
@@ -117,7 +117,7 @@ export function roadmapWeek(choice: RoadmapChoice, today: string): number {
 
 export interface PlanTask {
   key: string;
-  kind: "review" | "learn" | Focus;
+  kind: "review" | "learn" | "mistakes" | Focus;
   title: string;
   minutes: number;
   href: string;
@@ -127,6 +127,7 @@ export interface PlanTask {
 
 export const KIND_VI: Record<string, string> = {
   review: "Ôn từ vựng",
+  mistakes: "Ôn lỗi sai",
   learn: "Học từ mới",
   grammar: "Ngữ pháp",
   reading: "Reading",
@@ -184,6 +185,10 @@ export function generatePlan(s: AppState, catalog: Catalog, today: string): Plan
   if (due > 0)
     tasks.push({ key: "review", kind: "review", title: `Ôn ${Math.min(due, cfg.reviewCap)} từ đến hạn`, minutes: 5, href: "/vocab?mode=review", target: Math.min(due, cfg.reviewCap) });
   tasks.push({ key: "learn", kind: "learn", title: `Học ${cfg.newWords} từ mới`, minutes: 5, href: "/vocab?mode=learn", target: cfg.newWords });
+  // Old mistakes come back on a schedule (1, 3, 7, 14 days) so they are not repeated in the test.
+  const dueMistakes = (s.mistakes ?? []).filter((m) => mistakeDue(m, today)).length;
+  if (dueMistakes >= 3)
+    tasks.push({ key: "mistakes", kind: "mistakes", title: `Ôn ${Math.min(dueMistakes, 10)} lỗi sai cũ`, minutes: 4, href: "/notebook", target: Math.min(dueMistakes, 10) });
 
   let focus = roadmap.week[wd];
   if (focus === "rest") focus = "grammar"; // learner chose to study on the roadmap's rest day
@@ -227,27 +232,58 @@ export function isTaskDone(t: PlanTask, s: AppState, today: string): boolean {
     return remaining === 0 || (log?.reviewed ?? 0) >= (t.target ?? 0);
   }
   if (t.kind === "learn") return (log?.learned ?? 0) >= (t.target ?? 0);
+  if (t.kind === "mistakes") return (log?.mistakes ?? 0) >= (t.target ?? 0) || !(s.mistakes ?? []).some((m) => mistakeDue(m, today));
   if (t.kind === "quiz") return !!log?.done.includes("quiz");
   if (t.kind === "mock") return s.mocks.some((m) => m.date === today);
   if (t.key === "talk") return (s.talks ?? []).some((x) => x.date === today);
   return !!t.itemId && s.done[t.itemId]?.date === today;
 }
 
-/** Consecutive study days (rest days are skipped) on which every planned task was completed. */
-export function streak(s: AppState, today: string): number {
+export interface StreakInfo {
+  days: number;
+  freezeLeft: boolean; // this week's missed study day is still unused
+  todayOk: boolean;
+  todayDone: number; // minutes of today's plan already done
+  todayNeed: number; // minutes needed today to keep the streak
+}
+
+/**
+ * Days in a row with enough study (relaxed rules, from 2026-10-15):
+ * - a day counts when at least half of its planned minutes were done (any study if it had no plan);
+ * - studying on a rest day counts too, and skipping one never breaks the streak;
+ * - one missed study day per week (Monday–Sunday) is forgiven;
+ * - today never breaks the streak while it is still in progress.
+ */
+export function streakInfo(s: AppState, today: string): StreakInfo {
   const choice = s.roadmap;
-  if (!choice) return 0;
-  let n = 0;
+  const minutes = (day: string) => {
+    const plan = s.days[day]?.plan ?? [];
+    const done = plan.filter((t) => (day === today ? isTaskDone(t, s, day) : isTaskDoneOn(t, s, day))).reduce((a, t) => a + t.minutes, 0);
+    return { plan: plan.reduce((a, t) => a + t.minutes, 0), done };
+  };
+  const studied = (day: string) => {
+    const log = s.days[day];
+    return !!log && (log.reviewed > 0 || log.learned > 0 || log.done.length > 0 || (log.mistakes ?? 0) > 0);
+  };
+  const ok = (day: string) => {
+    const m = minutes(day);
+    return m.plan ? m.done * 2 >= m.plan : studied(day);
+  };
+  const t = minutes(today);
+  const out: StreakInfo = { days: 0, freezeLeft: true, todayOk: ok(today), todayDone: t.done, todayNeed: Math.ceil(t.plan / 2) };
+  if (!choice) return out;
+  const monday = (d: string) => addDays(d, -((weekday(d) + 6) % 7));
+  const forgiven = new Set<string>();
   for (let i = 0; i < 400; i++) {
     const d = addDays(today, -i);
     if (d < choice.startDate) break;
-    if (!choice.studyDays.includes(weekday(d))) continue;
-    const plan = s.days[d]?.plan;
-    const complete = !!plan?.length && plan.every((t) => isTaskDoneOn(t, s, d));
-    if (complete) n++;
-    else if (i > 0) break; // today may still be in progress
+    if (ok(d)) out.days++;
+    else if (i === 0 || !choice.studyDays.includes(weekday(d))) continue;
+    else if (!forgiven.has(monday(d))) forgiven.add(monday(d));
+    else break;
   }
-  return n;
+  out.freezeLeft = !forgiven.has(monday(today));
+  return out;
 }
 
 // Past-day completion: the plan snapshot is checked against that day's logs.
@@ -255,6 +291,7 @@ function isTaskDoneOn(t: PlanTask, s: AppState, day: string): boolean {
   const log = s.days[day];
   if (t.kind === "review") return (log?.reviewed ?? 0) >= (t.target ?? 0) || !!log?.done.includes("review-clear");
   if (t.kind === "learn") return (log?.learned ?? 0) >= (t.target ?? 0);
+  if (t.kind === "mistakes") return (log?.mistakes ?? 0) >= (t.target ?? 0);
   if (t.kind === "quiz") return !!log?.done.includes("quiz");
   if (t.kind === "mock") return s.mocks.some((m) => m.date === day);
   if (t.key === "talk") return (s.talks ?? []).some((x) => x.date === day);

@@ -10,6 +10,7 @@ import ShadowingPlayer, { splitSentences } from "@/components/ShadowingPlayer";
 import { PageHeader, ProgressBar, SpeakButton, fmtTime, useRecorder, useTimer } from "@/components/ui";
 import type { ActiveQuestion } from "./TalkHome";
 import { addMistakes } from "@/lib/notebook";
+import AiQuota, { notifyGraded } from "@/components/AiQuota";
 import { BandBars, Corrections, WordAdvice, bandColor } from "@/components/feedback";
 
 type Phase = "ready" | "asking" | "thinking" | "recording" | "grading" | "result" | "error";
@@ -92,6 +93,7 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
     form.append("words", words.join(","));
     try {
       const res = await fetch("/api/talk/grade", { method: "POST", body: form });
+      notifyGraded();
       const j = await res.json();
       if (!res.ok) throw new Error(j.error ?? "Lỗi máy chủ");
       const g = j as TalkGrade;
@@ -223,6 +225,7 @@ export default function TalkPractice({ active, onBack, onNext }: { active: Activ
           </div>
         )}
         {rec.error && <p className="mt-2 text-sm text-rose-600">{rec.error}</p>}
+        {(phase === "ready" || phase === "error") && <AiQuota className="mt-3" />}
       </div>
 
       {phase === "ready" && (

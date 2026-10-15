@@ -5,6 +5,7 @@ import type { WritingGrade } from "@/lib/writing-grader";
 import { getState, update } from "@/lib/store";
 import { todayStr } from "@/lib/dates";
 import { addMistakes } from "@/lib/notebook";
+import AiQuota, { notifyGraded } from "@/components/AiQuota";
 import { useLearnedWords } from "@/lib/vocab-client";
 import { useAuth } from "@/components/AppShell";
 import { BandBars, Corrections, WordAdvice, bandColor } from "@/components/feedback";
@@ -29,6 +30,7 @@ export default function WritingAi({ item, text }: { item: WritingPrompt; text: s
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ id: item.id, essay: text, level: getState().level, words }),
       });
+      notifyGraded();
       const j = await res.json();
       if (!res.ok) throw new Error(j.error ?? "Lỗi máy chủ");
       const g = j as WritingGrade;
@@ -62,6 +64,7 @@ export default function WritingAi({ item, text }: { item: WritingPrompt; text: s
           </button>
         )}
         {state === "error" && <p className="mt-3 rounded-xl bg-rose-50 p-2.5 text-sm text-rose-700">{error}</p>}
+        <AiQuota className="mt-2" />
       </div>
     );
 

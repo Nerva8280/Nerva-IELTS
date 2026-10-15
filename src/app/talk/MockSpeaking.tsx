@@ -5,6 +5,7 @@ import type { TalkGrade } from "@/lib/grader";
 import { getState, update } from "@/lib/store";
 import { todayStr } from "@/lib/dates";
 import { addMistakes } from "@/lib/notebook";
+import AiQuota, { notifyGraded } from "@/components/AiQuota";
 import { speak, stopSpeaking } from "@/lib/tts";
 import { useLearnedWords } from "@/lib/vocab-client";
 import { useAuth } from "@/components/AppShell";
@@ -47,8 +48,10 @@ async function gradeAudio(blob: Blob, step: Step, words: string[]): Promise<Talk
   form.append("words", words.join(","));
   for (let attempt = 0; attempt < 2; attempt++) {
     const res = await fetch("/api/talk/grade", { method: "POST", body: form });
+    notifyGraded();
     const j = await res.json().catch(() => ({}));
     if (res.ok) return j as TalkGrade;
+    if (j.quota) throw new Error(j.error); // out of free gradings: waiting will not help
     if (res.status !== 429 && res.status < 500) throw new Error(j.error ?? "Lỗi máy chủ");
     await new Promise((r) => setTimeout(r, 4000)); // overloaded: wait and try once more
   }
@@ -199,6 +202,8 @@ export default function MockSpeaking({ topics, cards, onExit }: { topics: TalkTo
             </li>
           </ul>
           <p className="text-slate-500">Giám khảo đọc câu hỏi, sau 1–2 giây máy tự ghi âm. Nói xong mỗi câu, bấm “Câu tiếp theo”. Tìm chỗ yên tĩnh và đeo tai nghe nếu có.</p>
+          <p className="text-slate-500">Mỗi câu dùng 1 lượt AI chấm, cả bài dùng {test.steps.length} lượt.</p>
+          <AiQuota />
         </div>
         <button
           className="btn-primary mt-4 w-full py-4 text-base"

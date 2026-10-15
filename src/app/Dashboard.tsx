@@ -2,16 +2,17 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import { LEVELS, type Level } from "@/content/types";
-import { generatePlan, getRoadmap, isTaskDone, roadmapWeek, streak, type Catalog } from "@/lib/plan";
+import { generatePlan, getRoadmap, isTaskDone, roadmapWeek, streakInfo, type Catalog } from "@/lib/plan";
 import { touchDay, update, useAppState } from "@/lib/store";
 import { formatViDate, todayStr } from "@/lib/dates";
-import { isDue } from "@/lib/srs";
+import { isDue, mistakeDue } from "@/lib/srs";
 import { LEVEL_INFO } from "@/lib/placement";
 import { useAuth } from "@/components/AppShell";
 import { LevelChip, ProgressBar } from "@/components/ui";
 
 const ICONS: Record<string, string> = {
   review: "🔁",
+  mistakes: "📒",
   learn: "✨",
   grammar: "📐",
   reading: "📰",
@@ -44,7 +45,7 @@ export default function Dashboard({ catalog, levelWords }: { catalog: Catalog; l
   const minutes = tasks.reduce((a, t) => a + t.minutes, 0);
   const learned = Object.values(s.srs).filter((c) => !c.known).length;
   const due = Object.values(s.srs).filter((c) => isDue(c, today)).length;
-  const days = streak(s, today);
+  const st = streakInfo(s, today);
 
   // Level-up: most words of the level learned and most grammar lessons done.
   const ids = levelWords[s.level] ?? [];
@@ -62,8 +63,14 @@ export default function Dashboard({ catalog, levelWords }: { catalog: Catalog; l
           <h1 className="h1">Chào {me?.user?.givenName ?? me?.user?.name?.split(" ")[0] ?? "bạn"} 👋</h1>
         </div>
         <div className="text-right">
-          <div className="text-2xl font-bold text-orange-500">🔥 {days}</div>
+          <div className="text-2xl font-bold text-orange-500">🔥 {st.days}</div>
           <div className="text-xs text-slate-500">ngày liên tiếp</div>
+          {st.todayOk ? (
+            <div className="text-xs font-semibold text-emerald-600">✓ hôm nay đã tính</div>
+          ) : st.todayNeed > 0 ? (
+            <div className="text-xs text-slate-500">học thêm ~{Math.max(1, st.todayNeed - st.todayDone)} phút</div>
+          ) : null}
+          {st.freezeLeft && <div className="text-xs text-sky-600" title="Mỗi tuần được lỡ 1 ngày học mà chuỗi không mất">🧊 còn 1 ngày nghỉ bù</div>}
         </div>
       </div>
 
@@ -146,11 +153,11 @@ export default function Dashboard({ catalog, levelWords }: { catalog: Catalog; l
         </div>
         <span className="text-slate-400">→</span>
       </Link>
-      {(s.mistakes ?? []).some((m) => !m.mastered) && (
+      {(s.mistakes ?? []).some((m) => mistakeDue(m, today)) && (
         <Link href="/notebook" className="card mt-3 flex items-center gap-3 hover:ring-indigo-300">
           <span className="text-2xl">📒</span>
           <div className="flex-1 text-sm">
-            <b>{(s.mistakes ?? []).filter((m) => !m.mastered).length} lỗi sai</b> đang chờ ôn lại
+            <b>{(s.mistakes ?? []).filter((m) => mistakeDue(m, today)).length} lỗi sai</b> đến hạn ôn lại
           </div>
           <span className="text-slate-400">→</span>
         </Link>

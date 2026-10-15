@@ -50,3 +50,8 @@ export function intervalLabel(card: SrsCard, grade: Grade, today: string): strin
 export function isDue(card: SrsCard, today: string): boolean {
   return card.due <= today;
 }
+
+// Mistake notebook schedule: a remembered mistake comes back after 1, 3, 7 and 14 days;
+// remembered once more at the 14-day review, it counts as mastered.
+export const MISTAKE_STEPS = [1, 3, 7, 14];
+export const mistakeDue = (m: { mastered: boolean; due?: string }, today: string) => !m.mastered && (!m.due || m.due <= today);

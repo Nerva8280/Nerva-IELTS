@@ -30,6 +30,7 @@ export default function GrammarLessonView({ lesson }: { lesson: GrammarLesson })
       <QuestionSet
         questions={lesson.exercises}
         source={`Ngữ pháp: ${lesson.title}`}
+        standalone
         onSubmit={(score, total) => {
           markDone(lesson.id, score, total);
           setResult([score, total]);
