@@ -87,25 +87,34 @@ export function preferredVoices(): VoiceId[] {
   return v === sentence ? [v] : [v, sentence];
 }
 
+// One element for all playback. iOS only lets an element play after a tap, but once it has, the
+// same element may play again without one, so sequences (continuous shadowing, listening
+// scripts, the mock test) keep sounding after the first sentence.
+let shared: HTMLAudioElement | null = null;
+
 /** Plays a URL; resolves "ended", "stopped" or "error" (e.g. file not generated). */
 export function playUrl(url: string, rate = 1): Promise<"ended" | "stopped" | "error"> {
+  current?.finish();
   return new Promise((resolve) => {
-    const audio = new Audio();
+    const audio = (shared ??= new Audio());
     let settled = false;
     let release = () => {};
     const done = (r: "ended" | "stopped" | "error") => {
       if (settled) return;
       settled = true;
       release();
-      if (current?.audio === audio) current = null;
+      if (current?.finish === finish) current = null;
       resolve(r);
     };
-    current = { audio, finish: () => done("stopped") };
+    const finish = () => done("stopped");
+    current = { audio, finish };
     audio.onended = () => done("ended");
     audio.onerror = () => done("error");
     const start = (src: string) => {
+      const r = Math.max(0.5, Math.min(2, rate));
+      audio.defaultPlaybackRate = r; // loading a new source resets playbackRate to this
       audio.src = src;
-      audio.playbackRate = Math.max(0.5, Math.min(2, rate));
+      audio.playbackRate = r;
       audio.preservesPitch = true;
       audio.play().catch(() => done("error"));
     };
