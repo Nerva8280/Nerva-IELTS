@@ -25,7 +25,7 @@ const ICONS: Record<string, string> = {
   mock: "🏁",
 };
 
-export default function Dashboard({ catalog, levelWords }: { catalog: Catalog; levelWords: Record<string, string[]> }) {
+export default function Dashboard({ catalog, levelWords }: { catalog: Catalog; levelWords: Record<string, number> }) {
   const s = useAppState();
   const { me } = useAuth();
   const today = todayStr();
@@ -48,8 +48,9 @@ export default function Dashboard({ catalog, levelWords }: { catalog: Catalog; l
   const st = streakInfo(s, today);
 
   // Level-up: most words of the level learned and most grammar lessons done.
-  const ids = levelWords[s.level] ?? [];
-  const wordPct = ids.length ? ids.filter((id) => s.srs[id]).length / ids.length : 0;
+  const total = levelWords[s.level] ?? 0;
+  const prefix = s.level.toLowerCase() + "-";
+  const wordPct = total ? Object.keys(s.srs).filter((id) => id.startsWith(prefix)).length / total : 0;
   const gl = catalog.grammar.filter((g) => g.level === s.level);
   const gramPct = gl.length ? gl.filter((g) => s.done[g.id]).length / gl.length : 1;
   const nextLevel: Level | undefined = LEVELS[LEVELS.indexOf(s.level) + 1];

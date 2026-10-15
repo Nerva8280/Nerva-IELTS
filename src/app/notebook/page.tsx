@@ -20,6 +20,8 @@ const TABS: { id: "review" | MistakeKind | "words" | "mastered"; label: string }
   { id: "mastered", label: "Đã nắm" },
 ];
 
+const PAGE = 40;
+
 const KIND_VI: Record<MistakeKind, string> = { grammar: "Ngữ pháp", vocab: "Dùng từ", pronunciation: "Phát âm", exercise: "Bài tập" };
 
 function MistakeRow({ m }: { m: Mistake }) {
@@ -187,6 +189,7 @@ function Review({ items, onExit }: { items: Mistake[]; onExit: () => void }) {
 export default function NotebookPage() {
   const s = useAppState();
   const [tab, setTab] = useState<(typeof TABS)[number]["id"]>("review");
+  const [shown, setShown] = useState(PAGE); // long lists render in pages
   const [reviewing, setReviewing] = useState<Mistake[] | null>(null);
   const all = [...(s.mistakes ?? [])].reverse();
   const open = all.filter((m) => !m.mastered);
@@ -230,7 +233,10 @@ export default function NotebookPage() {
         {TABS.map((t) => (
           <button
             key={t.id}
-            onClick={() => setTab(t.id)}
+            onClick={() => {
+              setTab(t.id);
+              setShown(PAGE);
+            }}
             className={`shrink-0 rounded-full px-3 py-1.5 text-sm font-semibold ${tab === t.id ? "bg-indigo-600 text-white" : "bg-white text-slate-600 ring-1 ring-slate-200"}`}
           >
             {t.label}
@@ -276,10 +282,15 @@ export default function NotebookPage() {
         </>
       ) : (
         <div className="divide-y divide-slate-100 overflow-hidden rounded-2xl bg-white ring-1 ring-slate-200/70">
-          {list.map((m) => (
+          {list.slice(0, shown).map((m) => (
             <MistakeRow key={m.id} m={m} />
           ))}
           {!list.length && <div className="p-4 text-center text-sm text-slate-400">Không có mục nào ở đây.</div>}
+          {list.length > shown && (
+            <button className="w-full p-3 text-sm font-semibold text-indigo-600" onClick={() => setShown((n) => n + PAGE)}>
+              Xem thêm ({list.length - shown} mục)
+            </button>
+          )}
         </div>
       )}
     </div>

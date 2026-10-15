@@ -4,6 +4,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { createContext, useContext, useEffect, useState, useSyncExternalStore } from "react";
 import { startSync, stopSync, useAppState } from "@/lib/store";
 import { loadVoices } from "@/lib/tts";
+import { loadVocab } from "@/lib/vocab-client";
 import LoginScreen from "./LoginScreen";
 
 export interface Me {
@@ -49,6 +50,8 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if ("serviceWorker" in navigator) navigator.serviceWorker.register("/sw.js", { scope: "/", updateViaCache: "none" }).catch(() => {});
     void loadVoices();
+    // fetch the vocabulary in the background so the Vocabulary page opens without waiting
+    const warm = setTimeout(() => void loadVocab().catch(() => {}), 2500);
     (async () => {
       // Signed in on this device before: open at once with the local data; the session check and
       // the progress sync below run in the background (they can take a few seconds after the
@@ -77,6 +80,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
       } else if (isGuest || !m) setPhase("ready"); // offline: keep using local data
       else setPhase("login");
     })();
+    return () => clearTimeout(warm);
   }, []);
 
   // First run: placement test, then pick a roadmap.

@@ -39,8 +39,27 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Lesson data and small app files: fresh when online, saved copy when offline.
-  if (p.startsWith("/api/content/") || p === "/audio/hidden.json" || p.startsWith("/icons/") || p === "/manifest.webmanifest") {
+  // Lesson data (vocabulary ~200 KB): the saved copy at once, refreshed in the background for next time.
+  if (p.startsWith("/api/content/")) {
+    event.respondWith(
+      caches.open(STATIC).then(async (c) => {
+        const hit = await c.match(req, { ignoreVary: true });
+        const fresh = fetch(req).then((res) => {
+          if (res.status === 200) c.put(req, res.clone());
+          return res;
+        });
+        if (hit) {
+          event.waitUntil(fresh.catch(() => {}));
+          return hit;
+        }
+        return fresh.catch(() => Response.error());
+      }),
+    );
+    return;
+  }
+
+  // Small app files: fresh when online, saved copy when offline.
+  if (p === "/audio/hidden.json" || p.startsWith("/icons/") || p === "/manifest.webmanifest") {
     event.respondWith(
       fetch(req)
         .then((res) => put(STATIC, req, res))
