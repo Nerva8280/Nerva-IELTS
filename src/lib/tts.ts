@@ -91,15 +91,63 @@ export function preferredVoices(): VoiceId[] {
 // same element may play again without one, so sequences (continuous shadowing, listening
 // scripts, the mock test) keep sounding after the first sentence.
 let shared: HTMLAudioElement | null = null;
+let unlocked = false;
 
-/** Plays a URL; resolves "ended", "stopped" or "error" (e.g. file not generated). */
-export function playUrl(url: string, rate = 1): Promise<"ended" | "stopped" | "error"> {
+/** 0.1 s of silence (8 kHz, 8-bit WAV), played to unlock the element. */
+function silence(): string {
+  const n = 800;
+  const b = new Uint8Array(44 + n);
+  const v = new DataView(b.buffer);
+  const tag = (o: number, t: string) => [...t].forEach((c, i) => (b[o + i] = c.charCodeAt(0)));
+  tag(0, "RIFF");
+  v.setUint32(4, 36 + n, true);
+  tag(8, "WAVEfmt ");
+  v.setUint32(16, 16, true);
+  v.setUint16(20, 1, true);
+  v.setUint16(22, 1, true);
+  v.setUint32(24, 8000, true);
+  v.setUint32(28, 8000, true);
+  v.setUint16(32, 1, true);
+  v.setUint16(34, 8, true);
+  tag(36, "data");
+  v.setUint32(40, n, true);
+  b.fill(128, 44);
+  return URL.createObjectURL(new Blob([b], { type: "audio/wav" }));
+}
+
+// Words are spoken automatically when a new card appears, which is not a tap. On the first tap
+// anywhere in the app, play silence on the shared element (and an empty utterance) so iOS allows
+// later automatic playback.
+const UNLOCK_EVENTS = ["touchend", "click", "keydown"] as const;
+let silentUrl: string | null = null;
+let ttsPrimed = false;
+function unlock() {
+  if (unlocked) return UNLOCK_EVENTS.forEach((e) => window.removeEventListener(e, unlock, true));
+  if (!current) {
+    const a = (shared ??= new Audio());
+    a.src = silentUrl ??= silence();
+    a.play().then(() => (unlocked = true), () => {}); // a scroll is not a tap: try again on the next one
+  }
+  if (!ttsPrimed && ttsSupported()) {
+    ttsPrimed = true;
+    const u = new SpeechSynthesisUtterance(" ");
+    u.volume = 0;
+    speechSynthesis.speak(u);
+  }
+}
+if (typeof window !== "undefined") UNLOCK_EVENTS.forEach((e) => window.addEventListener(e, unlock, true));
+
+/**
+ * Plays a URL; resolves "ended", "stopped", "error" (e.g. file not generated) or "blocked"
+ * (the browser refused to play without a tap; the file itself is fine).
+ */
+export function playUrl(url: string, rate = 1): Promise<"ended" | "stopped" | "error" | "blocked"> {
   current?.finish();
   return new Promise((resolve) => {
     const audio = (shared ??= new Audio());
     let settled = false;
     let release = () => {};
-    const done = (r: "ended" | "stopped" | "error") => {
+    const done = (r: "ended" | "stopped" | "error" | "blocked") => {
       if (settled) return;
       settled = true;
       release();
@@ -116,7 +164,10 @@ export function playUrl(url: string, rate = 1): Promise<"ended" | "stopped" | "e
       audio.src = src;
       audio.playbackRate = r;
       audio.preservesPitch = true;
-      audio.play().catch(() => done("error"));
+      audio.play().then(
+        () => (unlocked = true),
+        (e: DOMException) => done(e?.name === "NotAllowedError" ? "blocked" : "error"),
+      );
     };
     if (navigator.onLine) {
       // play straight away (iOS wants play() inside the tap), and keep a copy for offline use
@@ -180,7 +231,7 @@ export async function speak(text: string, opts: SpeakOpts = {}): Promise<void> {
 export async function speakWord(word: string, opts: SpeakOpts = {}): Promise<void> {
   stopSpeaking();
   const my = token;
-  const h = await humanAudio(word);
+  const h = await humanAudioQuick(word);
   const url = getState().settings.accent === "en-US" ? (h.us ?? h.uk ?? h.other) : (h.uk ?? h.us ?? h.other);
   if (my !== token) return;
   if (url) {
@@ -211,7 +262,7 @@ export async function speakVocab(word: string, opts: SpeakOpts = {}) {
   stopSpeaking();
   const my = token;
   // a real person first (Wiktionary / Wikimedia Commons recordings), the AI voice otherwise
-  const h = await humanAudio(word);
+  const h = await humanAudioQuick(word);
   const human = getState().settings.accent === "en-US" ? (h.us ?? h.uk ?? h.other) : (h.uk ?? h.us ?? h.other);
   if (my !== token) return;
   if (human) {
@@ -221,6 +272,14 @@ export async function speakVocab(word: string, opts: SpeakOpts = {}) {
   const voice = await bestWordVoice(word);
   if (my !== token) return;
   return speak(word, { voice, ...opts });
+}
+
+/**
+ * The dictionary lookup, but give up after `ms` so a slow network never delays the word: the app's
+ * own voice plays instead, and the recording (still being fetched) is used next time.
+ */
+export function humanAudioQuick(word: string, ms = 1200) {
+  return Promise.race([humanAudio(word), new Promise<{ uk?: string; us?: string; other?: string }>((r) => setTimeout(() => r({}), ms))]);
 }
 
 export const nativeUrl = (aid: string) => `/audio/native/${aid}.mp3`;

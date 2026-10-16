@@ -7,7 +7,7 @@ import { dayLog, getState, touchDay, update, useAppState } from "@/lib/store";
 import { isDue, knownCard, newCard, review, intervalLabel, type Grade } from "@/lib/srs";
 import { todayStr } from "@/lib/dates";
 import { MINUTE_CONFIG } from "@/lib/plan";
-import { speakVocab } from "@/lib/tts";
+import { humanAudio, speakVocab } from "@/lib/tts";
 import { Credit, DoneBanner, LevelChip, NativeButton, PageHeader, ProgressBar, SpeakButton, WordVoices } from "@/components/ui";
 
 type Mode = "home" | "learn" | "review" | "quiz";
@@ -190,7 +190,9 @@ function Learn({ vocab }: { vocab: VocabWord[] }) {
   useEffect(() => {
     const word = past?.word ?? w?.word;
     if (word) void speakVocab(word);
-  }, [w, past]);
+    // look up the next word's recording now, so it plays at once when its card appears
+    if (queue[1]) void humanAudio(queue[1].word);
+  }, [w, past, queue]);
 
   if (past)
     return (
@@ -340,7 +342,9 @@ function Review({ vocab }: { vocab: VocabWord[] }) {
   useEffect(() => {
     if (past) void speakVocab(past.word);
     else if (w && !reverse) void speakVocab(w.word);
-  }, [w, reverse, past]);
+    const nextWord = queue[1] ? byId.get(queue[1]) : undefined;
+    if (nextWord) void humanAudio(nextWord.word);
+  }, [w, reverse, past, queue, byId]);
 
   useEffect(() => {
     if (!id) update((st) => void (touchDay(st, today).done.includes("review-clear") || touchDay(st, today).done.push("review-clear")));
